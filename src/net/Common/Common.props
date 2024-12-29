@@ -1,0 +1,56 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<Copyright>Copyright ©  MASES s.r.l. 2024</Copyright>
+		<Owners>MASES s.r.l.</Owners>
+		<Authors>MASES s.r.l.</Authors>
+		<Company>MASES s.r.l.</Company>
+		<Version>3.5.11.0</Version>
+		<LangVersion>latest</LangVersion>
+		<GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<PackageProjectUrl>https://github.com/masesgroup/NetPDF/</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/masesgroup/NetPDF</RepositoryUrl>
+		<PackageReleaseNotes>https://github.com/masesgroup/NetPDF/releases</PackageReleaseNotes>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageIcon>JCOB128x128.png</PackageIcon>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<EmbedUntrackedSources>true</EmbedUntrackedSources>
+		<SignAssembly>true</SignAssembly>
+		<AssemblyOriginatorKeyFile>..\Common\NetPDF.snk</AssemblyOriginatorKeyFile>
+		<NoWarn>$(NoWarn);0618</NoWarn>
+		<!--see https://learn.microsoft.com/en-us/dotnet/core/compatibility/interop/9.0/cet-support-->
+		<CETCompat>false</CETCompat>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(NETPDF_DOCKER_BUILD_ACTIONS)' != 'true'">
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<TargetFrameworks>net462;net8.0;net9.0</TargetFrameworks>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(NETPDF_DOCKER_BUILD_ACTIONS)' == 'true'">
+		<DefineConstants>$(DefineConstants);NETPDF_DOCKER_BUILD_ACTIONS</DefineConstants>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<TargetFramework>net8.0</TargetFramework>
+	</PropertyGroup>
+	<ItemGroup Condition="'$(NETPDF_DOCKER_BUILD_ACTIONS)' != 'true'">
+		<None Include="..\..\..\LICENSE" Pack="true" PackagePath="" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="..\Common\JCOB128x128.png" Pack="true" PackagePath="" />
+		<None Include="..\Common\NetPDF.snk" Link="NetPDF.snk" />
+	</ItemGroup>
+	<ItemGroup Condition="'$(TargetFramework)' == 'net462'">
+		<PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="9.0.0"/>
+		<Reference Include="Microsoft.CSharp" />
+	</ItemGroup>
+	<!-- Fix start https://github.com/dotnet/sourcelink/issues/572 -->
+	<PropertyGroup>
+		<TargetFrameworkMonikerAssemblyAttributesPath>$([System.IO.Path]::Combine('$(IntermediateOutputPath)','$(TargetFrameworkMoniker).AssemblyAttributes$(DefaultLanguageSourceExtension)'))</TargetFrameworkMonikerAssemblyAttributesPath>
+	</PropertyGroup>
+	<ItemGroup>
+		<EmbeddedFiles Include="$(GeneratedAssemblyInfoFile)" />
+	</ItemGroup>
+	<!-- Fix end -->
+	<PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
+		<ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+	</PropertyGroup>
+</Project>

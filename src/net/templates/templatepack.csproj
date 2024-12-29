@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\Common\Common.props" />
+  <PropertyGroup>
+    <PackageType>Template</PackageType>
+    <PackageId>MASES.JNet.Templates</PackageId>
+    <Title>JNet Templates - Templates to use the JNet (Java/JVM suite for .NET)</Title>
+    <Summary>Ready made templates to create applications based on JNet (Java/JVM suite for .NET)</Summary>
+    <Description>Ready made templates to create applications based on JNet (Java/JVM suite for .NET). The templates are ready made starting points, all information and APIs are available in the official website https://masesgroup.github.io/JNet</Description>
+    <OutputPath>..\..\..\bin\</OutputPath>
+    <PackageTags>template jnet dotnet clr dotnetcore netcore dotnet6 net6 java bridge</PackageTags>
+    <Product>JNet Templates</Product>
+	<IncludeSymbols>false</IncludeSymbols>
+	<IncludeBuildOutput>false</IncludeBuildOutput>
+	<IncludeContentInPack>true</IncludeContentInPack>
+	<ContentTargetFolders>content</ContentTargetFolders>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
+    <RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\..\README.md" Pack="true" PackagePath="\" />
+    <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**;templates\**\.vscode\**" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+  </ItemGroup>
+</Project>
