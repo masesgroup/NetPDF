@@ -1,47 +1,36 @@
-# JNet: Java/JVM suite for .NET
+# NetPDF: [PDFBox](https://pdfbox.apache.org) APIs for .NET
 
-JNet is a comprehensive suite of libraries and tools to use Java/JVM APIs (Java, Scala, Kotlin, ...) and .NET side-by-side.
+NetPDF is a comprehensive suite of libraries and tools to use [PDFBox](https://pdfbox.apache.org) APIs and .NET side-by-side.
 
 ### Libraries and Tools
 
-|JNet | JNet.Templates | JNetPSCore | JNetCLI | JNetReflector | JNetPS |
-|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|
-|[![JNet nuget](https://img.shields.io/nuget/v/MASES.JNet)](https://www.nuget.org/packages/MASES.JNet)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.JNet)](https://www.nuget.org/packages/MASES.JNet) | [![JNet.Templates nuget](https://img.shields.io/nuget/v/MASES.JNet.Templates)](https://www.nuget.org/packages/MASES.JNet.Templates)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.JNet.Templates)](https://www.nuget.org/packages/MASES.JNet.Templates)| [![JNetPSCore nuget](https://img.shields.io/nuget/v/MASES.JNetPSCore)](https://www.nuget.org/packages/MASES.JNetPSCore)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.JNetPSCore)](https://www.nuget.org/packages/MASES.JNetPSCore)| [![JNetCLI nuget](https://img.shields.io/nuget/v/MASES.JNetCLI)](https://www.nuget.org/packages/MASES.JNetCLI)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.JNetCLI)](https://www.nuget.org/packages/MASES.JNetCLI)| [![JNetReflector nuget](https://img.shields.io/nuget/v/MASES.JNetReflector)](https://www.nuget.org/packages/MASES.JNetReflector)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.JNetReflector)](https://www.nuget.org/packages/MASES.JNetReflector)| [![JNetPS](https://img.shields.io/powershellgallery/v/MASES.JNetPS.svg?style=flat-square&label=MASES.JNetPS)](https://www.powershellgallery.com/packages/MASES.JNetPS/)|
+|NetPDF | NetPDF.Templates | NetPDFPS |
+|:---:	|:---:	|:---:	|
+|[![NetPDF nuget](https://img.shields.io/nuget/v/MASES.NetPDF)](https://www.nuget.org/packages/MASES.NetPDF)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.NetPDF)](https://www.nuget.org/packages/MASES.NetPDF) | [![NetPDF.Templates nuget](https://img.shields.io/nuget/v/MASES.NetPDF.Templates)](https://www.nuget.org/packages/MASES.NetPDF.Templates)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.NetPDF.Templates)](https://www.nuget.org/packages/MASES.NetPDF.Templates)| [![NetPDFPS](https://img.shields.io/powershellgallery/v/MASES.NetPDFPS.svg?style=flat-square&label=MASES.NetPDFPS)](https://www.powershellgallery.com/packages/MASES.NetPDFPS/)|
 
 ### Pipelines
 
-[![CI_BUILD](https://github.com/masesgroup/JNet/actions/workflows/build.yaml/badge.svg)](https://github.com/masesgroup/JNet/actions/workflows/build.yaml) 
-[![CodeQL](https://github.com/masesgroup/JNet/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/masesgroup/JNet/actions/workflows/codeql-analysis.yml)
-[![CI_RELEASE](https://github.com/masesgroup/JNet/actions/workflows/release.yaml/badge.svg)](https://github.com/masesgroup/JNet/actions/workflows/release.yaml) 
+[![CI_BUILD](https://github.com/masesgroup/NetPDF/actions/workflows/build.yaml/badge.svg)](https://github.com/masesgroup/NetPDF/actions/workflows/build.yaml) 
+[![CodeQL](https://github.com/masesgroup/NetPDF/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/masesgroup/NetPDF/actions/workflows/codeql-analysis.yml)
+[![CI_RELEASE](https://github.com/masesgroup/NetPDF/actions/workflows/release.yaml/badge.svg)](https://github.com/masesgroup/NetPDF/actions/workflows/release.yaml) 
 
 ### Project disclaimer
 
-JNet is a suite, curated by MASES Group, can be supported by the open-source community.
+NetPDF is a suite, curated by MASES Group, can be supported by the open-source community.
 
 Its primary scope is to support other, public or internal, MASES Group projects: open-source community and commercial entities can use it for their needs and support this project, moreover there are dedicated community and commercial subscription plans.
 
 The repository code and releases may contain bugs, the release cycle depends from critical discovered issues and/or enhancement requested from this or other projects.
 
-Looking for the help of experts? MASES Group can help you design, build, deploy, and manage applications mixing .NET and JVM enabled languages.
+Looking for the help of experts? MASES Group can help you design, build, deploy, and manage applications managing PDF documents.
 
 ---
 
 ## Scope of the project
 
-This project aims to create a set of libraries and tools to direct access, from .NET, all the features available in the Java Platform, this is the counterpart of [JCOReflector](https://github.com/masesgroup/JCOReflector).
+This project aims to create a set of libraries and tools to direct access, from .NET, all the features available in the [PDFBox](https://pdfbox.apache.org).
 
-There are many client libraries written to manage communication with Java. Conversely, this project use directly the Java packages giving more than one benefit:
-* all implemented features are availables at no extra implementation costs, see [JNet usage](src/documentation/articles/usage.md);
-* avoids any third party communication protocol implementation;
-* access all features made available from Java platform.
-
-So, for example, do you want an `ArrayList`? Just write in C# a line of code like this:
-
-```c#
-Java.Util.ArrayList<string> alist = new Java.Util.ArrayList<string>();
-```
-
-See [JNet usage](src/documentation/articles/usage.md) for a comprehensive example.
+See [NetPDF usage](src/documentation/articles/usage.md) for a comprehensive example.
 
 ### Community and Contribution
 
@@ -50,7 +39,7 @@ Do you like the project?
 
 Do you want to help us?
 - put a :star: on this project
-- open [issues](https://github.com/masesgroup/JNet/issues) to request features or report bugs :bug:
+- open [issues](https://github.com/masesgroup/NetPDF/issues) to request features or report bugs :bug:
 - improves the project with Pull Requests
 
 This project adheres to the Contributor [Covenant code of conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to coc_reporting@masesgroup.com.
@@ -59,42 +48,18 @@ This project adheres to the Contributor [Covenant code of conduct](CODE_OF_CONDU
 
 * [Roadmap](src/documentation/articles/roadmap.md)
 * [Current state](src/documentation/articles/currentstate.md)
-* [JNet usage](src/documentation/articles/usage.md)
-* [JNet performance tips](src/documentation/articles/performancetips.md)
-* [JNet APIs extensibility](src/documentation/articles/API_extensibility.md)
-* [JNet JVM callbacks](src/documentation/articles/jvm_callbacks.md)
-* [JNet CLI usage](src/documentation/articles/usageCLI.md)
-* [JNet Docker usage](src/documentation/articles/docker.md)
-* [JNet Reflector usage](src/documentation/articles/usageReflector.md)
-* [JNet PowerShell usage](src/documentation/articles/usagePS.md)
-* [JNet Command-line switches](src/documentation/articles/commandlineswitch.md)
+* [NetPDF usage](src/documentation/articles/usage.md)
+* [NetPDF performance tips](src/documentation/articles/performancetips.md)
+* [NetPDF APIs extensibility](src/documentation/articles/API_extensibility.md)
+* [NetPDF JVM callbacks](src/documentation/articles/jvm_callbacks.md)
+* [NetPDF CLI usage](src/documentation/articles/usageCLI.md)
+* [NetPDF Docker usage](src/documentation/articles/docker.md)
+* [NetPDF PowerShell usage](src/documentation/articles/usagePS.md)
+* [NetPDF Command-line switches](src/documentation/articles/commandlineswitch.md)
 
 ### News
 
-* V1.4.8+: From version 1.4.8 there is a new project, named JNetReflector (still in development phase), able to build C# gateway classes from JARs containing the JVM classes, exactly the same [JCOReflector](https://github.com/masesgroup/JCOReflector) does for .NET in JVM.
-* V1.4.9+: From version 1.4.9 there are two new projects:
-  * JNetPSCore: the core library for PowerShell development, it can be extended in other projects based on JNet;
-  * JNetPS: a PowerShell module to use JNet within a PowerShell shell.
-* V1.5.2+: strong improvement of JNetReflector; it is used to generate almost all Java 11 classes available in the corresponding JNet version
-* V1.5.3+: JNetReflector manages generics and almost all classes of Java SE 11 are covered: see [JNet Reflector usage](src/documentation/articles/usageReflector.md)
-* V2.0.0+: the most notable changes in this version are in:
-  * JNet: complete review of all classes based on automatic generation done using JNetReflector
-  * JNetReflector: improvements in many areas from generation of .NET interfaces to generics and where clauses, full story in https://github.com/masesgroup/JNet/issues/178
-* V2.3.0+: the most notable changes in this version are in:
-  * JNet: review of classes based on latest updates of JNetReflector
-  * JNetReflector: use `Java.Lang.String`, by default, instead of `string` (`System.String`) (see https://github.com/masesgroup/JNet/issues/363)
-* V2.4.0+: the most notable changes in this version are in:
-  * JNet: review of classes based on latest updates of JNetReflector
-  * JNetReflector: use native types only when JVM counter-part is a native type (see https://github.com/masesgroup/JNet/issues/371)
-  * JNetReflector: can use signature to invoke JVM methods (see https://github.com/masesgroup/JNet/issues/374) or fallback to current behavior
-* V2.5.0+: the most notable changes in this version are in:
-  * Tools and Docker images update to .NET 8
-  * JNetReflector: create side-by-side class on each listener used in case of pure JVM interface (see https://github.com/masesgroup/JNet/issues/393)
-  * JNet:
-    * review of classes based on latest updates of JNetReflector
-    * enhanced ByteBuffer management
-    * speed-up array/list conversion
-* V2.5.11: updates to JCOBridge 2.5.21 and adds management of [CET](https://www.intel.com/content/www/us/en/developer/articles/technical/technical-look-control-flow-enforcement-technology.html) on recent Intel CPU due to [latest change on .NET 9](https://learn.microsoft.com/en-us/dotnet/core/compatibility/interop/9.0/cet-support): usage explanation on [this](src/documentation/articles/usage.md#intel-cet-and-jnet)
+* V3.0.0+: First version based on [PDFBox](https://pdfbox.apache.org) 3.0.3
 
 ---
 
