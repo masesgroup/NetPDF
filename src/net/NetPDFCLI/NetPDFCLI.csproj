@@ -6,11 +6,11 @@
 		<OutputType>Exe</OutputType>
 		<AssemblyName>MASES.NetPDFCLI</AssemblyName>
 		<RootNamespace>MASES.NetPDFCLI</RootNamespace>
-		<Title>NetPDF command line interface - .NET suite for Apache Kafka</Title>
-		<Description>Command line interface of .NET suite for Apache Kafka. KNet is a comprehensive .NET suite for Apache Kafka providing all features: Producer, Consumer, Admin, Streams, Connect, backends (ZooKeeper and Kafka).</Description>
+		<Title>NetPDF command line interface - PDFBox suite for .NET</Title>
+		<Description>Command line interface of PDFBox suite for .NET. NetPDF is a comprehensive suite of libraries and tools to use PDFBox and .NET side-by-side.</Description>
 		<Product>NetPDFCLI</Product>
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-		<PackageTags>knet cli kafka apache-kafka dotnet clr netcore net6 kafka connect streams producer consumer providers streamprovider gateway</PackageTags>
+		<PackageTags>netpdf cli pdf pdfbox dotnet clr netcore net8 gateway</PackageTags>
 		<PackageId>MASES.NetPDFCLI</PackageId>
 		<PackageReadmeFile>usageCLI.md</PackageReadmeFile>
 		<RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>

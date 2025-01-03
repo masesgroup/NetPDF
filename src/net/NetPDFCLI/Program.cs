@@ -1,5 +1,5 @@
 ﻿/*
-*  Copyright 2024 MASES s.r.l.
+*  Copyright 2025 MASES s.r.l.
 *
 *  Licensed under the Apache License, Version 2.0 (the "License");
 *  you may not use this file except in compliance with the License.
@@ -40,11 +40,11 @@ namespace MASES.NetPDFCLI
             {
                 NetPDFCLICore.CreateGlobalInstance();
 
-                if (KNetCLICore.MainClassToRun != null)
+                if (NetPDFCLICore.MainClassToRun != null)
                 {
                     try
                     {
-                        KNetCLICore.Launch(KNetCLICore.MainClassToRun, KNetCLICore.FilteredArgs);
+                        NetPDFCLICore.Launch(NetPDFCLICore.MainClassToRun, NetPDFCLICore.FilteredArgs);
                     }
                     catch (TargetInvocationException tie)
                     {
@@ -55,12 +55,12 @@ namespace MASES.NetPDFCLI
                         throw je.Convert();
                     }
                 }
-                else if (KNetCLICore.Interactive)
+                else if (NetPDFCLICore.Interactive)
                 {
                     ShowLogo("Interactive shell");
 
                     ScriptOptions options = ScriptOptions.Default.WithReferences(typeof(JNetCoreBase<>).Assembly)
-                                                                 .WithImports(KNetCLICore.NamespaceList);
+                                                                 .WithImports(NetPDFCLICore.NamespaceList);
                     ScriptState<object> state = null;
                     while (true)
                     {
@@ -100,16 +100,16 @@ namespace MASES.NetPDFCLI
                         }
                     }
                 }
-                else if (!string.IsNullOrEmpty(KNetCLICore.Script))
+                else if (!string.IsNullOrEmpty(NetPDFCLICore.Script))
                 {
                     ShowLogo("Script mode");
 
-                    if (!File.Exists(KNetCLICore.Script)) throw new FileNotFoundException("A valid file must be provided", KNetCLICore.Script);
+                    if (!File.Exists(NetPDFCLICore.Script)) throw new FileNotFoundException("A valid file must be provided", NetPDFCLICore.Script);
 
-                    var scriptCode = File.ReadAllText(KNetCLICore.Script);
+                    var scriptCode = File.ReadAllText(NetPDFCLICore.Script);
 
-                    ScriptOptions options = ScriptOptions.Default.WithReferences(typeof(JNetCoreBase<>).Assembly, typeof(KNetCore<>).Assembly)
-                                                                 .WithImports(KNetCLICore.NamespaceList);
+                    ScriptOptions options = ScriptOptions.Default.WithReferences(typeof(JNetCoreBase<>).Assembly, typeof(NetPDFCLICore<>).Assembly)
+                                                                 .WithImports(NetPDFCLICore.NamespaceList);
 
                     var script = CSharpScript.Create(scriptCode, options);
                     var result = await script.RunAsync();
@@ -158,9 +158,9 @@ namespace MASES.NetPDFCLI
 
         static void ShowLogo(string logoTrailer)
         {
-            if (!KNetCLICore.NoLogo)
+            if (!NetPDFCLICore.NoLogo)
             {
-                Console.WriteLine($"KNetCLI - CLI interface for KNet - Version {_assembly.GetName().Version} - {logoTrailer}");
+                Console.WriteLine($"NetPDFCLI - CLI interface for NetPDF - Version {_assembly.GetName().Version} - {logoTrailer}");
             }
         }
 
@@ -170,7 +170,7 @@ namespace MASES.NetPDFCLI
             {
                 Console.WriteLine("Error: {0}", errorString);
             }
-            IDictionary<string, Type> implementedClasses = KNetCLICore.GetMainClasses(typeof(KNetCore<>).Assembly);
+            IDictionary<string, Type> implementedClasses = NetPDFCLICore.GetMainClasses(typeof(NetPDFCLICore<>).Assembly);
             StringBuilder avTypes = new();
             foreach (var item in implementedClasses.Keys)
             {
