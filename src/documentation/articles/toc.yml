@@ -4,21 +4,13 @@
   href: roadmap.md
 - name: Current state
   href: currentstate.md
-- name: JNet usage
+- name: NetPDF usage
   href: usage.md
-- name: JNet performance tips
-  href: performancetips.md
-- name: APIs extendibility
-  href: API_extensibility.md
-- name: JVM callbacks
-  href: jvm_callbacks.md
-- name: JNet CLI usage
+- name: NetPDF CLI usage
   href: usageCLI.md
-- name: JNet Docker images
+- name: NetPDF Docker images
   href: docker.md
-- name: JNet Reflector usage
-  href: usageReflector.md
-- name: JNet PowerShell usage
+- name: NetPDF PowerShell usage
   href: usagePS.md
 - name: Command-line switches
   href: commandlineswitch.md

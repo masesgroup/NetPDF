@@ -1,8 +1,8 @@
 ---
-title: APIs of Java/JVM suite for .NET
-_description: Describes the current available APIs of Java/JVM suite for .NET
+title: APIs of PDFBox suite for .NET
+_description: Describes the current available APIs of PDFBox suite for .NET
 ---
 
-# JNet: .NET API documentation
+# NetPDF: [PDFBox](https://pdfbox.apache.org) suite for .NET
 
 Open left menu to browse API

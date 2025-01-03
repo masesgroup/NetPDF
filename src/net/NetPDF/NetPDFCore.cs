@@ -55,7 +55,7 @@ namespace MASES.NetPDF
                 }
                 if (!System.IO.File.Exists(netpdfFile))
                 {
-                    throw new System.IO.FileNotFoundException("Unable to identify JNet Jar location", netpdfFile);
+                    throw new System.IO.FileNotFoundException("Unable to identify NetPDF Jar location", netpdfFile);
                 }
                 var lst = base.PathToParse;
                 lst.Add(netpdfFile);

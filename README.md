@@ -1,6 +1,6 @@
-# NetPDF: [PDFBox](https://pdfbox.apache.org) APIs for .NET
+# NetPDF: [PDFBox](https://pdfbox.apache.org) suite for .NET
 
-NetPDF is a comprehensive suite of libraries and tools to use [PDFBox](https://pdfbox.apache.org) APIs and .NET side-by-side.
+NetPDF is a comprehensive suite of libraries and tools to use [PDFBox](https://pdfbox.apache.org) and .NET side-by-side.
 
 ### Libraries and Tools
 
@@ -48,10 +48,10 @@ This project adheres to the Contributor [Covenant code of conduct](CODE_OF_CONDU
 
 * [Roadmap](src/documentation/articles/roadmap.md)
 * [Current state](src/documentation/articles/currentstate.md)
-* [NetPDF usage](src/documentation/articles/usage.md)
-* [NetPDF performance tips](src/documentation/articles/performancetips.md)
-* [NetPDF APIs extensibility](src/documentation/articles/API_extensibility.md)
-* [NetPDF JVM callbacks](src/documentation/articles/jvm_callbacks.md)
+* [Usage](src/documentation/articles/usage.md)
+* [Performance tips](https://jnet.masesgroup.com/articles/performancetips.html)
+* [APIs extensibility](https://jnet.masesgroup.com/articles/API_extensibility.html)
+* [JVM callbacks](https://jnet.masesgroup.com/articles/jvm_callbacks.html)
 * [NetPDF CLI usage](src/documentation/articles/usageCLI.md)
 * [NetPDF Docker usage](src/documentation/articles/docker.md)
 * [NetPDF PowerShell usage](src/documentation/articles/usagePS.md)
@@ -65,7 +65,7 @@ This project adheres to the Contributor [Covenant code of conduct](CODE_OF_CONDU
 
 ## Runtime engine
 
-JNet uses [JCOBridge](https://www.jcobridge.com), and its [features](https://www.jcobridge.com/features/), to obtain many benefits:
+NetPDF uses [JNet](https://github.com/masesgroup/JNet), and indeed [JCOBridge](https://www.jcobridge.com/) with its [features](https://www.jcobridge.com/features/), to obtain many benefits:
 * **Cyber-security**: 
   * [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine) and [CLR, or CoreCLR,](https://en.wikipedia.org/wiki/Common_Language_Runtime) runs in the same process, but are insulated from each other;
   * JCOBridge does not make any code injection into JVM;
@@ -76,7 +76,7 @@ JNet uses [JCOBridge](https://www.jcobridge.com), and its [features](https://www
   * No need to learn new APIs: we try to expose the same APIs in C# style;
   * No extra validation cycle on protocol and functionality: bug fix, improvements, new features are immediately available;
   * Documentation is shared;
-* **Dynamic code**: it helps to write a Java/Scala/Kotlin/etc seamless language code directly inside a standard .NET application written in C#/VB.NET: look at this [simple example](https://www.jcobridge.com/net-examples/dotnet-examples/) and [JNet APIs extensibility](src/documentation/articles/API_extensibility.md).
+* **Dynamic code**: it helps to write a Java/Scala/Kotlin/etc seamless language code directly inside a standard .NET application written in C#/VB.NET: look at this [simple example](https://www.jcobridge.com/net-examples/dotnet-examples/) and [APIs extensibility](https://jnet.masesgroup.com/articles/API_extensibility.html).
 
 ### JCOBridge resources
 

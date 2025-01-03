@@ -24,7 +24,7 @@ launchSettings.json
 /**/packages/
 /**/bin/
 /**/binCLI/
-/**/MASES.JNetPS/
+/**/MASES.NetPDFPS/
 /**/binPSCore/
 /**/binReflector/
 /**/obj/

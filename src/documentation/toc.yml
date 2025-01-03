@@ -4,11 +4,11 @@
   href: api/
   homepage: api/index.md
 - name: Browse repository
-  href: https://github.com/masesgroup/JNet
+  href: https://github.com/masesgroup/NetPDF
 - name: Releases
-  href: https://github.com/masesgroup/JNet/releases/
+  href: https://github.com/masesgroup/NetPDF/releases/
 - name: Issues
-  href: https://github.com/masesgroup/JNet/issues/
+  href: https://github.com/masesgroup/NetPDF/issues/
 - name: Open source projects
   dropdown: true
   items:

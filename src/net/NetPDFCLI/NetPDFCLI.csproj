@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\Common\Common.props" />
+	<PropertyGroup>
+		<OutputPath>..\..\..\binCLI\</OutputPath>
+		<PackageType>DotnetTool</PackageType>
+		<OutputType>Exe</OutputType>
+		<AssemblyName>MASES.NetPDFCLI</AssemblyName>
+		<RootNamespace>MASES.NetPDFCLI</RootNamespace>
+		<Title>NetPDF command line interface - .NET suite for Apache Kafka</Title>
+		<Description>Command line interface of .NET suite for Apache Kafka. KNet is a comprehensive .NET suite for Apache Kafka providing all features: Producer, Consumer, Admin, Streams, Connect, backends (ZooKeeper and Kafka).</Description>
+		<Product>NetPDFCLI</Product>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<PackageTags>knet cli kafka apache-kafka dotnet clr netcore net6 kafka connect streams producer consumer providers streamprovider gateway</PackageTags>
+		<PackageId>MASES.NetPDFCLI</PackageId>
+		<PackageReadmeFile>usageCLI.md</PackageReadmeFile>
+		<RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
+		<RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
+	</PropertyGroup>
+
+	<ItemGroup Condition="True">
+		<netpdfcli_jars Include="$(ProjectDir)\..\..\..\jars\*.*" />
+	</ItemGroup>
+
+	<Target Name="CopyCustomContent" AfterTargets="AfterBuild">
+		<Copy SourceFiles="@(netpdfcli_jars)" DestinationFolder="$(OutDir)\jars" />
+	</Target>
+	<Target Name="CopyCustomContentOnPublish" AfterTargets="Publish">
+		<Copy SourceFiles="@(netpdfcli_jars)" DestinationFolder="$(OutDir)\jars" />
+	</Target>
+	
+	<ItemGroup>
+		<None Include="..\..\documentation\articles\usageCLI.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="4.12.0" />
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\NetPDF\NetPDF.csproj">
+			<IncludeAssets>All</IncludeAssets>
+			<PrivateAssets>None</PrivateAssets>
+		</ProjectReference>
+	</ItemGroup>
+	<ItemGroup>
+		<None Update="DotnetToolSettings.xml">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+</Project>

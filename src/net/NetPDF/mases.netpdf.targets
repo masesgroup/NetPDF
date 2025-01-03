@@ -1,6 +1,6 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <jnet_jars Include="$(MSBuildThisFileDirectory)\jars\*.*" />
+    <netpdf_jars Include="$(MSBuildThisFileDirectory)\jars\*.*" />
   </ItemGroup>
 
   <Target Name="NetPDF_CopyFilesNative" BeforeTargets="Build">
