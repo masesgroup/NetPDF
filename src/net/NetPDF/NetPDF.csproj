@@ -18,7 +18,7 @@
 		<DefineConstants>$(DefineConstants);NETPDF_SIMPLIFIED_GENERATION</DefineConstants>
 	</PropertyGroup>
 	<ItemGroup Condition="True">
-		<netpdf_jars Include="$(ProjectDir)\..\..\..\jars\netpdf-*">
+		<netpdf_jars Include="$(ProjectDir)\..\..\..\jars\*.*">
 			<InProject>false</InProject>
 		</netpdf_jars>
 	</ItemGroup>
@@ -30,7 +30,8 @@
 	</Target>
 	<ItemGroup>
 		<None Include="mases.netpdf.targets" Pack="true" PackagePath="build" />
-		<None Include="..\..\..\jars\netpdf-*" Pack="true" PackagePath="build\jars" />
+		<None Include="..\..\..\jars\*.jar" Pack="true" PackagePath="build\jars" />
+		<None Include="..\..\config\**\*" Pack="true" PackagePath="build\config" />
 		<None Include="..\..\documentation\articles\usage.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
 	<ItemGroup Condition="'$(GITHUB_SIMPLIFIED_GENERATION)' == 'true'">

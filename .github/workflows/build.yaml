@@ -135,7 +135,7 @@ jobs:
           gpg-passphrase: MAVEN_GPG_PASSPHRASE # env variable for GPG private key passphrase
 
       - name: Create Jars
-        run: mvn --file ./src/jvm/netpdf/pom.xml --no-transfer-progress package
+        run: mvn  "-DmavenSkipMain=true" --file ./src/jvm/netpdf/pom.xml --no-transfer-progress package
         env:
           MAVEN_USERNAME: ${{ secrets.MAVEN_USERNAME }}
           MAVEN_CENTRAL_TOKEN: ${{ secrets.MAVEN_CENTRAL_TOKEN }}
@@ -220,7 +220,7 @@ jobs:
           gpg-passphrase: MAVEN_GPG_PASSPHRASE # env variable for GPG private key passphrase
 
       - name: Create Jars
-        run: mvn --file ./src/jvm/netpdf/pom.xml --no-transfer-progress package
+        run: mvn  "-DmavenSkipMain=true" --file ./src/jvm/netpdf/pom.xml --no-transfer-progress package
         env:
           MAVEN_USERNAME: ${{ secrets.MAVEN_USERNAME }}
           MAVEN_CENTRAL_TOKEN: ${{ secrets.MAVEN_CENTRAL_TOKEN }}
