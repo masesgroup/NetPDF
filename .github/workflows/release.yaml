@@ -33,7 +33,7 @@ jobs:
         run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src\net\NetPDF\NetPDF.csproj
         env:
           GITHUB_SIMPLIFIED_GENERATION: true
-          
+
       - name: Set up Apache Maven Central
         uses: actions/setup-java@v4
         with: # running setup-java again overwrites the settings.xml
@@ -67,7 +67,6 @@ jobs:
           nuget-version: '5.x'
           
       - run: nuget pack src\net\NetPDFCLI\NetPDFCLI.nuspec -OutputDirectory .\bin
-      - run: nuget pack src\net\NetPDFConnect\NetPDFConnect.nuspec -OutputDirectory .\bin
 
       - name: Prepare PowerShell package
         run: |
