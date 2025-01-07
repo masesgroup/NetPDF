@@ -4,8 +4,8 @@
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 		<AssemblyName>MASES.NetPDFPS</AssemblyName>
 		<RootNamespace>MASES.NetPDFPS</RootNamespace>
-		<Title>NetPDFPS - NetPDF (Java/JVM suite for .NET) PowerShell command line interface</Title>
-		<Description>NetPDFPS - NetPDF (Java/JVM suite for .NET) PowerShell command line interface</Description>
+		<Title>NetPDFPS - NetPDF (PDFBox suite for .NET) PowerShell command line interface</Title>
+		<Description>NetPDFPS - NetPDF (PDFBox suite for .NET) PowerShell command line interface</Description>
 		<Product>NetPDFPS</Product>
 		<OutputPath>..\..\..\MASES.NetPDFPS\</OutputPath>
 		<TargetFrameworks>net462;net8.0</TargetFrameworks>
@@ -18,19 +18,26 @@
 	</PropertyGroup>
 
 	<ItemGroup Condition="True">
-		<jnetps_jars Include="$(ProjectDir)\..\..\..\jars\netpdf-*" />
+		<netpdfps_jars Include="$(ProjectDir)\..\..\..\jars\*.*" />
 	</ItemGroup>
 
 	<Target Name="CopyCustomContent" AfterTargets="AfterBuild">
 		<Copy SourceFiles="@(netpdfps_jars)" DestinationFolder="$(OutDir)\jars" />
 	</Target>
 	<Target Name="CopyCustomContentOnPublish" AfterTargets="Publish">
-		<Copy SourceFiles="@(netpdfps_jars)" DestinationFolder="$(PublishDir)\jars" />
+		<Copy SourceFiles="@(netpdfps_jars)" DestinationFolder="$(OutDir)\jars" />
 	</Target>
+	<ItemGroup>
+		<Compile Include="..\NetPDFCLI\NetPDFCLICore.cs" Link="NetPDFCLICore.cs" />
+	</ItemGroup>
 
 	<ItemGroup>
 		<ProjectReference Include="..\NetPDF\NetPDF.csproj" />
 		<PackageReference Include="MASES.JNetPSCore" Version="2.5.11" />
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
 		<PackageReference Include="PowerShellStandard.Library" Version="5.1.1">
 			<PrivateAssets>All</PrivateAssets>
 		</PackageReference>

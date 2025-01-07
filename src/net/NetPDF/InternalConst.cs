@@ -16,7 +16,47 @@
 *  Refer to LICENSE for more information.
 */
 
+using System;
+using System.IO;
+
 namespace MASES.NetPDF
 {
+    class CLIParam
+    {
+        // CommonArgs
+        public const string ClassToRun = "ClassToRun";
+        public const string CommonLoggingConfiguration = "CommonLoggingConfiguration";
+        public const string LogPath = "LogPath";
+    }
 
+    /// <summary>
+    /// Default constants
+    /// </summary>
+    public class Const
+    {
+        /// <summary>
+        /// The location of this assembly
+        /// </summary>
+        public static readonly string AssemblyLocation = Path.GetDirectoryName(typeof(Const).Assembly.Location);
+        /// <summary>
+        /// Default path location of configuration files
+        /// </summary>
+        public static readonly string DefaultConfigurationPath = Path.Combine(AssemblyLocation, "config");
+        /// <summary>
+        /// Default path location of Jars files
+        /// </summary>
+        public static readonly string DefaultJarsPath = Path.Combine(AssemblyLocation, "jars");
+        /// <summary>
+        /// Default root path, i.e. consider installation within bin folder
+        /// </summary>
+        public static readonly string DefaultRootPath = DefaultJarsPath + Path.DirectorySeparatorChar;
+        /// <summary>
+        /// Default log4j configuration file, i.e. considering a relative location to <see cref="DefaultConfigurationPath"/>
+        /// </summary>
+        public static readonly string DefaultCommonLoggingConfigurationPath = Path.Combine(DefaultConfigurationPath, "netpdf-log4j.properties");
+        /// <summary>
+        /// Default log path, i.e. consider installation within bin folder
+        /// </summary>
+        public static readonly string DefaultLogPath = Path.Combine(AssemblyLocation, "logs") + Path.DirectorySeparatorChar;
+    }
 }

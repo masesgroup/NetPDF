@@ -16,7 +16,7 @@
 *  Refer to LICENSE for more information.
 */
 
-using MASES.NetPDF;
+using MASES.NetPDFCLI;
 using System;
 
 namespace MASES.NetPDFPS
@@ -24,7 +24,7 @@ namespace MASES.NetPDFPS
     /// <summary>
     /// Concrete implementation of <see cref="NetPDFCore{T}"/>
     /// </summary>
-    public class NetPDFPSCore : NetPDFCore<NetPDFPSCore>
+    public class NetPDFPSCore : NetPDFCLICore<NetPDFPSCore>
     {
 #if NET6_0_OR_GREATER
         public static void Main(string[] args) { } // used in conjunction with project of executable type to produce artifacts with all needed assemblies

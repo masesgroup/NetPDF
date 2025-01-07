@@ -71,11 +71,6 @@ namespace MASES.NetPDFCLI
             }
         }
 
-        protected override string DefaultLog4JConfiguration()
-        {
-            return Path.Combine(Const.DefaultConfigurationPath, "tools-log4j.properties");
-        }
-
         public override IEnumerable<IArgumentMetadata> CommandLineArguments
         {
             get
@@ -233,7 +228,7 @@ namespace MASES.NetPDFCLI
                     }
                 case "mirrormaker2":
                     {
-                        ApplicationLog4JPath = Path.Combine(Const.AssemblyLocation, "config", "connect-log4j.properties");
+                        ApplicationCommonLoggingPath = Path.Combine(Const.AssemblyLocation, "config", "connect-log4j.properties");
                         ApplicationHeapSize = "2G";
                         ApplicationInitialHeapSize = "256M";
                         if (result == null || result.Length == 0) Console.WriteLine($"USAGE: MASES.KNetCLI -ClassToRun {ClassToRun} [-daemon] mm2.properties");
