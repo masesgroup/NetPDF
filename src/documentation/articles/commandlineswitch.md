@@ -1,6 +1,6 @@
 ---
-title: Command-line switch of Java/JVM suite for .NET
-_description: Describes the command-line switch of Java/JVM suite for .NET
+title: Command-line switch of PDFBox suite for .NET
+_description: Describes the command-line switch of PDFBox suite for .NET
 ---
 
 # NetPDF: Command line switches available
@@ -16,7 +16,7 @@ Plus it accepts from:
 ## JVM identification
 
 One of the most important command-line switch is **JVMPath** and it is available in [JCOBridge switches](https://www.jcobridge.com/net-examples/command-line-options/): it can be used to set-up the location of the JVM library if JCOBridge is not able to identify a suitable JRE installation.
-If a developer is using KNet within its own product it is possible to override the **JVMPath** property with a snippet like the following one:
+If a developer is using NetPDF within its own product it is possible to override the **JVMPath** property with a snippet like the following one:
 
 ```c#
     class MyNetPDFCore : NetPDFCore

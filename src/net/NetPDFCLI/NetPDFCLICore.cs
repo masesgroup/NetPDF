@@ -165,8 +165,8 @@ namespace MASES.NetPDFCLI
                     if (!namespaceList.Contains(item.Namespace)) namespaceList.Add(item.Namespace);
                 }
             }
-            var knetAssembly = typeof(NetPDFCore<>).Assembly;
-            foreach (var item in knetAssembly.GetExportedTypes())
+            var netpdfAssembly = typeof(NetPDFCore<>).Assembly;
+            foreach (var item in netpdfAssembly.GetExportedTypes())
             {
                 if (item.IsPublic)
                 {
@@ -198,52 +198,7 @@ namespace MASES.NetPDFCLI
 
             switch (ClassToRun?.ToLowerInvariant())
             {
-                case "verifiableconsumer":
-                    ApplicationHeapSize = "512M";
-                    break;
-                case "verifiableproducer":
-                    ApplicationHeapSize = "512M";
-                    break;
-                case "streamsresetter":
-                    ApplicationHeapSize = "512M";
-                    break;
-                case "zookeeperstart":
-                    ApplicationHeapSize = "512M";
-                    ApplicationInitialHeapSize = "512M";
-                    break;
-                case "zookeepershell":
-                    ApplicationHeapSize = "512M";
-                    ApplicationInitialHeapSize = "512M";
-                    break;
-                case "kafkastart":
-                    ApplicationHeapSize = Environment.Is64BitOperatingSystem ? "1G" : "512M";
-                    ApplicationInitialHeapSize = Environment.Is64BitOperatingSystem ? "1G" : "512M";
-                    break;
-                case "connectstandalone":
-                case "connectdistributed":
-                case "knetconnectstandalone":
-                case "knetconnectdistributed":
-                    {
-                        throw new ArgumentException($"Use KNetConnect to run KNet Connect SDK");
-                    }
-                case "mirrormaker2":
-                    {
-                        ApplicationCommonLoggingPath = Path.Combine(Const.AssemblyLocation, "config", "connect-log4j.properties");
-                        ApplicationHeapSize = "2G";
-                        ApplicationInitialHeapSize = "256M";
-                        if (result == null || result.Length == 0) Console.WriteLine($"USAGE: MASES.KNetCLI -ClassToRun {ClassToRun} [-daemon] mm2.properties");
-                        else
-                        {
-                            var tmpResult = new List<string>(result);
-                            if (tmpResult.Contains("-daemon"))
-                            {
-                                tmpResult.Add("-name");
-                                tmpResult.Add("mirrorMaker");
-                            }
-                            result = tmpResult.ToArray();
-                        }
-                    }
-                    break;
+
                 default:
                     ApplicationHeapSize ??= "256M";
                     break;
