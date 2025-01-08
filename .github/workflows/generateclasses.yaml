@@ -163,12 +163,10 @@ jobs:
 
       - name: Try compilation of Jars
         continue-on-error: ${{ inputs.ContinueOnLatestJNetReflectorError == true }}
-        if: ${{ inputs.UseLatestJNetReflectorSource == true }}
         run: mvn --file ./src/jvm/netpdf/pom.xml --no-transfer-progress package
 
       - name: Try compilation of C#
         continue-on-error: ${{ inputs.ContinueOnLatestJNetReflectorError == true }}
-        if: ${{ inputs.UseLatestJNetReflectorSource == true }}
         run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src\net\NetPDF\NetPDF.csproj
 
       - name: Extract commit SHA
