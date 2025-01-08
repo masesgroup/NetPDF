@@ -124,8 +124,8 @@ jobs:
           fetch-depth: '1'
           submodules: 'true'
 
-      - name: Pre compile tests
-        run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" tests\net\NetPDFTest.sln
+    #  - name: Pre compile tests
+    #    run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" tests\net\NetPDFTest.sln
 
       - name: Pre compile
         run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src\net\NetPDF\NetPDF.csproj
@@ -154,9 +154,6 @@ jobs:
       - name: Compile command line
         run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src\net\NetPDFCLI\NetPDFCLI.csproj
 
-      - name: Compile NetPDF Connect
-        run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src\net\NetPDFConnect\NetPDFConnect.csproj
-
       - name: Compile NetPDFPS
         run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src\net\NetPDFPS\NetPDFPS.csproj
 
@@ -165,7 +162,6 @@ jobs:
           nuget-version: '5.x'
           
       - run: nuget pack src\net\NetPDFCLI\NetPDFCLI.nuspec -OutputDirectory .\bin
-      - run: nuget pack src\net\NetPDFConnect\NetPDFConnect.nuspec -OutputDirectory .\bin
 
       - name: Prepare PowerShell package
         run: |
