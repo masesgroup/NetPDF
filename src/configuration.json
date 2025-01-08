@@ -26,12 +26,20 @@
     }
   ],
   "NamespacesToAvoid": [
-
+    "org.apache.commons.logging"
   ],
   "ClassesToBeListener": [
 
   ],
   "ClassesToAvoid": [
 
+  ],
+  "NamespacesInConflict": [
+    "java.lang.module",
+    "java.awt.color",
+    "java.awt.desktop",
+    "java.awt.image",
+    "java.awt.event",
+    "java.awt.font"
   ]
 }
