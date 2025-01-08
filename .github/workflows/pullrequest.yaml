@@ -162,7 +162,6 @@ jobs:
           nuget-version: '5.x'
           
       - run: nuget pack src\net\NetPDFCLI\NetPDFCLI.nuspec -OutputDirectory .\bin
-      - run: nuget pack src\net\NetPDFConnect\NetPDFConnect.nuspec -OutputDirectory .\bin
 
       - name: Prepare PowerShell package
         run: |
