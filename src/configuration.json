@@ -32,7 +32,10 @@
 
   ],
   "ClassesToAvoid": [
-
+    "org.apache.pdfbox.pdmodel.font.FileSystemFontProvider"
+  ],
+  "ClassesManuallyDeveloped": [
+    "org.apache.pdfbox.text.TextPositionComparator"
   ],
   "NamespacesInConflict": [
     "java.lang.module",
