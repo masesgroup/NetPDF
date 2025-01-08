@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\Common\Common.props" />
+	<PropertyGroup>
+		<AssemblyName>MASES.NetPDF</AssemblyName>
+		<RootNamespace>MASES.NetPDF</RootNamespace>
+		<Title>PDFBox suite for .NET - a comprehensive suite of libraries and tools to use PDFBox and .NET side-by-side</Title>
+		<Description>PDFBox suite for .NET - a comprehensive suite of libraries and tools to use PDFBox and .NET side-by-side</Description>
+		<Product>NetPDF</Product>
+		<OutputPath>..\..\..\bin\</OutputPath>
+		<PackageTags>netpdf dotnet clr jvm dotnetcore netcore dotnet8 net8 java bridge gateway</PackageTags>
+		<PackageId>MASES.NetPDF</PackageId>
+		<PackageReadmeFile>usage.md</PackageReadmeFile>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
+		<RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(GITHUB_SIMPLIFIED_GENERATION)' == 'true'">
+		<DefineConstants>$(DefineConstants);NETPDF_SIMPLIFIED_GENERATION</DefineConstants>
+	</PropertyGroup>
+	<ItemGroup Condition="True">
+		<netpdf_jars Include="$(ProjectDir)\..\..\..\jars\*.*">
+			<InProject>false</InProject>
+		</netpdf_jars>
+	</ItemGroup>
+	<Target Name="CopyCustomContent" AfterTargets="AfterBuild" Condition="'$(GITHUB_ACTIONS)' != 'true' Or '$(GITHUB_TEST_PREPARATION)' == 'true'">
+		<Copy SourceFiles="@(netpdf_jars)" DestinationFolder="$(OutDir)\jars" />
+	</Target>
+	<Target Name="CopyCustomContentOnPublish" AfterTargets="Publish" Condition="'$(GITHUB_ACTIONS)' != 'true' Or '$(GITHUB_TEST_PREPARATION)' == 'true'">
+		<Copy SourceFiles="@(netpdf_jars)" DestinationFolder="$(OutDir)\jars" />
+	</Target>
+	<ItemGroup>
+		<None Include="mases.netpdf.targets" Pack="true" PackagePath="build" />
+		<None Include="..\..\..\jars\*.jar" Pack="true" PackagePath="build\jars" />
+		<None Include="..\..\config\**\*" Pack="true" PackagePath="build\config" />
+		<None Include="..\..\documentation\articles\usage.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+	<ItemGroup Condition="'$(GITHUB_SIMPLIFIED_GENERATION)' == 'true'">
+		<Compile Remove="Developed\**" />
+		<Compile Remove="Generated\**" />
+		<Compile Remove="Specific\**" />
+		<EmbeddedResource Remove="Developed\**" />
+		<EmbeddedResource Remove="Generated\**" />
+		<EmbeddedResource Remove="Specific\**" />
+		<None Remove="Developed\**" />
+		<None Remove="Generated\**" />
+		<None Remove="Specific\**" />
+	</ItemGroup>
+	<ItemGroup Condition="'$(GITHUB_SIMPLIFIED_GENERATION)' != 'true'">
+		<Compile Remove="Generated\Java\Util\Function\**" />
+		<None Remove="Generated\Java\Util\Function\**" />
+		<Compile Remove="Developed\Java\Lang\*Error.cs" />
+		<None Remove="Developed\Java\Lang\*Error.cs" />
+		<Compile Remove="Developed\Java\Lang\*Exception.cs" />
+		<None Remove="Developed\Java\Lang\*Exception.cs" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="MASES.JNet" Version="2.5.11">
+			<IncludeAssets>All</IncludeAssets>
+			<PrivateAssets>None</PrivateAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+	</ItemGroup>
+</Project>
