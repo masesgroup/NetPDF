@@ -124,8 +124,8 @@ jobs:
           fetch-depth: '1'
           submodules: 'true'
 
-      - name: Pre compile tests
-        run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" tests\net\NetPDFTest.sln
+    #  - name: Pre compile tests
+    #    run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" tests\net\NetPDFTest.sln
 
       - name: Pre compile
         run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src\net\NetPDF\NetPDF.csproj
