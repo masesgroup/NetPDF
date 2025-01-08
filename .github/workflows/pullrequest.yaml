@@ -154,9 +154,6 @@ jobs:
       - name: Compile command line
         run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src\net\NetPDFCLI\NetPDFCLI.csproj
 
-      - name: Compile NetPDF Connect
-        run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src\net\NetPDFConnect\NetPDFConnect.csproj
-
       - name: Compile NetPDFPS
         run: dotnet build --no-incremental --configuration Release /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" src\net\NetPDFPS\NetPDFPS.csproj
 
