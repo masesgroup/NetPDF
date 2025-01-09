@@ -45,14 +45,6 @@
 		<None Remove="Generated\**" />
 		<None Remove="Specific\**" />
 	</ItemGroup>
-	<ItemGroup Condition="'$(GITHUB_SIMPLIFIED_GENERATION)' != 'true'">
-		<Compile Remove="Generated\Java\Util\Function\**" />
-		<None Remove="Generated\Java\Util\Function\**" />
-		<Compile Remove="Developed\Java\Lang\*Error.cs" />
-		<None Remove="Developed\Java\Lang\*Error.cs" />
-		<Compile Remove="Developed\Java\Lang\*Exception.cs" />
-		<None Remove="Developed\Java\Lang\*Exception.cs" />
-	</ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="MASES.JNet" Version="2.5.11">
 			<IncludeAssets>All</IncludeAssets>

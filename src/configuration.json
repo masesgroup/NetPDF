@@ -26,12 +26,23 @@
     }
   ],
   "NamespacesToAvoid": [
-
+    "org.apache.commons.logging"
   ],
   "ClassesToBeListener": [
 
   ],
   "ClassesToAvoid": [
-
+    "org.apache.pdfbox.pdmodel.font.FileSystemFontProvider"
+  ],
+  "ClassesManuallyDeveloped": [
+    "org.apache.pdfbox.text.TextPositionComparator"
+  ],
+  "NamespacesInConflict": [
+    "java.lang.module",
+    "java.awt.color",
+    "java.awt.desktop",
+    "java.awt.image",
+    "java.awt.event",
+    "java.awt.font"
   ]
 }

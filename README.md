@@ -4,9 +4,9 @@ NetPDF is a comprehensive suite of libraries and tools to use [PDFBox](https://p
 
 ### Libraries and Tools
 
-|NetPDF | NetPDF.Templates | NetPDFPS |
-|:---:	|:---:	|:---:	|
-|[![NetPDF nuget](https://img.shields.io/nuget/v/MASES.NetPDF)](https://www.nuget.org/packages/MASES.NetPDF)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.NetPDF)](https://www.nuget.org/packages/MASES.NetPDF) | [![NetPDF.Templates nuget](https://img.shields.io/nuget/v/MASES.NetPDF.Templates)](https://www.nuget.org/packages/MASES.NetPDF.Templates)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.NetPDF.Templates)](https://www.nuget.org/packages/MASES.NetPDF.Templates)| [![NetPDFPS](https://img.shields.io/powershellgallery/v/MASES.NetPDFPS.svg?style=flat-square&label=MASES.NetPDFPS)](https://www.powershellgallery.com/packages/MASES.NetPDFPS/)|
+|NetPDF | NetPDF.Templates | NetPDFCLI | NetPDFPS |
+|:---:	|:---:	|:---:	|:---:	|
+|[![NetPDF nuget](https://img.shields.io/nuget/v/MASES.NetPDF)](https://www.nuget.org/packages/MASES.NetPDF)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.NetPDF)](https://www.nuget.org/packages/MASES.NetPDF) | [![NetPDF.Templates nuget](https://img.shields.io/nuget/v/MASES.NetPDF.Templates)](https://www.nuget.org/packages/MASES.NetPDF.Templates)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.NetPDF.Templates)](https://www.nuget.org/packages/MASES.NetPDF.Templates)| [![NetPDFCLI nuget](https://img.shields.io/nuget/v/MASES.NetPDFCLI)](https://www.nuget.org/packages/MASES.NetPDFCLI)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.NetPDFCLI)](https://www.nuget.org/packages/MASES.NetPDFCLI)|[![NetPDFPS](https://img.shields.io/powershellgallery/v/MASES.NetPDFPS.svg?style=flat-square&label=MASES.NetPDFPS)](https://www.powershellgallery.com/packages/MASES.NetPDFPS/)|
 
 ### Pipelines
 
