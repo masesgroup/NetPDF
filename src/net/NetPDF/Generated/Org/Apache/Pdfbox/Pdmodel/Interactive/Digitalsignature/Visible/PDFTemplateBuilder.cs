@@ -298,9 +298,9 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateBuilder.html#createSignatureImage-org.apache.pdfbox.pdmodel.PDDocument-java.awt.image.BufferedImage-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
-        /// <param name="arg1"><see cref="Java.Awt.Image.BufferedImage"/></param>
+        /// <param name="arg1"><see cref="Java.Awt.ImageNs.BufferedImage"/></param>
         /// <exception cref="Java.Io.IOException"/>
-        public void CreateSignatureImage(Org.Apache.Pdfbox.Pdmodel.PDDocument arg0, Java.Awt.Image.BufferedImage arg1)
+        public void CreateSignatureImage(Org.Apache.Pdfbox.Pdmodel.PDDocument arg0, Java.Awt.ImageNs.BufferedImage arg1)
         {
             IExecuteWithSignature("createSignatureImage", "(Lorg/apache/pdfbox/pdmodel/PDDocument;Ljava/awt/image/BufferedImage;)V", arg0, arg1);
         }

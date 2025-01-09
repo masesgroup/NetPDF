@@ -97,18 +97,6 @@ namespace Org.Apache.Pdfbox.Io
             return SExecuteWithSignatureArray<byte>(LocalBridgeClazz, "toByteArray", "(Ljava/io/InputStream;)[B", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.3/org/apache/pdfbox/io/IOUtils.html#closeAndLogException-java.io.Closeable-org.apache.commons.logging.Log-java.lang.String-java.io.IOException-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Java.Io.Closeable"/></param>
-        /// <param name="arg1"><see cref="Org.Apache.Commons.Logging.Log"/></param>
-        /// <param name="arg2"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg3"><see cref="Java.Io.IOException"/></param>
-        /// <returns><see cref="Java.Io.IOException"/></returns>
-        public static Java.Io.IOException CloseAndLogException(Java.Io.Closeable arg0, Org.Apache.Commons.Logging.Log arg1, Java.Lang.String arg2, MASES.JCOBridge.C2JBridge.JVMBridgeException arg3)
-        {
-            var obj = SExecuteWithSignature<MASES.JCOBridge.C2JBridge.JVMInterop.IJavaObject>(LocalBridgeClazz, "closeAndLogException", "(Ljava/io/Closeable;Lorg/apache/commons/logging/Log;Ljava/lang/String;Ljava/io/IOException;)Ljava/io/IOException;", arg0, arg1, arg2, arg3); return MASES.JCOBridge.C2JBridge.JVMBridgeException.New<Java.Io.IOException>(obj);
-        }
-        /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.3/org/apache/pdfbox/io/IOUtils.html#copy-java.io.InputStream-java.io.OutputStream-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.InputStream"/></param>

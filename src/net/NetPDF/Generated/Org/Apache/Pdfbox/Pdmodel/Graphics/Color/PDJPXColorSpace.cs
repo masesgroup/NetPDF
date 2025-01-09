@@ -77,8 +77,8 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/color/PDJPXColorSpace.html#org.apache.pdfbox.pdmodel.graphics.color.PDJPXColorSpace(java.awt.color.ColorSpace)"/>
         /// </summary>
-        /// <param name="arg0"><see cref="Java.Awt.Color.ColorSpace"/></param>
-        public PDJPXColorSpace(Java.Awt.Color.ColorSpace arg0)
+        /// <param name="arg0"><see cref="Java.Awt.ColorNs.ColorSpace"/></param>
+        public PDJPXColorSpace(Java.Awt.ColorNs.ColorSpace arg0)
             : base(arg0)
         {
         }

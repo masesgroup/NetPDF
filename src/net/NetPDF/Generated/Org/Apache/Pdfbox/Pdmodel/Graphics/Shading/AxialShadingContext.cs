@@ -78,12 +78,12 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/shading/AxialShadingContext.html#org.apache.pdfbox.pdmodel.graphics.shading.AxialShadingContext(org.apache.pdfbox.pdmodel.graphics.shading.PDShadingType2,java.awt.image.ColorModel,java.awt.geom.AffineTransform,org.apache.pdfbox.util.Matrix,java.awt.Rectangle)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Shading.PDShadingType2"/></param>
-        /// <param name="arg1"><see cref="Java.Awt.Image.ColorModel"/></param>
+        /// <param name="arg1"><see cref="Java.Awt.ImageNs.ColorModel"/></param>
         /// <param name="arg2"><see cref="Java.Awt.Geom.AffineTransform"/></param>
         /// <param name="arg3"><see cref="Org.Apache.Pdfbox.Util.Matrix"/></param>
         /// <param name="arg4"><see cref="Java.Awt.Rectangle"/></param>
         /// <exception cref="Java.Io.IOException"/>
-        public AxialShadingContext(Org.Apache.Pdfbox.Pdmodel.Graphics.Shading.PDShadingType2 arg0, Java.Awt.Image.ColorModel arg1, Java.Awt.Geom.AffineTransform arg2, Org.Apache.Pdfbox.Util.Matrix arg3, Java.Awt.Rectangle arg4)
+        public AxialShadingContext(Org.Apache.Pdfbox.Pdmodel.Graphics.Shading.PDShadingType2 arg0, Java.Awt.ImageNs.ColorModel arg1, Java.Awt.Geom.AffineTransform arg2, Org.Apache.Pdfbox.Util.Matrix arg3, Java.Awt.Rectangle arg4)
             : base(arg0, arg1, arg2, arg3, arg4)
         {
         }
