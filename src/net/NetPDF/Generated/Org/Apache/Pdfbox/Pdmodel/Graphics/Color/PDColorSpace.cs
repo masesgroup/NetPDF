@@ -175,22 +175,22 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/color/PDColorSpace.html#toRawImage-java.awt.image.WritableRaster-"/>
         /// </summary>
-        /// <param name="arg0"><see cref="Java.Awt.Image.WritableRaster"/></param>
-        /// <returns><see cref="Java.Awt.Image.BufferedImage"/></returns>
+        /// <param name="arg0"><see cref="Java.Awt.ImageNs.WritableRaster"/></param>
+        /// <returns><see cref="Java.Awt.ImageNs.BufferedImage"/></returns>
         /// <exception cref="Java.Io.IOException"/>
-        public Java.Awt.Image.BufferedImage ToRawImage(Java.Awt.Image.WritableRaster arg0)
+        public Java.Awt.ImageNs.BufferedImage ToRawImage(Java.Awt.ImageNs.WritableRaster arg0)
         {
-            return IExecuteWithSignature<Java.Awt.Image.BufferedImage>("toRawImage", "(Ljava/awt/image/WritableRaster;)Ljava/awt/image/BufferedImage;", arg0);
+            return IExecuteWithSignature<Java.Awt.ImageNs.BufferedImage>("toRawImage", "(Ljava/awt/image/WritableRaster;)Ljava/awt/image/BufferedImage;", arg0);
         }
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/color/PDColorSpace.html#toRGBImage-java.awt.image.WritableRaster-"/>
         /// </summary>
-        /// <param name="arg0"><see cref="Java.Awt.Image.WritableRaster"/></param>
-        /// <returns><see cref="Java.Awt.Image.BufferedImage"/></returns>
+        /// <param name="arg0"><see cref="Java.Awt.ImageNs.WritableRaster"/></param>
+        /// <returns><see cref="Java.Awt.ImageNs.BufferedImage"/></returns>
         /// <exception cref="Java.Io.IOException"/>
-        public Java.Awt.Image.BufferedImage ToRGBImage(Java.Awt.Image.WritableRaster arg0)
+        public Java.Awt.ImageNs.BufferedImage ToRGBImage(Java.Awt.ImageNs.WritableRaster arg0)
         {
-            return IExecuteWithSignature<Java.Awt.Image.BufferedImage>("toRGBImage", "(Ljava/awt/image/WritableRaster;)Ljava/awt/image/BufferedImage;", arg0);
+            return IExecuteWithSignature<Java.Awt.ImageNs.BufferedImage>("toRGBImage", "(Ljava/awt/image/WritableRaster;)Ljava/awt/image/BufferedImage;", arg0);
         }
 
         #endregion

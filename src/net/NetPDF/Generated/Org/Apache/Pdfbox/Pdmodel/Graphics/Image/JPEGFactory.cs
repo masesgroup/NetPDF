@@ -101,12 +101,12 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Image
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/image/JPEGFactory.html#createFromImage-org.apache.pdfbox.pdmodel.PDDocument-java.awt.image.BufferedImage-float-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
-        /// <param name="arg1"><see cref="Java.Awt.Image.BufferedImage"/></param>
+        /// <param name="arg1"><see cref="Java.Awt.ImageNs.BufferedImage"/></param>
         /// <param name="arg2"><see cref="float"/></param>
         /// <param name="arg3"><see cref="int"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Image.PDImageXObject"/></returns>
         /// <exception cref="Java.Io.IOException"/>
-        public static Org.Apache.Pdfbox.Pdmodel.Graphics.Image.PDImageXObject CreateFromImage(Org.Apache.Pdfbox.Pdmodel.PDDocument arg0, Java.Awt.Image.BufferedImage arg1, float arg2, int arg3)
+        public static Org.Apache.Pdfbox.Pdmodel.Graphics.Image.PDImageXObject CreateFromImage(Org.Apache.Pdfbox.Pdmodel.PDDocument arg0, Java.Awt.ImageNs.BufferedImage arg1, float arg2, int arg3)
         {
             return SExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Image.PDImageXObject>(LocalBridgeClazz, "createFromImage", "(Lorg/apache/pdfbox/pdmodel/PDDocument;Ljava/awt/image/BufferedImage;FI)Lorg/apache/pdfbox/pdmodel/graphics/image/PDImageXObject;", arg0, arg1, arg2, arg3);
         }
@@ -114,11 +114,11 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Image
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/image/JPEGFactory.html#createFromImage-org.apache.pdfbox.pdmodel.PDDocument-java.awt.image.BufferedImage-float-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
-        /// <param name="arg1"><see cref="Java.Awt.Image.BufferedImage"/></param>
+        /// <param name="arg1"><see cref="Java.Awt.ImageNs.BufferedImage"/></param>
         /// <param name="arg2"><see cref="float"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Image.PDImageXObject"/></returns>
         /// <exception cref="Java.Io.IOException"/>
-        public static Org.Apache.Pdfbox.Pdmodel.Graphics.Image.PDImageXObject CreateFromImage(Org.Apache.Pdfbox.Pdmodel.PDDocument arg0, Java.Awt.Image.BufferedImage arg1, float arg2)
+        public static Org.Apache.Pdfbox.Pdmodel.Graphics.Image.PDImageXObject CreateFromImage(Org.Apache.Pdfbox.Pdmodel.PDDocument arg0, Java.Awt.ImageNs.BufferedImage arg1, float arg2)
         {
             return SExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Image.PDImageXObject>(LocalBridgeClazz, "createFromImage", "(Lorg/apache/pdfbox/pdmodel/PDDocument;Ljava/awt/image/BufferedImage;F)Lorg/apache/pdfbox/pdmodel/graphics/image/PDImageXObject;", arg0, arg1, arg2);
         }
@@ -126,10 +126,10 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Image
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/image/JPEGFactory.html#createFromImage-org.apache.pdfbox.pdmodel.PDDocument-java.awt.image.BufferedImage-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
-        /// <param name="arg1"><see cref="Java.Awt.Image.BufferedImage"/></param>
+        /// <param name="arg1"><see cref="Java.Awt.ImageNs.BufferedImage"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Image.PDImageXObject"/></returns>
         /// <exception cref="Java.Io.IOException"/>
-        public static Org.Apache.Pdfbox.Pdmodel.Graphics.Image.PDImageXObject CreateFromImage(Org.Apache.Pdfbox.Pdmodel.PDDocument arg0, Java.Awt.Image.BufferedImage arg1)
+        public static Org.Apache.Pdfbox.Pdmodel.Graphics.Image.PDImageXObject CreateFromImage(Org.Apache.Pdfbox.Pdmodel.PDDocument arg0, Java.Awt.ImageNs.BufferedImage arg1)
         {
             return SExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Image.PDImageXObject>(LocalBridgeClazz, "createFromImage", "(Lorg/apache/pdfbox/pdmodel/PDDocument;Ljava/awt/image/BufferedImage;)Lorg/apache/pdfbox/pdmodel/graphics/image/PDImageXObject;", arg0, arg1);
         }

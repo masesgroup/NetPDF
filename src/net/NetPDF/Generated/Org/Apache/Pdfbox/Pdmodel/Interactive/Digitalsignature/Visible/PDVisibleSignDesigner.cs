@@ -87,10 +87,10 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSignDesigner(java.lang.String,java.awt.image.BufferedImage,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
-        /// <param name="arg1"><see cref="Java.Awt.Image.BufferedImage"/></param>
+        /// <param name="arg1"><see cref="Java.Awt.ImageNs.BufferedImage"/></param>
         /// <param name="arg2"><see cref="int"/></param>
         /// <exception cref="Java.Io.IOException"/>
-        public PDVisibleSignDesigner(Java.Lang.String arg0, Java.Awt.Image.BufferedImage arg1, int arg2)
+        public PDVisibleSignDesigner(Java.Lang.String arg0, Java.Awt.ImageNs.BufferedImage arg1, int arg2)
             : base(arg0, arg1, arg2)
         {
         }
@@ -109,10 +109,10 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSignDesigner(org.apache.pdfbox.io.RandomAccessRead,java.awt.image.BufferedImage,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Io.RandomAccessRead"/></param>
-        /// <param name="arg1"><see cref="Java.Awt.Image.BufferedImage"/></param>
+        /// <param name="arg1"><see cref="Java.Awt.ImageNs.BufferedImage"/></param>
         /// <param name="arg2"><see cref="int"/></param>
         /// <exception cref="Java.Io.IOException"/>
-        public PDVisibleSignDesigner(Org.Apache.Pdfbox.Io.RandomAccessRead arg0, Java.Awt.Image.BufferedImage arg1, int arg2)
+        public PDVisibleSignDesigner(Org.Apache.Pdfbox.Io.RandomAccessRead arg0, Java.Awt.ImageNs.BufferedImage arg1, int arg2)
             : base(arg0, arg1, arg2)
         {
         }
@@ -131,9 +131,9 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSignDesigner(org.apache.pdfbox.pdmodel.PDDocument,java.awt.image.BufferedImage,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
-        /// <param name="arg1"><see cref="Java.Awt.Image.BufferedImage"/></param>
+        /// <param name="arg1"><see cref="Java.Awt.ImageNs.BufferedImage"/></param>
         /// <param name="arg2"><see cref="int"/></param>
-        public PDVisibleSignDesigner(Org.Apache.Pdfbox.Pdmodel.PDDocument arg0, Java.Awt.Image.BufferedImage arg1, int arg2)
+        public PDVisibleSignDesigner(Org.Apache.Pdfbox.Pdmodel.PDDocument arg0, Java.Awt.ImageNs.BufferedImage arg1, int arg2)
             : base(arg0, arg1, arg2)
         {
         }
@@ -167,9 +167,9 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#getImage--"/> 
         /// </summary>
-        public Java.Awt.Image.BufferedImage Image
+        public Java.Awt.ImageNs.BufferedImage Image
         {
-            get { return IExecuteWithSignature<Java.Awt.Image.BufferedImage>("getImage", "()Ljava/awt/image/BufferedImage;"); }
+            get { return IExecuteWithSignature<Java.Awt.ImageNs.BufferedImage>("getImage", "()Ljava/awt/image/BufferedImage;"); }
         }
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#getPageHeight--"/> 

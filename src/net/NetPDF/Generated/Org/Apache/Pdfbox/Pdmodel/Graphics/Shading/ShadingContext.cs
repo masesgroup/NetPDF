@@ -80,11 +80,11 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/shading/ShadingContext.html#org.apache.pdfbox.pdmodel.graphics.shading.ShadingContext(org.apache.pdfbox.pdmodel.graphics.shading.PDShading,java.awt.image.ColorModel,java.awt.geom.AffineTransform,org.apache.pdfbox.util.Matrix)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Shading.PDShading"/></param>
-        /// <param name="arg1"><see cref="Java.Awt.Image.ColorModel"/></param>
+        /// <param name="arg1"><see cref="Java.Awt.ImageNs.ColorModel"/></param>
         /// <param name="arg2"><see cref="Java.Awt.Geom.AffineTransform"/></param>
         /// <param name="arg3"><see cref="Org.Apache.Pdfbox.Util.Matrix"/></param>
         /// <exception cref="Java.Io.IOException"/>
-        public ShadingContext(Org.Apache.Pdfbox.Pdmodel.Graphics.Shading.PDShading arg0, Java.Awt.Image.ColorModel arg1, Java.Awt.Geom.AffineTransform arg2, Org.Apache.Pdfbox.Util.Matrix arg3)
+        public ShadingContext(Org.Apache.Pdfbox.Pdmodel.Graphics.Shading.PDShading arg0, Java.Awt.ImageNs.ColorModel arg1, Java.Awt.Geom.AffineTransform arg2, Org.Apache.Pdfbox.Util.Matrix arg3)
             : base(arg0, arg1, arg2, arg3)
         {
         }
@@ -107,9 +107,9 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/shading/ShadingContext.html#getColorModel--"/> 
         /// </summary>
-        public Java.Awt.Image.ColorModel ColorModel
+        public Java.Awt.ImageNs.ColorModel ColorModel
         {
-            get { return IExecuteWithSignature<Java.Awt.Image.ColorModel>("getColorModel", "()Ljava/awt/image/ColorModel;"); }
+            get { return IExecuteWithSignature<Java.Awt.ImageNs.ColorModel>("getColorModel", "()Ljava/awt/image/ColorModel;"); }
         }
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/shading/ShadingContext.html#dispose--"/>

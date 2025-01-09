@@ -150,11 +150,11 @@ namespace Org.Apache.Pdfbox.Rendering
         /// <param name="arg1"><see cref="float"/></param>
         /// <param name="arg2"><see cref="Org.Apache.Pdfbox.Rendering.ImageType"/></param>
         /// <param name="arg3"><see cref="Org.Apache.Pdfbox.Rendering.RenderDestination"/></param>
-        /// <returns><see cref="Java.Awt.Image.BufferedImage"/></returns>
+        /// <returns><see cref="Java.Awt.ImageNs.BufferedImage"/></returns>
         /// <exception cref="Java.Io.IOException"/>
-        public Java.Awt.Image.BufferedImage RenderImage(int arg0, float arg1, Org.Apache.Pdfbox.Rendering.ImageType arg2, Org.Apache.Pdfbox.Rendering.RenderDestination arg3)
+        public Java.Awt.ImageNs.BufferedImage RenderImage(int arg0, float arg1, Org.Apache.Pdfbox.Rendering.ImageType arg2, Org.Apache.Pdfbox.Rendering.RenderDestination arg3)
         {
-            return IExecuteWithSignature<Java.Awt.Image.BufferedImage>("renderImage", "(IFLorg/apache/pdfbox/rendering/ImageType;Lorg/apache/pdfbox/rendering/RenderDestination;)Ljava/awt/image/BufferedImage;", arg0, arg1, arg2, arg3);
+            return IExecuteWithSignature<Java.Awt.ImageNs.BufferedImage>("renderImage", "(IFLorg/apache/pdfbox/rendering/ImageType;Lorg/apache/pdfbox/rendering/RenderDestination;)Ljava/awt/image/BufferedImage;", arg0, arg1, arg2, arg3);
         }
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/rendering/PDFRenderer.html#renderImage-int-float-org.apache.pdfbox.rendering.ImageType-"/>
@@ -162,32 +162,32 @@ namespace Org.Apache.Pdfbox.Rendering
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="float"/></param>
         /// <param name="arg2"><see cref="Org.Apache.Pdfbox.Rendering.ImageType"/></param>
-        /// <returns><see cref="Java.Awt.Image.BufferedImage"/></returns>
+        /// <returns><see cref="Java.Awt.ImageNs.BufferedImage"/></returns>
         /// <exception cref="Java.Io.IOException"/>
-        public Java.Awt.Image.BufferedImage RenderImage(int arg0, float arg1, Org.Apache.Pdfbox.Rendering.ImageType arg2)
+        public Java.Awt.ImageNs.BufferedImage RenderImage(int arg0, float arg1, Org.Apache.Pdfbox.Rendering.ImageType arg2)
         {
-            return IExecuteWithSignature<Java.Awt.Image.BufferedImage>("renderImage", "(IFLorg/apache/pdfbox/rendering/ImageType;)Ljava/awt/image/BufferedImage;", arg0, arg1, arg2);
+            return IExecuteWithSignature<Java.Awt.ImageNs.BufferedImage>("renderImage", "(IFLorg/apache/pdfbox/rendering/ImageType;)Ljava/awt/image/BufferedImage;", arg0, arg1, arg2);
         }
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/rendering/PDFRenderer.html#renderImage-int-float-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="float"/></param>
-        /// <returns><see cref="Java.Awt.Image.BufferedImage"/></returns>
+        /// <returns><see cref="Java.Awt.ImageNs.BufferedImage"/></returns>
         /// <exception cref="Java.Io.IOException"/>
-        public Java.Awt.Image.BufferedImage RenderImage(int arg0, float arg1)
+        public Java.Awt.ImageNs.BufferedImage RenderImage(int arg0, float arg1)
         {
-            return IExecuteWithSignature<Java.Awt.Image.BufferedImage>("renderImage", "(IF)Ljava/awt/image/BufferedImage;", arg0, arg1);
+            return IExecuteWithSignature<Java.Awt.ImageNs.BufferedImage>("renderImage", "(IF)Ljava/awt/image/BufferedImage;", arg0, arg1);
         }
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/rendering/PDFRenderer.html#renderImage-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
-        /// <returns><see cref="Java.Awt.Image.BufferedImage"/></returns>
+        /// <returns><see cref="Java.Awt.ImageNs.BufferedImage"/></returns>
         /// <exception cref="Java.Io.IOException"/>
-        public Java.Awt.Image.BufferedImage RenderImage(int arg0)
+        public Java.Awt.ImageNs.BufferedImage RenderImage(int arg0)
         {
-            return IExecuteWithSignature<Java.Awt.Image.BufferedImage>("renderImage", "(I)Ljava/awt/image/BufferedImage;", arg0);
+            return IExecuteWithSignature<Java.Awt.ImageNs.BufferedImage>("renderImage", "(I)Ljava/awt/image/BufferedImage;", arg0);
         }
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/rendering/PDFRenderer.html#renderImageWithDPI-int-float-org.apache.pdfbox.rendering.ImageType-"/>
@@ -195,22 +195,22 @@ namespace Org.Apache.Pdfbox.Rendering
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="float"/></param>
         /// <param name="arg2"><see cref="Org.Apache.Pdfbox.Rendering.ImageType"/></param>
-        /// <returns><see cref="Java.Awt.Image.BufferedImage"/></returns>
+        /// <returns><see cref="Java.Awt.ImageNs.BufferedImage"/></returns>
         /// <exception cref="Java.Io.IOException"/>
-        public Java.Awt.Image.BufferedImage RenderImageWithDPI(int arg0, float arg1, Org.Apache.Pdfbox.Rendering.ImageType arg2)
+        public Java.Awt.ImageNs.BufferedImage RenderImageWithDPI(int arg0, float arg1, Org.Apache.Pdfbox.Rendering.ImageType arg2)
         {
-            return IExecuteWithSignature<Java.Awt.Image.BufferedImage>("renderImageWithDPI", "(IFLorg/apache/pdfbox/rendering/ImageType;)Ljava/awt/image/BufferedImage;", arg0, arg1, arg2);
+            return IExecuteWithSignature<Java.Awt.ImageNs.BufferedImage>("renderImageWithDPI", "(IFLorg/apache/pdfbox/rendering/ImageType;)Ljava/awt/image/BufferedImage;", arg0, arg1, arg2);
         }
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/rendering/PDFRenderer.html#renderImageWithDPI-int-float-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="float"/></param>
-        /// <returns><see cref="Java.Awt.Image.BufferedImage"/></returns>
+        /// <returns><see cref="Java.Awt.ImageNs.BufferedImage"/></returns>
         /// <exception cref="Java.Io.IOException"/>
-        public Java.Awt.Image.BufferedImage RenderImageWithDPI(int arg0, float arg1)
+        public Java.Awt.ImageNs.BufferedImage RenderImageWithDPI(int arg0, float arg1)
         {
-            return IExecuteWithSignature<Java.Awt.Image.BufferedImage>("renderImageWithDPI", "(IF)Ljava/awt/image/BufferedImage;", arg0, arg1);
+            return IExecuteWithSignature<Java.Awt.ImageNs.BufferedImage>("renderImageWithDPI", "(IF)Ljava/awt/image/BufferedImage;", arg0, arg1);
         }
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/rendering/PDFRenderer.html#renderPageToGraphics-int-java.awt.Graphics2D-float-float-org.apache.pdfbox.rendering.RenderDestination-"/>

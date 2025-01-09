@@ -221,9 +221,9 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Image
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.html#getImage--"/> 
         /// </summary>
-        public Java.Awt.Image.BufferedImage Image
+        public Java.Awt.ImageNs.BufferedImage Image
         {
-            get { return IExecuteWithSignature<Java.Awt.Image.BufferedImage>("getImage", "()Ljava/awt/image/BufferedImage;"); }
+            get { return IExecuteWithSignature<Java.Awt.ImageNs.BufferedImage>("getImage", "()Ljava/awt/image/BufferedImage;"); }
         }
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.html#getInterpolate--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.html#setInterpolate-boolean-"/>
@@ -249,9 +249,9 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Image
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.html#getOpaqueImage--"/> 
         /// </summary>
-        public Java.Awt.Image.BufferedImage OpaqueImage
+        public Java.Awt.ImageNs.BufferedImage OpaqueImage
         {
-            get { return IExecuteWithSignature<Java.Awt.Image.BufferedImage>("getOpaqueImage", "()Ljava/awt/image/BufferedImage;"); }
+            get { return IExecuteWithSignature<Java.Awt.ImageNs.BufferedImage>("getOpaqueImage", "()Ljava/awt/image/BufferedImage;"); }
         }
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.html#getOptionalContent--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.html#setOptionalContent-org.apache.pdfbox.pdmodel.documentinterchange.markedcontent.PDPropertyList-"/>
@@ -263,16 +263,16 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Image
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.html#getRawImage--"/> 
         /// </summary>
-        public Java.Awt.Image.BufferedImage RawImage
+        public Java.Awt.ImageNs.BufferedImage RawImage
         {
-            get { return IExecuteWithSignature<Java.Awt.Image.BufferedImage>("getRawImage", "()Ljava/awt/image/BufferedImage;"); }
+            get { return IExecuteWithSignature<Java.Awt.ImageNs.BufferedImage>("getRawImage", "()Ljava/awt/image/BufferedImage;"); }
         }
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.html#getRawRaster--"/> 
         /// </summary>
-        public Java.Awt.Image.WritableRaster RawRaster
+        public Java.Awt.ImageNs.WritableRaster RawRaster
         {
-            get { return IExecuteWithSignature<Java.Awt.Image.WritableRaster>("getRawRaster", "()Ljava/awt/image/WritableRaster;"); }
+            get { return IExecuteWithSignature<Java.Awt.ImageNs.WritableRaster>("getRawRaster", "()Ljava/awt/image/WritableRaster;"); }
         }
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.html#getSoftMask--"/> 
@@ -323,32 +323,32 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Image
         /// </summary>
         /// <param name="arg0"><see cref="Java.Awt.Rectangle"/></param>
         /// <param name="arg1"><see cref="int"/></param>
-        /// <returns><see cref="Java.Awt.Image.BufferedImage"/></returns>
+        /// <returns><see cref="Java.Awt.ImageNs.BufferedImage"/></returns>
         /// <exception cref="Java.Io.IOException"/>
-        public Java.Awt.Image.BufferedImage GetImage(Java.Awt.Rectangle arg0, int arg1)
+        public Java.Awt.ImageNs.BufferedImage GetImage(Java.Awt.Rectangle arg0, int arg1)
         {
-            return IExecuteWithSignature<Java.Awt.Image.BufferedImage>("getImage", "(Ljava/awt/Rectangle;I)Ljava/awt/image/BufferedImage;", arg0, arg1);
+            return IExecuteWithSignature<Java.Awt.ImageNs.BufferedImage>("getImage", "(Ljava/awt/Rectangle;I)Ljava/awt/image/BufferedImage;", arg0, arg1);
         }
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.html#getOpaqueImage-java.awt.Rectangle-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Awt.Rectangle"/></param>
         /// <param name="arg1"><see cref="int"/></param>
-        /// <returns><see cref="Java.Awt.Image.BufferedImage"/></returns>
+        /// <returns><see cref="Java.Awt.ImageNs.BufferedImage"/></returns>
         /// <exception cref="Java.Io.IOException"/>
-        public Java.Awt.Image.BufferedImage GetOpaqueImage(Java.Awt.Rectangle arg0, int arg1)
+        public Java.Awt.ImageNs.BufferedImage GetOpaqueImage(Java.Awt.Rectangle arg0, int arg1)
         {
-            return IExecuteWithSignature<Java.Awt.Image.BufferedImage>("getOpaqueImage", "(Ljava/awt/Rectangle;I)Ljava/awt/image/BufferedImage;", arg0, arg1);
+            return IExecuteWithSignature<Java.Awt.ImageNs.BufferedImage>("getOpaqueImage", "(Ljava/awt/Rectangle;I)Ljava/awt/image/BufferedImage;", arg0, arg1);
         }
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.html#getStencilImage-java.awt.Paint-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Awt.Paint"/></param>
-        /// <returns><see cref="Java.Awt.Image.BufferedImage"/></returns>
+        /// <returns><see cref="Java.Awt.ImageNs.BufferedImage"/></returns>
         /// <exception cref="Java.Io.IOException"/>
-        public Java.Awt.Image.BufferedImage GetStencilImage(Java.Awt.Paint arg0)
+        public Java.Awt.ImageNs.BufferedImage GetStencilImage(Java.Awt.Paint arg0)
         {
-            return IExecuteWithSignature<Java.Awt.Image.BufferedImage>("getStencilImage", "(Ljava/awt/Paint;)Ljava/awt/image/BufferedImage;", arg0);
+            return IExecuteWithSignature<Java.Awt.ImageNs.BufferedImage>("getStencilImage", "(Ljava/awt/Paint;)Ljava/awt/image/BufferedImage;", arg0);
         }
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/image/PDImageXObject.html#createInputStream--"/>

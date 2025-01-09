@@ -103,11 +103,11 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Blend
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/blend/BlendComposite.html#createContext-java.awt.image.ColorModel-java.awt.image.ColorModel-java.awt.RenderingHints-"/>
         /// </summary>
-        /// <param name="arg0"><see cref="Java.Awt.Image.ColorModel"/></param>
-        /// <param name="arg1"><see cref="Java.Awt.Image.ColorModel"/></param>
+        /// <param name="arg0"><see cref="Java.Awt.ImageNs.ColorModel"/></param>
+        /// <param name="arg1"><see cref="Java.Awt.ImageNs.ColorModel"/></param>
         /// <param name="arg2"><see cref="Java.Awt.RenderingHints"/></param>
         /// <returns><see cref="Java.Awt.CompositeContext"/></returns>
-        public Java.Awt.CompositeContext CreateContext(Java.Awt.Image.ColorModel arg0, Java.Awt.Image.ColorModel arg1, Java.Awt.RenderingHints arg2)
+        public Java.Awt.CompositeContext CreateContext(Java.Awt.ImageNs.ColorModel arg0, Java.Awt.ImageNs.ColorModel arg1, Java.Awt.RenderingHints arg2)
         {
             return IExecuteWithSignature<Java.Awt.CompositeContext>("createContext", "(Ljava/awt/image/ColorModel;Ljava/awt/image/ColorModel;Ljava/awt/RenderingHints;)Ljava/awt/CompositeContext;", arg0, arg1, arg2);
         }
