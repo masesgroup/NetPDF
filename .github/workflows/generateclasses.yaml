@@ -184,7 +184,7 @@ jobs:
           commit-message: Update generated classes using last unpublished version of JNetReflector after commit ${{ env.GITHUB_COMMIT_MESSAGE }}
           title: Changes by GitHub action
           body: |
-            Automated changes by GitHub action, fix #92
+            Automated changes by GitHub action, fix #5
           reviewers: masesdevelopers
           assignees: masesdevelopers
           labels: java, .NET, enhancement 
@@ -198,7 +198,7 @@ jobs:
           commit-message: Update generated classes using last public version of JNetReflector after commit ${{ env.GITHUB_COMMIT_MESSAGE }}
           title: Changes by GitHub action
           body: |
-            Automated changes by GitHub action, fix #92
+            Automated changes by GitHub action, fix #5
           reviewers: masesdevelopers
           assignees: masesdevelopers
           labels: java, .NET, enhancement 
