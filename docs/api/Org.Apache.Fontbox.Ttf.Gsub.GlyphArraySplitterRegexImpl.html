@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>Class GlyphArraySplitterRegexImpl | MASES Group - NetPDF </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class GlyphArraySplitterRegexImpl | MASES Group - NetPDF ">
+      <meta name="description" content="This is a descriptive page of NetPDF, the PDFBox suite for .NET">
+      <meta name="description" content="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/gsub/GlyphArraySplitterRegexImpl.html">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/masesgroup/NetPDF/new/master/apiSpec/new?filename=Org_Apache_Fontbox_Ttf_Gsub_GlyphArraySplitterRegexImpl.md&amp;value=---%0Auid%3A%20Org.Apache.Fontbox.Ttf.Gsub.GlyphArraySplitterRegexImpl%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Org.Apache.Fontbox.Ttf.Gsub.GlyphArraySplitterRegexImpl">
+
+
+
+  <h1 id="Org_Apache_Fontbox_Ttf_Gsub_GlyphArraySplitterRegexImpl" data-uid="Org.Apache.Fontbox.Ttf.Gsub.GlyphArraySplitterRegexImpl" class="text-break">
+Class GlyphArraySplitterRegexImpl  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Gsub/GlyphArraySplitterRegexImpl.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Org.html">Org</a>.<a class="xref" href="Org.Apache.html">Apache</a>.<a class="xref" href="Org.Apache.Fontbox.html">Fontbox</a>.<a class="xref" href="Org.Apache.Fontbox.Ttf.html">Ttf</a>.<a class="xref" href="Org.Apache.Fontbox.Ttf.Gsub.html">Gsub</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>MASES.NetPDF.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/gsub/GlyphArraySplitterRegexImpl.html">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/gsub/GlyphArraySplitterRegexImpl.html</a></p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class GlyphArraySplitterRegexImpl : GlyphArraySplitter, IDynamicMetaObjectProvider, IJVMBridgeCore, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, IGlyphArraySplitter</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject">DynamicObject</a></div>
+      <div><span class="xref">JVMBridgeBase</span></div>
+      <div><span class="xref">JVMBridgeBase</span>&lt;<a class="xref" href="Org.Apache.Fontbox.Ttf.Gsub.GlyphArraySplitter.html">GlyphArraySplitter</a>&gt;</div>
+      <div><a class="xref" href="Org.Apache.Fontbox.Ttf.Gsub.GlyphArraySplitter.html">GlyphArraySplitter</a></div>
+      <div><span class="xref">GlyphArraySplitterRegexImpl</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
+      <div><span class="xref">IJVMBridgeCore</span></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><span class="xref">IJVMBridgeBaseStatic</span></div>
+      <div><span class="xref">IJVMBridgeBase</span></div>
+      <div><span class="xref">IJVMBridgeDefinition</span></div>
+      <div><a class="xref" href="Org.Apache.Fontbox.Ttf.Gsub.IGlyphArraySplitter.html">IGlyphArraySplitter</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecute(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecuteWithSignature(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecute(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecuteWithSignature(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecute&lt;TReturn&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecuteWithSignature&lt;TReturn&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecute&lt;TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecuteWithSignature&lt;TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecute(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecuteWithSignature(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecute(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecuteWithSignature(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecute&lt;TNewClass, TReturn&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecuteWithSignature&lt;TNewClass, TReturn&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecute&lt;TNewClass, TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecuteWithSignature&lt;TNewClass, TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecute&lt;TReturn&gt;(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecuteWithSignature&lt;TReturn&gt;(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecute&lt;TReturn&gt;(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecuteWithSignature&lt;TReturn&gt;(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecute&lt;TNewClass, TReturn, TConverter&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecute&lt;TNewClass, TReturn, TConverter&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecute&lt;TReturn, TConverter&gt;(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecute&lt;TReturn, TConverter&gt;(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecuteArray&lt;T&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecuteWithSignatureArray&lt;T&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecuteArray&lt;T&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SGetField(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SGetField(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SGetField&lt;TReturn&gt;(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SGetField&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SGetFieldArray&lt;TReturn&gt;(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SGetFieldArray&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SSetField(IJavaType, string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SSetField(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SSetField&lt;TValue&gt;(IJavaType, string, TValue)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.SSetField&lt;TValue&gt;(string, TValue)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.IsAssignableFrom(string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;GlyphArraySplitter&gt;.IsAssignableFrom(IJavaType)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;GlyphArraySplitter&gt;.IsAssignableFrom&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase&lt;GlyphArraySplitter&gt;.New(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;GlyphArraySplitter&gt;.NewWithSignature(string, params object[])</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;GlyphArraySplitter&gt;.Execute&lt;T&gt;(params T[])</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;GlyphArraySplitter&gt;.DynBridgeClazz</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;GlyphArraySplitter&gt;.BridgeClazz</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ClassNameOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ClassOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.WrapsDirect&lt;TNewClass&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps(Type, IJavaObject, string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass, TReturn&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps&lt;TReturn&gt;(Type, IJavaObject, string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass, TReturn, TConverter&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps&lt;TReturn, TConverter&gt;(Type, IJavaObject)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.MonitorEnter()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.MonitorExit()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IsInstanceOf(string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsInstanceOf(IJavaType)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsInstanceOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.RuntimeIsInstanceOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.CastTo&lt;TNewClass&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.CastDirect&lt;TNewClass&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ToString()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Notify()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.NotifyAll()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wait()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">JVMBridgeBase.Wait(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">JVMBridgeBase.Wait(long, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TNewClass, TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TNewClass, TReturn, TConverter&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;T&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetFieldArray&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ISetField(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ISetField&lt;TValue&gt;(string, TValue)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.DynBridgeInstance</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.BridgeInstance</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsBridgeListener</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trygetmember">DynamicObject.TryGetMember(GetMemberBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trysetmember">DynamicObject.TrySetMember(SetMemberBinder, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trydeletemember">DynamicObject.TryDeleteMember(DeleteMemberBinder)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryinvokemember">DynamicObject.TryInvokeMember(InvokeMemberBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryconvert">DynamicObject.TryConvert(ConvertBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trycreateinstance">DynamicObject.TryCreateInstance(CreateInstanceBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryinvoke">DynamicObject.TryInvoke(InvokeBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trybinaryoperation">DynamicObject.TryBinaryOperation(BinaryOperationBinder, object, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryunaryoperation">DynamicObject.TryUnaryOperation(UnaryOperationBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trygetindex">DynamicObject.TryGetIndex(GetIndexBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trysetindex">DynamicObject.TrySetIndex(SetIndexBinder, object[], object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trydeleteindex">DynamicObject.TryDeleteIndex(DeleteIndexBinder, object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.getdynamicmembernames">DynamicObject.GetDynamicMemberNames()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.getmetaobject">DynamicObject.GetMetaObject(Expression)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Org_Apache_Fontbox_Ttf_Gsub_GlyphArraySplitterRegexImpl__ctor_" data-uid="Org.Apache.Fontbox.Ttf.Gsub.GlyphArraySplitterRegexImpl.#ctor*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_Gsub_GlyphArraySplitterRegexImpl__ctor" data-uid="Org.Apache.Fontbox.Ttf.Gsub.GlyphArraySplitterRegexImpl.#ctor">
+  GlyphArraySplitterRegexImpl()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Gsub/GlyphArraySplitterRegexImpl.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Default constructor: even if the corresponding Java class does not have one, it is mandatory for JCOBridge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlyphArraySplitterRegexImpl()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_Gsub_GlyphArraySplitterRegexImpl__ctor_" data-uid="Org.Apache.Fontbox.Ttf.Gsub.GlyphArraySplitterRegexImpl.#ctor*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_Gsub_GlyphArraySplitterRegexImpl__ctor_Java_Util_Set_Java_Util_List_Java_Lang_Integer___" data-uid="Org.Apache.Fontbox.Ttf.Gsub.GlyphArraySplitterRegexImpl.#ctor(Java.Util.Set{Java.Util.List{Java.Lang.Integer}})">
+  GlyphArraySplitterRegexImpl(Set&lt;List&lt;Integer&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Gsub/GlyphArraySplitterRegexImpl.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/gsub/GlyphArraySplitterRegexImpl.html#org.apache.fontbox.ttf.gsub.GlyphArraySplitterRegexImpl(java.util.Set)">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/gsub/GlyphArraySplitterRegexImpl.html#org.apache.fontbox.ttf.gsub.GlyphArraySplitterRegexImpl(java.util.Set)</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlyphArraySplitterRegexImpl(Set&lt;List&lt;Integer&gt;&gt; arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <span class="xref">Set</span>&lt;<span class="xref">List</span>&lt;<span class="xref">Integer</span>&gt;&gt;</dt>
+    <dd><p><span class="xref">Java.Util.Set</span></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_Gsub_GlyphArraySplitterRegexImpl__ctor_" data-uid="Org.Apache.Fontbox.Ttf.Gsub.GlyphArraySplitterRegexImpl.#ctor*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_Gsub_GlyphArraySplitterRegexImpl__ctor_System_Object___" data-uid="Org.Apache.Fontbox.Ttf.Gsub.GlyphArraySplitterRegexImpl.#ctor(System.Object[])">
+  GlyphArraySplitterRegexImpl(params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Gsub/GlyphArraySplitterRegexImpl.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlyphArraySplitterRegexImpl(params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Org_Apache_Fontbox_Ttf_Gsub_GlyphArraySplitterRegexImpl_BridgeClassName_" data-uid="Org.Apache.Fontbox.Ttf.Gsub.GlyphArraySplitterRegexImpl.BridgeClassName*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_Gsub_GlyphArraySplitterRegexImpl_BridgeClassName" data-uid="Org.Apache.Fontbox.Ttf.Gsub.GlyphArraySplitterRegexImpl.BridgeClassName">
+  BridgeClassName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Gsub/GlyphArraySplitterRegexImpl.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_BridgeClassName.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_BridgeClassName.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string BridgeClassName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_Gsub_GlyphArraySplitterRegexImpl_IsBridgeAbstract_" data-uid="Org.Apache.Fontbox.Ttf.Gsub.GlyphArraySplitterRegexImpl.IsBridgeAbstract*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_Gsub_GlyphArraySplitterRegexImpl_IsBridgeAbstract" data-uid="Org.Apache.Fontbox.Ttf.Gsub.GlyphArraySplitterRegexImpl.IsBridgeAbstract">
+  IsBridgeAbstract
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Gsub/GlyphArraySplitterRegexImpl.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeAbstract.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeAbstract.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeAbstract { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_Gsub_GlyphArraySplitterRegexImpl_IsBridgeCloseable_" data-uid="Org.Apache.Fontbox.Ttf.Gsub.GlyphArraySplitterRegexImpl.IsBridgeCloseable*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_Gsub_GlyphArraySplitterRegexImpl_IsBridgeCloseable" data-uid="Org.Apache.Fontbox.Ttf.Gsub.GlyphArraySplitterRegexImpl.IsBridgeCloseable">
+  IsBridgeCloseable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Gsub/GlyphArraySplitterRegexImpl.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeCloseable.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeCloseable.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeCloseable { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_Gsub_GlyphArraySplitterRegexImpl_IsBridgeInterface_" data-uid="Org.Apache.Fontbox.Ttf.Gsub.GlyphArraySplitterRegexImpl.IsBridgeInterface*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_Gsub_GlyphArraySplitterRegexImpl_IsBridgeInterface" data-uid="Org.Apache.Fontbox.Ttf.Gsub.GlyphArraySplitterRegexImpl.IsBridgeInterface">
+  IsBridgeInterface
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Gsub/GlyphArraySplitterRegexImpl.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeInterface.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeInterface.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeInterface { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_Gsub_GlyphArraySplitterRegexImpl_IsBridgeStatic_" data-uid="Org.Apache.Fontbox.Ttf.Gsub.GlyphArraySplitterRegexImpl.IsBridgeStatic*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_Gsub_GlyphArraySplitterRegexImpl_IsBridgeStatic" data-uid="Org.Apache.Fontbox.Ttf.Gsub.GlyphArraySplitterRegexImpl.IsBridgeStatic">
+  IsBridgeStatic
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Gsub/GlyphArraySplitterRegexImpl.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeStatic.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeStatic.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeStatic { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Org_Apache_Fontbox_Ttf_Gsub_GlyphArraySplitterRegexImpl_Split_" data-uid="Org.Apache.Fontbox.Ttf.Gsub.GlyphArraySplitterRegexImpl.Split*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_Gsub_GlyphArraySplitterRegexImpl_Split_Java_Util_List_Java_Lang_Integer__" data-uid="Org.Apache.Fontbox.Ttf.Gsub.GlyphArraySplitterRegexImpl.Split(Java.Util.List{Java.Lang.Integer})">
+  Split(List&lt;Integer&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Gsub/GlyphArraySplitterRegexImpl.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/gsub/GlyphArraySplitterRegexImpl.html#split-java.util.List-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/gsub/GlyphArraySplitterRegexImpl.html#split-java.util.List-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;List&lt;Integer&gt;&gt; Split(List&lt;Integer&gt; arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <span class="xref">List</span>&lt;<span class="xref">Integer</span>&gt;</dt>
+    <dd><p><span class="xref">Java.Util.List</span></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<span class="xref">List</span>&lt;<span class="xref">Integer</span>&gt;&gt;</dt>
+    <dd><p><span class="xref">Java.Util.List</span></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Gsub/GlyphArraySplitterRegexImpl.cs/#L74" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <div style="text-align: center;">Copyright © 2025 MASES s.r.l.. | Via San Cesidio 16 - San Valentino in A.C. - PE | P.I. 01932310681</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

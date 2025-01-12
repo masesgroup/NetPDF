@@ -1,0 +1,1869 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>Class PDEncryption | MASES Group - NetPDF </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PDEncryption | MASES Group - NetPDF ">
+      <meta name="description" content="This is a descriptive page of NetPDF, the PDFBox suite for .NET">
+      <meta name="description" content="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/masesgroup/NetPDF/new/master/apiSpec/new?filename=Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption.md&amp;value=---%0Auid%3A%20Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption">
+
+
+
+  <h1 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption" class="text-break">
+Class PDEncryption  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Org.html">Org</a>.<a class="xref" href="Org.Apache.html">Apache</a>.<a class="xref" href="Org.Apache.Pdfbox.html">Pdfbox</a>.<a class="xref" href="Org.Apache.Pdfbox.Pdmodel.html">Pdmodel</a>.<a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Encryption.html">Encryption</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>MASES.NetPDF.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html</a></p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PDEncryption : COSObjectable, IDynamicMetaObjectProvider, IJVMBridgeCore, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, ICOSObjectable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject">DynamicObject</a></div>
+      <div><span class="xref">JVMBridgeBase</span></div>
+      <div><span class="xref">JVMBridgeBase</span>&lt;<a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable.html">COSObjectable</a>&gt;</div>
+      <div><a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable.html">COSObjectable</a></div>
+      <div><span class="xref">PDEncryption</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
+      <div><span class="xref">IJVMBridgeCore</span></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><span class="xref">IJVMBridgeBaseStatic</span></div>
+      <div><span class="xref">IJVMBridgeBase</span></div>
+      <div><span class="xref">IJVMBridgeDefinition</span></div>
+      <div><a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Common.ICOSObjectable.html">ICOSObjectable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecute(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecute(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TReturn&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TReturn&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecute(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecute(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TNewClass, TReturn&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TNewClass, TReturn&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TNewClass, TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TNewClass, TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TReturn&gt;(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TReturn&gt;(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TReturn&gt;(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TReturn&gt;(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TNewClass, TReturn, TConverter&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TNewClass, TReturn, TConverter&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TReturn, TConverter&gt;(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TReturn, TConverter&gt;(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;T&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;T&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;T&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SGetField(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SGetField(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SGetField&lt;TReturn&gt;(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SGetField&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SGetFieldArray&lt;TReturn&gt;(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SGetFieldArray&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SSetField(IJavaType, string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SSetField(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SSetField&lt;TValue&gt;(IJavaType, string, TValue)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SSetField&lt;TValue&gt;(string, TValue)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.IsAssignableFrom(string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;COSObjectable&gt;.IsAssignableFrom(IJavaType)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;COSObjectable&gt;.IsAssignableFrom&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase&lt;COSObjectable&gt;.New(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.NewWithSignature(string, params object[])</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;COSObjectable&gt;.Execute&lt;T&gt;(params T[])</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;COSObjectable&gt;.DynBridgeClazz</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;COSObjectable&gt;.BridgeClazz</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ClassNameOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ClassOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.WrapsDirect&lt;TNewClass&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps(Type, IJavaObject, string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass, TReturn&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps&lt;TReturn&gt;(Type, IJavaObject, string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass, TReturn, TConverter&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps&lt;TReturn, TConverter&gt;(Type, IJavaObject)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.MonitorEnter()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.MonitorExit()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IsInstanceOf(string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsInstanceOf(IJavaType)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsInstanceOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.RuntimeIsInstanceOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.CastTo&lt;TNewClass&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.CastDirect&lt;TNewClass&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ToString()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Notify()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.NotifyAll()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wait()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">JVMBridgeBase.Wait(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">JVMBridgeBase.Wait(long, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TNewClass, TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TNewClass, TReturn, TConverter&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;T&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetFieldArray&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ISetField(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ISetField&lt;TValue&gt;(string, TValue)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.DynBridgeInstance</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.BridgeInstance</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsBridgeListener</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trygetmember">DynamicObject.TryGetMember(GetMemberBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trysetmember">DynamicObject.TrySetMember(SetMemberBinder, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trydeletemember">DynamicObject.TryDeleteMember(DeleteMemberBinder)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryinvokemember">DynamicObject.TryInvokeMember(InvokeMemberBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryconvert">DynamicObject.TryConvert(ConvertBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trycreateinstance">DynamicObject.TryCreateInstance(CreateInstanceBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryinvoke">DynamicObject.TryInvoke(InvokeBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trybinaryoperation">DynamicObject.TryBinaryOperation(BinaryOperationBinder, object, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryunaryoperation">DynamicObject.TryUnaryOperation(UnaryOperationBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trygetindex">DynamicObject.TryGetIndex(GetIndexBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trysetindex">DynamicObject.TrySetIndex(SetIndexBinder, object[], object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trydeleteindex">DynamicObject.TryDeleteIndex(DeleteIndexBinder, object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.getdynamicmembernames">DynamicObject.GetDynamicMemberNames()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.getmetaobject">DynamicObject.GetMetaObject(Expression)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.#ctor*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption__ctor" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.#ctor">
+  PDEncryption()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Default constructor: even if the corresponding Java class does not have one, it is mandatory for JCOBridge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PDEncryption()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.#ctor*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption__ctor_Org_Apache_Pdfbox_Cos_COSDictionary_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.#ctor(Org.Apache.Pdfbox.Cos.COSDictionary)">
+  PDEncryption(COSDictionary)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#org.apache.pdfbox.pdmodel.encryption.PDEncryption(org.apache.pdfbox.cos.COSDictionary)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#org.apache.pdfbox.pdmodel.encryption.PDEncryption(org.apache.pdfbox.cos.COSDictionary)</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PDEncryption(COSDictionary arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html">COSDictionary</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html">COSDictionary</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.#ctor*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption__ctor_System_Object___" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.#ctor(System.Object[])">
+  PDEncryption(params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PDEncryption(params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_BridgeClassName_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.BridgeClassName*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_BridgeClassName" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.BridgeClassName">
+  BridgeClassName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_BridgeClassName.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_BridgeClassName.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string BridgeClassName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_COSObject_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.COSObject*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_COSObject" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.COSObject">
+  COSObject
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getCOSObject--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getCOSObject--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public COSBase COSObject { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Cos.COSBase.html">COSBase</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_DEFAULT_LENGTH_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.DEFAULT_LENGTH*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_DEFAULT_LENGTH" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.DEFAULT_LENGTH">
+  DEFAULT_LENGTH
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#DEFAULT_LENGTH">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#DEFAULT_LENGTH</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int DEFAULT_LENGTH { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_DEFAULT_NAME_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.DEFAULT_NAME*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_DEFAULT_NAME" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.DEFAULT_NAME">
+  DEFAULT_NAME
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#DEFAULT_NAME">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#DEFAULT_NAME</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String DEFAULT_NAME { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_DEFAULT_VERSION_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.DEFAULT_VERSION*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_DEFAULT_VERSION" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.DEFAULT_VERSION">
+  DEFAULT_VERSION
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#DEFAULT_VERSION">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#DEFAULT_VERSION</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int DEFAULT_VERSION { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_DefaultCryptFilterDictionary_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.DefaultCryptFilterDictionary*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_DefaultCryptFilterDictionary" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.DefaultCryptFilterDictionary">
+  DefaultCryptFilterDictionary
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getDefaultCryptFilterDictionary--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getDefaultCryptFilterDictionary--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setDefaultCryptFilterDictionary-org.apache.pdfbox.pdmodel.encryption.PDCryptFilterDictionary-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setDefaultCryptFilterDictionary-org.apache.pdfbox.pdmodel.encryption.PDCryptFilterDictionary-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PDCryptFilterDictionary DefaultCryptFilterDictionary { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Encryption.PDCryptFilterDictionary.html">PDCryptFilterDictionary</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_Filter_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.Filter*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_Filter" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.Filter">
+  Filter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getFilter--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getFilter--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setFilter-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setFilter-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public String Filter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_IsBridgeAbstract_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.IsBridgeAbstract*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_IsBridgeAbstract" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.IsBridgeAbstract">
+  IsBridgeAbstract
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeAbstract.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeAbstract.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeAbstract { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_IsBridgeCloseable_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.IsBridgeCloseable*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_IsBridgeCloseable" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.IsBridgeCloseable">
+  IsBridgeCloseable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeCloseable.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeCloseable.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeCloseable { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_IsBridgeInterface_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.IsBridgeInterface*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_IsBridgeInterface" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.IsBridgeInterface">
+  IsBridgeInterface
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeInterface.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeInterface.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeInterface { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_IsBridgeStatic_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.IsBridgeStatic*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_IsBridgeStatic" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.IsBridgeStatic">
+  IsBridgeStatic
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeStatic.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeStatic.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeStatic { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_Length_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.Length*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_Length" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.Length">
+  Length
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L173"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getLength--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getLength--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setLength-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setLength-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Length { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_OwnerEncryptionKey_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.OwnerEncryptionKey*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_OwnerEncryptionKey" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.OwnerEncryptionKey">
+  OwnerEncryptionKey
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L180"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getOwnerEncryptionKey--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getOwnerEncryptionKey--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setOwnerEncryptionKey-byte[]-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setOwnerEncryptionKey-byte[]-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] OwnerEncryptionKey { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_OwnerKey_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.OwnerKey*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_OwnerKey" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.OwnerKey">
+  OwnerKey
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getOwnerKey--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getOwnerKey--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setOwnerKey-byte[]-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setOwnerKey-byte[]-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] OwnerKey { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_Permissions_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.Permissions*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_Permissions" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.Permissions">
+  Permissions
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getPermissions--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getPermissions--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setPermissions-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setPermissions-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Permissions { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_Perms_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.Perms*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_Perms" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.Perms">
+  Perms
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getPerms--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getPerms--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setPerms-byte[]-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setPerms-byte[]-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] Perms { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_RecipientsLength_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.RecipientsLength*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_RecipientsLength" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.RecipientsLength">
+  RecipientsLength
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getRecipientsLength--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getRecipientsLength--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int RecipientsLength { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_Revision_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.Revision*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_Revision" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.Revision">
+  Revision
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L215"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getRevision--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getRevision--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setRevision-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setRevision-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Revision { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_SecurityHandler_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.SecurityHandler*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_SecurityHandler" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.SecurityHandler">
+  SecurityHandler
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getSecurityHandler--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getSecurityHandler--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setSecurityHandler-org.apache.pdfbox.pdmodel.encryption.SecurityHandler-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setSecurityHandler-org.apache.pdfbox.pdmodel.encryption.SecurityHandler-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SecurityHandler&lt;ProtectionPolicy&gt; SecurityHandler { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html">SecurityHandler</a>&lt;<a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Encryption.ProtectionPolicy.html">ProtectionPolicy</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_StdCryptFilterDictionary_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.StdCryptFilterDictionary*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_StdCryptFilterDictionary" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.StdCryptFilterDictionary">
+  StdCryptFilterDictionary
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L229"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getStdCryptFilterDictionary--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getStdCryptFilterDictionary--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setStdCryptFilterDictionary-org.apache.pdfbox.pdmodel.encryption.PDCryptFilterDictionary-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setStdCryptFilterDictionary-org.apache.pdfbox.pdmodel.encryption.PDCryptFilterDictionary-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PDCryptFilterDictionary StdCryptFilterDictionary { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Encryption.PDCryptFilterDictionary.html">PDCryptFilterDictionary</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_StreamFilterName_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.StreamFilterName*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_StreamFilterName" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.StreamFilterName">
+  StreamFilterName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L236"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getStreamFilterName--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getStreamFilterName--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setStreamFilterName-org.apache.pdfbox.cos.COSName-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setStreamFilterName-org.apache.pdfbox.cos.COSName-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public COSName StreamFilterName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Cos.COSName.html">COSName</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_StringFilterName_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.StringFilterName*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_StringFilterName" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.StringFilterName">
+  StringFilterName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L243"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getStringFilterName--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getStringFilterName--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setStringFilterName-org.apache.pdfbox.cos.COSName-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setStringFilterName-org.apache.pdfbox.cos.COSName-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public COSName StringFilterName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Cos.COSName.html">COSName</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_SubFilter_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.SubFilter*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_SubFilter" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.SubFilter">
+  SubFilter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L250"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getSubFilter--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getSubFilter--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setSubFilter-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setSubFilter-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public String SubFilter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_UserEncryptionKey_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.UserEncryptionKey*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_UserEncryptionKey" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.UserEncryptionKey">
+  UserEncryptionKey
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L257"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getUserEncryptionKey--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getUserEncryptionKey--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setUserEncryptionKey-byte[]-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setUserEncryptionKey-byte[]-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] UserEncryptionKey { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_UserKey_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.UserKey*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_UserKey" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.UserKey">
+  UserKey
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L264"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getUserKey--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getUserKey--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setUserKey-byte[]-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setUserKey-byte[]-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] UserKey { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_VERSION0_UNDOCUMENTED_UNSUPPORTED_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.VERSION0_UNDOCUMENTED_UNSUPPORTED*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_VERSION0_UNDOCUMENTED_UNSUPPORTED" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.VERSION0_UNDOCUMENTED_UNSUPPORTED">
+  VERSION0_UNDOCUMENTED_UNSUPPORTED
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#VERSION0_UNDOCUMENTED_UNSUPPORTED">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#VERSION0_UNDOCUMENTED_UNSUPPORTED</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int VERSION0_UNDOCUMENTED_UNSUPPORTED { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_VERSION1_40_BIT_ALGORITHM_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.VERSION1_40_BIT_ALGORITHM*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_VERSION1_40_BIT_ALGORITHM" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.VERSION1_40_BIT_ALGORITHM">
+  VERSION1_40_BIT_ALGORITHM
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#VERSION1_40_BIT_ALGORITHM">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#VERSION1_40_BIT_ALGORITHM</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int VERSION1_40_BIT_ALGORITHM { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_VERSION2_VARIABLE_LENGTH_ALGORITHM_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.VERSION2_VARIABLE_LENGTH_ALGORITHM*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_VERSION2_VARIABLE_LENGTH_ALGORITHM" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.VERSION2_VARIABLE_LENGTH_ALGORITHM">
+  VERSION2_VARIABLE_LENGTH_ALGORITHM
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#VERSION2_VARIABLE_LENGTH_ALGORITHM">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#VERSION2_VARIABLE_LENGTH_ALGORITHM</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int VERSION2_VARIABLE_LENGTH_ALGORITHM { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_VERSION3_UNPUBLISHED_ALGORITHM_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.VERSION3_UNPUBLISHED_ALGORITHM*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_VERSION3_UNPUBLISHED_ALGORITHM" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.VERSION3_UNPUBLISHED_ALGORITHM">
+  VERSION3_UNPUBLISHED_ALGORITHM
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#VERSION3_UNPUBLISHED_ALGORITHM">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#VERSION3_UNPUBLISHED_ALGORITHM</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int VERSION3_UNPUBLISHED_ALGORITHM { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_VERSION4_SECURITY_HANDLER_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.VERSION4_SECURITY_HANDLER*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_VERSION4_SECURITY_HANDLER" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.VERSION4_SECURITY_HANDLER">
+  VERSION4_SECURITY_HANDLER
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#VERSION4_SECURITY_HANDLER">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#VERSION4_SECURITY_HANDLER</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int VERSION4_SECURITY_HANDLER { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_Version_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.Version*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_Version" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L271"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getVersion--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getVersion--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setVersion-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setVersion-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_GetCryptFilterDictionary_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.GetCryptFilterDictionary*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_GetCryptFilterDictionary_Org_Apache_Pdfbox_Cos_COSName_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.GetCryptFilterDictionary(Org.Apache.Pdfbox.Cos.COSName)">
+  GetCryptFilterDictionary(COSName)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L305"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getCryptFilterDictionary-org.apache.pdfbox.cos.COSName-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getCryptFilterDictionary-org.apache.pdfbox.cos.COSName-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PDCryptFilterDictionary GetCryptFilterDictionary(COSName arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="Org.Apache.Pdfbox.Cos.COSName.html">COSName</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Pdfbox.Cos.COSName.html">COSName</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Encryption.PDCryptFilterDictionary.html">PDCryptFilterDictionary</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Encryption.PDCryptFilterDictionary.html">PDCryptFilterDictionary</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_GetRecipientStringAt_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.GetRecipientStringAt*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_GetRecipientStringAt_System_Int32_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.GetRecipientStringAt(System.Int32)">
+  GetRecipientStringAt(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L296"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getRecipientStringAt-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#getRecipientStringAt-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public COSString GetRecipientStringAt(int arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Cos.COSString.html">COSString</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Pdfbox.Cos.COSString.html">COSString</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_HasSecurityHandler_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.HasSecurityHandler*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_HasSecurityHandler" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.HasSecurityHandler">
+  HasSecurityHandler()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L279"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#hasSecurityHandler--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#hasSecurityHandler--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSecurityHandler()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_IsEncryptMetaData_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.IsEncryptMetaData*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_IsEncryptMetaData" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.IsEncryptMetaData">
+  IsEncryptMetaData()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L287"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#isEncryptMetaData--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#isEncryptMetaData--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEncryptMetaData()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_RemoveV45filters_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.RemoveV45filters*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_RemoveV45filters" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.RemoveV45filters">
+  RemoveV45filters()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L312"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#removeV45filters--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#removeV45filters--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveV45filters()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_SetCryptFilterDictionary_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.SetCryptFilterDictionary*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_SetCryptFilterDictionary_Org_Apache_Pdfbox_Cos_COSName_Org_Apache_Pdfbox_Pdmodel_Encryption_PDCryptFilterDictionary_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.SetCryptFilterDictionary(Org.Apache.Pdfbox.Cos.COSName,Org.Apache.Pdfbox.Pdmodel.Encryption.PDCryptFilterDictionary)">
+  SetCryptFilterDictionary(COSName, PDCryptFilterDictionary)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L321"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setCryptFilterDictionary-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.pdmodel.encryption.PDCryptFilterDictionary-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setCryptFilterDictionary-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.pdmodel.encryption.PDCryptFilterDictionary-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCryptFilterDictionary(COSName arg0, PDCryptFilterDictionary arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="Org.Apache.Pdfbox.Cos.COSName.html">COSName</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Pdfbox.Cos.COSName.html">COSName</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Encryption.PDCryptFilterDictionary.html">PDCryptFilterDictionary</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Encryption.PDCryptFilterDictionary.html">PDCryptFilterDictionary</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_SetRecipients_" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.SetRecipients*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_SetRecipients_System_Byte_____" data-uid="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption.SetRecipients(System.Byte[][])">
+  SetRecipients(byte[][])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L330"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setRecipients-byte[][]-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/encryption/PDEncryption.html#setRecipients-byte[][]-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetRecipients(byte[][] arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[][]</dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IOException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Encryption/PDEncryption.cs/#L74" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <div style="text-align: center;">Copyright © 2025 MASES s.r.l.. | Via San Cesidio 16 - San Valentino in A.C. - PE | P.I. 01932310681</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

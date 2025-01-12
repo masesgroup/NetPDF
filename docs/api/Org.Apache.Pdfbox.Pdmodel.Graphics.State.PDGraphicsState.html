@@ -1,0 +1,1993 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>Class PDGraphicsState | MASES Group - NetPDF </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PDGraphicsState | MASES Group - NetPDF ">
+      <meta name="description" content="This is a descriptive page of NetPDF, the PDFBox suite for .NET">
+      <meta name="description" content="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/masesgroup/NetPDF/new/master/apiSpec/new?filename=Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState.md&amp;value=---%0Auid%3A%20Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState">
+
+
+
+  <h1 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState" class="text-break">
+Class PDGraphicsState  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Org.html">Org</a>.<a class="xref" href="Org.Apache.html">Apache</a>.<a class="xref" href="Org.Apache.Pdfbox.html">Pdfbox</a>.<a class="xref" href="Org.Apache.Pdfbox.Pdmodel.html">Pdmodel</a>.<a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Graphics.html">Graphics</a>.<a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Graphics.State.html">State</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>MASES.NetPDF.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html</a></p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PDGraphicsState : Cloneable, IDynamicMetaObjectProvider, IJVMBridgeCore, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, ICloneable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject">DynamicObject</a></div>
+      <div><span class="xref">JVMBridgeBase</span></div>
+      <div><span class="xref">JVMBridgeBase</span>&lt;<span class="xref">Cloneable</span>&gt;</div>
+      <div><span class="xref">Cloneable</span></div>
+      <div><span class="xref">PDGraphicsState</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
+      <div><span class="xref">IJVMBridgeCore</span></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><span class="xref">IJVMBridgeBaseStatic</span></div>
+      <div><span class="xref">IJVMBridgeBase</span></div>
+      <div><span class="xref">IJVMBridgeDefinition</span></div>
+      <div><span class="xref">ICloneable</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecute(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecuteWithSignature(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecute(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecuteWithSignature(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecute&lt;TReturn&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecuteWithSignature&lt;TReturn&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecute&lt;TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecuteWithSignature&lt;TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;Cloneable&gt;.SExecute(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;Cloneable&gt;.SExecuteWithSignature(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;Cloneable&gt;.SExecute(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;Cloneable&gt;.SExecuteWithSignature(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecute&lt;TNewClass, TReturn&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecuteWithSignature&lt;TNewClass, TReturn&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecute&lt;TNewClass, TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecuteWithSignature&lt;TNewClass, TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;Cloneable&gt;.SExecute&lt;TReturn&gt;(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;Cloneable&gt;.SExecuteWithSignature&lt;TReturn&gt;(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;Cloneable&gt;.SExecute&lt;TReturn&gt;(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;Cloneable&gt;.SExecuteWithSignature&lt;TReturn&gt;(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecute&lt;TNewClass, TReturn, TConverter&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecute&lt;TNewClass, TReturn, TConverter&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;Cloneable&gt;.SExecute&lt;TReturn, TConverter&gt;(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;Cloneable&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;Cloneable&gt;.SExecute&lt;TReturn, TConverter&gt;(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;Cloneable&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecuteArray&lt;T&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecuteWithSignatureArray&lt;T&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecuteArray&lt;T&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SGetField(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SGetField(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SGetField&lt;TReturn&gt;(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SGetField&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SGetFieldArray&lt;TReturn&gt;(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SGetFieldArray&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SSetField(IJavaType, string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SSetField(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SSetField&lt;TValue&gt;(IJavaType, string, TValue)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SSetField&lt;TValue&gt;(string, TValue)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.IsAssignableFrom(string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;Cloneable&gt;.IsAssignableFrom(IJavaType)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;Cloneable&gt;.IsAssignableFrom&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase&lt;Cloneable&gt;.New(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.NewWithSignature(string, params object[])</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;Cloneable&gt;.Execute&lt;T&gt;(params T[])</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;Cloneable&gt;.DynBridgeClazz</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;Cloneable&gt;.BridgeClazz</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ClassNameOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ClassOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.WrapsDirect&lt;TNewClass&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps(Type, IJavaObject, string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass, TReturn&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps&lt;TReturn&gt;(Type, IJavaObject, string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass, TReturn, TConverter&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps&lt;TReturn, TConverter&gt;(Type, IJavaObject)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.MonitorEnter()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.MonitorExit()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IsInstanceOf(string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsInstanceOf(IJavaType)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsInstanceOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.RuntimeIsInstanceOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.CastTo&lt;TNewClass&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.CastDirect&lt;TNewClass&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ToString()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Notify()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.NotifyAll()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wait()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">JVMBridgeBase.Wait(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">JVMBridgeBase.Wait(long, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TNewClass, TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TNewClass, TReturn, TConverter&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;T&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetFieldArray&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ISetField(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ISetField&lt;TValue&gt;(string, TValue)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.DynBridgeInstance</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.BridgeInstance</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsBridgeListener</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trygetmember">DynamicObject.TryGetMember(GetMemberBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trysetmember">DynamicObject.TrySetMember(SetMemberBinder, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trydeletemember">DynamicObject.TryDeleteMember(DeleteMemberBinder)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryinvokemember">DynamicObject.TryInvokeMember(InvokeMemberBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryconvert">DynamicObject.TryConvert(ConvertBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trycreateinstance">DynamicObject.TryCreateInstance(CreateInstanceBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryinvoke">DynamicObject.TryInvoke(InvokeBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trybinaryoperation">DynamicObject.TryBinaryOperation(BinaryOperationBinder, object, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryunaryoperation">DynamicObject.TryUnaryOperation(UnaryOperationBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trygetindex">DynamicObject.TryGetIndex(GetIndexBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trysetindex">DynamicObject.TrySetIndex(SetIndexBinder, object[], object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trydeleteindex">DynamicObject.TryDeleteIndex(DeleteIndexBinder, object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.getdynamicmembernames">DynamicObject.GetDynamicMemberNames()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.getmetaobject">DynamicObject.GetMetaObject(Expression)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.#ctor*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState__ctor" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.#ctor">
+  PDGraphicsState()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Default constructor: even if the corresponding Java class does not have one, it is mandatory for JCOBridge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PDGraphicsState()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.#ctor*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState__ctor_Org_Apache_Pdfbox_Pdmodel_Common_PDRectangle_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.#ctor(Org.Apache.Pdfbox.Pdmodel.Common.PDRectangle)">
+  PDGraphicsState(PDRectangle)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState(org.apache.pdfbox.pdmodel.common.PDRectangle)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState(org.apache.pdfbox.pdmodel.common.PDRectangle)</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PDGraphicsState(PDRectangle arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Common.PDRectangle.html">PDRectangle</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Common.PDRectangle.html">PDRectangle</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.#ctor*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState__ctor_System_Object___" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.#ctor(System.Object[])">
+  PDGraphicsState(params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PDGraphicsState(params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_AlphaConstant_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.AlphaConstant*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_AlphaConstant" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.AlphaConstant">
+  AlphaConstant
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getAlphaConstant--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getAlphaConstant--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setAlphaConstant-double-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setAlphaConstant-double-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double AlphaConstant { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_BlendMode_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.BlendMode*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_BlendMode" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.BlendMode">
+  BlendMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getBlendMode--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getBlendMode--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setBlendMode-org.apache.pdfbox.pdmodel.graphics.blend.BlendMode-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setBlendMode-org.apache.pdfbox.pdmodel.graphics.blend.BlendMode-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlendMode BlendMode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode.html">BlendMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_BridgeClassName_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.BridgeClassName*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_BridgeClassName" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.BridgeClassName">
+  BridgeClassName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_BridgeClassName.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_BridgeClassName.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string BridgeClassName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_CurrentClippingPath_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.CurrentClippingPath*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_CurrentClippingPath" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.CurrentClippingPath">
+  CurrentClippingPath
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getCurrentClippingPath--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getCurrentClippingPath--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Area CurrentClippingPath { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Area</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_CurrentClippingPaths_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.CurrentClippingPaths*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_CurrentClippingPaths" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.CurrentClippingPaths">
+  CurrentClippingPaths
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getCurrentClippingPaths--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getCurrentClippingPaths--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Path2D&gt; CurrentClippingPaths { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<span class="xref">Path2D</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_CurrentTransformationMatrix_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.CurrentTransformationMatrix*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_CurrentTransformationMatrix" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.CurrentTransformationMatrix">
+  CurrentTransformationMatrix
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getCurrentTransformationMatrix--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getCurrentTransformationMatrix--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setCurrentTransformationMatrix-org.apache.pdfbox.util.Matrix-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setCurrentTransformationMatrix-org.apache.pdfbox.util.Matrix-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix CurrentTransformationMatrix { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Util.Matrix.html">Matrix</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_Flatness_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.Flatness*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_Flatness" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.Flatness">
+  Flatness
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L139"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getFlatness--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getFlatness--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setFlatness-double-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setFlatness-double-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Flatness { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IsBridgeAbstract_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IsBridgeAbstract*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IsBridgeAbstract" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IsBridgeAbstract">
+  IsBridgeAbstract
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeAbstract.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeAbstract.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeAbstract { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IsBridgeCloseable_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IsBridgeCloseable*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IsBridgeCloseable" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IsBridgeCloseable">
+  IsBridgeCloseable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeCloseable.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeCloseable.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeCloseable { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IsBridgeInterface_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IsBridgeInterface*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IsBridgeInterface" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IsBridgeInterface">
+  IsBridgeInterface
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeInterface.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeInterface.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeInterface { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IsBridgeStatic_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IsBridgeStatic*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IsBridgeStatic" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IsBridgeStatic">
+  IsBridgeStatic
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeStatic.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeStatic.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeStatic { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_LineCap_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.LineCap*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_LineCap" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.LineCap">
+  LineCap
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getLineCap--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getLineCap--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setLineCap-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setLineCap-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int LineCap { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_LineDashPattern_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.LineDashPattern*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_LineDashPattern" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.LineDashPattern">
+  LineDashPattern
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L153"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getLineDashPattern--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getLineDashPattern--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setLineDashPattern-org.apache.pdfbox.pdmodel.graphics.PDLineDashPattern-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setLineDashPattern-org.apache.pdfbox.pdmodel.graphics.PDLineDashPattern-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PDLineDashPattern LineDashPattern { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Graphics.PDLineDashPattern.html">PDLineDashPattern</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_LineJoin_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.LineJoin*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_LineJoin" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.LineJoin">
+  LineJoin
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getLineJoin--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getLineJoin--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setLineJoin-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setLineJoin-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int LineJoin { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_LineWidth_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.LineWidth*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_LineWidth" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.LineWidth">
+  LineWidth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getLineWidth--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getLineWidth--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setLineWidth-float-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setLineWidth-float-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float LineWidth { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_MiterLimit_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.MiterLimit*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_MiterLimit" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.MiterLimit">
+  MiterLimit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getMiterLimit--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getMiterLimit--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setMiterLimit-float-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setMiterLimit-float-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MiterLimit { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_NonStrokeAlphaConstant_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.NonStrokeAlphaConstant*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_NonStrokeAlphaConstant" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.NonStrokeAlphaConstant">
+  NonStrokeAlphaConstant
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getNonStrokeAlphaConstant--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getNonStrokeAlphaConstant--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setNonStrokeAlphaConstant-double-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setNonStrokeAlphaConstant-double-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double NonStrokeAlphaConstant { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_NonStrokingColor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.NonStrokingColor*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_NonStrokingColor" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.NonStrokingColor">
+  NonStrokingColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L188"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getNonStrokingColor--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getNonStrokingColor--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setNonStrokingColor-org.apache.pdfbox.pdmodel.graphics.color.PDColor-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setNonStrokingColor-org.apache.pdfbox.pdmodel.graphics.color.PDColor-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PDColor NonStrokingColor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColor.html">PDColor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_NonStrokingColorSpace_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.NonStrokingColorSpace*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_NonStrokingColorSpace" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.NonStrokingColorSpace">
+  NonStrokingColorSpace
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L195"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getNonStrokingColorSpace--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getNonStrokingColorSpace--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setNonStrokingColorSpace-org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setNonStrokingColorSpace-org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PDColorSpace NonStrokingColorSpace { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace.html">PDColorSpace</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_NonStrokingJavaComposite_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.NonStrokingJavaComposite*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_NonStrokingJavaComposite" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.NonStrokingJavaComposite">
+  NonStrokingJavaComposite
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getNonStrokingJavaComposite--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getNonStrokingJavaComposite--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Composite NonStrokingJavaComposite { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Composite</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_OverprintMode_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.OverprintMode*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_OverprintMode" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.OverprintMode">
+  OverprintMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L209"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getOverprintMode--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getOverprintMode--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setOverprintMode-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setOverprintMode-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int OverprintMode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_RenderingIntent_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.RenderingIntent*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_RenderingIntent" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.RenderingIntent">
+  RenderingIntent
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L216"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getRenderingIntent--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getRenderingIntent--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setRenderingIntent-org.apache.pdfbox.pdmodel.graphics.state.RenderingIntent-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setRenderingIntent-org.apache.pdfbox.pdmodel.graphics.state.RenderingIntent-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RenderingIntent RenderingIntent { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Graphics.State.RenderingIntent.html">RenderingIntent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_Smoothness_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.Smoothness*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_Smoothness" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.Smoothness">
+  Smoothness
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L223"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getSmoothness--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getSmoothness--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setSmoothness-double-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setSmoothness-double-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Smoothness { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_SoftMask_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.SoftMask*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_SoftMask" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.SoftMask">
+  SoftMask
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L230"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getSoftMask--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getSoftMask--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setSoftMask-org.apache.pdfbox.pdmodel.graphics.state.PDSoftMask-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setSoftMask-org.apache.pdfbox.pdmodel.graphics.state.PDSoftMask-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PDSoftMask SoftMask { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDSoftMask.html">PDSoftMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_StrokingColor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.StrokingColor*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_StrokingColor" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.StrokingColor">
+  StrokingColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L237"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getStrokingColor--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getStrokingColor--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setStrokingColor-org.apache.pdfbox.pdmodel.graphics.color.PDColor-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setStrokingColor-org.apache.pdfbox.pdmodel.graphics.color.PDColor-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PDColor StrokingColor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColor.html">PDColor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_StrokingColorSpace_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.StrokingColorSpace*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_StrokingColorSpace" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.StrokingColorSpace">
+  StrokingColorSpace
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L244"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getStrokingColorSpace--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getStrokingColorSpace--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setStrokingColorSpace-org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setStrokingColorSpace-org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PDColorSpace StrokingColorSpace { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace.html">PDColorSpace</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_StrokingJavaComposite_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.StrokingJavaComposite*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_StrokingJavaComposite" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.StrokingJavaComposite">
+  StrokingJavaComposite
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L251"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getStrokingJavaComposite--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getStrokingJavaComposite--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Composite StrokingJavaComposite { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Composite</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_TextLineMatrix_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.TextLineMatrix*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_TextLineMatrix" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.TextLineMatrix">
+  TextLineMatrix
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L258"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getTextLineMatrix--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getTextLineMatrix--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setTextLineMatrix-org.apache.pdfbox.util.Matrix-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setTextLineMatrix-org.apache.pdfbox.util.Matrix-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix TextLineMatrix { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Util.Matrix.html">Matrix</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_TextMatrix_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.TextMatrix*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_TextMatrix" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.TextMatrix">
+  TextMatrix
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L265"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getTextMatrix--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getTextMatrix--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setTextMatrix-org.apache.pdfbox.util.Matrix-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setTextMatrix-org.apache.pdfbox.util.Matrix-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix TextMatrix { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Util.Matrix.html">Matrix</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_TextState_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.TextState*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_TextState" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.TextState">
+  TextState
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L272"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getTextState--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getTextState--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setTextState-org.apache.pdfbox.pdmodel.graphics.state.PDTextState-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setTextState-org.apache.pdfbox.pdmodel.graphics.state.PDTextState-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PDTextState TextState { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDTextState.html">PDTextState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_Transfer_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.Transfer*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_Transfer" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.Transfer">
+  Transfer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L279"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getTransfer--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getTransfer--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setTransfer-org.apache.pdfbox.cos.COSBase-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setTransfer-org.apache.pdfbox.cos.COSBase-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public COSBase Transfer { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Cos.COSBase.html">COSBase</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_Clone_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.Clone*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_Clone" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.Clone">
+  Clone()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L319"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#clone--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#clone--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PDGraphicsState Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.html">PDGraphicsState</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.html">PDGraphicsState</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IntersectClippingPath_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IntersectClippingPath*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IntersectClippingPath_Java_Awt_Geom_Area_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IntersectClippingPath(Java.Awt.Geom.Area)">
+  IntersectClippingPath(Area)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L327"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#intersectClippingPath-java.awt.geom.Area-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#intersectClippingPath-java.awt.geom.Area-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void IntersectClippingPath(Area arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <span class="xref">Area</span></dt>
+    <dd><p><span class="xref">Java.Awt.Geom.Area</span></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IntersectClippingPath_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IntersectClippingPath*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IntersectClippingPath_Java_Awt_Geom_GeneralPath_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IntersectClippingPath(Java.Awt.Geom.GeneralPath)">
+  IntersectClippingPath(GeneralPath)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L335"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#intersectClippingPath-java.awt.geom.GeneralPath-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#intersectClippingPath-java.awt.geom.GeneralPath-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void IntersectClippingPath(GeneralPath arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <span class="xref">GeneralPath</span></dt>
+    <dd><p><span class="xref">Java.Awt.Geom.GeneralPath</span></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IsAlphaSource_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IsAlphaSource*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IsAlphaSource" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IsAlphaSource">
+  IsAlphaSource()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L287"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#isAlphaSource--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#isAlphaSource--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsAlphaSource()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IsNonStrokingOverprint_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IsNonStrokingOverprint*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IsNonStrokingOverprint" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IsNonStrokingOverprint">
+  IsNonStrokingOverprint()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L295"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#isNonStrokingOverprint--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#isNonStrokingOverprint--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsNonStrokingOverprint()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IsOverprint_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IsOverprint*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IsOverprint" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IsOverprint">
+  IsOverprint()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L303"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#isOverprint--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#isOverprint--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsOverprint()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IsStrokeAdjustment_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IsStrokeAdjustment*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IsStrokeAdjustment" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IsStrokeAdjustment">
+  IsStrokeAdjustment()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L311"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#isStrokeAdjustment--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#isStrokeAdjustment--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsStrokeAdjustment()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_SetAlphaSource_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.SetAlphaSource*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_SetAlphaSource_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.SetAlphaSource(System.Boolean)">
+  SetAlphaSource(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L343"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setAlphaSource-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setAlphaSource-boolean-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAlphaSource(bool arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_SetNonStrokingOverprint_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.SetNonStrokingOverprint*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_SetNonStrokingOverprint_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.SetNonStrokingOverprint(System.Boolean)">
+  SetNonStrokingOverprint(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L351"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setNonStrokingOverprint-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setNonStrokingOverprint-boolean-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetNonStrokingOverprint(bool arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_SetOverprint_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.SetOverprint*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_SetOverprint_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.SetOverprint(System.Boolean)">
+  SetOverprint(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L359"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setOverprint-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setOverprint-boolean-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetOverprint(bool arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_SetStrokeAdjustment_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.SetStrokeAdjustment*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_SetStrokeAdjustment_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.SetStrokeAdjustment(System.Boolean)">
+  SetStrokeAdjustment(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L367"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setStrokeAdjustment-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setStrokeAdjustment-boolean-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetStrokeAdjustment(bool arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L74" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <div style="text-align: center;">Copyright © 2025 MASES s.r.l.. | Via San Cesidio 16 - San Valentino in A.C. - PE | P.I. 01932310681</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

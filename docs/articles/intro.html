@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>Introduction to PDFBox APIs for .NET | MASES Group - NetPDF </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Introduction to PDFBox APIs for .NET | MASES Group - NetPDF ">
+      <meta name="description" content="Introduction to PDFBox APIs for .NET">
+      
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/masesgroup/NetPDF/blob/master/src/documentation/articles/intro.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="netpdf-pdfbox-apis-for-net">NetPDF: <a href="https://pdfbox.apache.org">PDFBox</a> APIs for .NET</h1>
+
+<p>NetPDF is a comprehensive suite of libraries and tools to use <a href="https://pdfbox.apache.org">PDFBox</a> APIs and .NET side-by-side.</p>
+<h3 id="libraries-and-tools">Libraries and Tools</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">NetPDF</th>
+<th style="text-align: center;">NetPDF.Templates</th>
+<th style="text-align: center;">NetPDFCLI</th>
+<th style="text-align: center;">NetPDFPS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="https://www.nuget.org/packages/MASES.NetPDF"><img src="https://img.shields.io/nuget/v/MASES.NetPDF" alt="NetPDF nuget"></a><br><a href="https://www.nuget.org/packages/MASES.NetPDF"><img src="https://img.shields.io/nuget/dt/MASES.NetPDF" alt="downloads"></a></td>
+<td style="text-align: center;"><a href="https://www.nuget.org/packages/MASES.NetPDF.Templates"><img src="https://img.shields.io/nuget/v/MASES.NetPDF.Templates" alt="NetPDF.Templates nuget"></a><br><a href="https://www.nuget.org/packages/MASES.NetPDF.Templates"><img src="https://img.shields.io/nuget/dt/MASES.NetPDF.Templates" alt="downloads"></a></td>
+<td style="text-align: center;"><a href="https://www.nuget.org/packages/MASES.NetPDFCLI"><img src="https://img.shields.io/nuget/v/MASES.NetPDFCLI" alt="NetPDFCLI nuget"></a><br><a href="https://www.nuget.org/packages/MASES.NetPDFCLI"><img src="https://img.shields.io/nuget/dt/MASES.NetPDFCLI" alt="downloads"></a></td>
+<td style="text-align: center;"><a href="https://www.powershellgallery.com/packages/MASES.NetPDFPS/"><img src="https://img.shields.io/powershellgallery/v/MASES.NetPDFPS.svg?style=flat-square&amp;label=MASES.NetPDFPS" alt="NetPDFPS"></a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="pipelines">Pipelines</h3>
+<p><a href="https://github.com/masesgroup/NetPDF/actions/workflows/build.yaml"><img src="https://github.com/masesgroup/NetPDF/actions/workflows/build.yaml/badge.svg" alt="CI_BUILD"></a>
+<a href="https://github.com/masesgroup/NetPDF/actions/workflows/codeql-analysis.yml"><img src="https://github.com/masesgroup/NetPDF/actions/workflows/codeql-analysis.yml/badge.svg" alt="CodeQL"></a>
+<a href="https://github.com/masesgroup/NetPDF/actions/workflows/release.yaml"><img src="https://github.com/masesgroup/NetPDF/actions/workflows/release.yaml/badge.svg" alt="CI_RELEASE"></a></p>
+<h3 id="project-disclaimer">Project disclaimer</h3>
+<p>NetPDF is a suite, curated by MASES Group, can be supported by the open-source community.</p>
+<p>Its primary scope is to support other, public or internal, MASES Group projects: open-source community and commercial entities can use it for their needs and support this project, moreover there are dedicated community and commercial subscription plans.</p>
+<p>The repository code and releases may contain bugs, the release cycle depends from critical discovered issues and/or enhancement requested from this or other projects.</p>
+<p>Looking for the help of experts? MASES Group can help you design, build, deploy, and manage applications managing PDF documents.</p>
+<hr>
+<h2 id="scope-of-the-project">Scope of the project</h2>
+<p>This project aims to create a set of libraries and tools to direct access, from .NET, all the features available in the <a href="https://pdfbox.apache.org">PDFBox</a>.</p>
+<p>See <a href="src/documentation/articles/usage.md">NetPDF usage</a> for a comprehensive example.</p>
+<h3 id="community-and-contribution">Community and Contribution</h3>
+<p>Do you like the project?</p>
+<ul>
+<li>Request your free <a href="https://www.jcobridge.com/pricing-25/">community subscription</a>.</li>
+</ul>
+<p>Do you want to help us?</p>
+<ul>
+<li>put a ⭐ on this project</li>
+<li>open <a href="https://github.com/masesgroup/NetPDF/issues">issues</a> to request features or report bugs 🐛</li>
+<li>improves the project with Pull Requests</li>
+</ul>
+<p>This project adheres to the Contributor <a href="https://github.com/masesgroup/NetPDF/blob/master/CODE_OF_CONDUCT.md">Covenant code of conduct</a>. By participating, you are expected to uphold this code. Please report unacceptable behavior to coc_reporting@masesgroup.com.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/documentation/articles/intro.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <div style="text-align: center;">Copyright © 2025 MASES s.r.l.. | Via San Cesidio 16 - San Valentino in A.C. - PE | P.I. 01932310681</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

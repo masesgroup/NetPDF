@@ -1,0 +1,1603 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>Class PDSignature | MASES Group - NetPDF </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PDSignature | MASES Group - NetPDF ">
+      <meta name="description" content="This is a descriptive page of NetPDF, the PDFBox suite for .NET">
+      <meta name="description" content="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/masesgroup/NetPDF/new/master/apiSpec/new?filename=Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature.md&amp;value=---%0Auid%3A%20Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature">
+
+
+
+  <h1 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature" class="text-break">
+Class PDSignature  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Org.html">Org</a>.<a class="xref" href="Org.Apache.html">Apache</a>.<a class="xref" href="Org.Apache.Pdfbox.html">Pdfbox</a>.<a class="xref" href="Org.Apache.Pdfbox.Pdmodel.html">Pdmodel</a>.<a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Interactive.html">Interactive</a>.<a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.html">Digitalsignature</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>MASES.NetPDF.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html</a></p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PDSignature : COSObjectable, IDynamicMetaObjectProvider, IJVMBridgeCore, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, ICOSObjectable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject">DynamicObject</a></div>
+      <div><span class="xref">JVMBridgeBase</span></div>
+      <div><span class="xref">JVMBridgeBase</span>&lt;<a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable.html">COSObjectable</a>&gt;</div>
+      <div><a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable.html">COSObjectable</a></div>
+      <div><span class="xref">PDSignature</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
+      <div><span class="xref">IJVMBridgeCore</span></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><span class="xref">IJVMBridgeBaseStatic</span></div>
+      <div><span class="xref">IJVMBridgeBase</span></div>
+      <div><span class="xref">IJVMBridgeDefinition</span></div>
+      <div><a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Common.ICOSObjectable.html">ICOSObjectable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecute(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecute(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TReturn&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TReturn&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecute(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecute(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TNewClass, TReturn&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TNewClass, TReturn&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TNewClass, TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TNewClass, TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TReturn&gt;(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TReturn&gt;(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TReturn&gt;(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TReturn&gt;(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TNewClass, TReturn, TConverter&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TNewClass, TReturn, TConverter&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TReturn, TConverter&gt;(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TReturn, TConverter&gt;(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;T&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;T&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;T&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SGetField(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SGetField(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SGetField&lt;TReturn&gt;(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SGetField&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SGetFieldArray&lt;TReturn&gt;(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SGetFieldArray&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SSetField(IJavaType, string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SSetField(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SSetField&lt;TValue&gt;(IJavaType, string, TValue)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SSetField&lt;TValue&gt;(string, TValue)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.IsAssignableFrom(string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;COSObjectable&gt;.IsAssignableFrom(IJavaType)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;COSObjectable&gt;.IsAssignableFrom&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase&lt;COSObjectable&gt;.New(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.NewWithSignature(string, params object[])</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;COSObjectable&gt;.Execute&lt;T&gt;(params T[])</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;COSObjectable&gt;.DynBridgeClazz</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;COSObjectable&gt;.BridgeClazz</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ClassNameOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ClassOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.WrapsDirect&lt;TNewClass&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps(Type, IJavaObject, string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass, TReturn&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps&lt;TReturn&gt;(Type, IJavaObject, string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass, TReturn, TConverter&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps&lt;TReturn, TConverter&gt;(Type, IJavaObject)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.MonitorEnter()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.MonitorExit()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IsInstanceOf(string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsInstanceOf(IJavaType)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsInstanceOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.RuntimeIsInstanceOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.CastTo&lt;TNewClass&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.CastDirect&lt;TNewClass&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ToString()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Notify()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.NotifyAll()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wait()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">JVMBridgeBase.Wait(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">JVMBridgeBase.Wait(long, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TNewClass, TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TNewClass, TReturn, TConverter&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;T&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetFieldArray&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ISetField(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ISetField&lt;TValue&gt;(string, TValue)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.DynBridgeInstance</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.BridgeInstance</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsBridgeListener</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trygetmember">DynamicObject.TryGetMember(GetMemberBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trysetmember">DynamicObject.TrySetMember(SetMemberBinder, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trydeletemember">DynamicObject.TryDeleteMember(DeleteMemberBinder)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryinvokemember">DynamicObject.TryInvokeMember(InvokeMemberBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryconvert">DynamicObject.TryConvert(ConvertBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trycreateinstance">DynamicObject.TryCreateInstance(CreateInstanceBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryinvoke">DynamicObject.TryInvoke(InvokeBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trybinaryoperation">DynamicObject.TryBinaryOperation(BinaryOperationBinder, object, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryunaryoperation">DynamicObject.TryUnaryOperation(UnaryOperationBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trygetindex">DynamicObject.TryGetIndex(GetIndexBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trysetindex">DynamicObject.TrySetIndex(SetIndexBinder, object[], object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trydeleteindex">DynamicObject.TryDeleteIndex(DeleteIndexBinder, object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.getdynamicmembernames">DynamicObject.GetDynamicMemberNames()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.getmetaobject">DynamicObject.GetMetaObject(Expression)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.#ctor*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature__ctor" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.#ctor">
+  PDSignature()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Default constructor: even if the corresponding Java class does not have one, it is mandatory for JCOBridge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PDSignature()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.#ctor*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature__ctor_Org_Apache_Pdfbox_Cos_COSDictionary_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.#ctor(Org.Apache.Pdfbox.Cos.COSDictionary)">
+  PDSignature(COSDictionary)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSignature(org.apache.pdfbox.cos.COSDictionary)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSignature(org.apache.pdfbox.cos.COSDictionary)</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PDSignature(COSDictionary arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html">COSDictionary</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html">COSDictionary</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.#ctor*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature__ctor_System_Object___" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.#ctor(System.Object[])">
+  PDSignature(params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PDSignature(params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_BridgeClassName_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.BridgeClassName*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_BridgeClassName" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.BridgeClassName">
+  BridgeClassName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_BridgeClassName.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_BridgeClassName.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string BridgeClassName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_ByteRange_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.ByteRange*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_ByteRange" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.ByteRange">
+  ByteRange
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getByteRange--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getByteRange--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setByteRange-int[]-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setByteRange-int[]-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int[] ByteRange { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_COSObject_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.COSObject*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_COSObject" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.COSObject">
+  COSObject
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L173"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getCOSObject--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getCOSObject--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public COSBase COSObject { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Cos.COSBase.html">COSBase</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_ContactInfo_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.ContactInfo*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_ContactInfo" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.ContactInfo">
+  ContactInfo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getContactInfo--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getContactInfo--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setContactInfo-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setContactInfo-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public String ContactInfo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_Contents_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.Contents*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_Contents" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.Contents">
+  Contents
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getContents--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getContents--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setContents-byte[]-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setContents-byte[]-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] Contents { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_FILTER_ADOBE_PPKLITE_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.FILTER_ADOBE_PPKLITE*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_FILTER_ADOBE_PPKLITE" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.FILTER_ADOBE_PPKLITE">
+  FILTER_ADOBE_PPKLITE
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#FILTER_ADOBE_PPKLITE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#FILTER_ADOBE_PPKLITE</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static COSName FILTER_ADOBE_PPKLITE { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Cos.COSName.html">COSName</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_FILTER_CICI_SIGNIT_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.FILTER_CICI_SIGNIT*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_FILTER_CICI_SIGNIT" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.FILTER_CICI_SIGNIT">
+  FILTER_CICI_SIGNIT
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#FILTER_CICI_SIGNIT">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#FILTER_CICI_SIGNIT</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static COSName FILTER_CICI_SIGNIT { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Cos.COSName.html">COSName</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_FILTER_ENTRUST_PPKEF_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.FILTER_ENTRUST_PPKEF*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_FILTER_ENTRUST_PPKEF" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.FILTER_ENTRUST_PPKEF">
+  FILTER_ENTRUST_PPKEF
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#FILTER_ENTRUST_PPKEF">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#FILTER_ENTRUST_PPKEF</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static COSName FILTER_ENTRUST_PPKEF { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Cos.COSName.html">COSName</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_FILTER_VERISIGN_PPKVS_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.FILTER_VERISIGN_PPKVS*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_FILTER_VERISIGN_PPKVS" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.FILTER_VERISIGN_PPKVS">
+  FILTER_VERISIGN_PPKVS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#FILTER_VERISIGN_PPKVS">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#FILTER_VERISIGN_PPKVS</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static COSName FILTER_VERISIGN_PPKVS { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Cos.COSName.html">COSName</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_Filter_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.Filter*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_Filter" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.Filter">
+  Filter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L180"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getFilter--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getFilter--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setFilter-org.apache.pdfbox.cos.COSName-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setFilter-org.apache.pdfbox.cos.COSName-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public String Filter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_IsBridgeAbstract_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.IsBridgeAbstract*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_IsBridgeAbstract" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.IsBridgeAbstract">
+  IsBridgeAbstract
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeAbstract.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeAbstract.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeAbstract { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_IsBridgeCloseable_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.IsBridgeCloseable*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_IsBridgeCloseable" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.IsBridgeCloseable">
+  IsBridgeCloseable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeCloseable.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeCloseable.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeCloseable { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_IsBridgeInterface_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.IsBridgeInterface*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_IsBridgeInterface" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.IsBridgeInterface">
+  IsBridgeInterface
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeInterface.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeInterface.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeInterface { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_IsBridgeStatic_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.IsBridgeStatic*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_IsBridgeStatic" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.IsBridgeStatic">
+  IsBridgeStatic
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeStatic.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeStatic.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeStatic { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_Location_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.Location*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_Location" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.Location">
+  Location
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getLocation--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getLocation--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setLocation-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setLocation-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public String Location { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_Name_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.Name*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_Name" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getName--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getName--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setName-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setName-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public String Name { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_PropBuild_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.PropBuild*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_PropBuild" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.PropBuild">
+  PropBuild
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getPropBuild--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getPropBuild--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setPropBuild-org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDPropBuild-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setPropBuild-org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDPropBuild-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PDPropBuild PropBuild { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDPropBuild.html">PDPropBuild</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_Reason_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.Reason*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_Reason" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.Reason">
+  Reason
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getReason--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getReason--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setReason-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setReason-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public String Reason { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_SUBFILTER_ADBE_PKCS7_DETACHED_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.SUBFILTER_ADBE_PKCS7_DETACHED*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_SUBFILTER_ADBE_PKCS7_DETACHED" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.SUBFILTER_ADBE_PKCS7_DETACHED">
+  SUBFILTER_ADBE_PKCS7_DETACHED
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#SUBFILTER_ADBE_PKCS7_DETACHED">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#SUBFILTER_ADBE_PKCS7_DETACHED</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static COSName SUBFILTER_ADBE_PKCS7_DETACHED { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Cos.COSName.html">COSName</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_SUBFILTER_ADBE_PKCS7_SHA1_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.SUBFILTER_ADBE_PKCS7_SHA1*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_SUBFILTER_ADBE_PKCS7_SHA1" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.SUBFILTER_ADBE_PKCS7_SHA1">
+  SUBFILTER_ADBE_PKCS7_SHA1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#SUBFILTER_ADBE_PKCS7_SHA1">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#SUBFILTER_ADBE_PKCS7_SHA1</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static COSName SUBFILTER_ADBE_PKCS7_SHA1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Cos.COSName.html">COSName</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_SUBFILTER_ADBE_X509_RSA_SHA1_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.SUBFILTER_ADBE_X509_RSA_SHA1*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_SUBFILTER_ADBE_X509_RSA_SHA1" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.SUBFILTER_ADBE_X509_RSA_SHA1">
+  SUBFILTER_ADBE_X509_RSA_SHA1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#SUBFILTER_ADBE_X509_RSA_SHA1">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#SUBFILTER_ADBE_X509_RSA_SHA1</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static COSName SUBFILTER_ADBE_X509_RSA_SHA1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Cos.COSName.html">COSName</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_SUBFILTER_ETSI_CADES_DETACHED_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.SUBFILTER_ETSI_CADES_DETACHED*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_SUBFILTER_ETSI_CADES_DETACHED" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.SUBFILTER_ETSI_CADES_DETACHED">
+  SUBFILTER_ETSI_CADES_DETACHED
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#SUBFILTER_ETSI_CADES_DETACHED">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#SUBFILTER_ETSI_CADES_DETACHED</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static COSName SUBFILTER_ETSI_CADES_DETACHED { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Cos.COSName.html">COSName</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_SignDate_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.SignDate*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_SignDate" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.SignDate">
+  SignDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L215"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getSignDate--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getSignDate--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setSignDate-java.util.Calendar-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setSignDate-java.util.Calendar-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Calendar SignDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Calendar</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_SubFilter_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.SubFilter*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_SubFilter" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.SubFilter">
+  SubFilter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getSubFilter--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getSubFilter--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setSubFilter-org.apache.pdfbox.cos.COSName-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setSubFilter-org.apache.pdfbox.cos.COSName-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public String SubFilter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_GetContents_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.GetContents*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_GetContents_Java_Io_InputStream_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.GetContents(Java.Io.InputStream)">
+  GetContents(InputStream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L242"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getContents-java.io.InputStream-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getContents-java.io.InputStream-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] GetContents(InputStream arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <span class="xref">InputStream</span></dt>
+    <dd><p><span class="xref">Java.Io.InputStream</span></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IOException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_GetContents_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.GetContents*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_GetContents_System_Byte___" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.GetContents(System.Byte[])">
+  GetContents(byte[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L232"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getContents-byte[]-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getContents-byte[]-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] GetContents(byte[] arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IOException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_GetSignedContent_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.GetSignedContent*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_GetSignedContent_Java_Io_InputStream_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.GetSignedContent(Java.Io.InputStream)">
+  GetSignedContent(InputStream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L262"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getSignedContent-java.io.InputStream-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getSignedContent-java.io.InputStream-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] GetSignedContent(InputStream arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <span class="xref">InputStream</span></dt>
+    <dd><p><span class="xref">Java.Io.InputStream</span></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IOException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_GetSignedContent_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.GetSignedContent*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_GetSignedContent_System_Byte___" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.GetSignedContent(System.Byte[])">
+  GetSignedContent(byte[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L252"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getSignedContent-byte[]-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getSignedContent-byte[]-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] GetSignedContent(byte[] arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IOException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_SetType_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.SetType*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSignature_SetType_Org_Apache_Pdfbox_Cos_COSName_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature.SetType(Org.Apache.Pdfbox.Cos.COSName)">
+  SetType(COSName)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L270"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setType-org.apache.pdfbox.cos.COSName-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setType-org.apache.pdfbox.cos.COSName-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetType(COSName arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="Org.Apache.Pdfbox.Cos.COSName.html">COSName</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Pdfbox.Cos.COSName.html">COSName</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSignature.cs/#L74" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <div style="text-align: center;">Copyright © 2025 MASES s.r.l.. | Via San Cesidio 16 - San Valentino in A.C. - PE | P.I. 01932310681</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

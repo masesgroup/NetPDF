@@ -1,0 +1,2840 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>Class AFMParser | MASES Group - NetPDF </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AFMParser | MASES Group - NetPDF ">
+      <meta name="description" content="This is a descriptive page of NetPDF, the PDFBox suite for .NET">
+      <meta name="description" content="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/masesgroup/NetPDF/new/master/apiSpec/new?filename=Org_Apache_Fontbox_Afm_AFMParser.md&amp;value=---%0Auid%3A%20Org.Apache.Fontbox.Afm.AFMParser%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Org.Apache.Fontbox.Afm.AFMParser">
+
+
+
+  <h1 id="Org_Apache_Fontbox_Afm_AFMParser" data-uid="Org.Apache.Fontbox.Afm.AFMParser" class="text-break">
+Class AFMParser  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Org.html">Org</a>.<a class="xref" href="Org.Apache.html">Apache</a>.<a class="xref" href="Org.Apache.Fontbox.html">Fontbox</a>.<a class="xref" href="Org.Apache.Fontbox.Afm.html">Afm</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>MASES.NetPDF.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html</a></p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AFMParser : JVMBridgeBase&lt;AFMParser&gt;, IDynamicMetaObjectProvider, IJVMBridgeCore, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject">DynamicObject</a></div>
+      <div><span class="xref">JVMBridgeBase</span></div>
+      <div><span class="xref">JVMBridgeBase</span>&lt;<a class="xref" href="Org.Apache.Fontbox.Afm.AFMParser.html">AFMParser</a>&gt;</div>
+      <div><span class="xref">AFMParser</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
+      <div><span class="xref">IJVMBridgeCore</span></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><span class="xref">IJVMBridgeBaseStatic</span></div>
+      <div><span class="xref">IJVMBridgeBase</span></div>
+      <div><span class="xref">IJVMBridgeDefinition</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SExecute(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SExecuteWithSignature(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SExecute(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SExecuteWithSignature(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SExecute&lt;TReturn&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SExecuteWithSignature&lt;TReturn&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SExecute&lt;TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SExecuteWithSignature&lt;TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;AFMParser&gt;.SExecute(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;AFMParser&gt;.SExecuteWithSignature(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;AFMParser&gt;.SExecute(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;AFMParser&gt;.SExecuteWithSignature(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SExecute&lt;TNewClass, TReturn&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SExecuteWithSignature&lt;TNewClass, TReturn&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SExecute&lt;TNewClass, TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SExecuteWithSignature&lt;TNewClass, TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;AFMParser&gt;.SExecute&lt;TReturn&gt;(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;AFMParser&gt;.SExecuteWithSignature&lt;TReturn&gt;(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;AFMParser&gt;.SExecute&lt;TReturn&gt;(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;AFMParser&gt;.SExecuteWithSignature&lt;TReturn&gt;(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SExecute&lt;TNewClass, TReturn, TConverter&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SExecute&lt;TNewClass, TReturn, TConverter&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;AFMParser&gt;.SExecute&lt;TReturn, TConverter&gt;(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;AFMParser&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;AFMParser&gt;.SExecute&lt;TReturn, TConverter&gt;(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;AFMParser&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SExecuteArray&lt;T&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SExecuteWithSignatureArray&lt;T&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SExecuteArray&lt;T&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SGetField(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SGetField(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SGetField&lt;TReturn&gt;(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SGetField&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SGetFieldArray&lt;TReturn&gt;(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SGetFieldArray&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SSetField(IJavaType, string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SSetField(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SSetField&lt;TValue&gt;(IJavaType, string, TValue)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.SSetField&lt;TValue&gt;(string, TValue)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.IsAssignableFrom(string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;AFMParser&gt;.IsAssignableFrom(IJavaType)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;AFMParser&gt;.IsAssignableFrom&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase&lt;AFMParser&gt;.New(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;AFMParser&gt;.NewWithSignature(string, params object[])</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;AFMParser&gt;.Execute&lt;T&gt;(params T[])</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;AFMParser&gt;.DynBridgeClazz</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;AFMParser&gt;.BridgeClazz</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ClassNameOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ClassOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.WrapsDirect&lt;TNewClass&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps(Type, IJavaObject, string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass, TReturn&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps&lt;TReturn&gt;(Type, IJavaObject, string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass, TReturn, TConverter&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps&lt;TReturn, TConverter&gt;(Type, IJavaObject)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.MonitorEnter()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.MonitorExit()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IsInstanceOf(string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsInstanceOf(IJavaType)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsInstanceOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.RuntimeIsInstanceOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.CastTo&lt;TNewClass&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.CastDirect&lt;TNewClass&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ToString()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Notify()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.NotifyAll()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wait()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">JVMBridgeBase.Wait(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">JVMBridgeBase.Wait(long, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TNewClass, TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TNewClass, TReturn, TConverter&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;T&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetFieldArray&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ISetField(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ISetField&lt;TValue&gt;(string, TValue)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.DynBridgeInstance</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.BridgeInstance</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsBridgeListener</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trygetmember">DynamicObject.TryGetMember(GetMemberBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trysetmember">DynamicObject.TrySetMember(SetMemberBinder, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trydeletemember">DynamicObject.TryDeleteMember(DeleteMemberBinder)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryinvokemember">DynamicObject.TryInvokeMember(InvokeMemberBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryconvert">DynamicObject.TryConvert(ConvertBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trycreateinstance">DynamicObject.TryCreateInstance(CreateInstanceBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryinvoke">DynamicObject.TryInvoke(InvokeBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trybinaryoperation">DynamicObject.TryBinaryOperation(BinaryOperationBinder, object, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryunaryoperation">DynamicObject.TryUnaryOperation(UnaryOperationBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trygetindex">DynamicObject.TryGetIndex(GetIndexBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trysetindex">DynamicObject.TrySetIndex(SetIndexBinder, object[], object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trydeleteindex">DynamicObject.TryDeleteIndex(DeleteIndexBinder, object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.getdynamicmembernames">DynamicObject.GetDynamicMemberNames()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.getmetaobject">DynamicObject.GetMetaObject(Expression)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser__ctor_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.#ctor*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser__ctor" data-uid="Org.Apache.Fontbox.Afm.AFMParser.#ctor">
+  AFMParser()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Default constructor: even if the corresponding Java class does not have one, it is mandatory for JCOBridge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AFMParser()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser__ctor_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.#ctor*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser__ctor_Java_Io_InputStream_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.#ctor(Java.Io.InputStream)">
+  AFMParser(InputStream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#org.apache.fontbox.afm.AFMParser(java.io.InputStream)">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#org.apache.fontbox.afm.AFMParser(java.io.InputStream)</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AFMParser(InputStream arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <span class="xref">InputStream</span></dt>
+    <dd><p><span class="xref">Java.Io.InputStream</span></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser__ctor_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.#ctor*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser__ctor_System_Object___" data-uid="Org.Apache.Fontbox.Afm.AFMParser.#ctor(System.Object[])">
+  AFMParser(params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AFMParser(params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_ASCENDER_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.ASCENDER*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_ASCENDER" data-uid="Org.Apache.Fontbox.Afm.AFMParser.ASCENDER">
+  ASCENDER
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#ASCENDER">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#ASCENDER</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String ASCENDER { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_BridgeClassName_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.BridgeClassName*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_BridgeClassName" data-uid="Org.Apache.Fontbox.Afm.AFMParser.BridgeClassName">
+  BridgeClassName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_BridgeClassName.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_BridgeClassName.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string BridgeClassName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_CAP_HEIGHT_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CAP_HEIGHT*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_CAP_HEIGHT" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CAP_HEIGHT">
+  CAP_HEIGHT
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CAP_HEIGHT">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CAP_HEIGHT</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String CAP_HEIGHT { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_CC_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CC*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_CC" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CC">
+  CC
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CC">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CC</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String CC { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_CHARACTERS_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARACTERS*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_CHARACTERS" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARACTERS">
+  CHARACTERS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARACTERS">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARACTERS</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String CHARACTERS { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_CHARACTER_SET_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARACTER_SET*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_CHARACTER_SET" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARACTER_SET">
+  CHARACTER_SET
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARACTER_SET">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARACTER_SET</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String CHARACTER_SET { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_B_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_B*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_B" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_B">
+  CHARMETRICS_B
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_B">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_B</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String CHARMETRICS_B { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_C_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_C*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_C" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_C">
+  CHARMETRICS_C
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_C">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_C</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String CHARMETRICS_C { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_CH_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_CH*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_CH" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_CH">
+  CHARMETRICS_CH
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L144"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_CH">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_CH</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String CHARMETRICS_CH { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_L_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_L*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_L" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_L">
+  CHARMETRICS_L
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_L">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_L</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String CHARMETRICS_L { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_N_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_N*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_N" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_N">
+  CHARMETRICS_N
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L156"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_N">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_N</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String CHARMETRICS_N { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_VV_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_VV*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_VV" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_VV">
+  CHARMETRICS_VV
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_VV">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_VV</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String CHARMETRICS_VV { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_W_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_W*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_W" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_W">
+  CHARMETRICS_W
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L168"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_W">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_W</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String CHARMETRICS_W { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_W0_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_W0*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_W0" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_W0">
+  CHARMETRICS_W0
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_W0">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_W0</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String CHARMETRICS_W0 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_W0X_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_W0X*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_W0X" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_W0X">
+  CHARMETRICS_W0X
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L180"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_W0X">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_W0X</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String CHARMETRICS_W0X { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_W0Y_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_W0Y*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_W0Y" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_W0Y">
+  CHARMETRICS_W0Y
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_W0Y">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_W0Y</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String CHARMETRICS_W0Y { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_W1_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_W1*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_W1" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_W1">
+  CHARMETRICS_W1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_W1">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_W1</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String CHARMETRICS_W1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_W1X_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_W1X*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_W1X" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_W1X">
+  CHARMETRICS_W1X
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_W1X">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_W1X</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String CHARMETRICS_W1X { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_W1Y_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_W1Y*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_W1Y" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_W1Y">
+  CHARMETRICS_W1Y
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L204"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_W1Y">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_W1Y</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String CHARMETRICS_W1Y { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_WX_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_WX*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_WX" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_WX">
+  CHARMETRICS_WX
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_WX">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_WX</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String CHARMETRICS_WX { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_WY_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_WY*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_CHARMETRICS_WY" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHARMETRICS_WY">
+  CHARMETRICS_WY
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L216"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_WY">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHARMETRICS_WY</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String CHARMETRICS_WY { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_CHAR_WIDTH_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHAR_WIDTH*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_CHAR_WIDTH" data-uid="Org.Apache.Fontbox.Afm.AFMParser.CHAR_WIDTH">
+  CHAR_WIDTH
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHAR_WIDTH">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#CHAR_WIDTH</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String CHAR_WIDTH { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_COMMENT_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.COMMENT*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_COMMENT" data-uid="Org.Apache.Fontbox.Afm.AFMParser.COMMENT">
+  COMMENT
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#COMMENT">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#COMMENT</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String COMMENT { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_DESCENDER_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.DESCENDER*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_DESCENDER" data-uid="Org.Apache.Fontbox.Afm.AFMParser.DESCENDER">
+  DESCENDER
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L228"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#DESCENDER">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#DESCENDER</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String DESCENDER { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_ENCODING_SCHEME_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.ENCODING_SCHEME*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_ENCODING_SCHEME" data-uid="Org.Apache.Fontbox.Afm.AFMParser.ENCODING_SCHEME">
+  ENCODING_SCHEME
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L234"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#ENCODING_SCHEME">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#ENCODING_SCHEME</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String ENCODING_SCHEME { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_END_CHAR_METRICS_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.END_CHAR_METRICS*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_END_CHAR_METRICS" data-uid="Org.Apache.Fontbox.Afm.AFMParser.END_CHAR_METRICS">
+  END_CHAR_METRICS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L240"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#END_CHAR_METRICS">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#END_CHAR_METRICS</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String END_CHAR_METRICS { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_END_COMPOSITES_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.END_COMPOSITES*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_END_COMPOSITES" data-uid="Org.Apache.Fontbox.Afm.AFMParser.END_COMPOSITES">
+  END_COMPOSITES
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L246"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#END_COMPOSITES">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#END_COMPOSITES</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String END_COMPOSITES { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_END_FONT_METRICS_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.END_FONT_METRICS*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_END_FONT_METRICS" data-uid="Org.Apache.Fontbox.Afm.AFMParser.END_FONT_METRICS">
+  END_FONT_METRICS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L252"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#END_FONT_METRICS">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#END_FONT_METRICS</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String END_FONT_METRICS { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_END_KERN_DATA_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.END_KERN_DATA*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_END_KERN_DATA" data-uid="Org.Apache.Fontbox.Afm.AFMParser.END_KERN_DATA">
+  END_KERN_DATA
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L258"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#END_KERN_DATA">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#END_KERN_DATA</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String END_KERN_DATA { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_END_KERN_PAIRS_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.END_KERN_PAIRS*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_END_KERN_PAIRS" data-uid="Org.Apache.Fontbox.Afm.AFMParser.END_KERN_PAIRS">
+  END_KERN_PAIRS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L264"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#END_KERN_PAIRS">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#END_KERN_PAIRS</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String END_KERN_PAIRS { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_END_TRACK_KERN_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.END_TRACK_KERN*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_END_TRACK_KERN" data-uid="Org.Apache.Fontbox.Afm.AFMParser.END_TRACK_KERN">
+  END_TRACK_KERN
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L270"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#END_TRACK_KERN">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#END_TRACK_KERN</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String END_TRACK_KERN { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_ESC_CHAR_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.ESC_CHAR*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_ESC_CHAR" data-uid="Org.Apache.Fontbox.Afm.AFMParser.ESC_CHAR">
+  ESC_CHAR
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L276"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#ESC_CHAR">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#ESC_CHAR</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String ESC_CHAR { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_FAMILY_NAME_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.FAMILY_NAME*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_FAMILY_NAME" data-uid="Org.Apache.Fontbox.Afm.AFMParser.FAMILY_NAME">
+  FAMILY_NAME
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L282"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#FAMILY_NAME">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#FAMILY_NAME</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String FAMILY_NAME { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_FONT_BBOX_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.FONT_BBOX*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_FONT_BBOX" data-uid="Org.Apache.Fontbox.Afm.AFMParser.FONT_BBOX">
+  FONT_BBOX
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L288"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#FONT_BBOX">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#FONT_BBOX</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String FONT_BBOX { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_FONT_NAME_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.FONT_NAME*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_FONT_NAME" data-uid="Org.Apache.Fontbox.Afm.AFMParser.FONT_NAME">
+  FONT_NAME
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L294"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#FONT_NAME">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#FONT_NAME</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String FONT_NAME { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_FULL_NAME_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.FULL_NAME*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_FULL_NAME" data-uid="Org.Apache.Fontbox.Afm.AFMParser.FULL_NAME">
+  FULL_NAME
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L300"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#FULL_NAME">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#FULL_NAME</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String FULL_NAME { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_IS_BASE_FONT_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.IS_BASE_FONT*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_IS_BASE_FONT" data-uid="Org.Apache.Fontbox.Afm.AFMParser.IS_BASE_FONT">
+  IS_BASE_FONT
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L306"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#IS_BASE_FONT">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#IS_BASE_FONT</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String IS_BASE_FONT { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_IS_FIXED_PITCH_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.IS_FIXED_PITCH*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_IS_FIXED_PITCH" data-uid="Org.Apache.Fontbox.Afm.AFMParser.IS_FIXED_PITCH">
+  IS_FIXED_PITCH
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L312"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#IS_FIXED_PITCH">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#IS_FIXED_PITCH</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String IS_FIXED_PITCH { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_IS_FIXED_V_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.IS_FIXED_V*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_IS_FIXED_V" data-uid="Org.Apache.Fontbox.Afm.AFMParser.IS_FIXED_V">
+  IS_FIXED_V
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L318"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#IS_FIXED_V">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#IS_FIXED_V</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String IS_FIXED_V { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_ITALIC_ANGLE_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.ITALIC_ANGLE*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_ITALIC_ANGLE" data-uid="Org.Apache.Fontbox.Afm.AFMParser.ITALIC_ANGLE">
+  ITALIC_ANGLE
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L324"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#ITALIC_ANGLE">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#ITALIC_ANGLE</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String ITALIC_ANGLE { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_IsBridgeAbstract_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.IsBridgeAbstract*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_IsBridgeAbstract" data-uid="Org.Apache.Fontbox.Afm.AFMParser.IsBridgeAbstract">
+  IsBridgeAbstract
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeAbstract.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeAbstract.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeAbstract { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_IsBridgeCloseable_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.IsBridgeCloseable*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_IsBridgeCloseable" data-uid="Org.Apache.Fontbox.Afm.AFMParser.IsBridgeCloseable">
+  IsBridgeCloseable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeCloseable.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeCloseable.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeCloseable { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_IsBridgeInterface_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.IsBridgeInterface*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_IsBridgeInterface" data-uid="Org.Apache.Fontbox.Afm.AFMParser.IsBridgeInterface">
+  IsBridgeInterface
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeInterface.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeInterface.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeInterface { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_IsBridgeStatic_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.IsBridgeStatic*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_IsBridgeStatic" data-uid="Org.Apache.Fontbox.Afm.AFMParser.IsBridgeStatic">
+  IsBridgeStatic
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeStatic.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeStatic.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeStatic { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_KERN_PAIR_KP_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.KERN_PAIR_KP*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_KERN_PAIR_KP" data-uid="Org.Apache.Fontbox.Afm.AFMParser.KERN_PAIR_KP">
+  KERN_PAIR_KP
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L330"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#KERN_PAIR_KP">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#KERN_PAIR_KP</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String KERN_PAIR_KP { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_KERN_PAIR_KPH_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.KERN_PAIR_KPH*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_KERN_PAIR_KPH" data-uid="Org.Apache.Fontbox.Afm.AFMParser.KERN_PAIR_KPH">
+  KERN_PAIR_KPH
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L336"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#KERN_PAIR_KPH">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#KERN_PAIR_KPH</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String KERN_PAIR_KPH { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_KERN_PAIR_KPX_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.KERN_PAIR_KPX*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_KERN_PAIR_KPX" data-uid="Org.Apache.Fontbox.Afm.AFMParser.KERN_PAIR_KPX">
+  KERN_PAIR_KPX
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L342"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#KERN_PAIR_KPX">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#KERN_PAIR_KPX</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String KERN_PAIR_KPX { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_KERN_PAIR_KPY_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.KERN_PAIR_KPY*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_KERN_PAIR_KPY" data-uid="Org.Apache.Fontbox.Afm.AFMParser.KERN_PAIR_KPY">
+  KERN_PAIR_KPY
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L348"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#KERN_PAIR_KPY">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#KERN_PAIR_KPY</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String KERN_PAIR_KPY { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_MAPPING_SCHEME_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.MAPPING_SCHEME*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_MAPPING_SCHEME" data-uid="Org.Apache.Fontbox.Afm.AFMParser.MAPPING_SCHEME">
+  MAPPING_SCHEME
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L354"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#MAPPING_SCHEME">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#MAPPING_SCHEME</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String MAPPING_SCHEME { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_NOTICE_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.NOTICE*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_NOTICE" data-uid="Org.Apache.Fontbox.Afm.AFMParser.NOTICE">
+  NOTICE
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L360"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#NOTICE">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#NOTICE</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String NOTICE { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_PCC_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.PCC*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_PCC" data-uid="Org.Apache.Fontbox.Afm.AFMParser.PCC">
+  PCC
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L366"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#PCC">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#PCC</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String PCC { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_START_CHAR_METRICS_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.START_CHAR_METRICS*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_START_CHAR_METRICS" data-uid="Org.Apache.Fontbox.Afm.AFMParser.START_CHAR_METRICS">
+  START_CHAR_METRICS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L372"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#START_CHAR_METRICS">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#START_CHAR_METRICS</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String START_CHAR_METRICS { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_START_COMPOSITES_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.START_COMPOSITES*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_START_COMPOSITES" data-uid="Org.Apache.Fontbox.Afm.AFMParser.START_COMPOSITES">
+  START_COMPOSITES
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L378"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#START_COMPOSITES">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#START_COMPOSITES</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String START_COMPOSITES { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_START_FONT_METRICS_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.START_FONT_METRICS*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_START_FONT_METRICS" data-uid="Org.Apache.Fontbox.Afm.AFMParser.START_FONT_METRICS">
+  START_FONT_METRICS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L384"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#START_FONT_METRICS">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#START_FONT_METRICS</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String START_FONT_METRICS { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_START_KERN_DATA_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.START_KERN_DATA*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_START_KERN_DATA" data-uid="Org.Apache.Fontbox.Afm.AFMParser.START_KERN_DATA">
+  START_KERN_DATA
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L390"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#START_KERN_DATA">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#START_KERN_DATA</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String START_KERN_DATA { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_START_KERN_PAIRS_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.START_KERN_PAIRS*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_START_KERN_PAIRS" data-uid="Org.Apache.Fontbox.Afm.AFMParser.START_KERN_PAIRS">
+  START_KERN_PAIRS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L396"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#START_KERN_PAIRS">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#START_KERN_PAIRS</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String START_KERN_PAIRS { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_START_KERN_PAIRS0_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.START_KERN_PAIRS0*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_START_KERN_PAIRS0" data-uid="Org.Apache.Fontbox.Afm.AFMParser.START_KERN_PAIRS0">
+  START_KERN_PAIRS0
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L402"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#START_KERN_PAIRS0">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#START_KERN_PAIRS0</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String START_KERN_PAIRS0 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_START_KERN_PAIRS1_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.START_KERN_PAIRS1*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_START_KERN_PAIRS1" data-uid="Org.Apache.Fontbox.Afm.AFMParser.START_KERN_PAIRS1">
+  START_KERN_PAIRS1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L408"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#START_KERN_PAIRS1">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#START_KERN_PAIRS1</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String START_KERN_PAIRS1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_START_TRACK_KERN_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.START_TRACK_KERN*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_START_TRACK_KERN" data-uid="Org.Apache.Fontbox.Afm.AFMParser.START_TRACK_KERN">
+  START_TRACK_KERN
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L414"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#START_TRACK_KERN">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#START_TRACK_KERN</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String START_TRACK_KERN { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_STD_HW_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.STD_HW*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_STD_HW" data-uid="Org.Apache.Fontbox.Afm.AFMParser.STD_HW">
+  STD_HW
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L420"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#STD_HW">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#STD_HW</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String STD_HW { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_STD_VW_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.STD_VW*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_STD_VW" data-uid="Org.Apache.Fontbox.Afm.AFMParser.STD_VW">
+  STD_VW
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L426"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#STD_VW">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#STD_VW</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String STD_VW { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_UNDERLINE_POSITION_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.UNDERLINE_POSITION*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_UNDERLINE_POSITION" data-uid="Org.Apache.Fontbox.Afm.AFMParser.UNDERLINE_POSITION">
+  UNDERLINE_POSITION
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L432"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#UNDERLINE_POSITION">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#UNDERLINE_POSITION</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String UNDERLINE_POSITION { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_UNDERLINE_THICKNESS_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.UNDERLINE_THICKNESS*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_UNDERLINE_THICKNESS" data-uid="Org.Apache.Fontbox.Afm.AFMParser.UNDERLINE_THICKNESS">
+  UNDERLINE_THICKNESS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L438"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#UNDERLINE_THICKNESS">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#UNDERLINE_THICKNESS</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String UNDERLINE_THICKNESS { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_VERSION_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.VERSION*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_VERSION" data-uid="Org.Apache.Fontbox.Afm.AFMParser.VERSION">
+  VERSION
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L450"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#VERSION">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#VERSION</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String VERSION { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_V_VECTOR_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.V_VECTOR*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_V_VECTOR" data-uid="Org.Apache.Fontbox.Afm.AFMParser.V_VECTOR">
+  V_VECTOR
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L444"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#V_VECTOR">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#V_VECTOR</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String V_VECTOR { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_WEIGHT_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.WEIGHT*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_WEIGHT" data-uid="Org.Apache.Fontbox.Afm.AFMParser.WEIGHT">
+  WEIGHT
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L456"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#WEIGHT">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#WEIGHT</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String WEIGHT { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_X_HEIGHT_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.X_HEIGHT*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_X_HEIGHT" data-uid="Org.Apache.Fontbox.Afm.AFMParser.X_HEIGHT">
+  X_HEIGHT
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L462"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#X_HEIGHT">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#X_HEIGHT</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static String X_HEIGHT { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_Parse_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.Parse*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_Parse" data-uid="Org.Apache.Fontbox.Afm.AFMParser.Parse">
+  Parse()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L478"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#parse--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#parse--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FontMetrics Parse()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Fontbox.Afm.FontMetrics.html">FontMetrics</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Fontbox.Afm.FontMetrics.html">FontMetrics</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IOException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_AFMParser_Parse_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.Parse*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_AFMParser_Parse_System_Boolean_" data-uid="Org.Apache.Fontbox.Afm.AFMParser.Parse(System.Boolean)">
+  Parse(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L488"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#parse-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/AFMParser.html#parse-boolean-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FontMetrics Parse(bool arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Fontbox.Afm.FontMetrics.html">FontMetrics</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Fontbox.Afm.FontMetrics.html">FontMetrics</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IOException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/AFMParser.cs/#L74" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <div style="text-align: center;">Copyright © 2025 MASES s.r.l.. | Via San Cesidio 16 - San Valentino in A.C. - PE | P.I. 01932310681</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
