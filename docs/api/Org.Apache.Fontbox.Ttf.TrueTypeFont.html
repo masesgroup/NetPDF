@@ -1,0 +1,2282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>Class TrueTypeFont | MASES Group - NetPDF </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class TrueTypeFont | MASES Group - NetPDF ">
+      <meta name="description" content="This is a descriptive page of NetPDF, the PDFBox suite for .NET">
+      <meta name="description" content="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/masesgroup/NetPDF/new/master/apiSpec/new?filename=Org_Apache_Fontbox_Ttf_TrueTypeFont.md&amp;value=---%0Auid%3A%20Org.Apache.Fontbox.Ttf.TrueTypeFont%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont">
+
+
+
+  <h1 id="Org_Apache_Fontbox_Ttf_TrueTypeFont" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont" class="text-break">
+Class TrueTypeFont  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Org.html">Org</a>.<a class="xref" href="Org.Apache.html">Apache</a>.<a class="xref" href="Org.Apache.Fontbox.html">Fontbox</a>.<a class="xref" href="Org.Apache.Fontbox.Ttf.html">Ttf</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>MASES.NetPDF.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html</a></p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class TrueTypeFont : JVMBridgeBase&lt;TrueTypeFont&gt;, IDynamicMetaObjectProvider, IJVMBridgeCore, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, IFontBoxFont, ICloseable, IAutoCloseable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject">DynamicObject</a></div>
+      <div><span class="xref">JVMBridgeBase</span></div>
+      <div><span class="xref">JVMBridgeBase</span>&lt;<a class="xref" href="Org.Apache.Fontbox.Ttf.TrueTypeFont.html">TrueTypeFont</a>&gt;</div>
+      <div><span class="xref">TrueTypeFont</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
+      <div><span class="xref">IJVMBridgeCore</span></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><span class="xref">IJVMBridgeBaseStatic</span></div>
+      <div><span class="xref">IJVMBridgeBase</span></div>
+      <div><span class="xref">IJVMBridgeDefinition</span></div>
+      <div><a class="xref" href="Org.Apache.Fontbox.IFontBoxFont.html">IFontBoxFont</a></div>
+      <div><span class="xref">ICloseable</span></div>
+      <div><span class="xref">IAutoCloseable</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="Org.Apache.Fontbox.Ttf.OpenTypeFont.html">OpenTypeFont</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecute(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecuteWithSignature(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecute(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecuteWithSignature(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecute&lt;TReturn&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecuteWithSignature&lt;TReturn&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecute&lt;TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecuteWithSignature&lt;TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecute(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecuteWithSignature(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecute(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecuteWithSignature(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecute&lt;TNewClass, TReturn&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecuteWithSignature&lt;TNewClass, TReturn&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecute&lt;TNewClass, TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecuteWithSignature&lt;TNewClass, TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecute&lt;TReturn&gt;(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecuteWithSignature&lt;TReturn&gt;(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecute&lt;TReturn&gt;(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecuteWithSignature&lt;TReturn&gt;(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecute&lt;TNewClass, TReturn, TConverter&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecute&lt;TNewClass, TReturn, TConverter&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecute&lt;TReturn, TConverter&gt;(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecute&lt;TReturn, TConverter&gt;(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecuteArray&lt;T&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecuteWithSignatureArray&lt;T&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecuteArray&lt;T&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SGetField(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SGetField(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SGetField&lt;TReturn&gt;(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SGetField&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SGetFieldArray&lt;TReturn&gt;(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SGetFieldArray&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SSetField(IJavaType, string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SSetField(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SSetField&lt;TValue&gt;(IJavaType, string, TValue)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.SSetField&lt;TValue&gt;(string, TValue)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.IsAssignableFrom(string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;TrueTypeFont&gt;.IsAssignableFrom(IJavaType)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;TrueTypeFont&gt;.IsAssignableFrom&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase&lt;TrueTypeFont&gt;.New(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;TrueTypeFont&gt;.NewWithSignature(string, params object[])</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;TrueTypeFont&gt;.Execute&lt;T&gt;(params T[])</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;TrueTypeFont&gt;.DynBridgeClazz</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;TrueTypeFont&gt;.BridgeClazz</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ClassNameOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ClassOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.WrapsDirect&lt;TNewClass&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps(Type, IJavaObject, string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass, TReturn&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps&lt;TReturn&gt;(Type, IJavaObject, string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass, TReturn, TConverter&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps&lt;TReturn, TConverter&gt;(Type, IJavaObject)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.MonitorEnter()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.MonitorExit()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IsInstanceOf(string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsInstanceOf(IJavaType)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsInstanceOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.RuntimeIsInstanceOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.CastTo&lt;TNewClass&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.CastDirect&lt;TNewClass&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ToString()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Notify()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.NotifyAll()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wait()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">JVMBridgeBase.Wait(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">JVMBridgeBase.Wait(long, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TNewClass, TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TNewClass, TReturn, TConverter&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;T&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetFieldArray&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ISetField(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ISetField&lt;TValue&gt;(string, TValue)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.DynBridgeInstance</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.BridgeInstance</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsBridgeListener</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trygetmember">DynamicObject.TryGetMember(GetMemberBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trysetmember">DynamicObject.TrySetMember(SetMemberBinder, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trydeletemember">DynamicObject.TryDeleteMember(DeleteMemberBinder)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryinvokemember">DynamicObject.TryInvokeMember(InvokeMemberBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryconvert">DynamicObject.TryConvert(ConvertBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trycreateinstance">DynamicObject.TryCreateInstance(CreateInstanceBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryinvoke">DynamicObject.TryInvoke(InvokeBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trybinaryoperation">DynamicObject.TryBinaryOperation(BinaryOperationBinder, object, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryunaryoperation">DynamicObject.TryUnaryOperation(UnaryOperationBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trygetindex">DynamicObject.TryGetIndex(GetIndexBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trysetindex">DynamicObject.TrySetIndex(SetIndexBinder, object[], object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trydeleteindex">DynamicObject.TryDeleteIndex(DeleteIndexBinder, object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.getdynamicmembernames">DynamicObject.GetDynamicMemberNames()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.getmetaobject">DynamicObject.GetMetaObject(Expression)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont__ctor_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.#ctor*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont__ctor" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.#ctor">
+  TrueTypeFont()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Default constructor: even if the corresponding Java class does not have one, it is mandatory for JCOBridge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TrueTypeFont()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont__ctor_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.#ctor*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont__ctor_System_Object___" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.#ctor(System.Object[])">
+  TrueTypeFont(params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TrueTypeFont(params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_BridgeClassName_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.BridgeClassName*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_BridgeClassName" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.BridgeClassName">
+  BridgeClassName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_BridgeClassName.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_BridgeClassName.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string BridgeClassName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_Cmap_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.Cmap*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_Cmap" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.Cmap">
+  Cmap
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getCmap--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getCmap--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CmapTable Cmap { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Fontbox.Ttf.CmapTable.html">CmapTable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_FontBBox_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.FontBBox*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_FontBBox" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.FontBBox">
+  FontBBox
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getFontBBox--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getFontBBox--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BoundingBox FontBBox { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Fontbox.Util.BoundingBox.html">BoundingBox</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_FontMatrix_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.FontMatrix*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_FontMatrix" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.FontMatrix">
+  FontMatrix
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getFontMatrix--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getFontMatrix--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Number&gt; FontMatrix { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<span class="xref">Number</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_Glyph_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.Glyph*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_Glyph" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.Glyph">
+  Glyph
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getGlyph--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getGlyph--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlyphTable Glyph { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Fontbox.Ttf.GlyphTable.html">GlyphTable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_Gsub_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.Gsub*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_Gsub" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.Gsub">
+  Gsub
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getGsub--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getGsub--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlyphSubstitutionTable Gsub { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Fontbox.Ttf.GlyphSubstitutionTable.html">GlyphSubstitutionTable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_GsubData_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.GsubData*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_GsubData" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.GsubData">
+  GsubData
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L139"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getGsubData--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getGsubData--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GsubData GsubData { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Fontbox.Ttf.Model.GsubData.html">GsubData</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_Header_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.Header*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_Header" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.Header">
+  Header
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getHeader--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getHeader--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HeaderTable Header { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Fontbox.Ttf.HeaderTable.html">HeaderTable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_HorizontalHeader_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.HorizontalHeader*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_HorizontalHeader" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.HorizontalHeader">
+  HorizontalHeader
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L153"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getHorizontalHeader--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getHorizontalHeader--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HorizontalHeaderTable HorizontalHeader { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Fontbox.Ttf.HorizontalHeaderTable.html">HorizontalHeaderTable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_HorizontalMetrics_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.HorizontalMetrics*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_HorizontalMetrics" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.HorizontalMetrics">
+  HorizontalMetrics
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getHorizontalMetrics--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getHorizontalMetrics--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HorizontalMetricsTable HorizontalMetrics { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Fontbox.Ttf.HorizontalMetricsTable.html">HorizontalMetricsTable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_IndexToLocation_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.IndexToLocation*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_IndexToLocation" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.IndexToLocation">
+  IndexToLocation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getIndexToLocation--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getIndexToLocation--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IndexToLocationTable IndexToLocation { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Fontbox.Ttf.IndexToLocationTable.html">IndexToLocationTable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_IsBridgeAbstract_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.IsBridgeAbstract*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_IsBridgeAbstract" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.IsBridgeAbstract">
+  IsBridgeAbstract
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeAbstract.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeAbstract.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeAbstract { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_IsBridgeCloseable_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.IsBridgeCloseable*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_IsBridgeCloseable" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.IsBridgeCloseable">
+  IsBridgeCloseable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeCloseable.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeCloseable.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeCloseable { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_IsBridgeInterface_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.IsBridgeInterface*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_IsBridgeInterface" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.IsBridgeInterface">
+  IsBridgeInterface
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeInterface.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeInterface.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeInterface { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_IsBridgeStatic_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.IsBridgeStatic*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_IsBridgeStatic" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.IsBridgeStatic">
+  IsBridgeStatic
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeStatic.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeStatic.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeStatic { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_Kerning_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.Kerning*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_Kerning" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.Kerning">
+  Kerning
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getKerning--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getKerning--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public KerningTable Kerning { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Fontbox.Ttf.KerningTable.html">KerningTable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_MaximumProfile_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.MaximumProfile*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_MaximumProfile" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.MaximumProfile">
+  MaximumProfile
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getMaximumProfile--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getMaximumProfile--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MaximumProfileTable MaximumProfile { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Fontbox.Ttf.MaximumProfileTable.html">MaximumProfileTable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_Name_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.Name*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_Name" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L188"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getName--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getName--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public String Name { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_Naming_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.Naming*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_Naming" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.Naming">
+  Naming
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L195"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getNaming--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getNaming--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NamingTable Naming { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Fontbox.Ttf.NamingTable.html">NamingTable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_NumberOfGlyphs_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.NumberOfGlyphs*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_NumberOfGlyphs" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.NumberOfGlyphs">
+  NumberOfGlyphs
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getNumberOfGlyphs--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getNumberOfGlyphs--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int NumberOfGlyphs { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_OS2Windows_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.OS2Windows*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_OS2Windows" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.OS2Windows">
+  OS2Windows
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L223"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getOS2Windows--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getOS2Windows--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OS2WindowsMetricsTable OS2Windows { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Fontbox.Ttf.OS2WindowsMetricsTable.html">OS2WindowsMetricsTable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_OriginalData_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.OriginalData*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_OriginalData" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.OriginalData">
+  OriginalData
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L209"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getOriginalData--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getOriginalData--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InputStream OriginalData { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">InputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_OriginalDataSize_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.OriginalDataSize*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_OriginalDataSize" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.OriginalDataSize">
+  OriginalDataSize
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L216"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getOriginalDataSize--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getOriginalDataSize--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long OriginalDataSize { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_PostScript_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.PostScript*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_PostScript" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.PostScript">
+  PostScript
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L230"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getPostScript--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getPostScript--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PostScriptTable PostScript { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Fontbox.Ttf.PostScriptTable.html">PostScriptTable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_TableMap_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.TableMap*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_TableMap" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.TableMap">
+  TableMap
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L237"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getTableMap--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getTableMap--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Map&lt;String, TTFTable&gt; TableMap { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Map</span>&lt;<span class="xref">String</span>, <a class="xref" href="Org.Apache.Fontbox.Ttf.TTFTable.html">TTFTable</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_Tables_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.Tables*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_Tables" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.Tables">
+  Tables
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L244"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getTables--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getTables--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Collection&lt;TTFTable&gt; Tables { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Collection</span>&lt;<a class="xref" href="Org.Apache.Fontbox.Ttf.TTFTable.html">TTFTable</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_UnicodeCmapLookup_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.UnicodeCmapLookup*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_UnicodeCmapLookup" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.UnicodeCmapLookup">
+  UnicodeCmapLookup
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L251"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getUnicodeCmapLookup--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getUnicodeCmapLookup--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CmapLookup UnicodeCmapLookup { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Fontbox.Ttf.CmapLookup.html">CmapLookup</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_UnitsPerEm_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.UnitsPerEm*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_UnitsPerEm" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.UnitsPerEm">
+  UnitsPerEm
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L258"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getUnitsPerEm--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getUnitsPerEm--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int UnitsPerEm { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_Version_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.Version*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_Version" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L265"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getVersion--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getVersion--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Version { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_VerticalHeader_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.VerticalHeader*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_VerticalHeader" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.VerticalHeader">
+  VerticalHeader
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L272"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getVerticalHeader--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getVerticalHeader--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VerticalHeaderTable VerticalHeader { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Fontbox.Ttf.VerticalHeaderTable.html">VerticalHeaderTable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_VerticalMetrics_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.VerticalMetrics*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_VerticalMetrics" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.VerticalMetrics">
+  VerticalMetrics
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L279"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getVerticalMetrics--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getVerticalMetrics--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VerticalMetricsTable VerticalMetrics { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Fontbox.Ttf.VerticalMetricsTable.html">VerticalMetricsTable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_VerticalOrigin_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.VerticalOrigin*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_VerticalOrigin" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.VerticalOrigin">
+  VerticalOrigin
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L286"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getVerticalOrigin--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getVerticalOrigin--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VerticalOriginTable VerticalOrigin { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Fontbox.Ttf.VerticalOriginTable.html">VerticalOriginTable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_Close_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.Close*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_Close" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.Close">
+  Close()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L393"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#close--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#close--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Close()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IOException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_DisableGsubFeature_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.DisableGsubFeature*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_DisableGsubFeature_Java_Lang_String_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.DisableGsubFeature(Java.Lang.String)">
+  DisableGsubFeature(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L401"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#disableGsubFeature-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#disableGsubFeature-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DisableGsubFeature(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <span class="xref">String</span></dt>
+    <dd><p><span class="xref">Java.Lang.String</span></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_EnableGsubFeature_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.EnableGsubFeature*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_EnableGsubFeature_Java_Lang_String_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.EnableGsubFeature(Java.Lang.String)">
+  EnableGsubFeature(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L409"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#enableGsubFeature-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#enableGsubFeature-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EnableGsubFeature(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <span class="xref">String</span></dt>
+    <dd><p><span class="xref">Java.Lang.String</span></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_EnableVerticalSubstitutions_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.EnableVerticalSubstitutions*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_EnableVerticalSubstitutions" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.EnableVerticalSubstitutions">
+  EnableVerticalSubstitutions()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L416"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#enableVerticalSubstitutions--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#enableVerticalSubstitutions--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EnableVerticalSubstitutions()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_GetAdvanceHeight_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.GetAdvanceHeight*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_GetAdvanceHeight_System_Int32_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.GetAdvanceHeight(System.Int32)">
+  GetAdvanceHeight(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L345"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getAdvanceHeight-int-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getAdvanceHeight-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetAdvanceHeight(int arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IOException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_GetAdvanceWidth_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.GetAdvanceWidth*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_GetAdvanceWidth_System_Int32_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.GetAdvanceWidth(System.Int32)">
+  GetAdvanceWidth(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L355"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getAdvanceWidth-int-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getAdvanceWidth-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetAdvanceWidth(int arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IOException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_GetPath_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.GetPath*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_GetPath_Java_Lang_String_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.GetPath(Java.Lang.String)">
+  GetPath(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L375"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getPath-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getPath-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GeneralPath GetPath(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <span class="xref">String</span></dt>
+    <dd><p><span class="xref">Java.Lang.String</span></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GeneralPath</span></dt>
+    <dd><p><span class="xref">Java.Awt.Geom.GeneralPath</span></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IOException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_GetTableBytes_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.GetTableBytes*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_GetTableBytes_Org_Apache_Fontbox_Ttf_TTFTable_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.GetTableBytes(Org.Apache.Fontbox.Ttf.TTFTable)">
+  GetTableBytes(TTFTable)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L314"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getTableBytes-org.apache.fontbox.ttf.TTFTable-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getTableBytes-org.apache.fontbox.ttf.TTFTable-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] GetTableBytes(TTFTable arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="Org.Apache.Fontbox.Ttf.TTFTable.html">TTFTable</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Fontbox.Ttf.TTFTable.html">TTFTable</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IOException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_GetTableNBytes_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.GetTableNBytes*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_GetTableNBytes_Org_Apache_Fontbox_Ttf_TTFTable_System_Int32_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.GetTableNBytes(Org.Apache.Fontbox.Ttf.TTFTable,System.Int32)">
+  GetTableNBytes(TTFTable, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L325"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getTableNBytes-org.apache.fontbox.ttf.TTFTable-int-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getTableNBytes-org.apache.fontbox.ttf.TTFTable-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] GetTableNBytes(TTFTable arg0, int arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="Org.Apache.Fontbox.Ttf.TTFTable.html">TTFTable</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Fontbox.Ttf.TTFTable.html">TTFTable</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IOException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_GetUnicodeCmapLookup_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.GetUnicodeCmapLookup*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_GetUnicodeCmapLookup_System_Boolean_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.GetUnicodeCmapLookup(System.Boolean)">
+  GetUnicodeCmapLookup(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L385"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getUnicodeCmapLookup-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getUnicodeCmapLookup-boolean-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CmapLookup GetUnicodeCmapLookup(bool arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Fontbox.Ttf.CmapLookup.html">CmapLookup</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Fontbox.Ttf.CmapLookup.html">CmapLookup</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IOException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_GetWidth_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.GetWidth*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_GetWidth_Java_Lang_String_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.GetWidth(Java.Lang.String)">
+  GetWidth(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L335"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getWidth-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#getWidth-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetWidth(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <span class="xref">String</span></dt>
+    <dd><p><span class="xref">Java.Lang.String</span></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IOException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_HasGlyph_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.HasGlyph*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_HasGlyph_Java_Lang_String_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.HasGlyph(Java.Lang.String)">
+  HasGlyph(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L296"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#hasGlyph-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#hasGlyph-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasGlyph(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <span class="xref">String</span></dt>
+    <dd><p><span class="xref">Java.Lang.String</span></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IOException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_IsEnableGsub_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.IsEnableGsub*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_IsEnableGsub" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.IsEnableGsub">
+  IsEnableGsub()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L304"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#isEnableGsub--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#isEnableGsub--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEnableGsub()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_NameToGID_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.NameToGID*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_NameToGID_Java_Lang_String_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.NameToGID(Java.Lang.String)">
+  NameToGID(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L365"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#nameToGID-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#nameToGID-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int NameToGID(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <span class="xref">String</span></dt>
+    <dd><p><span class="xref">Java.Lang.String</span></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IOException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_SetEnableGsub_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.SetEnableGsub*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_SetEnableGsub_System_Boolean_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.SetEnableGsub(System.Boolean)">
+  SetEnableGsub(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L424"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#setEnableGsub-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/ttf/TrueTypeFont.html#setEnableGsub-boolean-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetEnableGsub(bool arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="operators">Operators
+</h2>
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_op_Implicit_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.op_Implicit*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_op_Implicit_Org_Apache_Fontbox_Ttf_TrueTypeFont__Java_Io_Closeable" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.op_Implicit(Org.Apache.Fontbox.Ttf.TrueTypeFont)~Java.Io.Closeable">
+  implicit operator Closeable(TrueTypeFont)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converter from <a class="xref" href="Org.Apache.Fontbox.Ttf.TrueTypeFont.html">TrueTypeFont</a> to <span class="xref">Java.Io.Closeable</span></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Closeable(TrueTypeFont t)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>t</code> <a class="xref" href="Org.Apache.Fontbox.Ttf.TrueTypeFont.html">TrueTypeFont</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Closeable</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_TrueTypeFont_op_Implicit_" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.op_Implicit*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Ttf_TrueTypeFont_op_Implicit_Org_Apache_Fontbox_Ttf_TrueTypeFont__Org_Apache_Fontbox_FontBoxFont" data-uid="Org.Apache.Fontbox.Ttf.TrueTypeFont.op_Implicit(Org.Apache.Fontbox.Ttf.TrueTypeFont)~Org.Apache.Fontbox.FontBoxFont">
+  implicit operator FontBoxFont(TrueTypeFont)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converter from <a class="xref" href="Org.Apache.Fontbox.Ttf.TrueTypeFont.html">TrueTypeFont</a> to <a class="xref" href="Org.Apache.Fontbox.FontBoxFont.html">FontBoxFont</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator FontBoxFont(TrueTypeFont t)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>t</code> <a class="xref" href="Org.Apache.Fontbox.Ttf.TrueTypeFont.html">TrueTypeFont</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Fontbox.FontBoxFont.html">FontBoxFont</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/TrueTypeFont.cs/#L74" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <div style="text-align: center;">Copyright © 2025 MASES s.r.l.. | Via San Cesidio 16 - San Valentino in A.C. - PE | P.I. 01932310681</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

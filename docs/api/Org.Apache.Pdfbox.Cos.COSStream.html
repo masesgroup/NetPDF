@@ -1,0 +1,1579 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>Class COSStream | MASES Group - NetPDF </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class COSStream | MASES Group - NetPDF ">
+      <meta name="description" content="This is a descriptive page of NetPDF, the PDFBox suite for .NET">
+      <meta name="description" content="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/masesgroup/NetPDF/new/master/apiSpec/new?filename=Org_Apache_Pdfbox_Cos_COSStream.md&amp;value=---%0Auid%3A%20Org.Apache.Pdfbox.Cos.COSStream%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Org.Apache.Pdfbox.Cos.COSStream">
+
+
+
+  <h1 id="Org_Apache_Pdfbox_Cos_COSStream" data-uid="Org.Apache.Pdfbox.Cos.COSStream" class="text-break">
+Class COSStream  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Cos/COSStream.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Org.html">Org</a>.<a class="xref" href="Org.Apache.html">Apache</a>.<a class="xref" href="Org.Apache.Pdfbox.html">Pdfbox</a>.<a class="xref" href="Org.Apache.Pdfbox.Cos.html">Cos</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>MASES.NetPDF.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html</a></p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class COSStream : COSDictionary, IDynamicMetaObjectProvider, IJVMBridgeCore, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, ICOSObjectable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject">DynamicObject</a></div>
+      <div><span class="xref">JVMBridgeBase</span></div>
+      <div><span class="xref">JVMBridgeBase</span>&lt;<a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable.html">COSObjectable</a>&gt;</div>
+      <div><a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable.html">COSObjectable</a></div>
+      <div><a class="xref" href="Org.Apache.Pdfbox.Cos.COSBase.html">COSBase</a></div>
+      <div><a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html">COSDictionary</a></div>
+      <div><span class="xref">COSStream</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
+      <div><span class="xref">IJVMBridgeCore</span></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><span class="xref">IJVMBridgeBaseStatic</span></div>
+      <div><span class="xref">IJVMBridgeBase</span></div>
+      <div><span class="xref">IJVMBridgeDefinition</span></div>
+      <div><a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Common.ICOSObjectable.html">ICOSObjectable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_UpdateState">COSDictionary.UpdateState</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_Values">COSDictionary.Values</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_ContainsKey_Java_Lang_String_">COSDictionary.ContainsKey(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_ContainsKey_Org_Apache_Pdfbox_Cos_COSName_">COSDictionary.ContainsKey(COSName)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_ContainsValue_System_Object_">COSDictionary.ContainsValue(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetBoolean_Java_Lang_String_System_Boolean_">COSDictionary.GetBoolean(String, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetBoolean_Org_Apache_Pdfbox_Cos_COSName_System_Boolean_">COSDictionary.GetBoolean(COSName, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetBoolean_Org_Apache_Pdfbox_Cos_COSName_Org_Apache_Pdfbox_Cos_COSName_System_Boolean_">COSDictionary.GetBoolean(COSName, COSName, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetFlag_Org_Apache_Pdfbox_Cos_COSName_System_Int32_">COSDictionary.GetFlag(COSName, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetFloat_Java_Lang_String_System_Single_">COSDictionary.GetFloat(String, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetFloat_Java_Lang_String_">COSDictionary.GetFloat(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetFloat_Org_Apache_Pdfbox_Cos_COSName_System_Single_">COSDictionary.GetFloat(COSName, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetFloat_Org_Apache_Pdfbox_Cos_COSName_">COSDictionary.GetFloat(COSName)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetEmbeddedInt_Org_Apache_Pdfbox_Cos_COSName_Org_Apache_Pdfbox_Cos_COSName_System_Int32_">COSDictionary.GetEmbeddedInt(COSName, COSName, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetEmbeddedInt_Org_Apache_Pdfbox_Cos_COSName_Org_Apache_Pdfbox_Cos_COSName_">COSDictionary.GetEmbeddedInt(COSName, COSName)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetInt_Java_Lang_String_System_Int32_">COSDictionary.GetInt(String, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetInt_Java_Lang_String_">COSDictionary.GetInt(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetInt_Org_Apache_Pdfbox_Cos_COSName_System_Int32_">COSDictionary.GetInt(COSName, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetInt_Org_Apache_Pdfbox_Cos_COSName_Org_Apache_Pdfbox_Cos_COSName_System_Int32_">COSDictionary.GetInt(COSName, COSName, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetInt_Org_Apache_Pdfbox_Cos_COSName_Org_Apache_Pdfbox_Cos_COSName_">COSDictionary.GetInt(COSName, COSName)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetInt_Org_Apache_Pdfbox_Cos_COSName_">COSDictionary.GetInt(COSName)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_Size">COSDictionary.Size()</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetEmbeddedString_Org_Apache_Pdfbox_Cos_COSName_Org_Apache_Pdfbox_Cos_COSName_Java_Lang_String_">COSDictionary.GetEmbeddedString(COSName, COSName, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetEmbeddedString_Org_Apache_Pdfbox_Cos_COSName_Org_Apache_Pdfbox_Cos_COSName_">COSDictionary.GetEmbeddedString(COSName, COSName)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetNameAsString_Java_Lang_String_Java_Lang_String_">COSDictionary.GetNameAsString(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetNameAsString_Java_Lang_String_">COSDictionary.GetNameAsString(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetNameAsString_Org_Apache_Pdfbox_Cos_COSName_Java_Lang_String_">COSDictionary.GetNameAsString(COSName, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetNameAsString_Org_Apache_Pdfbox_Cos_COSName_">COSDictionary.GetNameAsString(COSName)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetString_Java_Lang_String_Java_Lang_String_">COSDictionary.GetString(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetString_Java_Lang_String_">COSDictionary.GetString(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetString_Org_Apache_Pdfbox_Cos_COSName_Java_Lang_String_">COSDictionary.GetString(COSName, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetString_Org_Apache_Pdfbox_Cos_COSName_">COSDictionary.GetString(COSName)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetDate_Java_Lang_String_Java_Util_Calendar_">COSDictionary.GetDate(String, Calendar)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetDate_Java_Lang_String_">COSDictionary.GetDate(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetDate_Org_Apache_Pdfbox_Cos_COSName_Java_Util_Calendar_">COSDictionary.GetDate(COSName, Calendar)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetDate_Org_Apache_Pdfbox_Cos_COSName_">COSDictionary.GetDate(COSName)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetEmbeddedDate_Org_Apache_Pdfbox_Cos_COSName_Org_Apache_Pdfbox_Cos_COSName_Java_Util_Calendar_">COSDictionary.GetEmbeddedDate(COSName, COSName, Calendar)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetEmbeddedDate_Org_Apache_Pdfbox_Cos_COSName_Org_Apache_Pdfbox_Cos_COSName_">COSDictionary.GetEmbeddedDate(COSName, COSName)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_EntrySet">COSDictionary.EntrySet()</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_KeySet">COSDictionary.KeySet()</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetLong_Java_Lang_String_System_Int64_">COSDictionary.GetLong(String, long)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetLong_Java_Lang_String_">COSDictionary.GetLong(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetLong_Org_Apache_Pdfbox_Cos_COSName_System_Int64_">COSDictionary.GetLong(COSName, long)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetLong_Org_Apache_Pdfbox_Cos_COSName_">COSDictionary.GetLong(COSName)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetCOSArray_Org_Apache_Pdfbox_Cos_COSName_">COSDictionary.GetCOSArray(COSName)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetDictionaryObject_Java_Lang_String_">COSDictionary.GetDictionaryObject(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetDictionaryObject_Org_Apache_Pdfbox_Cos_COSName_Org_Apache_Pdfbox_Cos_COSName_">COSDictionary.GetDictionaryObject(COSName, COSName)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetDictionaryObject_Org_Apache_Pdfbox_Cos_COSName_">COSDictionary.GetDictionaryObject(COSName)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetItem_Java_Lang_String_">COSDictionary.GetItem(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetItem_Org_Apache_Pdfbox_Cos_COSName_Org_Apache_Pdfbox_Cos_COSName_">COSDictionary.GetItem(COSName, COSName)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetItem_Org_Apache_Pdfbox_Cos_COSName_">COSDictionary.GetItem(COSName)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetObjectFromPath_Java_Lang_String_">COSDictionary.GetObjectFromPath(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_AsUnmodifiableDictionary">COSDictionary.AsUnmodifiableDictionary()</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetCOSDictionary_Org_Apache_Pdfbox_Cos_COSName_Org_Apache_Pdfbox_Cos_COSName_">COSDictionary.GetCOSDictionary(COSName, COSName)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetCOSDictionary_Org_Apache_Pdfbox_Cos_COSName_">COSDictionary.GetCOSDictionary(COSName)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetCOSName_Org_Apache_Pdfbox_Cos_COSName_Org_Apache_Pdfbox_Cos_COSName_">COSDictionary.GetCOSName(COSName, COSName)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetCOSName_Org_Apache_Pdfbox_Cos_COSName_">COSDictionary.GetCOSName(COSName)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetKeyForValue_System_Object_">COSDictionary.GetKeyForValue(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetCOSObject_Org_Apache_Pdfbox_Cos_COSName_">COSDictionary.GetCOSObject(COSName)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetCOSStream_Org_Apache_Pdfbox_Cos_COSName_">COSDictionary.GetCOSStream(COSName)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_AddAll_Org_Apache_Pdfbox_Cos_COSDictionary_">COSDictionary.AddAll(COSDictionary)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_Clear">COSDictionary.Clear()</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_ForEach__2_Java_Util_Function_BiConsumer___0___1__">COSDictionary.ForEach&lt;Arg0objectSuperOrg_Apache_Pdfbox_Cos_COSName, Arg0objectSuperOrg_Apache_Pdfbox_Cos_COSBase&gt;(BiConsumer&lt;Arg0objectSuperOrg_Apache_Pdfbox_Cos_COSName, Arg0objectSuperOrg_Apache_Pdfbox_Cos_COSBase&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetIndirectObjectKeys_Java_Util_Collection_Org_Apache_Pdfbox_Cos_COSObjectKey__">COSDictionary.GetIndirectObjectKeys(Collection&lt;COSObjectKey&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_GetIndirectObjectKeys_Java_Util_List_Org_Apache_Pdfbox_Cos_COSObjectKey__">COSDictionary.GetIndirectObjectKeys(List&lt;COSObjectKey&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_RemoveItem_Org_Apache_Pdfbox_Cos_COSName_">COSDictionary.RemoveItem(COSName)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_SetBoolean_Java_Lang_String_System_Boolean_">COSDictionary.SetBoolean(String, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_SetBoolean_Org_Apache_Pdfbox_Cos_COSName_System_Boolean_">COSDictionary.SetBoolean(COSName, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_SetDate_Java_Lang_String_Java_Util_Calendar_">COSDictionary.SetDate(String, Calendar)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_SetDate_Org_Apache_Pdfbox_Cos_COSName_Java_Util_Calendar_">COSDictionary.SetDate(COSName, Calendar)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_SetEmbeddedDate_Org_Apache_Pdfbox_Cos_COSName_Org_Apache_Pdfbox_Cos_COSName_Java_Util_Calendar_">COSDictionary.SetEmbeddedDate(COSName, COSName, Calendar)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_SetEmbeddedInt_Org_Apache_Pdfbox_Cos_COSName_Org_Apache_Pdfbox_Cos_COSName_System_Int32_">COSDictionary.SetEmbeddedInt(COSName, COSName, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_SetEmbeddedString_Org_Apache_Pdfbox_Cos_COSName_Org_Apache_Pdfbox_Cos_COSName_Java_Lang_String_">COSDictionary.SetEmbeddedString(COSName, COSName, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_SetFlag_Org_Apache_Pdfbox_Cos_COSName_System_Int32_System_Boolean_">COSDictionary.SetFlag(COSName, int, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_SetFloat_Java_Lang_String_System_Single_">COSDictionary.SetFloat(String, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_SetFloat_Org_Apache_Pdfbox_Cos_COSName_System_Single_">COSDictionary.SetFloat(COSName, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_SetInt_Java_Lang_String_System_Int32_">COSDictionary.SetInt(String, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_SetInt_Org_Apache_Pdfbox_Cos_COSName_System_Int32_">COSDictionary.SetInt(COSName, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_SetItem_Java_Lang_String_Org_Apache_Pdfbox_Cos_COSBase_">COSDictionary.SetItem(String, COSBase)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_SetItem_Java_Lang_String_Org_Apache_Pdfbox_Pdmodel_Common_COSObjectable_">COSDictionary.SetItem(String, COSObjectable)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_SetItem_Org_Apache_Pdfbox_Cos_COSName_Org_Apache_Pdfbox_Cos_COSBase_">COSDictionary.SetItem(COSName, COSBase)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_SetItem_Org_Apache_Pdfbox_Cos_COSName_Org_Apache_Pdfbox_Pdmodel_Common_COSObjectable_">COSDictionary.SetItem(COSName, COSObjectable)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_SetLong_Java_Lang_String_System_Int64_">COSDictionary.SetLong(String, long)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_SetLong_Org_Apache_Pdfbox_Cos_COSName_System_Int64_">COSDictionary.SetLong(COSName, long)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_SetName_Java_Lang_String_Java_Lang_String_">COSDictionary.SetName(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_SetName_Org_Apache_Pdfbox_Cos_COSName_Java_Lang_String_">COSDictionary.SetName(COSName, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_SetString_Java_Lang_String_Java_Lang_String_">COSDictionary.SetString(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_SetString_Org_Apache_Pdfbox_Cos_COSName_Java_Lang_String_">COSDictionary.SetString(COSName, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSBase.html#Org_Apache_Pdfbox_Cos_COSBase_COSObject">COSBase.COSObject</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSBase.html#Org_Apache_Pdfbox_Cos_COSBase_Key">COSBase.Key</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSBase.html#Org_Apache_Pdfbox_Cos_COSBase_Accept_Org_Apache_Pdfbox_Cos_ICOSVisitor_">COSBase.Accept(ICOSVisitor)</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSBase.html#Org_Apache_Pdfbox_Cos_COSBase_IsDirect">COSBase.IsDirect()</a>
+    </div>
+    <div>
+      <a class="xref" href="Org.Apache.Pdfbox.Cos.COSBase.html#Org_Apache_Pdfbox_Cos_COSBase_SetDirect_System_Boolean_">COSBase.SetDirect(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecute(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecute(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TReturn&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TReturn&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecute(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecute(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TNewClass, TReturn&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TNewClass, TReturn&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TNewClass, TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TNewClass, TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TReturn&gt;(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TReturn&gt;(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TReturn&gt;(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TReturn&gt;(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TNewClass, TReturn, TConverter&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TNewClass, TReturn, TConverter&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TReturn, TConverter&gt;(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecute&lt;TReturn, TConverter&gt;(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;T&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;T&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;T&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SGetField(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SGetField(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SGetField&lt;TReturn&gt;(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SGetField&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SGetFieldArray&lt;TReturn&gt;(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SGetFieldArray&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SSetField(IJavaType, string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SSetField(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SSetField&lt;TValue&gt;(IJavaType, string, TValue)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SSetField&lt;TValue&gt;(string, TValue)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.IsAssignableFrom(string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;COSObjectable&gt;.IsAssignableFrom(IJavaType)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;COSObjectable&gt;.IsAssignableFrom&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase&lt;COSObjectable&gt;.New(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.NewWithSignature(string, params object[])</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;COSObjectable&gt;.Execute&lt;T&gt;(params T[])</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;COSObjectable&gt;.DynBridgeClazz</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;COSObjectable&gt;.BridgeClazz</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ClassNameOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ClassOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.WrapsDirect&lt;TNewClass&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps(Type, IJavaObject, string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass, TReturn&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps&lt;TReturn&gt;(Type, IJavaObject, string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass, TReturn, TConverter&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps&lt;TReturn, TConverter&gt;(Type, IJavaObject)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.MonitorEnter()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.MonitorExit()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IsInstanceOf(string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsInstanceOf(IJavaType)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsInstanceOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.RuntimeIsInstanceOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.CastTo&lt;TNewClass&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.CastDirect&lt;TNewClass&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ToString()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Notify()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.NotifyAll()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wait()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">JVMBridgeBase.Wait(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">JVMBridgeBase.Wait(long, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TNewClass, TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TNewClass, TReturn, TConverter&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;T&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetFieldArray&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ISetField(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ISetField&lt;TValue&gt;(string, TValue)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.DynBridgeInstance</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.BridgeInstance</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsBridgeListener</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trygetmember">DynamicObject.TryGetMember(GetMemberBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trysetmember">DynamicObject.TrySetMember(SetMemberBinder, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trydeletemember">DynamicObject.TryDeleteMember(DeleteMemberBinder)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryinvokemember">DynamicObject.TryInvokeMember(InvokeMemberBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryconvert">DynamicObject.TryConvert(ConvertBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trycreateinstance">DynamicObject.TryCreateInstance(CreateInstanceBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryinvoke">DynamicObject.TryInvoke(InvokeBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trybinaryoperation">DynamicObject.TryBinaryOperation(BinaryOperationBinder, object, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryunaryoperation">DynamicObject.TryUnaryOperation(UnaryOperationBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trygetindex">DynamicObject.TryGetIndex(GetIndexBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trysetindex">DynamicObject.TrySetIndex(SetIndexBinder, object[], object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trydeleteindex">DynamicObject.TryDeleteIndex(DeleteIndexBinder, object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.getdynamicmembernames">DynamicObject.GetDynamicMemberNames()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.getmetaobject">DynamicObject.GetMetaObject(Expression)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Org_Apache_Pdfbox_Cos_COSStream__ctor_" data-uid="Org.Apache.Pdfbox.Cos.COSStream.#ctor*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Cos_COSStream__ctor" data-uid="Org.Apache.Pdfbox.Cos.COSStream.#ctor">
+  COSStream()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Cos/COSStream.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Default constructor: even if the corresponding Java class does not have one, it is mandatory for JCOBridge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public COSStream()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Cos_COSStream__ctor_" data-uid="Org.Apache.Pdfbox.Cos.COSStream.#ctor*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Cos_COSStream__ctor_Org_Apache_Pdfbox_Io_RandomAccessStreamCache_" data-uid="Org.Apache.Pdfbox.Cos.COSStream.#ctor(Org.Apache.Pdfbox.Io.RandomAccessStreamCache)">
+  COSStream(RandomAccessStreamCache)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Cos/COSStream.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#org.apache.pdfbox.cos.COSStream(org.apache.pdfbox.io.RandomAccessStreamCache)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#org.apache.pdfbox.cos.COSStream(org.apache.pdfbox.io.RandomAccessStreamCache)</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public COSStream(RandomAccessStreamCache arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="Org.Apache.Pdfbox.Io.RandomAccessStreamCache.html">RandomAccessStreamCache</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Pdfbox.Io.RandomAccessStreamCache.html">RandomAccessStreamCache</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Cos_COSStream__ctor_" data-uid="Org.Apache.Pdfbox.Cos.COSStream.#ctor*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Cos_COSStream__ctor_Org_Apache_Pdfbox_Io_RandomAccessStreamCache_Org_Apache_Pdfbox_Io_RandomAccessReadView_" data-uid="Org.Apache.Pdfbox.Cos.COSStream.#ctor(Org.Apache.Pdfbox.Io.RandomAccessStreamCache,Org.Apache.Pdfbox.Io.RandomAccessReadView)">
+  COSStream(RandomAccessStreamCache, RandomAccessReadView)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Cos/COSStream.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#org.apache.pdfbox.cos.COSStream(org.apache.pdfbox.io.RandomAccessStreamCache,org.apache.pdfbox.io.RandomAccessReadView)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#org.apache.pdfbox.cos.COSStream(org.apache.pdfbox.io.RandomAccessStreamCache,org.apache.pdfbox.io.RandomAccessReadView)</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public COSStream(RandomAccessStreamCache arg0, RandomAccessReadView arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="Org.Apache.Pdfbox.Io.RandomAccessStreamCache.html">RandomAccessStreamCache</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Pdfbox.Io.RandomAccessStreamCache.html">RandomAccessStreamCache</a></p>
+</dd>
+    <dt><code>arg1</code> <a class="xref" href="Org.Apache.Pdfbox.Io.RandomAccessReadView.html">RandomAccessReadView</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Pdfbox.Io.RandomAccessReadView.html">RandomAccessReadView</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IOException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="Org_Apache_Pdfbox_Cos_COSStream__ctor_" data-uid="Org.Apache.Pdfbox.Cos.COSStream.#ctor*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Cos_COSStream__ctor_System_Object___" data-uid="Org.Apache.Pdfbox.Cos.COSStream.#ctor(System.Object[])">
+  COSStream(params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Cos/COSStream.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public COSStream(params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Org_Apache_Pdfbox_Cos_COSStream_BridgeClassName_" data-uid="Org.Apache.Pdfbox.Cos.COSStream.BridgeClassName*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Cos_COSStream_BridgeClassName" data-uid="Org.Apache.Pdfbox.Cos.COSStream.BridgeClassName">
+  BridgeClassName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Cos/COSStream.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_BridgeClassName.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_BridgeClassName.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string BridgeClassName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Cos_COSStream_Filters_" data-uid="Org.Apache.Pdfbox.Cos.COSStream.Filters*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Cos_COSStream_Filters" data-uid="Org.Apache.Pdfbox.Cos.COSStream.Filters">
+  Filters
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Cos/COSStream.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#getFilters--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#getFilters--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public COSBase Filters { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Cos.COSBase.html">COSBase</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Cos_COSStream_IsBridgeAbstract_" data-uid="Org.Apache.Pdfbox.Cos.COSStream.IsBridgeAbstract*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Cos_COSStream_IsBridgeAbstract" data-uid="Org.Apache.Pdfbox.Cos.COSStream.IsBridgeAbstract">
+  IsBridgeAbstract
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Cos/COSStream.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeAbstract.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeAbstract.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeAbstract { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Cos_COSStream_IsBridgeCloseable_" data-uid="Org.Apache.Pdfbox.Cos.COSStream.IsBridgeCloseable*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Cos_COSStream_IsBridgeCloseable" data-uid="Org.Apache.Pdfbox.Cos.COSStream.IsBridgeCloseable">
+  IsBridgeCloseable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Cos/COSStream.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeCloseable.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeCloseable.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeCloseable { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Cos_COSStream_IsBridgeInterface_" data-uid="Org.Apache.Pdfbox.Cos.COSStream.IsBridgeInterface*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Cos_COSStream_IsBridgeInterface" data-uid="Org.Apache.Pdfbox.Cos.COSStream.IsBridgeInterface">
+  IsBridgeInterface
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Cos/COSStream.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeInterface.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeInterface.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeInterface { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Cos_COSStream_IsBridgeStatic_" data-uid="Org.Apache.Pdfbox.Cos.COSStream.IsBridgeStatic*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Cos_COSStream_IsBridgeStatic" data-uid="Org.Apache.Pdfbox.Cos.COSStream.IsBridgeStatic">
+  IsBridgeStatic
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Cos/COSStream.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeStatic.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeStatic.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeStatic { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Cos_COSStream_Length_" data-uid="Org.Apache.Pdfbox.Cos.COSStream.Length*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Cos_COSStream_Length" data-uid="Org.Apache.Pdfbox.Cos.COSStream.Length">
+  Length
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Cos/COSStream.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#getLength--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#getLength--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long Length { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Org_Apache_Pdfbox_Cos_COSStream_Close_" data-uid="Org.Apache.Pdfbox.Cos.COSStream.Close*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Cos_COSStream_Close" data-uid="Org.Apache.Pdfbox.Cos.COSStream.Close">
+  Close()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Cos/COSStream.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#close--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#close--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Close()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IOException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="Org_Apache_Pdfbox_Cos_COSStream_CreateInputStream_" data-uid="Org.Apache.Pdfbox.Cos.COSStream.CreateInputStream*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Cos_COSStream_CreateInputStream" data-uid="Org.Apache.Pdfbox.Cos.COSStream.CreateInputStream">
+  CreateInputStream()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Cos/COSStream.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#createInputStream--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#createInputStream--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public COSInputStream CreateInputStream()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Cos.COSInputStream.html">COSInputStream</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Pdfbox.Cos.COSInputStream.html">COSInputStream</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IOException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="Org_Apache_Pdfbox_Cos_COSStream_CreateInputStream_" data-uid="Org.Apache.Pdfbox.Cos.COSStream.CreateInputStream*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Cos_COSStream_CreateInputStream_Org_Apache_Pdfbox_Filter_DecodeOptions_" data-uid="Org.Apache.Pdfbox.Cos.COSStream.CreateInputStream(Org.Apache.Pdfbox.Filter.DecodeOptions)">
+  CreateInputStream(DecodeOptions)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Cos/COSStream.cs/#L197"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#createInputStream-org.apache.pdfbox.filter.DecodeOptions-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#createInputStream-org.apache.pdfbox.filter.DecodeOptions-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public COSInputStream CreateInputStream(DecodeOptions arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="Org.Apache.Pdfbox.Filter.DecodeOptions.html">DecodeOptions</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Pdfbox.Filter.DecodeOptions.html">DecodeOptions</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Cos.COSInputStream.html">COSInputStream</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Pdfbox.Cos.COSInputStream.html">COSInputStream</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IOException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="Org_Apache_Pdfbox_Cos_COSStream_CreateOutputStream_" data-uid="Org.Apache.Pdfbox.Cos.COSStream.CreateOutputStream*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Cos_COSStream_CreateOutputStream" data-uid="Org.Apache.Pdfbox.Cos.COSStream.CreateOutputStream">
+  CreateOutputStream()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Cos/COSStream.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#createOutputStream--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#createOutputStream--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OutputStream CreateOutputStream()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">OutputStream</span></dt>
+    <dd><p><span class="xref">Java.Io.OutputStream</span></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IOException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="Org_Apache_Pdfbox_Cos_COSStream_CreateOutputStream_" data-uid="Org.Apache.Pdfbox.Cos.COSStream.CreateOutputStream*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Cos_COSStream_CreateOutputStream_Org_Apache_Pdfbox_Cos_COSBase_" data-uid="Org.Apache.Pdfbox.Cos.COSStream.CreateOutputStream(Org.Apache.Pdfbox.Cos.COSBase)">
+  CreateOutputStream(COSBase)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Cos/COSStream.cs/#L161"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#createOutputStream-org.apache.pdfbox.cos.COSBase-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#createOutputStream-org.apache.pdfbox.cos.COSBase-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OutputStream CreateOutputStream(COSBase arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="Org.Apache.Pdfbox.Cos.COSBase.html">COSBase</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Pdfbox.Cos.COSBase.html">COSBase</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">OutputStream</span></dt>
+    <dd><p><span class="xref">Java.Io.OutputStream</span></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IOException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="Org_Apache_Pdfbox_Cos_COSStream_CreateRawInputStream_" data-uid="Org.Apache.Pdfbox.Cos.COSStream.CreateRawInputStream*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Cos_COSStream_CreateRawInputStream" data-uid="Org.Apache.Pdfbox.Cos.COSStream.CreateRawInputStream">
+  CreateRawInputStream()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Cos/COSStream.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#createRawInputStream--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#createRawInputStream--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InputStream CreateRawInputStream()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">InputStream</span></dt>
+    <dd><p><span class="xref">Java.Io.InputStream</span></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IOException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="Org_Apache_Pdfbox_Cos_COSStream_CreateRawOutputStream_" data-uid="Org.Apache.Pdfbox.Cos.COSStream.CreateRawOutputStream*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Cos_COSStream_CreateRawOutputStream" data-uid="Org.Apache.Pdfbox.Cos.COSStream.CreateRawOutputStream">
+  CreateRawOutputStream()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Cos/COSStream.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#createRawOutputStream--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#createRawOutputStream--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OutputStream CreateRawOutputStream()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">OutputStream</span></dt>
+    <dd><p><span class="xref">Java.Io.OutputStream</span></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IOException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="Org_Apache_Pdfbox_Cos_COSStream_CreateView_" data-uid="Org.Apache.Pdfbox.Cos.COSStream.CreateView*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Cos_COSStream_CreateView" data-uid="Org.Apache.Pdfbox.Cos.COSStream.CreateView">
+  CreateView()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Cos/COSStream.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#createView--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#createView--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RandomAccessRead CreateView()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Io.RandomAccessRead.html">RandomAccessRead</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Pdfbox.Io.RandomAccessRead.html">RandomAccessRead</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IOException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="Org_Apache_Pdfbox_Cos_COSStream_HasData_" data-uid="Org.Apache.Pdfbox.Cos.COSStream.HasData*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Cos_COSStream_HasData" data-uid="Org.Apache.Pdfbox.Cos.COSStream.HasData">
+  HasData()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Cos/COSStream.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#hasData--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#hasData--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasData()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Cos_COSStream_ToTextString_" data-uid="Org.Apache.Pdfbox.Cos.COSStream.ToTextString*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Cos_COSStream_ToTextString" data-uid="Org.Apache.Pdfbox.Cos.COSStream.ToTextString">
+  ToTextString()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Cos/COSStream.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#toTextString--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/org/apache/pdfbox/cos/COSStream.html#toTextString--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public String ToTextString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd><p><span class="xref">Java.Lang.String</span></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="operators">Operators
+</h2>
+
+
+  <a id="Org_Apache_Pdfbox_Cos_COSStream_op_Implicit_" data-uid="Org.Apache.Pdfbox.Cos.COSStream.op_Implicit*"></a>
+
+  <h3 id="Org_Apache_Pdfbox_Cos_COSStream_op_Implicit_Org_Apache_Pdfbox_Cos_COSStream__Java_Io_Closeable" data-uid="Org.Apache.Pdfbox.Cos.COSStream.op_Implicit(Org.Apache.Pdfbox.Cos.COSStream)~Java.Io.Closeable">
+  implicit operator Closeable(COSStream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Cos/COSStream.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converter from <a class="xref" href="Org.Apache.Pdfbox.Cos.COSStream.html">COSStream</a> to <span class="xref">Java.Io.Closeable</span></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Closeable(COSStream t)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>t</code> <a class="xref" href="Org.Apache.Pdfbox.Cos.COSStream.html">COSStream</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Closeable</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Cos/COSStream.cs/#L74" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <div style="text-align: center;">Copyright © 2025 MASES s.r.l.. | Via San Cesidio 16 - San Valentino in A.C. - PE | P.I. 01932310681</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

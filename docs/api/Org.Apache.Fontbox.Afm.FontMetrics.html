@@ -1,0 +1,2262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>Class FontMetrics | MASES Group - NetPDF </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class FontMetrics | MASES Group - NetPDF ">
+      <meta name="description" content="This is a descriptive page of NetPDF, the PDFBox suite for .NET">
+      <meta name="description" content="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/masesgroup/NetPDF/new/master/apiSpec/new?filename=Org_Apache_Fontbox_Afm_FontMetrics.md&amp;value=---%0Auid%3A%20Org.Apache.Fontbox.Afm.FontMetrics%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Org.Apache.Fontbox.Afm.FontMetrics">
+
+
+
+  <h1 id="Org_Apache_Fontbox_Afm_FontMetrics" data-uid="Org.Apache.Fontbox.Afm.FontMetrics" class="text-break">
+Class FontMetrics  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Org.html">Org</a>.<a class="xref" href="Org.Apache.html">Apache</a>.<a class="xref" href="Org.Apache.Fontbox.html">Fontbox</a>.<a class="xref" href="Org.Apache.Fontbox.Afm.html">Afm</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>MASES.NetPDF.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html</a></p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FontMetrics : JVMBridgeBase&lt;FontMetrics&gt;, IDynamicMetaObjectProvider, IJVMBridgeCore, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject">DynamicObject</a></div>
+      <div><span class="xref">JVMBridgeBase</span></div>
+      <div><span class="xref">JVMBridgeBase</span>&lt;<a class="xref" href="Org.Apache.Fontbox.Afm.FontMetrics.html">FontMetrics</a>&gt;</div>
+      <div><span class="xref">FontMetrics</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
+      <div><span class="xref">IJVMBridgeCore</span></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><span class="xref">IJVMBridgeBaseStatic</span></div>
+      <div><span class="xref">IJVMBridgeBase</span></div>
+      <div><span class="xref">IJVMBridgeDefinition</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SExecute(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SExecuteWithSignature(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SExecute(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SExecuteWithSignature(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SExecute&lt;TReturn&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SExecuteWithSignature&lt;TReturn&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SExecute&lt;TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SExecuteWithSignature&lt;TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;FontMetrics&gt;.SExecute(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;FontMetrics&gt;.SExecuteWithSignature(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;FontMetrics&gt;.SExecute(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;FontMetrics&gt;.SExecuteWithSignature(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SExecute&lt;TNewClass, TReturn&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SExecuteWithSignature&lt;TNewClass, TReturn&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SExecute&lt;TNewClass, TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SExecuteWithSignature&lt;TNewClass, TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;FontMetrics&gt;.SExecute&lt;TReturn&gt;(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;FontMetrics&gt;.SExecuteWithSignature&lt;TReturn&gt;(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;FontMetrics&gt;.SExecute&lt;TReturn&gt;(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;FontMetrics&gt;.SExecuteWithSignature&lt;TReturn&gt;(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SExecute&lt;TNewClass, TReturn, TConverter&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SExecute&lt;TNewClass, TReturn, TConverter&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;FontMetrics&gt;.SExecute&lt;TReturn, TConverter&gt;(Type, IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;FontMetrics&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;FontMetrics&gt;.SExecute&lt;TReturn, TConverter&gt;(Type, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;FontMetrics&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SExecuteArray&lt;T&gt;(IJavaType, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SExecuteWithSignatureArray&lt;T&gt;(IJavaType, string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SExecuteArray&lt;T&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SGetField(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SGetField(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SGetField&lt;TReturn&gt;(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SGetField&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SGetFieldArray&lt;TReturn&gt;(IJavaType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SGetFieldArray&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SSetField(IJavaType, string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SSetField(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SSetField&lt;TValue&gt;(IJavaType, string, TValue)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.SSetField&lt;TValue&gt;(string, TValue)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.IsAssignableFrom(string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;FontMetrics&gt;.IsAssignableFrom(IJavaType)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;FontMetrics&gt;.IsAssignableFrom&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase&lt;FontMetrics&gt;.New(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;FontMetrics&gt;.NewWithSignature(string, params object[])</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;FontMetrics&gt;.Execute&lt;T&gt;(params T[])</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;FontMetrics&gt;.DynBridgeClazz</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase&lt;FontMetrics&gt;.BridgeClazz</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ClassNameOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ClassOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.WrapsDirect&lt;TNewClass&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps(Type, IJavaObject, string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass, TReturn&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps&lt;TReturn&gt;(Type, IJavaObject, string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wraps&lt;TNewClass, TReturn, TConverter&gt;(IJavaObject)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.Wraps&lt;TReturn, TConverter&gt;(Type, IJavaObject)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.MonitorEnter()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.MonitorExit()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IsInstanceOf(string)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsInstanceOf(IJavaType)</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsInstanceOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.RuntimeIsInstanceOf&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.CastTo&lt;TNewClass&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.CastDirect&lt;TNewClass&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.ToString()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Notify()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.NotifyAll()</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.Wait()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">JVMBridgeBase.Wait(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">JVMBridgeBase.Wait(long, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TNewClass, TReturn&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecute&lt;TNewClass, TReturn, TConverter&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;T&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetFieldArray&lt;TReturn&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ISetField(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ISetField&lt;TValue&gt;(string, TValue)</a>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.DynBridgeInstance</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.BridgeInstance</span>
+    </div>
+    <div>
+      <span class="xref">JVMBridgeBase.IsBridgeListener</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trygetmember">DynamicObject.TryGetMember(GetMemberBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trysetmember">DynamicObject.TrySetMember(SetMemberBinder, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trydeletemember">DynamicObject.TryDeleteMember(DeleteMemberBinder)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryinvokemember">DynamicObject.TryInvokeMember(InvokeMemberBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryconvert">DynamicObject.TryConvert(ConvertBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trycreateinstance">DynamicObject.TryCreateInstance(CreateInstanceBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryinvoke">DynamicObject.TryInvoke(InvokeBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trybinaryoperation">DynamicObject.TryBinaryOperation(BinaryOperationBinder, object, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.tryunaryoperation">DynamicObject.TryUnaryOperation(UnaryOperationBinder, out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trygetindex">DynamicObject.TryGetIndex(GetIndexBinder, object[], out object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trysetindex">DynamicObject.TrySetIndex(SetIndexBinder, object[], object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.trydeleteindex">DynamicObject.TryDeleteIndex(DeleteIndexBinder, object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.getdynamicmembernames">DynamicObject.GetDynamicMemberNames()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.dynamicobject.getmetaobject">DynamicObject.GetMetaObject(Expression)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics__ctor_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.#ctor*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics__ctor" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.#ctor">
+  FontMetrics()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Default constructor: even if the corresponding Java class does not have one, it is mandatory for JCOBridge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FontMetrics()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics__ctor_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.#ctor*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics__ctor_System_Object___" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.#ctor(System.Object[])">
+  FontMetrics(params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FontMetrics(params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_AFMVersion_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.AFMVersion*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_AFMVersion" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.AFMVersion">
+  AFMVersion
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getAFMVersion--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getAFMVersion--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setAFMVersion-float-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setAFMVersion-float-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float AFMVersion { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_Ascender_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.Ascender*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_Ascender" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.Ascender">
+  Ascender
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getAscender--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getAscender--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setAscender-float-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setAscender-float-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Ascender { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_AverageCharacterWidth_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.AverageCharacterWidth*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_AverageCharacterWidth" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.AverageCharacterWidth">
+  AverageCharacterWidth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getAverageCharacterWidth--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getAverageCharacterWidth--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float AverageCharacterWidth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_BridgeClassName_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.BridgeClassName*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_BridgeClassName" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.BridgeClassName">
+  BridgeClassName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_BridgeClassName.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_BridgeClassName.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string BridgeClassName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_CapHeight_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.CapHeight*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_CapHeight" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.CapHeight">
+  CapHeight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getCapHeight--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getCapHeight--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setCapHeight-float-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setCapHeight-float-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float CapHeight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_CharMetrics_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.CharMetrics*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_CharMetrics" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.CharMetrics">
+  CharMetrics
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getCharMetrics--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getCharMetrics--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;CharMetric&gt; CharMetrics { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<a class="xref" href="Org.Apache.Fontbox.Afm.CharMetric.html">CharMetric</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_CharWidth_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.CharWidth*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_CharWidth" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.CharWidth">
+  CharWidth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getCharWidth--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getCharWidth--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setCharWidth-float[]-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setCharWidth-float[]-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float[] CharWidth { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_CharacterSet_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.CharacterSet*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_CharacterSet" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.CharacterSet">
+  CharacterSet
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getCharacterSet--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getCharacterSet--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setCharacterSet-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setCharacterSet-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public String CharacterSet { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_Characters_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.Characters*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_Characters" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.Characters">
+  Characters
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getCharacters--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getCharacters--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setCharacters-int-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setCharacters-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Characters { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_Comments_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.Comments*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_Comments" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.Comments">
+  Comments
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getComments--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getComments--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;String&gt; Comments { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<span class="xref">String</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_Composites_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.Composites*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_Composites" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.Composites">
+  Composites
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getComposites--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getComposites--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Composite&gt; Composites { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<a class="xref" href="Org.Apache.Fontbox.Afm.Composite.html">Composite</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_Descender_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.Descender*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_Descender" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.Descender">
+  Descender
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getDescender--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getDescender--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setDescender-float-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setDescender-float-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Descender { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_EncodingScheme_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.EncodingScheme*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_EncodingScheme" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.EncodingScheme">
+  EncodingScheme
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L173"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getEncodingScheme--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getEncodingScheme--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setEncodingScheme-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setEncodingScheme-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public String EncodingScheme { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_EscChar_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.EscChar*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_EscChar" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.EscChar">
+  EscChar
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L180"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getEscChar--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getEscChar--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setEscChar-int-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setEscChar-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int EscChar { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_FamilyName_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.FamilyName*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_FamilyName" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.FamilyName">
+  FamilyName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getFamilyName--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getFamilyName--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setFamilyName-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setFamilyName-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public String FamilyName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_FontBBox_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.FontBBox*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_FontBBox" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.FontBBox">
+  FontBBox
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getFontBBox--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getFontBBox--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setFontBBox-org.apache.fontbox.util.BoundingBox-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setFontBBox-org.apache.fontbox.util.BoundingBox-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BoundingBox FontBBox { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Fontbox.Util.BoundingBox.html">BoundingBox</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_FontName_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.FontName*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_FontName" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.FontName">
+  FontName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getFontName--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getFontName--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setFontName-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setFontName-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public String FontName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_FontVersion_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.FontVersion*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_FontVersion" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.FontVersion">
+  FontVersion
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getFontVersion--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getFontVersion--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setFontVersion-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setFontVersion-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public String FontVersion { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_FullName_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.FullName*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_FullName" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.FullName">
+  FullName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L215"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getFullName--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getFullName--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setFullName-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setFullName-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public String FullName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_IsBaseFont_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.IsBaseFont*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_IsBaseFont" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.IsBaseFont">
+  IsBaseFont
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getIsBaseFont--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getIsBaseFont--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setIsBaseFont-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setIsBaseFont-boolean-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsBaseFont { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_IsBridgeAbstract_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.IsBridgeAbstract*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_IsBridgeAbstract" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.IsBridgeAbstract">
+  IsBridgeAbstract
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeAbstract.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeAbstract.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeAbstract { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_IsBridgeCloseable_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.IsBridgeCloseable*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_IsBridgeCloseable" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.IsBridgeCloseable">
+  IsBridgeCloseable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeCloseable.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeCloseable.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeCloseable { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_IsBridgeInterface_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.IsBridgeInterface*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_IsBridgeInterface" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.IsBridgeInterface">
+  IsBridgeInterface
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeInterface.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeInterface.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeInterface { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_IsBridgeStatic_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.IsBridgeStatic*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_IsBridgeStatic" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.IsBridgeStatic">
+  IsBridgeStatic
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeStatic.htm">https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeStatic.htm</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsBridgeStatic { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_IsFixedPitch_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.IsFixedPitch*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_IsFixedPitch" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.IsFixedPitch">
+  IsFixedPitch
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L229"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getIsFixedPitch--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getIsFixedPitch--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsFixedPitch { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_IsFixedV_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.IsFixedV*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_IsFixedV" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.IsFixedV">
+  IsFixedV
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L236"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getIsFixedV--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getIsFixedV--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setIsFixedV-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setIsFixedV-boolean-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsFixedV { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_ItalicAngle_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.ItalicAngle*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_ItalicAngle" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.ItalicAngle">
+  ItalicAngle
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L243"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getItalicAngle--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getItalicAngle--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setItalicAngle-float-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setItalicAngle-float-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ItalicAngle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_KernPairs_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.KernPairs*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_KernPairs" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.KernPairs">
+  KernPairs
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L250"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getKernPairs--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getKernPairs--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;KernPair&gt; KernPairs { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<a class="xref" href="Org.Apache.Fontbox.Afm.KernPair.html">KernPair</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_KernPairs0_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.KernPairs0*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_KernPairs0" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.KernPairs0">
+  KernPairs0
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L257"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getKernPairs0--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getKernPairs0--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;KernPair&gt; KernPairs0 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<a class="xref" href="Org.Apache.Fontbox.Afm.KernPair.html">KernPair</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_KernPairs1_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.KernPairs1*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_KernPairs1" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.KernPairs1">
+  KernPairs1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L264"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getKernPairs1--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getKernPairs1--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;KernPair&gt; KernPairs1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<a class="xref" href="Org.Apache.Fontbox.Afm.KernPair.html">KernPair</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_MappingScheme_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.MappingScheme*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_MappingScheme" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.MappingScheme">
+  MappingScheme
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L271"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getMappingScheme--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getMappingScheme--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setMappingScheme-int-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setMappingScheme-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int MappingScheme { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_MetricSets_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.MetricSets*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_MetricSets" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.MetricSets">
+  MetricSets
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L278"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getMetricSets--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getMetricSets--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setMetricSets-int-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setMetricSets-int-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int MetricSets { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_Notice_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.Notice*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_Notice" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.Notice">
+  Notice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L285"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getNotice--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getNotice--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setNotice-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setNotice-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public String Notice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_StandardHorizontalWidth_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.StandardHorizontalWidth*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_StandardHorizontalWidth" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.StandardHorizontalWidth">
+  StandardHorizontalWidth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L292"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getStandardHorizontalWidth--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getStandardHorizontalWidth--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setStandardHorizontalWidth-float-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setStandardHorizontalWidth-float-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float StandardHorizontalWidth { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_StandardVerticalWidth_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.StandardVerticalWidth*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_StandardVerticalWidth" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.StandardVerticalWidth">
+  StandardVerticalWidth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L299"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getStandardVerticalWidth--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getStandardVerticalWidth--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setStandardVerticalWidth-float-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setStandardVerticalWidth-float-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float StandardVerticalWidth { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_TrackKern_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.TrackKern*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_TrackKern" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.TrackKern">
+  TrackKern
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L306"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getTrackKern--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getTrackKern--</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;TrackKern&gt; TrackKern { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">List</span>&lt;<a class="xref" href="Org.Apache.Fontbox.Afm.TrackKern.html">TrackKern</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_UnderlinePosition_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.UnderlinePosition*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_UnderlinePosition" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.UnderlinePosition">
+  UnderlinePosition
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L313"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getUnderlinePosition--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getUnderlinePosition--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setUnderlinePosition-float-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setUnderlinePosition-float-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float UnderlinePosition { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_UnderlineThickness_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.UnderlineThickness*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_UnderlineThickness" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.UnderlineThickness">
+  UnderlineThickness
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L320"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getUnderlineThickness--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getUnderlineThickness--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setUnderlineThickness-float-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setUnderlineThickness-float-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float UnderlineThickness { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_VVector_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.VVector*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_VVector" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.VVector">
+  VVector
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L327"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getVVector--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getVVector--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setVVector-float[]-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setVVector-float[]-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float[] VVector { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_Weight_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.Weight*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_Weight" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.Weight">
+  Weight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L334"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getWeight--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getWeight--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setWeight-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setWeight-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public String Weight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_XHeight_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.XHeight*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_XHeight" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.XHeight">
+  XHeight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L341"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getXHeight--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getXHeight--</a>
+<a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setXHeight-float-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setXHeight-float-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float XHeight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_AddCharMetric_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.AddCharMetric*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_AddCharMetric_Org_Apache_Fontbox_Afm_CharMetric_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.AddCharMetric(Org.Apache.Fontbox.Afm.CharMetric)">
+  AddCharMetric(CharMetric)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L367"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#addCharMetric-org.apache.fontbox.afm.CharMetric-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#addCharMetric-org.apache.fontbox.afm.CharMetric-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddCharMetric(CharMetric arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="Org.Apache.Fontbox.Afm.CharMetric.html">CharMetric</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Fontbox.Afm.CharMetric.html">CharMetric</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_AddComment_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.AddComment*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_AddComment_Java_Lang_String_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.AddComment(Java.Lang.String)">
+  AddComment(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L375"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#addComment-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#addComment-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddComment(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <span class="xref">String</span></dt>
+    <dd><p><span class="xref">Java.Lang.String</span></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_AddComposite_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.AddComposite*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_AddComposite_Org_Apache_Fontbox_Afm_Composite_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.AddComposite(Org.Apache.Fontbox.Afm.Composite)">
+  AddComposite(Composite)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L383"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#addComposite-org.apache.fontbox.afm.Composite-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#addComposite-org.apache.fontbox.afm.Composite-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddComposite(Composite arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="Org.Apache.Fontbox.Afm.Composite.html">Composite</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Fontbox.Afm.Composite.html">Composite</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_AddKernPair_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.AddKernPair*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_AddKernPair_Org_Apache_Fontbox_Afm_KernPair_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.AddKernPair(Org.Apache.Fontbox.Afm.KernPair)">
+  AddKernPair(KernPair)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L391"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#addKernPair-org.apache.fontbox.afm.KernPair-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#addKernPair-org.apache.fontbox.afm.KernPair-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddKernPair(KernPair arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="Org.Apache.Fontbox.Afm.KernPair.html">KernPair</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Fontbox.Afm.KernPair.html">KernPair</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_AddKernPair0_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.AddKernPair0*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_AddKernPair0_Org_Apache_Fontbox_Afm_KernPair_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.AddKernPair0(Org.Apache.Fontbox.Afm.KernPair)">
+  AddKernPair0(KernPair)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L399"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#addKernPair0-org.apache.fontbox.afm.KernPair-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#addKernPair0-org.apache.fontbox.afm.KernPair-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddKernPair0(KernPair arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="Org.Apache.Fontbox.Afm.KernPair.html">KernPair</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Fontbox.Afm.KernPair.html">KernPair</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_AddKernPair1_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.AddKernPair1*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_AddKernPair1_Org_Apache_Fontbox_Afm_KernPair_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.AddKernPair1(Org.Apache.Fontbox.Afm.KernPair)">
+  AddKernPair1(KernPair)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L407"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#addKernPair1-org.apache.fontbox.afm.KernPair-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#addKernPair1-org.apache.fontbox.afm.KernPair-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddKernPair1(KernPair arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="Org.Apache.Fontbox.Afm.KernPair.html">KernPair</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Fontbox.Afm.KernPair.html">KernPair</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_AddTrackKern_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.AddTrackKern*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_AddTrackKern_Org_Apache_Fontbox_Afm_TrackKern_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.AddTrackKern(Org.Apache.Fontbox.Afm.TrackKern)">
+  AddTrackKern(TrackKern)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L415"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#addTrackKern-org.apache.fontbox.afm.TrackKern-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#addTrackKern-org.apache.fontbox.afm.TrackKern-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddTrackKern(TrackKern arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="Org.Apache.Fontbox.Afm.TrackKern.html">TrackKern</a></dt>
+    <dd><p><a class="xref" href="Org.Apache.Fontbox.Afm.TrackKern.html">TrackKern</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_GetCharacterHeight_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.GetCharacterHeight*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_GetCharacterHeight_Java_Lang_String_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.GetCharacterHeight(Java.Lang.String)">
+  GetCharacterHeight(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L350"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getCharacterHeight-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getCharacterHeight-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetCharacterHeight(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <span class="xref">String</span></dt>
+    <dd><p><span class="xref">Java.Lang.String</span></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_GetCharacterWidth_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.GetCharacterWidth*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_GetCharacterWidth_Java_Lang_String_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.GetCharacterWidth(Java.Lang.String)">
+  GetCharacterWidth(String)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L359"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getCharacterWidth-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#getCharacterWidth-java.lang.String-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetCharacterWidth(String arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <span class="xref">String</span></dt>
+    <dd><p><span class="xref">Java.Lang.String</span></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Afm_FontMetrics_SetFixedPitch_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.SetFixedPitch*"></a>
+
+  <h3 id="Org_Apache_Fontbox_Afm_FontMetrics_SetFixedPitch_System_Boolean_" data-uid="Org.Apache.Fontbox.Afm.FontMetrics.SetFixedPitch(System.Boolean)">
+  SetFixedPitch(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L423"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setFixedPitch-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/org/apache/fontbox/afm/FontMetrics.html#setFixedPitch-boolean-</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetFixedPitch(bool arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Afm/FontMetrics.cs/#L74" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <div style="text-align: center;">Copyright © 2025 MASES s.r.l.. | Via San Cesidio 16 - San Valentino in A.C. - PE | P.I. 01932310681</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
