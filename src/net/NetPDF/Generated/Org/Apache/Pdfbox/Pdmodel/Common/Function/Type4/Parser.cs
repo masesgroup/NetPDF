@@ -70,7 +70,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.AbstractSyntaxHandler.html"/>
         /// </summary>
-        public partial class AbstractSyntaxHandler : Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4.Parser.SyntaxHandler
+        public partial class AbstractSyntaxHandler : MASES.JCOBridge.C2JBridge.JVMBridgeBase<AbstractSyntaxHandler>
         {
             const string _bridgeClassName = "org.apache.pdfbox.pdmodel.common.function.type4.Parser$AbstractSyntaxHandler";
             /// <summary>
@@ -117,25 +117,48 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
         /// <summary>
         /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html"/>
         /// </summary>
-        public partial class SyntaxHandler : MASES.JCOBridge.C2JBridge.JVMBridgeBase<SyntaxHandler>
+        public partial class SyntaxHandler : MASES.JCOBridge.C2JBridge.JVMBridgeListener
         {
-            const string _bridgeClassName = "org.apache.pdfbox.pdmodel.common.function.type4.Parser$SyntaxHandler";
             /// <summary>
             /// Default constructor: even if the corresponding Java class does not have one, it is mandatory for JCOBridge
             /// </summary>
-            [global::System.Obsolete("SyntaxHandler class represents, in .NET, an instance of a JVM interface or abstract class. This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.")]
-            public SyntaxHandler() { }
-            /// <summary>
-            /// Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class
-            /// </summary>
-            [global::System.Obsolete("SyntaxHandler class represents, in .NET, an instance of a JVM interface or abstract class. This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.")]
-            public SyntaxHandler(params object[] args) : base(args) { }
+            public SyntaxHandler() { InitializeHandlers(); }
 
+            const string _bridgeClassName = "org.mases.netpdf.generated.org.apache.pdfbox.pdmodel.common.function.type4.Parser_SyntaxHandler";
+            private static readonly MASES.JCOBridge.C2JBridge.JVMInterop.IJavaType _LocalBridgeClazz = ClazzOf(_bridgeClassName);
+            private static MASES.JCOBridge.C2JBridge.JVMInterop.IJavaType LocalBridgeClazz => _LocalBridgeClazz ?? throw new global::System.InvalidOperationException($"Class {_bridgeClassName} was not found.");
+            
+            /// <summary>
+            /// <see href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeListener_BridgeClassName.htm"/>
+            /// </summary>
+            public override string BridgeClassName => _bridgeClassName;
+
+        
+            // TODO: complete the class
+
+        }
+        #endregion
+
+        #region SyntaxHandlerDirect declaration
+        /// <summary>
+        /// Direct override of <see cref="SyntaxHandler"/> or its generic type if there is one
+        /// </summary>
+        public partial class SyntaxHandlerDirect : SyntaxHandler
+        {
+            /// <summary>
+            /// <see href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeListener_AutoInit.htm"/>
+            /// </summary>
+            public override bool AutoInit => false;
+
+            /// <inheritdoc />
+            protected override void InitializeHandlers() { }
+
+            const string _bridgeClassName = "org.apache.pdfbox.pdmodel.common.function.type4.Parser$SyntaxHandler";
             private static readonly MASES.JCOBridge.C2JBridge.JVMInterop.IJavaType _LocalBridgeClazz = JVMBridgeBase.ClazzOf(_bridgeClassName);
             private static MASES.JCOBridge.C2JBridge.JVMInterop.IJavaType LocalBridgeClazz => _LocalBridgeClazz ?? throw new global::System.InvalidOperationException($"Class {_bridgeClassName} was not found.");
 
             /// <summary>
-            /// <see href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_BridgeClassName.htm"/>
+            /// <see href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeListener_BridgeClassName.htm"/>
             /// </summary>
             public override string BridgeClassName => _bridgeClassName;
             /// <summary>
@@ -154,9 +177,6 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
             /// <see href="https://www.jcobridge.com/api-clr/html/P_MASES_JCOBridge_C2JBridge_JVMBridgeBase_IsBridgeStatic.htm"/>
             /// </summary>
             public override bool IsBridgeStatic => true;
-
-            // TODO: complete the class
-
         }
         #endregion
 
@@ -273,10 +293,148 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
 
             #region Instance methods
             /// <summary>
+            /// Handlers initializer for <see cref="SyntaxHandler"/>
+            /// </summary>
+            protected virtual void InitializeHandlers()
+            {
+                AddEventHandler("comment", new global::System.EventHandler<CLRListenerEventArgs<CLREventData<MASES.JNet.Specific.JNetEventResult>>>(CommentEventHandler));
+                AddEventHandler("newLine", new global::System.EventHandler<CLRListenerEventArgs<CLREventData<MASES.JNet.Specific.JNetEventResult>>>(NewLineEventHandler));
+                AddEventHandler("token", new global::System.EventHandler<CLRListenerEventArgs<CLREventData<MASES.JNet.Specific.JNetEventResult>>>(TokenEventHandler));
+                AddEventHandler("whitespace", new global::System.EventHandler<CLRListenerEventArgs<CLREventData<MASES.JNet.Specific.JNetEventResult>>>(WhitespaceEventHandler));
+
+            }
+
+            /// <summary>
+            /// Handler for <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#comment-java.lang.CharSequence-"/>
+            /// </summary>
+            /// <remarks>If <see cref="OnComment"/> has a value it takes precedence over corresponding class method</remarks>
+            public global::System.Action<Java.Lang.CharSequence> OnComment { get; set; } = null;
+
+            bool hasOverrideComment = true;
+            void CommentEventHandler(object sender, CLRListenerEventArgs<CLREventData<MASES.JNet.Specific.JNetEventResult>> data)
+            {
+                hasOverrideComment = true;
+                var methodToExecute = (OnComment != null) ? OnComment : Comment;
+                methodToExecute.Invoke(data.EventData.GetAt<Java.Lang.CharSequence>(0));
+                data.EventData.TypedEventData.HasOverride = hasOverrideComment;
+            }
+
+            /// <summary>
             /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#comment-java.lang.CharSequence-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.CharSequence"/></param>
-            public void Comment(Java.Lang.CharSequence arg0)
+            public virtual void Comment(Java.Lang.CharSequence arg0)
+            {
+                hasOverrideComment = false;
+            }
+
+            /// <summary>
+            /// Handler for <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#newLine-java.lang.CharSequence-"/>
+            /// </summary>
+            /// <remarks>If <see cref="OnNewLine"/> has a value it takes precedence over corresponding class method</remarks>
+            public global::System.Action<Java.Lang.CharSequence> OnNewLine { get; set; } = null;
+
+            bool hasOverrideNewLine = true;
+            void NewLineEventHandler(object sender, CLRListenerEventArgs<CLREventData<MASES.JNet.Specific.JNetEventResult>> data)
+            {
+                hasOverrideNewLine = true;
+                var methodToExecute = (OnNewLine != null) ? OnNewLine : NewLine;
+                methodToExecute.Invoke(data.EventData.GetAt<Java.Lang.CharSequence>(0));
+                data.EventData.TypedEventData.HasOverride = hasOverrideNewLine;
+            }
+
+            /// <summary>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#newLine-java.lang.CharSequence-"/>
+            /// </summary>
+            /// <param name="arg0"><see cref="Java.Lang.CharSequence"/></param>
+            public virtual void NewLine(Java.Lang.CharSequence arg0)
+            {
+                hasOverrideNewLine = false;
+            }
+
+            /// <summary>
+            /// Handler for <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#token-java.lang.CharSequence-"/>
+            /// </summary>
+            /// <remarks>If <see cref="OnToken"/> has a value it takes precedence over corresponding class method</remarks>
+            public global::System.Action<Java.Lang.CharSequence> OnToken { get; set; } = null;
+
+            bool hasOverrideToken = true;
+            void TokenEventHandler(object sender, CLRListenerEventArgs<CLREventData<MASES.JNet.Specific.JNetEventResult>> data)
+            {
+                hasOverrideToken = true;
+                var methodToExecute = (OnToken != null) ? OnToken : Token;
+                methodToExecute.Invoke(data.EventData.GetAt<Java.Lang.CharSequence>(0));
+                data.EventData.TypedEventData.HasOverride = hasOverrideToken;
+            }
+
+            /// <summary>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#token-java.lang.CharSequence-"/>
+            /// </summary>
+            /// <param name="arg0"><see cref="Java.Lang.CharSequence"/></param>
+            public virtual void Token(Java.Lang.CharSequence arg0)
+            {
+                hasOverrideToken = false;
+            }
+
+            /// <summary>
+            /// Handler for <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#whitespace-java.lang.CharSequence-"/>
+            /// </summary>
+            /// <remarks>If <see cref="OnWhitespace"/> has a value it takes precedence over corresponding class method</remarks>
+            public global::System.Action<Java.Lang.CharSequence> OnWhitespace { get; set; } = null;
+
+            bool hasOverrideWhitespace = true;
+            void WhitespaceEventHandler(object sender, CLRListenerEventArgs<CLREventData<MASES.JNet.Specific.JNetEventResult>> data)
+            {
+                hasOverrideWhitespace = true;
+                var methodToExecute = (OnWhitespace != null) ? OnWhitespace : Whitespace;
+                methodToExecute.Invoke(data.EventData.GetAt<Java.Lang.CharSequence>(0));
+                data.EventData.TypedEventData.HasOverride = hasOverrideWhitespace;
+            }
+
+            /// <summary>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#whitespace-java.lang.CharSequence-"/>
+            /// </summary>
+            /// <param name="arg0"><see cref="Java.Lang.CharSequence"/></param>
+            public virtual void Whitespace(Java.Lang.CharSequence arg0)
+            {
+                hasOverrideWhitespace = false;
+            }
+
+            #endregion
+
+            #region Nested classes
+
+            #endregion
+
+            // TODO: complete the class
+        }
+        #endregion
+
+        #region SyntaxHandlerDirect implementation
+        public partial class SyntaxHandlerDirect
+        {
+            #region Constructors
+
+            #endregion
+
+            #region Class/Interface conversion operators
+
+            #endregion
+
+            #region Fields
+
+            #endregion
+
+            #region Static methods
+
+            #endregion
+
+            #region Instance methods
+            /// <summary>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#comment-java.lang.CharSequence-"/>
+            /// </summary>
+            /// <param name="arg0"><see cref="Java.Lang.CharSequence"/></param>
+            public override void Comment(Java.Lang.CharSequence arg0)
             {
                 IExecuteWithSignature("comment", "(Ljava/lang/CharSequence;)V", arg0);
             }
@@ -284,7 +442,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
             /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#newLine-java.lang.CharSequence-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.CharSequence"/></param>
-            public void NewLine(Java.Lang.CharSequence arg0)
+            public override void NewLine(Java.Lang.CharSequence arg0)
             {
                 IExecuteWithSignature("newLine", "(Ljava/lang/CharSequence;)V", arg0);
             }
@@ -292,7 +450,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
             /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#token-java.lang.CharSequence-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.CharSequence"/></param>
-            public void Token(Java.Lang.CharSequence arg0)
+            public override void Token(Java.Lang.CharSequence arg0)
             {
                 IExecuteWithSignature("token", "(Ljava/lang/CharSequence;)V", arg0);
             }
@@ -300,7 +458,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
             /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#whitespace-java.lang.CharSequence-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.CharSequence"/></param>
-            public void Whitespace(Java.Lang.CharSequence arg0)
+            public override void Whitespace(Java.Lang.CharSequence arg0)
             {
                 IExecuteWithSignature("whitespace", "(Ljava/lang/CharSequence;)V", arg0);
             }

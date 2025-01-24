@@ -28,6 +28,14 @@
   "NamespacesToAvoid": [
     "org.apache.commons.logging"
   ],
+  "ClassesWithCallbacks": [
+    {
+      "ClassName": "org.apache.pdfbox.pdmodel.common.function.type4.Parser$AbstractSyntaxHandler",
+      "Patterns": [
+        ".*"
+      ]
+    }
+  ],
   "ClassesToBeListener": [
     "org.apache.pdfbox.pdmodel.common.function.type4.Parser$SyntaxHandler"
   ],
