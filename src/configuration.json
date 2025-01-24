@@ -32,7 +32,9 @@
     {
       "ClassName": "org.apache.pdfbox.pdmodel.common.function.type4.Parser$AbstractSyntaxHandler",
       "Patterns": [
-        ".*"
+        "^comment.*",
+        "^newLine.*",
+        "^whitespace.*"
       ]
     }
   ],
