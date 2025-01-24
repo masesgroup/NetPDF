@@ -71,15 +71,6 @@ public final class Parser_AbstractSyntaxHandler extends org.apache.pdfbox.pdmode
     }
 
     //@Override
-    public void token(java.lang.CharSequence arg0) {
-        org.mases.jnet.developed.JNetEventResult eventDataExchange = new org.mases.jnet.developed.JNetEventResult();
-        raiseEvent("token", eventDataExchange, arg0); if (!eventDataExchange.getHasOverride()) throw new UnsupportedOperationException("The method shall be implemented in .NET side since does not have a default implementation within the JVM");
-    }
-    //@Override
-    public void tokenBase(java.lang.CharSequence arg0) {
-        super.token(arg0);
-    }
-    //@Override
     public void comment(java.lang.CharSequence arg0) {
         org.mases.jnet.developed.JNetEventResult eventDataExchange = new org.mases.jnet.developed.JNetEventResult();
         raiseEvent("comment", eventDataExchange, arg0); if (!eventDataExchange.getHasOverride()) super.comment(arg0);

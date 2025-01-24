@@ -28,20 +28,11 @@
   "NamespacesToAvoid": [
     "org.apache.commons.logging"
   ],
-  "ClassesWithCallbacks": [
-    {
-      "ClassName": "org.apache.pdfbox.pdmodel.common.function.type4.Parser$AbstractSyntaxHandler",
-      "Patterns": [
-        "^comment.*",
-        "^newLine.*",
-        "^whitespace.*"
-      ]
-    }
-  ],
   "ClassesToBeListener": [
     "org.apache.pdfbox.pdmodel.common.function.type4.Parser$SyntaxHandler"
   ],
   "ClassesToAvoid": [
+    "org.apache.pdfbox.pdmodel.common.function.type4.Parser$AbstractSyntaxHandler",
     "org.apache.pdfbox.pdmodel.font.FileSystemFontProvider"
   ],
   "ClassesManuallyDeveloped": [

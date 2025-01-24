@@ -262,7 +262,6 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
             /// </summary>
             protected virtual void InitializeHandlers()
             {
-                AddEventHandler("token", new global::System.EventHandler<CLRListenerEventArgs<CLREventData<MASES.JNet.Specific.JNetEventResult>>>(TokenEventHandler));
                 AddEventHandler("comment", new global::System.EventHandler<CLRListenerEventArgs<CLREventData<MASES.JNet.Specific.JNetEventResult>>>(CommentEventHandler));
                 AddEventHandler("newLine", new global::System.EventHandler<CLRListenerEventArgs<CLREventData<MASES.JNet.Specific.JNetEventResult>>>(NewLineEventHandler));
                 AddEventHandler("whitespace", new global::System.EventHandler<CLRListenerEventArgs<CLREventData<MASES.JNet.Specific.JNetEventResult>>>(WhitespaceEventHandler));
@@ -272,35 +271,9 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
             /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#token-java.lang.CharSequence-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.CharSequence"/></param>
-            /// <remarks>The method invokes the default implementation in the JVM interface</remarks>
-            public void TokenBase(Java.Lang.CharSequence arg0)
+            public void Token(Java.Lang.CharSequence arg0)
             {
-                IExecuteWithSignature("tokenBase", "(Ljava/lang/CharSequence;)V", arg0);
-            }
-
-            /// <summary>
-            /// Handler for <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#token-java.lang.CharSequence-"/>
-            /// </summary>
-            /// <remarks>If <see cref="OnToken"/> has a value it takes precedence over corresponding class method</remarks>
-            public global::System.Action<Java.Lang.CharSequence> OnToken { get; set; } = null;
-
-            bool hasOverrideToken = true;
-            void TokenEventHandler(object sender, CLRListenerEventArgs<CLREventData<MASES.JNet.Specific.JNetEventResult>> data)
-            {
-                hasOverrideToken = true;
-                var methodToExecute = (OnToken != null) ? OnToken : Token;
-                methodToExecute.Invoke(data.EventData.GetAt<Java.Lang.CharSequence>(0));
-                data.EventData.TypedEventData.HasOverride = hasOverrideToken;
-            }
-
-            /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#token-java.lang.CharSequence-"/>
-            /// </summary>
-            /// <param name="arg0"><see cref="Java.Lang.CharSequence"/></param>
-            /// <remarks>The method invokes the default implementation in the JVM interface using <see cref="TokenBase"/>; override the method to implement a different behavior</remarks>
-            public virtual void Token(Java.Lang.CharSequence arg0)
-            {
-                hasOverrideToken = false;
+                IExecuteWithSignature("token", "(Ljava/lang/CharSequence;)V", arg0);
             }
             /// <summary>
             /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.AbstractSyntaxHandler.html#comment-java.lang.CharSequence-"/>
