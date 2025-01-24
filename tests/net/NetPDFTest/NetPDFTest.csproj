@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\Common\Common.props" />
+	<PropertyGroup>
+		<AssemblyName>NetPDFTest</AssemblyName>
+		<OutputType>Exe</OutputType>
+		<RootNamespace>MASES.NetPDFTest</RootNamespace>
+		<Title>NetPDFTest - a test tool for NetPDF</Title>
+		<Description>NetPDFTest - a test tool for NetPDF</Description>
+	</PropertyGroup>
+	<ItemGroup>
+		<Compile Include="..\Common\Initializer.cs" Link="Initializer.cs" />
+	</ItemGroup>
+</Project>

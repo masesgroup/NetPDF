@@ -12,7 +12,7 @@ ModuleVersion = '3.0.0'
 
 CompatiblePSEditions = 'Desktop', 'Core'
 
-GUID = '82FBF86C-1604-4940-84D1-993CC42D7853'
+GUID = '579EB835-AF47-49CD-9D0C-E5A3F13AA176'
 
 Author = 'MASES s.r.l.'
 
@@ -20,8 +20,8 @@ CompanyName = 'MASES s.r.l.'
 
 Copyright = 'Copyright ©  MASES s.r.l. 2025'
 
-Description = 'NetPDF (Java/JVM suite for .NET) PowerShell (aka NetPDFPS) is a PowerShell Module to use JVM and PowerShell side-by-side. With NetPDFPS it is possible to:
-- create and use JVM objects from PowerShell: initialize JVM object (Java, Scala, Kotlin, ...), execute mehods on the object, read data from the object to be used for further PowerShell code 
+Description = 'NetPDF (PDFBox suite for .NET) PowerShell (aka NetPDFPS) is a PowerShell Module to use PDFBox and PowerShell side-by-side. With NetPDFPS it is possible to:
+- create and use PDFBox objects from PowerShell: initialize PDFBox object (Java, Scala, Kotlin, ...), execute methods on the object, read data from the object to be used for further PowerShell code 
 - send to JVM objects data managed from PowerShell: e.g. data of PowerShell, like an input from command-line or a variable, can be used as an argument for the initialization or execution of a method of a JVM object
 
 More information within the project hosted on GitHub at https://github.com/masesgroup/NetPDF for further information.'
@@ -54,47 +54,9 @@ FunctionsToExport = @()
 
 CmdletsToExport = @(
     'Start-NetPDFPS',
-    'Invoke-JCommand',
-    'New-JObject',
-    'Get-ClassForName',
-    'Add-NotificationListener',
-    'Get-DefaultDomain',
-    'Get-Domains',
-    'Get-IsMXBeanInterface',
-    'Get-JMXConnector',
-    'Get-MBeanCount',
-    'Get-MBeanInfo',
-    'Get-QueryNames',
-    'Get-QueryClassattr',
-    'Get-QueryValueExp',
-    'Invoke-QueryAnd'
-    'Invoke-QueryAnySubString',
-    'Invoke-QueryAttr',
-    'Invoke-QueryBetween',
-    'Invoke-QueryDiv',
-    'Invoke-QueryEq',
-    'Invoke-QueryFinalSubString',
-    'Invoke-QueryGeq',
-    'Invoke-QueryGt',
-    'Invoke-QueryIn',
-    'Invoke-QueryInitialSubString',
-    'Invoke-QueryIsInstanceOf',
-    'Invoke-QueryLeq',
-    'Invoke-QueryLt',
-    'Invoke-QueryMatch',
-    'Invoke-QueryMinus',
-    'Invoke-QueryNot',
-    'Invoke-QueryOr',
-    'Invoke-QueryPlus',
-    'Invoke-QueryTimes',
-    'New-AttributeChangeNotificationFilter',
-    'New-JMXServiceURL',
-    'New-MBeanProxy',
-    'New-MXBeanProxy',
-    'New-NotificationFilterSupport',
-    'New-NotificationListener',
-    'New-ObjectName',
-    'Remove-NotificationListener'
+    'New-PDFObject',
+    'Open-PDF',
+    'Save-PDF'
 )
 
 VariablesToExport = '*'
@@ -111,7 +73,7 @@ PrivateData = @{
 
     PSData = @{
 
-        Tags = @('NetPDFPS', 'NetPDF', 'PSEdition_Core', 'PSEdition_Desktop', 'Windows', 'Linux', 'JVM', 'Java', 'Scala', 'Kotlin', 'bridge', 'gateway')
+        Tags = @('NetPDFPS', 'NetPDF', 'PSEdition_Core', 'PSEdition_Desktop', 'Windows', 'Linux', 'JVM', 'Java', 'PDFBox', 'PDF', 'bridge', 'gateway')
 
         LicenseUri = 'https://github.com/masesgroup/NetPDF/blob/master/LICENSE'
 
