@@ -13,7 +13,7 @@ ModuleToProcess = 'MASES.NetPDFPS.dll'
 ModuleVersion = '3.0.0'
 
 # ID used to uniquely identify this module
-GUID = '85834DBD-838A-4B04-8303-DB4CF8FA44A7'
+GUID = 'C2DD13E4-D287-4458-99A8-05F253337DC0'
 
 # Author of this module
 Author = 'MASES s.r.l.'
@@ -25,7 +25,7 @@ CompanyName = 'MASES s.r.l.'
 Copyright = 'Copyright ©  MASES s.r.l. 2025'
 
 # Description of the functionality provided by this module
-Description = 'PowerShell Module to use JVM and PowerShell side-by-side. With NetPDFPS it is possible to use JVM objects within PowerShell. See https://github.com/masesgroup/NetPDF for further information.'
+Description = 'PowerShell Module to use PDFBox and PowerShell side-by-side. With NetPDFPS it is possible to use PDFBox objects within PowerShell. See https://github.com/masesgroup/NetPDF for further information.'
 
 # Minimum version of the Windows PowerShell engine required by this module
 PowerShellVersion = '7.4.0'
@@ -72,47 +72,9 @@ FunctionsToExport = @()
 # Cmdlets to export from this module
 CmdletsToExport = @(
     'Start-NetPDFPS',
-    'Invoke-JCommand',
-    'New-JObject',
-    'Get-ClassForName',
-    'Add-NotificationListener',
-    'Get-DefaultDomain',
-    'Get-Domains',
-    'Get-IsMXBeanInterface',
-    'Get-JMXConnector',
-    'Get-MBeanCount',
-    'Get-MBeanInfo',
-    'Get-QueryNames',
-    'Get-QueryClassattr',
-    'Get-QueryValueExp',
-    'Invoke-QueryAnd'
-    'Invoke-QueryAnySubString',
-    'Invoke-QueryAttr',
-    'Invoke-QueryBetween',
-    'Invoke-QueryDiv',
-    'Invoke-QueryEq',
-    'Invoke-QueryFinalSubString',
-    'Invoke-QueryGeq',
-    'Invoke-QueryGt',
-    'Invoke-QueryIn',
-    'Invoke-QueryInitialSubString',
-    'Invoke-QueryIsInstanceOf',
-    'Invoke-QueryLeq',
-    'Invoke-QueryLt',
-    'Invoke-QueryMatch',
-    'Invoke-QueryMinus',
-    'Invoke-QueryNot',
-    'Invoke-QueryOr',
-    'Invoke-QueryPlus',
-    'Invoke-QueryTimes',
-    'New-AttributeChangeNotificationFilter',
-    'New-JMXServiceURL',
-    'New-MBeanProxy',
-    'New-MXBeanProxy',
-    'New-NotificationFilterSupport',
-    'New-NotificationListener',
-    'New-ObjectName',
-    'Remove-NotificationListener'
+    'New-PDFObject',
+    'Open-PDF',
+    'Save-PDF'
 )
 
 # Variables to export from this module
@@ -132,7 +94,7 @@ PrivateData = @{
 
     PSData = @{
 
-        Tags = @('NetPDFPS', 'NetPDF', 'PSEdition_Core', 'PSEdition_Desktop', 'Windows', 'Linux', 'JVM', 'Java', 'Scala', 'Kotlin', 'bridge', 'gateway')
+        Tags = @('NetPDFPS', 'NetPDF', 'PSEdition_Core', 'PSEdition_Desktop', 'Windows', 'Linux', 'JVM', 'Java', 'PDFBox', 'PDF', 'bridge', 'gateway')
 
         LicenseUri = 'https://github.com/masesgroup/NetPDF/blob/master/LICENSE'
 

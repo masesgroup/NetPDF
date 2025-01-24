@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFrameworks>net462;net8.0;net9.0</TargetFrameworks>
+		<!--see https://learn.microsoft.com/en-us/dotnet/core/compatibility/interop/9.0/cet-support-->
+		<CETCompat>false</CETCompat>
+	</PropertyGroup>
+	<ItemGroup Condition="'$(TargetFramework)' == 'net462'">
+		<Reference Include="Microsoft.CSharp" />
+	</ItemGroup>
+	<ItemGroup Condition="Exists('..\..\..\NetPDF\NetPDF.csproj')">
+		<!--Within GitHub repo: used for test purpose-->
+		<ProjectReference Include="..\..\..\NetPDF\NetPDF.csproj" />
+	</ItemGroup>
+	<ItemGroup Condition="!Exists('..\..\..\NetPDF\NetPDF.csproj')">
+		<!--Outside GitHub repo-->
+		<PackageReference Include="MASES.NetPDF" Version="3.0.0" cludeAssets="All" PrivateAssets="None" />
+	</ItemGroup>
+</Project>
