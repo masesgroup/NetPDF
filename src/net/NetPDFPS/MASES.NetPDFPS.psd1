@@ -56,7 +56,7 @@ CmdletsToExport = @(
     'Start-NetPDFPS',
     'New-PDFObject',
     'Open-PDF',
-    'Save-PDF',
+    'Save-PDF'
 )
 
 VariablesToExport = '*'

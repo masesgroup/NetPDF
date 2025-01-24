@@ -74,7 +74,7 @@ CmdletsToExport = @(
     'Start-NetPDFPS',
     'New-PDFObject',
     'Open-PDF',
-    'Save-PDF',
+    'Save-PDF'
 )
 
 # Variables to export from this module
