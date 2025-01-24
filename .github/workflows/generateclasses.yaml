@@ -41,6 +41,8 @@ jobs:
       DOTNET_CreateDumpVerboseDiagnostics: 1
       DOTNET_EnableCrashReport: 1
       JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_5_21 }}
+      JNet_Version: 2.5.11
+      PDFBox_Version: 3.0.4
       
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -136,14 +138,33 @@ jobs:
 
       - name: Download latest published version of JNetReflector
         if: ${{ inputs.UseLastRepositoryBuild == false && inputs.UseLatestJNetReflectorSource == false }}
-        run: dotnet tool update --version 2.5.11 -g MASES.JNetReflector
+        run: dotnet tool update --version ${{ env.JNet_Version }} -g MASES.JNetReflector
+
+      - uses: actions/cache/restore@v4
+        id: cache
+        with:
+          lookup-only: true
+          enableCrossOsArchive: true
+          path: ./fontcache/
+          key: PdfBox_FontCache_${{ env.PDFBox_Version }}
+
+      - uses: actions/cache/restore@v4
+        if: steps.cache.outputs.cache-hit == 'true'
+        with:
+          enableCrossOsArchive: true
+          path: ./fontcache/
+          key: PdfBox_FontCache_${{ env.PDFBox_Version }}
+
+      - name: Create font cache folder
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: mkdir ${{ github.workspace }}\fontcache
 
       - name: Build classes with unpublished JNetReflector
         if: ${{ inputs.UseLatestJNetReflectorSource == true }}
         shell: cmd
         run: |
           cd JNet\binReflector\net8.0
-          MASES.JNetReflector.exe -TraceLevel 1 -TraceTo %GITHUB_WORKSPACE%\JNetReflector.txt -OriginRootPath %GITHUB_WORKSPACE%\jars -DestinationRootPath %GITHUB_WORKSPACE%\src\ -ConfigurationFile %GITHUB_WORKSPACE%\src\configuration.json
+          MASES.JNetReflector.exe -TraceLevel 1 -TraceTo %GITHUB_WORKSPACE%\JNetReflector.txt -OriginRootPath %GITHUB_WORKSPACE%\jars -DestinationRootPath %GITHUB_WORKSPACE%\src\ -ConfigurationFile %GITHUB_WORKSPACE%\src\configuration.json --JVMKVOption:pdfbox.fontcache=${{ github.workspace }}\fontcache
 
       - name: Disable CET for dotnet process
         if: ${{ inputs.UseLatestJNetReflectorSource == false }}
@@ -154,7 +175,20 @@ jobs:
       - name: Build classes with latest published version of JNetReflector
         if: ${{ inputs.UseLatestJNetReflectorSource == false }}
         shell: cmd
-        run: jnetreflector -TraceLevel 1 -TraceTo %GITHUB_WORKSPACE%\JNetReflector.txt -OriginRootPath %GITHUB_WORKSPACE%\jars -DestinationRootPath %GITHUB_WORKSPACE%\src\ -ConfigurationFile %GITHUB_WORKSPACE%\src\configuration.json
+        run: jnetreflector -TraceLevel 1 -TraceTo %GITHUB_WORKSPACE%\JNetReflector.txt -OriginRootPath %GITHUB_WORKSPACE%\jars -DestinationRootPath %GITHUB_WORKSPACE%\src\ -ConfigurationFile %GITHUB_WORKSPACE%\src\configuration.json --JVMKVOption:pdfbox.fontcache=${{ github.workspace }}\fontcache
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fontcache
+          path: ./fontcache/*.*
+
+      - name: Upload artifacts
+        if: steps.cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          enableCrossOsArchive: true
+          key: PdfBox_FontCache_${{ env.PDFBox_Version }}
+          path: ./fontcache/
 
       - uses: actions/upload-artifact@v4
         with:

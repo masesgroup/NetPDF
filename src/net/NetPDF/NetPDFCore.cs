@@ -58,6 +58,11 @@ namespace MASES.NetPDF
                         Default = Const.DefaultLogPath,
                         Help = "The path where log will be stored.",
                     },
+                    new ArgumentMetadata<string>()
+                    {
+                        Name = CLIParam.FontCachePath,
+                        Help = "The path where font cache will be stored.",
+                    },
                 });
                 return lst;
             }
@@ -100,6 +105,7 @@ namespace MASES.NetPDF
                 }
             }
             _logPath = ParsedArgs.Get<string>(CLIParam.LogPath);
+            _fontCachePath = ParsedArgs.Get<string>(CLIParam.FontCachePath);
             return result;
         }
         /// <summary>
@@ -145,6 +151,11 @@ namespace MASES.NetPDF
         public static string ApplicationLogPath { get; set; }
 
         /// <summary>
+        /// Sets the global value of font cache path
+        /// </summary>
+        public static string ApplicationFontCachePath { get; set; }
+
+        /// <summary>
         /// value can be overridden in subclasses
         /// </summary>
         protected string _classToRun;
@@ -164,6 +175,12 @@ namespace MASES.NetPDF
         /// The log folder
         /// </summary>
         public virtual string LogDir { get { return ApplicationLogPath ?? _logPath; } }
+
+        string _fontCachePath;
+        /// <summary>
+        /// The log folder
+        /// </summary>
+        public virtual string FontCachePath { get { return ApplicationFontCachePath ?? _fontCachePath; } }
 
         /// <summary>
         /// The log4j configuration
@@ -201,6 +218,11 @@ namespace MASES.NetPDF
                     { "netpdf.logs.dir", LogDir},
                     { "java.awt.headless", "true" },
                 };
+
+                if (!string.IsNullOrWhiteSpace(FontCachePath))
+                {
+                    options.Add("pdfbox.fontcache", FontCachePath);
+                }
 
                 return options;
             }

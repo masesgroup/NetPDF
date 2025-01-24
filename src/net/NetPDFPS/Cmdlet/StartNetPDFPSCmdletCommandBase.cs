@@ -39,10 +39,18 @@ namespace MASES.NetPDFPS.Cmdlet
             HelpMessage = "The path where log will be stored.")]
         public string LogPath { get; set; }
 
+        /// <inheritdoc cref="NetPDFCore{T}.ApplicationFontCachePath" />
+        [Parameter(
+            ValueFromPipeline = true,
+            ValueFromPipelineByPropertyName = true,
+            HelpMessage = "The path where font cache will be stored.")]
+        public string FontCachePath { get; set; }
+
         protected override void OnBeforeCreateGlobalInstance()
         {
             NetPDFPSHelper<NetPDFPSCore>.SetCommonLoggingPath(CommonLoggingPath);
             NetPDFPSHelper<NetPDFPSCore>.SetLogPath(LogPath);
+            NetPDFPSHelper<NetPDFPSCore>.SetFontCachePath(FontCachePath);
         }
     }
 }
