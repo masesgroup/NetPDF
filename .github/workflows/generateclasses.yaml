@@ -155,7 +155,7 @@ jobs:
           path: ./fontcache/
           key: PdfBox_FontCache_${{ env.PDFBox_Version }}
 
-      - name: Upload artifacts
+      - name: Create font cache folder
         if: steps.cache.outputs.cache-hit != 'true'
         run: mkdir ${{ github.workspace }}\fontcache
 
@@ -176,6 +176,11 @@ jobs:
         if: ${{ inputs.UseLatestJNetReflectorSource == false }}
         shell: cmd
         run: jnetreflector -TraceLevel 1 -TraceTo %GITHUB_WORKSPACE%\JNetReflector.txt -OriginRootPath %GITHUB_WORKSPACE%\jars -DestinationRootPath %GITHUB_WORKSPACE%\src\ -ConfigurationFile %GITHUB_WORKSPACE%\src\configuration.json --JVMKVOption:"pdfbox.fontcache"="${{ github.workspace }}\fontcache\"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fontcache
+          path: ./fontcache/*
 
       - name: Upload artifacts
         if: steps.cache.outputs.cache-hit != 'true'
