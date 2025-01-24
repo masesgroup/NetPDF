@@ -195,7 +195,7 @@ namespace MASES.NetPDF
 
         bool _usePureJavaCMYKConversion;
         /// <summary>
-        /// The log folder
+        /// <see langword="true"/> to enable pure Java CMYK conversion
         /// </summary>
         public virtual bool UsePureJavaCMYKConversion { get { return !ApplicationUsePureJavaCMYKConversion.HasValue ? _usePureJavaCMYKConversion : ApplicationUsePureJavaCMYKConversion.Value; } }
 

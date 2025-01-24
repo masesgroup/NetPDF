@@ -46,11 +46,19 @@ namespace MASES.NetPDFPS.Cmdlet
             HelpMessage = "The path where font cache will be stored.")]
         public string FontCachePath { get; set; }
 
+        /// <inheritdoc cref="NetPDFCore{T}.ApplicationFontCachePath" />
+        [Parameter(
+            ValueFromPipeline = true,
+            ValueFromPipelineByPropertyName = true,
+            HelpMessage = "Add on command line to enable pure Java CMYK conversion.")]
+        public bool? UsePureJavaCMYKConversion { get; set; }
+
         protected override void OnBeforeCreateGlobalInstance()
         {
             NetPDFPSHelper<NetPDFPSCore>.SetCommonLoggingPath(CommonLoggingPath);
             NetPDFPSHelper<NetPDFPSCore>.SetLogPath(LogPath);
             NetPDFPSHelper<NetPDFPSCore>.SetFontCachePath(FontCachePath);
+            NetPDFPSHelper<NetPDFPSCore>.SetUsePureJavaCMYKConversion(UsePureJavaCMYKConversion.HasValue ? UsePureJavaCMYKConversion.Value : false);
         }
     }
 }
