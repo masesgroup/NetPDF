@@ -180,7 +180,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: fontcache
-          path: ./fontcache/*
+          path: ./fontcache/*.*
 
       - name: Upload artifacts
         if: steps.cache.outputs.cache-hit != 'true'
