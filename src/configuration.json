@@ -29,7 +29,7 @@
     "org.apache.commons.logging"
   ],
   "ClassesToBeListener": [
-
+    "org.apache.pdfbox.pdmodel.common.function.type4.Parser$SyntaxHandler"
   ],
   "ClassesToAvoid": [
     "org.apache.pdfbox.pdmodel.font.FileSystemFontProvider"
