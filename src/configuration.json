@@ -7,22 +7,22 @@
   "DisableInterfaceMethodGeneration": true,
   "CreateInterfaceInheritance": true,
   "JarList": [
-    "pdfbox-3.0.3.jar",
-    "pdfbox-io-3.0.3.jar",
-    "fontbox-3.0.3.jar"
+    "pdfbox-3.0.4.jar",
+    "pdfbox-io-3.0.4.jar",
+    "fontbox-3.0.4.jar"
   ],
   "OriginJavadocJARVersionAndUrls": [
     {
       "Version": 8,
-      "Url": "https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.3/"
+      "Url": "https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/"
     },
     {
       "Version": 8,
-      "Url": "https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.3/"
+      "Url": "https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/"
     },
     {
       "Version": 8,
-      "Url": "https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.3/"
+      "Url": "https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/"
     }
   ],
   "NamespacesToAvoid": [

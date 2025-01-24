@@ -59,7 +59,7 @@ This project adheres to the Contributor [Covenant code of conduct](CODE_OF_CONDU
 
 ### News
 
-* V3.0.0+: First version based on [PDFBox](https://pdfbox.apache.org) 3.0.3
+* V3.0.0+: First version based on [PDFBox](https://pdfbox.apache.org) 3.0.4
 
 ---
 
