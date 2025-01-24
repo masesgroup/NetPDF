@@ -63,6 +63,11 @@ namespace MASES.NetPDF
                         Name = CLIParam.FontCachePath,
                         Help = "The path where font cache will be stored.",
                     },
+                    new ArgumentMetadata<object>()
+                    {
+                        Name = CLIParam.UsePureJavaCMYKConversion,
+                        Help = "Add on command line to enable pure Java CMYK conversion.",
+                    },
                 });
                 return lst;
             }
@@ -106,6 +111,7 @@ namespace MASES.NetPDF
             }
             _logPath = ParsedArgs.Get<string>(CLIParam.LogPath);
             _fontCachePath = ParsedArgs.Get<string>(CLIParam.FontCachePath);
+            _usePureJavaCMYKConversion = ParsedArgs.Exist(CLIParam.UsePureJavaCMYKConversion);
             return result;
         }
         /// <summary>
@@ -156,6 +162,11 @@ namespace MASES.NetPDF
         public static string ApplicationFontCachePath { get; set; }
 
         /// <summary>
+        /// <see langword="true"/> to enable pure Java CMYK conversion
+        /// </summary>
+        public static bool? ApplicationUsePureJavaCMYKConversion { get; set; }
+
+        /// <summary>
         /// value can be overridden in subclasses
         /// </summary>
         protected string _classToRun;
@@ -181,6 +192,12 @@ namespace MASES.NetPDF
         /// The log folder
         /// </summary>
         public virtual string FontCachePath { get { return ApplicationFontCachePath ?? _fontCachePath; } }
+
+        bool _usePureJavaCMYKConversion;
+        /// <summary>
+        /// The log folder
+        /// </summary>
+        public virtual bool UsePureJavaCMYKConversion { get { return !ApplicationUsePureJavaCMYKConversion.HasValue ? _usePureJavaCMYKConversion : ApplicationUsePureJavaCMYKConversion.Value; } }
 
         /// <summary>
         /// The log4j configuration
@@ -222,6 +239,11 @@ namespace MASES.NetPDF
                 if (!string.IsNullOrWhiteSpace(FontCachePath))
                 {
                     options.Add("pdfbox.fontcache", FontCachePath);
+                }
+
+                if (UsePureJavaCMYKConversion)
+                {
+                    options.Add("org.apache.pdfbox.rendering.UsePureJavaCMYKConversion", "true");
                 }
 
                 return options;
