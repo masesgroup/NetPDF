@@ -21,12 +21,15 @@
 		<netpdf_jars Include="$(ProjectDir)\..\..\..\jars\*.*">
 			<InProject>false</InProject>
 		</netpdf_jars>
+		<netpdf_config Include="$(ProjectDir)\..\..\config\*.*" />
 	</ItemGroup>
 	<Target Name="CopyCustomContent" AfterTargets="AfterBuild" Condition="'$(GITHUB_ACTIONS)' != 'true' Or '$(GITHUB_TEST_PREPARATION)' == 'true'">
 		<Copy SourceFiles="@(netpdf_jars)" DestinationFolder="$(OutDir)\jars" />
+		<Copy SourceFiles="@(netpdf_config)" DestinationFolder="$(OutDir)\config" />
 	</Target>
 	<Target Name="CopyCustomContentOnPublish" AfterTargets="Publish" Condition="'$(GITHUB_ACTIONS)' != 'true' Or '$(GITHUB_TEST_PREPARATION)' == 'true'">
 		<Copy SourceFiles="@(netpdf_jars)" DestinationFolder="$(OutDir)\jars" />
+		<Copy SourceFiles="@(netpdf_config)" DestinationFolder="$(OutDir)\config" />
 	</Target>
 	<ItemGroup>
 		<None Include="mases.netpdf.targets" Pack="true" PackagePath="build" />

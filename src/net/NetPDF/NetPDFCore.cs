@@ -157,7 +157,7 @@ namespace MASES.NetPDF
         /// <summary>
         /// The log4j folder
         /// </summary>
-        public virtual string Log4JPath { get { return ApplicationCommonLoggingPath ?? _commonLoggingPath; } }
+        public virtual string CommonLoggingPath { get { return ApplicationCommonLoggingPath ?? _commonLoggingPath; } }
 
         string _logPath;
         /// <summary>
@@ -168,7 +168,7 @@ namespace MASES.NetPDF
         /// <summary>
         /// The log4j configuration
         /// </summary>
-        public virtual string CommonLoggingOpts { get { return string.Format("file:{0}", Path.Combine(Const.DefaultRootPath, "config", "tools-log4j.properties")); } }
+        public virtual string CommonLoggingOpts { get { return string.Format("file:{0}", Path.Combine(Const.DefaultRootPath, "config", "netpdf-log4j.properties")); } }
 
         /// <inheritdoc cref="JNetCore{T}.PerformanceOptions"/>
         protected override IList<string> PerformanceOptions
@@ -197,7 +197,8 @@ namespace MASES.NetPDF
 
                 IDictionary<string, string> options = new Dictionary<string, string>(base.Options)
                 {
-                    //{ "log4j.configuration", string.IsNullOrEmpty(Log4JPath) ? ((JarRootPath == Const.DefaultRootPath) ? Log4JOpts : null) : $"file:{Log4JPath}"},
+                    { "log4j.configuration", string.IsNullOrEmpty(CommonLoggingPath) ? CommonLoggingOpts : $"file:{CommonLoggingPath}"},
+                    { "netpdf.logs.dir", LogDir},
                     { "java.awt.headless", "true" },
                 };
 

@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{1BF0B566-4513-405A-BF67-76E826EA6DA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{D622CE4D-8CE5-486A-9AAE-97AC093122C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{360FAD84-7744-4B18-8624-1B5AE07534F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetPDF", "..\..\src\net\NetPDF\NetPDF.csproj", "{071748CD-0147-4021-9374-4AD22C48B070}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netpdfApp", "..\..\src\net\templates\templates\netpdfApp\netpdfApp.csproj", "{7DA690B0-72AD-48E3-8991-A368D0EAFEDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetPDFTest", "NetPDFTest\NetPDFTest.csproj", "{44B081BC-D351-4824-A7D0-A7DD7DBA468E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{071748CD-0147-4021-9374-4AD22C48B070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{071748CD-0147-4021-9374-4AD22C48B070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{071748CD-0147-4021-9374-4AD22C48B070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{071748CD-0147-4021-9374-4AD22C48B070}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DA690B0-72AD-48E3-8991-A368D0EAFEDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DA690B0-72AD-48E3-8991-A368D0EAFEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DA690B0-72AD-48E3-8991-A368D0EAFEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DA690B0-72AD-48E3-8991-A368D0EAFEDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44B081BC-D351-4824-A7D0-A7DD7DBA468E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B081BC-D351-4824-A7D0-A7DD7DBA468E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B081BC-D351-4824-A7D0-A7DD7DBA468E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B081BC-D351-4824-A7D0-A7DD7DBA468E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{071748CD-0147-4021-9374-4AD22C48B070} = {1BF0B566-4513-405A-BF67-76E826EA6DA0}
+		{7DA690B0-72AD-48E3-8991-A368D0EAFEDF} = {D622CE4D-8CE5-486A-9AAE-97AC093122C7}
+		{44B081BC-D351-4824-A7D0-A7DD7DBA468E} = {360FAD84-7744-4B18-8624-1B5AE07534F6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A7C16DC-1BAA-44BC-AA1C-D40B7B61878E}
+	EndGlobalSection
+EndGlobal
