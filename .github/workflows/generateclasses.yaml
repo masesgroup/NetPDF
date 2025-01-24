@@ -155,12 +155,16 @@ jobs:
           path: ./fontcache/
           key: PdfBox_FontCache_${{ env.PDFBox_Version }}
 
+      - name: Upload artifacts
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: mkdir ${{ github.workspace }}\fontcache
+
       - name: Build classes with unpublished JNetReflector
         if: ${{ inputs.UseLatestJNetReflectorSource == true }}
         shell: cmd
         run: |
           cd JNet\binReflector\net8.0
-          MASES.JNetReflector.exe -TraceLevel 1 -TraceTo %GITHUB_WORKSPACE%\JNetReflector.txt -OriginRootPath %GITHUB_WORKSPACE%\jars -DestinationRootPath %GITHUB_WORKSPACE%\src\ -ConfigurationFile %GITHUB_WORKSPACE%\src\configuration.json --JVMKVOption:"pdfbox.fontcache"="${{ github.workspace }}/fontcache/"
+          MASES.JNetReflector.exe -TraceLevel 1 -TraceTo %GITHUB_WORKSPACE%\JNetReflector.txt -OriginRootPath %GITHUB_WORKSPACE%\jars -DestinationRootPath %GITHUB_WORKSPACE%\src\ -ConfigurationFile %GITHUB_WORKSPACE%\src\configuration.json --JVMKVOption:"pdfbox.fontcache"="${{ github.workspace }}\fontcache\"
 
       - name: Disable CET for dotnet process
         if: ${{ inputs.UseLatestJNetReflectorSource == false }}
@@ -171,7 +175,7 @@ jobs:
       - name: Build classes with latest published version of JNetReflector
         if: ${{ inputs.UseLatestJNetReflectorSource == false }}
         shell: cmd
-        run: jnetreflector -TraceLevel 1 -TraceTo %GITHUB_WORKSPACE%\JNetReflector.txt -OriginRootPath %GITHUB_WORKSPACE%\jars -DestinationRootPath %GITHUB_WORKSPACE%\src\ -ConfigurationFile %GITHUB_WORKSPACE%\src\configuration.json --JVMKVOption:"pdfbox.fontcache"="${{ github.workspace }}/fontcache/"
+        run: jnetreflector -TraceLevel 1 -TraceTo %GITHUB_WORKSPACE%\JNetReflector.txt -OriginRootPath %GITHUB_WORKSPACE%\jars -DestinationRootPath %GITHUB_WORKSPACE%\src\ -ConfigurationFile %GITHUB_WORKSPACE%\src\configuration.json --JVMKVOption:"pdfbox.fontcache"="${{ github.workspace }}\fontcache\"
 
       - name: Upload artifacts
         if: steps.cache.outputs.cache-hit != 'true'
