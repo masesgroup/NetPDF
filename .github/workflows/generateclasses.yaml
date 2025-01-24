@@ -164,7 +164,7 @@ jobs:
         shell: cmd
         run: |
           cd JNet\binReflector\net8.0
-          MASES.JNetReflector.exe -TraceLevel 1 -TraceTo %GITHUB_WORKSPACE%\JNetReflector.txt -OriginRootPath %GITHUB_WORKSPACE%\jars -DestinationRootPath %GITHUB_WORKSPACE%\src\ -ConfigurationFile %GITHUB_WORKSPACE%\src\configuration.json --JVMKVOption:"pdfbox.fontcache"="${{ github.workspace }}\fontcache\"
+          MASES.JNetReflector.exe -TraceLevel 1 -TraceTo %GITHUB_WORKSPACE%\JNetReflector.txt -OriginRootPath %GITHUB_WORKSPACE%\jars -DestinationRootPath %GITHUB_WORKSPACE%\src\ -ConfigurationFile %GITHUB_WORKSPACE%\src\configuration.json --JVMKVOption:pdfbox.fontcache=${{ github.workspace }}\fontcache
 
       - name: Disable CET for dotnet process
         if: ${{ inputs.UseLatestJNetReflectorSource == false }}
@@ -175,7 +175,7 @@ jobs:
       - name: Build classes with latest published version of JNetReflector
         if: ${{ inputs.UseLatestJNetReflectorSource == false }}
         shell: cmd
-        run: jnetreflector -TraceLevel 1 -TraceTo %GITHUB_WORKSPACE%\JNetReflector.txt -OriginRootPath %GITHUB_WORKSPACE%\jars -DestinationRootPath %GITHUB_WORKSPACE%\src\ -ConfigurationFile %GITHUB_WORKSPACE%\src\configuration.json --JVMKVOption:"pdfbox.fontcache"="${{ github.workspace }}\fontcache\"
+        run: jnetreflector -TraceLevel 1 -TraceTo %GITHUB_WORKSPACE%\JNetReflector.txt -OriginRootPath %GITHUB_WORKSPACE%\jars -DestinationRootPath %GITHUB_WORKSPACE%\src\ -ConfigurationFile %GITHUB_WORKSPACE%\src\configuration.json --JVMKVOption:pdfbox.fontcache=${{ github.workspace }}\fontcache
 
       - uses: actions/upload-artifact@v4
         with:
