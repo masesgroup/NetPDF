@@ -29,7 +29,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
     /// <summary>
     /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/InstructionSequenceBuilder.html"/>
     /// </summary>
-    public partial class InstructionSequenceBuilder : Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4.Parser.AbstractSyntaxHandler
+    public partial class InstructionSequenceBuilder : MASES.JCOBridge.C2JBridge.JVMBridgeBase<InstructionSequenceBuilder>
     {
         const string _bridgeClassName = "org.apache.pdfbox.pdmodel.common.function.type4.InstructionSequenceBuilder";
         /// <summary>
