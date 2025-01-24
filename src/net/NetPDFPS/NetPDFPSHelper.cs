@@ -33,5 +33,7 @@ namespace MASES.NetPDFPS
         public static void SetLogPath(string logPath) { JNetPSHelper<TClass>.Set(typeof(NetPDFCore<>), nameof(NetPDFPSCore.ApplicationLogPath), logPath); }
 
         public static void SetFontCachePath(string fontCachePath) { JNetPSHelper<TClass>.Set(typeof(NetPDFCore<>), nameof(NetPDFPSCore.ApplicationFontCachePath), fontCachePath); }
+
+        public static void SetUsePureJavaCMYKConversion(bool usePureJavaCMYKConversion) { JNetPSHelper<TClass>.Set(typeof(NetPDFCore<>), nameof(NetPDFPSCore.ApplicationUsePureJavaCMYKConversion), usePureJavaCMYKConversion); }
     }
 }
