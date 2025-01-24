@@ -31,5 +31,7 @@ namespace MASES.NetPDFPS
         public static void SetCommonLoggingPath(string commonLoggingath) { JNetPSHelper<TClass>.Set(typeof(NetPDFCore<>), nameof(NetPDFPSCore.ApplicationCommonLoggingPath), commonLoggingath); }
 
         public static void SetLogPath(string logPath) { JNetPSHelper<TClass>.Set(typeof(NetPDFCore<>), nameof(NetPDFPSCore.ApplicationLogPath), logPath); }
+
+        public static void SetFontCachePath(string fontCachePath) { JNetPSHelper<TClass>.Set(typeof(NetPDFCore<>), nameof(NetPDFPSCore.ApplicationFontCachePath), fontCachePath); }
     }
 }

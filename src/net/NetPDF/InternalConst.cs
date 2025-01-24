@@ -27,6 +27,7 @@ namespace MASES.NetPDF
         public const string ClassToRun = "ClassToRun";
         public const string CommonLoggingConfiguration = "CommonLoggingConfiguration";
         public const string LogPath = "LogPath";
+        public const string FontCachePath = "FontCachePath";
     }
 
     /// <summary>
