@@ -7,7 +7,7 @@
     <Summary>Ready made templates to create applications based on NetPDF (PDFBox suite for .NET)</Summary>
     <Description>Ready made templates to create applications based on NetPDF (PDFBox suite for .NET). The templates are ready made starting points, all information and APIs are available in the official website https://masesgroup.github.io/NetPDF</Description>
     <OutputPath>..\..\..\bin\</OutputPath>
-    <PackageTags>template netpdf dotnet clr dotnetcore netcore dotnet8 net8 java bridge</PackageTags>
+    <PackageTags>template netpdf dotnet pdf pdfbox clr dotnetcore netcore dotnet8 net8 java bridge</PackageTags>
     <Product>NetPDF Templates</Product>
 	<IncludeSymbols>false</IncludeSymbols>
 	<IncludeBuildOutput>false</IncludeBuildOutput>

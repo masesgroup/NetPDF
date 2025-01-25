@@ -14,10 +14,19 @@ RUN dotnet publish ./NetPDFCLI/NetPDFCLI.csproj --framework net8.0 -c Release -o
 FROM mcr.microsoft.com/dotnet/runtime:8.0-jammy
 ARG TARGETARCH
 
+LABEL org.opencontainers.image.authors='https://github.com/masesgroup', \
+      org.opencontainers.image.url='https://netpdf.masesgroup.com' \
+      org.opencontainers.image.documentation='https://netpdf.masesgroup.com' \
+      org.opencontainers.image.source='https://github.com/masesgroup/NetPDF' \
+      org.opencontainers.image.vendor='MASES Group' \
+      org.opencontainers.image.licenses='Apache-2.0' \
+      org.opencontainers.image.description="NetPDF - PDFBox suite for .NET"
+
 # Add JRE
 RUN apt-get update && apt-get install -y --no-install-recommends openjdk-17-jre-headless && rm -rf /var/lib/apt/lists/*
 
 ADD ./jars /app/jars
+ADD ./src/config /app/config
 
 ENV JCOBRIDGE_JVMPath=/usr/lib/jvm/java-17-openjdk-$TARGETARCH/lib/server/libjvm.so
 ENV JCOBRIDGE_LicensePath=
