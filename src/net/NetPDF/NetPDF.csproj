@@ -7,7 +7,7 @@
 		<Description>PDFBox suite for .NET - a comprehensive suite of libraries and tools to use PDFBox and .NET side-by-side</Description>
 		<Product>NetPDF</Product>
 		<OutputPath>..\..\..\bin\</OutputPath>
-		<PackageTags>netpdf dotnet clr jvm dotnetcore netcore dotnet8 net8 java bridge gateway</PackageTags>
+		<PackageTags>netpdf pdf pdfbox dotnet clr jvm dotnetcore netcore dotnet8 net8 java bridge gateway</PackageTags>
 		<PackageId>MASES.NetPDF</PackageId>
 		<PackageReadmeFile>usage.md</PackageReadmeFile>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
