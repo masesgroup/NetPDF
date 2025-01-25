@@ -54,10 +54,100 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NetPDFPS.Cmdlet.NetPDFPSCmdlet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NetPDFPS.Cmdlet.NetPDFPSCmdlet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NetPDFPS.Cmdlet.NewPdfCmdletCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NetPDFPS.Cmdlet.NewPdfCmdletCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NetPDFPS.Cmdlet.OpenPdfCmdletCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NetPDFPS.Cmdlet.OpenPdfCmdletCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NetPDFPS.Cmdlet.PDFBoxClassToRunCmdletCommandBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NetPDFPS.Cmdlet.PDFBoxClassToRunCmdletCommandBase-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NetPDFPS.Cmdlet.SavePdfCmdletCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NetPDFPS.Cmdlet.SavePdfCmdletCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NetPDFPS.Cmdlet.StartNetPDFPSCmdletCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NetPDFPS.Cmdlet.StartNetPDFPSCmdletCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NetPDFPS.Cmdlet.StartNetPDFPSCmdletCommandBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NetPDFPS.Cmdlet.StartNetPDFPSCmdletCommandBase-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NetPDFPS.Cmdlet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NetPDFPS.Cmdlet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MASES.NetPDFPS.NetPDFPSCore.yml",
       "output": {
         ".html": {
           "relative_path": "api/MASES.NetPDFPS.NetPDFPSCore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NetPDFPS.NetPDFPSHelper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NetPDFPS.NetPDFPSHelper-1.html"
         }
       },
       "version": ""
@@ -488,6 +578,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Org.Apache.Fontbox.Cmap.CMapParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Org.Apache.Fontbox.Cmap.CMapStrings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Org.Apache.Fontbox.Cmap.CMapStrings.html"
         }
       },
       "version": ""
@@ -3734,20 +3834,20 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4.Parser.AbstractSyntaxHandler.yml",
+      "source_relative_path": "api/Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4.Parser.SyntaxHandler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4.Parser.AbstractSyntaxHandler.html"
+          "relative_path": "api/Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4.Parser.SyntaxHandler.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4.Parser.SyntaxHandler.yml",
+      "source_relative_path": "api/Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4.Parser.SyntaxHandlerDirect.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4.Parser.SyntaxHandler.html"
+          "relative_path": "api/Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4.Parser.SyntaxHandlerDirect.html"
         }
       },
       "version": ""
