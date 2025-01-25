@@ -19,13 +19,16 @@
 
 	<ItemGroup Condition="True">
 		<netpdfcli_jars Include="$(ProjectDir)\..\..\..\jars\*.*" />
+		<netpdfcli_config Include="$(ProjectDir)\..\..\config\*.*" />
 	</ItemGroup>
 
 	<Target Name="CopyCustomContent" AfterTargets="AfterBuild">
 		<Copy SourceFiles="@(netpdfcli_jars)" DestinationFolder="$(OutDir)\jars" />
+		<Copy SourceFiles="@(netpdfcli_config)" DestinationFolder="$(OutDir)\config" />
 	</Target>
 	<Target Name="CopyCustomContentOnPublish" AfterTargets="Publish">
 		<Copy SourceFiles="@(netpdfcli_jars)" DestinationFolder="$(OutDir)\jars" />
+		<Copy SourceFiles="@(netpdfcli_config)" DestinationFolder="$(OutDir)\config" />
 	</Target>
 	
 	<ItemGroup>
