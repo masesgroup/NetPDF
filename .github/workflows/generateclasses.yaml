@@ -210,7 +210,7 @@ jobs:
         with:
           branch-suffix: short-commit-hash
           add-paths: src/*.*
-          commit-message: Update generated classes using last unpublished version of JNetReflector after commit ${{ env.GITHUB_COMMIT_MESSAGE }}
+          commit-message: Changes by GitHub action
           title: Update generated classes using last unpublished version of JNetReflector after commit ${{ env.GITHUB_COMMIT_MESSAGE }}
           body: |
             Automated changes by GitHub action, fix #5
@@ -224,7 +224,7 @@ jobs:
         with:
           branch-suffix: short-commit-hash
           add-paths: src/*.*
-          commit-message: Update generated classes using last public version of JNetReflector after commit ${{ env.GITHUB_COMMIT_MESSAGE }}
+          commit-message: Changes by GitHub action
           title: Update generated classes using last public version of JNetReflector after commit ${{ env.GITHUB_COMMIT_MESSAGE }}
           body: |
             Automated changes by GitHub action, fix #5
