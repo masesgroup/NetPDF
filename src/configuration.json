@@ -1,8 +1,8 @@
 {
   "JVMOptions": [
     {
-      "OptionName": "pdfbox.fontcache",
-      "OptionValue": "./fontcache/"
+      "Name": "pdfbox.fontcache",
+      "Value": "$(FONTCACHE_FOLDER)"
     }
   ],
   "RelativeDestinationCSharpClassPath": "net\\NetPDF\\Generated",
