@@ -10,7 +10,7 @@
 ModuleToProcess = 'MASES.NetPDFPS.dll'
 
 # Version number of this module.
-ModuleVersion = '3.0.0'
+ModuleVersion = '3.0.1'
 
 # ID used to uniquely identify this module
 GUID = '2CC874D6-ADDF-409A-BE3F-E7BF88C98906'
