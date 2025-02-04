@@ -41,7 +41,7 @@ jobs:
       DOTNET_CreateDumpVerboseDiagnostics: 1
       DOTNET_EnableCrashReport: 1
       JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_5_21 }}
-      JNet_Version: 2.5.11
+      JNet_Version: 2.5.12
       PDFBox_Version: 3.0.4
       
     # Steps represent a sequence of tasks that will be executed as part of the job
