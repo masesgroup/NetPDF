@@ -1,4 +1,10 @@
 {
+  "JVMOptions": [
+    {
+      "Name": "pdfbox.fontcache",
+      "Value": "$(FONTCACHE_FOLDER)"
+    }
+  ],
   "RelativeDestinationCSharpClassPath": "net\\NetPDF\\Generated",
   "RelativeDestinationJavaListenerPath": "jvm\\netpdf\\src\\main\\java",
   "JavaListenerBasePackage": "org.mases.netpdf.generated",

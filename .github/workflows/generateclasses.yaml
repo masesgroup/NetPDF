@@ -43,6 +43,7 @@ jobs:
       JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_5_21 }}
       JNet_Version: 2.5.12
       PDFBox_Version: 3.0.4
+      FONTCACHE_FOLDER: ${{ github.workspace }}\fontcache
       
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -164,7 +165,7 @@ jobs:
         shell: cmd
         run: |
           cd JNet\binReflector\net8.0
-          MASES.JNetReflector.exe -TraceLevel 1 -TraceTo %GITHUB_WORKSPACE%\JNetReflector.txt -OriginRootPath %GITHUB_WORKSPACE%\jars -DestinationRootPath %GITHUB_WORKSPACE%\src\ -ConfigurationFile %GITHUB_WORKSPACE%\src\configuration.json --JVMKVOption:pdfbox.fontcache=${{ github.workspace }}\fontcache
+          MASES.JNetReflector.exe -TraceLevel 1 -TraceTo %GITHUB_WORKSPACE%\JNetReflector.txt -OriginRootPath %GITHUB_WORKSPACE%\jars -DestinationRootPath %GITHUB_WORKSPACE%\src\ -ConfigurationFile %GITHUB_WORKSPACE%\src\configuration.json
 
       - name: Disable CET for dotnet process
         if: ${{ inputs.UseLatestJNetReflectorSource == false }}
@@ -175,7 +176,7 @@ jobs:
       - name: Build classes with latest published version of JNetReflector
         if: ${{ inputs.UseLatestJNetReflectorSource == false }}
         shell: cmd
-        run: jnetreflector -TraceLevel 1 -TraceTo %GITHUB_WORKSPACE%\JNetReflector.txt -OriginRootPath %GITHUB_WORKSPACE%\jars -DestinationRootPath %GITHUB_WORKSPACE%\src\ -ConfigurationFile %GITHUB_WORKSPACE%\src\configuration.json --JVMKVOption:pdfbox.fontcache=${{ github.workspace }}\fontcache
+        run: jnetreflector -TraceLevel 1 -TraceTo %GITHUB_WORKSPACE%\JNetReflector.txt -OriginRootPath %GITHUB_WORKSPACE%\jars -DestinationRootPath %GITHUB_WORKSPACE%\src\ -ConfigurationFile %GITHUB_WORKSPACE%\src\configuration.json
 
       - name: Upload artifacts
         if: steps.cache.outputs.cache-hit != 'true'
