@@ -38,8 +38,7 @@
     "org.apache.pdfbox.pdmodel.common.function.type4.Parser$SyntaxHandler"
   ],
   "ClassesToAvoid": [
-    "org.apache.pdfbox.pdmodel.common.function.type4.Parser$AbstractSyntaxHandler",
-    "org.apache.pdfbox.pdmodel.font.FileSystemFontProvider"
+    "org.apache.pdfbox.pdmodel.common.function.type4.Parser$AbstractSyntaxHandler"
   ],
   "ClassesManuallyDeveloped": [
     "org.apache.pdfbox.text.TextPositionComparator"
