@@ -1,6 +1,6 @@
 ---
-title: Introduction to PDFBox APIs for .NET
-_description: Introduction to PDFBox APIs for .NET
+title: Introduction to PDFBox suite for .NET
+_description: Introduction to PDFBox suite for .NET
 ---
 
 # NetPDF: [PDFBox](https://pdfbox.apache.org) APIs for .NET

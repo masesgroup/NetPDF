@@ -18,6 +18,12 @@ The configuration is:
 
 ```json
 {
+  "JVMOptions": [
+    {
+      "Name": "pdfbox.fontcache",
+      "Value": "$(FONTCACHE_FOLDER)"
+    }
+  ],
   "RelativeDestinationCSharpClassPath": "net\\NetPDF\\Generated",
   "RelativeDestinationJavaListenerPath": "jvm\\netpdf\\src\\main\\java",
   "JavaListenerBasePackage": "org.mases.netpdf.generated",
@@ -45,13 +51,24 @@ The configuration is:
     }
   ],
   "NamespacesToAvoid": [
-
+    "org.apache.commons.logging"
   ],
   "ClassesToBeListener": [
-
+    "org.apache.pdfbox.pdmodel.common.function.type4.Parser$SyntaxHandler"
   ],
   "ClassesToAvoid": [
-
+    "org.apache.pdfbox.pdmodel.common.function.type4.Parser$AbstractSyntaxHandler"
+  ],
+  "ClassesManuallyDeveloped": [
+    "org.apache.pdfbox.text.TextPositionComparator"
+  ],
+  "NamespacesInConflict": [
+    "java.lang.module",
+    "java.awt.color",
+    "java.awt.desktop",
+    "java.awt.image",
+    "java.awt.event",
+    "java.awt.font"
   ]
 }
 ```
