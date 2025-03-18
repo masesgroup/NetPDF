@@ -39,7 +39,6 @@
 		<None Include="..\Common\NetPDF.snk" Link="NetPDF.snk" />
 	</ItemGroup>
 	<ItemGroup Condition="'$(TargetFramework)' == 'net462'">
-		<PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="9.0.3"/>
 		<Reference Include="Microsoft.CSharp" />
 	</ItemGroup>
 	<!-- Fix start https://github.com/dotnet/sourcelink/issues/572 -->
