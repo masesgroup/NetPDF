@@ -1,5 +1,5 @@
 ---
-title: Usage PDFBox suite for .NET
+title: Usage .NET suite for PDFBox™
 _description: Describes how to use NetPDF, set-up environment, identify the JVM and write good code
 ---
 

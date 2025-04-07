@@ -1,6 +1,6 @@
 ---
-title: Roadmap of PDFBox suite for .NET
-_description: Describes the current roadmap of PDFBox suite for .NET
+title: Roadmap of .NET suite for PDFBox™
+_description: Describes the current roadmap of .NET suite for PDFBox™
 ---
 
 # NetPDF roadmap

@@ -22,12 +22,8 @@ The project is organized in this folder structure:
 		* **NetPDFPS**: The folder containing the source and project of the PowerShell module for NetPDF
 		* **templates**: The folder containing the source and project to generate the NuGet template package
 * **tests**
-	* **jvm**
-		* **testclass**: contains a JVM test project
 	* **net**
 	  * **NetPDFTest**: The folder containing the source and project of the NetPDF test
-	  * **NetPDFWinFormsTest**: The folder containing the source and project of the NetPDF test for WinForms
-	  * **NetPDFWPFTest**: The folder containing the source and project of the NetPDF test for WPF
 	
 # How Can I Contribute?
 

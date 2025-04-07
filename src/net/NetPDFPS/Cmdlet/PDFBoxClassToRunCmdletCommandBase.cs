@@ -24,13 +24,13 @@ using System.Reflection;
 
 namespace MASES.NetPDFPS.Cmdlet
 {
-    public class PDFBoxClassToRunCmdletCommandBase<TCmdlet> : StartNetPDFPSCmdletCommandBase<TCmdlet>
-        where TCmdlet : PDFBoxClassToRunCmdletCommandBase<TCmdlet>
+    public class PDFBox™ClassToRunCmdletCommandBase<TCmdlet> : StartNetPDFPSCmdletCommandBase<TCmdlet>
+        where TCmdlet : PDFBox™ClassToRunCmdletCommandBase<TCmdlet>
     {
         [Parameter(
             ValueFromPipeline = true,
             ValueFromPipelineByPropertyName = true,
-            HelpMessage = "The arguments to be sent to the PDFBox command.")]
+            HelpMessage = "The arguments to be sent to the PDFBox™ command.")]
         public string Arguments { get; set; }
 
         protected override void OnBeforeCreateGlobalInstance()

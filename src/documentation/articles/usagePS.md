@@ -1,6 +1,6 @@
 ---
-title: NetPDF PowerShell module of PDFBox suite for .NET
-_description: Describes the PowerShell module to use PDFBox classes from any PowerShell shell
+title: NetPDF PowerShell module of .NET suite for PDFBox™
+_description: Describes the PowerShell module to use PDFBox™ classes from any PowerShell shell
 ---
 
 # NetPDF: PowerShell Module

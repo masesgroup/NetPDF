@@ -3,8 +3,8 @@
 	<PropertyGroup>
 		<AssemblyName>MASES.NetPDF</AssemblyName>
 		<RootNamespace>MASES.NetPDF</RootNamespace>
-		<Title>PDFBox suite for .NET - a comprehensive suite of libraries and tools to use PDFBox and .NET side-by-side</Title>
-		<Description>PDFBox suite for .NET - a comprehensive suite of libraries and tools to use PDFBox and .NET side-by-side</Description>
+		<Title>.NET suite for PDFBox™ - a comprehensive suite of libraries and tools to use PDFBox™ and .NET side-by-side</Title>
+		<Description>.NET suite for PDFBox™ - a comprehensive suite of libraries and tools to use PDFBox™ and .NET side-by-side</Description>
 		<Product>NetPDF</Product>
 		<OutputPath>..\..\..\bin\</OutputPath>
 		<PackageTags>netpdf pdf pdfbox dotnet clr jvm dotnetcore netcore dotnet8 net8 java bridge gateway</PackageTags>

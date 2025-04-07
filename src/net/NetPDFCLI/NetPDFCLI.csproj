@@ -6,8 +6,8 @@
 		<OutputType>Exe</OutputType>
 		<AssemblyName>MASES.NetPDFCLI</AssemblyName>
 		<RootNamespace>MASES.NetPDFCLI</RootNamespace>
-		<Title>NetPDF command line interface - PDFBox suite for .NET</Title>
-		<Description>Command line interface of PDFBox suite for .NET. NetPDF is a comprehensive suite of libraries and tools to use PDFBox and .NET side-by-side.</Description>
+		<Title>NetPDF command line interface - .NET suite for PDFBox™</Title>
+		<Description>Command line interface of .NET suite for PDFBox™. NetPDF is a comprehensive suite of libraries and tools to use PDFBox™ and .NET side-by-side.</Description>
 		<Product>NetPDFCLI</Product>
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 		<PackageTags>netpdf cli pdf pdfbox dotnet clr netcore net8 gateway</PackageTags>
