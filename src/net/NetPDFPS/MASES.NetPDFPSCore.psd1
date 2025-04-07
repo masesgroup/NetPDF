@@ -25,7 +25,7 @@ CompanyName = 'MASES s.r.l.'
 Copyright = 'Copyright ©  MASES s.r.l. 2025'
 
 # Description of the functionality provided by this module
-Description = 'PowerShell Module to use PDFBox and PowerShell side-by-side. With NetPDFPS it is possible to use PDFBox objects within PowerShell. See https://github.com/masesgroup/NetPDF for further information.'
+Description = 'PowerShell Module to use PDFBox™ and PowerShell side-by-side. With NetPDFPS it is possible to use PDFBox™ objects within PowerShell. See https://github.com/masesgroup/NetPDF for further information.'
 
 # Minimum version of the Windows PowerShell engine required by this module
 PowerShellVersion = '7.4.0'

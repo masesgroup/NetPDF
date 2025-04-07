@@ -1,11 +1,11 @@
 ---
-title: PDFBox suite for .NET
-_description: Main page of PDFBox suite for .NET
+title: .NET suite for PDFBox™
+_description: Main page of .NET suite for PDFBox™
 ---
 
-# NetPDF: [PDFBox](https://pdfbox.apache.org) suite for .NET
+# NetPDF: .NET suite for [PDFBox™](https://pdfbox.apache.org)
 
-NetPDF is a comprehensive suite of libraries and tools to use [PDFBox](https://pdfbox.apache.org) and .NET side-by-side.
+NetPDF is a comprehensive suite of libraries and tools to use [PDFBox™](https://pdfbox.apache.org) and .NET side-by-side.
 
 ### Libraries and Tools
 
@@ -21,7 +21,7 @@ NetPDF is a comprehensive suite of libraries and tools to use [PDFBox](https://p
 
 ### Project disclaimer
 
-NetPDF is a suite, curated by MASES Group, can be supported by the open-source community.
+NetPDF is a suite for [PDFBox™](https://pdfbox.apache.org), curated by MASES Group, can be supported by the open-source community.
 
 Its primary scope is to support other, public or internal, MASES Group projects: open-source community and commercial entities can use it for their needs and support this project, moreover there are dedicated community and commercial subscription plans.
 
@@ -33,7 +33,7 @@ Looking for the help of experts? MASES Group can help you design, build, deploy,
 
 ## Scope of the project
 
-This project aims to create a set of libraries and tools to direct access, from .NET, all the features available in the [PDFBox](https://pdfbox.apache.org).
+This project aims to create a set of libraries and tools to direct access, from .NET, all the features available in the [PDFBox™](https://pdfbox.apache.org).
 
 See [NetPDF usage](articles/usage.md) for a comprehensive example.
 
@@ -64,7 +64,7 @@ This project adheres to the Contributor [Covenant code of conduct](https://githu
 
 ### News
 
-* V3.0.0+: First version based on [PDFBox](https://pdfbox.apache.org) 3.0.4
+* V3.0.0+: First version based on [PDFBox™](https://pdfbox.apache.org) 3.0.4
 
 ---
 

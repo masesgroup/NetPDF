@@ -1,6 +1,6 @@
 ---
-title: Current state of PDFBox suite for .NET
-_description: Describes the current development state of PDFBox suite for .NET
+title: Current state of .NET suite for PDFBox™
+_description: Describes the current development state of .NET suite for PDFBox™
 ---
 
 # NetPDF development state

@@ -1,6 +1,6 @@
 ---
-title: Command-line switch of PDFBox suite for .NET
-_description: Describes the command-line switch of PDFBox suite for .NET
+title: Command-line switch of .NET suite for PDFBox™
+_description: Describes the command-line switch of .NET suite for PDFBox™
 ---
 
 # NetPDF: Command line switches available

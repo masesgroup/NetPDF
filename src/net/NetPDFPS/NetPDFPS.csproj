@@ -4,8 +4,8 @@
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 		<AssemblyName>MASES.NetPDFPS</AssemblyName>
 		<RootNamespace>MASES.NetPDFPS</RootNamespace>
-		<Title>NetPDFPS - NetPDF (PDFBox suite for .NET) PowerShell command line interface</Title>
-		<Description>NetPDFPS - NetPDF (PDFBox suite for .NET) PowerShell command line interface</Description>
+		<Title>NetPDFPS - NetPDF (.NET suite for PDFBox™) PowerShell command line interface</Title>
+		<Description>NetPDFPS - NetPDF (.NET suite for PDFBox™) PowerShell command line interface</Description>
 		<Product>NetPDFPS</Product>
 		<OutputPath>..\..\..\MASES.NetPDFPS\</OutputPath>
 		<TargetFrameworks>net462;net8.0</TargetFrameworks>

@@ -3,9 +3,9 @@
   <PropertyGroup>
     <PackageType>Template</PackageType>
     <PackageId>MASES.NetPDF.Templates</PackageId>
-    <Title>NetPDF Templates - Templates to use the NetPDF (PDFBox suite for .NET)</Title>
-    <Summary>Ready made templates to create applications based on NetPDF (PDFBox suite for .NET)</Summary>
-    <Description>Ready made templates to create applications based on NetPDF (PDFBox suite for .NET). The templates are ready made starting points, all information and APIs are available in the official website https://masesgroup.github.io/NetPDF</Description>
+    <Title>NetPDF Templates - Templates to use the NetPDF (.NET suite for PDFBox™)</Title>
+    <Summary>Ready made templates to create applications based on NetPDF (.NET suite for PDFBox™)</Summary>
+    <Description>Ready made templates to create applications based on NetPDF (.NET suite for PDFBox™). The templates are ready made starting points, all information and APIs are available in the official website https://masesgroup.github.io/NetPDF</Description>
     <OutputPath>..\..\..\bin\</OutputPath>
     <PackageTags>template netpdf dotnet pdf pdfbox clr dotnetcore netcore dotnet8 net8 java bridge</PackageTags>
     <Product>NetPDF Templates</Product>

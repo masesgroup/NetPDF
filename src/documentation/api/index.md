@@ -1,8 +1,8 @@
 ---
-title: APIs of PDFBox suite for .NET
-_description: Describes the current available APIs of PDFBox suite for .NET
+title: APIs of .NET suite for PDFBox™
+_description: Describes the current available APIs of .NET suite for PDFBox™
 ---
 
-# NetPDF: [PDFBox](https://pdfbox.apache.org) suite for .NET
+# NetPDF: .NET suite for [PDFBox™](https://pdfbox.apache.org)
 
 Open left menu to browse API

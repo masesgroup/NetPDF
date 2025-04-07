@@ -1,11 +1,11 @@
 ---
-title: Docker images of PDFBox suite for .NET
-_description: Describes the Docker images of PDFBox suite for .NET
+title: Docker images of .NET suite for PDFBox™
+_description: Describes the Docker images of .NET suite for PDFBox™
 ---
 
 # NetPDF: Docker images
 
-[PDFBox](https://pdfbox.apache.org) suite for .NET comes with a ready made Docker image:
+.NET suite for [PDFBox™](https://pdfbox.apache.org) comes with a ready made Docker image:
 - NetPDF CLI: see [NetPDF CLI usage](usageCLI.md)
 
 > [!IMPORTANT]

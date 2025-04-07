@@ -61,7 +61,7 @@
       "_appFaviconPath": "images/favicon.ico",
       "_appTitle": "MASES Group - NetPDF",
       "_appFooter": "<script type=\"text/javascript\">document.write('<div style=\"text-align: center;\">Copyright © 2024 - ' + new Date().getFullYear() + ' MASES s.r.l. | Via San Cesidio 16 - San Valentino in A.C. - PE | P.I. 01932310681</div>');</script>",
-      "_description": "This is a descriptive page of NetPDF, the PDFBox suite for .NET",
+      "_description": "This is a descriptive page of NetPDF, the .NET suite for PDFBox™",
       "_lang": "en",
       "_gitContribute": {
 

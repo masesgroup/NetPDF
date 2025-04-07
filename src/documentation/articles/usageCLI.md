@@ -1,6 +1,6 @@
 ---
-title: NetPDF CLI tool of PDFBox suite for .NET
-_description: Describes the CLI tool to use PDFBox classes from any command-line shell
+title: NetPDF CLI tool of .NET suite for PDFBox™
+_description: Describes the CLI tool to use PDFBox™ classes from any command-line shell
 ---
 
 # NetPDF: CLI
