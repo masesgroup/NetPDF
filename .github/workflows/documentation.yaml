@@ -45,7 +45,7 @@ jobs:
 
       - name: Build documentation
         run: |
-          Copy-Item ${{ github.workspace }}\CommonTools\website -Destination ${{ github.workspace }}\src\documentation\ -Force
+          Copy-Item ${{ github.workspace }}\CommonTools\website\* -Destination ${{ github.workspace }}\src\documentation\ -Force -Recurse -Verbose
           cd src\documentation
           docfx
 
