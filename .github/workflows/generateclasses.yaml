@@ -42,7 +42,7 @@ jobs:
       DOTNET_EnableCrashReport: 1
       JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_5_21 }}
       JNet_Version: 2.5.12
-      PDFBox_Version: 3.0.4
+      PDFBox_Version: 3.0.5
       FONTCACHE_FOLDER: ${{ github.workspace }}\fontcache
       
     # Steps represent a sequence of tasks that will be executed as part of the job
