@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
 {
     #region DefaultResourceCache declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/DefaultResourceCache.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/DefaultResourceCache.html"/>
     /// </summary>
     public partial class DefaultResourceCache : Org.Apache.Pdfbox.Pdmodel.ResourceCache
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#org.apache.pdfbox.pdmodel.DefaultResourceCache(boolean)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#org.apache.pdfbox.pdmodel.DefaultResourceCache(boolean)"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public DefaultResourceCache(bool arg0)
@@ -99,7 +99,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#getProperties-org.apache.pdfbox.cos.COSObject-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#getProperties-org.apache.pdfbox.cos.COSObject-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSObject"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Markedcontent.PDPropertyList"/></returns>
@@ -108,7 +108,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Markedcontent.PDPropertyList>("getProperties", "(Lorg/apache/pdfbox/cos/COSObject;)Lorg/apache/pdfbox/pdmodel/documentinterchange/markedcontent/PDPropertyList;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#removeProperties-org.apache.pdfbox.cos.COSObject-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#removeProperties-org.apache.pdfbox.cos.COSObject-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSObject"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Markedcontent.PDPropertyList"/></returns>
@@ -117,7 +117,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Markedcontent.PDPropertyList>("removeProperties", "(Lorg/apache/pdfbox/cos/COSObject;)Lorg/apache/pdfbox/pdmodel/documentinterchange/markedcontent/PDPropertyList;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#getFont-org.apache.pdfbox.cos.COSObject-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#getFont-org.apache.pdfbox.cos.COSObject-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSObject"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Font.PDFont"/></returns>
@@ -126,7 +126,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Font.PDFont>("getFont", "(Lorg/apache/pdfbox/cos/COSObject;)Lorg/apache/pdfbox/pdmodel/font/PDFont;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#removeFont-org.apache.pdfbox.cos.COSObject-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#removeFont-org.apache.pdfbox.cos.COSObject-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSObject"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Font.PDFont"/></returns>
@@ -135,7 +135,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Font.PDFont>("removeFont", "(Lorg/apache/pdfbox/cos/COSObject;)Lorg/apache/pdfbox/pdmodel/font/PDFont;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#getColorSpace-org.apache.pdfbox.cos.COSObject-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#getColorSpace-org.apache.pdfbox.cos.COSObject-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSObject"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace"/></returns>
@@ -144,7 +144,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace>("getColorSpace", "(Lorg/apache/pdfbox/cos/COSObject;)Lorg/apache/pdfbox/pdmodel/graphics/color/PDColorSpace;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#removeColorSpace-org.apache.pdfbox.cos.COSObject-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#removeColorSpace-org.apache.pdfbox.cos.COSObject-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSObject"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace"/></returns>
@@ -153,7 +153,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace>("removeColorSpace", "(Lorg/apache/pdfbox/cos/COSObject;)Lorg/apache/pdfbox/pdmodel/graphics/color/PDColorSpace;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#getPattern-org.apache.pdfbox.cos.COSObject-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#getPattern-org.apache.pdfbox.cos.COSObject-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSObject"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDAbstractPattern"/></returns>
@@ -162,7 +162,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDAbstractPattern>("getPattern", "(Lorg/apache/pdfbox/cos/COSObject;)Lorg/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#removePattern-org.apache.pdfbox.cos.COSObject-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#removePattern-org.apache.pdfbox.cos.COSObject-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSObject"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDAbstractPattern"/></returns>
@@ -171,7 +171,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDAbstractPattern>("removePattern", "(Lorg/apache/pdfbox/cos/COSObject;)Lorg/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#getXObject-org.apache.pdfbox.cos.COSObject-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#getXObject-org.apache.pdfbox.cos.COSObject-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSObject"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.PDXObject"/></returns>
@@ -180,7 +180,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.PDXObject>("getXObject", "(Lorg/apache/pdfbox/cos/COSObject;)Lorg/apache/pdfbox/pdmodel/graphics/PDXObject;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#removeXObject-org.apache.pdfbox.cos.COSObject-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#removeXObject-org.apache.pdfbox.cos.COSObject-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSObject"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.PDXObject"/></returns>
@@ -189,7 +189,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.PDXObject>("removeXObject", "(Lorg/apache/pdfbox/cos/COSObject;)Lorg/apache/pdfbox/pdmodel/graphics/PDXObject;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#getShading-org.apache.pdfbox.cos.COSObject-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#getShading-org.apache.pdfbox.cos.COSObject-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSObject"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Shading.PDShading"/></returns>
@@ -198,7 +198,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Shading.PDShading>("getShading", "(Lorg/apache/pdfbox/cos/COSObject;)Lorg/apache/pdfbox/pdmodel/graphics/shading/PDShading;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#removeShading-org.apache.pdfbox.cos.COSObject-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#removeShading-org.apache.pdfbox.cos.COSObject-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSObject"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Shading.PDShading"/></returns>
@@ -207,7 +207,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Shading.PDShading>("removeShading", "(Lorg/apache/pdfbox/cos/COSObject;)Lorg/apache/pdfbox/pdmodel/graphics/shading/PDShading;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#getExtGState-org.apache.pdfbox.cos.COSObject-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#getExtGState-org.apache.pdfbox.cos.COSObject-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSObject"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDExtendedGraphicsState"/></returns>
@@ -216,7 +216,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDExtendedGraphicsState>("getExtGState", "(Lorg/apache/pdfbox/cos/COSObject;)Lorg/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#removeExtState-org.apache.pdfbox.cos.COSObject-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#removeExtState-org.apache.pdfbox.cos.COSObject-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSObject"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDExtendedGraphicsState"/></returns>
@@ -225,7 +225,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDExtendedGraphicsState>("removeExtState", "(Lorg/apache/pdfbox/cos/COSObject;)Lorg/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#put-org.apache.pdfbox.cos.COSObject-org.apache.pdfbox.pdmodel.documentinterchange.markedcontent.PDPropertyList-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#put-org.apache.pdfbox.cos.COSObject-org.apache.pdfbox.pdmodel.documentinterchange.markedcontent.PDPropertyList-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSObject"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Markedcontent.PDPropertyList"/></param>
@@ -234,7 +234,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             IExecuteWithSignature("put", "(Lorg/apache/pdfbox/cos/COSObject;Lorg/apache/pdfbox/pdmodel/documentinterchange/markedcontent/PDPropertyList;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#put-org.apache.pdfbox.cos.COSObject-org.apache.pdfbox.pdmodel.font.PDFont-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#put-org.apache.pdfbox.cos.COSObject-org.apache.pdfbox.pdmodel.font.PDFont-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSObject"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.Font.PDFont"/></param>
@@ -243,7 +243,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             IExecuteWithSignature("put", "(Lorg/apache/pdfbox/cos/COSObject;Lorg/apache/pdfbox/pdmodel/font/PDFont;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#put-org.apache.pdfbox.cos.COSObject-org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#put-org.apache.pdfbox.cos.COSObject-org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSObject"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace"/></param>
@@ -252,7 +252,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             IExecuteWithSignature("put", "(Lorg/apache/pdfbox/cos/COSObject;Lorg/apache/pdfbox/pdmodel/graphics/color/PDColorSpace;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#put-org.apache.pdfbox.cos.COSObject-org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#put-org.apache.pdfbox.cos.COSObject-org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSObject"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDAbstractPattern"/></param>
@@ -261,7 +261,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             IExecuteWithSignature("put", "(Lorg/apache/pdfbox/cos/COSObject;Lorg/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#put-org.apache.pdfbox.cos.COSObject-org.apache.pdfbox.pdmodel.graphics.PDXObject-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#put-org.apache.pdfbox.cos.COSObject-org.apache.pdfbox.pdmodel.graphics.PDXObject-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSObject"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.PDXObject"/></param>
@@ -270,7 +270,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             IExecuteWithSignature("put", "(Lorg/apache/pdfbox/cos/COSObject;Lorg/apache/pdfbox/pdmodel/graphics/PDXObject;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#put-org.apache.pdfbox.cos.COSObject-org.apache.pdfbox.pdmodel.graphics.shading.PDShading-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#put-org.apache.pdfbox.cos.COSObject-org.apache.pdfbox.pdmodel.graphics.shading.PDShading-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSObject"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Shading.PDShading"/></param>
@@ -279,7 +279,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             IExecuteWithSignature("put", "(Lorg/apache/pdfbox/cos/COSObject;Lorg/apache/pdfbox/pdmodel/graphics/shading/PDShading;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#put-org.apache.pdfbox.cos.COSObject-org.apache.pdfbox.pdmodel.graphics.state.PDExtendedGraphicsState-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/DefaultResourceCache.html#put-org.apache.pdfbox.cos.COSObject-org.apache.pdfbox.pdmodel.graphics.state.PDExtendedGraphicsState-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSObject"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDExtendedGraphicsState"/></param>

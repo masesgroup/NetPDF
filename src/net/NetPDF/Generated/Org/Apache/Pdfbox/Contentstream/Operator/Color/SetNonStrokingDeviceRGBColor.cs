@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator.Color
 {
     #region SetNonStrokingDeviceRGBColor declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/color/SetNonStrokingDeviceRGBColor.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/color/SetNonStrokingDeviceRGBColor.html"/>
     /// </summary>
     public partial class SetNonStrokingDeviceRGBColor : Org.Apache.Pdfbox.Contentstream.Operator.Color.SetNonStrokingColor
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator.Color
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/color/SetNonStrokingDeviceRGBColor.html#org.apache.pdfbox.contentstream.operator.color.SetNonStrokingDeviceRGBColor(org.apache.pdfbox.contentstream.PDFStreamEngine)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/color/SetNonStrokingDeviceRGBColor.html#org.apache.pdfbox.contentstream.operator.color.SetNonStrokingDeviceRGBColor(org.apache.pdfbox.contentstream.PDFStreamEngine)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Contentstream.PDFStreamEngine"/></param>
         public SetNonStrokingDeviceRGBColor(Org.Apache.Pdfbox.Contentstream.PDFStreamEngine arg0)

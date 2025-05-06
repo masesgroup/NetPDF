@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
 {
     #region PDPatternContentStream declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDPatternContentStream.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDPatternContentStream.html"/>
     /// </summary>
     public partial class PDPatternContentStream : MASES.JCOBridge.C2JBridge.JVMBridgeBase<PDPatternContentStream>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDPatternContentStream.html#org.apache.pdfbox.pdmodel.PDPatternContentStream(org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDPatternContentStream.html#org.apache.pdfbox.pdmodel.PDPatternContentStream(org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern"/></param>
         /// <exception cref="Java.Io.IOException"/>

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
 {
     #region COSParser declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/COSParser.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/COSParser.html"/>
     /// </summary>
     public partial class COSParser : Org.Apache.Pdfbox.Pdfparser.BaseParser
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/COSParser.html#org.apache.pdfbox.pdfparser.COSParser(org.apache.pdfbox.io.RandomAccessRead,java.lang.String,java.io.InputStream,java.lang.String,org.apache.pdfbox.io.RandomAccessStreamCache.StreamCacheCreateFunction)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/COSParser.html#org.apache.pdfbox.pdfparser.COSParser(org.apache.pdfbox.io.RandomAccessRead,java.lang.String,java.io.InputStream,java.lang.String,org.apache.pdfbox.io.RandomAccessStreamCache.StreamCacheCreateFunction)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Io.RandomAccessRead"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -88,7 +88,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/COSParser.html#org.apache.pdfbox.pdfparser.COSParser(org.apache.pdfbox.io.RandomAccessRead,java.lang.String,java.io.InputStream,java.lang.String)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/COSParser.html#org.apache.pdfbox.pdfparser.COSParser(org.apache.pdfbox.io.RandomAccessRead,java.lang.String,java.io.InputStream,java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Io.RandomAccessRead"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -100,7 +100,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/COSParser.html#org.apache.pdfbox.pdfparser.COSParser(org.apache.pdfbox.io.RandomAccessRead)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/COSParser.html#org.apache.pdfbox.pdfparser.COSParser(org.apache.pdfbox.io.RandomAccessRead)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Io.RandomAccessRead"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -121,7 +121,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/COSParser.html#SYSPROP_EOFLOOKUPRANGE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/COSParser.html#SYSPROP_EOFLOOKUPRANGE"/>
         /// </summary>
         public static Java.Lang.String SYSPROP_EOFLOOKUPRANGE { get { if (!_SYSPROP_EOFLOOKUPRANGEReady) { _SYSPROP_EOFLOOKUPRANGEContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "SYSPROP_EOFLOOKUPRANGE"); _SYSPROP_EOFLOOKUPRANGEReady = true; } return _SYSPROP_EOFLOOKUPRANGEContent; } }
         private static Java.Lang.String _SYSPROP_EOFLOOKUPRANGEContent = default;
@@ -135,7 +135,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/COSParser.html#isLenient--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/COSParser.html#isLenient--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsLenient()
@@ -143,7 +143,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
             return IExecuteWithSignature<bool>("isLenient", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/COSParser.html#dereferenceCOSObject-org.apache.pdfbox.cos.COSObject-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/COSParser.html#dereferenceCOSObject-org.apache.pdfbox.cos.COSObject-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSObject"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></returns>
@@ -153,7 +153,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
             return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("dereferenceCOSObject", "(Lorg/apache/pdfbox/cos/COSObject;)Lorg/apache/pdfbox/cos/COSBase;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/COSParser.html#createRandomAccessReadView-long-long-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/COSParser.html#createRandomAccessReadView-long-long-"/>
         /// </summary>
         /// <param name="arg0"><see cref="long"/></param>
         /// <param name="arg1"><see cref="long"/></param>
@@ -164,7 +164,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
             return IExecuteWithSignature<Org.Apache.Pdfbox.Io.RandomAccessReadView>("createRandomAccessReadView", "(JJ)Lorg/apache/pdfbox/io/RandomAccessReadView;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/COSParser.html#setEOFLookupRange-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/COSParser.html#setEOFLookupRange-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         public void SetEOFLookupRange(int arg0)

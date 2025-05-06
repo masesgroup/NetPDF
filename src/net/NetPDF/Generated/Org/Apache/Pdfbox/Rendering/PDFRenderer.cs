@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Rendering
 {
     #region PDFRenderer declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PDFRenderer.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PDFRenderer.html"/>
     /// </summary>
     public partial class PDFRenderer : MASES.JCOBridge.C2JBridge.JVMBridgeBase<PDFRenderer>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Rendering
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PDFRenderer.html#org.apache.pdfbox.rendering.PDFRenderer(org.apache.pdfbox.pdmodel.PDDocument)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PDFRenderer.html#org.apache.pdfbox.rendering.PDFRenderer(org.apache.pdfbox.pdmodel.PDDocument)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         public PDFRenderer(Org.Apache.Pdfbox.Pdmodel.PDDocument arg0)
@@ -99,35 +99,35 @@ namespace Org.Apache.Pdfbox.Rendering
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PDFRenderer.html#getAnnotationsFilter--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PDFRenderer.html#setAnnotationsFilter-org.apache.pdfbox.pdmodel.interactive.annotation.AnnotationFilter-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PDFRenderer.html#getAnnotationsFilter--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PDFRenderer.html#setAnnotationsFilter-org.apache.pdfbox.pdmodel.interactive.annotation.AnnotationFilter-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.AnnotationFilter AnnotationsFilter
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.AnnotationFilter>("getAnnotationsFilter", "()Lorg/apache/pdfbox/pdmodel/interactive/annotation/AnnotationFilter;"); } set { IExecuteWithSignature("setAnnotationsFilter", "(Lorg/apache/pdfbox/pdmodel/interactive/annotation/AnnotationFilter;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PDFRenderer.html#getDefaultDestination--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PDFRenderer.html#setDefaultDestination-org.apache.pdfbox.rendering.RenderDestination-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PDFRenderer.html#getDefaultDestination--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PDFRenderer.html#setDefaultDestination-org.apache.pdfbox.rendering.RenderDestination-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Rendering.RenderDestination DefaultDestination
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Rendering.RenderDestination>("getDefaultDestination", "()Lorg/apache/pdfbox/rendering/RenderDestination;"); } set { IExecuteWithSignature("setDefaultDestination", "(Lorg/apache/pdfbox/rendering/RenderDestination;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PDFRenderer.html#getImageDownscalingOptimizationThreshold--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PDFRenderer.html#setImageDownscalingOptimizationThreshold-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PDFRenderer.html#getImageDownscalingOptimizationThreshold--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PDFRenderer.html#setImageDownscalingOptimizationThreshold-float-"/>
         /// </summary>
         public float ImageDownscalingOptimizationThreshold
         {
             get { return IExecuteWithSignature<float>("getImageDownscalingOptimizationThreshold", "()F"); } set { IExecuteWithSignature("setImageDownscalingOptimizationThreshold", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PDFRenderer.html#getRenderingHints--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PDFRenderer.html#setRenderingHints-java.awt.RenderingHints-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PDFRenderer.html#getRenderingHints--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PDFRenderer.html#setRenderingHints-java.awt.RenderingHints-"/>
         /// </summary>
         public Java.Awt.RenderingHints RenderingHints
         {
             get { return IExecuteWithSignature<Java.Awt.RenderingHints>("getRenderingHints", "()Ljava/awt/RenderingHints;"); } set { IExecuteWithSignature("setRenderingHints", "(Ljava/awt/RenderingHints;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PDFRenderer.html#isGroupEnabled-org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentGroup-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PDFRenderer.html#isGroupEnabled-org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentGroup-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent.PDOptionalContentGroup"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -136,7 +136,7 @@ namespace Org.Apache.Pdfbox.Rendering
             return IExecuteWithSignature<bool>("isGroupEnabled", "(Lorg/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup;)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PDFRenderer.html#isSubsamplingAllowed--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PDFRenderer.html#isSubsamplingAllowed--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsSubsamplingAllowed()
@@ -144,7 +144,7 @@ namespace Org.Apache.Pdfbox.Rendering
             return IExecuteWithSignature<bool>("isSubsamplingAllowed", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PDFRenderer.html#renderImage-int-float-org.apache.pdfbox.rendering.ImageType-org.apache.pdfbox.rendering.RenderDestination-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PDFRenderer.html#renderImage-int-float-org.apache.pdfbox.rendering.ImageType-org.apache.pdfbox.rendering.RenderDestination-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="float"/></param>
@@ -157,7 +157,7 @@ namespace Org.Apache.Pdfbox.Rendering
             return IExecuteWithSignature<Java.Awt.ImageNs.BufferedImage>("renderImage", "(IFLorg/apache/pdfbox/rendering/ImageType;Lorg/apache/pdfbox/rendering/RenderDestination;)Ljava/awt/image/BufferedImage;", arg0, arg1, arg2, arg3);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PDFRenderer.html#renderImage-int-float-org.apache.pdfbox.rendering.ImageType-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PDFRenderer.html#renderImage-int-float-org.apache.pdfbox.rendering.ImageType-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="float"/></param>
@@ -169,7 +169,7 @@ namespace Org.Apache.Pdfbox.Rendering
             return IExecuteWithSignature<Java.Awt.ImageNs.BufferedImage>("renderImage", "(IFLorg/apache/pdfbox/rendering/ImageType;)Ljava/awt/image/BufferedImage;", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PDFRenderer.html#renderImage-int-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PDFRenderer.html#renderImage-int-float-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="float"/></param>
@@ -180,7 +180,7 @@ namespace Org.Apache.Pdfbox.Rendering
             return IExecuteWithSignature<Java.Awt.ImageNs.BufferedImage>("renderImage", "(IF)Ljava/awt/image/BufferedImage;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PDFRenderer.html#renderImage-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PDFRenderer.html#renderImage-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="Java.Awt.ImageNs.BufferedImage"/></returns>
@@ -190,7 +190,7 @@ namespace Org.Apache.Pdfbox.Rendering
             return IExecuteWithSignature<Java.Awt.ImageNs.BufferedImage>("renderImage", "(I)Ljava/awt/image/BufferedImage;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PDFRenderer.html#renderImageWithDPI-int-float-org.apache.pdfbox.rendering.ImageType-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PDFRenderer.html#renderImageWithDPI-int-float-org.apache.pdfbox.rendering.ImageType-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="float"/></param>
@@ -202,7 +202,7 @@ namespace Org.Apache.Pdfbox.Rendering
             return IExecuteWithSignature<Java.Awt.ImageNs.BufferedImage>("renderImageWithDPI", "(IFLorg/apache/pdfbox/rendering/ImageType;)Ljava/awt/image/BufferedImage;", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PDFRenderer.html#renderImageWithDPI-int-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PDFRenderer.html#renderImageWithDPI-int-float-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="float"/></param>
@@ -213,7 +213,7 @@ namespace Org.Apache.Pdfbox.Rendering
             return IExecuteWithSignature<Java.Awt.ImageNs.BufferedImage>("renderImageWithDPI", "(IF)Ljava/awt/image/BufferedImage;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PDFRenderer.html#renderPageToGraphics-int-java.awt.Graphics2D-float-float-org.apache.pdfbox.rendering.RenderDestination-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PDFRenderer.html#renderPageToGraphics-int-java.awt.Graphics2D-float-float-org.apache.pdfbox.rendering.RenderDestination-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="Java.Awt.Graphics2D"/></param>
@@ -226,7 +226,7 @@ namespace Org.Apache.Pdfbox.Rendering
             IExecuteWithSignature("renderPageToGraphics", "(ILjava/awt/Graphics2D;FFLorg/apache/pdfbox/rendering/RenderDestination;)V", arg0, arg1, arg2, arg3, arg4);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PDFRenderer.html#renderPageToGraphics-int-java.awt.Graphics2D-float-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PDFRenderer.html#renderPageToGraphics-int-java.awt.Graphics2D-float-float-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="Java.Awt.Graphics2D"/></param>
@@ -238,7 +238,7 @@ namespace Org.Apache.Pdfbox.Rendering
             IExecuteWithSignature("renderPageToGraphics", "(ILjava/awt/Graphics2D;FF)V", arg0, arg1, arg2, arg3);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PDFRenderer.html#renderPageToGraphics-int-java.awt.Graphics2D-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PDFRenderer.html#renderPageToGraphics-int-java.awt.Graphics2D-float-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="Java.Awt.Graphics2D"/></param>
@@ -249,7 +249,7 @@ namespace Org.Apache.Pdfbox.Rendering
             IExecuteWithSignature("renderPageToGraphics", "(ILjava/awt/Graphics2D;F)V", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PDFRenderer.html#renderPageToGraphics-int-java.awt.Graphics2D-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PDFRenderer.html#renderPageToGraphics-int-java.awt.Graphics2D-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="Java.Awt.Graphics2D"/></param>
@@ -259,7 +259,7 @@ namespace Org.Apache.Pdfbox.Rendering
             IExecuteWithSignature("renderPageToGraphics", "(ILjava/awt/Graphics2D;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PDFRenderer.html#setSubsamplingAllowed-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PDFRenderer.html#setSubsamplingAllowed-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetSubsamplingAllowed(bool arg0)

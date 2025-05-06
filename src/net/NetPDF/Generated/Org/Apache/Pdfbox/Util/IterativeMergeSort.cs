@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Util
 {
     #region IterativeMergeSort declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/util/IterativeMergeSort.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/util/IterativeMergeSort.html"/>
     /// </summary>
     public partial class IterativeMergeSort : MASES.JCOBridge.C2JBridge.JVMBridgeBase<IterativeMergeSort>
     {
@@ -87,7 +87,7 @@ namespace Org.Apache.Pdfbox.Util
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/util/IterativeMergeSort.html#sort-java.util.List-java.util.Comparator-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/util/IterativeMergeSort.html#sort-java.util.List-java.util.Comparator-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Util.List"/></param>
         /// <param name="arg1"><see cref="Java.Util.Comparator"/></param>

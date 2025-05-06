@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator.Graphics
 {
     #region CloseAndStrokePath declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/graphics/CloseAndStrokePath.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/graphics/CloseAndStrokePath.html"/>
     /// </summary>
     public partial class CloseAndStrokePath : Org.Apache.Pdfbox.Contentstream.Operator.Graphics.GraphicsOperatorProcessor
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator.Graphics
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/graphics/CloseAndStrokePath.html#org.apache.pdfbox.contentstream.operator.graphics.CloseAndStrokePath(org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/graphics/CloseAndStrokePath.html#org.apache.pdfbox.contentstream.operator.graphics.CloseAndStrokePath(org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Contentstream.PDFGraphicsStreamEngine"/></param>
         public CloseAndStrokePath(Org.Apache.Pdfbox.Contentstream.PDFGraphicsStreamEngine arg0)

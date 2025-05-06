@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf.Table.Gsub
 {
     #region AlternateSetTable declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/gsub/AlternateSetTable.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/gsub/AlternateSetTable.html"/>
     /// </summary>
     public partial class AlternateSetTable : MASES.JCOBridge.C2JBridge.JVMBridgeBase<AlternateSetTable>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Fontbox.Ttf.Table.Gsub
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/gsub/AlternateSetTable.html#org.apache.fontbox.ttf.table.gsub.AlternateSetTable(int,int[])"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/gsub/AlternateSetTable.html#org.apache.fontbox.ttf.table.gsub.AlternateSetTable(int,int[])"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -100,14 +100,14 @@ namespace Org.Apache.Fontbox.Ttf.Table.Gsub
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/gsub/AlternateSetTable.html#getAlternateGlyphIDs--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/gsub/AlternateSetTable.html#getAlternateGlyphIDs--"/> 
         /// </summary>
         public int[] AlternateGlyphIDs
         {
             get { return IExecuteWithSignatureArray<int>("getAlternateGlyphIDs", "()[I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/gsub/AlternateSetTable.html#getGlyphCount--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/gsub/AlternateSetTable.html#getGlyphCount--"/> 
         /// </summary>
         public int GlyphCount
         {

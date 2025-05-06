@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Cmap
 {
     #region CodespaceRange declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CodespaceRange.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CodespaceRange.html"/>
     /// </summary>
     public partial class CodespaceRange : MASES.JCOBridge.C2JBridge.JVMBridgeBase<CodespaceRange>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Fontbox.Cmap
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CodespaceRange.html#org.apache.fontbox.cmap.CodespaceRange(byte[],byte[])"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CodespaceRange.html#org.apache.fontbox.cmap.CodespaceRange(byte[],byte[])"/>
         /// </summary>
         /// <param name="arg0"><see cref="byte"/></param>
         /// <param name="arg1"><see cref="byte"/></param>
@@ -100,14 +100,14 @@ namespace Org.Apache.Fontbox.Cmap
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CodespaceRange.html#getCodeLength--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CodespaceRange.html#getCodeLength--"/> 
         /// </summary>
         public int CodeLength
         {
             get { return IExecuteWithSignature<int>("getCodeLength", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CodespaceRange.html#isFullMatch-byte[]-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CodespaceRange.html#isFullMatch-byte[]-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="byte"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -117,7 +117,7 @@ namespace Org.Apache.Fontbox.Cmap
             return IExecuteWithSignature<bool>("isFullMatch", "([BI)Z", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CodespaceRange.html#matches-byte[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CodespaceRange.html#matches-byte[]-"/>
         /// </summary>
         /// <param name="arg0"><see cref="byte"/></param>
         /// <returns><see cref="bool"/></returns>

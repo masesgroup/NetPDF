@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf
 {
     #region CmapLookup declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapLookup.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapLookup.html"/>
     /// </summary>
     public partial class CmapLookup : MASES.JCOBridge.C2JBridge.JVMBridgeBase<CmapLookup>
     {
@@ -74,7 +74,7 @@ namespace Org.Apache.Fontbox.Ttf
 
     #region ICmapLookup
     /// <summary>
-    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapLookup.html"/>
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapLookup.html"/>
     /// </summary>
     public partial interface ICmapLookup
     {
@@ -111,7 +111,7 @@ namespace Org.Apache.Fontbox.Ttf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapLookup.html#getGlyphId-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapLookup.html#getGlyphId-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="int"/></returns>
@@ -120,7 +120,7 @@ namespace Org.Apache.Fontbox.Ttf
             return IExecuteWithSignature<int>("getGlyphId", "(I)I", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapLookup.html#getCharCodes-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapLookup.html#getCharCodes-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="Java.Util.List"/></returns>

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator.State
 {
     #region Save declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/state/Save.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/state/Save.html"/>
     /// </summary>
     public partial class Save : Org.Apache.Pdfbox.Contentstream.Operator.OperatorProcessor
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator.State
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/state/Save.html#org.apache.pdfbox.contentstream.operator.state.Save(org.apache.pdfbox.contentstream.PDFStreamEngine)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/state/Save.html#org.apache.pdfbox.contentstream.operator.state.Save(org.apache.pdfbox.contentstream.PDFStreamEngine)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Contentstream.PDFStreamEngine"/></param>
         public Save(Org.Apache.Pdfbox.Contentstream.PDFStreamEngine arg0)

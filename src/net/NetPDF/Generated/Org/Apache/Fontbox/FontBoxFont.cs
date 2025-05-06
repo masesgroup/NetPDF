@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox
 {
     #region FontBoxFont declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/FontBoxFont.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/FontBoxFont.html"/>
     /// </summary>
     public partial class FontBoxFont : MASES.JCOBridge.C2JBridge.JVMBridgeBase<FontBoxFont>
     {
@@ -74,7 +74,7 @@ namespace Org.Apache.Fontbox
 
     #region IFontBoxFont
     /// <summary>
-    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/FontBoxFont.html"/>
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/FontBoxFont.html"/>
     /// </summary>
     public partial interface IFontBoxFont
     {
@@ -111,28 +111,28 @@ namespace Org.Apache.Fontbox
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/FontBoxFont.html#getFontBBox--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/FontBoxFont.html#getFontBBox--"/> 
         /// </summary>
         public Org.Apache.Fontbox.Util.BoundingBox FontBBox
         {
             get { return IExecuteWithSignature<Org.Apache.Fontbox.Util.BoundingBox>("getFontBBox", "()Lorg/apache/fontbox/util/BoundingBox;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/FontBoxFont.html#getFontMatrix--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/FontBoxFont.html#getFontMatrix--"/> 
         /// </summary>
         public Java.Util.List<Java.Lang.Number> FontMatrix
         {
             get { return IExecuteWithSignature<Java.Util.List<Java.Lang.Number>>("getFontMatrix", "()Ljava/util/List;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/FontBoxFont.html#getName--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/FontBoxFont.html#getName--"/> 
         /// </summary>
         public Java.Lang.String Name
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getName", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/FontBoxFont.html#hasGlyph-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/FontBoxFont.html#hasGlyph-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -142,7 +142,7 @@ namespace Org.Apache.Fontbox
             return IExecuteWithSignature<bool>("hasGlyph", "(Ljava/lang/String;)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/FontBoxFont.html#getWidth-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/FontBoxFont.html#getWidth-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="float"/></returns>
@@ -152,7 +152,7 @@ namespace Org.Apache.Fontbox
             return IExecuteWithSignature<float>("getWidth", "(Ljava/lang/String;)F", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/FontBoxFont.html#getPath-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/FontBoxFont.html#getPath-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Awt.Geom.GeneralPath"/></returns>

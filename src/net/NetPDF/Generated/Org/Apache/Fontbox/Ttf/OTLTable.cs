@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf
 {
     #region OTLTable declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OTLTable.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OTLTable.html"/>
     /// </summary>
     public partial class OTLTable : Org.Apache.Fontbox.Ttf.TTFTable
     {
@@ -83,7 +83,7 @@ namespace Org.Apache.Fontbox.Ttf
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OTLTable.html#TAG"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OTLTable.html#TAG"/>
         /// </summary>
         public static Java.Lang.String TAG { get { if (!_TAGReady) { _TAGContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "TAG"); _TAGReady = true; } return _TAGContent; } }
         private static Java.Lang.String _TAGContent = default;

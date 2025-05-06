@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
 {
     #region PDDeviceGray declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceGray.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceGray.html"/>
     /// </summary>
     public partial class PDDeviceGray : Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDDeviceColorSpace
     {
@@ -83,7 +83,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceGray.html#INSTANCE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceGray.html#INSTANCE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDDeviceGray INSTANCE { get { if (!_INSTANCEReady) { _INSTANCEContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDDeviceGray>(LocalBridgeClazz, "INSTANCE"); _INSTANCEReady = true; } return _INSTANCEContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDDeviceGray _INSTANCEContent = default;

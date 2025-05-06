@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
 {
     #region PDDocumentNameDictionary declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentNameDictionary.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentNameDictionary.html"/>
     /// </summary>
     public partial class PDDocumentNameDictionary : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentNameDictionary.html#org.apache.pdfbox.pdmodel.PDDocumentNameDictionary(org.apache.pdfbox.pdmodel.PDDocumentCatalog,org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentNameDictionary.html#org.apache.pdfbox.pdmodel.PDDocumentNameDictionary(org.apache.pdfbox.pdmodel.PDDocumentCatalog,org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocumentCatalog"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
@@ -84,7 +84,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentNameDictionary.html#org.apache.pdfbox.pdmodel.PDDocumentNameDictionary(org.apache.pdfbox.pdmodel.PDDocumentCatalog)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentNameDictionary.html#org.apache.pdfbox.pdmodel.PDDocumentNameDictionary(org.apache.pdfbox.pdmodel.PDDocumentCatalog)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocumentCatalog"/></param>
         public PDDocumentNameDictionary(Org.Apache.Pdfbox.Pdmodel.PDDocumentCatalog arg0)
@@ -108,35 +108,35 @@ namespace Org.Apache.Pdfbox.Pdmodel
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentNameDictionary.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentNameDictionary.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentNameDictionary.html#getDests--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentNameDictionary.html#setDests-org.apache.pdfbox.pdmodel.PDDestinationNameTreeNode-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentNameDictionary.html#getDests--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentNameDictionary.html#setDests-org.apache.pdfbox.pdmodel.PDDestinationNameTreeNode-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.PDDestinationNameTreeNode Dests
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.PDDestinationNameTreeNode>("getDests", "()Lorg/apache/pdfbox/pdmodel/PDDestinationNameTreeNode;"); } set { IExecuteWithSignature("setDests", "(Lorg/apache/pdfbox/pdmodel/PDDestinationNameTreeNode;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentNameDictionary.html#getEmbeddedFiles--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentNameDictionary.html#setEmbeddedFiles-org.apache.pdfbox.pdmodel.PDEmbeddedFilesNameTreeNode-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentNameDictionary.html#getEmbeddedFiles--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentNameDictionary.html#setEmbeddedFiles-org.apache.pdfbox.pdmodel.PDEmbeddedFilesNameTreeNode-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.PDEmbeddedFilesNameTreeNode EmbeddedFiles
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.PDEmbeddedFilesNameTreeNode>("getEmbeddedFiles", "()Lorg/apache/pdfbox/pdmodel/PDEmbeddedFilesNameTreeNode;"); } set { IExecuteWithSignature("setEmbeddedFiles", "(Lorg/apache/pdfbox/pdmodel/PDEmbeddedFilesNameTreeNode;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentNameDictionary.html#getJavaScript--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentNameDictionary.html#getJavaScript--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.PDJavascriptNameTreeNode JavaScript
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.PDJavascriptNameTreeNode>("getJavaScript", "()Lorg/apache/pdfbox/pdmodel/PDJavascriptNameTreeNode;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentNameDictionary.html#setJavascript-org.apache.pdfbox.pdmodel.PDJavascriptNameTreeNode-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentNameDictionary.html#setJavascript-org.apache.pdfbox.pdmodel.PDJavascriptNameTreeNode-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDJavascriptNameTreeNode"/></param>
         public void SetJavascript(Org.Apache.Pdfbox.Pdmodel.PDJavascriptNameTreeNode arg0)

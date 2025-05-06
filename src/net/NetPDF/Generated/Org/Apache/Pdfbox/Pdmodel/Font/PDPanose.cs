@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
 {
     #region PDPanose declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDPanose.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDPanose.html"/>
     /// </summary>
     public partial class PDPanose : MASES.JCOBridge.C2JBridge.JVMBridgeBase<PDPanose>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDPanose.html#org.apache.pdfbox.pdmodel.font.PDPanose(byte[])"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDPanose.html#org.apache.pdfbox.pdmodel.font.PDPanose(byte[])"/>
         /// </summary>
         /// <param name="arg0"><see cref="byte"/></param>
         public PDPanose(byte[] arg0)
@@ -91,7 +91,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDPanose.html#LENGTH"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDPanose.html#LENGTH"/>
         /// </summary>
         public static int LENGTH { get { if (!_LENGTHReady) { _LENGTHContent = SGetField<int>(LocalBridgeClazz, "LENGTH"); _LENGTHReady = true; } return _LENGTHContent; } }
         private static int _LENGTHContent = default;
@@ -105,14 +105,14 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDPanose.html#getFamilyClass--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDPanose.html#getFamilyClass--"/> 
         /// </summary>
         public int FamilyClass
         {
             get { return IExecuteWithSignature<int>("getFamilyClass", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDPanose.html#getPanose--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDPanose.html#getPanose--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Font.PDPanoseClassification Panose
         {

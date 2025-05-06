@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Encoding
 {
     #region BuiltInEncoding declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/encoding/BuiltInEncoding.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/encoding/BuiltInEncoding.html"/>
     /// </summary>
     public partial class BuiltInEncoding : Org.Apache.Fontbox.Encoding.Encoding
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Fontbox.Encoding
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/encoding/BuiltInEncoding.html#org.apache.fontbox.encoding.BuiltInEncoding(java.util.Map)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/encoding/BuiltInEncoding.html#org.apache.fontbox.encoding.BuiltInEncoding(java.util.Map)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Util.Map"/></param>
         public BuiltInEncoding(Java.Util.Map<Java.Lang.Integer, Java.Lang.String> arg0)

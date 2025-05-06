@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Util
 {
     #region NumberFormatUtil declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/util/NumberFormatUtil.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/util/NumberFormatUtil.html"/>
     /// </summary>
     public partial class NumberFormatUtil : MASES.JCOBridge.C2JBridge.JVMBridgeBase<NumberFormatUtil>
     {
@@ -87,7 +87,7 @@ namespace Org.Apache.Pdfbox.Util
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/util/NumberFormatUtil.html#formatFloatFast-float-int-byte[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/util/NumberFormatUtil.html#formatFloatFast-float-int-byte[]-"/>
         /// </summary>
         /// <param name="arg0"><see cref="float"/></param>
         /// <param name="arg1"><see cref="int"/></param>

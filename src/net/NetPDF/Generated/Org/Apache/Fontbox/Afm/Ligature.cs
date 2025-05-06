@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Afm
 {
     #region Ligature declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/Ligature.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/Ligature.html"/>
     /// </summary>
     public partial class Ligature : MASES.JCOBridge.C2JBridge.JVMBridgeBase<Ligature>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Fontbox.Afm
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/Ligature.html#org.apache.fontbox.afm.Ligature(java.lang.String,java.lang.String)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/Ligature.html#org.apache.fontbox.afm.Ligature(java.lang.String,java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -100,14 +100,14 @@ namespace Org.Apache.Fontbox.Afm
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/Ligature.html#getLigature--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/Ligature.html#getLigature--"/> 
         /// </summary>
         public Java.Lang.String GetLigature
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getLigature", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/Ligature.html#getSuccessor--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/Ligature.html#getSuccessor--"/> 
         /// </summary>
         public Java.Lang.String Successor
         {

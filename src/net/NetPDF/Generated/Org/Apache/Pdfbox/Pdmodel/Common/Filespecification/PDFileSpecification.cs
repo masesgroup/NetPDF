@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Filespecification
 {
     #region PDFileSpecification declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/filespecification/PDFileSpecification.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/filespecification/PDFileSpecification.html"/>
     /// </summary>
     public partial class PDFileSpecification : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -89,7 +89,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Filespecification
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/filespecification/PDFileSpecification.html#createFS-org.apache.pdfbox.cos.COSBase-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/filespecification/PDFileSpecification.html#createFS-org.apache.pdfbox.cos.COSBase-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Common.Filespecification.PDFileSpecification"/></returns>
@@ -103,7 +103,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Filespecification
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/filespecification/PDFileSpecification.html#getFile--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/filespecification/PDFileSpecification.html#setFile-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/filespecification/PDFileSpecification.html#getFile--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/filespecification/PDFileSpecification.html#setFile-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String File
         {

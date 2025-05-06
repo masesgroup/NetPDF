@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf
 {
     #region GlyfSimpleDescript declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfSimpleDescript.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfSimpleDescript.html"/>
     /// </summary>
     public partial class GlyfSimpleDescript : Org.Apache.Fontbox.Ttf.GlyfDescript
     {

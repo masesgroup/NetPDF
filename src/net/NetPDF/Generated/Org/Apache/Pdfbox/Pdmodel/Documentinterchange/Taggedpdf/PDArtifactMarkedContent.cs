@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Taggedpdf
 {
     #region PDArtifactMarkedContent declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDArtifactMarkedContent.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDArtifactMarkedContent.html"/>
     /// </summary>
     public partial class PDArtifactMarkedContent : Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Markedcontent.PDMarkedContent
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Taggedpdf
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDArtifactMarkedContent.html#org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDArtifactMarkedContent(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDArtifactMarkedContent.html#org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDArtifactMarkedContent(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDArtifactMarkedContent(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -99,28 +99,28 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Taggedpdf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDArtifactMarkedContent.html#getBBox--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDArtifactMarkedContent.html#getBBox--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.PDRectangle BBox
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.PDRectangle>("getBBox", "()Lorg/apache/pdfbox/pdmodel/common/PDRectangle;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDArtifactMarkedContent.html#getSubtype--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDArtifactMarkedContent.html#getSubtype--"/> 
         /// </summary>
         public Java.Lang.String Subtype
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getSubtype", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDArtifactMarkedContent.html#getType--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDArtifactMarkedContent.html#getType--"/> 
         /// </summary>
         public Java.Lang.String Type
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getType", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDArtifactMarkedContent.html#isBottomAttached--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDArtifactMarkedContent.html#isBottomAttached--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsBottomAttached()
@@ -128,7 +128,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Taggedpdf
             return IExecuteWithSignature<bool>("isBottomAttached", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDArtifactMarkedContent.html#isLeftAttached--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDArtifactMarkedContent.html#isLeftAttached--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsLeftAttached()
@@ -136,7 +136,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Taggedpdf
             return IExecuteWithSignature<bool>("isLeftAttached", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDArtifactMarkedContent.html#isRightAttached--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDArtifactMarkedContent.html#isRightAttached--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsRightAttached()
@@ -144,7 +144,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Taggedpdf
             return IExecuteWithSignature<bool>("isRightAttached", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDArtifactMarkedContent.html#isTopAttached--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDArtifactMarkedContent.html#isTopAttached--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsTopAttached()

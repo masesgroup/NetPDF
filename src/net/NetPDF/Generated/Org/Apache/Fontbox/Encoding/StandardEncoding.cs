@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Encoding
 {
     #region StandardEncoding declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/encoding/StandardEncoding.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/encoding/StandardEncoding.html"/>
     /// </summary>
     public partial class StandardEncoding : Org.Apache.Fontbox.Encoding.Encoding
     {
@@ -83,7 +83,7 @@ namespace Org.Apache.Fontbox.Encoding
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/encoding/StandardEncoding.html#INSTANCE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/encoding/StandardEncoding.html#INSTANCE"/>
         /// </summary>
         public static Org.Apache.Fontbox.Encoding.StandardEncoding INSTANCE { get { if (!_INSTANCEReady) { _INSTANCEContent = SGetField<Org.Apache.Fontbox.Encoding.StandardEncoding>(LocalBridgeClazz, "INSTANCE"); _INSTANCEReady = true; } return _INSTANCEContent; } }
         private static Org.Apache.Fontbox.Encoding.StandardEncoding _INSTANCEContent = default;

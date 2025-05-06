@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font.Encoding
 {
     #region MacRomanEncoding declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/encoding/MacRomanEncoding.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/encoding/MacRomanEncoding.html"/>
     /// </summary>
     public partial class MacRomanEncoding : Org.Apache.Pdfbox.Pdmodel.Font.Encoding.Encoding
     {
@@ -83,7 +83,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font.Encoding
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/encoding/MacRomanEncoding.html#INSTANCE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/encoding/MacRomanEncoding.html#INSTANCE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.Font.Encoding.MacRomanEncoding INSTANCE { get { if (!_INSTANCEReady) { _INSTANCEContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Font.Encoding.MacRomanEncoding>(LocalBridgeClazz, "INSTANCE"); _INSTANCEReady = true; } return _INSTANCEContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.Font.Encoding.MacRomanEncoding _INSTANCEContent = default;

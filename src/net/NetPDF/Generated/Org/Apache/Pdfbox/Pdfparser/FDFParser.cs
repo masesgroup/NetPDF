@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
 {
     #region FDFParser declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/FDFParser.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/FDFParser.html"/>
     /// </summary>
     public partial class FDFParser : Org.Apache.Pdfbox.Pdfparser.COSParser
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/FDFParser.html#org.apache.pdfbox.pdfparser.FDFParser(org.apache.pdfbox.io.RandomAccessRead)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/FDFParser.html#org.apache.pdfbox.pdfparser.FDFParser(org.apache.pdfbox.io.RandomAccessRead)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Io.RandomAccessRead"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -100,7 +100,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/FDFParser.html#parse--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/FDFParser.html#parse--"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFDocument"/></returns>
         /// <exception cref="Java.Io.IOException"/>

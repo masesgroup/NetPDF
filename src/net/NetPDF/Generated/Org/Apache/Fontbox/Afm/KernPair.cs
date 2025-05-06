@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Afm
 {
     #region KernPair declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/KernPair.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/KernPair.html"/>
     /// </summary>
     public partial class KernPair : MASES.JCOBridge.C2JBridge.JVMBridgeBase<KernPair>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Fontbox.Afm
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/KernPair.html#org.apache.fontbox.afm.KernPair(java.lang.String,java.lang.String,float,float)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/KernPair.html#org.apache.fontbox.afm.KernPair(java.lang.String,java.lang.String,float,float)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -102,28 +102,28 @@ namespace Org.Apache.Fontbox.Afm
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/KernPair.html#getFirstKernCharacter--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/KernPair.html#getFirstKernCharacter--"/> 
         /// </summary>
         public Java.Lang.String FirstKernCharacter
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getFirstKernCharacter", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/KernPair.html#getSecondKernCharacter--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/KernPair.html#getSecondKernCharacter--"/> 
         /// </summary>
         public Java.Lang.String SecondKernCharacter
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getSecondKernCharacter", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/KernPair.html#getX--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/KernPair.html#getX--"/> 
         /// </summary>
         public float X
         {
             get { return IExecuteWithSignature<float>("getX", "()F"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/KernPair.html#getY--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/KernPair.html#getY--"/> 
         /// </summary>
         public float Y
         {

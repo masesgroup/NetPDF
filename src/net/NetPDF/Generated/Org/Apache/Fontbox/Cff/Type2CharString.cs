@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Cff
 {
     #region Type2CharString declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/Type2CharString.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/Type2CharString.html"/>
     /// </summary>
     public partial class Type2CharString : Org.Apache.Fontbox.Cff.Type1CharString
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Fontbox.Cff
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/Type2CharString.html#org.apache.fontbox.cff.Type2CharString(org.apache.fontbox.type1.Type1CharStringReader,java.lang.String,java.lang.String,int,java.util.List,int,int)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/Type2CharString.html#org.apache.fontbox.cff.Type2CharString(org.apache.fontbox.type1.Type1CharStringReader,java.lang.String,java.lang.String,int,java.util.List,int,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Fontbox.Type1.Type1CharStringReader"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -105,7 +105,7 @@ namespace Org.Apache.Fontbox.Cff
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/Type2CharString.html#getGID--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/Type2CharString.html#getGID--"/> 
         /// </summary>
         public int GID
         {

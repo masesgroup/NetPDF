@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
 {
     #region PDExtendedGraphicsState declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html"/>
     /// </summary>
     public partial class PDExtendedGraphicsState : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#org.apache.pdfbox.pdmodel.graphics.state.PDExtendedGraphicsState(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#org.apache.pdfbox.pdmodel.graphics.state.PDExtendedGraphicsState(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDExtendedGraphicsState(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -99,161 +99,161 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getAlphaSourceFlag--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setAlphaSourceFlag-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getAlphaSourceFlag--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setAlphaSourceFlag-boolean-"/>
         /// </summary>
         public bool AlphaSourceFlag
         {
             get { return IExecuteWithSignature<bool>("getAlphaSourceFlag", "()Z"); } set { IExecuteWithSignature("setAlphaSourceFlag", "(Z)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getAutomaticStrokeAdjustment--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setAutomaticStrokeAdjustment-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getAutomaticStrokeAdjustment--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setAutomaticStrokeAdjustment-boolean-"/>
         /// </summary>
         public bool AutomaticStrokeAdjustment
         {
             get { return IExecuteWithSignature<bool>("getAutomaticStrokeAdjustment", "()Z"); } set { IExecuteWithSignature("setAutomaticStrokeAdjustment", "(Z)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getBlendMode--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setBlendMode-org.apache.pdfbox.pdmodel.graphics.blend.BlendMode-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getBlendMode--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setBlendMode-org.apache.pdfbox.pdmodel.graphics.blend.BlendMode-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode BlendMode
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode>("getBlendMode", "()Lorg/apache/pdfbox/pdmodel/graphics/blend/BlendMode;"); } set { IExecuteWithSignature("setBlendMode", "(Lorg/apache/pdfbox/pdmodel/graphics/blend/BlendMode;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getFlatnessTolerance--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setFlatnessTolerance-java.lang.Float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getFlatnessTolerance--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setFlatnessTolerance-java.lang.Float-"/>
         /// </summary>
         public Java.Lang.Float FlatnessTolerance
         {
             get { return IExecuteWithSignature<Java.Lang.Float>("getFlatnessTolerance", "()Ljava/lang/Float;"); } set { IExecuteWithSignature("setFlatnessTolerance", "(Ljava/lang/Float;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getFontSetting--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setFontSetting-org.apache.pdfbox.pdmodel.graphics.PDFontSetting-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getFontSetting--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setFontSetting-org.apache.pdfbox.pdmodel.graphics.PDFontSetting-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.PDFontSetting FontSetting
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.PDFontSetting>("getFontSetting", "()Lorg/apache/pdfbox/pdmodel/graphics/PDFontSetting;"); } set { IExecuteWithSignature("setFontSetting", "(Lorg/apache/pdfbox/pdmodel/graphics/PDFontSetting;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getLineCapStyle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setLineCapStyle-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getLineCapStyle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setLineCapStyle-int-"/>
         /// </summary>
         public int LineCapStyle
         {
             get { return IExecuteWithSignature<int>("getLineCapStyle", "()I"); } set { IExecuteWithSignature("setLineCapStyle", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getLineDashPattern--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setLineDashPattern-org.apache.pdfbox.pdmodel.graphics.PDLineDashPattern-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getLineDashPattern--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setLineDashPattern-org.apache.pdfbox.pdmodel.graphics.PDLineDashPattern-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.PDLineDashPattern LineDashPattern
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.PDLineDashPattern>("getLineDashPattern", "()Lorg/apache/pdfbox/pdmodel/graphics/PDLineDashPattern;"); } set { IExecuteWithSignature("setLineDashPattern", "(Lorg/apache/pdfbox/pdmodel/graphics/PDLineDashPattern;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getLineJoinStyle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setLineJoinStyle-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getLineJoinStyle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setLineJoinStyle-int-"/>
         /// </summary>
         public int LineJoinStyle
         {
             get { return IExecuteWithSignature<int>("getLineJoinStyle", "()I"); } set { IExecuteWithSignature("setLineJoinStyle", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getLineWidth--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setLineWidth-java.lang.Float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getLineWidth--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setLineWidth-java.lang.Float-"/>
         /// </summary>
         public Java.Lang.Float LineWidth
         {
             get { return IExecuteWithSignature<Java.Lang.Float>("getLineWidth", "()Ljava/lang/Float;"); } set { IExecuteWithSignature("setLineWidth", "(Ljava/lang/Float;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getMiterLimit--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setMiterLimit-java.lang.Float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getMiterLimit--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setMiterLimit-java.lang.Float-"/>
         /// </summary>
         public Java.Lang.Float MiterLimit
         {
             get { return IExecuteWithSignature<Java.Lang.Float>("getMiterLimit", "()Ljava/lang/Float;"); } set { IExecuteWithSignature("setMiterLimit", "(Ljava/lang/Float;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getNonStrokingAlphaConstant--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setNonStrokingAlphaConstant-java.lang.Float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getNonStrokingAlphaConstant--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setNonStrokingAlphaConstant-java.lang.Float-"/>
         /// </summary>
         public Java.Lang.Float NonStrokingAlphaConstant
         {
             get { return IExecuteWithSignature<Java.Lang.Float>("getNonStrokingAlphaConstant", "()Ljava/lang/Float;"); } set { IExecuteWithSignature("setNonStrokingAlphaConstant", "(Ljava/lang/Float;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getNonStrokingOverprintControl--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setNonStrokingOverprintControl-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getNonStrokingOverprintControl--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setNonStrokingOverprintControl-boolean-"/>
         /// </summary>
         public bool NonStrokingOverprintControl
         {
             get { return IExecuteWithSignature<bool>("getNonStrokingOverprintControl", "()Z"); } set { IExecuteWithSignature("setNonStrokingOverprintControl", "(Z)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getOverprintMode--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setOverprintMode-java.lang.Integer-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getOverprintMode--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setOverprintMode-java.lang.Integer-"/>
         /// </summary>
         public Java.Lang.Integer OverprintMode
         {
             get { return IExecuteWithSignature<Java.Lang.Integer>("getOverprintMode", "()Ljava/lang/Integer;"); } set { IExecuteWithSignature("setOverprintMode", "(Ljava/lang/Integer;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getRenderingIntent--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setRenderingIntent-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getRenderingIntent--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setRenderingIntent-java.lang.String-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.State.RenderingIntent RenderingIntent
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.State.RenderingIntent>("getRenderingIntent", "()Lorg/apache/pdfbox/pdmodel/graphics/state/RenderingIntent;"); } set { IExecuteWithSignature("setRenderingIntent", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getSmoothnessTolerance--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setSmoothnessTolerance-java.lang.Float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getSmoothnessTolerance--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setSmoothnessTolerance-java.lang.Float-"/>
         /// </summary>
         public Java.Lang.Float SmoothnessTolerance
         {
             get { return IExecuteWithSignature<Java.Lang.Float>("getSmoothnessTolerance", "()Ljava/lang/Float;"); } set { IExecuteWithSignature("setSmoothnessTolerance", "(Ljava/lang/Float;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getSoftMask--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getSoftMask--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDSoftMask SoftMask
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDSoftMask>("getSoftMask", "()Lorg/apache/pdfbox/pdmodel/graphics/state/PDSoftMask;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getStrokingAlphaConstant--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setStrokingAlphaConstant-java.lang.Float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getStrokingAlphaConstant--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setStrokingAlphaConstant-java.lang.Float-"/>
         /// </summary>
         public Java.Lang.Float StrokingAlphaConstant
         {
             get { return IExecuteWithSignature<Java.Lang.Float>("getStrokingAlphaConstant", "()Ljava/lang/Float;"); } set { IExecuteWithSignature("setStrokingAlphaConstant", "(Ljava/lang/Float;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getStrokingOverprintControl--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setStrokingOverprintControl-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getStrokingOverprintControl--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setStrokingOverprintControl-boolean-"/>
         /// </summary>
         public bool StrokingOverprintControl
         {
             get { return IExecuteWithSignature<bool>("getStrokingOverprintControl", "()Z"); } set { IExecuteWithSignature("setStrokingOverprintControl", "(Z)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getTextKnockoutFlag--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setTextKnockoutFlag-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getTextKnockoutFlag--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setTextKnockoutFlag-boolean-"/>
         /// </summary>
         public bool TextKnockoutFlag
         {
             get { return IExecuteWithSignature<bool>("getTextKnockoutFlag", "()Z"); } set { IExecuteWithSignature("setTextKnockoutFlag", "(Z)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getTransfer--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setTransfer-org.apache.pdfbox.cos.COSBase-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getTransfer--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setTransfer-org.apache.pdfbox.cos.COSBase-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase Transfer
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getTransfer", "()Lorg/apache/pdfbox/cos/COSBase;"); } set { IExecuteWithSignature("setTransfer", "(Lorg/apache/pdfbox/cos/COSBase;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getTransfer2--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setTransfer2-org.apache.pdfbox.cos.COSBase-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#getTransfer2--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#setTransfer2-org.apache.pdfbox.cos.COSBase-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase Transfer2
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getTransfer2", "()Lorg/apache/pdfbox/cos/COSBase;"); } set { IExecuteWithSignature("setTransfer2", "(Lorg/apache/pdfbox/cos/COSBase;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#copyIntoGraphicsState-org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDExtendedGraphicsState.html#copyIntoGraphicsState-org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState"/></param>
         /// <exception cref="Java.Io.IOException"/>

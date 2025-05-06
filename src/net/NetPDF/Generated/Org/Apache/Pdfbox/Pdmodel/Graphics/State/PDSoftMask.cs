@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
 {
     #region PDSoftMask declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDSoftMask.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDSoftMask.html"/>
     /// </summary>
     public partial class PDSoftMask : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDSoftMask.html#org.apache.pdfbox.pdmodel.graphics.state.PDSoftMask(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDSoftMask.html#org.apache.pdfbox.pdmodel.graphics.state.PDSoftMask(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDSoftMask(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -95,7 +95,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDSoftMask.html#create-org.apache.pdfbox.cos.COSBase-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDSoftMask.html#create-org.apache.pdfbox.cos.COSBase-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDSoftMask"/></returns>
@@ -108,42 +108,42 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDSoftMask.html#getBackdropColor--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDSoftMask.html#getBackdropColor--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSArray BackdropColor
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSArray>("getBackdropColor", "()Lorg/apache/pdfbox/cos/COSArray;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDSoftMask.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDSoftMask.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDSoftMask.html#getGroup--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDSoftMask.html#getGroup--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Form.PDTransparencyGroup Group
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Form.PDTransparencyGroup>("getGroup", "()Lorg/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroup;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDSoftMask.html#getInitialTransformationMatrix--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDSoftMask.html#getInitialTransformationMatrix--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Util.Matrix InitialTransformationMatrix
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Util.Matrix>("getInitialTransformationMatrix", "()Lorg/apache/pdfbox/util/Matrix;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDSoftMask.html#getSubType--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDSoftMask.html#getSubType--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSName SubType
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSName>("getSubType", "()Lorg/apache/pdfbox/cos/COSName;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDSoftMask.html#getTransferFunction--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDSoftMask.html#getTransferFunction--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.Function.PDFunction TransferFunction
         {

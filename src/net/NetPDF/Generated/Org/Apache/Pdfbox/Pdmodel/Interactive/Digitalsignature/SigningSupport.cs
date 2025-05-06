@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
 {
     #region SigningSupport declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SigningSupport.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SigningSupport.html"/>
     /// </summary>
     public partial class SigningSupport : MASES.JCOBridge.C2JBridge.JVMBridgeBase<SigningSupport>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SigningSupport.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.SigningSupport(org.apache.pdfbox.pdfwriter.COSWriter)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SigningSupport.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.SigningSupport(org.apache.pdfbox.pdfwriter.COSWriter)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdfwriter.COSWriter"/></param>
         public SigningSupport(Org.Apache.Pdfbox.Pdfwriter.COSWriter arg0)
@@ -107,14 +107,14 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SigningSupport.html#getContent--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SigningSupport.html#getContent--"/> 
         /// </summary>
         public Java.Io.InputStream Content
         {
             get { return IExecuteWithSignature<Java.Io.InputStream>("getContent", "()Ljava/io/InputStream;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SigningSupport.html#close--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SigningSupport.html#close--"/>
         /// </summary>
         /// <exception cref="Java.Io.IOException"/>
         public void Close()
@@ -122,7 +122,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
             IExecuteWithSignature("close", "()V");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SigningSupport.html#setSignature-byte[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SigningSupport.html#setSignature-byte[]-"/>
         /// </summary>
         /// <param name="arg0"><see cref="byte"/></param>
         /// <exception cref="Java.Io.IOException"/>

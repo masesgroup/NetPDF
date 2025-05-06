@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fixup.Processor
 {
     #region AcroFormGenerateAppearancesProcessor declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fixup/processor/AcroFormGenerateAppearancesProcessor.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fixup/processor/AcroFormGenerateAppearancesProcessor.html"/>
     /// </summary>
     public partial class AcroFormGenerateAppearancesProcessor : Org.Apache.Pdfbox.Pdmodel.Fixup.Processor.AbstractProcessor
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fixup.Processor
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fixup/processor/AcroFormGenerateAppearancesProcessor.html#org.apache.pdfbox.pdmodel.fixup.processor.AcroFormGenerateAppearancesProcessor(org.apache.pdfbox.pdmodel.PDDocument)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fixup/processor/AcroFormGenerateAppearancesProcessor.html#org.apache.pdfbox.pdmodel.fixup.processor.AcroFormGenerateAppearancesProcessor(org.apache.pdfbox.pdmodel.PDDocument)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         public AcroFormGenerateAppearancesProcessor(Org.Apache.Pdfbox.Pdmodel.PDDocument arg0)

@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf
 {
     #region OS2WindowsMetricsTable declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html"/>
     /// </summary>
     public partial class OS2WindowsMetricsTable : Org.Apache.Fontbox.Ttf.TTFTable
     {
@@ -83,211 +83,211 @@ namespace Org.Apache.Fontbox.Ttf
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FAMILY_CLASS_CLAREDON_SERIFS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FAMILY_CLASS_CLAREDON_SERIFS"/>
         /// </summary>
         public static int FAMILY_CLASS_CLAREDON_SERIFS { get { if (!_FAMILY_CLASS_CLAREDON_SERIFSReady) { _FAMILY_CLASS_CLAREDON_SERIFSContent = SGetField<int>(LocalBridgeClazz, "FAMILY_CLASS_CLAREDON_SERIFS"); _FAMILY_CLASS_CLAREDON_SERIFSReady = true; } return _FAMILY_CLASS_CLAREDON_SERIFSContent; } }
         private static int _FAMILY_CLASS_CLAREDON_SERIFSContent = default;
         private static bool _FAMILY_CLASS_CLAREDON_SERIFSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FAMILY_CLASS_FREEFORM_SERIFS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FAMILY_CLASS_FREEFORM_SERIFS"/>
         /// </summary>
         public static int FAMILY_CLASS_FREEFORM_SERIFS { get { if (!_FAMILY_CLASS_FREEFORM_SERIFSReady) { _FAMILY_CLASS_FREEFORM_SERIFSContent = SGetField<int>(LocalBridgeClazz, "FAMILY_CLASS_FREEFORM_SERIFS"); _FAMILY_CLASS_FREEFORM_SERIFSReady = true; } return _FAMILY_CLASS_FREEFORM_SERIFSContent; } }
         private static int _FAMILY_CLASS_FREEFORM_SERIFSContent = default;
         private static bool _FAMILY_CLASS_FREEFORM_SERIFSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FAMILY_CLASS_MODERN_SERIFS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FAMILY_CLASS_MODERN_SERIFS"/>
         /// </summary>
         public static int FAMILY_CLASS_MODERN_SERIFS { get { if (!_FAMILY_CLASS_MODERN_SERIFSReady) { _FAMILY_CLASS_MODERN_SERIFSContent = SGetField<int>(LocalBridgeClazz, "FAMILY_CLASS_MODERN_SERIFS"); _FAMILY_CLASS_MODERN_SERIFSReady = true; } return _FAMILY_CLASS_MODERN_SERIFSContent; } }
         private static int _FAMILY_CLASS_MODERN_SERIFSContent = default;
         private static bool _FAMILY_CLASS_MODERN_SERIFSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FAMILY_CLASS_NO_CLASSIFICATION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FAMILY_CLASS_NO_CLASSIFICATION"/>
         /// </summary>
         public static int FAMILY_CLASS_NO_CLASSIFICATION { get { if (!_FAMILY_CLASS_NO_CLASSIFICATIONReady) { _FAMILY_CLASS_NO_CLASSIFICATIONContent = SGetField<int>(LocalBridgeClazz, "FAMILY_CLASS_NO_CLASSIFICATION"); _FAMILY_CLASS_NO_CLASSIFICATIONReady = true; } return _FAMILY_CLASS_NO_CLASSIFICATIONContent; } }
         private static int _FAMILY_CLASS_NO_CLASSIFICATIONContent = default;
         private static bool _FAMILY_CLASS_NO_CLASSIFICATIONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FAMILY_CLASS_OLDSTYLE_SERIFS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FAMILY_CLASS_OLDSTYLE_SERIFS"/>
         /// </summary>
         public static int FAMILY_CLASS_OLDSTYLE_SERIFS { get { if (!_FAMILY_CLASS_OLDSTYLE_SERIFSReady) { _FAMILY_CLASS_OLDSTYLE_SERIFSContent = SGetField<int>(LocalBridgeClazz, "FAMILY_CLASS_OLDSTYLE_SERIFS"); _FAMILY_CLASS_OLDSTYLE_SERIFSReady = true; } return _FAMILY_CLASS_OLDSTYLE_SERIFSContent; } }
         private static int _FAMILY_CLASS_OLDSTYLE_SERIFSContent = default;
         private static bool _FAMILY_CLASS_OLDSTYLE_SERIFSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FAMILY_CLASS_ORNAMENTALS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FAMILY_CLASS_ORNAMENTALS"/>
         /// </summary>
         public static int FAMILY_CLASS_ORNAMENTALS { get { if (!_FAMILY_CLASS_ORNAMENTALSReady) { _FAMILY_CLASS_ORNAMENTALSContent = SGetField<int>(LocalBridgeClazz, "FAMILY_CLASS_ORNAMENTALS"); _FAMILY_CLASS_ORNAMENTALSReady = true; } return _FAMILY_CLASS_ORNAMENTALSContent; } }
         private static int _FAMILY_CLASS_ORNAMENTALSContent = default;
         private static bool _FAMILY_CLASS_ORNAMENTALSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FAMILY_CLASS_SANS_SERIF"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FAMILY_CLASS_SANS_SERIF"/>
         /// </summary>
         public static int FAMILY_CLASS_SANS_SERIF { get { if (!_FAMILY_CLASS_SANS_SERIFReady) { _FAMILY_CLASS_SANS_SERIFContent = SGetField<int>(LocalBridgeClazz, "FAMILY_CLASS_SANS_SERIF"); _FAMILY_CLASS_SANS_SERIFReady = true; } return _FAMILY_CLASS_SANS_SERIFContent; } }
         private static int _FAMILY_CLASS_SANS_SERIFContent = default;
         private static bool _FAMILY_CLASS_SANS_SERIFReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FAMILY_CLASS_SCRIPTS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FAMILY_CLASS_SCRIPTS"/>
         /// </summary>
         public static int FAMILY_CLASS_SCRIPTS { get { if (!_FAMILY_CLASS_SCRIPTSReady) { _FAMILY_CLASS_SCRIPTSContent = SGetField<int>(LocalBridgeClazz, "FAMILY_CLASS_SCRIPTS"); _FAMILY_CLASS_SCRIPTSReady = true; } return _FAMILY_CLASS_SCRIPTSContent; } }
         private static int _FAMILY_CLASS_SCRIPTSContent = default;
         private static bool _FAMILY_CLASS_SCRIPTSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FAMILY_CLASS_SLAB_SERIFS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FAMILY_CLASS_SLAB_SERIFS"/>
         /// </summary>
         public static int FAMILY_CLASS_SLAB_SERIFS { get { if (!_FAMILY_CLASS_SLAB_SERIFSReady) { _FAMILY_CLASS_SLAB_SERIFSContent = SGetField<int>(LocalBridgeClazz, "FAMILY_CLASS_SLAB_SERIFS"); _FAMILY_CLASS_SLAB_SERIFSReady = true; } return _FAMILY_CLASS_SLAB_SERIFSContent; } }
         private static int _FAMILY_CLASS_SLAB_SERIFSContent = default;
         private static bool _FAMILY_CLASS_SLAB_SERIFSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FAMILY_CLASS_SYMBOLIC"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FAMILY_CLASS_SYMBOLIC"/>
         /// </summary>
         public static int FAMILY_CLASS_SYMBOLIC { get { if (!_FAMILY_CLASS_SYMBOLICReady) { _FAMILY_CLASS_SYMBOLICContent = SGetField<int>(LocalBridgeClazz, "FAMILY_CLASS_SYMBOLIC"); _FAMILY_CLASS_SYMBOLICReady = true; } return _FAMILY_CLASS_SYMBOLICContent; } }
         private static int _FAMILY_CLASS_SYMBOLICContent = default;
         private static bool _FAMILY_CLASS_SYMBOLICReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FAMILY_CLASS_TRANSITIONAL_SERIFS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FAMILY_CLASS_TRANSITIONAL_SERIFS"/>
         /// </summary>
         public static int FAMILY_CLASS_TRANSITIONAL_SERIFS { get { if (!_FAMILY_CLASS_TRANSITIONAL_SERIFSReady) { _FAMILY_CLASS_TRANSITIONAL_SERIFSContent = SGetField<int>(LocalBridgeClazz, "FAMILY_CLASS_TRANSITIONAL_SERIFS"); _FAMILY_CLASS_TRANSITIONAL_SERIFSReady = true; } return _FAMILY_CLASS_TRANSITIONAL_SERIFSContent; } }
         private static int _FAMILY_CLASS_TRANSITIONAL_SERIFSContent = default;
         private static bool _FAMILY_CLASS_TRANSITIONAL_SERIFSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WEIGHT_CLASS_BLACK"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WEIGHT_CLASS_BLACK"/>
         /// </summary>
         public static int WEIGHT_CLASS_BLACK { get { if (!_WEIGHT_CLASS_BLACKReady) { _WEIGHT_CLASS_BLACKContent = SGetField<int>(LocalBridgeClazz, "WEIGHT_CLASS_BLACK"); _WEIGHT_CLASS_BLACKReady = true; } return _WEIGHT_CLASS_BLACKContent; } }
         private static int _WEIGHT_CLASS_BLACKContent = default;
         private static bool _WEIGHT_CLASS_BLACKReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WEIGHT_CLASS_BOLD"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WEIGHT_CLASS_BOLD"/>
         /// </summary>
         public static int WEIGHT_CLASS_BOLD { get { if (!_WEIGHT_CLASS_BOLDReady) { _WEIGHT_CLASS_BOLDContent = SGetField<int>(LocalBridgeClazz, "WEIGHT_CLASS_BOLD"); _WEIGHT_CLASS_BOLDReady = true; } return _WEIGHT_CLASS_BOLDContent; } }
         private static int _WEIGHT_CLASS_BOLDContent = default;
         private static bool _WEIGHT_CLASS_BOLDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WEIGHT_CLASS_EXTRA_BOLD"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WEIGHT_CLASS_EXTRA_BOLD"/>
         /// </summary>
         public static int WEIGHT_CLASS_EXTRA_BOLD { get { if (!_WEIGHT_CLASS_EXTRA_BOLDReady) { _WEIGHT_CLASS_EXTRA_BOLDContent = SGetField<int>(LocalBridgeClazz, "WEIGHT_CLASS_EXTRA_BOLD"); _WEIGHT_CLASS_EXTRA_BOLDReady = true; } return _WEIGHT_CLASS_EXTRA_BOLDContent; } }
         private static int _WEIGHT_CLASS_EXTRA_BOLDContent = default;
         private static bool _WEIGHT_CLASS_EXTRA_BOLDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WEIGHT_CLASS_LIGHT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WEIGHT_CLASS_LIGHT"/>
         /// </summary>
         public static int WEIGHT_CLASS_LIGHT { get { if (!_WEIGHT_CLASS_LIGHTReady) { _WEIGHT_CLASS_LIGHTContent = SGetField<int>(LocalBridgeClazz, "WEIGHT_CLASS_LIGHT"); _WEIGHT_CLASS_LIGHTReady = true; } return _WEIGHT_CLASS_LIGHTContent; } }
         private static int _WEIGHT_CLASS_LIGHTContent = default;
         private static bool _WEIGHT_CLASS_LIGHTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WEIGHT_CLASS_MEDIUM"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WEIGHT_CLASS_MEDIUM"/>
         /// </summary>
         public static int WEIGHT_CLASS_MEDIUM { get { if (!_WEIGHT_CLASS_MEDIUMReady) { _WEIGHT_CLASS_MEDIUMContent = SGetField<int>(LocalBridgeClazz, "WEIGHT_CLASS_MEDIUM"); _WEIGHT_CLASS_MEDIUMReady = true; } return _WEIGHT_CLASS_MEDIUMContent; } }
         private static int _WEIGHT_CLASS_MEDIUMContent = default;
         private static bool _WEIGHT_CLASS_MEDIUMReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WEIGHT_CLASS_NORMAL"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WEIGHT_CLASS_NORMAL"/>
         /// </summary>
         public static int WEIGHT_CLASS_NORMAL { get { if (!_WEIGHT_CLASS_NORMALReady) { _WEIGHT_CLASS_NORMALContent = SGetField<int>(LocalBridgeClazz, "WEIGHT_CLASS_NORMAL"); _WEIGHT_CLASS_NORMALReady = true; } return _WEIGHT_CLASS_NORMALContent; } }
         private static int _WEIGHT_CLASS_NORMALContent = default;
         private static bool _WEIGHT_CLASS_NORMALReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WEIGHT_CLASS_SEMI_BOLD"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WEIGHT_CLASS_SEMI_BOLD"/>
         /// </summary>
         public static int WEIGHT_CLASS_SEMI_BOLD { get { if (!_WEIGHT_CLASS_SEMI_BOLDReady) { _WEIGHT_CLASS_SEMI_BOLDContent = SGetField<int>(LocalBridgeClazz, "WEIGHT_CLASS_SEMI_BOLD"); _WEIGHT_CLASS_SEMI_BOLDReady = true; } return _WEIGHT_CLASS_SEMI_BOLDContent; } }
         private static int _WEIGHT_CLASS_SEMI_BOLDContent = default;
         private static bool _WEIGHT_CLASS_SEMI_BOLDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WEIGHT_CLASS_THIN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WEIGHT_CLASS_THIN"/>
         /// </summary>
         public static int WEIGHT_CLASS_THIN { get { if (!_WEIGHT_CLASS_THINReady) { _WEIGHT_CLASS_THINContent = SGetField<int>(LocalBridgeClazz, "WEIGHT_CLASS_THIN"); _WEIGHT_CLASS_THINReady = true; } return _WEIGHT_CLASS_THINContent; } }
         private static int _WEIGHT_CLASS_THINContent = default;
         private static bool _WEIGHT_CLASS_THINReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WEIGHT_CLASS_ULTRA_LIGHT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WEIGHT_CLASS_ULTRA_LIGHT"/>
         /// </summary>
         public static int WEIGHT_CLASS_ULTRA_LIGHT { get { if (!_WEIGHT_CLASS_ULTRA_LIGHTReady) { _WEIGHT_CLASS_ULTRA_LIGHTContent = SGetField<int>(LocalBridgeClazz, "WEIGHT_CLASS_ULTRA_LIGHT"); _WEIGHT_CLASS_ULTRA_LIGHTReady = true; } return _WEIGHT_CLASS_ULTRA_LIGHTContent; } }
         private static int _WEIGHT_CLASS_ULTRA_LIGHTContent = default;
         private static bool _WEIGHT_CLASS_ULTRA_LIGHTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WIDTH_CLASS_CONDENSED"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WIDTH_CLASS_CONDENSED"/>
         /// </summary>
         public static int WIDTH_CLASS_CONDENSED { get { if (!_WIDTH_CLASS_CONDENSEDReady) { _WIDTH_CLASS_CONDENSEDContent = SGetField<int>(LocalBridgeClazz, "WIDTH_CLASS_CONDENSED"); _WIDTH_CLASS_CONDENSEDReady = true; } return _WIDTH_CLASS_CONDENSEDContent; } }
         private static int _WIDTH_CLASS_CONDENSEDContent = default;
         private static bool _WIDTH_CLASS_CONDENSEDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WIDTH_CLASS_EXPANDED"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WIDTH_CLASS_EXPANDED"/>
         /// </summary>
         public static int WIDTH_CLASS_EXPANDED { get { if (!_WIDTH_CLASS_EXPANDEDReady) { _WIDTH_CLASS_EXPANDEDContent = SGetField<int>(LocalBridgeClazz, "WIDTH_CLASS_EXPANDED"); _WIDTH_CLASS_EXPANDEDReady = true; } return _WIDTH_CLASS_EXPANDEDContent; } }
         private static int _WIDTH_CLASS_EXPANDEDContent = default;
         private static bool _WIDTH_CLASS_EXPANDEDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WIDTH_CLASS_EXTRA_CONDENSED"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WIDTH_CLASS_EXTRA_CONDENSED"/>
         /// </summary>
         public static int WIDTH_CLASS_EXTRA_CONDENSED { get { if (!_WIDTH_CLASS_EXTRA_CONDENSEDReady) { _WIDTH_CLASS_EXTRA_CONDENSEDContent = SGetField<int>(LocalBridgeClazz, "WIDTH_CLASS_EXTRA_CONDENSED"); _WIDTH_CLASS_EXTRA_CONDENSEDReady = true; } return _WIDTH_CLASS_EXTRA_CONDENSEDContent; } }
         private static int _WIDTH_CLASS_EXTRA_CONDENSEDContent = default;
         private static bool _WIDTH_CLASS_EXTRA_CONDENSEDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WIDTH_CLASS_EXTRA_EXPANDED"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WIDTH_CLASS_EXTRA_EXPANDED"/>
         /// </summary>
         public static int WIDTH_CLASS_EXTRA_EXPANDED { get { if (!_WIDTH_CLASS_EXTRA_EXPANDEDReady) { _WIDTH_CLASS_EXTRA_EXPANDEDContent = SGetField<int>(LocalBridgeClazz, "WIDTH_CLASS_EXTRA_EXPANDED"); _WIDTH_CLASS_EXTRA_EXPANDEDReady = true; } return _WIDTH_CLASS_EXTRA_EXPANDEDContent; } }
         private static int _WIDTH_CLASS_EXTRA_EXPANDEDContent = default;
         private static bool _WIDTH_CLASS_EXTRA_EXPANDEDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WIDTH_CLASS_MEDIUM"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WIDTH_CLASS_MEDIUM"/>
         /// </summary>
         public static int WIDTH_CLASS_MEDIUM { get { if (!_WIDTH_CLASS_MEDIUMReady) { _WIDTH_CLASS_MEDIUMContent = SGetField<int>(LocalBridgeClazz, "WIDTH_CLASS_MEDIUM"); _WIDTH_CLASS_MEDIUMReady = true; } return _WIDTH_CLASS_MEDIUMContent; } }
         private static int _WIDTH_CLASS_MEDIUMContent = default;
         private static bool _WIDTH_CLASS_MEDIUMReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WIDTH_CLASS_SEMI_CONDENSED"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WIDTH_CLASS_SEMI_CONDENSED"/>
         /// </summary>
         public static int WIDTH_CLASS_SEMI_CONDENSED { get { if (!_WIDTH_CLASS_SEMI_CONDENSEDReady) { _WIDTH_CLASS_SEMI_CONDENSEDContent = SGetField<int>(LocalBridgeClazz, "WIDTH_CLASS_SEMI_CONDENSED"); _WIDTH_CLASS_SEMI_CONDENSEDReady = true; } return _WIDTH_CLASS_SEMI_CONDENSEDContent; } }
         private static int _WIDTH_CLASS_SEMI_CONDENSEDContent = default;
         private static bool _WIDTH_CLASS_SEMI_CONDENSEDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WIDTH_CLASS_SEMI_EXPANDED"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WIDTH_CLASS_SEMI_EXPANDED"/>
         /// </summary>
         public static int WIDTH_CLASS_SEMI_EXPANDED { get { if (!_WIDTH_CLASS_SEMI_EXPANDEDReady) { _WIDTH_CLASS_SEMI_EXPANDEDContent = SGetField<int>(LocalBridgeClazz, "WIDTH_CLASS_SEMI_EXPANDED"); _WIDTH_CLASS_SEMI_EXPANDEDReady = true; } return _WIDTH_CLASS_SEMI_EXPANDEDContent; } }
         private static int _WIDTH_CLASS_SEMI_EXPANDEDContent = default;
         private static bool _WIDTH_CLASS_SEMI_EXPANDEDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WIDTH_CLASS_ULTRA_CONDENSED"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WIDTH_CLASS_ULTRA_CONDENSED"/>
         /// </summary>
         public static int WIDTH_CLASS_ULTRA_CONDENSED { get { if (!_WIDTH_CLASS_ULTRA_CONDENSEDReady) { _WIDTH_CLASS_ULTRA_CONDENSEDContent = SGetField<int>(LocalBridgeClazz, "WIDTH_CLASS_ULTRA_CONDENSED"); _WIDTH_CLASS_ULTRA_CONDENSEDReady = true; } return _WIDTH_CLASS_ULTRA_CONDENSEDContent; } }
         private static int _WIDTH_CLASS_ULTRA_CONDENSEDContent = default;
         private static bool _WIDTH_CLASS_ULTRA_CONDENSEDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WIDTH_CLASS_ULTRA_EXPANDED"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#WIDTH_CLASS_ULTRA_EXPANDED"/>
         /// </summary>
         public static int WIDTH_CLASS_ULTRA_EXPANDED { get { if (!_WIDTH_CLASS_ULTRA_EXPANDEDReady) { _WIDTH_CLASS_ULTRA_EXPANDEDContent = SGetField<int>(LocalBridgeClazz, "WIDTH_CLASS_ULTRA_EXPANDED"); _WIDTH_CLASS_ULTRA_EXPANDEDReady = true; } return _WIDTH_CLASS_ULTRA_EXPANDEDContent; } }
         private static int _WIDTH_CLASS_ULTRA_EXPANDEDContent = default;
         private static bool _WIDTH_CLASS_ULTRA_EXPANDEDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#TAG"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#TAG"/>
         /// </summary>
         public static Java.Lang.String TAG { get { if (!_TAGReady) { _TAGContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "TAG"); _TAGReady = true; } return _TAGContent; } }
         private static Java.Lang.String _TAGContent = default;
         private static bool _TAGReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FSTYPE_BITMAP_ONLY"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FSTYPE_BITMAP_ONLY"/>
         /// </summary>
         public static short FSTYPE_BITMAP_ONLY { get { if (!_FSTYPE_BITMAP_ONLYReady) { _FSTYPE_BITMAP_ONLYContent = SGetField<short>(LocalBridgeClazz, "FSTYPE_BITMAP_ONLY"); _FSTYPE_BITMAP_ONLYReady = true; } return _FSTYPE_BITMAP_ONLYContent; } }
         private static short _FSTYPE_BITMAP_ONLYContent = default;
         private static bool _FSTYPE_BITMAP_ONLYReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FSTYPE_EDITIBLE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FSTYPE_EDITIBLE"/>
         /// </summary>
         public static short FSTYPE_EDITIBLE { get { if (!_FSTYPE_EDITIBLEReady) { _FSTYPE_EDITIBLEContent = SGetField<short>(LocalBridgeClazz, "FSTYPE_EDITIBLE"); _FSTYPE_EDITIBLEReady = true; } return _FSTYPE_EDITIBLEContent; } }
         private static short _FSTYPE_EDITIBLEContent = default;
         private static bool _FSTYPE_EDITIBLEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FSTYPE_NO_SUBSETTING"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FSTYPE_NO_SUBSETTING"/>
         /// </summary>
         public static short FSTYPE_NO_SUBSETTING { get { if (!_FSTYPE_NO_SUBSETTINGReady) { _FSTYPE_NO_SUBSETTINGContent = SGetField<short>(LocalBridgeClazz, "FSTYPE_NO_SUBSETTING"); _FSTYPE_NO_SUBSETTINGReady = true; } return _FSTYPE_NO_SUBSETTINGContent; } }
         private static short _FSTYPE_NO_SUBSETTINGContent = default;
         private static bool _FSTYPE_NO_SUBSETTINGReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FSTYPE_PREVIEW_AND_PRINT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FSTYPE_PREVIEW_AND_PRINT"/>
         /// </summary>
         public static short FSTYPE_PREVIEW_AND_PRINT { get { if (!_FSTYPE_PREVIEW_AND_PRINTReady) { _FSTYPE_PREVIEW_AND_PRINTContent = SGetField<short>(LocalBridgeClazz, "FSTYPE_PREVIEW_AND_PRINT"); _FSTYPE_PREVIEW_AND_PRINTReady = true; } return _FSTYPE_PREVIEW_AND_PRINTContent; } }
         private static short _FSTYPE_PREVIEW_AND_PRINTContent = default;
         private static bool _FSTYPE_PREVIEW_AND_PRINTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FSTYPE_RESTRICTED"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#FSTYPE_RESTRICTED"/>
         /// </summary>
         public static short FSTYPE_RESTRICTED { get { if (!_FSTYPE_RESTRICTEDReady) { _FSTYPE_RESTRICTEDContent = SGetField<short>(LocalBridgeClazz, "FSTYPE_RESTRICTED"); _FSTYPE_RESTRICTEDReady = true; } return _FSTYPE_RESTRICTEDContent; } }
         private static short _FSTYPE_RESTRICTEDContent = default;
@@ -301,259 +301,259 @@ namespace Org.Apache.Fontbox.Ttf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getAchVendId--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setAchVendId-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getAchVendId--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setAchVendId-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String AchVendId
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getAchVendId", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setAchVendId", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getAverageCharWidth--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setAverageCharWidth-short-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getAverageCharWidth--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setAverageCharWidth-short-"/>
         /// </summary>
         public short AverageCharWidth
         {
             get { return IExecuteWithSignature<short>("getAverageCharWidth", "()S"); } set { IExecuteWithSignature("setAverageCharWidth", "(S)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getBreakChar--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getBreakChar--"/> 
         /// </summary>
         public int BreakChar
         {
             get { return IExecuteWithSignature<int>("getBreakChar", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getCapHeight--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getCapHeight--"/> 
         /// </summary>
         public int CapHeight
         {
             get { return IExecuteWithSignature<int>("getCapHeight", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getCodePageRange1--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setCodePageRange1-long-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getCodePageRange1--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setCodePageRange1-long-"/>
         /// </summary>
         public long CodePageRange1
         {
             get { return IExecuteWithSignature<long>("getCodePageRange1", "()J"); } set { IExecuteWithSignature("setCodePageRange1", "(J)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getCodePageRange2--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setCodePageRange2-long-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getCodePageRange2--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setCodePageRange2-long-"/>
         /// </summary>
         public long CodePageRange2
         {
             get { return IExecuteWithSignature<long>("getCodePageRange2", "()J"); } set { IExecuteWithSignature("setCodePageRange2", "(J)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getDefaultChar--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getDefaultChar--"/> 
         /// </summary>
         public int DefaultChar
         {
             get { return IExecuteWithSignature<int>("getDefaultChar", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getFamilyClass--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setFamilyClass-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getFamilyClass--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setFamilyClass-int-"/>
         /// </summary>
         public int FamilyClass
         {
             get { return IExecuteWithSignature<int>("getFamilyClass", "()I"); } set { IExecuteWithSignature("setFamilyClass", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getFirstCharIndex--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setFirstCharIndex-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getFirstCharIndex--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setFirstCharIndex-int-"/>
         /// </summary>
         public int FirstCharIndex
         {
             get { return IExecuteWithSignature<int>("getFirstCharIndex", "()I"); } set { IExecuteWithSignature("setFirstCharIndex", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getFsSelection--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setFsSelection-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getFsSelection--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setFsSelection-int-"/>
         /// </summary>
         public int FsSelection
         {
             get { return IExecuteWithSignature<int>("getFsSelection", "()I"); } set { IExecuteWithSignature("setFsSelection", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getFsType--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setFsType-short-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getFsType--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setFsType-short-"/>
         /// </summary>
         public short FsType
         {
             get { return IExecuteWithSignature<short>("getFsType", "()S"); } set { IExecuteWithSignature("setFsType", "(S)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getHeight--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getHeight--"/> 
         /// </summary>
         public int Height
         {
             get { return IExecuteWithSignature<int>("getHeight", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getLastCharIndex--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setLastCharIndex-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getLastCharIndex--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setLastCharIndex-int-"/>
         /// </summary>
         public int LastCharIndex
         {
             get { return IExecuteWithSignature<int>("getLastCharIndex", "()I"); } set { IExecuteWithSignature("setLastCharIndex", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getMaxContext--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getMaxContext--"/> 
         /// </summary>
         public int MaxContext
         {
             get { return IExecuteWithSignature<int>("getMaxContext", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getPanose--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setPanose-byte[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getPanose--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setPanose-byte[]-"/>
         /// </summary>
         public byte[] Panose
         {
             get { return IExecuteWithSignatureArray<byte>("getPanose", "()[B"); } set { IExecuteWithSignature("setPanose", "([B)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getStrikeoutPosition--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setStrikeoutPosition-short-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getStrikeoutPosition--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setStrikeoutPosition-short-"/>
         /// </summary>
         public short StrikeoutPosition
         {
             get { return IExecuteWithSignature<short>("getStrikeoutPosition", "()S"); } set { IExecuteWithSignature("setStrikeoutPosition", "(S)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getStrikeoutSize--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setStrikeoutSize-short-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getStrikeoutSize--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setStrikeoutSize-short-"/>
         /// </summary>
         public short StrikeoutSize
         {
             get { return IExecuteWithSignature<short>("getStrikeoutSize", "()S"); } set { IExecuteWithSignature("setStrikeoutSize", "(S)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getSubscriptXOffset--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setSubscriptXOffset-short-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getSubscriptXOffset--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setSubscriptXOffset-short-"/>
         /// </summary>
         public short SubscriptXOffset
         {
             get { return IExecuteWithSignature<short>("getSubscriptXOffset", "()S"); } set { IExecuteWithSignature("setSubscriptXOffset", "(S)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getSubscriptXSize--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setSubscriptXSize-short-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getSubscriptXSize--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setSubscriptXSize-short-"/>
         /// </summary>
         public short SubscriptXSize
         {
             get { return IExecuteWithSignature<short>("getSubscriptXSize", "()S"); } set { IExecuteWithSignature("setSubscriptXSize", "(S)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getSubscriptYOffset--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setSubscriptYOffset-short-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getSubscriptYOffset--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setSubscriptYOffset-short-"/>
         /// </summary>
         public short SubscriptYOffset
         {
             get { return IExecuteWithSignature<short>("getSubscriptYOffset", "()S"); } set { IExecuteWithSignature("setSubscriptYOffset", "(S)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getSubscriptYSize--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setSubscriptYSize-short-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getSubscriptYSize--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setSubscriptYSize-short-"/>
         /// </summary>
         public short SubscriptYSize
         {
             get { return IExecuteWithSignature<short>("getSubscriptYSize", "()S"); } set { IExecuteWithSignature("setSubscriptYSize", "(S)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getSuperscriptXOffset--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setSuperscriptXOffset-short-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getSuperscriptXOffset--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setSuperscriptXOffset-short-"/>
         /// </summary>
         public short SuperscriptXOffset
         {
             get { return IExecuteWithSignature<short>("getSuperscriptXOffset", "()S"); } set { IExecuteWithSignature("setSuperscriptXOffset", "(S)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getSuperscriptXSize--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setSuperscriptXSize-short-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getSuperscriptXSize--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setSuperscriptXSize-short-"/>
         /// </summary>
         public short SuperscriptXSize
         {
             get { return IExecuteWithSignature<short>("getSuperscriptXSize", "()S"); } set { IExecuteWithSignature("setSuperscriptXSize", "(S)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getSuperscriptYOffset--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setSuperscriptYOffset-short-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getSuperscriptYOffset--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setSuperscriptYOffset-short-"/>
         /// </summary>
         public short SuperscriptYOffset
         {
             get { return IExecuteWithSignature<short>("getSuperscriptYOffset", "()S"); } set { IExecuteWithSignature("setSuperscriptYOffset", "(S)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getSuperscriptYSize--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setSuperscriptYSize-short-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getSuperscriptYSize--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setSuperscriptYSize-short-"/>
         /// </summary>
         public short SuperscriptYSize
         {
             get { return IExecuteWithSignature<short>("getSuperscriptYSize", "()S"); } set { IExecuteWithSignature("setSuperscriptYSize", "(S)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getTypoAscender--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setTypoAscender-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getTypoAscender--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setTypoAscender-int-"/>
         /// </summary>
         public int TypoAscender
         {
             get { return IExecuteWithSignature<int>("getTypoAscender", "()I"); } set { IExecuteWithSignature("setTypoAscender", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getTypoDescender--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setTypoDescender-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getTypoDescender--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setTypoDescender-int-"/>
         /// </summary>
         public int TypoDescender
         {
             get { return IExecuteWithSignature<int>("getTypoDescender", "()I"); } set { IExecuteWithSignature("setTypoDescender", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getTypoLineGap--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setTypoLineGap-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getTypoLineGap--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setTypoLineGap-int-"/>
         /// </summary>
         public int TypoLineGap
         {
             get { return IExecuteWithSignature<int>("getTypoLineGap", "()I"); } set { IExecuteWithSignature("setTypoLineGap", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getUnicodeRange1--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setUnicodeRange1-long-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getUnicodeRange1--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setUnicodeRange1-long-"/>
         /// </summary>
         public long UnicodeRange1
         {
             get { return IExecuteWithSignature<long>("getUnicodeRange1", "()J"); } set { IExecuteWithSignature("setUnicodeRange1", "(J)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getUnicodeRange2--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setUnicodeRange2-long-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getUnicodeRange2--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setUnicodeRange2-long-"/>
         /// </summary>
         public long UnicodeRange2
         {
             get { return IExecuteWithSignature<long>("getUnicodeRange2", "()J"); } set { IExecuteWithSignature("setUnicodeRange2", "(J)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getUnicodeRange3--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setUnicodeRange3-long-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getUnicodeRange3--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setUnicodeRange3-long-"/>
         /// </summary>
         public long UnicodeRange3
         {
             get { return IExecuteWithSignature<long>("getUnicodeRange3", "()J"); } set { IExecuteWithSignature("setUnicodeRange3", "(J)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getUnicodeRange4--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setUnicodeRange4-long-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getUnicodeRange4--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setUnicodeRange4-long-"/>
         /// </summary>
         public long UnicodeRange4
         {
             get { return IExecuteWithSignature<long>("getUnicodeRange4", "()J"); } set { IExecuteWithSignature("setUnicodeRange4", "(J)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getVersion--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setVersion-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getVersion--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setVersion-int-"/>
         /// </summary>
         public int Version
         {
             get { return IExecuteWithSignature<int>("getVersion", "()I"); } set { IExecuteWithSignature("setVersion", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getWeightClass--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setWeightClass-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getWeightClass--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setWeightClass-int-"/>
         /// </summary>
         public int WeightClass
         {
             get { return IExecuteWithSignature<int>("getWeightClass", "()I"); } set { IExecuteWithSignature("setWeightClass", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getWidthClass--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setWidthClass-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getWidthClass--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setWidthClass-int-"/>
         /// </summary>
         public int WidthClass
         {
             get { return IExecuteWithSignature<int>("getWidthClass", "()I"); } set { IExecuteWithSignature("setWidthClass", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getWinAscent--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setWinAscent-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getWinAscent--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setWinAscent-int-"/>
         /// </summary>
         public int WinAscent
         {
             get { return IExecuteWithSignature<int>("getWinAscent", "()I"); } set { IExecuteWithSignature("setWinAscent", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getWinDescent--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setWinDescent-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#getWinDescent--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OS2WindowsMetricsTable.html#setWinDescent-int-"/>
         /// </summary>
         public int WinDescent
         {

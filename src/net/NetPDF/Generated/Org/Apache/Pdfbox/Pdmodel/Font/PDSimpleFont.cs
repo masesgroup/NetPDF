@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
 {
     #region PDSimpleFont declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDSimpleFont.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDSimpleFont.html"/>
     /// </summary>
     public partial class PDSimpleFont : Org.Apache.Pdfbox.Pdmodel.Font.PDFont
     {
@@ -93,28 +93,28 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDSimpleFont.html#getEncoding--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDSimpleFont.html#getEncoding--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Font.Encoding.Encoding Encoding
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Font.Encoding.Encoding>("getEncoding", "()Lorg/apache/pdfbox/pdmodel/font/encoding/Encoding;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDSimpleFont.html#getFontBoxFont--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDSimpleFont.html#getFontBoxFont--"/> 
         /// </summary>
         public Org.Apache.Fontbox.FontBoxFont FontBoxFont
         {
             get { return IExecuteWithSignature<Org.Apache.Fontbox.FontBoxFont>("getFontBoxFont", "()Lorg/apache/fontbox/FontBoxFont;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDSimpleFont.html#getGlyphList--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDSimpleFont.html#getGlyphList--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Font.Encoding.GlyphList GlyphList
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Font.Encoding.GlyphList>("getGlyphList", "()Lorg/apache/pdfbox/pdmodel/font/encoding/GlyphList;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDSimpleFont.html#hasGlyph-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDSimpleFont.html#hasGlyph-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -124,7 +124,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
             return IExecuteWithSignature<bool>("hasGlyph", "(Ljava/lang/String;)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDSimpleFont.html#getPath-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDSimpleFont.html#getPath-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Awt.Geom.GeneralPath"/></returns>
@@ -134,7 +134,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
             return IExecuteWithSignature<Java.Awt.Geom.GeneralPath>("getPath", "(Ljava/lang/String;)Ljava/awt/geom/GeneralPath;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDSimpleFont.html#isSymbolic--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDSimpleFont.html#isSymbolic--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsSymbolic()

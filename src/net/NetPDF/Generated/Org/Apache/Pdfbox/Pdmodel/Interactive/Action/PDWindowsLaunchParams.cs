@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
 {
     #region PDWindowsLaunchParams declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDWindowsLaunchParams.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDWindowsLaunchParams.html"/>
     /// </summary>
     public partial class PDWindowsLaunchParams : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDWindowsLaunchParams.html#org.apache.pdfbox.pdmodel.interactive.action.PDWindowsLaunchParams(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDWindowsLaunchParams.html#org.apache.pdfbox.pdmodel.interactive.action.PDWindowsLaunchParams(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDWindowsLaunchParams(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -91,13 +91,13 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDWindowsLaunchParams.html#OPERATION_OPEN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDWindowsLaunchParams.html#OPERATION_OPEN"/>
         /// </summary>
         public static Java.Lang.String OPERATION_OPEN { get { if (!_OPERATION_OPENReady) { _OPERATION_OPENContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "OPERATION_OPEN"); _OPERATION_OPENReady = true; } return _OPERATION_OPENContent; } }
         private static Java.Lang.String _OPERATION_OPENContent = default;
         private static bool _OPERATION_OPENReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDWindowsLaunchParams.html#OPERATION_PRINT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDWindowsLaunchParams.html#OPERATION_PRINT"/>
         /// </summary>
         public static Java.Lang.String OPERATION_PRINT { get { if (!_OPERATION_PRINTReady) { _OPERATION_PRINTContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "OPERATION_PRINT"); _OPERATION_PRINTReady = true; } return _OPERATION_PRINTContent; } }
         private static Java.Lang.String _OPERATION_PRINTContent = default;
@@ -111,35 +111,35 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDWindowsLaunchParams.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDWindowsLaunchParams.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDWindowsLaunchParams.html#getDirectory--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDWindowsLaunchParams.html#setDirectory-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDWindowsLaunchParams.html#getDirectory--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDWindowsLaunchParams.html#setDirectory-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Directory
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getDirectory", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setDirectory", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDWindowsLaunchParams.html#getExecuteParam--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDWindowsLaunchParams.html#setExecuteParam-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDWindowsLaunchParams.html#getExecuteParam--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDWindowsLaunchParams.html#setExecuteParam-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String ExecuteParam
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getExecuteParam", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setExecuteParam", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDWindowsLaunchParams.html#getFilename--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDWindowsLaunchParams.html#setFilename-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDWindowsLaunchParams.html#getFilename--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDWindowsLaunchParams.html#setFilename-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Filename
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getFilename", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setFilename", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDWindowsLaunchParams.html#getOperation--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDWindowsLaunchParams.html#setOperation-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDWindowsLaunchParams.html#getOperation--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDWindowsLaunchParams.html#setOperation-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Operation
         {

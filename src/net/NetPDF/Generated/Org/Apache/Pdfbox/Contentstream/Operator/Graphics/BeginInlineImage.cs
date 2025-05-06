@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator.Graphics
 {
     #region BeginInlineImage declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/graphics/BeginInlineImage.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/graphics/BeginInlineImage.html"/>
     /// </summary>
     public partial class BeginInlineImage : Org.Apache.Pdfbox.Contentstream.Operator.Graphics.GraphicsOperatorProcessor
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator.Graphics
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/graphics/BeginInlineImage.html#org.apache.pdfbox.contentstream.operator.graphics.BeginInlineImage(org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/graphics/BeginInlineImage.html#org.apache.pdfbox.contentstream.operator.graphics.BeginInlineImage(org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Contentstream.PDFGraphicsStreamEngine"/></param>
         public BeginInlineImage(Org.Apache.Pdfbox.Contentstream.PDFGraphicsStreamEngine arg0)

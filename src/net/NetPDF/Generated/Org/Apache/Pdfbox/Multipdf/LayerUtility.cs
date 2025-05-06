@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Multipdf
 {
     #region LayerUtility declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/multipdf/LayerUtility.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/multipdf/LayerUtility.html"/>
     /// </summary>
     public partial class LayerUtility : MASES.JCOBridge.C2JBridge.JVMBridgeBase<LayerUtility>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Multipdf
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/multipdf/LayerUtility.html#org.apache.pdfbox.multipdf.LayerUtility(org.apache.pdfbox.pdmodel.PDDocument)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/multipdf/LayerUtility.html#org.apache.pdfbox.multipdf.LayerUtility(org.apache.pdfbox.pdmodel.PDDocument)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         public LayerUtility(Org.Apache.Pdfbox.Pdmodel.PDDocument arg0)
@@ -99,14 +99,14 @@ namespace Org.Apache.Pdfbox.Multipdf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/multipdf/LayerUtility.html#getDocument--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/multipdf/LayerUtility.html#getDocument--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.PDDocument Document
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.PDDocument>("getDocument", "()Lorg/apache/pdfbox/pdmodel/PDDocument;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/multipdf/LayerUtility.html#importPageAsForm-org.apache.pdfbox.pdmodel.PDDocument-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/multipdf/LayerUtility.html#importPageAsForm-org.apache.pdfbox.pdmodel.PDDocument-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -117,7 +117,7 @@ namespace Org.Apache.Pdfbox.Multipdf
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Form.PDFormXObject>("importPageAsForm", "(Lorg/apache/pdfbox/pdmodel/PDDocument;I)Lorg/apache/pdfbox/pdmodel/graphics/form/PDFormXObject;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/multipdf/LayerUtility.html#importPageAsForm-org.apache.pdfbox.pdmodel.PDDocument-org.apache.pdfbox.pdmodel.PDPage-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/multipdf/LayerUtility.html#importPageAsForm-org.apache.pdfbox.pdmodel.PDDocument-org.apache.pdfbox.pdmodel.PDPage-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.PDPage"/></param>
@@ -128,7 +128,7 @@ namespace Org.Apache.Pdfbox.Multipdf
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Form.PDFormXObject>("importPageAsForm", "(Lorg/apache/pdfbox/pdmodel/PDDocument;Lorg/apache/pdfbox/pdmodel/PDPage;)Lorg/apache/pdfbox/pdmodel/graphics/form/PDFormXObject;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/multipdf/LayerUtility.html#appendFormAsLayer-org.apache.pdfbox.pdmodel.PDPage-org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject-java.awt.geom.AffineTransform-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/multipdf/LayerUtility.html#appendFormAsLayer-org.apache.pdfbox.pdmodel.PDPage-org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject-java.awt.geom.AffineTransform-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDPage"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Form.PDFormXObject"/></param>
@@ -141,7 +141,7 @@ namespace Org.Apache.Pdfbox.Multipdf
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent.PDOptionalContentGroup>("appendFormAsLayer", "(Lorg/apache/pdfbox/pdmodel/PDPage;Lorg/apache/pdfbox/pdmodel/graphics/form/PDFormXObject;Ljava/awt/geom/AffineTransform;Ljava/lang/String;)Lorg/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup;", arg0, arg1, arg2, arg3);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/multipdf/LayerUtility.html#wrapInSaveRestore-org.apache.pdfbox.pdmodel.PDPage-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/multipdf/LayerUtility.html#wrapInSaveRestore-org.apache.pdfbox.pdmodel.PDPage-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDPage"/></param>
         /// <exception cref="Java.Io.IOException"/>

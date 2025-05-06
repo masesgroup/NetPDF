@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
 {
     #region PDPushButton declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDPushButton.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDPushButton.html"/>
     /// </summary>
     public partial class PDPushButton : Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDButton
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDPushButton.html#org.apache.pdfbox.pdmodel.interactive.form.PDPushButton(org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDPushButton.html#org.apache.pdfbox.pdmodel.interactive.form.PDPushButton(org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDAcroForm"/></param>
         public PDPushButton(Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDAcroForm arg0)

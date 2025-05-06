@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
 {
     #region PDFormFieldAdditionalActions declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDFormFieldAdditionalActions.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDFormFieldAdditionalActions.html"/>
     /// </summary>
     public partial class PDFormFieldAdditionalActions : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDFormFieldAdditionalActions.html#org.apache.pdfbox.pdmodel.interactive.action.PDFormFieldAdditionalActions(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDFormFieldAdditionalActions.html#org.apache.pdfbox.pdmodel.interactive.action.PDFormFieldAdditionalActions(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDFormFieldAdditionalActions(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -99,35 +99,35 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDFormFieldAdditionalActions.html#getC--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDFormFieldAdditionalActions.html#setC-org.apache.pdfbox.pdmodel.interactive.action.PDAction-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDFormFieldAdditionalActions.html#getC--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDFormFieldAdditionalActions.html#setC-org.apache.pdfbox.pdmodel.interactive.action.PDAction-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Action.PDAction C
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Action.PDAction>("getC", "()Lorg/apache/pdfbox/pdmodel/interactive/action/PDAction;"); } set { IExecuteWithSignature("setC", "(Lorg/apache/pdfbox/pdmodel/interactive/action/PDAction;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDFormFieldAdditionalActions.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDFormFieldAdditionalActions.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDFormFieldAdditionalActions.html#getF--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDFormFieldAdditionalActions.html#setF-org.apache.pdfbox.pdmodel.interactive.action.PDAction-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDFormFieldAdditionalActions.html#getF--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDFormFieldAdditionalActions.html#setF-org.apache.pdfbox.pdmodel.interactive.action.PDAction-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Action.PDAction F
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Action.PDAction>("getF", "()Lorg/apache/pdfbox/pdmodel/interactive/action/PDAction;"); } set { IExecuteWithSignature("setF", "(Lorg/apache/pdfbox/pdmodel/interactive/action/PDAction;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDFormFieldAdditionalActions.html#getK--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDFormFieldAdditionalActions.html#setK-org.apache.pdfbox.pdmodel.interactive.action.PDAction-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDFormFieldAdditionalActions.html#getK--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDFormFieldAdditionalActions.html#setK-org.apache.pdfbox.pdmodel.interactive.action.PDAction-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Action.PDAction K
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Action.PDAction>("getK", "()Lorg/apache/pdfbox/pdmodel/interactive/action/PDAction;"); } set { IExecuteWithSignature("setK", "(Lorg/apache/pdfbox/pdmodel/interactive/action/PDAction;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDFormFieldAdditionalActions.html#getV--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDFormFieldAdditionalActions.html#setV-org.apache.pdfbox.pdmodel.interactive.action.PDAction-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDFormFieldAdditionalActions.html#getV--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDFormFieldAdditionalActions.html#setV-org.apache.pdfbox.pdmodel.interactive.action.PDAction-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Action.PDAction V
         {

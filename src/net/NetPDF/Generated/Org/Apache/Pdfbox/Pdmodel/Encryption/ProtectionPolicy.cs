@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
 {
     #region ProtectionPolicy declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/ProtectionPolicy.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/ProtectionPolicy.html"/>
     /// </summary>
     public partial class ProtectionPolicy : MASES.JCOBridge.C2JBridge.JVMBridgeBase<ProtectionPolicy>
     {
@@ -93,14 +93,14 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/ProtectionPolicy.html#getEncryptionKeyLength--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/ProtectionPolicy.html#setEncryptionKeyLength-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/ProtectionPolicy.html#getEncryptionKeyLength--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/ProtectionPolicy.html#setEncryptionKeyLength-int-"/>
         /// </summary>
         public int EncryptionKeyLength
         {
             get { return IExecuteWithSignature<int>("getEncryptionKeyLength", "()I"); } set { IExecuteWithSignature("setEncryptionKeyLength", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/ProtectionPolicy.html#isPreferAES--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/ProtectionPolicy.html#isPreferAES--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsPreferAES()
@@ -108,7 +108,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             return IExecuteWithSignature<bool>("isPreferAES", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/ProtectionPolicy.html#setPreferAES-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/ProtectionPolicy.html#setPreferAES-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetPreferAES(bool arg0)

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator.Graphics
 {
     #region CloseFillEvenOddAndStrokePath declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/graphics/CloseFillEvenOddAndStrokePath.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/graphics/CloseFillEvenOddAndStrokePath.html"/>
     /// </summary>
     public partial class CloseFillEvenOddAndStrokePath : Org.Apache.Pdfbox.Contentstream.Operator.Graphics.GraphicsOperatorProcessor
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator.Graphics
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/graphics/CloseFillEvenOddAndStrokePath.html#org.apache.pdfbox.contentstream.operator.graphics.CloseFillEvenOddAndStrokePath(org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/graphics/CloseFillEvenOddAndStrokePath.html#org.apache.pdfbox.contentstream.operator.graphics.CloseFillEvenOddAndStrokePath(org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Contentstream.PDFGraphicsStreamEngine"/></param>
         public CloseFillEvenOddAndStrokePath(Org.Apache.Pdfbox.Contentstream.PDFGraphicsStreamEngine arg0)

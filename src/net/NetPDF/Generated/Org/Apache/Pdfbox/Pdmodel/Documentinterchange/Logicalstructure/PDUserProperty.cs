@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
 {
     #region PDUserProperty declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserProperty.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserProperty.html"/>
     /// </summary>
     public partial class PDUserProperty : Org.Apache.Pdfbox.Pdmodel.Common.PDDictionaryWrapper
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserProperty.html#org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty(org.apache.pdfbox.cos.COSDictionary,org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserAttributeObject)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserProperty.html#org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty(org.apache.pdfbox.cos.COSDictionary,org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserAttributeObject)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDUserAttributeObject"/></param>
@@ -84,7 +84,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserProperty.html#org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty(org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserAttributeObject)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserProperty.html#org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty(org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserAttributeObject)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDUserAttributeObject"/></param>
         public PDUserProperty(Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDUserAttributeObject arg0)
@@ -108,28 +108,28 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserProperty.html#getFormattedValue--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserProperty.html#setFormattedValue-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserProperty.html#getFormattedValue--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserProperty.html#setFormattedValue-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String FormattedValue
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getFormattedValue", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setFormattedValue", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserProperty.html#getName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserProperty.html#setName-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserProperty.html#getName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserProperty.html#setName-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Name
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getName", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setName", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserProperty.html#getValue--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserProperty.html#setValue-org.apache.pdfbox.cos.COSBase-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserProperty.html#getValue--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserProperty.html#setValue-org.apache.pdfbox.cos.COSBase-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase Value
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getValue", "()Lorg/apache/pdfbox/cos/COSBase;"); } set { IExecuteWithSignature("setValue", "(Lorg/apache/pdfbox/cos/COSBase;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserProperty.html#isHidden--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserProperty.html#isHidden--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsHidden()
@@ -137,7 +137,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
             return IExecuteWithSignature<bool>("isHidden", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserProperty.html#setHidden-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserProperty.html#setHidden-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetHidden(bool arg0)

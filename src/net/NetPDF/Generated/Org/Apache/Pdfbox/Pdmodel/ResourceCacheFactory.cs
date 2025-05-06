@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
 {
     #region ResourceCacheFactory declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/ResourceCacheFactory.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/ResourceCacheFactory.html"/>
     /// </summary>
     public partial class ResourceCacheFactory : MASES.JCOBridge.C2JBridge.JVMBridgeBase<ResourceCacheFactory>
     {
@@ -87,14 +87,14 @@ namespace Org.Apache.Pdfbox.Pdmodel
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/ResourceCacheFactory.html#getResourceCacheCreateFunction--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/ResourceCacheFactory.html#setResourceCacheCreateFunction-org.apache.pdfbox.pdmodel.ResourceCacheCreateFunction-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/ResourceCacheFactory.html#getResourceCacheCreateFunction--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/ResourceCacheFactory.html#setResourceCacheCreateFunction-org.apache.pdfbox.pdmodel.ResourceCacheCreateFunction-"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.ResourceCacheCreateFunction ResourceCacheCreateFunction
         {
             get { return SExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.ResourceCacheCreateFunction>(LocalBridgeClazz, "getResourceCacheCreateFunction", "()Lorg/apache/pdfbox/pdmodel/ResourceCacheCreateFunction;"); } set { SExecuteWithSignature(LocalBridgeClazz, "setResourceCacheCreateFunction", "(Lorg/apache/pdfbox/pdmodel/ResourceCacheCreateFunction;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/ResourceCacheFactory.html#createResourceCache--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/ResourceCacheFactory.html#createResourceCache--"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.ResourceCache"/></returns>
         public static Org.Apache.Pdfbox.Pdmodel.ResourceCache CreateResourceCache()

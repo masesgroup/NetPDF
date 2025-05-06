@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Form
 {
     #region PDTransparencyGroup declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroup.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroup.html"/>
     /// </summary>
     public partial class PDTransparencyGroup : Org.Apache.Pdfbox.Pdmodel.Graphics.Form.PDFormXObject
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Form
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroup.html#org.apache.pdfbox.pdmodel.graphics.form.PDTransparencyGroup(org.apache.pdfbox.cos.COSStream,org.apache.pdfbox.pdmodel.ResourceCache)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroup.html#org.apache.pdfbox.pdmodel.graphics.form.PDTransparencyGroup(org.apache.pdfbox.cos.COSStream,org.apache.pdfbox.pdmodel.ResourceCache)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSStream"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.ResourceCache"/></param>
@@ -84,7 +84,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Form
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroup.html#org.apache.pdfbox.pdmodel.graphics.form.PDTransparencyGroup(org.apache.pdfbox.pdmodel.common.PDStream)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroup.html#org.apache.pdfbox.pdmodel.graphics.form.PDTransparencyGroup(org.apache.pdfbox.pdmodel.common.PDStream)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Common.PDStream"/></param>
         public PDTransparencyGroup(Org.Apache.Pdfbox.Pdmodel.Common.PDStream arg0)
@@ -92,7 +92,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Form
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroup.html#org.apache.pdfbox.pdmodel.graphics.form.PDTransparencyGroup(org.apache.pdfbox.pdmodel.PDDocument)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroup.html#org.apache.pdfbox.pdmodel.graphics.form.PDTransparencyGroup(org.apache.pdfbox.pdmodel.PDDocument)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         public PDTransparencyGroup(Org.Apache.Pdfbox.Pdmodel.PDDocument arg0)

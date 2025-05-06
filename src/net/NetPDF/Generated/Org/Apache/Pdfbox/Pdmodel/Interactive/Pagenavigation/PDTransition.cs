@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Pagenavigation
 {
     #region PDTransition declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html"/>
     /// </summary>
     public partial class PDTransition : Org.Apache.Pdfbox.Pdmodel.Common.PDDictionaryWrapper
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Pagenavigation
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDTransition(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDTransition(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDTransition(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -83,7 +83,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Pagenavigation
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDTransition(org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDTransitionStyle)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDTransition(org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDTransitionStyle)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Pagenavigation.PDTransitionStyle"/></param>
         public PDTransition(Org.Apache.Pdfbox.Pdmodel.Interactive.Pagenavigation.PDTransitionStyle arg0)
@@ -107,49 +107,49 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Pagenavigation
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#getDimension--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#setDimension-org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDTransitionDimension-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#getDimension--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#setDimension-org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDTransitionDimension-"/>
         /// </summary>
         public Java.Lang.String Dimension
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getDimension", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setDimension", "(Lorg/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransitionDimension;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#getDirection--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#setDirection-org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDTransitionDirection-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#getDirection--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#setDirection-org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDTransitionDirection-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase Direction
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getDirection", "()Lorg/apache/pdfbox/cos/COSBase;"); } set { IExecuteWithSignature("setDirection", "(Lorg/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransitionDirection;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#getDuration--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#setDuration-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#getDuration--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#setDuration-float-"/>
         /// </summary>
         public float Duration
         {
             get { return IExecuteWithSignature<float>("getDuration", "()F"); } set { IExecuteWithSignature("setDuration", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#getFlyScale--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#setFlyScale-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#getFlyScale--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#setFlyScale-float-"/>
         /// </summary>
         public float FlyScale
         {
             get { return IExecuteWithSignature<float>("getFlyScale", "()F"); } set { IExecuteWithSignature("setFlyScale", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#getMotion--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#setMotion-org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDTransitionMotion-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#getMotion--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#setMotion-org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDTransitionMotion-"/>
         /// </summary>
         public Java.Lang.String Motion
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getMotion", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setMotion", "(Lorg/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransitionMotion;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#getStyle--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#getStyle--"/> 
         /// </summary>
         public Java.Lang.String Style
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getStyle", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#isFlyAreaOpaque--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#isFlyAreaOpaque--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsFlyAreaOpaque()
@@ -157,7 +157,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Pagenavigation
             return IExecuteWithSignature<bool>("isFlyAreaOpaque", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#setFlyAreaOpaque-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition.html#setFlyAreaOpaque-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetFlyAreaOpaque(bool arg0)

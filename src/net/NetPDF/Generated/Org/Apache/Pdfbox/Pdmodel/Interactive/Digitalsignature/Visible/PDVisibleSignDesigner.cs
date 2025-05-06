@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
 {
     #region PDVisibleSignDesigner declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html"/>
     /// </summary>
     public partial class PDVisibleSignDesigner : MASES.JCOBridge.C2JBridge.JVMBridgeBase<PDVisibleSignDesigner>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSignDesigner(java.io.InputStream)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSignDesigner(java.io.InputStream)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.InputStream"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -84,7 +84,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSignDesigner(java.lang.String,java.awt.image.BufferedImage,int)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSignDesigner(java.lang.String,java.awt.image.BufferedImage,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Awt.ImageNs.BufferedImage"/></param>
@@ -95,7 +95,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSignDesigner(java.lang.String,java.io.InputStream,int)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSignDesigner(java.lang.String,java.io.InputStream,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Io.InputStream"/></param>
@@ -106,7 +106,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSignDesigner(org.apache.pdfbox.io.RandomAccessRead,java.awt.image.BufferedImage,int)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSignDesigner(org.apache.pdfbox.io.RandomAccessRead,java.awt.image.BufferedImage,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Io.RandomAccessRead"/></param>
         /// <param name="arg1"><see cref="Java.Awt.ImageNs.BufferedImage"/></param>
@@ -117,7 +117,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSignDesigner(org.apache.pdfbox.io.RandomAccessRead,java.io.InputStream,int)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSignDesigner(org.apache.pdfbox.io.RandomAccessRead,java.io.InputStream,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Io.RandomAccessRead"/></param>
         /// <param name="arg1"><see cref="Java.Io.InputStream"/></param>
@@ -128,7 +128,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSignDesigner(org.apache.pdfbox.pdmodel.PDDocument,java.awt.image.BufferedImage,int)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSignDesigner(org.apache.pdfbox.pdmodel.PDDocument,java.awt.image.BufferedImage,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <param name="arg1"><see cref="Java.Awt.ImageNs.BufferedImage"/></param>
@@ -138,7 +138,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSignDesigner(org.apache.pdfbox.pdmodel.PDDocument,java.io.InputStream,int)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSignDesigner(org.apache.pdfbox.pdmodel.PDDocument,java.io.InputStream,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <param name="arg1"><see cref="Java.Io.InputStream"/></param>
@@ -165,21 +165,21 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#getImage--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#getImage--"/> 
         /// </summary>
         public Java.Awt.ImageNs.BufferedImage Image
         {
             get { return IExecuteWithSignature<Java.Awt.ImageNs.BufferedImage>("getImage", "()Ljava/awt/image/BufferedImage;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#getPageHeight--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#getPageHeight--"/> 
         /// </summary>
         public float PageHeight
         {
             get { return IExecuteWithSignature<float>("getPageHeight", "()F"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#getHeight--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#getHeight--"/>
         /// </summary>
         /// <returns><see cref="float"/></returns>
         public float GetHeight()
@@ -187,7 +187,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
             return IExecuteWithSignature<float>("getHeight", "()F");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#getImageSizeInPercents--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#getImageSizeInPercents--"/>
         /// </summary>
         /// <returns><see cref="float"/></returns>
         public float GetImageSizeInPercents()
@@ -195,7 +195,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
             return IExecuteWithSignature<float>("getImageSizeInPercents", "()F");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#getPageWidth--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#getPageWidth--"/>
         /// </summary>
         /// <returns><see cref="float"/></returns>
         public float GetPageWidth()
@@ -203,7 +203,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
             return IExecuteWithSignature<float>("getPageWidth", "()F");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#getWidth--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#getWidth--"/>
         /// </summary>
         /// <returns><see cref="float"/></returns>
         public float GetWidth()
@@ -211,7 +211,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
             return IExecuteWithSignature<float>("getWidth", "()F");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#getxAxis--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#getxAxis--"/>
         /// </summary>
         /// <returns><see cref="float"/></returns>
         public float GetxAxis()
@@ -219,7 +219,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
             return IExecuteWithSignature<float>("getxAxis", "()F");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#getyAxis--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#getyAxis--"/>
         /// </summary>
         /// <returns><see cref="float"/></returns>
         public float GetyAxis()
@@ -227,7 +227,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
             return IExecuteWithSignature<float>("getyAxis", "()F");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#getFormatterRectangleParameters--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#getFormatterRectangleParameters--"/>
         /// </summary>
         /// <returns><see cref="int"/></returns>
         public int[] GetFormatterRectangleParameters()
@@ -235,7 +235,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
             return IExecuteWithSignatureArray<int>("getFormatterRectangleParameters", "()[I");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#getTransform--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#getTransform--"/>
         /// </summary>
         /// <returns><see cref="Java.Awt.Geom.AffineTransform"/></returns>
         public Java.Awt.Geom.AffineTransform GetTransform()
@@ -243,7 +243,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
             return IExecuteWithSignature<Java.Awt.Geom.AffineTransform>("getTransform", "()Ljava/awt/geom/AffineTransform;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#getSignatureFieldName--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#getSignatureFieldName--"/>
         /// </summary>
         /// <returns><see cref="Java.Lang.String"/></returns>
         public Java.Lang.String GetSignatureFieldName()
@@ -251,7 +251,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
             return IExecuteWithSignature<Java.Lang.String>("getSignatureFieldName", "()Ljava/lang/String;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#getSignatureText--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#getSignatureText--"/>
         /// </summary>
         /// <returns><see cref="Java.Lang.String"/></returns>
         public Java.Lang.String GetSignatureText()
@@ -259,7 +259,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
             return IExecuteWithSignature<Java.Lang.String>("getSignatureText", "()Ljava/lang/String;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#adjustForRotation--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#adjustForRotation--"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSignDesigner"/></returns>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSignDesigner AdjustForRotation()
@@ -267,7 +267,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSignDesigner>("adjustForRotation", "()Lorg/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#coordinates-float-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#coordinates-float-float-"/>
         /// </summary>
         /// <param name="arg0"><see cref="float"/></param>
         /// <param name="arg1"><see cref="float"/></param>
@@ -277,7 +277,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSignDesigner>("coordinates", "(FF)Lorg/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#formatterRectangleParameters-int[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#formatterRectangleParameters-int[]-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSignDesigner"/></returns>
@@ -286,7 +286,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSignDesigner>("formatterRectangleParameters", "([I)Lorg/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner;", new object[] { arg0 });
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#height-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#height-float-"/>
         /// </summary>
         /// <param name="arg0"><see cref="float"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSignDesigner"/></returns>
@@ -295,7 +295,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSignDesigner>("height", "(F)Lorg/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#pageWidth-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#pageWidth-float-"/>
         /// </summary>
         /// <param name="arg0"><see cref="float"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSignDesigner"/></returns>
@@ -304,7 +304,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSignDesigner>("pageWidth", "(F)Lorg/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#signatureFieldName-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#signatureFieldName-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSignDesigner"/></returns>
@@ -313,7 +313,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSignDesigner>("signatureFieldName", "(Ljava/lang/String;)Lorg/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#signatureImage-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#signatureImage-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSignDesigner"/></returns>
@@ -323,7 +323,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSignDesigner>("signatureImage", "(Ljava/lang/String;)Lorg/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#signatureText-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#signatureText-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSignDesigner"/></returns>
@@ -332,7 +332,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSignDesigner>("signatureText", "(Ljava/lang/String;)Lorg/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#transform-java.awt.geom.AffineTransform-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#transform-java.awt.geom.AffineTransform-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Awt.Geom.AffineTransform"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSignDesigner"/></returns>
@@ -341,7 +341,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSignDesigner>("transform", "(Ljava/awt/geom/AffineTransform;)Lorg/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#width-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#width-float-"/>
         /// </summary>
         /// <param name="arg0"><see cref="float"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSignDesigner"/></returns>
@@ -350,7 +350,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSignDesigner>("width", "(F)Lorg/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#xAxis-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#xAxis-float-"/>
         /// </summary>
         /// <param name="arg0"><see cref="float"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSignDesigner"/></returns>
@@ -359,7 +359,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSignDesigner>("xAxis", "(F)Lorg/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#yAxis-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#yAxis-float-"/>
         /// </summary>
         /// <param name="arg0"><see cref="float"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSignDesigner"/></returns>
@@ -368,7 +368,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSignDesigner>("yAxis", "(F)Lorg/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#zoom-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#zoom-float-"/>
         /// </summary>
         /// <param name="arg0"><see cref="float"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSignDesigner"/></returns>
@@ -377,7 +377,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSignDesigner>("zoom", "(F)Lorg/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#imageSizeInPercents-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDVisibleSignDesigner.html#imageSizeInPercents-float-"/>
         /// </summary>
         /// <param name="arg0"><see cref="float"/></param>
         public void ImageSizeInPercents(float arg0)

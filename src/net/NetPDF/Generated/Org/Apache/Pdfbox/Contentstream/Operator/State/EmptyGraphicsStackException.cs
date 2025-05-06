@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator.State
 {
     #region EmptyGraphicsStackException declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/state/EmptyGraphicsStackException.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/state/EmptyGraphicsStackException.html"/>
     /// </summary>
     public partial class EmptyGraphicsStackException : Java.Io.IOException
     {

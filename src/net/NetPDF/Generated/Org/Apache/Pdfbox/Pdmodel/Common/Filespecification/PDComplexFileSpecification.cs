@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Filespecification
 {
     #region PDComplexFileSpecification declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html"/>
     /// </summary>
     public partial class PDComplexFileSpecification : Org.Apache.Pdfbox.Pdmodel.Common.Filespecification.PDFileSpecification
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Filespecification
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#org.apache.pdfbox.pdmodel.common.filespecification.PDComplexFileSpecification(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#org.apache.pdfbox.pdmodel.common.filespecification.PDComplexFileSpecification(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDComplexFileSpecification(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -99,84 +99,84 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Filespecification
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#getEmbeddedFile--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#setEmbeddedFile-org.apache.pdfbox.pdmodel.common.filespecification.PDEmbeddedFile-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#getEmbeddedFile--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#setEmbeddedFile-org.apache.pdfbox.pdmodel.common.filespecification.PDEmbeddedFile-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.Filespecification.PDEmbeddedFile EmbeddedFile
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.Filespecification.PDEmbeddedFile>("getEmbeddedFile", "()Lorg/apache/pdfbox/pdmodel/common/filespecification/PDEmbeddedFile;"); } set { IExecuteWithSignature("setEmbeddedFile", "(Lorg/apache/pdfbox/pdmodel/common/filespecification/PDEmbeddedFile;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#getEmbeddedFileDos--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#getEmbeddedFileDos--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.Filespecification.PDEmbeddedFile EmbeddedFileDos
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.Filespecification.PDEmbeddedFile>("getEmbeddedFileDos", "()Lorg/apache/pdfbox/pdmodel/common/filespecification/PDEmbeddedFile;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#getEmbeddedFileMac--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#getEmbeddedFileMac--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.Filespecification.PDEmbeddedFile EmbeddedFileMac
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.Filespecification.PDEmbeddedFile>("getEmbeddedFileMac", "()Lorg/apache/pdfbox/pdmodel/common/filespecification/PDEmbeddedFile;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#getEmbeddedFileUnicode--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#setEmbeddedFileUnicode-org.apache.pdfbox.pdmodel.common.filespecification.PDEmbeddedFile-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#getEmbeddedFileUnicode--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#setEmbeddedFileUnicode-org.apache.pdfbox.pdmodel.common.filespecification.PDEmbeddedFile-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.Filespecification.PDEmbeddedFile EmbeddedFileUnicode
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.Filespecification.PDEmbeddedFile>("getEmbeddedFileUnicode", "()Lorg/apache/pdfbox/pdmodel/common/filespecification/PDEmbeddedFile;"); } set { IExecuteWithSignature("setEmbeddedFileUnicode", "(Lorg/apache/pdfbox/pdmodel/common/filespecification/PDEmbeddedFile;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#getEmbeddedFileUnix--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#getEmbeddedFileUnix--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.Filespecification.PDEmbeddedFile EmbeddedFileUnix
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.Filespecification.PDEmbeddedFile>("getEmbeddedFileUnix", "()Lorg/apache/pdfbox/pdmodel/common/filespecification/PDEmbeddedFile;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#getFileDescription--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#setFileDescription-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#getFileDescription--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#setFileDescription-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String FileDescription
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getFileDescription", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setFileDescription", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#getFileDos--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#getFileDos--"/> 
         /// </summary>
         public Java.Lang.String FileDos
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getFileDos", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#getFileMac--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#getFileMac--"/> 
         /// </summary>
         public Java.Lang.String FileMac
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getFileMac", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#getFilename--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#getFilename--"/> 
         /// </summary>
         public Java.Lang.String Filename
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getFilename", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#getFileUnicode--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#setFileUnicode-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#getFileUnicode--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#setFileUnicode-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String FileUnicode
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getFileUnicode", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setFileUnicode", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#getFileUnix--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#getFileUnix--"/> 
         /// </summary>
         public Java.Lang.String FileUnix
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getFileUnix", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#isVolatile--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#isVolatile--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsVolatile()
@@ -184,7 +184,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Filespecification
             return IExecuteWithSignature<bool>("isVolatile", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#setVolatile-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/filespecification/PDComplexFileSpecification.html#setVolatile-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetVolatile(bool arg0)

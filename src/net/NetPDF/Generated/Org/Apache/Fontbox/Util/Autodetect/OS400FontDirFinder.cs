@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Util.Autodetect
 {
     #region OS400FontDirFinder declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/util/autodetect/OS400FontDirFinder.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/util/autodetect/OS400FontDirFinder.html"/>
     /// </summary>
     public partial class OS400FontDirFinder : Org.Apache.Fontbox.Util.Autodetect.NativeFontDirFinder
     {

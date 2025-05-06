@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Cos
 {
     #region COSNull declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSNull.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSNull.html"/>
     /// </summary>
     public partial class COSNull : Org.Apache.Pdfbox.Cos.COSBase
     {
@@ -83,13 +83,13 @@ namespace Org.Apache.Pdfbox.Cos
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSNull.html#NULL_BYTES"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSNull.html#NULL_BYTES"/>
         /// </summary>
         public static byte[] NULL_BYTES { get { if (!_NULL_BYTESReady) { _NULL_BYTESContent = SGetFieldArray<byte>(LocalBridgeClazz, "NULL_BYTES"); _NULL_BYTESReady = true; } return _NULL_BYTESContent; } }
         private static byte[] _NULL_BYTESContent = default;
         private static bool _NULL_BYTESReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSNull.html#NULL"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSNull.html#NULL"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSNull NULL { get { if (!_NULLReady) { _NULLContent = SGetField<Org.Apache.Pdfbox.Cos.COSNull>(LocalBridgeClazz, "NULL"); _NULLReady = true; } return _NULLContent; } }
         private static Org.Apache.Pdfbox.Cos.COSNull _NULLContent = default;
@@ -103,7 +103,7 @@ namespace Org.Apache.Pdfbox.Cos
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSNull.html#writePDF-java.io.OutputStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSNull.html#writePDF-java.io.OutputStream-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.OutputStream"/></param>
         /// <exception cref="Java.Io.IOException"/>

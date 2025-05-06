@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
 {
     #region PDDeviceCMYK declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceCMYK.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceCMYK.html"/>
     /// </summary>
     public partial class PDDeviceCMYK : Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDDeviceColorSpace
     {
@@ -83,7 +83,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceCMYK.html#INSTANCE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceCMYK.html#INSTANCE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDDeviceCMYK INSTANCE { get { return SGetField<Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDDeviceCMYK>(LocalBridgeClazz, "INSTANCE"); } set { SSetField(LocalBridgeClazz, "INSTANCE", value); } }
 

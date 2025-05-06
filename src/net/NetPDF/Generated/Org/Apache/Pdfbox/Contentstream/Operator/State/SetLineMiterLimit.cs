@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator.State
 {
     #region SetLineMiterLimit declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/state/SetLineMiterLimit.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/state/SetLineMiterLimit.html"/>
     /// </summary>
     public partial class SetLineMiterLimit : Org.Apache.Pdfbox.Contentstream.Operator.OperatorProcessor
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator.State
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/state/SetLineMiterLimit.html#org.apache.pdfbox.contentstream.operator.state.SetLineMiterLimit(org.apache.pdfbox.contentstream.PDFStreamEngine)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/state/SetLineMiterLimit.html#org.apache.pdfbox.contentstream.operator.state.SetLineMiterLimit(org.apache.pdfbox.contentstream.PDFStreamEngine)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Contentstream.PDFStreamEngine"/></param>
         public SetLineMiterLimit(Org.Apache.Pdfbox.Contentstream.PDFStreamEngine arg0)

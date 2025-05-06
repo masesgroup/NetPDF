@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Cos
 {
     #region ICOSVisitor declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/ICOSVisitor.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/ICOSVisitor.html"/>
     /// </summary>
     public partial class ICOSVisitor : MASES.JCOBridge.C2JBridge.JVMBridgeBase<ICOSVisitor>
     {
@@ -74,7 +74,7 @@ namespace Org.Apache.Pdfbox.Cos
 
     #region IICOSVisitor
     /// <summary>
-    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/ICOSVisitor.html"/>
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/ICOSVisitor.html"/>
     /// </summary>
     public partial interface IICOSVisitor
     {
@@ -111,7 +111,7 @@ namespace Org.Apache.Pdfbox.Cos
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/ICOSVisitor.html#visitFromArray-org.apache.pdfbox.cos.COSArray-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/ICOSVisitor.html#visitFromArray-org.apache.pdfbox.cos.COSArray-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSArray"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -120,7 +120,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("visitFromArray", "(Lorg/apache/pdfbox/cos/COSArray;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/ICOSVisitor.html#visitFromBoolean-org.apache.pdfbox.cos.COSBoolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/ICOSVisitor.html#visitFromBoolean-org.apache.pdfbox.cos.COSBoolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSBoolean"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -129,7 +129,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("visitFromBoolean", "(Lorg/apache/pdfbox/cos/COSBoolean;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/ICOSVisitor.html#visitFromDictionary-org.apache.pdfbox.cos.COSDictionary-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/ICOSVisitor.html#visitFromDictionary-org.apache.pdfbox.cos.COSDictionary-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -138,7 +138,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("visitFromDictionary", "(Lorg/apache/pdfbox/cos/COSDictionary;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/ICOSVisitor.html#visitFromDocument-org.apache.pdfbox.cos.COSDocument-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/ICOSVisitor.html#visitFromDocument-org.apache.pdfbox.cos.COSDocument-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDocument"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -147,7 +147,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("visitFromDocument", "(Lorg/apache/pdfbox/cos/COSDocument;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/ICOSVisitor.html#visitFromFloat-org.apache.pdfbox.cos.COSFloat-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/ICOSVisitor.html#visitFromFloat-org.apache.pdfbox.cos.COSFloat-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSFloat"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -156,7 +156,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("visitFromFloat", "(Lorg/apache/pdfbox/cos/COSFloat;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/ICOSVisitor.html#visitFromInt-org.apache.pdfbox.cos.COSInteger-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/ICOSVisitor.html#visitFromInt-org.apache.pdfbox.cos.COSInteger-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSInteger"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -165,7 +165,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("visitFromInt", "(Lorg/apache/pdfbox/cos/COSInteger;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/ICOSVisitor.html#visitFromName-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/ICOSVisitor.html#visitFromName-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -174,7 +174,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("visitFromName", "(Lorg/apache/pdfbox/cos/COSName;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/ICOSVisitor.html#visitFromNull-org.apache.pdfbox.cos.COSNull-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/ICOSVisitor.html#visitFromNull-org.apache.pdfbox.cos.COSNull-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSNull"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -183,7 +183,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("visitFromNull", "(Lorg/apache/pdfbox/cos/COSNull;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/ICOSVisitor.html#visitFromStream-org.apache.pdfbox.cos.COSStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/ICOSVisitor.html#visitFromStream-org.apache.pdfbox.cos.COSStream-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSStream"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -192,7 +192,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("visitFromStream", "(Lorg/apache/pdfbox/cos/COSStream;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/ICOSVisitor.html#visitFromString-org.apache.pdfbox.cos.COSString-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/ICOSVisitor.html#visitFromString-org.apache.pdfbox.cos.COSString-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSString"/></param>
         /// <exception cref="Java.Io.IOException"/>

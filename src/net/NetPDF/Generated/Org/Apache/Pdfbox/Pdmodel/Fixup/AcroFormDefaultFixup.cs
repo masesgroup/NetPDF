@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fixup
 {
     #region AcroFormDefaultFixup declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fixup/AcroFormDefaultFixup.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fixup/AcroFormDefaultFixup.html"/>
     /// </summary>
     public partial class AcroFormDefaultFixup : Org.Apache.Pdfbox.Pdmodel.Fixup.AbstractFixup
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fixup
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fixup/AcroFormDefaultFixup.html#org.apache.pdfbox.pdmodel.fixup.AcroFormDefaultFixup(org.apache.pdfbox.pdmodel.PDDocument)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fixup/AcroFormDefaultFixup.html#org.apache.pdfbox.pdmodel.fixup.AcroFormDefaultFixup(org.apache.pdfbox.pdmodel.PDDocument)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         public AcroFormDefaultFixup(Org.Apache.Pdfbox.Pdmodel.PDDocument arg0)

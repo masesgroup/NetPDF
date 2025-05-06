@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf
 {
     #region GlyphSubstitutionTable declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyphSubstitutionTable.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyphSubstitutionTable.html"/>
     /// </summary>
     public partial class GlyphSubstitutionTable : Org.Apache.Fontbox.Ttf.TTFTable
     {
@@ -83,7 +83,7 @@ namespace Org.Apache.Fontbox.Ttf
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyphSubstitutionTable.html#TAG"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyphSubstitutionTable.html#TAG"/>
         /// </summary>
         public static Java.Lang.String TAG { get { if (!_TAGReady) { _TAGContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "TAG"); _TAGReady = true; } return _TAGContent; } }
         private static Java.Lang.String _TAGContent = default;
@@ -97,21 +97,21 @@ namespace Org.Apache.Fontbox.Ttf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyphSubstitutionTable.html#getGsubData--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyphSubstitutionTable.html#getGsubData--"/> 
         /// </summary>
         public Org.Apache.Fontbox.Ttf.Model.GsubData GsubData
         {
             get { return IExecuteWithSignature<Org.Apache.Fontbox.Ttf.Model.GsubData>("getGsubData", "()Lorg/apache/fontbox/ttf/model/GsubData;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyphSubstitutionTable.html#getSupportedScriptTags--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyphSubstitutionTable.html#getSupportedScriptTags--"/> 
         /// </summary>
         public Java.Util.Set<Java.Lang.String> SupportedScriptTags
         {
             get { return IExecuteWithSignature<Java.Util.Set<Java.Lang.String>>("getSupportedScriptTags", "()Ljava/util/Set;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyphSubstitutionTable.html#getSubstitution-int-java.lang.String[]-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyphSubstitutionTable.html#getSubstitution-int-java.lang.String[]-java.util.List-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -122,7 +122,7 @@ namespace Org.Apache.Fontbox.Ttf
             return IExecuteWithSignature<int>("getSubstitution", "(I[Ljava/lang/String;Ljava/util/List;)I", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyphSubstitutionTable.html#getUnsubstitution-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyphSubstitutionTable.html#getUnsubstitution-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="int"/></returns>
@@ -131,7 +131,7 @@ namespace Org.Apache.Fontbox.Ttf
             return IExecuteWithSignature<int>("getUnsubstitution", "(I)I", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyphSubstitutionTable.html#getGsubData-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyphSubstitutionTable.html#getGsubData-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Fontbox.Ttf.Model.GsubData"/></returns>

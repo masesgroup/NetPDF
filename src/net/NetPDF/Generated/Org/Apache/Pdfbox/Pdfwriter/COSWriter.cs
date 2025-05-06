@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter
 {
     #region COSWriter declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html"/>
     /// </summary>
     public partial class COSWriter : Org.Apache.Pdfbox.Cos.ICOSVisitor
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#org.apache.pdfbox.pdfwriter.COSWriter(java.io.OutputStream,org.apache.pdfbox.io.RandomAccessRead,java.util.Set)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#org.apache.pdfbox.pdfwriter.COSWriter(java.io.OutputStream,org.apache.pdfbox.io.RandomAccessRead,java.util.Set)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.OutputStream"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Io.RandomAccessRead"/></param>
@@ -86,7 +86,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#org.apache.pdfbox.pdfwriter.COSWriter(java.io.OutputStream,org.apache.pdfbox.io.RandomAccessRead)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#org.apache.pdfbox.pdfwriter.COSWriter(java.io.OutputStream,org.apache.pdfbox.io.RandomAccessRead)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.OutputStream"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Io.RandomAccessRead"/></param>
@@ -96,7 +96,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#org.apache.pdfbox.pdfwriter.COSWriter(java.io.OutputStream,org.apache.pdfbox.pdfwriter.compress.CompressParameters)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#org.apache.pdfbox.pdfwriter.COSWriter(java.io.OutputStream,org.apache.pdfbox.pdfwriter.compress.CompressParameters)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.OutputStream"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdfwriter.Compress.CompressParameters"/></param>
@@ -105,7 +105,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#org.apache.pdfbox.pdfwriter.COSWriter(java.io.OutputStream)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#org.apache.pdfbox.pdfwriter.COSWriter(java.io.OutputStream)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.OutputStream"/></param>
         public COSWriter(Java.Io.OutputStream arg0)
@@ -121,115 +121,115 @@ namespace Org.Apache.Pdfbox.Pdfwriter
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#ARRAY_CLOSE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#ARRAY_CLOSE"/>
         /// </summary>
         public static byte[] ARRAY_CLOSE { get { if (!_ARRAY_CLOSEReady) { _ARRAY_CLOSEContent = SGetFieldArray<byte>(LocalBridgeClazz, "ARRAY_CLOSE"); _ARRAY_CLOSEReady = true; } return _ARRAY_CLOSEContent; } }
         private static byte[] _ARRAY_CLOSEContent = default;
         private static bool _ARRAY_CLOSEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#ARRAY_OPEN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#ARRAY_OPEN"/>
         /// </summary>
         public static byte[] ARRAY_OPEN { get { if (!_ARRAY_OPENReady) { _ARRAY_OPENContent = SGetFieldArray<byte>(LocalBridgeClazz, "ARRAY_OPEN"); _ARRAY_OPENReady = true; } return _ARRAY_OPENContent; } }
         private static byte[] _ARRAY_OPENContent = default;
         private static bool _ARRAY_OPENReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#COMMENT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#COMMENT"/>
         /// </summary>
         public static byte[] COMMENT { get { if (!_COMMENTReady) { _COMMENTContent = SGetFieldArray<byte>(LocalBridgeClazz, "COMMENT"); _COMMENTReady = true; } return _COMMENTContent; } }
         private static byte[] _COMMENTContent = default;
         private static bool _COMMENTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#DICT_CLOSE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#DICT_CLOSE"/>
         /// </summary>
         public static byte[] DICT_CLOSE { get { if (!_DICT_CLOSEReady) { _DICT_CLOSEContent = SGetFieldArray<byte>(LocalBridgeClazz, "DICT_CLOSE"); _DICT_CLOSEReady = true; } return _DICT_CLOSEContent; } }
         private static byte[] _DICT_CLOSEContent = default;
         private static bool _DICT_CLOSEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#DICT_OPEN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#DICT_OPEN"/>
         /// </summary>
         public static byte[] DICT_OPEN { get { if (!_DICT_OPENReady) { _DICT_OPENContent = SGetFieldArray<byte>(LocalBridgeClazz, "DICT_OPEN"); _DICT_OPENReady = true; } return _DICT_OPENContent; } }
         private static byte[] _DICT_OPENContent = default;
         private static bool _DICT_OPENReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#ENDOBJ"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#ENDOBJ"/>
         /// </summary>
         public static byte[] ENDOBJ { get { if (!_ENDOBJReady) { _ENDOBJContent = SGetFieldArray<byte>(LocalBridgeClazz, "ENDOBJ"); _ENDOBJReady = true; } return _ENDOBJContent; } }
         private static byte[] _ENDOBJContent = default;
         private static bool _ENDOBJReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#ENDSTREAM"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#ENDSTREAM"/>
         /// </summary>
         public static byte[] ENDSTREAM { get { if (!_ENDSTREAMReady) { _ENDSTREAMContent = SGetFieldArray<byte>(LocalBridgeClazz, "ENDSTREAM"); _ENDSTREAMReady = true; } return _ENDSTREAMContent; } }
         private static byte[] _ENDSTREAMContent = default;
         private static bool _ENDSTREAMReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#EOF"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#EOF"/>
         /// </summary>
         public static byte[] EOF { get { if (!_EOFReady) { _EOFContent = SGetFieldArray<byte>(LocalBridgeClazz, "EOF"); _EOFReady = true; } return _EOFContent; } }
         private static byte[] _EOFContent = default;
         private static bool _EOFReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#GARBAGE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#GARBAGE"/>
         /// </summary>
         public static byte[] GARBAGE { get { if (!_GARBAGEReady) { _GARBAGEContent = SGetFieldArray<byte>(LocalBridgeClazz, "GARBAGE"); _GARBAGEReady = true; } return _GARBAGEContent; } }
         private static byte[] _GARBAGEContent = default;
         private static bool _GARBAGEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#OBJ"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#OBJ"/>
         /// </summary>
         public static byte[] OBJ { get { if (!_OBJReady) { _OBJContent = SGetFieldArray<byte>(LocalBridgeClazz, "OBJ"); _OBJReady = true; } return _OBJContent; } }
         private static byte[] _OBJContent = default;
         private static bool _OBJReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#REFERENCE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#REFERENCE"/>
         /// </summary>
         public static byte[] REFERENCE { get { if (!_REFERENCEReady) { _REFERENCEContent = SGetFieldArray<byte>(LocalBridgeClazz, "REFERENCE"); _REFERENCEReady = true; } return _REFERENCEContent; } }
         private static byte[] _REFERENCEContent = default;
         private static bool _REFERENCEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#SPACE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#SPACE"/>
         /// </summary>
         public static byte[] SPACE { get { if (!_SPACEReady) { _SPACEContent = SGetFieldArray<byte>(LocalBridgeClazz, "SPACE"); _SPACEReady = true; } return _SPACEContent; } }
         private static byte[] _SPACEContent = default;
         private static bool _SPACEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#STARTXREF"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#STARTXREF"/>
         /// </summary>
         public static byte[] STARTXREF { get { if (!_STARTXREFReady) { _STARTXREFContent = SGetFieldArray<byte>(LocalBridgeClazz, "STARTXREF"); _STARTXREFReady = true; } return _STARTXREFContent; } }
         private static byte[] _STARTXREFContent = default;
         private static bool _STARTXREFReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#STREAM"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#STREAM"/>
         /// </summary>
         public static byte[] STREAM { get { if (!_STREAMReady) { _STREAMContent = SGetFieldArray<byte>(LocalBridgeClazz, "STREAM"); _STREAMReady = true; } return _STREAMContent; } }
         private static byte[] _STREAMContent = default;
         private static bool _STREAMReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#TRAILER"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#TRAILER"/>
         /// </summary>
         public static byte[] TRAILER { get { if (!_TRAILERReady) { _TRAILERContent = SGetFieldArray<byte>(LocalBridgeClazz, "TRAILER"); _TRAILERReady = true; } return _TRAILERContent; } }
         private static byte[] _TRAILERContent = default;
         private static bool _TRAILERReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#VERSION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#VERSION"/>
         /// </summary>
         public static byte[] VERSION { get { if (!_VERSIONReady) { _VERSIONContent = SGetFieldArray<byte>(LocalBridgeClazz, "VERSION"); _VERSIONReady = true; } return _VERSIONContent; } }
         private static byte[] _VERSIONContent = default;
         private static bool _VERSIONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#XREF"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#XREF"/>
         /// </summary>
         public static byte[] XREF { get { if (!_XREFReady) { _XREFContent = SGetFieldArray<byte>(LocalBridgeClazz, "XREF"); _XREFReady = true; } return _XREFContent; } }
         private static byte[] _XREFContent = default;
         private static bool _XREFReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#XREF_FREE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#XREF_FREE"/>
         /// </summary>
         public static byte[] XREF_FREE { get { if (!_XREF_FREEReady) { _XREF_FREEContent = SGetFieldArray<byte>(LocalBridgeClazz, "XREF_FREE"); _XREF_FREEReady = true; } return _XREF_FREEContent; } }
         private static byte[] _XREF_FREEContent = default;
         private static bool _XREF_FREEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#XREF_USED"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#XREF_USED"/>
         /// </summary>
         public static byte[] XREF_USED { get { if (!_XREF_USEDReady) { _XREF_USEDContent = SGetFieldArray<byte>(LocalBridgeClazz, "XREF_USED"); _XREF_USEDReady = true; } return _XREF_USEDContent; } }
         private static byte[] _XREF_USEDContent = default;
@@ -239,7 +239,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#writeString-byte[]-java.io.OutputStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#writeString-byte[]-java.io.OutputStream-"/>
         /// </summary>
         /// <param name="arg0"><see cref="byte"/></param>
         /// <param name="arg1"><see cref="Java.Io.OutputStream"/></param>
@@ -249,7 +249,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter
             SExecuteWithSignature(LocalBridgeClazz, "writeString", "([BLjava/io/OutputStream;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#writeString-org.apache.pdfbox.cos.COSString-java.io.OutputStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#writeString-org.apache.pdfbox.cos.COSString-java.io.OutputStream-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSString"/></param>
         /// <param name="arg1"><see cref="Java.Io.OutputStream"/></param>
@@ -263,14 +263,14 @@ namespace Org.Apache.Pdfbox.Pdfwriter
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#getDataToSign--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#getDataToSign--"/> 
         /// </summary>
         public Java.Io.InputStream DataToSign
         {
             get { return IExecuteWithSignature<Java.Io.InputStream>("getDataToSign", "()Ljava/io/InputStream;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#isCompress--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#isCompress--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsCompress()
@@ -278,7 +278,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter
             return IExecuteWithSignature<bool>("isCompress", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#doWriteObject-org.apache.pdfbox.cos.COSBase-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#doWriteObject-org.apache.pdfbox.cos.COSBase-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -287,7 +287,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter
             IExecuteWithSignature("doWriteObject", "(Lorg/apache/pdfbox/cos/COSBase;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#doWriteObject-org.apache.pdfbox.cos.COSObjectKey-org.apache.pdfbox.cos.COSBase-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#doWriteObject-org.apache.pdfbox.cos.COSObjectKey-org.apache.pdfbox.cos.COSBase-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSObjectKey"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></param>
@@ -297,7 +297,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter
             IExecuteWithSignature("doWriteObject", "(Lorg/apache/pdfbox/cos/COSObjectKey;Lorg/apache/pdfbox/cos/COSBase;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromArray-org.apache.pdfbox.cos.COSArray-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromArray-org.apache.pdfbox.cos.COSArray-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSArray"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -306,7 +306,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter
             IExecuteWithSignature("visitFromArray", "(Lorg/apache/pdfbox/cos/COSArray;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromBoolean-org.apache.pdfbox.cos.COSBoolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromBoolean-org.apache.pdfbox.cos.COSBoolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSBoolean"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -315,7 +315,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter
             IExecuteWithSignature("visitFromBoolean", "(Lorg/apache/pdfbox/cos/COSBoolean;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromDictionary-org.apache.pdfbox.cos.COSDictionary-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromDictionary-org.apache.pdfbox.cos.COSDictionary-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -324,7 +324,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter
             IExecuteWithSignature("visitFromDictionary", "(Lorg/apache/pdfbox/cos/COSDictionary;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromDocument-org.apache.pdfbox.cos.COSDocument-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromDocument-org.apache.pdfbox.cos.COSDocument-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDocument"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -333,7 +333,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter
             IExecuteWithSignature("visitFromDocument", "(Lorg/apache/pdfbox/cos/COSDocument;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromFloat-org.apache.pdfbox.cos.COSFloat-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromFloat-org.apache.pdfbox.cos.COSFloat-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSFloat"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -342,7 +342,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter
             IExecuteWithSignature("visitFromFloat", "(Lorg/apache/pdfbox/cos/COSFloat;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromInt-org.apache.pdfbox.cos.COSInteger-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromInt-org.apache.pdfbox.cos.COSInteger-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSInteger"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -351,7 +351,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter
             IExecuteWithSignature("visitFromInt", "(Lorg/apache/pdfbox/cos/COSInteger;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromName-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromName-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -360,7 +360,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter
             IExecuteWithSignature("visitFromName", "(Lorg/apache/pdfbox/cos/COSName;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromNull-org.apache.pdfbox.cos.COSNull-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromNull-org.apache.pdfbox.cos.COSNull-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSNull"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -369,7 +369,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter
             IExecuteWithSignature("visitFromNull", "(Lorg/apache/pdfbox/cos/COSNull;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromStream-org.apache.pdfbox.cos.COSStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromStream-org.apache.pdfbox.cos.COSStream-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSStream"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -378,7 +378,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter
             IExecuteWithSignature("visitFromStream", "(Lorg/apache/pdfbox/cos/COSStream;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromString-org.apache.pdfbox.cos.COSString-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromString-org.apache.pdfbox.cos.COSString-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSString"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -387,7 +387,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter
             IExecuteWithSignature("visitFromString", "(Lorg/apache/pdfbox/cos/COSString;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#write-org.apache.pdfbox.cos.COSDocument-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#write-org.apache.pdfbox.cos.COSDocument-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDocument"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -396,7 +396,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter
             IExecuteWithSignature("write", "(Lorg/apache/pdfbox/cos/COSDocument;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#write-org.apache.pdfbox.pdmodel.fdf.FDFDocument-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#write-org.apache.pdfbox.pdmodel.fdf.FDFDocument-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFDocument"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -405,7 +405,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter
             IExecuteWithSignature("write", "(Lorg/apache/pdfbox/pdmodel/fdf/FDFDocument;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#write-org.apache.pdfbox.pdmodel.PDDocument-org.apache.pdfbox.pdmodel.interactive.digitalsignature.SignatureInterface-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#write-org.apache.pdfbox.pdmodel.PDDocument-org.apache.pdfbox.pdmodel.interactive.digitalsignature.SignatureInterface-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.SignatureInterface"/></param>
@@ -415,7 +415,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter
             IExecuteWithSignature("write", "(Lorg/apache/pdfbox/pdmodel/PDDocument;Lorg/apache/pdfbox/pdmodel/interactive/digitalsignature/SignatureInterface;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#write-org.apache.pdfbox.pdmodel.PDDocument-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#write-org.apache.pdfbox.pdmodel.PDDocument-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -424,7 +424,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter
             IExecuteWithSignature("write", "(Lorg/apache/pdfbox/pdmodel/PDDocument;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#writeExternalSignature-byte[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#writeExternalSignature-byte[]-"/>
         /// </summary>
         /// <param name="arg0"><see cref="byte"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -433,7 +433,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter
             IExecuteWithSignature("writeExternalSignature", "([B)V", new object[] { arg0 });
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/COSWriter.html#writeReference-org.apache.pdfbox.cos.COSBase-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#writeReference-org.apache.pdfbox.cos.COSBase-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></param>
         /// <exception cref="Java.Io.IOException"/>

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
 {
     #region PDDestinationNameTreeNode declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDestinationNameTreeNode.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDestinationNameTreeNode.html"/>
     /// </summary>
     public partial class PDDestinationNameTreeNode : Org.Apache.Pdfbox.Pdmodel.Common.PDNameTreeNode<Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination.PDPageDestination>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDestinationNameTreeNode.html#org.apache.pdfbox.pdmodel.PDDestinationNameTreeNode(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDestinationNameTreeNode.html#org.apache.pdfbox.pdmodel.PDDestinationNameTreeNode(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDDestinationNameTreeNode(Org.Apache.Pdfbox.Cos.COSDictionary arg0)

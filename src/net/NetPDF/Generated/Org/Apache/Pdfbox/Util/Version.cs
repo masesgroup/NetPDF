@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Util
 {
     #region Version declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/util/Version.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/util/Version.html"/>
     /// </summary>
     public partial class Version : MASES.JCOBridge.C2JBridge.JVMBridgeBase<Version>
     {
@@ -87,7 +87,7 @@ namespace Org.Apache.Pdfbox.Util
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/util/Version.html#getVersion--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/util/Version.html#getVersion--"/> 
         /// </summary>
         public static Java.Lang.String GetVersion
         {

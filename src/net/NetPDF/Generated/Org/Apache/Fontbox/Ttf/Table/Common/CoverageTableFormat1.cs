@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf.Table.Common
 {
     #region CoverageTableFormat1 declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/common/CoverageTableFormat1.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/common/CoverageTableFormat1.html"/>
     /// </summary>
     public partial class CoverageTableFormat1 : Org.Apache.Fontbox.Ttf.Table.Common.CoverageTable
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Fontbox.Ttf.Table.Common
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/common/CoverageTableFormat1.html#org.apache.fontbox.ttf.table.common.CoverageTableFormat1(int,int[])"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/common/CoverageTableFormat1.html#org.apache.fontbox.ttf.table.common.CoverageTableFormat1(int,int[])"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -100,7 +100,7 @@ namespace Org.Apache.Fontbox.Ttf.Table.Common
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/common/CoverageTableFormat1.html#getGlyphArray--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/common/CoverageTableFormat1.html#getGlyphArray--"/> 
         /// </summary>
         public int[] GlyphArray
         {

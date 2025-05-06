@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
 {
     #region PDAnnotationMarkup declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html"/>
     /// </summary>
     public partial class PDAnnotationMarkup : Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotation
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationMarkup(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationMarkup(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDAnnotationMarkup(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -91,13 +91,13 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#RT_GROUP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#RT_GROUP"/>
         /// </summary>
         public static Java.Lang.String RT_GROUP { get { if (!_RT_GROUPReady) { _RT_GROUPContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "RT_GROUP"); _RT_GROUPReady = true; } return _RT_GROUPContent; } }
         private static Java.Lang.String _RT_GROUPContent = default;
         private static bool _RT_GROUPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#RT_REPLY"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#RT_REPLY"/>
         /// </summary>
         public static Java.Lang.String RT_REPLY { get { if (!_RT_REPLYReady) { _RT_REPLYContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "RT_REPLY"); _RT_REPLYReady = true; } return _RT_REPLYContent; } }
         private static Java.Lang.String _RT_REPLYContent = default;
@@ -111,77 +111,77 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#getBorderStyle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#setBorderStyle-org.apache.pdfbox.pdmodel.interactive.annotation.PDBorderStyleDictionary-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#getBorderStyle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#setBorderStyle-org.apache.pdfbox.pdmodel.interactive.annotation.PDBorderStyleDictionary-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDBorderStyleDictionary BorderStyle
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDBorderStyleDictionary>("getBorderStyle", "()Lorg/apache/pdfbox/pdmodel/interactive/annotation/PDBorderStyleDictionary;"); } set { IExecuteWithSignature("setBorderStyle", "(Lorg/apache/pdfbox/pdmodel/interactive/annotation/PDBorderStyleDictionary;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#getConstantOpacity--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#setConstantOpacity-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#getConstantOpacity--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#setConstantOpacity-float-"/>
         /// </summary>
         public float ConstantOpacity
         {
             get { return IExecuteWithSignature<float>("getConstantOpacity", "()F"); } set { IExecuteWithSignature("setConstantOpacity", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#getCreationDate--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#setCreationDate-java.util.Calendar-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#getCreationDate--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#setCreationDate-java.util.Calendar-"/>
         /// </summary>
         public Java.Util.Calendar CreationDate
         {
             get { return IExecuteWithSignature<Java.Util.Calendar>("getCreationDate", "()Ljava/util/Calendar;"); } set { IExecuteWithSignature("setCreationDate", "(Ljava/util/Calendar;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#getExternalData--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#setExternalData-org.apache.pdfbox.pdmodel.interactive.annotation.PDExternalDataDictionary-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#getExternalData--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#setExternalData-org.apache.pdfbox.pdmodel.interactive.annotation.PDExternalDataDictionary-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDExternalDataDictionary ExternalData
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDExternalDataDictionary>("getExternalData", "()Lorg/apache/pdfbox/pdmodel/interactive/annotation/PDExternalDataDictionary;"); } set { IExecuteWithSignature("setExternalData", "(Lorg/apache/pdfbox/pdmodel/interactive/annotation/PDExternalDataDictionary;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#getInReplyTo--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#setInReplyTo-org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#getInReplyTo--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#setInReplyTo-org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotation InReplyTo
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotation>("getInReplyTo", "()Lorg/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotation;"); } set { IExecuteWithSignature("setInReplyTo", "(Lorg/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotation;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#getIntent--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#setIntent-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#getIntent--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#setIntent-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Intent
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getIntent", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setIntent", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#getPopup--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#setPopup-org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationPopup-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#getPopup--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#setPopup-org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationPopup-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotationPopup Popup
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotationPopup>("getPopup", "()Lorg/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPopup;"); } set { IExecuteWithSignature("setPopup", "(Lorg/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPopup;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#getReplyType--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#setReplyType-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#getReplyType--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#setReplyType-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String ReplyType
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getReplyType", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setReplyType", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#getRichContents--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#setRichContents-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#getRichContents--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#setRichContents-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String RichContents
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getRichContents", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setRichContents", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#getSubject--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#setSubject-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#getSubject--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#setSubject-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Subject
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getSubject", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setSubject", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#getTitlePopup--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#setTitlePopup-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#getTitlePopup--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationMarkup.html#setTitlePopup-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String TitlePopup
         {

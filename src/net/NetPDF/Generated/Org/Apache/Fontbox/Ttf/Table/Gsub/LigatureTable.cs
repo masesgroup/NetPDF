@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf.Table.Gsub
 {
     #region LigatureTable declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/gsub/LigatureTable.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/gsub/LigatureTable.html"/>
     /// </summary>
     public partial class LigatureTable : MASES.JCOBridge.C2JBridge.JVMBridgeBase<LigatureTable>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Fontbox.Ttf.Table.Gsub
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/gsub/LigatureTable.html#org.apache.fontbox.ttf.table.gsub.LigatureTable(int,int,int[])"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/gsub/LigatureTable.html#org.apache.fontbox.ttf.table.gsub.LigatureTable(int,int,int[])"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -101,21 +101,21 @@ namespace Org.Apache.Fontbox.Ttf.Table.Gsub
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/gsub/LigatureTable.html#getComponentCount--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/gsub/LigatureTable.html#getComponentCount--"/> 
         /// </summary>
         public int ComponentCount
         {
             get { return IExecuteWithSignature<int>("getComponentCount", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/gsub/LigatureTable.html#getComponentGlyphIDs--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/gsub/LigatureTable.html#getComponentGlyphIDs--"/> 
         /// </summary>
         public int[] ComponentGlyphIDs
         {
             get { return IExecuteWithSignatureArray<int>("getComponentGlyphIDs", "()[I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/gsub/LigatureTable.html#getLigatureGlyph--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/gsub/LigatureTable.html#getLigatureGlyph--"/> 
         /// </summary>
         public int LigatureGlyph
         {

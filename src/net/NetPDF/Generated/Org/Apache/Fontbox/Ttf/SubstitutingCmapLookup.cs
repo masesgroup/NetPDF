@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf
 {
     #region SubstitutingCmapLookup declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/SubstitutingCmapLookup.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/SubstitutingCmapLookup.html"/>
     /// </summary>
     public partial class SubstitutingCmapLookup : Org.Apache.Fontbox.Ttf.CmapLookup
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Fontbox.Ttf
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/SubstitutingCmapLookup.html#org.apache.fontbox.ttf.SubstitutingCmapLookup(org.apache.fontbox.ttf.CmapSubtable,org.apache.fontbox.ttf.GlyphSubstitutionTable,java.util.List)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/SubstitutingCmapLookup.html#org.apache.fontbox.ttf.SubstitutingCmapLookup(org.apache.fontbox.ttf.CmapSubtable,org.apache.fontbox.ttf.GlyphSubstitutionTable,java.util.List)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Fontbox.Ttf.CmapSubtable"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Fontbox.Ttf.GlyphSubstitutionTable"/></param>
@@ -101,7 +101,7 @@ namespace Org.Apache.Fontbox.Ttf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/SubstitutingCmapLookup.html#getGlyphId-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/SubstitutingCmapLookup.html#getGlyphId-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="int"/></returns>
@@ -110,7 +110,7 @@ namespace Org.Apache.Fontbox.Ttf
             return IExecuteWithSignature<int>("getGlyphId", "(I)I", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/SubstitutingCmapLookup.html#getCharCodes-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/SubstitutingCmapLookup.html#getCharCodes-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="Java.Util.List"/></returns>

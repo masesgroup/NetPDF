@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
 {
     #region FDFAnnotation declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html"/>
     /// </summary>
     public partial class FDFAnnotation : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -77,7 +77,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#org.apache.pdfbox.pdmodel.fdf.FDFAnnotation(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#org.apache.pdfbox.pdmodel.fdf.FDFAnnotation(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public FDFAnnotation(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -85,7 +85,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#org.apache.pdfbox.pdmodel.fdf.FDFAnnotation(org.w3c.dom.Element)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#org.apache.pdfbox.pdmodel.fdf.FDFAnnotation(org.w3c.dom.Element)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.W3c.Dom.Element"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -106,7 +106,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#create-org.apache.pdfbox.cos.COSDictionary-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#create-org.apache.pdfbox.cos.COSDictionary-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFAnnotation"/></returns>
@@ -119,112 +119,112 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getBorderEffect--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setBorderEffect-org.apache.pdfbox.pdmodel.interactive.annotation.PDBorderEffectDictionary-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getBorderEffect--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setBorderEffect-org.apache.pdfbox.pdmodel.interactive.annotation.PDBorderEffectDictionary-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDBorderEffectDictionary BorderEffect
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDBorderEffectDictionary>("getBorderEffect", "()Lorg/apache/pdfbox/pdmodel/interactive/annotation/PDBorderEffectDictionary;"); } set { IExecuteWithSignature("setBorderEffect", "(Lorg/apache/pdfbox/pdmodel/interactive/annotation/PDBorderEffectDictionary;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getBorderStyle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setBorderStyle-org.apache.pdfbox.pdmodel.interactive.annotation.PDBorderStyleDictionary-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getBorderStyle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setBorderStyle-org.apache.pdfbox.pdmodel.interactive.annotation.PDBorderStyleDictionary-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDBorderStyleDictionary BorderStyle
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDBorderStyleDictionary>("getBorderStyle", "()Lorg/apache/pdfbox/pdmodel/interactive/annotation/PDBorderStyleDictionary;"); } set { IExecuteWithSignature("setBorderStyle", "(Lorg/apache/pdfbox/pdmodel/interactive/annotation/PDBorderStyleDictionary;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getColor--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setColor-java.awt.Color-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getColor--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setColor-java.awt.Color-"/>
         /// </summary>
         public Java.Awt.Color Color
         {
             get { return IExecuteWithSignature<Java.Awt.Color>("getColor", "()Ljava/awt/Color;"); } set { IExecuteWithSignature("setColor", "(Ljava/awt/Color;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getContents--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setContents-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getContents--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setContents-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Contents
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getContents", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setContents", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getCreationDate--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setCreationDate-java.util.Calendar-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getCreationDate--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setCreationDate-java.util.Calendar-"/>
         /// </summary>
         public Java.Util.Calendar CreationDate
         {
             get { return IExecuteWithSignature<Java.Util.Calendar>("getCreationDate", "()Ljava/util/Calendar;"); } set { IExecuteWithSignature("setCreationDate", "(Ljava/util/Calendar;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getDate--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setDate-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getDate--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setDate-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Date
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getDate", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setDate", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getIntent--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setIntent-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getIntent--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setIntent-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Intent
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getIntent", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setIntent", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setName-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setName-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Name
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getName", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setName", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getOpacity--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setOpacity-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getOpacity--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setOpacity-float-"/>
         /// </summary>
         public float Opacity
         {
             get { return IExecuteWithSignature<float>("getOpacity", "()F"); } set { IExecuteWithSignature("setOpacity", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getPage--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setPage-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getPage--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setPage-int-"/>
         /// </summary>
         public Java.Lang.Integer Page
         {
             get { return IExecuteWithSignature<Java.Lang.Integer>("getPage", "()Ljava/lang/Integer;"); } set { IExecuteWithSignature("setPage", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getRectangle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setRectangle-org.apache.pdfbox.pdmodel.common.PDRectangle-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getRectangle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setRectangle-org.apache.pdfbox.pdmodel.common.PDRectangle-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.PDRectangle Rectangle
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.PDRectangle>("getRectangle", "()Lorg/apache/pdfbox/pdmodel/common/PDRectangle;"); } set { IExecuteWithSignature("setRectangle", "(Lorg/apache/pdfbox/pdmodel/common/PDRectangle;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getRichContents--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setRichContents-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getRichContents--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setRichContents-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String RichContents
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getRichContents", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setRichContents", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getSubject--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setSubject-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getSubject--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setSubject-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Subject
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getSubject", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setSubject", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getTitle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setTitle-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#getTitle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setTitle-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Title
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getTitle", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setTitle", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#isHidden--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#isHidden--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsHidden()
@@ -232,7 +232,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             return IExecuteWithSignature<bool>("isHidden", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#isInvisible--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#isInvisible--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsInvisible()
@@ -240,7 +240,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             return IExecuteWithSignature<bool>("isInvisible", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#isLocked--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#isLocked--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsLocked()
@@ -248,7 +248,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             return IExecuteWithSignature<bool>("isLocked", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#isLockedContents--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#isLockedContents--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsLockedContents()
@@ -256,7 +256,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             return IExecuteWithSignature<bool>("isLockedContents", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#isNoRotate--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#isNoRotate--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsNoRotate()
@@ -264,7 +264,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             return IExecuteWithSignature<bool>("isNoRotate", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#isNoView--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#isNoView--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsNoView()
@@ -272,7 +272,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             return IExecuteWithSignature<bool>("isNoView", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#isNoZoom--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#isNoZoom--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsNoZoom()
@@ -280,7 +280,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             return IExecuteWithSignature<bool>("isNoZoom", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#isPrinted--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#isPrinted--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsPrinted()
@@ -288,7 +288,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             return IExecuteWithSignature<bool>("isPrinted", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#isReadOnly--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#isReadOnly--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsReadOnly()
@@ -296,7 +296,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             return IExecuteWithSignature<bool>("isReadOnly", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#isToggleNoView--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#isToggleNoView--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsToggleNoView()
@@ -304,7 +304,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             return IExecuteWithSignature<bool>("isToggleNoView", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setHidden-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setHidden-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetHidden(bool arg0)
@@ -312,7 +312,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("setHidden", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setInvisible-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setInvisible-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetInvisible(bool arg0)
@@ -320,7 +320,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("setInvisible", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setLocked-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setLocked-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetLocked(bool arg0)
@@ -328,7 +328,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("setLocked", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setNoRotate-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setNoRotate-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetNoRotate(bool arg0)
@@ -336,7 +336,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("setNoRotate", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setNoView-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setNoView-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetNoView(bool arg0)
@@ -344,7 +344,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("setNoView", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setNoZoom-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setNoZoom-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetNoZoom(bool arg0)
@@ -352,7 +352,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("setNoZoom", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setPrinted-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setPrinted-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetPrinted(bool arg0)
@@ -360,7 +360,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("setPrinted", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setReadOnly-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setReadOnly-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetReadOnly(bool arg0)
@@ -368,7 +368,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("setReadOnly", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setToggleNoView-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setToggleNoView-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetToggleNoView(bool arg0)
@@ -376,7 +376,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("setToggleNoView", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setLockedContents-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotation.html#setLockedContents-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetLockedContents(bool arg0)

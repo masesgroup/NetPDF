@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fixup.Processor
 {
     #region AbstractProcessor declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fixup/processor/AbstractProcessor.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fixup/processor/AbstractProcessor.html"/>
     /// </summary>
     public partial class AbstractProcessor : Org.Apache.Pdfbox.Pdmodel.Fixup.Processor.PDDocumentProcessor
     {

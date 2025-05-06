@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
 {
     #region PDType0Font declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDType0Font.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html"/>
     /// </summary>
     public partial class PDType0Font : Org.Apache.Pdfbox.Pdmodel.Font.PDFont
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDType0Font.html#org.apache.pdfbox.pdmodel.font.PDType0Font(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#org.apache.pdfbox.pdmodel.font.PDType0Font(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -100,7 +100,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDType0Font.html#load-org.apache.pdfbox.pdmodel.PDDocument-java.io.File-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#load-org.apache.pdfbox.pdmodel.PDDocument-java.io.File-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <param name="arg1"><see cref="Java.Io.File"/></param>
@@ -111,7 +111,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
             return SExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font>(LocalBridgeClazz, "load", "(Lorg/apache/pdfbox/pdmodel/PDDocument;Ljava/io/File;)Lorg/apache/pdfbox/pdmodel/font/PDType0Font;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDType0Font.html#load-org.apache.pdfbox.pdmodel.PDDocument-java.io.InputStream-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#load-org.apache.pdfbox.pdmodel.PDDocument-java.io.InputStream-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <param name="arg1"><see cref="Java.Io.InputStream"/></param>
@@ -123,7 +123,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
             return SExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font>(LocalBridgeClazz, "load", "(Lorg/apache/pdfbox/pdmodel/PDDocument;Ljava/io/InputStream;Z)Lorg/apache/pdfbox/pdmodel/font/PDType0Font;", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDType0Font.html#load-org.apache.pdfbox.pdmodel.PDDocument-java.io.InputStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#load-org.apache.pdfbox.pdmodel.PDDocument-java.io.InputStream-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <param name="arg1"><see cref="Java.Io.InputStream"/></param>
@@ -134,7 +134,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
             return SExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font>(LocalBridgeClazz, "load", "(Lorg/apache/pdfbox/pdmodel/PDDocument;Ljava/io/InputStream;)Lorg/apache/pdfbox/pdmodel/font/PDType0Font;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDType0Font.html#load-org.apache.pdfbox.pdmodel.PDDocument-org.apache.fontbox.ttf.TrueTypeFont-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#load-org.apache.pdfbox.pdmodel.PDDocument-org.apache.fontbox.ttf.TrueTypeFont-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Fontbox.Ttf.TrueTypeFont"/></param>
@@ -146,7 +146,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
             return SExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font>(LocalBridgeClazz, "load", "(Lorg/apache/pdfbox/pdmodel/PDDocument;Lorg/apache/fontbox/ttf/TrueTypeFont;Z)Lorg/apache/pdfbox/pdmodel/font/PDType0Font;", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDType0Font.html#load-org.apache.pdfbox.pdmodel.PDDocument-org.apache.pdfbox.io.RandomAccessRead-boolean-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#load-org.apache.pdfbox.pdmodel.PDDocument-org.apache.pdfbox.io.RandomAccessRead-boolean-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Io.RandomAccessRead"/></param>
@@ -159,7 +159,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
             return SExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font>(LocalBridgeClazz, "load", "(Lorg/apache/pdfbox/pdmodel/PDDocument;Lorg/apache/pdfbox/io/RandomAccessRead;ZZ)Lorg/apache/pdfbox/pdmodel/font/PDType0Font;", arg0, arg1, arg2, arg3);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDType0Font.html#loadVertical-org.apache.pdfbox.pdmodel.PDDocument-java.io.File-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#loadVertical-org.apache.pdfbox.pdmodel.PDDocument-java.io.File-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <param name="arg1"><see cref="Java.Io.File"/></param>
@@ -170,7 +170,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
             return SExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font>(LocalBridgeClazz, "loadVertical", "(Lorg/apache/pdfbox/pdmodel/PDDocument;Ljava/io/File;)Lorg/apache/pdfbox/pdmodel/font/PDType0Font;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDType0Font.html#loadVertical-org.apache.pdfbox.pdmodel.PDDocument-java.io.InputStream-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#loadVertical-org.apache.pdfbox.pdmodel.PDDocument-java.io.InputStream-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <param name="arg1"><see cref="Java.Io.InputStream"/></param>
@@ -182,7 +182,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
             return SExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font>(LocalBridgeClazz, "loadVertical", "(Lorg/apache/pdfbox/pdmodel/PDDocument;Ljava/io/InputStream;Z)Lorg/apache/pdfbox/pdmodel/font/PDType0Font;", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDType0Font.html#loadVertical-org.apache.pdfbox.pdmodel.PDDocument-java.io.InputStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#loadVertical-org.apache.pdfbox.pdmodel.PDDocument-java.io.InputStream-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <param name="arg1"><see cref="Java.Io.InputStream"/></param>
@@ -193,7 +193,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
             return SExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font>(LocalBridgeClazz, "loadVertical", "(Lorg/apache/pdfbox/pdmodel/PDDocument;Ljava/io/InputStream;)Lorg/apache/pdfbox/pdmodel/font/PDType0Font;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDType0Font.html#loadVertical-org.apache.pdfbox.pdmodel.PDDocument-org.apache.fontbox.ttf.TrueTypeFont-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#loadVertical-org.apache.pdfbox.pdmodel.PDDocument-org.apache.fontbox.ttf.TrueTypeFont-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Fontbox.Ttf.TrueTypeFont"/></param>
@@ -209,49 +209,49 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getBaseFont--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getBaseFont--"/> 
         /// </summary>
         public Java.Lang.String BaseFont
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getBaseFont", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getCMap--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getCMap--"/> 
         /// </summary>
         public Org.Apache.Fontbox.Cmap.CMap CMap
         {
             get { return IExecuteWithSignature<Org.Apache.Fontbox.Cmap.CMap>("getCMap", "()Lorg/apache/fontbox/cmap/CMap;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getCmapLookup--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getCmapLookup--"/> 
         /// </summary>
         public Org.Apache.Fontbox.Ttf.CmapLookup CmapLookup
         {
             get { return IExecuteWithSignature<Org.Apache.Fontbox.Ttf.CmapLookup>("getCmapLookup", "()Lorg/apache/fontbox/ttf/CmapLookup;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getCMapUCS2--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getCMapUCS2--"/> 
         /// </summary>
         public Org.Apache.Fontbox.Cmap.CMap CMapUCS2
         {
             get { return IExecuteWithSignature<Org.Apache.Fontbox.Cmap.CMap>("getCMapUCS2", "()Lorg/apache/fontbox/cmap/CMap;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getDescendantFont--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getDescendantFont--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Font.PDCIDFont DescendantFont
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Font.PDCIDFont>("getDescendantFont", "()Lorg/apache/pdfbox/pdmodel/font/PDCIDFont;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getGsubData--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getGsubData--"/> 
         /// </summary>
         public Org.Apache.Fontbox.Ttf.Model.GsubData GsubData
         {
             get { return IExecuteWithSignature<Org.Apache.Fontbox.Ttf.Model.GsubData>("getGsubData", "()Lorg/apache/fontbox/ttf/model/GsubData;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDType0Font.html#hasGlyph-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#hasGlyph-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -261,7 +261,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
             return IExecuteWithSignature<bool>("hasGlyph", "(I)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDType0Font.html#encodeGlyphId-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#encodeGlyphId-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="byte"/></returns>
@@ -270,7 +270,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
             return IExecuteWithSignatureArray<byte>("encodeGlyphId", "(I)[B", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDType0Font.html#codeToCID-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#codeToCID-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="int"/></returns>
@@ -279,7 +279,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
             return IExecuteWithSignature<int>("codeToCID", "(I)I", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDType0Font.html#codeToGID-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#codeToGID-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="int"/></returns>
@@ -289,7 +289,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
             return IExecuteWithSignature<int>("codeToGID", "(I)I", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getNormalizedPath-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getNormalizedPath-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="Java.Awt.Geom.GeneralPath"/></returns>
@@ -299,7 +299,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
             return IExecuteWithSignature<Java.Awt.Geom.GeneralPath>("getNormalizedPath", "(I)Ljava/awt/geom/GeneralPath;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getPath-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getPath-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="Java.Awt.Geom.GeneralPath"/></returns>
@@ -309,7 +309,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
             return IExecuteWithSignature<Java.Awt.Geom.GeneralPath>("getPath", "(I)Ljava/awt/geom/GeneralPath;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDType0Font.html#addGlyphsToSubset-java.util.Set-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#addGlyphsToSubset-java.util.Set-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Util.Set"/></param>
         public void AddGlyphsToSubset(Java.Util.Set<Java.Lang.Integer> arg0)

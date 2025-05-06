@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Cff
 {
     #region CharStringCommand declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.html"/>
     /// </summary>
     public partial class CharStringCommand : MASES.JCOBridge.C2JBridge.JVMBridgeBase<CharStringCommand>
     {
@@ -68,7 +68,7 @@ namespace Org.Apache.Fontbox.Cff
         // TODO: complete the class
         #region Key declaration
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html"/>
         /// </summary>
         public partial class Key : Java.Lang.Enum<Org.Apache.Fontbox.Cff.CharStringCommand.Key>
         {
@@ -113,7 +113,7 @@ namespace Org.Apache.Fontbox.Cff
 
         #region Type1KeyWord declaration
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html"/>
         /// </summary>
         public partial class Type1KeyWord : Java.Lang.Enum<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>
         {
@@ -158,7 +158,7 @@ namespace Org.Apache.Fontbox.Cff
 
         #region Type2KeyWord declaration
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html"/>
         /// </summary>
         public partial class Type2KeyWord : Java.Lang.Enum<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>
         {
@@ -218,49 +218,49 @@ namespace Org.Apache.Fontbox.Cff
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.html#COMMAND_CALLOTHERSUBR"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.html#COMMAND_CALLOTHERSUBR"/>
         /// </summary>
         public static Org.Apache.Fontbox.Cff.CharStringCommand COMMAND_CALLOTHERSUBR { get { if (!_COMMAND_CALLOTHERSUBRReady) { _COMMAND_CALLOTHERSUBRContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand>(LocalBridgeClazz, "COMMAND_CALLOTHERSUBR"); _COMMAND_CALLOTHERSUBRReady = true; } return _COMMAND_CALLOTHERSUBRContent; } }
         private static Org.Apache.Fontbox.Cff.CharStringCommand _COMMAND_CALLOTHERSUBRContent = default;
         private static bool _COMMAND_CALLOTHERSUBRReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.html#COMMAND_CLOSEPATH"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.html#COMMAND_CLOSEPATH"/>
         /// </summary>
         public static Org.Apache.Fontbox.Cff.CharStringCommand COMMAND_CLOSEPATH { get { if (!_COMMAND_CLOSEPATHReady) { _COMMAND_CLOSEPATHContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand>(LocalBridgeClazz, "COMMAND_CLOSEPATH"); _COMMAND_CLOSEPATHReady = true; } return _COMMAND_CLOSEPATHContent; } }
         private static Org.Apache.Fontbox.Cff.CharStringCommand _COMMAND_CLOSEPATHContent = default;
         private static bool _COMMAND_CLOSEPATHReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.html#COMMAND_DIV"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.html#COMMAND_DIV"/>
         /// </summary>
         public static Org.Apache.Fontbox.Cff.CharStringCommand COMMAND_DIV { get { if (!_COMMAND_DIVReady) { _COMMAND_DIVContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand>(LocalBridgeClazz, "COMMAND_DIV"); _COMMAND_DIVReady = true; } return _COMMAND_DIVContent; } }
         private static Org.Apache.Fontbox.Cff.CharStringCommand _COMMAND_DIVContent = default;
         private static bool _COMMAND_DIVReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.html#COMMAND_HLINETO"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.html#COMMAND_HLINETO"/>
         /// </summary>
         public static Org.Apache.Fontbox.Cff.CharStringCommand COMMAND_HLINETO { get { if (!_COMMAND_HLINETOReady) { _COMMAND_HLINETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand>(LocalBridgeClazz, "COMMAND_HLINETO"); _COMMAND_HLINETOReady = true; } return _COMMAND_HLINETOContent; } }
         private static Org.Apache.Fontbox.Cff.CharStringCommand _COMMAND_HLINETOContent = default;
         private static bool _COMMAND_HLINETOReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.html#COMMAND_HSBW"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.html#COMMAND_HSBW"/>
         /// </summary>
         public static Org.Apache.Fontbox.Cff.CharStringCommand COMMAND_HSBW { get { if (!_COMMAND_HSBWReady) { _COMMAND_HSBWContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand>(LocalBridgeClazz, "COMMAND_HSBW"); _COMMAND_HSBWReady = true; } return _COMMAND_HSBWContent; } }
         private static Org.Apache.Fontbox.Cff.CharStringCommand _COMMAND_HSBWContent = default;
         private static bool _COMMAND_HSBWReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.html#COMMAND_RLINETO"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.html#COMMAND_RLINETO"/>
         /// </summary>
         public static Org.Apache.Fontbox.Cff.CharStringCommand COMMAND_RLINETO { get { if (!_COMMAND_RLINETOReady) { _COMMAND_RLINETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand>(LocalBridgeClazz, "COMMAND_RLINETO"); _COMMAND_RLINETOReady = true; } return _COMMAND_RLINETOContent; } }
         private static Org.Apache.Fontbox.Cff.CharStringCommand _COMMAND_RLINETOContent = default;
         private static bool _COMMAND_RLINETOReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.html#COMMAND_RRCURVETO"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.html#COMMAND_RRCURVETO"/>
         /// </summary>
         public static Org.Apache.Fontbox.Cff.CharStringCommand COMMAND_RRCURVETO { get { if (!_COMMAND_RRCURVETOReady) { _COMMAND_RRCURVETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand>(LocalBridgeClazz, "COMMAND_RRCURVETO"); _COMMAND_RRCURVETOReady = true; } return _COMMAND_RRCURVETOContent; } }
         private static Org.Apache.Fontbox.Cff.CharStringCommand _COMMAND_RRCURVETOContent = default;
         private static bool _COMMAND_RRCURVETOReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.html#COMMAND_VLINETO"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.html#COMMAND_VLINETO"/>
         /// </summary>
         public static Org.Apache.Fontbox.Cff.CharStringCommand COMMAND_VLINETO { get { if (!_COMMAND_VLINETOReady) { _COMMAND_VLINETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand>(LocalBridgeClazz, "COMMAND_VLINETO"); _COMMAND_VLINETOReady = true; } return _COMMAND_VLINETOContent; } }
         private static Org.Apache.Fontbox.Cff.CharStringCommand _COMMAND_VLINETOContent = default;
@@ -270,7 +270,7 @@ namespace Org.Apache.Fontbox.Cff
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.html#getInstance-int-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.html#getInstance-int-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -280,7 +280,7 @@ namespace Org.Apache.Fontbox.Cff
             return SExecuteWithSignature<Org.Apache.Fontbox.Cff.CharStringCommand>(LocalBridgeClazz, "getInstance", "(II)Lorg/apache/fontbox/cff/CharStringCommand;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.html#getInstance-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.html#getInstance-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="Org.Apache.Fontbox.Cff.CharStringCommand"/></returns>
@@ -289,7 +289,7 @@ namespace Org.Apache.Fontbox.Cff
             return SExecuteWithSignature<Org.Apache.Fontbox.Cff.CharStringCommand>(LocalBridgeClazz, "getInstance", "(I)Lorg/apache/fontbox/cff/CharStringCommand;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.html#getInstance-int[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.html#getInstance-int[]-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="Org.Apache.Fontbox.Cff.CharStringCommand"/></returns>
@@ -302,14 +302,14 @@ namespace Org.Apache.Fontbox.Cff
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.html#getType1KeyWord--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.html#getType1KeyWord--"/> 
         /// </summary>
         public Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord GetType1KeyWord
         {
             get { return IExecuteWithSignature<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>("getType1KeyWord", "()Lorg/apache/fontbox/cff/CharStringCommand$Type1KeyWord;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.html#getType2KeyWord--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.html#getType2KeyWord--"/> 
         /// </summary>
         public Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord GetType2KeyWord
         {
@@ -332,355 +332,355 @@ namespace Org.Apache.Fontbox.Cff
 
             #region Fields
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#ABS"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#ABS"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key ABS { get { if (!_ABSReady) { _ABSContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "ABS"); _ABSReady = true; } return _ABSContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _ABSContent = default;
             private static bool _ABSReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#ADD"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#ADD"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key ADD { get { if (!_ADDReady) { _ADDContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "ADD"); _ADDReady = true; } return _ADDContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _ADDContent = default;
             private static bool _ADDReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#AND"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#AND"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key AND { get { if (!_ANDReady) { _ANDContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "AND"); _ANDReady = true; } return _ANDContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _ANDContent = default;
             private static bool _ANDReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#CALLGSUBR"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#CALLGSUBR"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key CALLGSUBR { get { if (!_CALLGSUBRReady) { _CALLGSUBRContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "CALLGSUBR"); _CALLGSUBRReady = true; } return _CALLGSUBRContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _CALLGSUBRContent = default;
             private static bool _CALLGSUBRReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#CALLOTHERSUBR"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#CALLOTHERSUBR"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key CALLOTHERSUBR { get { if (!_CALLOTHERSUBRReady) { _CALLOTHERSUBRContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "CALLOTHERSUBR"); _CALLOTHERSUBRReady = true; } return _CALLOTHERSUBRContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _CALLOTHERSUBRContent = default;
             private static bool _CALLOTHERSUBRReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#CALLSUBR"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#CALLSUBR"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key CALLSUBR { get { if (!_CALLSUBRReady) { _CALLSUBRContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "CALLSUBR"); _CALLSUBRReady = true; } return _CALLSUBRContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _CALLSUBRContent = default;
             private static bool _CALLSUBRReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#CLOSEPATH"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#CLOSEPATH"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key CLOSEPATH { get { if (!_CLOSEPATHReady) { _CLOSEPATHContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "CLOSEPATH"); _CLOSEPATHReady = true; } return _CLOSEPATHContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _CLOSEPATHContent = default;
             private static bool _CLOSEPATHReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#CNTRMASK"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#CNTRMASK"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key CNTRMASK { get { if (!_CNTRMASKReady) { _CNTRMASKContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "CNTRMASK"); _CNTRMASKReady = true; } return _CNTRMASKContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _CNTRMASKContent = default;
             private static bool _CNTRMASKReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#DIV"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#DIV"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key DIV { get { if (!_DIVReady) { _DIVContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "DIV"); _DIVReady = true; } return _DIVContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _DIVContent = default;
             private static bool _DIVReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#DOTSECTION"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#DOTSECTION"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key DOTSECTION { get { if (!_DOTSECTIONReady) { _DOTSECTIONContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "DOTSECTION"); _DOTSECTIONReady = true; } return _DOTSECTIONContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _DOTSECTIONContent = default;
             private static bool _DOTSECTIONReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#DROP"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#DROP"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key DROP { get { if (!_DROPReady) { _DROPContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "DROP"); _DROPReady = true; } return _DROPContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _DROPContent = default;
             private static bool _DROPReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#DUP"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#DUP"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key DUP { get { if (!_DUPReady) { _DUPContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "DUP"); _DUPReady = true; } return _DUPContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _DUPContent = default;
             private static bool _DUPReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#ENDCHAR"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#ENDCHAR"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key ENDCHAR { get { if (!_ENDCHARReady) { _ENDCHARContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "ENDCHAR"); _ENDCHARReady = true; } return _ENDCHARContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _ENDCHARContent = default;
             private static bool _ENDCHARReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#EQ"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#EQ"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key EQ { get { if (!_EQReady) { _EQContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "EQ"); _EQReady = true; } return _EQContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _EQContent = default;
             private static bool _EQReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#ESCAPE"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#ESCAPE"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key ESCAPE { get { if (!_ESCAPEReady) { _ESCAPEContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "ESCAPE"); _ESCAPEReady = true; } return _ESCAPEContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _ESCAPEContent = default;
             private static bool _ESCAPEReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#EXCH"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#EXCH"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key EXCH { get { if (!_EXCHReady) { _EXCHContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "EXCH"); _EXCHReady = true; } return _EXCHContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _EXCHContent = default;
             private static bool _EXCHReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#FLEX"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#FLEX"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key FLEX { get { if (!_FLEXReady) { _FLEXContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "FLEX"); _FLEXReady = true; } return _FLEXContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _FLEXContent = default;
             private static bool _FLEXReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#FLEX1"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#FLEX1"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key FLEX1 { get { if (!_FLEX1Ready) { _FLEX1Content = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "FLEX1"); _FLEX1Ready = true; } return _FLEX1Content; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _FLEX1Content = default;
             private static bool _FLEX1Ready = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#GET"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#GET"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key GET { get { if (!_GETReady) { _GETContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "GET"); _GETReady = true; } return _GETContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _GETContent = default;
             private static bool _GETReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#HFLEX"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#HFLEX"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key HFLEX { get { if (!_HFLEXReady) { _HFLEXContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "HFLEX"); _HFLEXReady = true; } return _HFLEXContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _HFLEXContent = default;
             private static bool _HFLEXReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#HFLEX1"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#HFLEX1"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key HFLEX1 { get { if (!_HFLEX1Ready) { _HFLEX1Content = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "HFLEX1"); _HFLEX1Ready = true; } return _HFLEX1Content; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _HFLEX1Content = default;
             private static bool _HFLEX1Ready = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#HHCURVETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#HHCURVETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key HHCURVETO { get { if (!_HHCURVETOReady) { _HHCURVETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "HHCURVETO"); _HHCURVETOReady = true; } return _HHCURVETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _HHCURVETOContent = default;
             private static bool _HHCURVETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#HINTMASK"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#HINTMASK"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key HINTMASK { get { if (!_HINTMASKReady) { _HINTMASKContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "HINTMASK"); _HINTMASKReady = true; } return _HINTMASKContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _HINTMASKContent = default;
             private static bool _HINTMASKReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#HLINETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#HLINETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key HLINETO { get { if (!_HLINETOReady) { _HLINETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "HLINETO"); _HLINETOReady = true; } return _HLINETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _HLINETOContent = default;
             private static bool _HLINETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#HMOVETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#HMOVETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key HMOVETO { get { if (!_HMOVETOReady) { _HMOVETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "HMOVETO"); _HMOVETOReady = true; } return _HMOVETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _HMOVETOContent = default;
             private static bool _HMOVETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#HSBW"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#HSBW"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key HSBW { get { if (!_HSBWReady) { _HSBWContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "HSBW"); _HSBWReady = true; } return _HSBWContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _HSBWContent = default;
             private static bool _HSBWReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#HSTEM"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#HSTEM"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key HSTEM { get { if (!_HSTEMReady) { _HSTEMContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "HSTEM"); _HSTEMReady = true; } return _HSTEMContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _HSTEMContent = default;
             private static bool _HSTEMReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#HSTEM3"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#HSTEM3"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key HSTEM3 { get { if (!_HSTEM3Ready) { _HSTEM3Content = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "HSTEM3"); _HSTEM3Ready = true; } return _HSTEM3Content; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _HSTEM3Content = default;
             private static bool _HSTEM3Ready = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#HSTEMHM"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#HSTEMHM"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key HSTEMHM { get { if (!_HSTEMHMReady) { _HSTEMHMContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "HSTEMHM"); _HSTEMHMReady = true; } return _HSTEMHMContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _HSTEMHMContent = default;
             private static bool _HSTEMHMReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#HVCURVETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#HVCURVETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key HVCURVETO { get { if (!_HVCURVETOReady) { _HVCURVETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "HVCURVETO"); _HVCURVETOReady = true; } return _HVCURVETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _HVCURVETOContent = default;
             private static bool _HVCURVETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#IFELSE"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#IFELSE"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key IFELSE { get { if (!_IFELSEReady) { _IFELSEContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "IFELSE"); _IFELSEReady = true; } return _IFELSEContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _IFELSEContent = default;
             private static bool _IFELSEReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#INDEX"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#INDEX"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key INDEX { get { if (!_INDEXReady) { _INDEXContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "INDEX"); _INDEXReady = true; } return _INDEXContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _INDEXContent = default;
             private static bool _INDEXReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#MUL"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#MUL"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key MUL { get { if (!_MULReady) { _MULContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "MUL"); _MULReady = true; } return _MULContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _MULContent = default;
             private static bool _MULReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#NEG"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#NEG"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key NEG { get { if (!_NEGReady) { _NEGContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "NEG"); _NEGReady = true; } return _NEGContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _NEGContent = default;
             private static bool _NEGReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#NOT"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#NOT"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key NOT { get { if (!_NOTReady) { _NOTContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "NOT"); _NOTReady = true; } return _NOTContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _NOTContent = default;
             private static bool _NOTReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#OR"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#OR"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key OR { get { if (!_ORReady) { _ORContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "OR"); _ORReady = true; } return _ORContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _ORContent = default;
             private static bool _ORReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#POP"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#POP"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key POP { get { if (!_POPReady) { _POPContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "POP"); _POPReady = true; } return _POPContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _POPContent = default;
             private static bool _POPReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#PUT"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#PUT"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key PUT { get { if (!_PUTReady) { _PUTContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "PUT"); _PUTReady = true; } return _PUTContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _PUTContent = default;
             private static bool _PUTReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#RANDOM"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#RANDOM"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key RANDOM { get { if (!_RANDOMReady) { _RANDOMContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "RANDOM"); _RANDOMReady = true; } return _RANDOMContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _RANDOMContent = default;
             private static bool _RANDOMReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#RCURVELINE"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#RCURVELINE"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key RCURVELINE { get { if (!_RCURVELINEReady) { _RCURVELINEContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "RCURVELINE"); _RCURVELINEReady = true; } return _RCURVELINEContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _RCURVELINEContent = default;
             private static bool _RCURVELINEReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#RET"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#RET"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key RET { get { if (!_RETReady) { _RETContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "RET"); _RETReady = true; } return _RETContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _RETContent = default;
             private static bool _RETReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#RLINECURVE"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#RLINECURVE"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key RLINECURVE { get { if (!_RLINECURVEReady) { _RLINECURVEContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "RLINECURVE"); _RLINECURVEReady = true; } return _RLINECURVEContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _RLINECURVEContent = default;
             private static bool _RLINECURVEReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#RLINETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#RLINETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key RLINETO { get { if (!_RLINETOReady) { _RLINETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "RLINETO"); _RLINETOReady = true; } return _RLINETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _RLINETOContent = default;
             private static bool _RLINETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#RMOVETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#RMOVETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key RMOVETO { get { if (!_RMOVETOReady) { _RMOVETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "RMOVETO"); _RMOVETOReady = true; } return _RMOVETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _RMOVETOContent = default;
             private static bool _RMOVETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#ROLL"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#ROLL"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key ROLL { get { if (!_ROLLReady) { _ROLLContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "ROLL"); _ROLLReady = true; } return _ROLLContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _ROLLContent = default;
             private static bool _ROLLReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#RRCURVETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#RRCURVETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key RRCURVETO { get { if (!_RRCURVETOReady) { _RRCURVETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "RRCURVETO"); _RRCURVETOReady = true; } return _RRCURVETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _RRCURVETOContent = default;
             private static bool _RRCURVETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#SBW"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#SBW"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key SBW { get { if (!_SBWReady) { _SBWContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "SBW"); _SBWReady = true; } return _SBWContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _SBWContent = default;
             private static bool _SBWReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#SEAC"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#SEAC"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key SEAC { get { if (!_SEACReady) { _SEACContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "SEAC"); _SEACReady = true; } return _SEACContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _SEACContent = default;
             private static bool _SEACReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#SETCURRENTPOINT"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#SETCURRENTPOINT"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key SETCURRENTPOINT { get { if (!_SETCURRENTPOINTReady) { _SETCURRENTPOINTContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "SETCURRENTPOINT"); _SETCURRENTPOINTReady = true; } return _SETCURRENTPOINTContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _SETCURRENTPOINTContent = default;
             private static bool _SETCURRENTPOINTReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#SHORTINT"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#SHORTINT"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key SHORTINT { get { if (!_SHORTINTReady) { _SHORTINTContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "SHORTINT"); _SHORTINTReady = true; } return _SHORTINTContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _SHORTINTContent = default;
             private static bool _SHORTINTReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#SQRT"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#SQRT"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key SQRT { get { if (!_SQRTReady) { _SQRTContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "SQRT"); _SQRTReady = true; } return _SQRTContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _SQRTContent = default;
             private static bool _SQRTReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#SUB"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#SUB"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key SUB { get { if (!_SUBReady) { _SUBContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "SUB"); _SUBReady = true; } return _SUBContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _SUBContent = default;
             private static bool _SUBReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#VHCURVETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#VHCURVETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key VHCURVETO { get { if (!_VHCURVETOReady) { _VHCURVETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "VHCURVETO"); _VHCURVETOReady = true; } return _VHCURVETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _VHCURVETOContent = default;
             private static bool _VHCURVETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#VLINETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#VLINETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key VLINETO { get { if (!_VLINETOReady) { _VLINETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "VLINETO"); _VLINETOReady = true; } return _VLINETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _VLINETOContent = default;
             private static bool _VLINETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#VMOVETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#VMOVETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key VMOVETO { get { if (!_VMOVETOReady) { _VMOVETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "VMOVETO"); _VMOVETOReady = true; } return _VMOVETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _VMOVETOContent = default;
             private static bool _VMOVETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#VSTEM"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#VSTEM"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key VSTEM { get { if (!_VSTEMReady) { _VSTEMContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "VSTEM"); _VSTEMReady = true; } return _VSTEMContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _VSTEMContent = default;
             private static bool _VSTEMReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#VSTEM3"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#VSTEM3"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key VSTEM3 { get { if (!_VSTEM3Ready) { _VSTEM3Content = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "VSTEM3"); _VSTEM3Ready = true; } return _VSTEM3Content; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _VSTEM3Content = default;
             private static bool _VSTEM3Ready = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#VSTEMHM"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#VSTEMHM"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key VSTEMHM { get { if (!_VSTEMHMReady) { _VSTEMHMContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "VSTEMHM"); _VSTEMHMReady = true; } return _VSTEMHMContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _VSTEMHMContent = default;
             private static bool _VSTEMHMReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#VVCURVETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#VVCURVETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key VVCURVETO { get { if (!_VVCURVETOReady) { _VVCURVETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "VVCURVETO"); _VVCURVETOReady = true; } return _VVCURVETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Key _VVCURVETOContent = default;
@@ -690,7 +690,7 @@ namespace Org.Apache.Fontbox.Cff
 
             #region Static methods
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#valueOf-java.lang.String-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#valueOf-java.lang.String-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.String"/></param>
             /// <returns><see cref="Org.Apache.Fontbox.Cff.CharStringCommand.Key"/></returns>
@@ -699,7 +699,7 @@ namespace Org.Apache.Fontbox.Cff
                 return SExecuteWithSignature<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "valueOf", "(Ljava/lang/String;)Lorg/apache/fontbox/cff/CharStringCommand$Key;", arg0);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#valueOfKey-int-int-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#valueOfKey-int-int-"/>
             /// </summary>
             /// <param name="arg0"><see cref="int"/></param>
             /// <param name="arg1"><see cref="int"/></param>
@@ -709,7 +709,7 @@ namespace Org.Apache.Fontbox.Cff
                 return SExecuteWithSignature<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "valueOfKey", "(II)Lorg/apache/fontbox/cff/CharStringCommand$Key;", arg0, arg1);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#valueOfKey-int-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#valueOfKey-int-"/>
             /// </summary>
             /// <param name="arg0"><see cref="int"/></param>
             /// <returns><see cref="Org.Apache.Fontbox.Cff.CharStringCommand.Key"/></returns>
@@ -718,7 +718,7 @@ namespace Org.Apache.Fontbox.Cff
                 return SExecuteWithSignature<Org.Apache.Fontbox.Cff.CharStringCommand.Key>(LocalBridgeClazz, "valueOfKey", "(I)Lorg/apache/fontbox/cff/CharStringCommand$Key;", arg0);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Key.html#values--"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Key.html#values--"/>
             /// </summary>
             /// <returns><see cref="Org.Apache.Fontbox.Cff.CharStringCommand.Key"/></returns>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Key[] Values()
@@ -753,157 +753,157 @@ namespace Org.Apache.Fontbox.Cff
 
             #region Fields
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#CALLOTHERSUBR"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#CALLOTHERSUBR"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord CALLOTHERSUBR { get { if (!_CALLOTHERSUBRReady) { _CALLOTHERSUBRContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "CALLOTHERSUBR"); _CALLOTHERSUBRReady = true; } return _CALLOTHERSUBRContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord _CALLOTHERSUBRContent = default;
             private static bool _CALLOTHERSUBRReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#CALLSUBR"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#CALLSUBR"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord CALLSUBR { get { if (!_CALLSUBRReady) { _CALLSUBRContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "CALLSUBR"); _CALLSUBRReady = true; } return _CALLSUBRContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord _CALLSUBRContent = default;
             private static bool _CALLSUBRReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#CLOSEPATH"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#CLOSEPATH"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord CLOSEPATH { get { if (!_CLOSEPATHReady) { _CLOSEPATHContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "CLOSEPATH"); _CLOSEPATHReady = true; } return _CLOSEPATHContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord _CLOSEPATHContent = default;
             private static bool _CLOSEPATHReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#DIV"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#DIV"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord DIV { get { if (!_DIVReady) { _DIVContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "DIV"); _DIVReady = true; } return _DIVContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord _DIVContent = default;
             private static bool _DIVReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#DOTSECTION"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#DOTSECTION"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord DOTSECTION { get { if (!_DOTSECTIONReady) { _DOTSECTIONContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "DOTSECTION"); _DOTSECTIONReady = true; } return _DOTSECTIONContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord _DOTSECTIONContent = default;
             private static bool _DOTSECTIONReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#ENDCHAR"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#ENDCHAR"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord ENDCHAR { get { if (!_ENDCHARReady) { _ENDCHARContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "ENDCHAR"); _ENDCHARReady = true; } return _ENDCHARContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord _ENDCHARContent = default;
             private static bool _ENDCHARReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#ESCAPE"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#ESCAPE"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord ESCAPE { get { if (!_ESCAPEReady) { _ESCAPEContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "ESCAPE"); _ESCAPEReady = true; } return _ESCAPEContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord _ESCAPEContent = default;
             private static bool _ESCAPEReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#HLINETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#HLINETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord HLINETO { get { if (!_HLINETOReady) { _HLINETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "HLINETO"); _HLINETOReady = true; } return _HLINETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord _HLINETOContent = default;
             private static bool _HLINETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#HMOVETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#HMOVETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord HMOVETO { get { if (!_HMOVETOReady) { _HMOVETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "HMOVETO"); _HMOVETOReady = true; } return _HMOVETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord _HMOVETOContent = default;
             private static bool _HMOVETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#HSBW"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#HSBW"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord HSBW { get { if (!_HSBWReady) { _HSBWContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "HSBW"); _HSBWReady = true; } return _HSBWContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord _HSBWContent = default;
             private static bool _HSBWReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#HSTEM"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#HSTEM"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord HSTEM { get { if (!_HSTEMReady) { _HSTEMContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "HSTEM"); _HSTEMReady = true; } return _HSTEMContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord _HSTEMContent = default;
             private static bool _HSTEMReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#HSTEM3"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#HSTEM3"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord HSTEM3 { get { if (!_HSTEM3Ready) { _HSTEM3Content = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "HSTEM3"); _HSTEM3Ready = true; } return _HSTEM3Content; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord _HSTEM3Content = default;
             private static bool _HSTEM3Ready = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#HVCURVETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#HVCURVETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord HVCURVETO { get { if (!_HVCURVETOReady) { _HVCURVETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "HVCURVETO"); _HVCURVETOReady = true; } return _HVCURVETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord _HVCURVETOContent = default;
             private static bool _HVCURVETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#POP"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#POP"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord POP { get { if (!_POPReady) { _POPContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "POP"); _POPReady = true; } return _POPContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord _POPContent = default;
             private static bool _POPReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#RET"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#RET"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord RET { get { if (!_RETReady) { _RETContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "RET"); _RETReady = true; } return _RETContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord _RETContent = default;
             private static bool _RETReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#RLINETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#RLINETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord RLINETO { get { if (!_RLINETOReady) { _RLINETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "RLINETO"); _RLINETOReady = true; } return _RLINETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord _RLINETOContent = default;
             private static bool _RLINETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#RMOVETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#RMOVETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord RMOVETO { get { if (!_RMOVETOReady) { _RMOVETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "RMOVETO"); _RMOVETOReady = true; } return _RMOVETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord _RMOVETOContent = default;
             private static bool _RMOVETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#RRCURVETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#RRCURVETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord RRCURVETO { get { if (!_RRCURVETOReady) { _RRCURVETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "RRCURVETO"); _RRCURVETOReady = true; } return _RRCURVETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord _RRCURVETOContent = default;
             private static bool _RRCURVETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#SBW"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#SBW"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord SBW { get { if (!_SBWReady) { _SBWContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "SBW"); _SBWReady = true; } return _SBWContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord _SBWContent = default;
             private static bool _SBWReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#SEAC"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#SEAC"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord SEAC { get { if (!_SEACReady) { _SEACContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "SEAC"); _SEACReady = true; } return _SEACContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord _SEACContent = default;
             private static bool _SEACReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#SETCURRENTPOINT"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#SETCURRENTPOINT"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord SETCURRENTPOINT { get { if (!_SETCURRENTPOINTReady) { _SETCURRENTPOINTContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "SETCURRENTPOINT"); _SETCURRENTPOINTReady = true; } return _SETCURRENTPOINTContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord _SETCURRENTPOINTContent = default;
             private static bool _SETCURRENTPOINTReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#VHCURVETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#VHCURVETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord VHCURVETO { get { if (!_VHCURVETOReady) { _VHCURVETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "VHCURVETO"); _VHCURVETOReady = true; } return _VHCURVETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord _VHCURVETOContent = default;
             private static bool _VHCURVETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#VLINETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#VLINETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord VLINETO { get { if (!_VLINETOReady) { _VLINETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "VLINETO"); _VLINETOReady = true; } return _VLINETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord _VLINETOContent = default;
             private static bool _VLINETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#VMOVETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#VMOVETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord VMOVETO { get { if (!_VMOVETOReady) { _VMOVETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "VMOVETO"); _VMOVETOReady = true; } return _VMOVETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord _VMOVETOContent = default;
             private static bool _VMOVETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#VSTEM"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#VSTEM"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord VSTEM { get { if (!_VSTEMReady) { _VSTEMContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "VSTEM"); _VSTEMReady = true; } return _VSTEMContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord _VSTEMContent = default;
             private static bool _VSTEMReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#VSTEM3"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#VSTEM3"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord VSTEM3 { get { if (!_VSTEM3Ready) { _VSTEM3Content = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "VSTEM3"); _VSTEM3Ready = true; } return _VSTEM3Content; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord _VSTEM3Content = default;
@@ -913,7 +913,7 @@ namespace Org.Apache.Fontbox.Cff
 
             #region Static methods
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#valueOf-java.lang.String-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#valueOf-java.lang.String-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.String"/></param>
             /// <returns><see cref="Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord"/></returns>
@@ -922,7 +922,7 @@ namespace Org.Apache.Fontbox.Cff
                 return SExecuteWithSignature<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "valueOf", "(Ljava/lang/String;)Lorg/apache/fontbox/cff/CharStringCommand$Type1KeyWord;", arg0);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#valueOfKey-int-int-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#valueOfKey-int-int-"/>
             /// </summary>
             /// <param name="arg0"><see cref="int"/></param>
             /// <param name="arg1"><see cref="int"/></param>
@@ -932,7 +932,7 @@ namespace Org.Apache.Fontbox.Cff
                 return SExecuteWithSignature<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "valueOfKey", "(II)Lorg/apache/fontbox/cff/CharStringCommand$Type1KeyWord;", arg0, arg1);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#valueOfKey-int-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#valueOfKey-int-"/>
             /// </summary>
             /// <param name="arg0"><see cref="int"/></param>
             /// <returns><see cref="Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord"/></returns>
@@ -941,7 +941,7 @@ namespace Org.Apache.Fontbox.Cff
                 return SExecuteWithSignature<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "valueOfKey", "(I)Lorg/apache/fontbox/cff/CharStringCommand$Type1KeyWord;", arg0);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#valueOfKey-org.apache.fontbox.cff.CharStringCommand.Key-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#valueOfKey-org.apache.fontbox.cff.CharStringCommand.Key-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Org.Apache.Fontbox.Cff.CharStringCommand.Key"/></param>
             /// <returns><see cref="Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord"/></returns>
@@ -950,7 +950,7 @@ namespace Org.Apache.Fontbox.Cff
                 return SExecuteWithSignature<Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord>(LocalBridgeClazz, "valueOfKey", "(Lorg/apache/fontbox/cff/CharStringCommand$Key;)Lorg/apache/fontbox/cff/CharStringCommand$Type1KeyWord;", arg0);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#values--"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type1KeyWord.html#values--"/>
             /// </summary>
             /// <returns><see cref="Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord"/></returns>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type1KeyWord[] Values()
@@ -985,295 +985,295 @@ namespace Org.Apache.Fontbox.Cff
 
             #region Fields
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#ABS"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#ABS"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord ABS { get { if (!_ABSReady) { _ABSContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "ABS"); _ABSReady = true; } return _ABSContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _ABSContent = default;
             private static bool _ABSReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#ADD"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#ADD"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord ADD { get { if (!_ADDReady) { _ADDContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "ADD"); _ADDReady = true; } return _ADDContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _ADDContent = default;
             private static bool _ADDReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#AND"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#AND"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord AND { get { if (!_ANDReady) { _ANDContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "AND"); _ANDReady = true; } return _ANDContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _ANDContent = default;
             private static bool _ANDReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#CALLGSUBR"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#CALLGSUBR"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord CALLGSUBR { get { if (!_CALLGSUBRReady) { _CALLGSUBRContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "CALLGSUBR"); _CALLGSUBRReady = true; } return _CALLGSUBRContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _CALLGSUBRContent = default;
             private static bool _CALLGSUBRReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#CALLSUBR"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#CALLSUBR"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord CALLSUBR { get { if (!_CALLSUBRReady) { _CALLSUBRContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "CALLSUBR"); _CALLSUBRReady = true; } return _CALLSUBRContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _CALLSUBRContent = default;
             private static bool _CALLSUBRReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#CNTRMASK"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#CNTRMASK"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord CNTRMASK { get { if (!_CNTRMASKReady) { _CNTRMASKContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "CNTRMASK"); _CNTRMASKReady = true; } return _CNTRMASKContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _CNTRMASKContent = default;
             private static bool _CNTRMASKReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#DIV"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#DIV"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord DIV { get { if (!_DIVReady) { _DIVContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "DIV"); _DIVReady = true; } return _DIVContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _DIVContent = default;
             private static bool _DIVReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#DROP"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#DROP"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord DROP { get { if (!_DROPReady) { _DROPContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "DROP"); _DROPReady = true; } return _DROPContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _DROPContent = default;
             private static bool _DROPReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#DUP"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#DUP"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord DUP { get { if (!_DUPReady) { _DUPContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "DUP"); _DUPReady = true; } return _DUPContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _DUPContent = default;
             private static bool _DUPReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#ENDCHAR"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#ENDCHAR"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord ENDCHAR { get { if (!_ENDCHARReady) { _ENDCHARContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "ENDCHAR"); _ENDCHARReady = true; } return _ENDCHARContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _ENDCHARContent = default;
             private static bool _ENDCHARReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#EQ"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#EQ"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord EQ { get { if (!_EQReady) { _EQContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "EQ"); _EQReady = true; } return _EQContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _EQContent = default;
             private static bool _EQReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#ESCAPE"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#ESCAPE"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord ESCAPE { get { if (!_ESCAPEReady) { _ESCAPEContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "ESCAPE"); _ESCAPEReady = true; } return _ESCAPEContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _ESCAPEContent = default;
             private static bool _ESCAPEReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#EXCH"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#EXCH"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord EXCH { get { if (!_EXCHReady) { _EXCHContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "EXCH"); _EXCHReady = true; } return _EXCHContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _EXCHContent = default;
             private static bool _EXCHReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#FLEX"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#FLEX"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord FLEX { get { if (!_FLEXReady) { _FLEXContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "FLEX"); _FLEXReady = true; } return _FLEXContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _FLEXContent = default;
             private static bool _FLEXReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#FLEX1"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#FLEX1"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord FLEX1 { get { if (!_FLEX1Ready) { _FLEX1Content = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "FLEX1"); _FLEX1Ready = true; } return _FLEX1Content; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _FLEX1Content = default;
             private static bool _FLEX1Ready = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#GET"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#GET"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord GET { get { if (!_GETReady) { _GETContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "GET"); _GETReady = true; } return _GETContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _GETContent = default;
             private static bool _GETReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#HFLEX"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#HFLEX"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord HFLEX { get { if (!_HFLEXReady) { _HFLEXContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "HFLEX"); _HFLEXReady = true; } return _HFLEXContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _HFLEXContent = default;
             private static bool _HFLEXReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#HFLEX1"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#HFLEX1"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord HFLEX1 { get { if (!_HFLEX1Ready) { _HFLEX1Content = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "HFLEX1"); _HFLEX1Ready = true; } return _HFLEX1Content; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _HFLEX1Content = default;
             private static bool _HFLEX1Ready = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#HHCURVETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#HHCURVETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord HHCURVETO { get { if (!_HHCURVETOReady) { _HHCURVETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "HHCURVETO"); _HHCURVETOReady = true; } return _HHCURVETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _HHCURVETOContent = default;
             private static bool _HHCURVETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#HINTMASK"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#HINTMASK"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord HINTMASK { get { if (!_HINTMASKReady) { _HINTMASKContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "HINTMASK"); _HINTMASKReady = true; } return _HINTMASKContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _HINTMASKContent = default;
             private static bool _HINTMASKReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#HLINETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#HLINETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord HLINETO { get { if (!_HLINETOReady) { _HLINETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "HLINETO"); _HLINETOReady = true; } return _HLINETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _HLINETOContent = default;
             private static bool _HLINETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#HMOVETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#HMOVETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord HMOVETO { get { if (!_HMOVETOReady) { _HMOVETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "HMOVETO"); _HMOVETOReady = true; } return _HMOVETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _HMOVETOContent = default;
             private static bool _HMOVETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#HSTEM"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#HSTEM"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord HSTEM { get { if (!_HSTEMReady) { _HSTEMContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "HSTEM"); _HSTEMReady = true; } return _HSTEMContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _HSTEMContent = default;
             private static bool _HSTEMReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#HSTEMHM"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#HSTEMHM"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord HSTEMHM { get { if (!_HSTEMHMReady) { _HSTEMHMContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "HSTEMHM"); _HSTEMHMReady = true; } return _HSTEMHMContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _HSTEMHMContent = default;
             private static bool _HSTEMHMReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#HVCURVETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#HVCURVETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord HVCURVETO { get { if (!_HVCURVETOReady) { _HVCURVETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "HVCURVETO"); _HVCURVETOReady = true; } return _HVCURVETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _HVCURVETOContent = default;
             private static bool _HVCURVETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#IFELSE"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#IFELSE"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord IFELSE { get { if (!_IFELSEReady) { _IFELSEContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "IFELSE"); _IFELSEReady = true; } return _IFELSEContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _IFELSEContent = default;
             private static bool _IFELSEReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#INDEX"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#INDEX"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord INDEX { get { if (!_INDEXReady) { _INDEXContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "INDEX"); _INDEXReady = true; } return _INDEXContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _INDEXContent = default;
             private static bool _INDEXReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#MUL"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#MUL"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord MUL { get { if (!_MULReady) { _MULContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "MUL"); _MULReady = true; } return _MULContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _MULContent = default;
             private static bool _MULReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#NEG"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#NEG"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord NEG { get { if (!_NEGReady) { _NEGContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "NEG"); _NEGReady = true; } return _NEGContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _NEGContent = default;
             private static bool _NEGReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#NOT"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#NOT"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord NOT { get { if (!_NOTReady) { _NOTContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "NOT"); _NOTReady = true; } return _NOTContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _NOTContent = default;
             private static bool _NOTReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#OR"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#OR"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord OR { get { if (!_ORReady) { _ORContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "OR"); _ORReady = true; } return _ORContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _ORContent = default;
             private static bool _ORReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#PUT"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#PUT"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord PUT { get { if (!_PUTReady) { _PUTContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "PUT"); _PUTReady = true; } return _PUTContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _PUTContent = default;
             private static bool _PUTReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#RANDOM"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#RANDOM"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord RANDOM { get { if (!_RANDOMReady) { _RANDOMContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "RANDOM"); _RANDOMReady = true; } return _RANDOMContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _RANDOMContent = default;
             private static bool _RANDOMReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#RCURVELINE"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#RCURVELINE"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord RCURVELINE { get { if (!_RCURVELINEReady) { _RCURVELINEContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "RCURVELINE"); _RCURVELINEReady = true; } return _RCURVELINEContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _RCURVELINEContent = default;
             private static bool _RCURVELINEReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#RET"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#RET"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord RET { get { if (!_RETReady) { _RETContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "RET"); _RETReady = true; } return _RETContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _RETContent = default;
             private static bool _RETReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#RLINECURVE"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#RLINECURVE"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord RLINECURVE { get { if (!_RLINECURVEReady) { _RLINECURVEContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "RLINECURVE"); _RLINECURVEReady = true; } return _RLINECURVEContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _RLINECURVEContent = default;
             private static bool _RLINECURVEReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#RLINETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#RLINETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord RLINETO { get { if (!_RLINETOReady) { _RLINETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "RLINETO"); _RLINETOReady = true; } return _RLINETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _RLINETOContent = default;
             private static bool _RLINETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#RMOVETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#RMOVETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord RMOVETO { get { if (!_RMOVETOReady) { _RMOVETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "RMOVETO"); _RMOVETOReady = true; } return _RMOVETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _RMOVETOContent = default;
             private static bool _RMOVETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#ROLL"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#ROLL"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord ROLL { get { if (!_ROLLReady) { _ROLLContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "ROLL"); _ROLLReady = true; } return _ROLLContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _ROLLContent = default;
             private static bool _ROLLReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#RRCURVETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#RRCURVETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord RRCURVETO { get { if (!_RRCURVETOReady) { _RRCURVETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "RRCURVETO"); _RRCURVETOReady = true; } return _RRCURVETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _RRCURVETOContent = default;
             private static bool _RRCURVETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#SHORTINT"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#SHORTINT"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord SHORTINT { get { if (!_SHORTINTReady) { _SHORTINTContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "SHORTINT"); _SHORTINTReady = true; } return _SHORTINTContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _SHORTINTContent = default;
             private static bool _SHORTINTReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#SQRT"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#SQRT"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord SQRT { get { if (!_SQRTReady) { _SQRTContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "SQRT"); _SQRTReady = true; } return _SQRTContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _SQRTContent = default;
             private static bool _SQRTReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#SUB"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#SUB"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord SUB { get { if (!_SUBReady) { _SUBContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "SUB"); _SUBReady = true; } return _SUBContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _SUBContent = default;
             private static bool _SUBReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#VHCURVETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#VHCURVETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord VHCURVETO { get { if (!_VHCURVETOReady) { _VHCURVETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "VHCURVETO"); _VHCURVETOReady = true; } return _VHCURVETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _VHCURVETOContent = default;
             private static bool _VHCURVETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#VLINETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#VLINETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord VLINETO { get { if (!_VLINETOReady) { _VLINETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "VLINETO"); _VLINETOReady = true; } return _VLINETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _VLINETOContent = default;
             private static bool _VLINETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#VMOVETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#VMOVETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord VMOVETO { get { if (!_VMOVETOReady) { _VMOVETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "VMOVETO"); _VMOVETOReady = true; } return _VMOVETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _VMOVETOContent = default;
             private static bool _VMOVETOReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#VSTEM"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#VSTEM"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord VSTEM { get { if (!_VSTEMReady) { _VSTEMContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "VSTEM"); _VSTEMReady = true; } return _VSTEMContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _VSTEMContent = default;
             private static bool _VSTEMReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#VSTEMHM"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#VSTEMHM"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord VSTEMHM { get { if (!_VSTEMHMReady) { _VSTEMHMContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "VSTEMHM"); _VSTEMHMReady = true; } return _VSTEMHMContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _VSTEMHMContent = default;
             private static bool _VSTEMHMReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#VVCURVETO"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#VVCURVETO"/>
             /// </summary>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord VVCURVETO { get { if (!_VVCURVETOReady) { _VVCURVETOContent = SGetField<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "VVCURVETO"); _VVCURVETOReady = true; } return _VVCURVETOContent; } }
             private static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord _VVCURVETOContent = default;
@@ -1283,7 +1283,7 @@ namespace Org.Apache.Fontbox.Cff
 
             #region Static methods
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#valueOf-java.lang.String-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#valueOf-java.lang.String-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.String"/></param>
             /// <returns><see cref="Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord"/></returns>
@@ -1292,7 +1292,7 @@ namespace Org.Apache.Fontbox.Cff
                 return SExecuteWithSignature<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "valueOf", "(Ljava/lang/String;)Lorg/apache/fontbox/cff/CharStringCommand$Type2KeyWord;", arg0);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#valueOfKey-int-int-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#valueOfKey-int-int-"/>
             /// </summary>
             /// <param name="arg0"><see cref="int"/></param>
             /// <param name="arg1"><see cref="int"/></param>
@@ -1302,7 +1302,7 @@ namespace Org.Apache.Fontbox.Cff
                 return SExecuteWithSignature<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "valueOfKey", "(II)Lorg/apache/fontbox/cff/CharStringCommand$Type2KeyWord;", arg0, arg1);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#valueOfKey-int-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#valueOfKey-int-"/>
             /// </summary>
             /// <param name="arg0"><see cref="int"/></param>
             /// <returns><see cref="Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord"/></returns>
@@ -1311,7 +1311,7 @@ namespace Org.Apache.Fontbox.Cff
                 return SExecuteWithSignature<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "valueOfKey", "(I)Lorg/apache/fontbox/cff/CharStringCommand$Type2KeyWord;", arg0);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#valueOfKey-org.apache.fontbox.cff.CharStringCommand.Key-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#valueOfKey-org.apache.fontbox.cff.CharStringCommand.Key-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Org.Apache.Fontbox.Cff.CharStringCommand.Key"/></param>
             /// <returns><see cref="Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord"/></returns>
@@ -1320,7 +1320,7 @@ namespace Org.Apache.Fontbox.Cff
                 return SExecuteWithSignature<Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord>(LocalBridgeClazz, "valueOfKey", "(Lorg/apache/fontbox/cff/CharStringCommand$Key;)Lorg/apache/fontbox/cff/CharStringCommand$Type2KeyWord;", arg0);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#values--"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CharStringCommand.Type2KeyWord.html#values--"/>
             /// </summary>
             /// <returns><see cref="Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord"/></returns>
             public static Org.Apache.Fontbox.Cff.CharStringCommand.Type2KeyWord[] Values()

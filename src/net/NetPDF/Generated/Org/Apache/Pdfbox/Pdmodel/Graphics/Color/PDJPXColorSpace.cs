@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
 {
     #region PDJPXColorSpace declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDJPXColorSpace.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDJPXColorSpace.html"/>
     /// </summary>
     public partial class PDJPXColorSpace : Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDJPXColorSpace.html#org.apache.pdfbox.pdmodel.graphics.color.PDJPXColorSpace(java.awt.color.ColorSpace)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDJPXColorSpace.html#org.apache.pdfbox.pdmodel.graphics.color.PDJPXColorSpace(java.awt.color.ColorSpace)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Awt.ColorNs.ColorSpace"/></param>
         public PDJPXColorSpace(Java.Awt.ColorNs.ColorSpace arg0)

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
 {
     #region StandardDecryptionMaterial declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/StandardDecryptionMaterial.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/StandardDecryptionMaterial.html"/>
     /// </summary>
     public partial class StandardDecryptionMaterial : Org.Apache.Pdfbox.Pdmodel.Encryption.DecryptionMaterial
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/StandardDecryptionMaterial.html#org.apache.pdfbox.pdmodel.encryption.StandardDecryptionMaterial(java.lang.String)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/StandardDecryptionMaterial.html#org.apache.pdfbox.pdmodel.encryption.StandardDecryptionMaterial(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         public StandardDecryptionMaterial(Java.Lang.String arg0)
@@ -99,7 +99,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/StandardDecryptionMaterial.html#getPassword--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/StandardDecryptionMaterial.html#getPassword--"/> 
         /// </summary>
         public Java.Lang.String Password
         {

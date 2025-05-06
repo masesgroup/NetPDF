@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Util.Autodetect
 {
     #region MacFontDirFinder declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/util/autodetect/MacFontDirFinder.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/util/autodetect/MacFontDirFinder.html"/>
     /// </summary>
     public partial class MacFontDirFinder : Org.Apache.Fontbox.Util.Autodetect.NativeFontDirFinder
     {

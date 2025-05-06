@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fixup.Processor
 {
     #region PDDocumentProcessor declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fixup/processor/PDDocumentProcessor.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fixup/processor/PDDocumentProcessor.html"/>
     /// </summary>
     public partial class PDDocumentProcessor : MASES.JCOBridge.C2JBridge.JVMBridgeBase<PDDocumentProcessor>
     {
@@ -74,7 +74,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fixup.Processor
 
     #region IPDDocumentProcessor
     /// <summary>
-    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fixup/processor/PDDocumentProcessor.html"/>
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fixup/processor/PDDocumentProcessor.html"/>
     /// </summary>
     public partial interface IPDDocumentProcessor
     {
@@ -111,7 +111,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fixup.Processor
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fixup/processor/PDDocumentProcessor.html#process--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fixup/processor/PDDocumentProcessor.html#process--"/>
         /// </summary>
         public void Process()
         {

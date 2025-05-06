@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf
 {
     #region CmapSubtable declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapSubtable.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapSubtable.html"/>
     /// </summary>
     public partial class CmapSubtable : Org.Apache.Fontbox.Ttf.CmapLookup
     {
@@ -91,21 +91,21 @@ namespace Org.Apache.Fontbox.Ttf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapSubtable.html#getPlatformEncodingId--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapSubtable.html#setPlatformEncodingId-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapSubtable.html#getPlatformEncodingId--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapSubtable.html#setPlatformEncodingId-int-"/>
         /// </summary>
         public int PlatformEncodingId
         {
             get { return IExecuteWithSignature<int>("getPlatformEncodingId", "()I"); } set { IExecuteWithSignature("setPlatformEncodingId", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapSubtable.html#getPlatformId--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapSubtable.html#setPlatformId-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapSubtable.html#getPlatformId--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapSubtable.html#setPlatformId-int-"/>
         /// </summary>
         public int PlatformId
         {
             get { return IExecuteWithSignature<int>("getPlatformId", "()I"); } set { IExecuteWithSignature("setPlatformId", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapSubtable.html#getGlyphId-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapSubtable.html#getGlyphId-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="int"/></returns>
@@ -114,7 +114,7 @@ namespace Org.Apache.Fontbox.Ttf
             return IExecuteWithSignature<int>("getGlyphId", "(I)I", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapSubtable.html#getCharCodes-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapSubtable.html#getCharCodes-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="Java.Util.List"/></returns>

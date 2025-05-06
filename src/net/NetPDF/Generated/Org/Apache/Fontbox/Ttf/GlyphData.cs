@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf
 {
     #region GlyphData declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyphData.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyphData.html"/>
     /// </summary>
     public partial class GlyphData : MASES.JCOBridge.C2JBridge.JVMBridgeBase<GlyphData>
     {
@@ -91,56 +91,56 @@ namespace Org.Apache.Fontbox.Ttf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyphData.html#getBoundingBox--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyphData.html#getBoundingBox--"/> 
         /// </summary>
         public Org.Apache.Fontbox.Util.BoundingBox BoundingBox
         {
             get { return IExecuteWithSignature<Org.Apache.Fontbox.Util.BoundingBox>("getBoundingBox", "()Lorg/apache/fontbox/util/BoundingBox;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyphData.html#getDescription--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyphData.html#getDescription--"/> 
         /// </summary>
         public Org.Apache.Fontbox.Ttf.GlyphDescription Description
         {
             get { return IExecuteWithSignature<Org.Apache.Fontbox.Ttf.GlyphDescription>("getDescription", "()Lorg/apache/fontbox/ttf/GlyphDescription;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyphData.html#getNumberOfContours--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyphData.html#getNumberOfContours--"/> 
         /// </summary>
         public short NumberOfContours
         {
             get { return IExecuteWithSignature<short>("getNumberOfContours", "()S"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyphData.html#getPath--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyphData.html#getPath--"/> 
         /// </summary>
         public Java.Awt.Geom.GeneralPath Path
         {
             get { return IExecuteWithSignature<Java.Awt.Geom.GeneralPath>("getPath", "()Ljava/awt/geom/GeneralPath;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyphData.html#getXMaximum--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyphData.html#getXMaximum--"/> 
         /// </summary>
         public short XMaximum
         {
             get { return IExecuteWithSignature<short>("getXMaximum", "()S"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyphData.html#getXMinimum--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyphData.html#getXMinimum--"/> 
         /// </summary>
         public short XMinimum
         {
             get { return IExecuteWithSignature<short>("getXMinimum", "()S"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyphData.html#getYMaximum--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyphData.html#getYMaximum--"/> 
         /// </summary>
         public short YMaximum
         {
             get { return IExecuteWithSignature<short>("getYMaximum", "()S"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyphData.html#getYMinimum--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyphData.html#getYMinimum--"/> 
         /// </summary>
         public short YMinimum
         {

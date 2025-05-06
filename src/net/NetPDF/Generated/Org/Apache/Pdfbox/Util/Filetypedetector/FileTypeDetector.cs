@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Util.Filetypedetector
 {
     #region FileTypeDetector declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/util/filetypedetector/FileTypeDetector.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/util/filetypedetector/FileTypeDetector.html"/>
     /// </summary>
     public partial class FileTypeDetector : MASES.JCOBridge.C2JBridge.JVMBridgeBase<FileTypeDetector>
     {
@@ -87,7 +87,7 @@ namespace Org.Apache.Pdfbox.Util.Filetypedetector
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/util/filetypedetector/FileTypeDetector.html#detectFileType-byte[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/util/filetypedetector/FileTypeDetector.html#detectFileType-byte[]-"/>
         /// </summary>
         /// <param name="arg0"><see cref="byte"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Util.Filetypedetector.FileType"/></returns>
@@ -96,7 +96,7 @@ namespace Org.Apache.Pdfbox.Util.Filetypedetector
             return SExecuteWithSignature<Org.Apache.Pdfbox.Util.Filetypedetector.FileType>(LocalBridgeClazz, "detectFileType", "([B)Lorg/apache/pdfbox/util/filetypedetector/FileType;", new object[] { arg0 });
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/util/filetypedetector/FileTypeDetector.html#detectFileType-java.io.BufferedInputStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/util/filetypedetector/FileTypeDetector.html#detectFileType-java.io.BufferedInputStream-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.BufferedInputStream"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Util.Filetypedetector.FileType"/></returns>

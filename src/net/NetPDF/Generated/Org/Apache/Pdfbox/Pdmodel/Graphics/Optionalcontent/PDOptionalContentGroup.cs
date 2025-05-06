@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent
 {
     #region PDOptionalContentGroup declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.html"/>
     /// </summary>
     public partial class PDOptionalContentGroup : Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Markedcontent.PDPropertyList
     {
@@ -68,7 +68,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent
         // TODO: complete the class
         #region RenderState declaration
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.RenderState.html"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.RenderState.html"/>
         /// </summary>
         public partial class RenderState : Java.Lang.Enum<Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent.PDOptionalContentGroup.RenderState>
         {
@@ -120,7 +120,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.html#org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentGroup(java.lang.String)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.html#org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentGroup(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         public PDOptionalContentGroup(Java.Lang.String arg0)
@@ -128,7 +128,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.html#org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentGroup(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.html#org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentGroup(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDOptionalContentGroup(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -152,14 +152,14 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.html#getName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.html#setName-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.html#getName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.html#setName-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Name
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getName", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setName", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.html#getRenderState-org.apache.pdfbox.rendering.RenderDestination-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.html#getRenderState-org.apache.pdfbox.rendering.RenderDestination-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Rendering.RenderDestination"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent.PDOptionalContentGroup.RenderState"/></returns>
@@ -184,13 +184,13 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent
 
             #region Fields
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.RenderState.html#OFF"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.RenderState.html#OFF"/>
             /// </summary>
             public static Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent.PDOptionalContentGroup.RenderState OFF { get { if (!_OFFReady) { _OFFContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent.PDOptionalContentGroup.RenderState>(LocalBridgeClazz, "OFF"); _OFFReady = true; } return _OFFContent; } }
             private static Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent.PDOptionalContentGroup.RenderState _OFFContent = default;
             private static bool _OFFReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.RenderState.html#ON"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.RenderState.html#ON"/>
             /// </summary>
             public static Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent.PDOptionalContentGroup.RenderState ON { get { if (!_ONReady) { _ONContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent.PDOptionalContentGroup.RenderState>(LocalBridgeClazz, "ON"); _ONReady = true; } return _ONContent; } }
             private static Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent.PDOptionalContentGroup.RenderState _ONContent = default;
@@ -200,7 +200,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent
 
             #region Static methods
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.RenderState.html#valueOf-java.lang.String-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.RenderState.html#valueOf-java.lang.String-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.String"/></param>
             /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent.PDOptionalContentGroup.RenderState"/></returns>
@@ -209,7 +209,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent
                 return SExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent.PDOptionalContentGroup.RenderState>(LocalBridgeClazz, "valueOf", "(Ljava/lang/String;)Lorg/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup$RenderState;", arg0);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.RenderState.html#valueOf-org.apache.pdfbox.cos.COSName-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.RenderState.html#valueOf-org.apache.pdfbox.cos.COSName-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
             /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent.PDOptionalContentGroup.RenderState"/></returns>
@@ -218,7 +218,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent
                 return SExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent.PDOptionalContentGroup.RenderState>(LocalBridgeClazz, "valueOf", "(Lorg/apache/pdfbox/cos/COSName;)Lorg/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup$RenderState;", arg0);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.RenderState.html#values--"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.RenderState.html#values--"/>
             /// </summary>
             /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent.PDOptionalContentGroup.RenderState"/></returns>
             public static Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent.PDOptionalContentGroup.RenderState[] Values()
@@ -230,7 +230,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent
 
             #region Instance methods
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.RenderState.html#getName--"/> 
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup.RenderState.html#getName--"/> 
             /// </summary>
             public Org.Apache.Pdfbox.Cos.COSName Name
             {

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Printing
 {
     #region Orientation declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/printing/Orientation.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/printing/Orientation.html"/>
     /// </summary>
     public partial class Orientation : Java.Lang.Enum<Org.Apache.Pdfbox.Printing.Orientation>
     {
@@ -83,19 +83,19 @@ namespace Org.Apache.Pdfbox.Printing
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/printing/Orientation.html#AUTO"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/printing/Orientation.html#AUTO"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Printing.Orientation AUTO { get { if (!_AUTOReady) { _AUTOContent = SGetField<Org.Apache.Pdfbox.Printing.Orientation>(LocalBridgeClazz, "AUTO"); _AUTOReady = true; } return _AUTOContent; } }
         private static Org.Apache.Pdfbox.Printing.Orientation _AUTOContent = default;
         private static bool _AUTOReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/printing/Orientation.html#LANDSCAPE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/printing/Orientation.html#LANDSCAPE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Printing.Orientation LANDSCAPE { get { if (!_LANDSCAPEReady) { _LANDSCAPEContent = SGetField<Org.Apache.Pdfbox.Printing.Orientation>(LocalBridgeClazz, "LANDSCAPE"); _LANDSCAPEReady = true; } return _LANDSCAPEContent; } }
         private static Org.Apache.Pdfbox.Printing.Orientation _LANDSCAPEContent = default;
         private static bool _LANDSCAPEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/printing/Orientation.html#PORTRAIT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/printing/Orientation.html#PORTRAIT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Printing.Orientation PORTRAIT { get { if (!_PORTRAITReady) { _PORTRAITContent = SGetField<Org.Apache.Pdfbox.Printing.Orientation>(LocalBridgeClazz, "PORTRAIT"); _PORTRAITReady = true; } return _PORTRAITContent; } }
         private static Org.Apache.Pdfbox.Printing.Orientation _PORTRAITContent = default;
@@ -105,7 +105,7 @@ namespace Org.Apache.Pdfbox.Printing
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/printing/Orientation.html#valueOf-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/printing/Orientation.html#valueOf-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Printing.Orientation"/></returns>
@@ -114,7 +114,7 @@ namespace Org.Apache.Pdfbox.Printing
             return SExecuteWithSignature<Org.Apache.Pdfbox.Printing.Orientation>(LocalBridgeClazz, "valueOf", "(Ljava/lang/String;)Lorg/apache/pdfbox/printing/Orientation;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/printing/Orientation.html#values--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/printing/Orientation.html#values--"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Pdfbox.Printing.Orientation"/></returns>
         public static Org.Apache.Pdfbox.Printing.Orientation[] Values()

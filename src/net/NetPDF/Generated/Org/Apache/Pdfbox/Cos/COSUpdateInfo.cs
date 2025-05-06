@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Cos
 {
     #region COSUpdateInfo declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSUpdateInfo.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSUpdateInfo.html"/>
     /// </summary>
     public partial class COSUpdateInfo : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -74,7 +74,7 @@ namespace Org.Apache.Pdfbox.Cos
 
     #region ICOSUpdateInfo
     /// <summary>
-    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSUpdateInfo.html"/>
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSUpdateInfo.html"/>
     /// </summary>
     public partial interface ICOSUpdateInfo : Org.Apache.Pdfbox.Pdmodel.Common.ICOSObjectable
     {
@@ -111,14 +111,14 @@ namespace Org.Apache.Pdfbox.Cos
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSUpdateInfo.html#getUpdateState--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSUpdateInfo.html#getUpdateState--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSUpdateState UpdateState
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSUpdateState>("getUpdateState", "()Lorg/apache/pdfbox/cos/COSUpdateState;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSUpdateInfo.html#isNeedToBeUpdated--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSUpdateInfo.html#isNeedToBeUpdated--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsNeedToBeUpdated()
@@ -126,7 +126,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<bool>("isNeedToBeUpdated", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSUpdateInfo.html#toIncrement--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSUpdateInfo.html#toIncrement--"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Pdfbox.Cos.COSIncrement"/></returns>
         public Org.Apache.Pdfbox.Cos.COSIncrement ToIncrement()
@@ -134,7 +134,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSIncrement>("toIncrement", "()Lorg/apache/pdfbox/cos/COSIncrement;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSUpdateInfo.html#setNeedToBeUpdated-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSUpdateInfo.html#setNeedToBeUpdated-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetNeedToBeUpdated(bool arg0)

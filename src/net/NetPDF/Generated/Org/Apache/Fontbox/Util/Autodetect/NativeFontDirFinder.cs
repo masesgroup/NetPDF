@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Util.Autodetect
 {
     #region NativeFontDirFinder declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/util/autodetect/NativeFontDirFinder.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/util/autodetect/NativeFontDirFinder.html"/>
     /// </summary>
     public partial class NativeFontDirFinder : Org.Apache.Fontbox.Util.Autodetect.FontDirFinder
     {
@@ -93,7 +93,7 @@ namespace Org.Apache.Fontbox.Util.Autodetect
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/util/autodetect/NativeFontDirFinder.html#find--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/util/autodetect/NativeFontDirFinder.html#find--"/>
         /// </summary>
         /// <returns><see cref="Java.Util.List"/></returns>
         public Java.Util.List<Java.Io.File> Find()

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Cos
 {
     #region COSUpdateState declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSUpdateState.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSUpdateState.html"/>
     /// </summary>
     public partial class COSUpdateState : MASES.JCOBridge.C2JBridge.JVMBridgeBase<COSUpdateState>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Cos
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSUpdateState.html#org.apache.pdfbox.cos.COSUpdateState(org.apache.pdfbox.cos.COSUpdateInfo)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSUpdateState.html#org.apache.pdfbox.cos.COSUpdateState(org.apache.pdfbox.cos.COSUpdateInfo)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSUpdateInfo"/></param>
         public COSUpdateState(Org.Apache.Pdfbox.Cos.COSUpdateInfo arg0)
@@ -99,14 +99,14 @@ namespace Org.Apache.Pdfbox.Cos
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSUpdateState.html#getOriginDocumentState--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSUpdateState.html#setOriginDocumentState-org.apache.pdfbox.cos.COSDocumentState-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSUpdateState.html#getOriginDocumentState--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSUpdateState.html#setOriginDocumentState-org.apache.pdfbox.cos.COSDocumentState-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSDocumentState OriginDocumentState
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSDocumentState>("getOriginDocumentState", "()Lorg/apache/pdfbox/cos/COSDocumentState;"); } set { IExecuteWithSignature("setOriginDocumentState", "(Lorg/apache/pdfbox/cos/COSDocumentState;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSUpdateState.html#isUpdated--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSUpdateState.html#isUpdated--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsUpdated()

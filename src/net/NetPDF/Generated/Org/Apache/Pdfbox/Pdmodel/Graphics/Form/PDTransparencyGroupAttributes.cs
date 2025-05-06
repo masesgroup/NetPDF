@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Form
 {
     #region PDTransparencyGroupAttributes declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroupAttributes.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroupAttributes.html"/>
     /// </summary>
     public partial class PDTransparencyGroupAttributes : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Form
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroupAttributes.html#org.apache.pdfbox.pdmodel.graphics.form.PDTransparencyGroupAttributes(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroupAttributes.html#org.apache.pdfbox.pdmodel.graphics.form.PDTransparencyGroupAttributes(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDTransparencyGroupAttributes(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -99,21 +99,21 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Form
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroupAttributes.html#getColorSpace--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroupAttributes.html#getColorSpace--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace ColorSpace
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace>("getColorSpace", "()Lorg/apache/pdfbox/pdmodel/graphics/color/PDColorSpace;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroupAttributes.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroupAttributes.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroupAttributes.html#isIsolated--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroupAttributes.html#isIsolated--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsIsolated()
@@ -121,7 +121,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Form
             return IExecuteWithSignature<bool>("isIsolated", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroupAttributes.html#isKnockout--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroupAttributes.html#isKnockout--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsKnockout()
@@ -129,7 +129,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Form
             return IExecuteWithSignature<bool>("isKnockout", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroupAttributes.html#getColorSpace-org.apache.pdfbox.pdmodel.PDResources-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroupAttributes.html#getColorSpace-org.apache.pdfbox.pdmodel.PDResources-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDResources"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace"/></returns>

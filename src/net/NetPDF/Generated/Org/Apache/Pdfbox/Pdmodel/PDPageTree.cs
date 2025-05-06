@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
 {
     #region PDPageTree declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDPageTree.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDPageTree.html"/>
     /// </summary>
     public partial class PDPageTree : Java.Lang.Iterable<Org.Apache.Pdfbox.Pdmodel.PDPage>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDPageTree.html#org.apache.pdfbox.pdmodel.PDPageTree(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDPageTree.html#org.apache.pdfbox.pdmodel.PDPageTree(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDPageTree(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -99,7 +99,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDPageTree.html#getInheritableAttribute-org.apache.pdfbox.cos.COSDictionary-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDPageTree.html#getInheritableAttribute-org.apache.pdfbox.cos.COSDictionary-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
@@ -113,21 +113,21 @@ namespace Org.Apache.Pdfbox.Pdmodel
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDPageTree.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDPageTree.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDPageTree.html#getCount--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDPageTree.html#getCount--"/> 
         /// </summary>
         public int Count
         {
             get { return IExecuteWithSignature<int>("getCount", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDPageTree.html#indexOf-org.apache.pdfbox.pdmodel.PDPage-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDPageTree.html#indexOf-org.apache.pdfbox.pdmodel.PDPage-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDPage"/></param>
         /// <returns><see cref="int"/></returns>
@@ -136,7 +136,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             return IExecuteWithSignature<int>("indexOf", "(Lorg/apache/pdfbox/pdmodel/PDPage;)I", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDPageTree.html#iterator--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDPageTree.html#iterator--"/>
         /// </summary>
         /// <returns><see cref="Java.Util.Iterator"/></returns>
         public Java.Util.Iterator<Org.Apache.Pdfbox.Pdmodel.PDPage> Iterator()
@@ -144,7 +144,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             return IExecuteWithSignature<Java.Util.Iterator<Org.Apache.Pdfbox.Pdmodel.PDPage>>("iterator", "()Ljava/util/Iterator;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDPageTree.html#get-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDPageTree.html#get-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.PDPage"/></returns>
@@ -153,7 +153,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.PDPage>("get", "(I)Lorg/apache/pdfbox/pdmodel/PDPage;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDPageTree.html#add-org.apache.pdfbox.pdmodel.PDPage-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDPageTree.html#add-org.apache.pdfbox.pdmodel.PDPage-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDPage"/></param>
         public void Add(Org.Apache.Pdfbox.Pdmodel.PDPage arg0)
@@ -161,7 +161,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             IExecuteWithSignature("add", "(Lorg/apache/pdfbox/pdmodel/PDPage;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDPageTree.html#insertAfter-org.apache.pdfbox.pdmodel.PDPage-org.apache.pdfbox.pdmodel.PDPage-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDPageTree.html#insertAfter-org.apache.pdfbox.pdmodel.PDPage-org.apache.pdfbox.pdmodel.PDPage-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDPage"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.PDPage"/></param>
@@ -170,7 +170,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             IExecuteWithSignature("insertAfter", "(Lorg/apache/pdfbox/pdmodel/PDPage;Lorg/apache/pdfbox/pdmodel/PDPage;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDPageTree.html#insertBefore-org.apache.pdfbox.pdmodel.PDPage-org.apache.pdfbox.pdmodel.PDPage-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDPageTree.html#insertBefore-org.apache.pdfbox.pdmodel.PDPage-org.apache.pdfbox.pdmodel.PDPage-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDPage"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.PDPage"/></param>
@@ -179,7 +179,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             IExecuteWithSignature("insertBefore", "(Lorg/apache/pdfbox/pdmodel/PDPage;Lorg/apache/pdfbox/pdmodel/PDPage;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDPageTree.html#remove-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDPageTree.html#remove-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         public void Remove(int arg0)
@@ -187,7 +187,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             IExecuteWithSignature("remove", "(I)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDPageTree.html#remove-org.apache.pdfbox.pdmodel.PDPage-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDPageTree.html#remove-org.apache.pdfbox.pdmodel.PDPage-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDPage"/></param>
         public void Remove(Org.Apache.Pdfbox.Pdmodel.PDPage arg0)

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Cos
 {
     #region ICOSParser declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/ICOSParser.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/ICOSParser.html"/>
     /// </summary>
     public partial class ICOSParser : MASES.JCOBridge.C2JBridge.JVMBridgeBase<ICOSParser>
     {
@@ -74,7 +74,7 @@ namespace Org.Apache.Pdfbox.Cos
 
     #region IICOSParser
     /// <summary>
-    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/ICOSParser.html"/>
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/ICOSParser.html"/>
     /// </summary>
     public partial interface IICOSParser
     {
@@ -111,7 +111,7 @@ namespace Org.Apache.Pdfbox.Cos
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/ICOSParser.html#dereferenceCOSObject-org.apache.pdfbox.cos.COSObject-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/ICOSParser.html#dereferenceCOSObject-org.apache.pdfbox.cos.COSObject-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSObject"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></returns>
@@ -121,7 +121,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("dereferenceCOSObject", "(Lorg/apache/pdfbox/cos/COSObject;)Lorg/apache/pdfbox/cos/COSBase;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/ICOSParser.html#createRandomAccessReadView-long-long-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/ICOSParser.html#createRandomAccessReadView-long-long-"/>
         /// </summary>
         /// <param name="arg0"><see cref="long"/></param>
         /// <param name="arg1"><see cref="long"/></param>

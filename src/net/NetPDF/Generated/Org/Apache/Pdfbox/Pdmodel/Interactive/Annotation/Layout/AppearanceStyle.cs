@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout
 {
     #region AppearanceStyle declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/layout/AppearanceStyle.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/layout/AppearanceStyle.html"/>
     /// </summary>
     public partial class AppearanceStyle : MASES.JCOBridge.C2JBridge.JVMBridgeBase<AppearanceStyle>
     {
@@ -91,7 +91,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/layout/AppearanceStyle.html#setFont-org.apache.pdfbox.pdmodel.font.PDFont-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/layout/AppearanceStyle.html#setFont-org.apache.pdfbox.pdmodel.font.PDFont-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Font.PDFont"/></param>
         public void SetFont(Org.Apache.Pdfbox.Pdmodel.Font.PDFont arg0)
@@ -99,7 +99,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout
             IExecuteWithSignature("setFont", "(Lorg/apache/pdfbox/pdmodel/font/PDFont;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/layout/AppearanceStyle.html#setFontSize-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/layout/AppearanceStyle.html#setFontSize-float-"/>
         /// </summary>
         /// <param name="arg0"><see cref="float"/></param>
         public void SetFontSize(float arg0)

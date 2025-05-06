@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
 {
     #region RadialShadingPaint declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/RadialShadingPaint.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/RadialShadingPaint.html"/>
     /// </summary>
     public partial class RadialShadingPaint : Org.Apache.Pdfbox.Pdmodel.Graphics.Shading.ShadingPaint<Org.Apache.Pdfbox.Pdmodel.Graphics.Shading.PDShadingType3>
     {

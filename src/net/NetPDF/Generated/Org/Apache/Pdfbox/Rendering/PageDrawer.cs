@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Rendering
 {
     #region PageDrawer declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PageDrawer.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PageDrawer.html"/>
     /// </summary>
     public partial class PageDrawer : Org.Apache.Pdfbox.Contentstream.PDFGraphicsStreamEngine
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Rendering
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PageDrawer.html#org.apache.pdfbox.rendering.PageDrawer(org.apache.pdfbox.rendering.PageDrawerParameters)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PageDrawer.html#org.apache.pdfbox.rendering.PageDrawer(org.apache.pdfbox.rendering.PageDrawerParameters)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Rendering.PageDrawerParameters"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -100,21 +100,21 @@ namespace Org.Apache.Pdfbox.Rendering
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PageDrawer.html#getAnnotationFilter--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PageDrawer.html#setAnnotationFilter-org.apache.pdfbox.pdmodel.interactive.annotation.AnnotationFilter-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PageDrawer.html#getAnnotationFilter--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PageDrawer.html#setAnnotationFilter-org.apache.pdfbox.pdmodel.interactive.annotation.AnnotationFilter-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.AnnotationFilter AnnotationFilter
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.AnnotationFilter>("getAnnotationFilter", "()Lorg/apache/pdfbox/pdmodel/interactive/annotation/AnnotationFilter;"); } set { IExecuteWithSignature("setAnnotationFilter", "(Lorg/apache/pdfbox/pdmodel/interactive/annotation/AnnotationFilter;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PageDrawer.html#getRenderer--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PageDrawer.html#getRenderer--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Rendering.PDFRenderer Renderer
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Rendering.PDFRenderer>("getRenderer", "()Lorg/apache/pdfbox/rendering/PDFRenderer;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PageDrawer.html#drawPage-java.awt.Graphics2D-org.apache.pdfbox.pdmodel.common.PDRectangle-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PageDrawer.html#drawPage-java.awt.Graphics2D-org.apache.pdfbox.pdmodel.common.PDRectangle-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Awt.Graphics2D"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.Common.PDRectangle"/></param>

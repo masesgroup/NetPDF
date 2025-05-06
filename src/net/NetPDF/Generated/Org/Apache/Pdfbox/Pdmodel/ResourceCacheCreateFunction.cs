@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
 {
     #region ResourceCacheCreateFunction declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/ResourceCacheCreateFunction.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/ResourceCacheCreateFunction.html"/>
     /// </summary>
     public partial class ResourceCacheCreateFunction : MASES.JCOBridge.C2JBridge.JVMBridgeBase<ResourceCacheCreateFunction>
     {
@@ -74,7 +74,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
 
     #region IResourceCacheCreateFunction
     /// <summary>
-    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/ResourceCacheCreateFunction.html"/>
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/ResourceCacheCreateFunction.html"/>
     /// </summary>
     public partial interface IResourceCacheCreateFunction
     {
@@ -111,7 +111,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/ResourceCacheCreateFunction.html#create--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/ResourceCacheCreateFunction.html#create--"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.ResourceCache"/></returns>
         public Org.Apache.Pdfbox.Pdmodel.ResourceCache Create()

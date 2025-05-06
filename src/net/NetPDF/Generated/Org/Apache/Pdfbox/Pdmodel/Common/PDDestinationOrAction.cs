@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
 {
     #region PDDestinationOrAction declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDDestinationOrAction.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDDestinationOrAction.html"/>
     /// </summary>
     public partial class PDDestinationOrAction : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -74,7 +74,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
 
     #region IPDDestinationOrAction
     /// <summary>
-    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDDestinationOrAction.html"/>
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDDestinationOrAction.html"/>
     /// </summary>
     public partial interface IPDDestinationOrAction : Org.Apache.Pdfbox.Pdmodel.Common.ICOSObjectable
     {

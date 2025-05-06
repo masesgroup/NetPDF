@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Cff
 {
     #region DataInputRandomAccessRead declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/DataInputRandomAccessRead.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/DataInputRandomAccessRead.html"/>
     /// </summary>
     public partial class DataInputRandomAccessRead : Org.Apache.Fontbox.Cff.DataInput
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Fontbox.Cff
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/DataInputRandomAccessRead.html#org.apache.fontbox.cff.DataInputRandomAccessRead(org.apache.pdfbox.io.RandomAccessRead)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/DataInputRandomAccessRead.html#org.apache.fontbox.cff.DataInputRandomAccessRead(org.apache.pdfbox.io.RandomAccessRead)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Io.RandomAccessRead"/></param>
         public DataInputRandomAccessRead(Org.Apache.Pdfbox.Io.RandomAccessRead arg0)
@@ -99,14 +99,14 @@ namespace Org.Apache.Fontbox.Cff
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/DataInputRandomAccessRead.html#getPosition--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/DataInputRandomAccessRead.html#setPosition-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/DataInputRandomAccessRead.html#getPosition--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/DataInputRandomAccessRead.html#setPosition-int-"/>
         /// </summary>
         public int Position
         {
             get { return IExecuteWithSignature<int>("getPosition", "()I"); } set { IExecuteWithSignature("setPosition", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/DataInputRandomAccessRead.html#hasRemaining--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/DataInputRandomAccessRead.html#hasRemaining--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         /// <exception cref="Java.Io.IOException"/>
@@ -115,7 +115,7 @@ namespace Org.Apache.Fontbox.Cff
             return IExecuteWithSignature<bool>("hasRemaining", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/DataInputRandomAccessRead.html#readByte--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/DataInputRandomAccessRead.html#readByte--"/>
         /// </summary>
         /// <returns><see cref="byte"/></returns>
         /// <exception cref="Java.Io.IOException"/>
@@ -124,7 +124,7 @@ namespace Org.Apache.Fontbox.Cff
             return IExecuteWithSignature<byte>("readByte", "()B");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/DataInputRandomAccessRead.html#readBytes-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/DataInputRandomAccessRead.html#readBytes-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="byte"/></returns>
@@ -134,7 +134,7 @@ namespace Org.Apache.Fontbox.Cff
             return IExecuteWithSignatureArray<byte>("readBytes", "(I)[B", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/DataInputRandomAccessRead.html#length--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/DataInputRandomAccessRead.html#length--"/>
         /// </summary>
         /// <returns><see cref="int"/></returns>
         /// <exception cref="Java.Io.IOException"/>
@@ -143,7 +143,7 @@ namespace Org.Apache.Fontbox.Cff
             return IExecuteWithSignature<int>("length", "()I");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/DataInputRandomAccessRead.html#peekUnsignedByte-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/DataInputRandomAccessRead.html#peekUnsignedByte-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="int"/></returns>
@@ -153,7 +153,7 @@ namespace Org.Apache.Fontbox.Cff
             return IExecuteWithSignature<int>("peekUnsignedByte", "(I)I", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/DataInputRandomAccessRead.html#readUnsignedByte--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/DataInputRandomAccessRead.html#readUnsignedByte--"/>
         /// </summary>
         /// <returns><see cref="int"/></returns>
         /// <exception cref="Java.Io.IOException"/>

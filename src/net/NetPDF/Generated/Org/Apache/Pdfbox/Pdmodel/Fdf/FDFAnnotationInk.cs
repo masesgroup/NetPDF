@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
 {
     #region FDFAnnotationInk declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationInk.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationInk.html"/>
     /// </summary>
     public partial class FDFAnnotationInk : Org.Apache.Pdfbox.Pdmodel.Fdf.FDFAnnotation
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationInk.html#org.apache.pdfbox.pdmodel.fdf.FDFAnnotationInk(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationInk.html#org.apache.pdfbox.pdmodel.fdf.FDFAnnotationInk(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public FDFAnnotationInk(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -83,7 +83,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationInk.html#org.apache.pdfbox.pdmodel.fdf.FDFAnnotationInk(org.w3c.dom.Element)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationInk.html#org.apache.pdfbox.pdmodel.fdf.FDFAnnotationInk(org.w3c.dom.Element)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.W3c.Dom.Element"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -100,7 +100,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationInk.html#SUBTYPE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationInk.html#SUBTYPE"/>
         /// </summary>
         public static Java.Lang.String SUBTYPE { get { if (!_SUBTYPEReady) { _SUBTYPEContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "SUBTYPE"); _SUBTYPEReady = true; } return _SUBTYPEContent; } }
         private static Java.Lang.String _SUBTYPEContent = default;
@@ -114,7 +114,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationInk.html#getInkList--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationInk.html#setInkList-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationInk.html#getInkList--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationInk.html#setInkList-java.util.List-"/>
         /// </summary>
         public Java.Util.List<float[]> InkList
         {

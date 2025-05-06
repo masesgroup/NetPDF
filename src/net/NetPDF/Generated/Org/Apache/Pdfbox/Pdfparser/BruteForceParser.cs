@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
 {
     #region BruteForceParser declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/BruteForceParser.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/BruteForceParser.html"/>
     /// </summary>
     public partial class BruteForceParser : Org.Apache.Pdfbox.Pdfparser.COSParser
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/BruteForceParser.html#org.apache.pdfbox.pdfparser.BruteForceParser(org.apache.pdfbox.io.RandomAccessRead,org.apache.pdfbox.cos.COSDocument)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/BruteForceParser.html#org.apache.pdfbox.pdfparser.BruteForceParser(org.apache.pdfbox.io.RandomAccessRead,org.apache.pdfbox.cos.COSDocument)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Io.RandomAccessRead"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSDocument"/></param>
@@ -101,7 +101,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/BruteForceParser.html#bfSearchTriggered--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/BruteForceParser.html#bfSearchTriggered--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool BfSearchTriggered()

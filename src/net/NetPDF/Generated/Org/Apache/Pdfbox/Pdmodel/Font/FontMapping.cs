@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
 {
     #region FontMapping declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontMapping.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontMapping.html"/>
     /// </summary>
     public partial class FontMapping : MASES.JCOBridge.C2JBridge.JVMBridgeBase<FontMapping>
     {
@@ -72,7 +72,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
 
     #region FontMapping<T> declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontMapping.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontMapping.html"/>
     /// </summary>
     /// <typeparam name="T"><see cref="Org.Apache.Fontbox.IFontBoxFont"/></typeparam>
     public partial class FontMapping<T> : MASES.JCOBridge.C2JBridge.JVMBridgeBase<FontMapping<T>> where T : Org.Apache.Fontbox.IFontBoxFont, new()
@@ -121,7 +121,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontMapping.html#org.apache.pdfbox.pdmodel.font.FontMapping(org.apache.fontbox.FontBoxFont,boolean)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontMapping.html#org.apache.pdfbox.pdmodel.font.FontMapping(org.apache.fontbox.FontBoxFont,boolean)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Fontbox.FontBoxFont"/></param>
         /// <param name="arg1"><see cref="bool"/></param>
@@ -146,14 +146,14 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontMapping.html#getFont--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontMapping.html#getFont--"/> 
         /// </summary>
         public Org.Apache.Fontbox.FontBoxFont Font
         {
             get { return IExecuteWithSignature<Org.Apache.Fontbox.FontBoxFont>("getFont", "()Lorg/apache/fontbox/FontBoxFont;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontMapping.html#isFallback--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontMapping.html#isFallback--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsFallback()
@@ -176,7 +176,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontMapping.html#org.apache.pdfbox.pdmodel.font.FontMapping(org.apache.fontbox.FontBoxFont,boolean)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontMapping.html#org.apache.pdfbox.pdmodel.font.FontMapping(org.apache.fontbox.FontBoxFont,boolean)"/>
         /// </summary>
         /// <param name="arg0"><typeparamref name="T"/></param>
         /// <param name="arg1"><see cref="bool"/></param>
@@ -205,14 +205,14 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontMapping.html#getFont--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontMapping.html#getFont--"/> 
         /// </summary>
         public T Font
         {
             get { return IExecuteWithSignature<T>("getFont", "()Lorg/apache/fontbox/FontBoxFont;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontMapping.html#isFallback--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontMapping.html#isFallback--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsFallback()

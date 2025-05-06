@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Io
 {
     #region IOUtils declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/IOUtils.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/IOUtils.html"/>
     /// </summary>
     public partial class IOUtils : MASES.JCOBridge.C2JBridge.JVMBridgeBase<IOUtils>
     {
@@ -87,7 +87,7 @@ namespace Org.Apache.Pdfbox.Io
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/IOUtils.html#toByteArray-java.io.InputStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/IOUtils.html#toByteArray-java.io.InputStream-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.InputStream"/></param>
         /// <returns><see cref="byte"/></returns>
@@ -97,7 +97,7 @@ namespace Org.Apache.Pdfbox.Io
             return SExecuteWithSignatureArray<byte>(LocalBridgeClazz, "toByteArray", "(Ljava/io/InputStream;)[B", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/IOUtils.html#copy-java.io.InputStream-java.io.OutputStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/IOUtils.html#copy-java.io.InputStream-java.io.OutputStream-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.InputStream"/></param>
         /// <param name="arg1"><see cref="Java.Io.OutputStream"/></param>
@@ -108,7 +108,7 @@ namespace Org.Apache.Pdfbox.Io
             return SExecuteWithSignature<long>(LocalBridgeClazz, "copy", "(Ljava/io/InputStream;Ljava/io/OutputStream;)J", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/IOUtils.html#populateBuffer-java.io.InputStream-byte[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/IOUtils.html#populateBuffer-java.io.InputStream-byte[]-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.InputStream"/></param>
         /// <param name="arg1"><see cref="byte"/></param>
@@ -119,7 +119,7 @@ namespace Org.Apache.Pdfbox.Io
             return SExecuteWithSignature<long>(LocalBridgeClazz, "populateBuffer", "(Ljava/io/InputStream;[B)J", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/IOUtils.html#createMemoryOnlyStreamCache--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/IOUtils.html#createMemoryOnlyStreamCache--"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Pdfbox.Io.RandomAccessStreamCache.StreamCacheCreateFunction"/></returns>
         public static Org.Apache.Pdfbox.Io.RandomAccessStreamCache.StreamCacheCreateFunction CreateMemoryOnlyStreamCache()
@@ -127,7 +127,7 @@ namespace Org.Apache.Pdfbox.Io
             return SExecuteWithSignature<Org.Apache.Pdfbox.Io.RandomAccessStreamCache.StreamCacheCreateFunction>(LocalBridgeClazz, "createMemoryOnlyStreamCache", "()Lorg/apache/pdfbox/io/RandomAccessStreamCache$StreamCacheCreateFunction;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/IOUtils.html#createTempFileOnlyStreamCache--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/IOUtils.html#createTempFileOnlyStreamCache--"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Pdfbox.Io.RandomAccessStreamCache.StreamCacheCreateFunction"/></returns>
         public static Org.Apache.Pdfbox.Io.RandomAccessStreamCache.StreamCacheCreateFunction CreateTempFileOnlyStreamCache()
@@ -135,7 +135,7 @@ namespace Org.Apache.Pdfbox.Io
             return SExecuteWithSignature<Org.Apache.Pdfbox.Io.RandomAccessStreamCache.StreamCacheCreateFunction>(LocalBridgeClazz, "createTempFileOnlyStreamCache", "()Lorg/apache/pdfbox/io/RandomAccessStreamCache$StreamCacheCreateFunction;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/IOUtils.html#closeQuietly-java.io.Closeable-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/IOUtils.html#closeQuietly-java.io.Closeable-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.Closeable"/></param>
         public static void CloseQuietly(Java.Io.Closeable arg0)
@@ -143,7 +143,7 @@ namespace Org.Apache.Pdfbox.Io
             SExecuteWithSignature(LocalBridgeClazz, "closeQuietly", "(Ljava/io/Closeable;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/IOUtils.html#unmap-java.nio.ByteBuffer-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/IOUtils.html#unmap-java.nio.ByteBuffer-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Nio.ByteBuffer"/></param>
         public static void Unmap(Java.Nio.ByteBuffer arg0)

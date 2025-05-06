@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Printing
 {
     #region PDFPrintable declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/printing/PDFPrintable.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/printing/PDFPrintable.html"/>
     /// </summary>
     public partial class PDFPrintable : Java.Awt.Print.Printable
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Printing
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/printing/PDFPrintable.html#org.apache.pdfbox.printing.PDFPrintable(org.apache.pdfbox.pdmodel.PDDocument,org.apache.pdfbox.printing.Scaling,boolean,float,boolean,org.apache.pdfbox.rendering.PDFRenderer)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/printing/PDFPrintable.html#org.apache.pdfbox.printing.PDFPrintable(org.apache.pdfbox.pdmodel.PDDocument,org.apache.pdfbox.printing.Scaling,boolean,float,boolean,org.apache.pdfbox.rendering.PDFRenderer)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Printing.Scaling"/></param>
@@ -88,7 +88,7 @@ namespace Org.Apache.Pdfbox.Printing
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/printing/PDFPrintable.html#org.apache.pdfbox.printing.PDFPrintable(org.apache.pdfbox.pdmodel.PDDocument,org.apache.pdfbox.printing.Scaling,boolean,float,boolean)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/printing/PDFPrintable.html#org.apache.pdfbox.printing.PDFPrintable(org.apache.pdfbox.pdmodel.PDDocument,org.apache.pdfbox.printing.Scaling,boolean,float,boolean)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Printing.Scaling"/></param>
@@ -100,7 +100,7 @@ namespace Org.Apache.Pdfbox.Printing
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/printing/PDFPrintable.html#org.apache.pdfbox.printing.PDFPrintable(org.apache.pdfbox.pdmodel.PDDocument,org.apache.pdfbox.printing.Scaling,boolean,float)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/printing/PDFPrintable.html#org.apache.pdfbox.printing.PDFPrintable(org.apache.pdfbox.pdmodel.PDDocument,org.apache.pdfbox.printing.Scaling,boolean,float)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Printing.Scaling"/></param>
@@ -111,7 +111,7 @@ namespace Org.Apache.Pdfbox.Printing
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/printing/PDFPrintable.html#org.apache.pdfbox.printing.PDFPrintable(org.apache.pdfbox.pdmodel.PDDocument,org.apache.pdfbox.printing.Scaling,boolean)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/printing/PDFPrintable.html#org.apache.pdfbox.printing.PDFPrintable(org.apache.pdfbox.pdmodel.PDDocument,org.apache.pdfbox.printing.Scaling,boolean)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Printing.Scaling"/></param>
@@ -121,7 +121,7 @@ namespace Org.Apache.Pdfbox.Printing
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/printing/PDFPrintable.html#org.apache.pdfbox.printing.PDFPrintable(org.apache.pdfbox.pdmodel.PDDocument,org.apache.pdfbox.printing.Scaling)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/printing/PDFPrintable.html#org.apache.pdfbox.printing.PDFPrintable(org.apache.pdfbox.pdmodel.PDDocument,org.apache.pdfbox.printing.Scaling)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Printing.Scaling"/></param>
@@ -130,7 +130,7 @@ namespace Org.Apache.Pdfbox.Printing
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/printing/PDFPrintable.html#org.apache.pdfbox.printing.PDFPrintable(org.apache.pdfbox.pdmodel.PDDocument)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/printing/PDFPrintable.html#org.apache.pdfbox.printing.PDFPrintable(org.apache.pdfbox.pdmodel.PDDocument)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         public PDFPrintable(Org.Apache.Pdfbox.Pdmodel.PDDocument arg0)
@@ -146,13 +146,13 @@ namespace Org.Apache.Pdfbox.Printing
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/printing/PDFPrintable.html#RASTERIZE_DPI_AUTO"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/printing/PDFPrintable.html#RASTERIZE_DPI_AUTO"/>
         /// </summary>
         public static float RASTERIZE_DPI_AUTO { get { if (!_RASTERIZE_DPI_AUTOReady) { _RASTERIZE_DPI_AUTOContent = SGetField<float>(LocalBridgeClazz, "RASTERIZE_DPI_AUTO"); _RASTERIZE_DPI_AUTOReady = true; } return _RASTERIZE_DPI_AUTOContent; } }
         private static float _RASTERIZE_DPI_AUTOContent = default;
         private static bool _RASTERIZE_DPI_AUTOReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/printing/PDFPrintable.html#RASTERIZE_OFF"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/printing/PDFPrintable.html#RASTERIZE_OFF"/>
         /// </summary>
         public static float RASTERIZE_OFF { get { if (!_RASTERIZE_OFFReady) { _RASTERIZE_OFFContent = SGetField<float>(LocalBridgeClazz, "RASTERIZE_OFF"); _RASTERIZE_OFFReady = true; } return _RASTERIZE_OFFContent; } }
         private static float _RASTERIZE_OFFContent = default;
@@ -166,14 +166,14 @@ namespace Org.Apache.Pdfbox.Printing
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/printing/PDFPrintable.html#getRenderingHints--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/printing/PDFPrintable.html#setRenderingHints-java.awt.RenderingHints-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/printing/PDFPrintable.html#getRenderingHints--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/printing/PDFPrintable.html#setRenderingHints-java.awt.RenderingHints-"/>
         /// </summary>
         public Java.Awt.RenderingHints RenderingHints
         {
             get { return IExecuteWithSignature<Java.Awt.RenderingHints>("getRenderingHints", "()Ljava/awt/RenderingHints;"); } set { IExecuteWithSignature("setRenderingHints", "(Ljava/awt/RenderingHints;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/printing/PDFPrintable.html#isSubsamplingAllowed--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/printing/PDFPrintable.html#isSubsamplingAllowed--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsSubsamplingAllowed()
@@ -181,7 +181,7 @@ namespace Org.Apache.Pdfbox.Printing
             return IExecuteWithSignature<bool>("isSubsamplingAllowed", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/printing/PDFPrintable.html#print-java.awt.Graphics-java.awt.print.PageFormat-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/printing/PDFPrintable.html#print-java.awt.Graphics-java.awt.print.PageFormat-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Awt.Graphics"/></param>
         /// <param name="arg1"><see cref="Java.Awt.Print.PageFormat"/></param>
@@ -193,7 +193,7 @@ namespace Org.Apache.Pdfbox.Printing
             return IExecuteWithSignature<int>("print", "(Ljava/awt/Graphics;Ljava/awt/print/PageFormat;I)I", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/printing/PDFPrintable.html#setSubsamplingAllowed-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/printing/PDFPrintable.html#setSubsamplingAllowed-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetSubsamplingAllowed(bool arg0)

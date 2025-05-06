@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Blend
 {
     #region BlendMode declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html"/>
     /// </summary>
     public partial class BlendMode : MASES.JCOBridge.C2JBridge.JVMBridgeBase<BlendMode>
     {
@@ -68,7 +68,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Blend
         // TODO: complete the class
         #region BlendChannelFunction declaration
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.BlendChannelFunction.html"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.BlendChannelFunction.html"/>
         /// </summary>
         public partial class BlendChannelFunction : MASES.JCOBridge.C2JBridge.JVMBridgeBase<BlendChannelFunction>
         {
@@ -115,7 +115,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Blend
 
         #region BlendFunction declaration
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.BlendFunction.html"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.BlendFunction.html"/>
         /// </summary>
         public partial class BlendFunction : MASES.JCOBridge.C2JBridge.JVMBridgeBase<BlendFunction>
         {
@@ -177,103 +177,103 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Blend
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#COLOR"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#COLOR"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode COLOR { get { if (!_COLORReady) { _COLORContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode>(LocalBridgeClazz, "COLOR"); _COLORReady = true; } return _COLORContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode _COLORContent = default;
         private static bool _COLORReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#COLOR_BURN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#COLOR_BURN"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode COLOR_BURN { get { if (!_COLOR_BURNReady) { _COLOR_BURNContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode>(LocalBridgeClazz, "COLOR_BURN"); _COLOR_BURNReady = true; } return _COLOR_BURNContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode _COLOR_BURNContent = default;
         private static bool _COLOR_BURNReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#COLOR_DODGE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#COLOR_DODGE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode COLOR_DODGE { get { if (!_COLOR_DODGEReady) { _COLOR_DODGEContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode>(LocalBridgeClazz, "COLOR_DODGE"); _COLOR_DODGEReady = true; } return _COLOR_DODGEContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode _COLOR_DODGEContent = default;
         private static bool _COLOR_DODGEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#COMPATIBLE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#COMPATIBLE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode COMPATIBLE { get { if (!_COMPATIBLEReady) { _COMPATIBLEContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode>(LocalBridgeClazz, "COMPATIBLE"); _COMPATIBLEReady = true; } return _COMPATIBLEContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode _COMPATIBLEContent = default;
         private static bool _COMPATIBLEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#DARKEN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#DARKEN"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode DARKEN { get { if (!_DARKENReady) { _DARKENContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode>(LocalBridgeClazz, "DARKEN"); _DARKENReady = true; } return _DARKENContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode _DARKENContent = default;
         private static bool _DARKENReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#DIFFERENCE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#DIFFERENCE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode DIFFERENCE { get { if (!_DIFFERENCEReady) { _DIFFERENCEContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode>(LocalBridgeClazz, "DIFFERENCE"); _DIFFERENCEReady = true; } return _DIFFERENCEContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode _DIFFERENCEContent = default;
         private static bool _DIFFERENCEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#EXCLUSION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#EXCLUSION"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode EXCLUSION { get { if (!_EXCLUSIONReady) { _EXCLUSIONContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode>(LocalBridgeClazz, "EXCLUSION"); _EXCLUSIONReady = true; } return _EXCLUSIONContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode _EXCLUSIONContent = default;
         private static bool _EXCLUSIONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#HARD_LIGHT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#HARD_LIGHT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode HARD_LIGHT { get { if (!_HARD_LIGHTReady) { _HARD_LIGHTContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode>(LocalBridgeClazz, "HARD_LIGHT"); _HARD_LIGHTReady = true; } return _HARD_LIGHTContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode _HARD_LIGHTContent = default;
         private static bool _HARD_LIGHTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#HUE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#HUE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode HUE { get { if (!_HUEReady) { _HUEContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode>(LocalBridgeClazz, "HUE"); _HUEReady = true; } return _HUEContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode _HUEContent = default;
         private static bool _HUEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#LIGHTEN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#LIGHTEN"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode LIGHTEN { get { if (!_LIGHTENReady) { _LIGHTENContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode>(LocalBridgeClazz, "LIGHTEN"); _LIGHTENReady = true; } return _LIGHTENContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode _LIGHTENContent = default;
         private static bool _LIGHTENReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#LUMINOSITY"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#LUMINOSITY"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode LUMINOSITY { get { if (!_LUMINOSITYReady) { _LUMINOSITYContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode>(LocalBridgeClazz, "LUMINOSITY"); _LUMINOSITYReady = true; } return _LUMINOSITYContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode _LUMINOSITYContent = default;
         private static bool _LUMINOSITYReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#MULTIPLY"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#MULTIPLY"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode MULTIPLY { get { if (!_MULTIPLYReady) { _MULTIPLYContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode>(LocalBridgeClazz, "MULTIPLY"); _MULTIPLYReady = true; } return _MULTIPLYContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode _MULTIPLYContent = default;
         private static bool _MULTIPLYReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#NORMAL"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#NORMAL"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode NORMAL { get { if (!_NORMALReady) { _NORMALContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode>(LocalBridgeClazz, "NORMAL"); _NORMALReady = true; } return _NORMALContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode _NORMALContent = default;
         private static bool _NORMALReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#OVERLAY"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#OVERLAY"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode OVERLAY { get { if (!_OVERLAYReady) { _OVERLAYContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode>(LocalBridgeClazz, "OVERLAY"); _OVERLAYReady = true; } return _OVERLAYContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode _OVERLAYContent = default;
         private static bool _OVERLAYReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#SATURATION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#SATURATION"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode SATURATION { get { if (!_SATURATIONReady) { _SATURATIONContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode>(LocalBridgeClazz, "SATURATION"); _SATURATIONReady = true; } return _SATURATIONContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode _SATURATIONContent = default;
         private static bool _SATURATIONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#SCREEN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#SCREEN"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode SCREEN { get { if (!_SCREENReady) { _SCREENContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode>(LocalBridgeClazz, "SCREEN"); _SCREENReady = true; } return _SCREENContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode _SCREENContent = default;
         private static bool _SCREENReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#SOFT_LIGHT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#SOFT_LIGHT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode SOFT_LIGHT { get { if (!_SOFT_LIGHTReady) { _SOFT_LIGHTContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode>(LocalBridgeClazz, "SOFT_LIGHT"); _SOFT_LIGHTReady = true; } return _SOFT_LIGHTContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode _SOFT_LIGHTContent = default;
@@ -283,7 +283,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Blend
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#getInstance-org.apache.pdfbox.cos.COSBase-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#getInstance-org.apache.pdfbox.cos.COSBase-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode"/></returns>
@@ -296,28 +296,28 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Blend
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#getCOSName--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#getCOSName--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSName COSName
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSName>("getCOSName", "()Lorg/apache/pdfbox/cos/COSName;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#getBlendChannelFunction--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#getBlendChannelFunction--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode.BlendChannelFunction GetBlendChannelFunction
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode.BlendChannelFunction>("getBlendChannelFunction", "()Lorg/apache/pdfbox/pdmodel/graphics/blend/BlendMode$BlendChannelFunction;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#getBlendFunction--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#getBlendFunction--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode.BlendFunction GetBlendFunction
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode.BlendFunction>("getBlendFunction", "()Lorg/apache/pdfbox/pdmodel/graphics/blend/BlendMode$BlendFunction;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#isSeparableBlendMode--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.html#isSeparableBlendMode--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsSeparableBlendMode()
@@ -349,7 +349,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Blend
 
             #region Instance methods
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.BlendChannelFunction.html#blendChannel-float-float-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.BlendChannelFunction.html#blendChannel-float-float-"/>
             /// </summary>
             /// <param name="arg0"><see cref="float"/></param>
             /// <param name="arg1"><see cref="float"/></param>
@@ -390,7 +390,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Blend
 
             #region Instance methods
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.BlendFunction.html#blend-float[]-float[]-float[]-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendMode.BlendFunction.html#blend-float[]-float[]-float[]-"/>
             /// </summary>
             /// <param name="arg0"><see cref="float"/></param>
             /// <param name="arg1"><see cref="float"/></param>

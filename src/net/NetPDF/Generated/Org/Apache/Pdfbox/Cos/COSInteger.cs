@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Cos
 {
     #region COSInteger declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSInteger.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSInteger.html"/>
     /// </summary>
     public partial class COSInteger : Org.Apache.Pdfbox.Cos.COSNumber
     {
@@ -83,25 +83,25 @@ namespace Org.Apache.Pdfbox.Cos
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSInteger.html#ONE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSInteger.html#ONE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSInteger ONE { get { if (!_ONEReady) { _ONEContent = SGetField<Org.Apache.Pdfbox.Cos.COSInteger>(LocalBridgeClazz, "ONE"); _ONEReady = true; } return _ONEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSInteger _ONEContent = default;
         private static bool _ONEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSInteger.html#THREE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSInteger.html#THREE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSInteger THREE { get { if (!_THREEReady) { _THREEContent = SGetField<Org.Apache.Pdfbox.Cos.COSInteger>(LocalBridgeClazz, "THREE"); _THREEReady = true; } return _THREEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSInteger _THREEContent = default;
         private static bool _THREEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSInteger.html#TWO"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSInteger.html#TWO"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSInteger TWO { get { if (!_TWOReady) { _TWOContent = SGetField<Org.Apache.Pdfbox.Cos.COSInteger>(LocalBridgeClazz, "TWO"); _TWOReady = true; } return _TWOContent; } }
         private static Org.Apache.Pdfbox.Cos.COSInteger _TWOContent = default;
         private static bool _TWOReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSInteger.html#ZERO"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSInteger.html#ZERO"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSInteger ZERO { get { if (!_ZEROReady) { _ZEROContent = SGetField<Org.Apache.Pdfbox.Cos.COSInteger>(LocalBridgeClazz, "ZERO"); _ZEROReady = true; } return _ZEROContent; } }
         private static Org.Apache.Pdfbox.Cos.COSInteger _ZEROContent = default;
@@ -111,7 +111,7 @@ namespace Org.Apache.Pdfbox.Cos
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSInteger.html#get-long-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSInteger.html#get-long-"/>
         /// </summary>
         /// <param name="arg0"><see cref="long"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Cos.COSInteger"/></returns>
@@ -124,7 +124,7 @@ namespace Org.Apache.Pdfbox.Cos
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSInteger.html#isValid--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSInteger.html#isValid--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsValid()
@@ -132,7 +132,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<bool>("isValid", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSInteger.html#writePDF-java.io.OutputStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSInteger.html#writePDF-java.io.OutputStream-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.OutputStream"/></param>
         /// <exception cref="Java.Io.IOException"/>

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
 {
     #region InvalidPasswordException declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/InvalidPasswordException.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/InvalidPasswordException.html"/>
     /// </summary>
     public partial class InvalidPasswordException : Java.Io.IOException
     {

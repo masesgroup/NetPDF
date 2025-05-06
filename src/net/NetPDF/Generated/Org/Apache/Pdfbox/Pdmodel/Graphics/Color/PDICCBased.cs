@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
 {
     #region PDICCBased declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.html"/>
     /// </summary>
     public partial class PDICCBased : Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDCIEBasedColorSpace
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.html#org.apache.pdfbox.pdmodel.graphics.color.PDICCBased(org.apache.pdfbox.pdmodel.PDDocument)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.html#org.apache.pdfbox.pdmodel.graphics.color.PDICCBased(org.apache.pdfbox.pdmodel.PDDocument)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         public PDICCBased(Org.Apache.Pdfbox.Pdmodel.PDDocument arg0)
@@ -95,7 +95,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.html#create-org.apache.pdfbox.cos.COSArray-org.apache.pdfbox.pdmodel.PDResources-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.html#create-org.apache.pdfbox.cos.COSArray-org.apache.pdfbox.pdmodel.PDResources-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSArray"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.PDResources"/></param>
@@ -110,35 +110,35 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.html#getAlternateColorSpace--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.html#getAlternateColorSpace--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace AlternateColorSpace
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace>("getAlternateColorSpace", "()Lorg/apache/pdfbox/pdmodel/graphics/color/PDColorSpace;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.html#getColorSpaceType--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.html#getColorSpaceType--"/> 
         /// </summary>
         public int ColorSpaceType
         {
             get { return IExecuteWithSignature<int>("getColorSpaceType", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.html#getMetadata--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.html#setMetadata-org.apache.pdfbox.cos.COSStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.html#getMetadata--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.html#setMetadata-org.apache.pdfbox.cos.COSStream-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSStream Metadata
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSStream>("getMetadata", "()Lorg/apache/pdfbox/cos/COSStream;"); } set { IExecuteWithSignature("setMetadata", "(Lorg/apache/pdfbox/cos/COSStream;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.html#getPDStream--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.html#getPDStream--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.PDStream PDStream
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.PDStream>("getPDStream", "()Lorg/apache/pdfbox/pdmodel/common/PDStream;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.html#getRangeForComponent-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.html#getRangeForComponent-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Common.PDRange"/></returns>
@@ -147,7 +147,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.PDRange>("getRangeForComponent", "(I)Lorg/apache/pdfbox/pdmodel/common/PDRange;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.html#setAlternateColorSpaces-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.html#setAlternateColorSpaces-java.util.List-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Util.List"/></param>
         public void SetAlternateColorSpaces(Java.Util.List<Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace> arg0)
@@ -155,7 +155,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
             IExecuteWithSignature("setAlternateColorSpaces", "(Ljava/util/List;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.html#setRangeForComponent-org.apache.pdfbox.pdmodel.common.PDRange-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDICCBased.html#setRangeForComponent-org.apache.pdfbox.pdmodel.common.PDRange-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Common.PDRange"/></param>
         /// <param name="arg1"><see cref="int"/></param>

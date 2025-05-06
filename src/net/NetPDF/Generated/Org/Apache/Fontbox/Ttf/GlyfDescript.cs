@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf
 {
     #region GlyfDescript declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfDescript.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfDescript.html"/>
     /// </summary>
     public partial class GlyfDescript : Org.Apache.Fontbox.Ttf.GlyphDescription
     {
@@ -85,37 +85,37 @@ namespace Org.Apache.Fontbox.Ttf
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfDescript.html#ON_CURVE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfDescript.html#ON_CURVE"/>
         /// </summary>
         public static byte ON_CURVE { get { if (!_ON_CURVEReady) { _ON_CURVEContent = SGetField<byte>(LocalBridgeClazz, "ON_CURVE"); _ON_CURVEReady = true; } return _ON_CURVEContent; } }
         private static byte _ON_CURVEContent = default;
         private static bool _ON_CURVEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfDescript.html#REPEAT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfDescript.html#REPEAT"/>
         /// </summary>
         public static byte REPEAT { get { if (!_REPEATReady) { _REPEATContent = SGetField<byte>(LocalBridgeClazz, "REPEAT"); _REPEATReady = true; } return _REPEATContent; } }
         private static byte _REPEATContent = default;
         private static bool _REPEATReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfDescript.html#X_DUAL"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfDescript.html#X_DUAL"/>
         /// </summary>
         public static byte X_DUAL { get { if (!_X_DUALReady) { _X_DUALContent = SGetField<byte>(LocalBridgeClazz, "X_DUAL"); _X_DUALReady = true; } return _X_DUALContent; } }
         private static byte _X_DUALContent = default;
         private static bool _X_DUALReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfDescript.html#X_SHORT_VECTOR"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfDescript.html#X_SHORT_VECTOR"/>
         /// </summary>
         public static byte X_SHORT_VECTOR { get { if (!_X_SHORT_VECTORReady) { _X_SHORT_VECTORContent = SGetField<byte>(LocalBridgeClazz, "X_SHORT_VECTOR"); _X_SHORT_VECTORReady = true; } return _X_SHORT_VECTORContent; } }
         private static byte _X_SHORT_VECTORContent = default;
         private static bool _X_SHORT_VECTORReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfDescript.html#Y_DUAL"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfDescript.html#Y_DUAL"/>
         /// </summary>
         public static byte Y_DUAL { get { if (!_Y_DUALReady) { _Y_DUALContent = SGetField<byte>(LocalBridgeClazz, "Y_DUAL"); _Y_DUALReady = true; } return _Y_DUALContent; } }
         private static byte _Y_DUALContent = default;
         private static bool _Y_DUALReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfDescript.html#Y_SHORT_VECTOR"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfDescript.html#Y_SHORT_VECTOR"/>
         /// </summary>
         public static byte Y_SHORT_VECTOR { get { if (!_Y_SHORT_VECTORReady) { _Y_SHORT_VECTORContent = SGetField<byte>(LocalBridgeClazz, "Y_SHORT_VECTOR"); _Y_SHORT_VECTORReady = true; } return _Y_SHORT_VECTORContent; } }
         private static byte _Y_SHORT_VECTORContent = default;
@@ -129,21 +129,21 @@ namespace Org.Apache.Fontbox.Ttf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfDescript.html#getContourCount--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfDescript.html#getContourCount--"/> 
         /// </summary>
         public int ContourCount
         {
             get { return IExecuteWithSignature<int>("getContourCount", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfDescript.html#getInstructions--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfDescript.html#getInstructions--"/> 
         /// </summary>
         public int[] Instructions
         {
             get { return IExecuteWithSignatureArray<int>("getInstructions", "()[I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfDescript.html#resolve--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfDescript.html#resolve--"/>
         /// </summary>
         public void Resolve()
         {

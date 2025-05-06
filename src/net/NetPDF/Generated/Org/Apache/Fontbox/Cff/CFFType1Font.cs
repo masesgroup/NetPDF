@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Cff
 {
     #region CFFType1Font declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFType1Font.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFType1Font.html"/>
     /// </summary>
     public partial class CFFType1Font : Org.Apache.Fontbox.Cff.CFFFont
     {
@@ -95,21 +95,21 @@ namespace Org.Apache.Fontbox.Cff
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFType1Font.html#getEncoding--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFType1Font.html#getEncoding--"/> 
         /// </summary>
         public Org.Apache.Fontbox.Encoding.Encoding Encoding
         {
             get { return IExecuteWithSignature<Org.Apache.Fontbox.Encoding.Encoding>("getEncoding", "()Lorg/apache/fontbox/encoding/Encoding;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFType1Font.html#getPrivateDict--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFType1Font.html#getPrivateDict--"/> 
         /// </summary>
         public Java.Util.Map<Java.Lang.String, object> PrivateDict
         {
             get { return IExecuteWithSignature<Java.Util.Map<Java.Lang.String, object>>("getPrivateDict", "()Ljava/util/Map;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFType1Font.html#nameToGID-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFType1Font.html#nameToGID-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="int"/></returns>
@@ -118,7 +118,7 @@ namespace Org.Apache.Fontbox.Cff
             return IExecuteWithSignature<int>("nameToGID", "(Ljava/lang/String;)I", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFType1Font.html#getType1CharString-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFType1Font.html#getType1CharString-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Fontbox.Cff.Type1CharString"/></returns>

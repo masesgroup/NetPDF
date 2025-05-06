@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf.Table.Gsub
 {
     #region LookupTypeLigatureSubstitutionSubstFormat1 declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/gsub/LookupTypeLigatureSubstitutionSubstFormat1.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/gsub/LookupTypeLigatureSubstitutionSubstFormat1.html"/>
     /// </summary>
     public partial class LookupTypeLigatureSubstitutionSubstFormat1 : Org.Apache.Fontbox.Ttf.Table.Common.LookupSubTable
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Fontbox.Ttf.Table.Gsub
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/gsub/LookupTypeLigatureSubstitutionSubstFormat1.html#org.apache.fontbox.ttf.table.gsub.LookupTypeLigatureSubstitutionSubstFormat1(int,org.apache.fontbox.ttf.table.common.CoverageTable,org.apache.fontbox.ttf.table.gsub.LigatureSetTable[])"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/gsub/LookupTypeLigatureSubstitutionSubstFormat1.html#org.apache.fontbox.ttf.table.gsub.LookupTypeLigatureSubstitutionSubstFormat1(int,org.apache.fontbox.ttf.table.common.CoverageTable,org.apache.fontbox.ttf.table.gsub.LigatureSetTable[])"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Fontbox.Ttf.Table.Common.CoverageTable"/></param>
@@ -101,7 +101,7 @@ namespace Org.Apache.Fontbox.Ttf.Table.Gsub
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/gsub/LookupTypeLigatureSubstitutionSubstFormat1.html#getLigatureSetTables--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/gsub/LookupTypeLigatureSubstitutionSubstFormat1.html#getLigatureSetTables--"/> 
         /// </summary>
         public Org.Apache.Fontbox.Ttf.Table.Gsub.LigatureSetTable[] LigatureSetTables
         {

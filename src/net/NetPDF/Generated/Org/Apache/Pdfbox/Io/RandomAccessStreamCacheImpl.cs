@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Io
 {
     #region RandomAccessStreamCacheImpl declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/RandomAccessStreamCacheImpl.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/RandomAccessStreamCacheImpl.html"/>
     /// </summary>
     public partial class RandomAccessStreamCacheImpl : Org.Apache.Pdfbox.Io.RandomAccessStreamCache
     {
@@ -91,7 +91,7 @@ namespace Org.Apache.Pdfbox.Io
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/RandomAccessStreamCacheImpl.html#createBuffer--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/RandomAccessStreamCacheImpl.html#createBuffer--"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Pdfbox.Io.RandomAccess"/></returns>
         /// <exception cref="Java.Io.IOException"/>
@@ -100,7 +100,7 @@ namespace Org.Apache.Pdfbox.Io
             return IExecuteWithSignature<Org.Apache.Pdfbox.Io.RandomAccess>("createBuffer", "()Lorg/apache/pdfbox/io/RandomAccess;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/RandomAccessStreamCacheImpl.html#close--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/RandomAccessStreamCacheImpl.html#close--"/>
         /// </summary>
         /// <exception cref="Java.Io.IOException"/>
         public void Close()

@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf.Table.Gsub
 {
     #region LookupTypeSingleSubstFormat2 declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/gsub/LookupTypeSingleSubstFormat2.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/gsub/LookupTypeSingleSubstFormat2.html"/>
     /// </summary>
     public partial class LookupTypeSingleSubstFormat2 : Org.Apache.Fontbox.Ttf.Table.Common.LookupSubTable
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Fontbox.Ttf.Table.Gsub
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/gsub/LookupTypeSingleSubstFormat2.html#org.apache.fontbox.ttf.table.gsub.LookupTypeSingleSubstFormat2(int,org.apache.fontbox.ttf.table.common.CoverageTable,int[])"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/gsub/LookupTypeSingleSubstFormat2.html#org.apache.fontbox.ttf.table.gsub.LookupTypeSingleSubstFormat2(int,org.apache.fontbox.ttf.table.common.CoverageTable,int[])"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Fontbox.Ttf.Table.Common.CoverageTable"/></param>
@@ -101,7 +101,7 @@ namespace Org.Apache.Fontbox.Ttf.Table.Gsub
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/gsub/LookupTypeSingleSubstFormat2.html#getSubstituteGlyphIDs--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/gsub/LookupTypeSingleSubstFormat2.html#getSubstituteGlyphIDs--"/> 
         /// </summary>
         public int[] SubstituteGlyphIDs
         {

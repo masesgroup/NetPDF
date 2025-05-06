@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics
 {
     #region PDPostScriptXObject declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/PDPostScriptXObject.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/PDPostScriptXObject.html"/>
     /// </summary>
     public partial class PDPostScriptXObject : Org.Apache.Pdfbox.Pdmodel.Graphics.PDXObject
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/PDPostScriptXObject.html#org.apache.pdfbox.pdmodel.graphics.PDPostScriptXObject(org.apache.pdfbox.cos.COSStream)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/PDPostScriptXObject.html#org.apache.pdfbox.pdmodel.graphics.PDPostScriptXObject(org.apache.pdfbox.cos.COSStream)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSStream"/></param>
         public PDPostScriptXObject(Org.Apache.Pdfbox.Cos.COSStream arg0)

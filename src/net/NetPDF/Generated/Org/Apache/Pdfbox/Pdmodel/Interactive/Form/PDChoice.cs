@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
 {
     #region PDChoice declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html"/>
     /// </summary>
     public partial class PDChoice : Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDVariableText
     {
@@ -77,7 +77,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#org.apache.pdfbox.pdmodel.interactive.form.PDChoice(org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#org.apache.pdfbox.pdmodel.interactive.form.PDChoice(org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDAcroForm"/></param>
         public PDChoice(Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDAcroForm arg0)
@@ -101,49 +101,49 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#getDefaultValue--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#setDefaultValue-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#getDefaultValue--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#setDefaultValue-java.lang.String-"/>
         /// </summary>
         public Java.Util.List<Java.Lang.String> DefaultValue
         {
             get { return IExecuteWithSignature<Java.Util.List<Java.Lang.String>>("getDefaultValue", "()Ljava/util/List;"); } set { IExecuteWithSignature("setDefaultValue", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#getOptions--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#setOptions-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#getOptions--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#setOptions-java.util.List-"/>
         /// </summary>
         public Java.Util.List<Java.Lang.String> Options
         {
             get { return IExecuteWithSignature<Java.Util.List<Java.Lang.String>>("getOptions", "()Ljava/util/List;"); } set { IExecuteWithSignature("setOptions", "(Ljava/util/List;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#getOptionsDisplayValues--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#getOptionsDisplayValues--"/> 
         /// </summary>
         public Java.Util.List<Java.Lang.String> OptionsDisplayValues
         {
             get { return IExecuteWithSignature<Java.Util.List<Java.Lang.String>>("getOptionsDisplayValues", "()Ljava/util/List;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#getOptionsExportValues--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#getOptionsExportValues--"/> 
         /// </summary>
         public Java.Util.List<Java.Lang.String> OptionsExportValues
         {
             get { return IExecuteWithSignature<Java.Util.List<Java.Lang.String>>("getOptionsExportValues", "()Ljava/util/List;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#getSelectedOptionsIndex--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#setSelectedOptionsIndex-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#getSelectedOptionsIndex--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#setSelectedOptionsIndex-java.util.List-"/>
         /// </summary>
         public Java.Util.List<Java.Lang.Integer> SelectedOptionsIndex
         {
             get { return IExecuteWithSignature<Java.Util.List<Java.Lang.Integer>>("getSelectedOptionsIndex", "()Ljava/util/List;"); } set { IExecuteWithSignature("setSelectedOptionsIndex", "(Ljava/util/List;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#getValue--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#setValue-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#getValue--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#setValue-java.util.List-"/>
         /// </summary>
         public Java.Util.List<Java.Lang.String> Value
         {
             get { return IExecuteWithSignature<Java.Util.List<Java.Lang.String>>("getValue", "()Ljava/util/List;"); } set { IExecuteWithSignature("setValue", "(Ljava/util/List;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#isCombo--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#isCombo--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsCombo()
@@ -151,7 +151,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             return IExecuteWithSignature<bool>("isCombo", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#isCommitOnSelChange--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#isCommitOnSelChange--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsCommitOnSelChange()
@@ -159,7 +159,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             return IExecuteWithSignature<bool>("isCommitOnSelChange", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#isDoNotSpellCheck--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#isDoNotSpellCheck--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsDoNotSpellCheck()
@@ -167,7 +167,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             return IExecuteWithSignature<bool>("isDoNotSpellCheck", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#isMultiSelect--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#isMultiSelect--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsMultiSelect()
@@ -175,7 +175,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             return IExecuteWithSignature<bool>("isMultiSelect", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#isSort--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#isSort--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsSort()
@@ -183,7 +183,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             return IExecuteWithSignature<bool>("isSort", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#setCombo-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#setCombo-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetCombo(bool arg0)
@@ -191,7 +191,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             IExecuteWithSignature("setCombo", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#setCommitOnSelChange-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#setCommitOnSelChange-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetCommitOnSelChange(bool arg0)
@@ -199,7 +199,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             IExecuteWithSignature("setCommitOnSelChange", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#setDoNotSpellCheck-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#setDoNotSpellCheck-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetDoNotSpellCheck(bool arg0)
@@ -207,7 +207,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             IExecuteWithSignature("setDoNotSpellCheck", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#setMultiSelect-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#setMultiSelect-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetMultiSelect(bool arg0)
@@ -215,7 +215,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             IExecuteWithSignature("setMultiSelect", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#setOptions-java.util.List-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#setOptions-java.util.List-java.util.List-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Util.List"/></param>
         /// <param name="arg1"><see cref="Java.Util.List"/></param>
@@ -224,7 +224,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             IExecuteWithSignature("setOptions", "(Ljava/util/List;Ljava/util/List;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#setSort-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.html#setSort-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetSort(bool arg0)

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout
 {
     #region PlainTextFormatter declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter.html"/>
     /// </summary>
     public partial class PlainTextFormatter : MASES.JCOBridge.C2JBridge.JVMBridgeBase<PlainTextFormatter>
     {
@@ -68,7 +68,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout
         // TODO: complete the class
         #region Builder declaration
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter.Builder.html"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter.Builder.html"/>
         /// </summary>
         public partial class Builder : MASES.JCOBridge.C2JBridge.JVMBridgeBase<Builder>
         {
@@ -136,7 +136,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter.html#format--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter.html#format--"/>
         /// </summary>
         /// <exception cref="Java.Io.IOException"/>
         public void Format()
@@ -152,7 +152,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout
         {
             #region Constructors
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter.Builder.html#org.apache.pdfbox.pdmodel.interactive.annotation.layout.PlainTextFormatter$Builder(org.apache.pdfbox.pdmodel.PDAppearanceContentStream)"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter.Builder.html#org.apache.pdfbox.pdmodel.interactive.annotation.layout.PlainTextFormatter$Builder(org.apache.pdfbox.pdmodel.PDAppearanceContentStream)"/>
             /// </summary>
             /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDAppearanceContentStream"/></param>
             public Builder(Org.Apache.Pdfbox.Pdmodel.PDAppearanceContentStream arg0)
@@ -176,7 +176,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout
 
             #region Instance methods
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter.Builder.html#build--"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter.Builder.html#build--"/>
             /// </summary>
             /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout.PlainTextFormatter"/></returns>
             public Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout.PlainTextFormatter Build()
@@ -184,7 +184,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout
                 return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout.PlainTextFormatter>("build", "()Lorg/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter;");
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter.Builder.html#initialOffset-float-float-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter.Builder.html#initialOffset-float-float-"/>
             /// </summary>
             /// <param name="arg0"><see cref="float"/></param>
             /// <param name="arg1"><see cref="float"/></param>
@@ -194,7 +194,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout
                 return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout.PlainTextFormatter.Builder>("initialOffset", "(FF)Lorg/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter$Builder;", arg0, arg1);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter.Builder.html#style-org.apache.pdfbox.pdmodel.interactive.annotation.layout.AppearanceStyle-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter.Builder.html#style-org.apache.pdfbox.pdmodel.interactive.annotation.layout.AppearanceStyle-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout.AppearanceStyle"/></param>
             /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout.PlainTextFormatter.Builder"/></returns>
@@ -203,7 +203,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout
                 return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout.PlainTextFormatter.Builder>("style", "(Lorg/apache/pdfbox/pdmodel/interactive/annotation/layout/AppearanceStyle;)Lorg/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter$Builder;", arg0);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter.Builder.html#text-org.apache.pdfbox.pdmodel.interactive.annotation.layout.PlainText-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter.Builder.html#text-org.apache.pdfbox.pdmodel.interactive.annotation.layout.PlainText-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout.PlainText"/></param>
             /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout.PlainTextFormatter.Builder"/></returns>
@@ -212,7 +212,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout
                 return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout.PlainTextFormatter.Builder>("text", "(Lorg/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainText;)Lorg/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter$Builder;", arg0);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter.Builder.html#textAlign-int-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter.Builder.html#textAlign-int-"/>
             /// </summary>
             /// <param name="arg0"><see cref="int"/></param>
             /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout.PlainTextFormatter.Builder"/></returns>
@@ -221,7 +221,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout
                 return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout.PlainTextFormatter.Builder>("textAlign", "(I)Lorg/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter$Builder;", arg0);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter.Builder.html#width-float-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter.Builder.html#width-float-"/>
             /// </summary>
             /// <param name="arg0"><see cref="float"/></param>
             /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout.PlainTextFormatter.Builder"/></returns>
@@ -230,7 +230,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout
                 return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout.PlainTextFormatter.Builder>("width", "(F)Lorg/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter$Builder;", arg0);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter.Builder.html#wrapLines-boolean-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/layout/PlainTextFormatter.Builder.html#wrapLines-boolean-"/>
             /// </summary>
             /// <param name="arg0"><see cref="bool"/></param>
             /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Layout.PlainTextFormatter.Builder"/></returns>

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
 {
     #region PDDocumentCatalog declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html"/>
     /// </summary>
     public partial class PDDocumentCatalog : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -91,154 +91,154 @@ namespace Org.Apache.Pdfbox.Pdmodel
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getAcroForm--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setAcroForm-org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getAcroForm--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setAcroForm-org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDAcroForm AcroForm
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDAcroForm>("getAcroForm", "()Lorg/apache/pdfbox/pdmodel/interactive/form/PDAcroForm;"); } set { IExecuteWithSignature("setAcroForm", "(Lorg/apache/pdfbox/pdmodel/interactive/form/PDAcroForm;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getActions--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setActions-org.apache.pdfbox.pdmodel.interactive.action.PDDocumentCatalogAdditionalActions-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getActions--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setActions-org.apache.pdfbox.pdmodel.interactive.action.PDDocumentCatalogAdditionalActions-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Action.PDDocumentCatalogAdditionalActions Actions
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Action.PDDocumentCatalogAdditionalActions>("getActions", "()Lorg/apache/pdfbox/pdmodel/interactive/action/PDDocumentCatalogAdditionalActions;"); } set { IExecuteWithSignature("setActions", "(Lorg/apache/pdfbox/pdmodel/interactive/action/PDDocumentCatalogAdditionalActions;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getDests--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getDests--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.PDDocumentNameDestinationDictionary Dests
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.PDDocumentNameDestinationDictionary>("getDests", "()Lorg/apache/pdfbox/pdmodel/PDDocumentNameDestinationDictionary;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getDocumentOutline--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setDocumentOutline-org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDDocumentOutline-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getDocumentOutline--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setDocumentOutline-org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDDocumentOutline-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDDocumentOutline DocumentOutline
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDDocumentOutline>("getDocumentOutline", "()Lorg/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDDocumentOutline;"); } set { IExecuteWithSignature("setDocumentOutline", "(Lorg/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDDocumentOutline;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getLanguage--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setLanguage-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getLanguage--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setLanguage-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Language
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getLanguage", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setLanguage", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getMarkInfo--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setMarkInfo-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDMarkInfo-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getMarkInfo--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setMarkInfo-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDMarkInfo-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDMarkInfo MarkInfo
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDMarkInfo>("getMarkInfo", "()Lorg/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDMarkInfo;"); } set { IExecuteWithSignature("setMarkInfo", "(Lorg/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDMarkInfo;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getMetadata--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setMetadata-org.apache.pdfbox.pdmodel.common.PDMetadata-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getMetadata--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setMetadata-org.apache.pdfbox.pdmodel.common.PDMetadata-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.PDMetadata Metadata
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.PDMetadata>("getMetadata", "()Lorg/apache/pdfbox/pdmodel/common/PDMetadata;"); } set { IExecuteWithSignature("setMetadata", "(Lorg/apache/pdfbox/pdmodel/common/PDMetadata;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getNames--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setNames-org.apache.pdfbox.pdmodel.PDDocumentNameDictionary-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getNames--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setNames-org.apache.pdfbox.pdmodel.PDDocumentNameDictionary-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.PDDocumentNameDictionary Names
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.PDDocumentNameDictionary>("getNames", "()Lorg/apache/pdfbox/pdmodel/PDDocumentNameDictionary;"); } set { IExecuteWithSignature("setNames", "(Lorg/apache/pdfbox/pdmodel/PDDocumentNameDictionary;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getOCProperties--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setOCProperties-org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentProperties-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getOCProperties--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setOCProperties-org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentProperties-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent.PDOptionalContentProperties OCProperties
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent.PDOptionalContentProperties>("getOCProperties", "()Lorg/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentProperties;"); } set { IExecuteWithSignature("setOCProperties", "(Lorg/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentProperties;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getOpenAction--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setOpenAction-org.apache.pdfbox.pdmodel.common.PDDestinationOrAction-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getOpenAction--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setOpenAction-org.apache.pdfbox.pdmodel.common.PDDestinationOrAction-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.PDDestinationOrAction OpenAction
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.PDDestinationOrAction>("getOpenAction", "()Lorg/apache/pdfbox/pdmodel/common/PDDestinationOrAction;"); } set { IExecuteWithSignature("setOpenAction", "(Lorg/apache/pdfbox/pdmodel/common/PDDestinationOrAction;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getOutputIntents--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setOutputIntents-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getOutputIntents--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setOutputIntents-java.util.List-"/>
         /// </summary>
         public Java.Util.List<Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDOutputIntent> OutputIntents
         {
             get { return IExecuteWithSignature<Java.Util.List<Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDOutputIntent>>("getOutputIntents", "()Ljava/util/List;"); } set { IExecuteWithSignature("setOutputIntents", "(Ljava/util/List;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getPageLabels--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setPageLabels-org.apache.pdfbox.pdmodel.common.PDPageLabels-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getPageLabels--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setPageLabels-org.apache.pdfbox.pdmodel.common.PDPageLabels-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.PDPageLabels PageLabels
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.PDPageLabels>("getPageLabels", "()Lorg/apache/pdfbox/pdmodel/common/PDPageLabels;"); } set { IExecuteWithSignature("setPageLabels", "(Lorg/apache/pdfbox/pdmodel/common/PDPageLabels;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getPageLayout--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setPageLayout-org.apache.pdfbox.pdmodel.PageLayout-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getPageLayout--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setPageLayout-org.apache.pdfbox.pdmodel.PageLayout-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.PageLayout PageLayout
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.PageLayout>("getPageLayout", "()Lorg/apache/pdfbox/pdmodel/PageLayout;"); } set { IExecuteWithSignature("setPageLayout", "(Lorg/apache/pdfbox/pdmodel/PageLayout;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getPageMode--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setPageMode-org.apache.pdfbox.pdmodel.PageMode-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getPageMode--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setPageMode-org.apache.pdfbox.pdmodel.PageMode-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.PageMode PageMode
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.PageMode>("getPageMode", "()Lorg/apache/pdfbox/pdmodel/PageMode;"); } set { IExecuteWithSignature("setPageMode", "(Lorg/apache/pdfbox/pdmodel/PageMode;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getPages--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getPages--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.PDPageTree Pages
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.PDPageTree>("getPages", "()Lorg/apache/pdfbox/pdmodel/PDPageTree;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getStructureTreeRoot--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setStructureTreeRoot-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureTreeRoot-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getStructureTreeRoot--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setStructureTreeRoot-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureTreeRoot-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureTreeRoot StructureTreeRoot
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureTreeRoot>("getStructureTreeRoot", "()Lorg/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureTreeRoot;"); } set { IExecuteWithSignature("setStructureTreeRoot", "(Lorg/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureTreeRoot;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getThreads--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setThreads-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getThreads--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setThreads-java.util.List-"/>
         /// </summary>
         public Java.Util.List<Org.Apache.Pdfbox.Pdmodel.Interactive.Pagenavigation.PDThread> Threads
         {
             get { return IExecuteWithSignature<Java.Util.List<Org.Apache.Pdfbox.Pdmodel.Interactive.Pagenavigation.PDThread>>("getThreads", "()Ljava/util/List;"); } set { IExecuteWithSignature("setThreads", "(Ljava/util/List;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getURI--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setURI-org.apache.pdfbox.pdmodel.interactive.action.PDURIDictionary-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getURI--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setURI-org.apache.pdfbox.pdmodel.interactive.action.PDURIDictionary-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Action.PDURIDictionary URI
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Action.PDURIDictionary>("getURI", "()Lorg/apache/pdfbox/pdmodel/interactive/action/PDURIDictionary;"); } set { IExecuteWithSignature("setURI", "(Lorg/apache/pdfbox/pdmodel/interactive/action/PDURIDictionary;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getVersion--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setVersion-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getVersion--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setVersion-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Version
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getVersion", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setVersion", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getViewerPreferences--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setViewerPreferences-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getViewerPreferences--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#setViewerPreferences-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences ViewerPreferences
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences>("getViewerPreferences", "()Lorg/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences;"); } set { IExecuteWithSignature("setViewerPreferences", "(Lorg/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#findNamedDestinationPage-org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDNamedDestination-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#findNamedDestinationPage-org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDNamedDestination-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination.PDNamedDestination"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination.PDPageDestination"/></returns>
@@ -248,7 +248,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination.PDPageDestination>("findNamedDestinationPage", "(Lorg/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDNamedDestination;)Lorg/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageDestination;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getAcroForm-org.apache.pdfbox.pdmodel.fixup.PDDocumentFixup-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#getAcroForm-org.apache.pdfbox.pdmodel.fixup.PDDocumentFixup-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Fixup.PDDocumentFixup"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDAcroForm"/></returns>
@@ -257,7 +257,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDAcroForm>("getAcroForm", "(Lorg/apache/pdfbox/pdmodel/fixup/PDDocumentFixup;)Lorg/apache/pdfbox/pdmodel/interactive/form/PDAcroForm;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#addOutputIntent-org.apache.pdfbox.pdmodel.graphics.color.PDOutputIntent-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDDocumentCatalog.html#addOutputIntent-org.apache.pdfbox.pdmodel.graphics.color.PDOutputIntent-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDOutputIntent"/></param>
         public void AddOutputIntent(Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDOutputIntent arg0)

@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Type1
 {
     #region Type1CharStringReader declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/type1/Type1CharStringReader.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1CharStringReader.html"/>
     /// </summary>
     public partial class Type1CharStringReader : MASES.JCOBridge.C2JBridge.JVMBridgeBase<Type1CharStringReader>
     {
@@ -74,7 +74,7 @@ namespace Org.Apache.Fontbox.Type1
 
     #region IType1CharStringReader
     /// <summary>
-    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/type1/Type1CharStringReader.html"/>
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1CharStringReader.html"/>
     /// </summary>
     public partial interface IType1CharStringReader
     {
@@ -111,7 +111,7 @@ namespace Org.Apache.Fontbox.Type1
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/type1/Type1CharStringReader.html#getType1CharString-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1CharStringReader.html#getType1CharString-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Fontbox.Cff.Type1CharString"/></returns>

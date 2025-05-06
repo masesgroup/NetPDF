@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
 {
     #region BaseParser declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/BaseParser.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/BaseParser.html"/>
     /// </summary>
     public partial class BaseParser : MASES.JCOBridge.C2JBridge.JVMBridgeBase<BaseParser>
     {
@@ -85,7 +85,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/BaseParser.html#DEF"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/BaseParser.html#DEF"/>
         /// </summary>
         public static Java.Lang.String DEF { get { if (!_DEFReady) { _DEFContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "DEF"); _DEFReady = true; } return _DEFContent; } }
         private static Java.Lang.String _DEFContent = default;

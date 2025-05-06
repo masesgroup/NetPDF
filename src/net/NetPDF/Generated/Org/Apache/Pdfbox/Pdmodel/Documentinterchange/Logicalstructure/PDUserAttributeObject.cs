@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
 {
     #region PDUserAttributeObject declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserAttributeObject.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserAttributeObject.html"/>
     /// </summary>
     public partial class PDUserAttributeObject : Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDAttributeObject
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserAttributeObject.html#org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserAttributeObject(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserAttributeObject.html#org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserAttributeObject(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDUserAttributeObject(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -91,7 +91,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserAttributeObject.html#OWNER_USER_PROPERTIES"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserAttributeObject.html#OWNER_USER_PROPERTIES"/>
         /// </summary>
         public static Java.Lang.String OWNER_USER_PROPERTIES { get { if (!_OWNER_USER_PROPERTIESReady) { _OWNER_USER_PROPERTIESContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "OWNER_USER_PROPERTIES"); _OWNER_USER_PROPERTIESReady = true; } return _OWNER_USER_PROPERTIESContent; } }
         private static Java.Lang.String _OWNER_USER_PROPERTIESContent = default;
@@ -105,14 +105,14 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserAttributeObject.html#getOwnerUserProperties--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserAttributeObject.html#getOwnerUserProperties--"/> 
         /// </summary>
         public Java.Util.List<Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDUserProperty> OwnerUserProperties
         {
             get { return IExecuteWithSignature<Java.Util.List<Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDUserProperty>>("getOwnerUserProperties", "()Ljava/util/List;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserAttributeObject.html#addUserProperty-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserAttributeObject.html#addUserProperty-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDUserProperty"/></param>
         public void AddUserProperty(Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDUserProperty arg0)
@@ -120,7 +120,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
             IExecuteWithSignature("addUserProperty", "(Lorg/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserProperty;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserAttributeObject.html#removeUserProperty-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserAttributeObject.html#removeUserProperty-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDUserProperty"/></param>
         public void RemoveUserProperty(Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDUserProperty arg0)
@@ -128,7 +128,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
             IExecuteWithSignature("removeUserProperty", "(Lorg/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserProperty;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserAttributeObject.html#setUserProperties-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserAttributeObject.html#setUserProperties-java.util.List-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Util.List"/></param>
         public void SetUserProperties(Java.Util.List<Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDUserProperty> arg0)
@@ -136,7 +136,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
             IExecuteWithSignature("setUserProperties", "(Ljava/util/List;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserAttributeObject.html#userPropertyChanged-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDUserAttributeObject.html#userPropertyChanged-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDUserProperty-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDUserProperty"/></param>
         public void UserPropertyChanged(Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDUserProperty arg0)

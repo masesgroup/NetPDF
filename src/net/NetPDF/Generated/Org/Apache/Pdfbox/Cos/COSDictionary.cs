@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Cos
 {
     #region COSDictionary declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html"/>
     /// </summary>
     public partial class COSDictionary : Org.Apache.Pdfbox.Cos.COSBase
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Cos
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#org.apache.pdfbox.cos.COSDictionary(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#org.apache.pdfbox.cos.COSDictionary(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public COSDictionary(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -103,21 +103,21 @@ namespace Org.Apache.Pdfbox.Cos
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getUpdateState--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getUpdateState--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSUpdateState UpdateState
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSUpdateState>("getUpdateState", "()Lorg/apache/pdfbox/cos/COSUpdateState;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getValues--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getValues--"/> 
         /// </summary>
         public Java.Util.Collection<Org.Apache.Pdfbox.Cos.COSBase> Values
         {
             get { return IExecuteWithSignature<Java.Util.Collection<Org.Apache.Pdfbox.Cos.COSBase>>("getValues", "()Ljava/util/Collection;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#containsKey-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#containsKey-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -126,7 +126,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<bool>("containsKey", "(Ljava/lang/String;)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#containsKey-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#containsKey-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -135,7 +135,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<bool>("containsKey", "(Lorg/apache/pdfbox/cos/COSName;)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#containsValue-java.lang.Object-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#containsValue-java.lang.Object-"/>
         /// </summary>
         /// <param name="arg0"><see cref="object"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -144,7 +144,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<bool>("containsValue", "(Ljava/lang/Object;)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getBoolean-java.lang.String-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getBoolean-java.lang.String-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="bool"/></param>
@@ -154,7 +154,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<bool>("getBoolean", "(Ljava/lang/String;Z)Z", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getBoolean-org.apache.pdfbox.cos.COSName-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getBoolean-org.apache.pdfbox.cos.COSName-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="bool"/></param>
@@ -164,7 +164,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<bool>("getBoolean", "(Lorg/apache/pdfbox/cos/COSName;Z)Z", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getBoolean-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getBoolean-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
@@ -175,7 +175,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<bool>("getBoolean", "(Lorg/apache/pdfbox/cos/COSName;Lorg/apache/pdfbox/cos/COSName;Z)Z", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getFlag-org.apache.pdfbox.cos.COSName-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getFlag-org.apache.pdfbox.cos.COSName-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -185,7 +185,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<bool>("getFlag", "(Lorg/apache/pdfbox/cos/COSName;I)Z", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getFloat-java.lang.String-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getFloat-java.lang.String-float-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="float"/></param>
@@ -195,7 +195,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<float>("getFloat", "(Ljava/lang/String;F)F", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getFloat-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getFloat-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="float"/></returns>
@@ -204,7 +204,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<float>("getFloat", "(Ljava/lang/String;)F", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getFloat-org.apache.pdfbox.cos.COSName-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getFloat-org.apache.pdfbox.cos.COSName-float-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="float"/></param>
@@ -214,7 +214,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<float>("getFloat", "(Lorg/apache/pdfbox/cos/COSName;F)F", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getFloat-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getFloat-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <returns><see cref="float"/></returns>
@@ -223,7 +223,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<float>("getFloat", "(Lorg/apache/pdfbox/cos/COSName;)F", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getEmbeddedInt-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getEmbeddedInt-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
@@ -234,7 +234,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<int>("getEmbeddedInt", "(Lorg/apache/pdfbox/cos/COSName;Lorg/apache/pdfbox/cos/COSName;I)I", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getEmbeddedInt-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getEmbeddedInt-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
@@ -244,7 +244,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<int>("getEmbeddedInt", "(Lorg/apache/pdfbox/cos/COSName;Lorg/apache/pdfbox/cos/COSName;)I", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getInt-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getInt-java.lang.String-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -254,7 +254,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<int>("getInt", "(Ljava/lang/String;I)I", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getInt-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getInt-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="int"/></returns>
@@ -263,7 +263,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<int>("getInt", "(Ljava/lang/String;)I", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getInt-org.apache.pdfbox.cos.COSName-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getInt-org.apache.pdfbox.cos.COSName-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -273,7 +273,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<int>("getInt", "(Lorg/apache/pdfbox/cos/COSName;I)I", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getInt-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getInt-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
@@ -284,7 +284,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<int>("getInt", "(Lorg/apache/pdfbox/cos/COSName;Lorg/apache/pdfbox/cos/COSName;I)I", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getInt-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getInt-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
@@ -294,7 +294,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<int>("getInt", "(Lorg/apache/pdfbox/cos/COSName;Lorg/apache/pdfbox/cos/COSName;)I", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getInt-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getInt-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <returns><see cref="int"/></returns>
@@ -303,7 +303,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<int>("getInt", "(Lorg/apache/pdfbox/cos/COSName;)I", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#size--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#size--"/>
         /// </summary>
         /// <returns><see cref="int"/></returns>
         public int Size()
@@ -311,7 +311,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<int>("size", "()I");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getEmbeddedString-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getEmbeddedString-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
@@ -322,7 +322,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Java.Lang.String>("getEmbeddedString", "(Lorg/apache/pdfbox/cos/COSName;Lorg/apache/pdfbox/cos/COSName;Ljava/lang/String;)Ljava/lang/String;", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getEmbeddedString-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getEmbeddedString-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
@@ -332,7 +332,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Java.Lang.String>("getEmbeddedString", "(Lorg/apache/pdfbox/cos/COSName;Lorg/apache/pdfbox/cos/COSName;)Ljava/lang/String;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getNameAsString-java.lang.String-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getNameAsString-java.lang.String-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -342,7 +342,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Java.Lang.String>("getNameAsString", "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getNameAsString-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getNameAsString-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Lang.String"/></returns>
@@ -351,7 +351,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Java.Lang.String>("getNameAsString", "(Ljava/lang/String;)Ljava/lang/String;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getNameAsString-org.apache.pdfbox.cos.COSName-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getNameAsString-org.apache.pdfbox.cos.COSName-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -361,7 +361,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Java.Lang.String>("getNameAsString", "(Lorg/apache/pdfbox/cos/COSName;Ljava/lang/String;)Ljava/lang/String;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getNameAsString-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getNameAsString-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <returns><see cref="Java.Lang.String"/></returns>
@@ -370,7 +370,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Java.Lang.String>("getNameAsString", "(Lorg/apache/pdfbox/cos/COSName;)Ljava/lang/String;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getString-java.lang.String-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getString-java.lang.String-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -380,7 +380,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Java.Lang.String>("getString", "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getString-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getString-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Lang.String"/></returns>
@@ -389,7 +389,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Java.Lang.String>("getString", "(Ljava/lang/String;)Ljava/lang/String;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getString-org.apache.pdfbox.cos.COSName-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getString-org.apache.pdfbox.cos.COSName-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -399,7 +399,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Java.Lang.String>("getString", "(Lorg/apache/pdfbox/cos/COSName;Ljava/lang/String;)Ljava/lang/String;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getString-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getString-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <returns><see cref="Java.Lang.String"/></returns>
@@ -408,7 +408,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Java.Lang.String>("getString", "(Lorg/apache/pdfbox/cos/COSName;)Ljava/lang/String;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getDate-java.lang.String-java.util.Calendar-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getDate-java.lang.String-java.util.Calendar-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Util.Calendar"/></param>
@@ -418,7 +418,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Java.Util.Calendar>("getDate", "(Ljava/lang/String;Ljava/util/Calendar;)Ljava/util/Calendar;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getDate-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getDate-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Util.Calendar"/></returns>
@@ -427,7 +427,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Java.Util.Calendar>("getDate", "(Ljava/lang/String;)Ljava/util/Calendar;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getDate-org.apache.pdfbox.cos.COSName-java.util.Calendar-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getDate-org.apache.pdfbox.cos.COSName-java.util.Calendar-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="Java.Util.Calendar"/></param>
@@ -437,7 +437,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Java.Util.Calendar>("getDate", "(Lorg/apache/pdfbox/cos/COSName;Ljava/util/Calendar;)Ljava/util/Calendar;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getDate-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getDate-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <returns><see cref="Java.Util.Calendar"/></returns>
@@ -446,7 +446,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Java.Util.Calendar>("getDate", "(Lorg/apache/pdfbox/cos/COSName;)Ljava/util/Calendar;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getEmbeddedDate-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-java.util.Calendar-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getEmbeddedDate-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-java.util.Calendar-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
@@ -457,7 +457,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Java.Util.Calendar>("getEmbeddedDate", "(Lorg/apache/pdfbox/cos/COSName;Lorg/apache/pdfbox/cos/COSName;Ljava/util/Calendar;)Ljava/util/Calendar;", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getEmbeddedDate-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getEmbeddedDate-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
@@ -467,7 +467,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Java.Util.Calendar>("getEmbeddedDate", "(Lorg/apache/pdfbox/cos/COSName;Lorg/apache/pdfbox/cos/COSName;)Ljava/util/Calendar;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#entrySet--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#entrySet--"/>
         /// </summary>
         /// <returns><see cref="Java.Util.Set"/></returns>
         public Java.Util.Set<Java.Util.Map.Entry<Org.Apache.Pdfbox.Cos.COSName, Org.Apache.Pdfbox.Cos.COSBase>> EntrySet()
@@ -475,7 +475,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Java.Util.Set<Java.Util.Map.Entry<Org.Apache.Pdfbox.Cos.COSName, Org.Apache.Pdfbox.Cos.COSBase>>>("entrySet", "()Ljava/util/Set;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#keySet--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#keySet--"/>
         /// </summary>
         /// <returns><see cref="Java.Util.Set"/></returns>
         public Java.Util.Set<Org.Apache.Pdfbox.Cos.COSName> KeySet()
@@ -483,7 +483,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Java.Util.Set<Org.Apache.Pdfbox.Cos.COSName>>("keySet", "()Ljava/util/Set;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getLong-java.lang.String-long-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getLong-java.lang.String-long-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="long"/></param>
@@ -493,7 +493,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<long>("getLong", "(Ljava/lang/String;J)J", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getLong-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getLong-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="long"/></returns>
@@ -502,7 +502,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<long>("getLong", "(Ljava/lang/String;)J", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getLong-org.apache.pdfbox.cos.COSName-long-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getLong-org.apache.pdfbox.cos.COSName-long-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="long"/></param>
@@ -512,7 +512,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<long>("getLong", "(Lorg/apache/pdfbox/cos/COSName;J)J", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getLong-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getLong-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <returns><see cref="long"/></returns>
@@ -521,7 +521,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<long>("getLong", "(Lorg/apache/pdfbox/cos/COSName;)J", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getCOSArray-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getCOSArray-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Cos.COSArray"/></returns>
@@ -530,7 +530,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSArray>("getCOSArray", "(Lorg/apache/pdfbox/cos/COSName;)Lorg/apache/pdfbox/cos/COSArray;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getDictionaryObject-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getDictionaryObject-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></returns>
@@ -539,7 +539,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getDictionaryObject", "(Ljava/lang/String;)Lorg/apache/pdfbox/cos/COSBase;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getDictionaryObject-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getDictionaryObject-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
@@ -549,7 +549,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getDictionaryObject", "(Lorg/apache/pdfbox/cos/COSName;Lorg/apache/pdfbox/cos/COSName;)Lorg/apache/pdfbox/cos/COSBase;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getDictionaryObject-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getDictionaryObject-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></returns>
@@ -558,7 +558,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getDictionaryObject", "(Lorg/apache/pdfbox/cos/COSName;)Lorg/apache/pdfbox/cos/COSBase;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getItem-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getItem-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></returns>
@@ -567,7 +567,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getItem", "(Ljava/lang/String;)Lorg/apache/pdfbox/cos/COSBase;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getItem-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getItem-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
@@ -577,7 +577,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getItem", "(Lorg/apache/pdfbox/cos/COSName;Lorg/apache/pdfbox/cos/COSName;)Lorg/apache/pdfbox/cos/COSBase;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getItem-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getItem-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></returns>
@@ -586,7 +586,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getItem", "(Lorg/apache/pdfbox/cos/COSName;)Lorg/apache/pdfbox/cos/COSBase;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getObjectFromPath-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getObjectFromPath-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></returns>
@@ -595,7 +595,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getObjectFromPath", "(Ljava/lang/String;)Lorg/apache/pdfbox/cos/COSBase;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#asUnmodifiableDictionary--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#asUnmodifiableDictionary--"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></returns>
         public Org.Apache.Pdfbox.Cos.COSDictionary AsUnmodifiableDictionary()
@@ -603,7 +603,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSDictionary>("asUnmodifiableDictionary", "()Lorg/apache/pdfbox/cos/COSDictionary;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getCOSDictionary-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getCOSDictionary-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
@@ -613,7 +613,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSDictionary>("getCOSDictionary", "(Lorg/apache/pdfbox/cos/COSName;Lorg/apache/pdfbox/cos/COSName;)Lorg/apache/pdfbox/cos/COSDictionary;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getCOSDictionary-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getCOSDictionary-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></returns>
@@ -622,7 +622,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSDictionary>("getCOSDictionary", "(Lorg/apache/pdfbox/cos/COSName;)Lorg/apache/pdfbox/cos/COSDictionary;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getCOSName-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getCOSName-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
@@ -632,7 +632,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSName>("getCOSName", "(Lorg/apache/pdfbox/cos/COSName;Lorg/apache/pdfbox/cos/COSName;)Lorg/apache/pdfbox/cos/COSName;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getCOSName-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getCOSName-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Cos.COSName"/></returns>
@@ -641,7 +641,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSName>("getCOSName", "(Lorg/apache/pdfbox/cos/COSName;)Lorg/apache/pdfbox/cos/COSName;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getKeyForValue-java.lang.Object-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getKeyForValue-java.lang.Object-"/>
         /// </summary>
         /// <param name="arg0"><see cref="object"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Cos.COSName"/></returns>
@@ -650,7 +650,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSName>("getKeyForValue", "(Ljava/lang/Object;)Lorg/apache/pdfbox/cos/COSName;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getCOSObject-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getCOSObject-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Cos.COSObject"/></returns>
@@ -659,7 +659,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSObject>("getCOSObject", "(Lorg/apache/pdfbox/cos/COSName;)Lorg/apache/pdfbox/cos/COSObject;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getCOSStream-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getCOSStream-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Cos.COSStream"/></returns>
@@ -668,7 +668,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSStream>("getCOSStream", "(Lorg/apache/pdfbox/cos/COSName;)Lorg/apache/pdfbox/cos/COSStream;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#addAll-org.apache.pdfbox.cos.COSDictionary-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#addAll-org.apache.pdfbox.cos.COSDictionary-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public void AddAll(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -676,14 +676,14 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("addAll", "(Lorg/apache/pdfbox/cos/COSDictionary;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#clear--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#clear--"/>
         /// </summary>
         public void Clear()
         {
             IExecuteWithSignature("clear", "()V");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#forEach-java.util.function.BiConsumer-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#forEach-java.util.function.BiConsumer-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Util.Function.BiConsumer"/></param>
         /// <typeparam name="Arg0objectSuperOrg_Apache_Pdfbox_Cos_COSName"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></typeparam>
@@ -693,7 +693,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("forEach", "(Ljava/util/function/BiConsumer;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getIndirectObjectKeys-java.util.Collection-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getIndirectObjectKeys-java.util.Collection-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Util.Collection"/></param>
         public void GetIndirectObjectKeys(Java.Util.Collection<Org.Apache.Pdfbox.Cos.COSObjectKey> arg0)
@@ -701,7 +701,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("getIndirectObjectKeys", "(Ljava/util/Collection;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#getIndirectObjectKeys-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#getIndirectObjectKeys-java.util.List-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Util.List"/></param>
         public void GetIndirectObjectKeys(Java.Util.List<Org.Apache.Pdfbox.Cos.COSObjectKey> arg0)
@@ -709,7 +709,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("getIndirectObjectKeys", "(Ljava/util/List;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#removeItem-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#removeItem-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         public void RemoveItem(Org.Apache.Pdfbox.Cos.COSName arg0)
@@ -717,7 +717,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("removeItem", "(Lorg/apache/pdfbox/cos/COSName;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#setBoolean-java.lang.String-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#setBoolean-java.lang.String-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="bool"/></param>
@@ -726,7 +726,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("setBoolean", "(Ljava/lang/String;Z)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#setBoolean-org.apache.pdfbox.cos.COSName-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#setBoolean-org.apache.pdfbox.cos.COSName-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="bool"/></param>
@@ -735,7 +735,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("setBoolean", "(Lorg/apache/pdfbox/cos/COSName;Z)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#setDate-java.lang.String-java.util.Calendar-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#setDate-java.lang.String-java.util.Calendar-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Util.Calendar"/></param>
@@ -744,7 +744,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("setDate", "(Ljava/lang/String;Ljava/util/Calendar;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#setDate-org.apache.pdfbox.cos.COSName-java.util.Calendar-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#setDate-org.apache.pdfbox.cos.COSName-java.util.Calendar-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="Java.Util.Calendar"/></param>
@@ -753,7 +753,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("setDate", "(Lorg/apache/pdfbox/cos/COSName;Ljava/util/Calendar;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#setEmbeddedDate-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-java.util.Calendar-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#setEmbeddedDate-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-java.util.Calendar-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
@@ -763,7 +763,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("setEmbeddedDate", "(Lorg/apache/pdfbox/cos/COSName;Lorg/apache/pdfbox/cos/COSName;Ljava/util/Calendar;)V", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#setEmbeddedInt-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#setEmbeddedInt-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
@@ -773,7 +773,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("setEmbeddedInt", "(Lorg/apache/pdfbox/cos/COSName;Lorg/apache/pdfbox/cos/COSName;I)V", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#setEmbeddedString-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#setEmbeddedString-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSName-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
@@ -783,7 +783,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("setEmbeddedString", "(Lorg/apache/pdfbox/cos/COSName;Lorg/apache/pdfbox/cos/COSName;Ljava/lang/String;)V", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#setFlag-org.apache.pdfbox.cos.COSName-int-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#setFlag-org.apache.pdfbox.cos.COSName-int-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -793,7 +793,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("setFlag", "(Lorg/apache/pdfbox/cos/COSName;IZ)V", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#setFloat-java.lang.String-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#setFloat-java.lang.String-float-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="float"/></param>
@@ -802,7 +802,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("setFloat", "(Ljava/lang/String;F)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#setFloat-org.apache.pdfbox.cos.COSName-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#setFloat-org.apache.pdfbox.cos.COSName-float-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="float"/></param>
@@ -811,7 +811,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("setFloat", "(Lorg/apache/pdfbox/cos/COSName;F)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#setInt-java.lang.String-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#setInt-java.lang.String-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -820,7 +820,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("setInt", "(Ljava/lang/String;I)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#setInt-org.apache.pdfbox.cos.COSName-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#setInt-org.apache.pdfbox.cos.COSName-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -829,7 +829,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("setInt", "(Lorg/apache/pdfbox/cos/COSName;I)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#setItem-java.lang.String-org.apache.pdfbox.cos.COSBase-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#setItem-java.lang.String-org.apache.pdfbox.cos.COSBase-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></param>
@@ -838,7 +838,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("setItem", "(Ljava/lang/String;Lorg/apache/pdfbox/cos/COSBase;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#setItem-java.lang.String-org.apache.pdfbox.pdmodel.common.COSObjectable-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#setItem-java.lang.String-org.apache.pdfbox.pdmodel.common.COSObjectable-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable"/></param>
@@ -847,7 +847,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("setItem", "(Ljava/lang/String;Lorg/apache/pdfbox/pdmodel/common/COSObjectable;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#setItem-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSBase-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#setItem-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.cos.COSBase-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></param>
@@ -856,7 +856,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("setItem", "(Lorg/apache/pdfbox/cos/COSName;Lorg/apache/pdfbox/cos/COSBase;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#setItem-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.pdmodel.common.COSObjectable-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#setItem-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.pdmodel.common.COSObjectable-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable"/></param>
@@ -865,7 +865,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("setItem", "(Lorg/apache/pdfbox/cos/COSName;Lorg/apache/pdfbox/pdmodel/common/COSObjectable;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#setLong-java.lang.String-long-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#setLong-java.lang.String-long-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="long"/></param>
@@ -874,7 +874,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("setLong", "(Ljava/lang/String;J)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#setLong-org.apache.pdfbox.cos.COSName-long-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#setLong-org.apache.pdfbox.cos.COSName-long-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="long"/></param>
@@ -883,7 +883,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("setLong", "(Lorg/apache/pdfbox/cos/COSName;J)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#setName-java.lang.String-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#setName-java.lang.String-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -892,7 +892,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("setName", "(Ljava/lang/String;Ljava/lang/String;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#setName-org.apache.pdfbox.cos.COSName-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#setName-org.apache.pdfbox.cos.COSName-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -901,7 +901,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("setName", "(Lorg/apache/pdfbox/cos/COSName;Ljava/lang/String;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#setString-java.lang.String-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#setString-java.lang.String-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -910,7 +910,7 @@ namespace Org.Apache.Pdfbox.Cos
             IExecuteWithSignature("setString", "(Ljava/lang/String;Ljava/lang/String;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDictionary.html#setString-org.apache.pdfbox.cos.COSName-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDictionary.html#setString-org.apache.pdfbox.cos.COSName-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>

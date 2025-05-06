@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
 {
     #region FDFDocument declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html"/>
     /// </summary>
     public partial class FDFDocument : Java.Io.Closeable
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html#org.apache.pdfbox.pdmodel.fdf.FDFDocument(org.apache.pdfbox.cos.COSDocument,org.apache.pdfbox.io.RandomAccessRead)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html#org.apache.pdfbox.pdmodel.fdf.FDFDocument(org.apache.pdfbox.cos.COSDocument,org.apache.pdfbox.io.RandomAccessRead)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDocument"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Io.RandomAccessRead"/></param>
@@ -84,7 +84,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html#org.apache.pdfbox.pdmodel.fdf.FDFDocument(org.w3c.dom.Document)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html#org.apache.pdfbox.pdmodel.fdf.FDFDocument(org.w3c.dom.Document)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.W3c.Dom.Document"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -109,21 +109,21 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html#getCatalog--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html#setCatalog-org.apache.pdfbox.pdmodel.fdf.FDFCatalog-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html#getCatalog--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html#setCatalog-org.apache.pdfbox.pdmodel.fdf.FDFCatalog-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Fdf.FDFCatalog Catalog
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Fdf.FDFCatalog>("getCatalog", "()Lorg/apache/pdfbox/pdmodel/fdf/FDFCatalog;"); } set { IExecuteWithSignature("setCatalog", "(Lorg/apache/pdfbox/pdmodel/fdf/FDFCatalog;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html#getDocument--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html#getDocument--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSDocument Document
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSDocument>("getDocument", "()Lorg/apache/pdfbox/cos/COSDocument;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html#close--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html#close--"/>
         /// </summary>
         /// <exception cref="Java.Io.IOException"/>
         public void Close()
@@ -131,7 +131,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("close", "()V");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html#save-java.io.File-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html#save-java.io.File-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.File"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -140,7 +140,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("save", "(Ljava/io/File;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html#save-java.io.OutputStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html#save-java.io.OutputStream-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.OutputStream"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -149,7 +149,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("save", "(Ljava/io/OutputStream;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html#save-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html#save-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -158,7 +158,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("save", "(Ljava/lang/String;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html#saveXFDF-java.io.File-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html#saveXFDF-java.io.File-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.File"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -167,7 +167,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("saveXFDF", "(Ljava/io/File;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html#saveXFDF-java.io.Writer-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html#saveXFDF-java.io.Writer-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.Writer"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -176,7 +176,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("saveXFDF", "(Ljava/io/Writer;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html#saveXFDF-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html#saveXFDF-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -185,7 +185,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("saveXFDF", "(Ljava/lang/String;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html#writeXML-java.io.Writer-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFDocument.html#writeXML-java.io.Writer-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.Writer"/></param>
         /// <exception cref="Java.Io.IOException"/>

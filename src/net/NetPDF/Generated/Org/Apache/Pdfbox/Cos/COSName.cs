@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Cos
 {
     #region COSName declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html"/>
     /// </summary>
     public partial class COSName : Org.Apache.Pdfbox.Cos.COSBase
     {
@@ -87,3523 +87,3523 @@ namespace Org.Apache.Pdfbox.Cos
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#A"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#A"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName A { get { if (!_AReady) { _AContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "A"); _AReady = true; } return _AContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _AContent = default;
         private static bool _AReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#AA"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#AA"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName AA { get { if (!_AAReady) { _AAContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "AA"); _AAReady = true; } return _AAContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _AAContent = default;
         private static bool _AAReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ABSOLUTE_COLORIMETRIC"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ABSOLUTE_COLORIMETRIC"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ABSOLUTE_COLORIMETRIC { get { if (!_ABSOLUTE_COLORIMETRICReady) { _ABSOLUTE_COLORIMETRICContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ABSOLUTE_COLORIMETRIC"); _ABSOLUTE_COLORIMETRICReady = true; } return _ABSOLUTE_COLORIMETRICContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ABSOLUTE_COLORIMETRICContent = default;
         private static bool _ABSOLUTE_COLORIMETRICReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#AC"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#AC"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName AC { get { if (!_ACReady) { _ACContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "AC"); _ACReady = true; } return _ACContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ACContent = default;
         private static bool _ACReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ACRO_FORM"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ACRO_FORM"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ACRO_FORM { get { if (!_ACRO_FORMReady) { _ACRO_FORMContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ACRO_FORM"); _ACRO_FORMReady = true; } return _ACRO_FORMContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ACRO_FORMContent = default;
         private static bool _ACRO_FORMReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ACTUAL_TEXT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ACTUAL_TEXT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ACTUAL_TEXT { get { if (!_ACTUAL_TEXTReady) { _ACTUAL_TEXTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ACTUAL_TEXT"); _ACTUAL_TEXTReady = true; } return _ACTUAL_TEXTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ACTUAL_TEXTContent = default;
         private static bool _ACTUAL_TEXTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ADBE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ADBE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ADBE { get { if (!_ADBEReady) { _ADBEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ADBE"); _ADBEReady = true; } return _ADBEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ADBEContent = default;
         private static bool _ADBEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ADBE_PKCS7_DETACHED"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ADBE_PKCS7_DETACHED"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ADBE_PKCS7_DETACHED { get { if (!_ADBE_PKCS7_DETACHEDReady) { _ADBE_PKCS7_DETACHEDContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ADBE_PKCS7_DETACHED"); _ADBE_PKCS7_DETACHEDReady = true; } return _ADBE_PKCS7_DETACHEDContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ADBE_PKCS7_DETACHEDContent = default;
         private static bool _ADBE_PKCS7_DETACHEDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ADBE_PKCS7_SHA1"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ADBE_PKCS7_SHA1"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ADBE_PKCS7_SHA1 { get { if (!_ADBE_PKCS7_SHA1Ready) { _ADBE_PKCS7_SHA1Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ADBE_PKCS7_SHA1"); _ADBE_PKCS7_SHA1Ready = true; } return _ADBE_PKCS7_SHA1Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ADBE_PKCS7_SHA1Content = default;
         private static bool _ADBE_PKCS7_SHA1Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ADBE_X509_RSA_SHA1"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ADBE_X509_RSA_SHA1"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ADBE_X509_RSA_SHA1 { get { if (!_ADBE_X509_RSA_SHA1Ready) { _ADBE_X509_RSA_SHA1Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ADBE_X509_RSA_SHA1"); _ADBE_X509_RSA_SHA1Ready = true; } return _ADBE_X509_RSA_SHA1Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ADBE_X509_RSA_SHA1Content = default;
         private static bool _ADBE_X509_RSA_SHA1Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ADOBE_PPKLITE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ADOBE_PPKLITE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ADOBE_PPKLITE { get { if (!_ADOBE_PPKLITEReady) { _ADOBE_PPKLITEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ADOBE_PPKLITE"); _ADOBE_PPKLITEReady = true; } return _ADOBE_PPKLITEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ADOBE_PPKLITEContent = default;
         private static bool _ADOBE_PPKLITEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#AESV2"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#AESV2"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName AESV2 { get { if (!_AESV2Ready) { _AESV2Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "AESV2"); _AESV2Ready = true; } return _AESV2Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _AESV2Content = default;
         private static bool _AESV2Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#AESV3"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#AESV3"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName AESV3 { get { if (!_AESV3Ready) { _AESV3Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "AESV3"); _AESV3Ready = true; } return _AESV3Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _AESV3Content = default;
         private static bool _AESV3Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#AF"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#AF"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName AF { get { if (!_AFReady) { _AFContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "AF"); _AFReady = true; } return _AFContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _AFContent = default;
         private static bool _AFReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#AF_RELATIONSHIP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#AF_RELATIONSHIP"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName AF_RELATIONSHIP { get { if (!_AF_RELATIONSHIPReady) { _AF_RELATIONSHIPContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "AF_RELATIONSHIP"); _AF_RELATIONSHIPReady = true; } return _AF_RELATIONSHIPContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _AF_RELATIONSHIPContent = default;
         private static bool _AF_RELATIONSHIPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#AFTER"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#AFTER"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName AFTER { get { if (!_AFTERReady) { _AFTERContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "AFTER"); _AFTERReady = true; } return _AFTERContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _AFTERContent = default;
         private static bool _AFTERReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#AI_META_DATA"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#AI_META_DATA"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName AI_META_DATA { get { if (!_AI_META_DATAReady) { _AI_META_DATAContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "AI_META_DATA"); _AI_META_DATAReady = true; } return _AI_META_DATAContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _AI_META_DATAContent = default;
         private static bool _AI_META_DATAReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#AIS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#AIS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName AIS { get { if (!_AISReady) { _AISContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "AIS"); _AISReady = true; } return _AISContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _AISContent = default;
         private static bool _AISReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ALL_OFF"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ALL_OFF"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ALL_OFF { get { if (!_ALL_OFFReady) { _ALL_OFFContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ALL_OFF"); _ALL_OFFReady = true; } return _ALL_OFFContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ALL_OFFContent = default;
         private static bool _ALL_OFFReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ALL_ON"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ALL_ON"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ALL_ON { get { if (!_ALL_ONReady) { _ALL_ONContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ALL_ON"); _ALL_ONReady = true; } return _ALL_ONContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ALL_ONContent = default;
         private static bool _ALL_ONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ALPHA"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ALPHA"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ALPHA { get { if (!_ALPHAReady) { _ALPHAContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ALPHA"); _ALPHAReady = true; } return _ALPHAContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ALPHAContent = default;
         private static bool _ALPHAReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ALT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ALT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ALT { get { if (!_ALTReady) { _ALTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ALT"); _ALTReady = true; } return _ALTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ALTContent = default;
         private static bool _ALTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ALTERNATE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ALTERNATE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ALTERNATE { get { if (!_ALTERNATEReady) { _ALTERNATEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ALTERNATE"); _ALTERNATEReady = true; } return _ALTERNATEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ALTERNATEContent = default;
         private static bool _ALTERNATEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ANNOT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ANNOT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ANNOT { get { if (!_ANNOTReady) { _ANNOTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ANNOT"); _ANNOTReady = true; } return _ANNOTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ANNOTContent = default;
         private static bool _ANNOTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ANNOTS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ANNOTS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ANNOTS { get { if (!_ANNOTSReady) { _ANNOTSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ANNOTS"); _ANNOTSReady = true; } return _ANNOTSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ANNOTSContent = default;
         private static bool _ANNOTSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ANTI_ALIAS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ANTI_ALIAS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ANTI_ALIAS { get { if (!_ANTI_ALIASReady) { _ANTI_ALIASContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ANTI_ALIAS"); _ANTI_ALIASReady = true; } return _ANTI_ALIASContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ANTI_ALIASContent = default;
         private static bool _ANTI_ALIASReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ANY_OFF"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ANY_OFF"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ANY_OFF { get { if (!_ANY_OFFReady) { _ANY_OFFContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ANY_OFF"); _ANY_OFFReady = true; } return _ANY_OFFContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ANY_OFFContent = default;
         private static bool _ANY_OFFReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ANY_ON"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ANY_ON"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ANY_ON { get { if (!_ANY_ONReady) { _ANY_ONContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ANY_ON"); _ANY_ONReady = true; } return _ANY_ONContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ANY_ONContent = default;
         private static bool _ANY_ONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#AP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#AP"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName AP { get { if (!_APReady) { _APContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "AP"); _APReady = true; } return _APContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _APContent = default;
         private static bool _APReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#AP_REF"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#AP_REF"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName AP_REF { get { if (!_AP_REFReady) { _AP_REFContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "AP_REF"); _AP_REFReady = true; } return _AP_REFContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _AP_REFContent = default;
         private static bool _AP_REFReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#APP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#APP"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName APP { get { if (!_APPReady) { _APPContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "APP"); _APPReady = true; } return _APPContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _APPContent = default;
         private static bool _APPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ART_BOX"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ART_BOX"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ART_BOX { get { if (!_ART_BOXReady) { _ART_BOXContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ART_BOX"); _ART_BOXReady = true; } return _ART_BOXContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ART_BOXContent = default;
         private static bool _ART_BOXReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ARTIFACT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ARTIFACT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ARTIFACT { get { if (!_ARTIFACTReady) { _ARTIFACTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ARTIFACT"); _ARTIFACTReady = true; } return _ARTIFACTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ARTIFACTContent = default;
         private static bool _ARTIFACTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#AS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#AS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName AS { get { if (!_ASReady) { _ASContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "AS"); _ASReady = true; } return _ASContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ASContent = default;
         private static bool _ASReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ASCENT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ASCENT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ASCENT { get { if (!_ASCENTReady) { _ASCENTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ASCENT"); _ASCENTReady = true; } return _ASCENTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ASCENTContent = default;
         private static bool _ASCENTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ASCII_HEX_DECODE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ASCII_HEX_DECODE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ASCII_HEX_DECODE { get { if (!_ASCII_HEX_DECODEReady) { _ASCII_HEX_DECODEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ASCII_HEX_DECODE"); _ASCII_HEX_DECODEReady = true; } return _ASCII_HEX_DECODEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ASCII_HEX_DECODEContent = default;
         private static bool _ASCII_HEX_DECODEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ASCII_HEX_DECODE_ABBREVIATION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ASCII_HEX_DECODE_ABBREVIATION"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ASCII_HEX_DECODE_ABBREVIATION { get { if (!_ASCII_HEX_DECODE_ABBREVIATIONReady) { _ASCII_HEX_DECODE_ABBREVIATIONContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ASCII_HEX_DECODE_ABBREVIATION"); _ASCII_HEX_DECODE_ABBREVIATIONReady = true; } return _ASCII_HEX_DECODE_ABBREVIATIONContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ASCII_HEX_DECODE_ABBREVIATIONContent = default;
         private static bool _ASCII_HEX_DECODE_ABBREVIATIONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ASCII85_DECODE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ASCII85_DECODE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ASCII85_DECODE { get { if (!_ASCII85_DECODEReady) { _ASCII85_DECODEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ASCII85_DECODE"); _ASCII85_DECODEReady = true; } return _ASCII85_DECODEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ASCII85_DECODEContent = default;
         private static bool _ASCII85_DECODEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ASCII85_DECODE_ABBREVIATION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ASCII85_DECODE_ABBREVIATION"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ASCII85_DECODE_ABBREVIATION { get { if (!_ASCII85_DECODE_ABBREVIATIONReady) { _ASCII85_DECODE_ABBREVIATIONContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ASCII85_DECODE_ABBREVIATION"); _ASCII85_DECODE_ABBREVIATIONReady = true; } return _ASCII85_DECODE_ABBREVIATIONContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ASCII85_DECODE_ABBREVIATIONContent = default;
         private static bool _ASCII85_DECODE_ABBREVIATIONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ATTACHED"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ATTACHED"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ATTACHED { get { if (!_ATTACHEDReady) { _ATTACHEDContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ATTACHED"); _ATTACHEDReady = true; } return _ATTACHEDContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ATTACHEDContent = default;
         private static bool _ATTACHEDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#AUTHOR"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#AUTHOR"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName AUTHOR { get { if (!_AUTHORReady) { _AUTHORContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "AUTHOR"); _AUTHORReady = true; } return _AUTHORContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _AUTHORContent = default;
         private static bool _AUTHORReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#AVG_WIDTH"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#AVG_WIDTH"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName AVG_WIDTH { get { if (!_AVG_WIDTHReady) { _AVG_WIDTHContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "AVG_WIDTH"); _AVG_WIDTHReady = true; } return _AVG_WIDTHContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _AVG_WIDTHContent = default;
         private static bool _AVG_WIDTHReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#B"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#B"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName B { get { if (!_BReady) { _BContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "B"); _BReady = true; } return _BContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BContent = default;
         private static bool _BReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#BACKGROUND"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#BACKGROUND"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName BACKGROUND { get { if (!_BACKGROUNDReady) { _BACKGROUNDContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "BACKGROUND"); _BACKGROUNDReady = true; } return _BACKGROUNDContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BACKGROUNDContent = default;
         private static bool _BACKGROUNDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#BASE_ENCODING"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#BASE_ENCODING"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName BASE_ENCODING { get { if (!_BASE_ENCODINGReady) { _BASE_ENCODINGContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "BASE_ENCODING"); _BASE_ENCODINGReady = true; } return _BASE_ENCODINGContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BASE_ENCODINGContent = default;
         private static bool _BASE_ENCODINGReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#BASE_FONT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#BASE_FONT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName BASE_FONT { get { if (!_BASE_FONTReady) { _BASE_FONTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "BASE_FONT"); _BASE_FONTReady = true; } return _BASE_FONTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BASE_FONTContent = default;
         private static bool _BASE_FONTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#BASE_STATE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#BASE_STATE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName BASE_STATE { get { if (!_BASE_STATEReady) { _BASE_STATEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "BASE_STATE"); _BASE_STATEReady = true; } return _BASE_STATEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BASE_STATEContent = default;
         private static bool _BASE_STATEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#BASE_VERSION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#BASE_VERSION"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName BASE_VERSION { get { if (!_BASE_VERSIONReady) { _BASE_VERSIONContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "BASE_VERSION"); _BASE_VERSIONReady = true; } return _BASE_VERSIONContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BASE_VERSIONContent = default;
         private static bool _BASE_VERSIONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#BBOX"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#BBOX"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName BBOX { get { if (!_BBOXReady) { _BBOXContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "BBOX"); _BBOXReady = true; } return _BBOXContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BBOXContent = default;
         private static bool _BBOXReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#BC"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#BC"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName BC { get { if (!_BCReady) { _BCContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "BC"); _BCReady = true; } return _BCContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BCContent = default;
         private static bool _BCReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#BE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#BE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName BE { get { if (!_BEReady) { _BEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "BE"); _BEReady = true; } return _BEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BEContent = default;
         private static bool _BEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#BEAD"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#BEAD"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName BEAD { get { if (!_BEADReady) { _BEADContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "BEAD"); _BEADReady = true; } return _BEADContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BEADContent = default;
         private static bool _BEADReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#BEFORE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#BEFORE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName BEFORE { get { if (!_BEFOREReady) { _BEFOREContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "BEFORE"); _BEFOREReady = true; } return _BEFOREContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BEFOREContent = default;
         private static bool _BEFOREReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#BG"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#BG"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName BG { get { if (!_BGReady) { _BGContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "BG"); _BGReady = true; } return _BGContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BGContent = default;
         private static bool _BGReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#BITS_PER_COMPONENT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#BITS_PER_COMPONENT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName BITS_PER_COMPONENT { get { if (!_BITS_PER_COMPONENTReady) { _BITS_PER_COMPONENTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "BITS_PER_COMPONENT"); _BITS_PER_COMPONENTReady = true; } return _BITS_PER_COMPONENTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BITS_PER_COMPONENTContent = default;
         private static bool _BITS_PER_COMPONENTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#BITS_PER_COORDINATE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#BITS_PER_COORDINATE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName BITS_PER_COORDINATE { get { if (!_BITS_PER_COORDINATEReady) { _BITS_PER_COORDINATEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "BITS_PER_COORDINATE"); _BITS_PER_COORDINATEReady = true; } return _BITS_PER_COORDINATEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BITS_PER_COORDINATEContent = default;
         private static bool _BITS_PER_COORDINATEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#BITS_PER_FLAG"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#BITS_PER_FLAG"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName BITS_PER_FLAG { get { if (!_BITS_PER_FLAGReady) { _BITS_PER_FLAGContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "BITS_PER_FLAG"); _BITS_PER_FLAGReady = true; } return _BITS_PER_FLAGContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BITS_PER_FLAGContent = default;
         private static bool _BITS_PER_FLAGReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#BITS_PER_SAMPLE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#BITS_PER_SAMPLE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName BITS_PER_SAMPLE { get { if (!_BITS_PER_SAMPLEReady) { _BITS_PER_SAMPLEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "BITS_PER_SAMPLE"); _BITS_PER_SAMPLEReady = true; } return _BITS_PER_SAMPLEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BITS_PER_SAMPLEContent = default;
         private static bool _BITS_PER_SAMPLEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#BL"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#BL"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName BL { get { if (!_BLReady) { _BLContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "BL"); _BLReady = true; } return _BLContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BLContent = default;
         private static bool _BLReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#BLACK_IS_1"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#BLACK_IS_1"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName BLACK_IS_1 { get { if (!_BLACK_IS_1Ready) { _BLACK_IS_1Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "BLACK_IS_1"); _BLACK_IS_1Ready = true; } return _BLACK_IS_1Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BLACK_IS_1Content = default;
         private static bool _BLACK_IS_1Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#BLACK_POINT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#BLACK_POINT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName BLACK_POINT { get { if (!_BLACK_POINTReady) { _BLACK_POINTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "BLACK_POINT"); _BLACK_POINTReady = true; } return _BLACK_POINTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BLACK_POINTContent = default;
         private static bool _BLACK_POINTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#BLEED_BOX"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#BLEED_BOX"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName BLEED_BOX { get { if (!_BLEED_BOXReady) { _BLEED_BOXContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "BLEED_BOX"); _BLEED_BOXReady = true; } return _BLEED_BOXContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BLEED_BOXContent = default;
         private static bool _BLEED_BOXReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#BM"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#BM"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName BM { get { if (!_BMReady) { _BMContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "BM"); _BMReady = true; } return _BMContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BMContent = default;
         private static bool _BMReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#BORDER"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#BORDER"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName BORDER { get { if (!_BORDERReady) { _BORDERContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "BORDER"); _BORDERReady = true; } return _BORDERContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BORDERContent = default;
         private static bool _BORDERReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#BOUNDS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#BOUNDS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName BOUNDS { get { if (!_BOUNDSReady) { _BOUNDSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "BOUNDS"); _BOUNDSReady = true; } return _BOUNDSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BOUNDSContent = default;
         private static bool _BOUNDSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#BPC"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#BPC"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName BPC { get { if (!_BPCReady) { _BPCContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "BPC"); _BPCReady = true; } return _BPCContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BPCContent = default;
         private static bool _BPCReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#BS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#BS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName BS { get { if (!_BSReady) { _BSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "BS"); _BSReady = true; } return _BSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BSContent = default;
         private static bool _BSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#BTN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#BTN"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName BTN { get { if (!_BTNReady) { _BTNContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "BTN"); _BTNReady = true; } return _BTNContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BTNContent = default;
         private static bool _BTNReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#BYTERANGE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#BYTERANGE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName BYTERANGE { get { if (!_BYTERANGEReady) { _BYTERANGEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "BYTERANGE"); _BYTERANGEReady = true; } return _BYTERANGEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _BYTERANGEContent = default;
         private static bool _BYTERANGEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#C"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#C"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName C { get { if (!_CReady) { _CContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "C"); _CReady = true; } return _CContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CContent = default;
         private static bool _CReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#C0"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#C0"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName C0 { get { if (!_C0Ready) { _C0Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "C0"); _C0Ready = true; } return _C0Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _C0Content = default;
         private static bool _C0Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#C1"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#C1"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName C1 { get { if (!_C1Ready) { _C1Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "C1"); _C1Ready = true; } return _C1Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _C1Content = default;
         private static bool _C1Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CA"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CA"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CA { get { if (!_CAReady) { _CAContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CA"); _CAReady = true; } return _CAContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CAContent = default;
         private static bool _CAReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CA_NS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CA_NS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CA_NS { get { if (!_CA_NSReady) { _CA_NSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CA_NS"); _CA_NSReady = true; } return _CA_NSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CA_NSContent = default;
         private static bool _CA_NSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CALGRAY"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CALGRAY"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CALGRAY { get { if (!_CALGRAYReady) { _CALGRAYContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CALGRAY"); _CALGRAYReady = true; } return _CALGRAYContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CALGRAYContent = default;
         private static bool _CALGRAYReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CALRGB"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CALRGB"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CALRGB { get { if (!_CALRGBReady) { _CALRGBContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CALRGB"); _CALRGBReady = true; } return _CALRGBContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CALRGBContent = default;
         private static bool _CALRGBReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CAP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CAP"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CAP { get { if (!_CAPReady) { _CAPContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CAP"); _CAPReady = true; } return _CAPContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CAPContent = default;
         private static bool _CAPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CAP_HEIGHT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CAP_HEIGHT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CAP_HEIGHT { get { if (!_CAP_HEIGHTReady) { _CAP_HEIGHTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CAP_HEIGHT"); _CAP_HEIGHTReady = true; } return _CAP_HEIGHTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CAP_HEIGHTContent = default;
         private static bool _CAP_HEIGHTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CATALOG"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CATALOG"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CATALOG { get { if (!_CATALOGReady) { _CATALOGContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CATALOG"); _CATALOGReady = true; } return _CATALOGContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CATALOGContent = default;
         private static bool _CATALOGReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CCITTFAX_DECODE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CCITTFAX_DECODE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CCITTFAX_DECODE { get { if (!_CCITTFAX_DECODEReady) { _CCITTFAX_DECODEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CCITTFAX_DECODE"); _CCITTFAX_DECODEReady = true; } return _CCITTFAX_DECODEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CCITTFAX_DECODEContent = default;
         private static bool _CCITTFAX_DECODEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CCITTFAX_DECODE_ABBREVIATION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CCITTFAX_DECODE_ABBREVIATION"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CCITTFAX_DECODE_ABBREVIATION { get { if (!_CCITTFAX_DECODE_ABBREVIATIONReady) { _CCITTFAX_DECODE_ABBREVIATIONContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CCITTFAX_DECODE_ABBREVIATION"); _CCITTFAX_DECODE_ABBREVIATIONReady = true; } return _CCITTFAX_DECODE_ABBREVIATIONContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CCITTFAX_DECODE_ABBREVIATIONContent = default;
         private static bool _CCITTFAX_DECODE_ABBREVIATIONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CENTER_WINDOW"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CENTER_WINDOW"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CENTER_WINDOW { get { if (!_CENTER_WINDOWReady) { _CENTER_WINDOWContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CENTER_WINDOW"); _CENTER_WINDOWReady = true; } return _CENTER_WINDOWContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CENTER_WINDOWContent = default;
         private static bool _CENTER_WINDOWReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CERT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CERT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CERT { get { if (!_CERTReady) { _CERTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CERT"); _CERTReady = true; } return _CERTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CERTContent = default;
         private static bool _CERTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CERTS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CERTS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CERTS { get { if (!_CERTSReady) { _CERTSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CERTS"); _CERTSReady = true; } return _CERTSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CERTSContent = default;
         private static bool _CERTSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CF"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CF"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CF { get { if (!_CFReady) { _CFContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CF"); _CFReady = true; } return _CFContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CFContent = default;
         private static bool _CFReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CFM"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CFM"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CFM { get { if (!_CFMReady) { _CFMContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CFM"); _CFMReady = true; } return _CFMContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CFMContent = default;
         private static bool _CFMReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CH"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CH"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CH { get { if (!_CHReady) { _CHContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CH"); _CHReady = true; } return _CHContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CHContent = default;
         private static bool _CHReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CHAR_PROCS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CHAR_PROCS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CHAR_PROCS { get { if (!_CHAR_PROCSReady) { _CHAR_PROCSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CHAR_PROCS"); _CHAR_PROCSReady = true; } return _CHAR_PROCSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CHAR_PROCSContent = default;
         private static bool _CHAR_PROCSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CHAR_SET"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CHAR_SET"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CHAR_SET { get { if (!_CHAR_SETReady) { _CHAR_SETContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CHAR_SET"); _CHAR_SETReady = true; } return _CHAR_SETContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CHAR_SETContent = default;
         private static bool _CHAR_SETReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CHECK_SUM"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CHECK_SUM"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CHECK_SUM { get { if (!_CHECK_SUMReady) { _CHECK_SUMContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CHECK_SUM"); _CHECK_SUMReady = true; } return _CHECK_SUMContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CHECK_SUMContent = default;
         private static bool _CHECK_SUMReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CI"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CI"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CI { get { if (!_CIReady) { _CIContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CI"); _CIReady = true; } return _CIContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CIContent = default;
         private static bool _CIReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CICI_SIGNIT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CICI_SIGNIT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CICI_SIGNIT { get { if (!_CICI_SIGNITReady) { _CICI_SIGNITContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CICI_SIGNIT"); _CICI_SIGNITReady = true; } return _CICI_SIGNITContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CICI_SIGNITContent = default;
         private static bool _CICI_SIGNITReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CID_FONT_TYPE0"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CID_FONT_TYPE0"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CID_FONT_TYPE0 { get { if (!_CID_FONT_TYPE0Ready) { _CID_FONT_TYPE0Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CID_FONT_TYPE0"); _CID_FONT_TYPE0Ready = true; } return _CID_FONT_TYPE0Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CID_FONT_TYPE0Content = default;
         private static bool _CID_FONT_TYPE0Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CID_FONT_TYPE2"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CID_FONT_TYPE2"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CID_FONT_TYPE2 { get { if (!_CID_FONT_TYPE2Ready) { _CID_FONT_TYPE2Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CID_FONT_TYPE2"); _CID_FONT_TYPE2Ready = true; } return _CID_FONT_TYPE2Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CID_FONT_TYPE2Content = default;
         private static bool _CID_FONT_TYPE2Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CID_SET"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CID_SET"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CID_SET { get { if (!_CID_SETReady) { _CID_SETContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CID_SET"); _CID_SETReady = true; } return _CID_SETContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CID_SETContent = default;
         private static bool _CID_SETReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CID_TO_GID_MAP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CID_TO_GID_MAP"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CID_TO_GID_MAP { get { if (!_CID_TO_GID_MAPReady) { _CID_TO_GID_MAPContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CID_TO_GID_MAP"); _CID_TO_GID_MAPReady = true; } return _CID_TO_GID_MAPContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CID_TO_GID_MAPContent = default;
         private static bool _CID_TO_GID_MAPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CIDSYSTEMINFO"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CIDSYSTEMINFO"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CIDSYSTEMINFO { get { if (!_CIDSYSTEMINFOReady) { _CIDSYSTEMINFOContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CIDSYSTEMINFO"); _CIDSYSTEMINFOReady = true; } return _CIDSYSTEMINFOContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CIDSYSTEMINFOContent = default;
         private static bool _CIDSYSTEMINFOReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CL"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CL"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CL { get { if (!_CLReady) { _CLContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CL"); _CLReady = true; } return _CLContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CLContent = default;
         private static bool _CLReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CLASS_MAP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CLASS_MAP"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CLASS_MAP { get { if (!_CLASS_MAPReady) { _CLASS_MAPContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CLASS_MAP"); _CLASS_MAPReady = true; } return _CLASS_MAPContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CLASS_MAPContent = default;
         private static bool _CLASS_MAPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CLR_F"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CLR_F"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CLR_F { get { if (!_CLR_FReady) { _CLR_FContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CLR_F"); _CLR_FReady = true; } return _CLR_FContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CLR_FContent = default;
         private static bool _CLR_FReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CLR_FF"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CLR_FF"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CLR_FF { get { if (!_CLR_FFReady) { _CLR_FFContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CLR_FF"); _CLR_FFReady = true; } return _CLR_FFContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CLR_FFContent = default;
         private static bool _CLR_FFReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CMAP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CMAP"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CMAP { get { if (!_CMAPReady) { _CMAPContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CMAP"); _CMAPReady = true; } return _CMAPContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CMAPContent = default;
         private static bool _CMAPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CMAPNAME"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CMAPNAME"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CMAPNAME { get { if (!_CMAPNAMEReady) { _CMAPNAMEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CMAPNAME"); _CMAPNAMEReady = true; } return _CMAPNAMEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CMAPNAMEContent = default;
         private static bool _CMAPNAMEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CMYK"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CMYK"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CMYK { get { if (!_CMYKReady) { _CMYKContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CMYK"); _CMYKReady = true; } return _CMYKContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CMYKContent = default;
         private static bool _CMYKReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CO"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CO"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CO { get { if (!_COReady) { _COContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CO"); _COReady = true; } return _COContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _COContent = default;
         private static bool _COReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#COLLECTION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#COLLECTION"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName COLLECTION { get { if (!_COLLECTIONReady) { _COLLECTIONContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "COLLECTION"); _COLLECTIONReady = true; } return _COLLECTIONContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _COLLECTIONContent = default;
         private static bool _COLLECTIONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#COLLECTION_FIELD"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#COLLECTION_FIELD"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName COLLECTION_FIELD { get { if (!_COLLECTION_FIELDReady) { _COLLECTION_FIELDContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "COLLECTION_FIELD"); _COLLECTION_FIELDReady = true; } return _COLLECTION_FIELDContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _COLLECTION_FIELDContent = default;
         private static bool _COLLECTION_FIELDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#COLLECTION_ITEM"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#COLLECTION_ITEM"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName COLLECTION_ITEM { get { if (!_COLLECTION_ITEMReady) { _COLLECTION_ITEMContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "COLLECTION_ITEM"); _COLLECTION_ITEMReady = true; } return _COLLECTION_ITEMContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _COLLECTION_ITEMContent = default;
         private static bool _COLLECTION_ITEMReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#COLLECTION_SCHEMA"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#COLLECTION_SCHEMA"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName COLLECTION_SCHEMA { get { if (!_COLLECTION_SCHEMAReady) { _COLLECTION_SCHEMAContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "COLLECTION_SCHEMA"); _COLLECTION_SCHEMAReady = true; } return _COLLECTION_SCHEMAContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _COLLECTION_SCHEMAContent = default;
         private static bool _COLLECTION_SCHEMAReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#COLLECTION_SORT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#COLLECTION_SORT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName COLLECTION_SORT { get { if (!_COLLECTION_SORTReady) { _COLLECTION_SORTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "COLLECTION_SORT"); _COLLECTION_SORTReady = true; } return _COLLECTION_SORTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _COLLECTION_SORTContent = default;
         private static bool _COLLECTION_SORTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#COLLECTION_SUBITEM"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#COLLECTION_SUBITEM"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName COLLECTION_SUBITEM { get { if (!_COLLECTION_SUBITEMReady) { _COLLECTION_SUBITEMContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "COLLECTION_SUBITEM"); _COLLECTION_SUBITEMReady = true; } return _COLLECTION_SUBITEMContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _COLLECTION_SUBITEMContent = default;
         private static bool _COLLECTION_SUBITEMReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#COLOR"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#COLOR"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName COLOR { get { if (!_COLORReady) { _COLORContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "COLOR"); _COLORReady = true; } return _COLORContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _COLORContent = default;
         private static bool _COLORReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#COLOR_BURN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#COLOR_BURN"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName COLOR_BURN { get { if (!_COLOR_BURNReady) { _COLOR_BURNContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "COLOR_BURN"); _COLOR_BURNReady = true; } return _COLOR_BURNContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _COLOR_BURNContent = default;
         private static bool _COLOR_BURNReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#COLOR_DODGE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#COLOR_DODGE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName COLOR_DODGE { get { if (!_COLOR_DODGEReady) { _COLOR_DODGEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "COLOR_DODGE"); _COLOR_DODGEReady = true; } return _COLOR_DODGEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _COLOR_DODGEContent = default;
         private static bool _COLOR_DODGEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#COLORANTS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#COLORANTS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName COLORANTS { get { if (!_COLORANTSReady) { _COLORANTSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "COLORANTS"); _COLORANTSReady = true; } return _COLORANTSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _COLORANTSContent = default;
         private static bool _COLORANTSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#COLORS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#COLORS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName COLORS { get { if (!_COLORSReady) { _COLORSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "COLORS"); _COLORSReady = true; } return _COLORSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _COLORSContent = default;
         private static bool _COLORSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#COLORSPACE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#COLORSPACE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName COLORSPACE { get { if (!_COLORSPACEReady) { _COLORSPACEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "COLORSPACE"); _COLORSPACEReady = true; } return _COLORSPACEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _COLORSPACEContent = default;
         private static bool _COLORSPACEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#COLUMNS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#COLUMNS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName COLUMNS { get { if (!_COLUMNSReady) { _COLUMNSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "COLUMNS"); _COLUMNSReady = true; } return _COLUMNSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _COLUMNSContent = default;
         private static bool _COLUMNSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#COMPATIBLE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#COMPATIBLE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName COMPATIBLE { get { if (!_COMPATIBLEReady) { _COMPATIBLEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "COMPATIBLE"); _COMPATIBLEReady = true; } return _COMPATIBLEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _COMPATIBLEContent = default;
         private static bool _COMPATIBLEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#COMPONENTS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#COMPONENTS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName COMPONENTS { get { if (!_COMPONENTSReady) { _COMPONENTSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "COMPONENTS"); _COMPONENTSReady = true; } return _COMPONENTSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _COMPONENTSContent = default;
         private static bool _COMPONENTSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CONTACT_INFO"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CONTACT_INFO"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CONTACT_INFO { get { if (!_CONTACT_INFOReady) { _CONTACT_INFOContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CONTACT_INFO"); _CONTACT_INFOReady = true; } return _CONTACT_INFOContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CONTACT_INFOContent = default;
         private static bool _CONTACT_INFOReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CONTENTS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CONTENTS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CONTENTS { get { if (!_CONTENTSReady) { _CONTENTSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CONTENTS"); _CONTENTSReady = true; } return _CONTENTSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CONTENTSContent = default;
         private static bool _CONTENTSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#COORDS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#COORDS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName COORDS { get { if (!_COORDSReady) { _COORDSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "COORDS"); _COORDSReady = true; } return _COORDSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _COORDSContent = default;
         private static bool _COORDSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#COUNT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#COUNT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName COUNT { get { if (!_COUNTReady) { _COUNTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "COUNT"); _COUNTReady = true; } return _COUNTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _COUNTContent = default;
         private static bool _COUNTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CP"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CP { get { if (!_CPReady) { _CPContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CP"); _CPReady = true; } return _CPContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CPContent = default;
         private static bool _CPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CREATION_DATE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CREATION_DATE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CREATION_DATE { get { if (!_CREATION_DATEReady) { _CREATION_DATEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CREATION_DATE"); _CREATION_DATEReady = true; } return _CREATION_DATEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CREATION_DATEContent = default;
         private static bool _CREATION_DATEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CREATOR"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CREATOR"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CREATOR { get { if (!_CREATORReady) { _CREATORContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CREATOR"); _CREATORReady = true; } return _CREATORContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CREATORContent = default;
         private static bool _CREATORReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CRL"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CRL"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CRL { get { if (!_CRLReady) { _CRLContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CRL"); _CRLReady = true; } return _CRLContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CRLContent = default;
         private static bool _CRLReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CRLS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CRLS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CRLS { get { if (!_CRLSReady) { _CRLSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CRLS"); _CRLSReady = true; } return _CRLSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CRLSContent = default;
         private static bool _CRLSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CROP_BOX"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CROP_BOX"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CROP_BOX { get { if (!_CROP_BOXReady) { _CROP_BOXContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CROP_BOX"); _CROP_BOXReady = true; } return _CROP_BOXContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CROP_BOXContent = default;
         private static bool _CROP_BOXReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CRYPT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CRYPT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CRYPT { get { if (!_CRYPTReady) { _CRYPTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CRYPT"); _CRYPTReady = true; } return _CRYPTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CRYPTContent = default;
         private static bool _CRYPTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CS { get { if (!_CSReady) { _CSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CS"); _CSReady = true; } return _CSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CSContent = default;
         private static bool _CSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#CYX"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#CYX"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName CYX { get { if (!_CYXReady) { _CYXContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "CYX"); _CYXReady = true; } return _CYXContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _CYXContent = default;
         private static bool _CYXReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#D"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#D"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName D { get { if (!_DReady) { _DContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "D"); _DReady = true; } return _DContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DContent = default;
         private static bool _DReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DA"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DA"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DA { get { if (!_DAReady) { _DAContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DA"); _DAReady = true; } return _DAContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DAContent = default;
         private static bool _DAReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DARKEN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DARKEN"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DARKEN { get { if (!_DARKENReady) { _DARKENContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DARKEN"); _DARKENReady = true; } return _DARKENContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DARKENContent = default;
         private static bool _DARKENReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DATE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DATE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DATE { get { if (!_DATEReady) { _DATEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DATE"); _DATEReady = true; } return _DATEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DATEContent = default;
         private static bool _DATEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DCT_DECODE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DCT_DECODE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DCT_DECODE { get { if (!_DCT_DECODEReady) { _DCT_DECODEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DCT_DECODE"); _DCT_DECODEReady = true; } return _DCT_DECODEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DCT_DECODEContent = default;
         private static bool _DCT_DECODEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DCT_DECODE_ABBREVIATION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DCT_DECODE_ABBREVIATION"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DCT_DECODE_ABBREVIATION { get { if (!_DCT_DECODE_ABBREVIATIONReady) { _DCT_DECODE_ABBREVIATIONContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DCT_DECODE_ABBREVIATION"); _DCT_DECODE_ABBREVIATIONReady = true; } return _DCT_DECODE_ABBREVIATIONContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DCT_DECODE_ABBREVIATIONContent = default;
         private static bool _DCT_DECODE_ABBREVIATIONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DECODE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DECODE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DECODE { get { if (!_DECODEReady) { _DECODEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DECODE"); _DECODEReady = true; } return _DECODEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DECODEContent = default;
         private static bool _DECODEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DECODE_PARMS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DECODE_PARMS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DECODE_PARMS { get { if (!_DECODE_PARMSReady) { _DECODE_PARMSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DECODE_PARMS"); _DECODE_PARMSReady = true; } return _DECODE_PARMSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DECODE_PARMSContent = default;
         private static bool _DECODE_PARMSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DEFAULT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DEFAULT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DEFAULT { get { if (!_DEFAULTReady) { _DEFAULTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DEFAULT"); _DEFAULTReady = true; } return _DEFAULTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DEFAULTContent = default;
         private static bool _DEFAULTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DEFAULT_CMYK"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DEFAULT_CMYK"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DEFAULT_CMYK { get { if (!_DEFAULT_CMYKReady) { _DEFAULT_CMYKContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DEFAULT_CMYK"); _DEFAULT_CMYKReady = true; } return _DEFAULT_CMYKContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DEFAULT_CMYKContent = default;
         private static bool _DEFAULT_CMYKReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DEFAULT_CRYPT_FILTER"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DEFAULT_CRYPT_FILTER"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DEFAULT_CRYPT_FILTER { get { if (!_DEFAULT_CRYPT_FILTERReady) { _DEFAULT_CRYPT_FILTERContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DEFAULT_CRYPT_FILTER"); _DEFAULT_CRYPT_FILTERReady = true; } return _DEFAULT_CRYPT_FILTERContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DEFAULT_CRYPT_FILTERContent = default;
         private static bool _DEFAULT_CRYPT_FILTERReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DEFAULT_GRAY"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DEFAULT_GRAY"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DEFAULT_GRAY { get { if (!_DEFAULT_GRAYReady) { _DEFAULT_GRAYContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DEFAULT_GRAY"); _DEFAULT_GRAYReady = true; } return _DEFAULT_GRAYContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DEFAULT_GRAYContent = default;
         private static bool _DEFAULT_GRAYReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DEFAULT_RGB"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DEFAULT_RGB"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DEFAULT_RGB { get { if (!_DEFAULT_RGBReady) { _DEFAULT_RGBContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DEFAULT_RGB"); _DEFAULT_RGBReady = true; } return _DEFAULT_RGBContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DEFAULT_RGBContent = default;
         private static bool _DEFAULT_RGBReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DESC"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DESC"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DESC { get { if (!_DESCReady) { _DESCContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DESC"); _DESCReady = true; } return _DESCContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DESCContent = default;
         private static bool _DESCReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DESCENDANT_FONTS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DESCENDANT_FONTS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DESCENDANT_FONTS { get { if (!_DESCENDANT_FONTSReady) { _DESCENDANT_FONTSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DESCENDANT_FONTS"); _DESCENDANT_FONTSReady = true; } return _DESCENDANT_FONTSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DESCENDANT_FONTSContent = default;
         private static bool _DESCENDANT_FONTSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DESCENT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DESCENT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DESCENT { get { if (!_DESCENTReady) { _DESCENTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DESCENT"); _DESCENTReady = true; } return _DESCENTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DESCENTContent = default;
         private static bool _DESCENTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DEST"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DEST"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DEST { get { if (!_DESTReady) { _DESTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DEST"); _DESTReady = true; } return _DESTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DESTContent = default;
         private static bool _DESTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DEST_OUTPUT_PROFILE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DEST_OUTPUT_PROFILE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DEST_OUTPUT_PROFILE { get { if (!_DEST_OUTPUT_PROFILEReady) { _DEST_OUTPUT_PROFILEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DEST_OUTPUT_PROFILE"); _DEST_OUTPUT_PROFILEReady = true; } return _DEST_OUTPUT_PROFILEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DEST_OUTPUT_PROFILEContent = default;
         private static bool _DEST_OUTPUT_PROFILEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DESTS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DESTS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DESTS { get { if (!_DESTSReady) { _DESTSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DESTS"); _DESTSReady = true; } return _DESTSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DESTSContent = default;
         private static bool _DESTSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DEVICECMYK"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DEVICECMYK"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DEVICECMYK { get { if (!_DEVICECMYKReady) { _DEVICECMYKContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DEVICECMYK"); _DEVICECMYKReady = true; } return _DEVICECMYKContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DEVICECMYKContent = default;
         private static bool _DEVICECMYKReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DEVICEGRAY"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DEVICEGRAY"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DEVICEGRAY { get { if (!_DEVICEGRAYReady) { _DEVICEGRAYContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DEVICEGRAY"); _DEVICEGRAYReady = true; } return _DEVICEGRAYContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DEVICEGRAYContent = default;
         private static bool _DEVICEGRAYReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DEVICEN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DEVICEN"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DEVICEN { get { if (!_DEVICENReady) { _DEVICENContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DEVICEN"); _DEVICENReady = true; } return _DEVICENContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DEVICENContent = default;
         private static bool _DEVICENReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DEVICERGB"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DEVICERGB"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DEVICERGB { get { if (!_DEVICERGBReady) { _DEVICERGBContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DEVICERGB"); _DEVICERGBReady = true; } return _DEVICERGBContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DEVICERGBContent = default;
         private static bool _DEVICERGBReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DI"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DI"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DI { get { if (!_DIReady) { _DIContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DI"); _DIReady = true; } return _DIContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DIContent = default;
         private static bool _DIReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DIFFERENCE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DIFFERENCE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DIFFERENCE { get { if (!_DIFFERENCEReady) { _DIFFERENCEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DIFFERENCE"); _DIFFERENCEReady = true; } return _DIFFERENCEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DIFFERENCEContent = default;
         private static bool _DIFFERENCEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DIFFERENCES"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DIFFERENCES"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DIFFERENCES { get { if (!_DIFFERENCESReady) { _DIFFERENCESContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DIFFERENCES"); _DIFFERENCESReady = true; } return _DIFFERENCESContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DIFFERENCESContent = default;
         private static bool _DIFFERENCESReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DIGEST_METHOD"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DIGEST_METHOD"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DIGEST_METHOD { get { if (!_DIGEST_METHODReady) { _DIGEST_METHODContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DIGEST_METHOD"); _DIGEST_METHODReady = true; } return _DIGEST_METHODContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DIGEST_METHODContent = default;
         private static bool _DIGEST_METHODReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DIGEST_RIPEMD160"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DIGEST_RIPEMD160"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DIGEST_RIPEMD160 { get { if (!_DIGEST_RIPEMD160Ready) { _DIGEST_RIPEMD160Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DIGEST_RIPEMD160"); _DIGEST_RIPEMD160Ready = true; } return _DIGEST_RIPEMD160Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DIGEST_RIPEMD160Content = default;
         private static bool _DIGEST_RIPEMD160Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DIGEST_SHA1"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DIGEST_SHA1"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DIGEST_SHA1 { get { if (!_DIGEST_SHA1Ready) { _DIGEST_SHA1Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DIGEST_SHA1"); _DIGEST_SHA1Ready = true; } return _DIGEST_SHA1Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DIGEST_SHA1Content = default;
         private static bool _DIGEST_SHA1Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DIGEST_SHA256"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DIGEST_SHA256"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DIGEST_SHA256 { get { if (!_DIGEST_SHA256Ready) { _DIGEST_SHA256Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DIGEST_SHA256"); _DIGEST_SHA256Ready = true; } return _DIGEST_SHA256Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DIGEST_SHA256Content = default;
         private static bool _DIGEST_SHA256Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DIGEST_SHA384"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DIGEST_SHA384"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DIGEST_SHA384 { get { if (!_DIGEST_SHA384Ready) { _DIGEST_SHA384Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DIGEST_SHA384"); _DIGEST_SHA384Ready = true; } return _DIGEST_SHA384Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DIGEST_SHA384Content = default;
         private static bool _DIGEST_SHA384Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DIGEST_SHA512"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DIGEST_SHA512"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DIGEST_SHA512 { get { if (!_DIGEST_SHA512Ready) { _DIGEST_SHA512Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DIGEST_SHA512"); _DIGEST_SHA512Ready = true; } return _DIGEST_SHA512Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DIGEST_SHA512Content = default;
         private static bool _DIGEST_SHA512Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DIRECTION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DIRECTION"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DIRECTION { get { if (!_DIRECTIONReady) { _DIRECTIONContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DIRECTION"); _DIRECTIONReady = true; } return _DIRECTIONContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DIRECTIONContent = default;
         private static bool _DIRECTIONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DISPLAY_DOC_TITLE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DISPLAY_DOC_TITLE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DISPLAY_DOC_TITLE { get { if (!_DISPLAY_DOC_TITLEReady) { _DISPLAY_DOC_TITLEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DISPLAY_DOC_TITLE"); _DISPLAY_DOC_TITLEReady = true; } return _DISPLAY_DOC_TITLEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DISPLAY_DOC_TITLEContent = default;
         private static bool _DISPLAY_DOC_TITLEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DL"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DL"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DL { get { if (!_DLReady) { _DLContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DL"); _DLReady = true; } return _DLContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DLContent = default;
         private static bool _DLReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DM"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DM"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DM { get { if (!_DMReady) { _DMContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DM"); _DMReady = true; } return _DMContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DMContent = default;
         private static bool _DMReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DOC"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DOC"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DOC { get { if (!_DOCReady) { _DOCContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DOC"); _DOCReady = true; } return _DOCContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DOCContent = default;
         private static bool _DOCReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DOC_CHECKSUM"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DOC_CHECKSUM"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DOC_CHECKSUM { get { if (!_DOC_CHECKSUMReady) { _DOC_CHECKSUMContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DOC_CHECKSUM"); _DOC_CHECKSUMReady = true; } return _DOC_CHECKSUMContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DOC_CHECKSUMContent = default;
         private static bool _DOC_CHECKSUMReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DOC_TIME_STAMP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DOC_TIME_STAMP"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DOC_TIME_STAMP { get { if (!_DOC_TIME_STAMPReady) { _DOC_TIME_STAMPContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DOC_TIME_STAMP"); _DOC_TIME_STAMPReady = true; } return _DOC_TIME_STAMPContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DOC_TIME_STAMPContent = default;
         private static bool _DOC_TIME_STAMPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DOCMDP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DOCMDP"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DOCMDP { get { if (!_DOCMDPReady) { _DOCMDPContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DOCMDP"); _DOCMDPReady = true; } return _DOCMDPContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DOCMDPContent = default;
         private static bool _DOCMDPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DOCUMENT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DOCUMENT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DOCUMENT { get { if (!_DOCUMENTReady) { _DOCUMENTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DOCUMENT"); _DOCUMENTReady = true; } return _DOCUMENTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DOCUMENTContent = default;
         private static bool _DOCUMENTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DOMAIN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DOMAIN"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DOMAIN { get { if (!_DOMAINReady) { _DOMAINContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DOMAIN"); _DOMAINReady = true; } return _DOMAINContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DOMAINContent = default;
         private static bool _DOMAINReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DOS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DOS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DOS { get { if (!_DOSReady) { _DOSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DOS"); _DOSReady = true; } return _DOSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DOSContent = default;
         private static bool _DOSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DP"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DP { get { if (!_DPReady) { _DPContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DP"); _DPReady = true; } return _DPContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DPContent = default;
         private static bool _DPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DR"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DR"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DR { get { if (!_DRReady) { _DRContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DR"); _DRReady = true; } return _DRContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DRContent = default;
         private static bool _DRReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DS { get { if (!_DSReady) { _DSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DS"); _DSReady = true; } return _DSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DSContent = default;
         private static bool _DSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DSS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DSS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DSS { get { if (!_DSSReady) { _DSSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DSS"); _DSSReady = true; } return _DSSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DSSContent = default;
         private static bool _DSSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DUPLEX"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DUPLEX"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DUPLEX { get { if (!_DUPLEXReady) { _DUPLEXContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DUPLEX"); _DUPLEXReady = true; } return _DUPLEXContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DUPLEXContent = default;
         private static bool _DUPLEXReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DUR"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DUR"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DUR { get { if (!_DURReady) { _DURContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DUR"); _DURReady = true; } return _DURContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DURContent = default;
         private static bool _DURReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DV"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DV"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DV { get { if (!_DVReady) { _DVContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DV"); _DVReady = true; } return _DVContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DVContent = default;
         private static bool _DVReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DW"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DW"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DW { get { if (!_DWReady) { _DWContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DW"); _DWReady = true; } return _DWContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DWContent = default;
         private static bool _DWReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#DW2"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#DW2"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName DW2 { get { if (!_DW2Ready) { _DW2Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "DW2"); _DW2Ready = true; } return _DW2Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _DW2Content = default;
         private static bool _DW2Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#E"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#E"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName E { get { if (!_EReady) { _EContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "E"); _EReady = true; } return _EContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _EContent = default;
         private static bool _EReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#EARLY_CHANGE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#EARLY_CHANGE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName EARLY_CHANGE { get { if (!_EARLY_CHANGEReady) { _EARLY_CHANGEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "EARLY_CHANGE"); _EARLY_CHANGEReady = true; } return _EARLY_CHANGEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _EARLY_CHANGEContent = default;
         private static bool _EARLY_CHANGEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#EF"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#EF"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName EF { get { if (!_EFReady) { _EFContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "EF"); _EFReady = true; } return _EFContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _EFContent = default;
         private static bool _EFReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#EMBEDDED_FDFS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#EMBEDDED_FDFS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName EMBEDDED_FDFS { get { if (!_EMBEDDED_FDFSReady) { _EMBEDDED_FDFSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "EMBEDDED_FDFS"); _EMBEDDED_FDFSReady = true; } return _EMBEDDED_FDFSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _EMBEDDED_FDFSContent = default;
         private static bool _EMBEDDED_FDFSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#EMBEDDED_FILE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#EMBEDDED_FILE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName EMBEDDED_FILE { get { if (!_EMBEDDED_FILEReady) { _EMBEDDED_FILEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "EMBEDDED_FILE"); _EMBEDDED_FILEReady = true; } return _EMBEDDED_FILEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _EMBEDDED_FILEContent = default;
         private static bool _EMBEDDED_FILEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#EMBEDDED_FILES"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#EMBEDDED_FILES"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName EMBEDDED_FILES { get { if (!_EMBEDDED_FILESReady) { _EMBEDDED_FILESContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "EMBEDDED_FILES"); _EMBEDDED_FILESReady = true; } return _EMBEDDED_FILESContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _EMBEDDED_FILESContent = default;
         private static bool _EMBEDDED_FILESReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#EMPTY"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#EMPTY"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName EMPTY { get { if (!_EMPTYReady) { _EMPTYContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "EMPTY"); _EMPTYReady = true; } return _EMPTYContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _EMPTYContent = default;
         private static bool _EMPTYReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ENCODE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ENCODE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ENCODE { get { if (!_ENCODEReady) { _ENCODEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ENCODE"); _ENCODEReady = true; } return _ENCODEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ENCODEContent = default;
         private static bool _ENCODEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ENCODED_BYTE_ALIGN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ENCODED_BYTE_ALIGN"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ENCODED_BYTE_ALIGN { get { if (!_ENCODED_BYTE_ALIGNReady) { _ENCODED_BYTE_ALIGNContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ENCODED_BYTE_ALIGN"); _ENCODED_BYTE_ALIGNReady = true; } return _ENCODED_BYTE_ALIGNContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ENCODED_BYTE_ALIGNContent = default;
         private static bool _ENCODED_BYTE_ALIGNReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ENCODING"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ENCODING"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ENCODING { get { if (!_ENCODINGReady) { _ENCODINGContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ENCODING"); _ENCODINGReady = true; } return _ENCODINGContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ENCODINGContent = default;
         private static bool _ENCODINGReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ENCODING_90MS_RKSJ_H"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ENCODING_90MS_RKSJ_H"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ENCODING_90MS_RKSJ_H { get { if (!_ENCODING_90MS_RKSJ_HReady) { _ENCODING_90MS_RKSJ_HContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ENCODING_90MS_RKSJ_H"); _ENCODING_90MS_RKSJ_HReady = true; } return _ENCODING_90MS_RKSJ_HContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ENCODING_90MS_RKSJ_HContent = default;
         private static bool _ENCODING_90MS_RKSJ_HReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ENCODING_90MS_RKSJ_V"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ENCODING_90MS_RKSJ_V"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ENCODING_90MS_RKSJ_V { get { if (!_ENCODING_90MS_RKSJ_VReady) { _ENCODING_90MS_RKSJ_VContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ENCODING_90MS_RKSJ_V"); _ENCODING_90MS_RKSJ_VReady = true; } return _ENCODING_90MS_RKSJ_VContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ENCODING_90MS_RKSJ_VContent = default;
         private static bool _ENCODING_90MS_RKSJ_VReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ENCODING_ETEN_B5_H"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ENCODING_ETEN_B5_H"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ENCODING_ETEN_B5_H { get { if (!_ENCODING_ETEN_B5_HReady) { _ENCODING_ETEN_B5_HContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ENCODING_ETEN_B5_H"); _ENCODING_ETEN_B5_HReady = true; } return _ENCODING_ETEN_B5_HContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ENCODING_ETEN_B5_HContent = default;
         private static bool _ENCODING_ETEN_B5_HReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ENCODING_ETEN_B5_V"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ENCODING_ETEN_B5_V"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ENCODING_ETEN_B5_V { get { if (!_ENCODING_ETEN_B5_VReady) { _ENCODING_ETEN_B5_VContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ENCODING_ETEN_B5_V"); _ENCODING_ETEN_B5_VReady = true; } return _ENCODING_ETEN_B5_VContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ENCODING_ETEN_B5_VContent = default;
         private static bool _ENCODING_ETEN_B5_VReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ENCRYPT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ENCRYPT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ENCRYPT { get { if (!_ENCRYPTReady) { _ENCRYPTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ENCRYPT"); _ENCRYPTReady = true; } return _ENCRYPTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ENCRYPTContent = default;
         private static bool _ENCRYPTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ENCRYPT_META_DATA"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ENCRYPT_META_DATA"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ENCRYPT_META_DATA { get { if (!_ENCRYPT_META_DATAReady) { _ENCRYPT_META_DATAContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ENCRYPT_META_DATA"); _ENCRYPT_META_DATAReady = true; } return _ENCRYPT_META_DATAContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ENCRYPT_META_DATAContent = default;
         private static bool _ENCRYPT_META_DATAReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ENCRYPTED_PAYLOAD"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ENCRYPTED_PAYLOAD"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ENCRYPTED_PAYLOAD { get { if (!_ENCRYPTED_PAYLOADReady) { _ENCRYPTED_PAYLOADContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ENCRYPTED_PAYLOAD"); _ENCRYPTED_PAYLOADReady = true; } return _ENCRYPTED_PAYLOADContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ENCRYPTED_PAYLOADContent = default;
         private static bool _ENCRYPTED_PAYLOADReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#END_OF_LINE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#END_OF_LINE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName END_OF_LINE { get { if (!_END_OF_LINEReady) { _END_OF_LINEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "END_OF_LINE"); _END_OF_LINEReady = true; } return _END_OF_LINEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _END_OF_LINEContent = default;
         private static bool _END_OF_LINEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ENTRUST_PPKEF"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ENTRUST_PPKEF"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ENTRUST_PPKEF { get { if (!_ENTRUST_PPKEFReady) { _ENTRUST_PPKEFContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ENTRUST_PPKEF"); _ENTRUST_PPKEFReady = true; } return _ENTRUST_PPKEFContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ENTRUST_PPKEFContent = default;
         private static bool _ENTRUST_PPKEFReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#EX_DATA"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#EX_DATA"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName EX_DATA { get { if (!_EX_DATAReady) { _EX_DATAContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "EX_DATA"); _EX_DATAReady = true; } return _EX_DATAContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _EX_DATAContent = default;
         private static bool _EX_DATAReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#EXCLUSION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#EXCLUSION"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName EXCLUSION { get { if (!_EXCLUSIONReady) { _EXCLUSIONContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "EXCLUSION"); _EXCLUSIONReady = true; } return _EXCLUSIONContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _EXCLUSIONContent = default;
         private static bool _EXCLUSIONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#EXPORT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#EXPORT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName EXPORT { get { if (!_EXPORTReady) { _EXPORTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "EXPORT"); _EXPORTReady = true; } return _EXPORTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _EXPORTContent = default;
         private static bool _EXPORTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#EXPORT_STATE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#EXPORT_STATE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName EXPORT_STATE { get { if (!_EXPORT_STATEReady) { _EXPORT_STATEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "EXPORT_STATE"); _EXPORT_STATEReady = true; } return _EXPORT_STATEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _EXPORT_STATEContent = default;
         private static bool _EXPORT_STATEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#EXT_G_STATE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#EXT_G_STATE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName EXT_G_STATE { get { if (!_EXT_G_STATEReady) { _EXT_G_STATEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "EXT_G_STATE"); _EXT_G_STATEReady = true; } return _EXT_G_STATEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _EXT_G_STATEContent = default;
         private static bool _EXT_G_STATEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#EXTEND"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#EXTEND"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName EXTEND { get { if (!_EXTENDReady) { _EXTENDContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "EXTEND"); _EXTENDReady = true; } return _EXTENDContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _EXTENDContent = default;
         private static bool _EXTENDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#EXTENDS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#EXTENDS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName EXTENDS { get { if (!_EXTENDSReady) { _EXTENDSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "EXTENDS"); _EXTENDSReady = true; } return _EXTENDSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _EXTENDSContent = default;
         private static bool _EXTENDSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#EXTENSION_LEVEL"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#EXTENSION_LEVEL"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName EXTENSION_LEVEL { get { if (!_EXTENSION_LEVELReady) { _EXTENSION_LEVELContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "EXTENSION_LEVEL"); _EXTENSION_LEVELReady = true; } return _EXTENSION_LEVELContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _EXTENSION_LEVELContent = default;
         private static bool _EXTENSION_LEVELReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#EXTENSIONS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#EXTENSIONS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName EXTENSIONS { get { if (!_EXTENSIONSReady) { _EXTENSIONSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "EXTENSIONS"); _EXTENSIONSReady = true; } return _EXTENSIONSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _EXTENSIONSContent = default;
         private static bool _EXTENSIONSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#F"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#F"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName F { get { if (!_FReady) { _FContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "F"); _FReady = true; } return _FContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FContent = default;
         private static bool _FReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#F_DECODE_PARMS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#F_DECODE_PARMS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName F_DECODE_PARMS { get { if (!_F_DECODE_PARMSReady) { _F_DECODE_PARMSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "F_DECODE_PARMS"); _F_DECODE_PARMSReady = true; } return _F_DECODE_PARMSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _F_DECODE_PARMSContent = default;
         private static bool _F_DECODE_PARMSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#F_FILTER"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#F_FILTER"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName F_FILTER { get { if (!_F_FILTERReady) { _F_FILTERContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "F_FILTER"); _F_FILTERReady = true; } return _F_FILTERContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _F_FILTERContent = default;
         private static bool _F_FILTERReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FB"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FB"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FB { get { if (!_FBReady) { _FBContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FB"); _FBReady = true; } return _FBContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FBContent = default;
         private static bool _FBReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FDF"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FDF"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FDF { get { if (!_FDFReady) { _FDFContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FDF"); _FDFReady = true; } return _FDFContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FDFContent = default;
         private static bool _FDFReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FF"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FF"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FF { get { if (!_FFReady) { _FFContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FF"); _FFReady = true; } return _FFContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FFContent = default;
         private static bool _FFReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FIELDS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FIELDS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FIELDS { get { if (!_FIELDSReady) { _FIELDSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FIELDS"); _FIELDSReady = true; } return _FIELDSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FIELDSContent = default;
         private static bool _FIELDSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FILESPEC"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FILESPEC"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FILESPEC { get { if (!_FILESPECReady) { _FILESPECContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FILESPEC"); _FILESPECReady = true; } return _FILESPECContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FILESPECContent = default;
         private static bool _FILESPECReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FILTER"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FILTER"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FILTER { get { if (!_FILTERReady) { _FILTERContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FILTER"); _FILTERReady = true; } return _FILTERContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FILTERContent = default;
         private static bool _FILTERReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FIRST"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FIRST"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FIRST { get { if (!_FIRSTReady) { _FIRSTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FIRST"); _FIRSTReady = true; } return _FIRSTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FIRSTContent = default;
         private static bool _FIRSTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FIRST_CHAR"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FIRST_CHAR"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FIRST_CHAR { get { if (!_FIRST_CHARReady) { _FIRST_CHARContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FIRST_CHAR"); _FIRST_CHARReady = true; } return _FIRST_CHARContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FIRST_CHARContent = default;
         private static bool _FIRST_CHARReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FIT_WINDOW"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FIT_WINDOW"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FIT_WINDOW { get { if (!_FIT_WINDOWReady) { _FIT_WINDOWContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FIT_WINDOW"); _FIT_WINDOWReady = true; } return _FIT_WINDOWContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FIT_WINDOWContent = default;
         private static bool _FIT_WINDOWReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FL"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FL"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FL { get { if (!_FLReady) { _FLContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FL"); _FLReady = true; } return _FLContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FLContent = default;
         private static bool _FLReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FLAGS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FLAGS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FLAGS { get { if (!_FLAGSReady) { _FLAGSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FLAGS"); _FLAGSReady = true; } return _FLAGSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FLAGSContent = default;
         private static bool _FLAGSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FLATE_DECODE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FLATE_DECODE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FLATE_DECODE { get { if (!_FLATE_DECODEReady) { _FLATE_DECODEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FLATE_DECODE"); _FLATE_DECODEReady = true; } return _FLATE_DECODEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FLATE_DECODEContent = default;
         private static bool _FLATE_DECODEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FLATE_DECODE_ABBREVIATION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FLATE_DECODE_ABBREVIATION"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FLATE_DECODE_ABBREVIATION { get { if (!_FLATE_DECODE_ABBREVIATIONReady) { _FLATE_DECODE_ABBREVIATIONContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FLATE_DECODE_ABBREVIATION"); _FLATE_DECODE_ABBREVIATIONReady = true; } return _FLATE_DECODE_ABBREVIATIONContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FLATE_DECODE_ABBREVIATIONContent = default;
         private static bool _FLATE_DECODE_ABBREVIATIONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FO"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FO"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FO { get { if (!_FOReady) { _FOContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FO"); _FOReady = true; } return _FOContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FOContent = default;
         private static bool _FOReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FOLDERS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FOLDERS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FOLDERS { get { if (!_FOLDERSReady) { _FOLDERSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FOLDERS"); _FOLDERSReady = true; } return _FOLDERSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FOLDERSContent = default;
         private static bool _FOLDERSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FONT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FONT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FONT { get { if (!_FONTReady) { _FONTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FONT"); _FONTReady = true; } return _FONTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FONTContent = default;
         private static bool _FONTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FONT_BBOX"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FONT_BBOX"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FONT_BBOX { get { if (!_FONT_BBOXReady) { _FONT_BBOXContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FONT_BBOX"); _FONT_BBOXReady = true; } return _FONT_BBOXContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FONT_BBOXContent = default;
         private static bool _FONT_BBOXReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FONT_DESC"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FONT_DESC"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FONT_DESC { get { if (!_FONT_DESCReady) { _FONT_DESCContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FONT_DESC"); _FONT_DESCReady = true; } return _FONT_DESCContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FONT_DESCContent = default;
         private static bool _FONT_DESCReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FONT_FAMILY"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FONT_FAMILY"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FONT_FAMILY { get { if (!_FONT_FAMILYReady) { _FONT_FAMILYContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FONT_FAMILY"); _FONT_FAMILYReady = true; } return _FONT_FAMILYContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FONT_FAMILYContent = default;
         private static bool _FONT_FAMILYReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FONT_FILE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FONT_FILE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FONT_FILE { get { if (!_FONT_FILEReady) { _FONT_FILEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FONT_FILE"); _FONT_FILEReady = true; } return _FONT_FILEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FONT_FILEContent = default;
         private static bool _FONT_FILEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FONT_FILE2"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FONT_FILE2"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FONT_FILE2 { get { if (!_FONT_FILE2Ready) { _FONT_FILE2Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FONT_FILE2"); _FONT_FILE2Ready = true; } return _FONT_FILE2Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FONT_FILE2Content = default;
         private static bool _FONT_FILE2Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FONT_FILE3"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FONT_FILE3"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FONT_FILE3 { get { if (!_FONT_FILE3Ready) { _FONT_FILE3Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FONT_FILE3"); _FONT_FILE3Ready = true; } return _FONT_FILE3Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FONT_FILE3Content = default;
         private static bool _FONT_FILE3Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FONT_MATRIX"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FONT_MATRIX"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FONT_MATRIX { get { if (!_FONT_MATRIXReady) { _FONT_MATRIXContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FONT_MATRIX"); _FONT_MATRIXReady = true; } return _FONT_MATRIXContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FONT_MATRIXContent = default;
         private static bool _FONT_MATRIXReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FONT_NAME"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FONT_NAME"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FONT_NAME { get { if (!_FONT_NAMEReady) { _FONT_NAMEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FONT_NAME"); _FONT_NAMEReady = true; } return _FONT_NAMEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FONT_NAMEContent = default;
         private static bool _FONT_NAMEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FONT_STRETCH"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FONT_STRETCH"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FONT_STRETCH { get { if (!_FONT_STRETCHReady) { _FONT_STRETCHContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FONT_STRETCH"); _FONT_STRETCHReady = true; } return _FONT_STRETCHContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FONT_STRETCHContent = default;
         private static bool _FONT_STRETCHReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FONT_WEIGHT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FONT_WEIGHT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FONT_WEIGHT { get { if (!_FONT_WEIGHTReady) { _FONT_WEIGHTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FONT_WEIGHT"); _FONT_WEIGHTReady = true; } return _FONT_WEIGHTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FONT_WEIGHTContent = default;
         private static bool _FONT_WEIGHTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FORM"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FORM"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FORM { get { if (!_FORMReady) { _FORMContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FORM"); _FORMReady = true; } return _FORMContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FORMContent = default;
         private static bool _FORMReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FORMTYPE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FORMTYPE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FORMTYPE { get { if (!_FORMTYPEReady) { _FORMTYPEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FORMTYPE"); _FORMTYPEReady = true; } return _FORMTYPEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FORMTYPEContent = default;
         private static bool _FORMTYPEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FRM"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FRM"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FRM { get { if (!_FRMReady) { _FRMContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FRM"); _FRMReady = true; } return _FRMContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FRMContent = default;
         private static bool _FRMReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FS { get { if (!_FSReady) { _FSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FS"); _FSReady = true; } return _FSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FSContent = default;
         private static bool _FSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FT { get { if (!_FTReady) { _FTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FT"); _FTReady = true; } return _FTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FTContent = default;
         private static bool _FTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FUNCTION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FUNCTION"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FUNCTION { get { if (!_FUNCTIONReady) { _FUNCTIONContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FUNCTION"); _FUNCTIONReady = true; } return _FUNCTIONContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FUNCTIONContent = default;
         private static bool _FUNCTIONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FUNCTION_TYPE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FUNCTION_TYPE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FUNCTION_TYPE { get { if (!_FUNCTION_TYPEReady) { _FUNCTION_TYPEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FUNCTION_TYPE"); _FUNCTION_TYPEReady = true; } return _FUNCTION_TYPEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FUNCTION_TYPEContent = default;
         private static bool _FUNCTION_TYPEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#FUNCTIONS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#FUNCTIONS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FUNCTIONS { get { if (!_FUNCTIONSReady) { _FUNCTIONSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FUNCTIONS"); _FUNCTIONSReady = true; } return _FUNCTIONSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FUNCTIONSContent = default;
         private static bool _FUNCTIONSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#G"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#G"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName G { get { if (!_GReady) { _GContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "G"); _GReady = true; } return _GContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _GContent = default;
         private static bool _GReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#GAMMA"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#GAMMA"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName GAMMA { get { if (!_GAMMAReady) { _GAMMAContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "GAMMA"); _GAMMAReady = true; } return _GAMMAContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _GAMMAContent = default;
         private static bool _GAMMAReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#GROUP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#GROUP"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName GROUP { get { if (!_GROUPReady) { _GROUPContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "GROUP"); _GROUPReady = true; } return _GROUPContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _GROUPContent = default;
         private static bool _GROUPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#GTS_PDFA1"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#GTS_PDFA1"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName GTS_PDFA1 { get { if (!_GTS_PDFA1Ready) { _GTS_PDFA1Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "GTS_PDFA1"); _GTS_PDFA1Ready = true; } return _GTS_PDFA1Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _GTS_PDFA1Content = default;
         private static bool _GTS_PDFA1Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#H"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#H"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName H { get { if (!_HReady) { _HContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "H"); _HReady = true; } return _HContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _HContent = default;
         private static bool _HReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#HARD_LIGHT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#HARD_LIGHT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName HARD_LIGHT { get { if (!_HARD_LIGHTReady) { _HARD_LIGHTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "HARD_LIGHT"); _HARD_LIGHTReady = true; } return _HARD_LIGHTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _HARD_LIGHTContent = default;
         private static bool _HARD_LIGHTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#HEIGHT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#HEIGHT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName HEIGHT { get { if (!_HEIGHTReady) { _HEIGHTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "HEIGHT"); _HEIGHTReady = true; } return _HEIGHTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _HEIGHTContent = default;
         private static bool _HEIGHTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#HELV"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#HELV"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName HELV { get { if (!_HELVReady) { _HELVContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "HELV"); _HELVReady = true; } return _HELVContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _HELVContent = default;
         private static bool _HELVReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#HIDE_MENUBAR"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#HIDE_MENUBAR"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName HIDE_MENUBAR { get { if (!_HIDE_MENUBARReady) { _HIDE_MENUBARContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "HIDE_MENUBAR"); _HIDE_MENUBARReady = true; } return _HIDE_MENUBARContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _HIDE_MENUBARContent = default;
         private static bool _HIDE_MENUBARReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#HIDE_TOOLBAR"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#HIDE_TOOLBAR"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName HIDE_TOOLBAR { get { if (!_HIDE_TOOLBARReady) { _HIDE_TOOLBARContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "HIDE_TOOLBAR"); _HIDE_TOOLBARReady = true; } return _HIDE_TOOLBARContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _HIDE_TOOLBARContent = default;
         private static bool _HIDE_TOOLBARReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#HIDE_WINDOWUI"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#HIDE_WINDOWUI"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName HIDE_WINDOWUI { get { if (!_HIDE_WINDOWUIReady) { _HIDE_WINDOWUIContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "HIDE_WINDOWUI"); _HIDE_WINDOWUIReady = true; } return _HIDE_WINDOWUIContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _HIDE_WINDOWUIContent = default;
         private static bool _HIDE_WINDOWUIReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#HUE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#HUE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName HUE { get { if (!_HUEReady) { _HUEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "HUE"); _HUEReady = true; } return _HUEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _HUEContent = default;
         private static bool _HUEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#I"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#I"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName I { get { if (!_IReady) { _IContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "I"); _IReady = true; } return _IContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _IContent = default;
         private static bool _IReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#IC"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#IC"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName IC { get { if (!_ICReady) { _ICContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "IC"); _ICReady = true; } return _ICContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ICContent = default;
         private static bool _ICReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ICCBASED"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ICCBASED"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ICCBASED { get { if (!_ICCBASEDReady) { _ICCBASEDContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ICCBASED"); _ICCBASEDReady = true; } return _ICCBASEDContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ICCBASEDContent = default;
         private static bool _ICCBASEDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ID"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ID"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ID { get { if (!_IDReady) { _IDContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ID"); _IDReady = true; } return _IDContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _IDContent = default;
         private static bool _IDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ID_TREE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ID_TREE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ID_TREE { get { if (!_ID_TREEReady) { _ID_TREEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ID_TREE"); _ID_TREEReady = true; } return _ID_TREEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ID_TREEContent = default;
         private static bool _ID_TREEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#IDENTITY"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#IDENTITY"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName IDENTITY { get { if (!_IDENTITYReady) { _IDENTITYContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "IDENTITY"); _IDENTITYReady = true; } return _IDENTITYContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _IDENTITYContent = default;
         private static bool _IDENTITYReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#IDENTITY_H"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#IDENTITY_H"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName IDENTITY_H { get { if (!_IDENTITY_HReady) { _IDENTITY_HContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "IDENTITY_H"); _IDENTITY_HReady = true; } return _IDENTITY_HContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _IDENTITY_HContent = default;
         private static bool _IDENTITY_HReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#IDENTITY_V"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#IDENTITY_V"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName IDENTITY_V { get { if (!_IDENTITY_VReady) { _IDENTITY_VContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "IDENTITY_V"); _IDENTITY_VReady = true; } return _IDENTITY_VContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _IDENTITY_VContent = default;
         private static bool _IDENTITY_VReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#IF"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#IF"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName IF { get { if (!_IFReady) { _IFContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "IF"); _IFReady = true; } return _IFContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _IFContent = default;
         private static bool _IFReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ILLUSTRATOR"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ILLUSTRATOR"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ILLUSTRATOR { get { if (!_ILLUSTRATORReady) { _ILLUSTRATORContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ILLUSTRATOR"); _ILLUSTRATORReady = true; } return _ILLUSTRATORContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ILLUSTRATORContent = default;
         private static bool _ILLUSTRATORReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#IM"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#IM"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName IM { get { if (!_IMReady) { _IMContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "IM"); _IMReady = true; } return _IMContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _IMContent = default;
         private static bool _IMReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#IMAGE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#IMAGE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName IMAGE { get { if (!_IMAGEReady) { _IMAGEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "IMAGE"); _IMAGEReady = true; } return _IMAGEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _IMAGEContent = default;
         private static bool _IMAGEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#IMAGE_MASK"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#IMAGE_MASK"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName IMAGE_MASK { get { if (!_IMAGE_MASKReady) { _IMAGE_MASKContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "IMAGE_MASK"); _IMAGE_MASKReady = true; } return _IMAGE_MASKContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _IMAGE_MASKContent = default;
         private static bool _IMAGE_MASKReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#INDEX"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#INDEX"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName INDEX { get { if (!_INDEXReady) { _INDEXContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "INDEX"); _INDEXReady = true; } return _INDEXContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _INDEXContent = default;
         private static bool _INDEXReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#INDEXED"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#INDEXED"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName INDEXED { get { if (!_INDEXEDReady) { _INDEXEDContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "INDEXED"); _INDEXEDReady = true; } return _INDEXEDContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _INDEXEDContent = default;
         private static bool _INDEXEDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#INFO"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#INFO"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName INFO { get { if (!_INFOReady) { _INFOContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "INFO"); _INFOReady = true; } return _INFOContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _INFOContent = default;
         private static bool _INFOReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#INKLIST"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#INKLIST"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName INKLIST { get { if (!_INKLISTReady) { _INKLISTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "INKLIST"); _INKLISTReady = true; } return _INKLISTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _INKLISTContent = default;
         private static bool _INKLISTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#INTENT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#INTENT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName INTENT { get { if (!_INTENTReady) { _INTENTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "INTENT"); _INTENTReady = true; } return _INTENTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _INTENTContent = default;
         private static bool _INTENTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#INTERPOLATE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#INTERPOLATE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName INTERPOLATE { get { if (!_INTERPOLATEReady) { _INTERPOLATEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "INTERPOLATE"); _INTERPOLATEReady = true; } return _INTERPOLATEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _INTERPOLATEContent = default;
         private static bool _INTERPOLATEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#IRT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#IRT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName IRT { get { if (!_IRTReady) { _IRTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "IRT"); _IRTReady = true; } return _IRTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _IRTContent = default;
         private static bool _IRTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ISSUER"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ISSUER"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ISSUER { get { if (!_ISSUERReady) { _ISSUERContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ISSUER"); _ISSUERReady = true; } return _ISSUERContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ISSUERContent = default;
         private static bool _ISSUERReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#IT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#IT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName IT { get { if (!_ITReady) { _ITContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "IT"); _ITReady = true; } return _ITContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ITContent = default;
         private static bool _ITReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ITALIC_ANGLE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ITALIC_ANGLE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ITALIC_ANGLE { get { if (!_ITALIC_ANGLEReady) { _ITALIC_ANGLEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ITALIC_ANGLE"); _ITALIC_ANGLEReady = true; } return _ITALIC_ANGLEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ITALIC_ANGLEContent = default;
         private static bool _ITALIC_ANGLEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#IX"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#IX"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName IX { get { if (!_IXReady) { _IXContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "IX"); _IXReady = true; } return _IXContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _IXContent = default;
         private static bool _IXReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#JAVA_SCRIPT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#JAVA_SCRIPT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName JAVA_SCRIPT { get { if (!_JAVA_SCRIPTReady) { _JAVA_SCRIPTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "JAVA_SCRIPT"); _JAVA_SCRIPTReady = true; } return _JAVA_SCRIPTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _JAVA_SCRIPTContent = default;
         private static bool _JAVA_SCRIPTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#JBIG2_DECODE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#JBIG2_DECODE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName JBIG2_DECODE { get { if (!_JBIG2_DECODEReady) { _JBIG2_DECODEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "JBIG2_DECODE"); _JBIG2_DECODEReady = true; } return _JBIG2_DECODEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _JBIG2_DECODEContent = default;
         private static bool _JBIG2_DECODEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#JBIG2_GLOBALS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#JBIG2_GLOBALS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName JBIG2_GLOBALS { get { if (!_JBIG2_GLOBALSReady) { _JBIG2_GLOBALSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "JBIG2_GLOBALS"); _JBIG2_GLOBALSReady = true; } return _JBIG2_GLOBALSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _JBIG2_GLOBALSContent = default;
         private static bool _JBIG2_GLOBALSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#JPX_DECODE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#JPX_DECODE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName JPX_DECODE { get { if (!_JPX_DECODEReady) { _JPX_DECODEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "JPX_DECODE"); _JPX_DECODEReady = true; } return _JPX_DECODEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _JPX_DECODEContent = default;
         private static bool _JPX_DECODEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#JS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#JS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName JS { get { if (!_JSReady) { _JSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "JS"); _JSReady = true; } return _JSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _JSContent = default;
         private static bool _JSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#K"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#K"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName K { get { if (!_KReady) { _KContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "K"); _KReady = true; } return _KContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _KContent = default;
         private static bool _KReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#KEY_USAGE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#KEY_USAGE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName KEY_USAGE { get { if (!_KEY_USAGEReady) { _KEY_USAGEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "KEY_USAGE"); _KEY_USAGEReady = true; } return _KEY_USAGEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _KEY_USAGEContent = default;
         private static bool _KEY_USAGEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#KEYWORDS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#KEYWORDS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName KEYWORDS { get { if (!_KEYWORDSReady) { _KEYWORDSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "KEYWORDS"); _KEYWORDSReady = true; } return _KEYWORDSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _KEYWORDSContent = default;
         private static bool _KEYWORDSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#KIDS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#KIDS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName KIDS { get { if (!_KIDSReady) { _KIDSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "KIDS"); _KIDSReady = true; } return _KIDSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _KIDSContent = default;
         private static bool _KIDSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#L"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#L"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName L { get { if (!_LReady) { _LContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "L"); _LReady = true; } return _LContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LContent = default;
         private static bool _LReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#LAB"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#LAB"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName LAB { get { if (!_LABReady) { _LABContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "LAB"); _LABReady = true; } return _LABContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LABContent = default;
         private static bool _LABReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#LANG"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#LANG"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName LANG { get { if (!_LANGReady) { _LANGContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "LANG"); _LANGReady = true; } return _LANGContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LANGContent = default;
         private static bool _LANGReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#LAST"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#LAST"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName LAST { get { if (!_LASTReady) { _LASTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "LAST"); _LASTReady = true; } return _LASTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LASTContent = default;
         private static bool _LASTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#LAST_CHAR"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#LAST_CHAR"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName LAST_CHAR { get { if (!_LAST_CHARReady) { _LAST_CHARContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "LAST_CHAR"); _LAST_CHARReady = true; } return _LAST_CHARContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LAST_CHARContent = default;
         private static bool _LAST_CHARReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#LAST_MODIFIED"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#LAST_MODIFIED"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName LAST_MODIFIED { get { if (!_LAST_MODIFIEDReady) { _LAST_MODIFIEDContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "LAST_MODIFIED"); _LAST_MODIFIEDReady = true; } return _LAST_MODIFIEDContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LAST_MODIFIEDContent = default;
         private static bool _LAST_MODIFIEDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#LC"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#LC"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName LC { get { if (!_LCReady) { _LCContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "LC"); _LCReady = true; } return _LCContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LCContent = default;
         private static bool _LCReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#LE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#LE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName LE { get { if (!_LEReady) { _LEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "LE"); _LEReady = true; } return _LEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LEContent = default;
         private static bool _LEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#LEADING"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#LEADING"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName LEADING { get { if (!_LEADINGReady) { _LEADINGContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "LEADING"); _LEADINGReady = true; } return _LEADINGContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LEADINGContent = default;
         private static bool _LEADINGReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#LEGAL_ATTESTATION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#LEGAL_ATTESTATION"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName LEGAL_ATTESTATION { get { if (!_LEGAL_ATTESTATIONReady) { _LEGAL_ATTESTATIONContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "LEGAL_ATTESTATION"); _LEGAL_ATTESTATIONReady = true; } return _LEGAL_ATTESTATIONContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LEGAL_ATTESTATIONContent = default;
         private static bool _LEGAL_ATTESTATIONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#LENGTH"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#LENGTH"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName LENGTH { get { if (!_LENGTHReady) { _LENGTHContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "LENGTH"); _LENGTHReady = true; } return _LENGTHContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LENGTHContent = default;
         private static bool _LENGTHReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#LENGTH1"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#LENGTH1"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName LENGTH1 { get { if (!_LENGTH1Ready) { _LENGTH1Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "LENGTH1"); _LENGTH1Ready = true; } return _LENGTH1Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LENGTH1Content = default;
         private static bool _LENGTH1Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#LENGTH2"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#LENGTH2"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName LENGTH2 { get { if (!_LENGTH2Ready) { _LENGTH2Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "LENGTH2"); _LENGTH2Ready = true; } return _LENGTH2Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LENGTH2Content = default;
         private static bool _LENGTH2Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#LENGTH3"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#LENGTH3"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName LENGTH3 { get { if (!_LENGTH3Ready) { _LENGTH3Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "LENGTH3"); _LENGTH3Ready = true; } return _LENGTH3Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LENGTH3Content = default;
         private static bool _LENGTH3Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#LIGHTEN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#LIGHTEN"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName LIGHTEN { get { if (!_LIGHTENReady) { _LIGHTENContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "LIGHTEN"); _LIGHTENReady = true; } return _LIGHTENContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LIGHTENContent = default;
         private static bool _LIGHTENReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#LIMITS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#LIMITS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName LIMITS { get { if (!_LIMITSReady) { _LIMITSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "LIMITS"); _LIMITSReady = true; } return _LIMITSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LIMITSContent = default;
         private static bool _LIMITSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#LINEARIZED"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#LINEARIZED"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName LINEARIZED { get { if (!_LINEARIZEDReady) { _LINEARIZEDContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "LINEARIZED"); _LINEARIZEDReady = true; } return _LINEARIZEDContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LINEARIZEDContent = default;
         private static bool _LINEARIZEDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#LINK"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#LINK"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName LINK { get { if (!_LINKReady) { _LINKContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "LINK"); _LINKReady = true; } return _LINKContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LINKContent = default;
         private static bool _LINKReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#LJ"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#LJ"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName LJ { get { if (!_LJReady) { _LJContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "LJ"); _LJReady = true; } return _LJContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LJContent = default;
         private static bool _LJReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#LL"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#LL"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName LL { get { if (!_LLReady) { _LLContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "LL"); _LLReady = true; } return _LLContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LLContent = default;
         private static bool _LLReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#LLE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#LLE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName LLE { get { if (!_LLEReady) { _LLEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "LLE"); _LLEReady = true; } return _LLEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LLEContent = default;
         private static bool _LLEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#LLO"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#LLO"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName LLO { get { if (!_LLOReady) { _LLOContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "LLO"); _LLOReady = true; } return _LLOContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LLOContent = default;
         private static bool _LLOReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#LOCATION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#LOCATION"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName LOCATION { get { if (!_LOCATIONReady) { _LOCATIONContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "LOCATION"); _LOCATIONReady = true; } return _LOCATIONContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LOCATIONContent = default;
         private static bool _LOCATIONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#LUMINOSITY"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#LUMINOSITY"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName LUMINOSITY { get { if (!_LUMINOSITYReady) { _LUMINOSITYContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "LUMINOSITY"); _LUMINOSITYReady = true; } return _LUMINOSITYContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LUMINOSITYContent = default;
         private static bool _LUMINOSITYReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#LW"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#LW"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName LW { get { if (!_LWReady) { _LWContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "LW"); _LWReady = true; } return _LWContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LWContent = default;
         private static bool _LWReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#LZW_DECODE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#LZW_DECODE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName LZW_DECODE { get { if (!_LZW_DECODEReady) { _LZW_DECODEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "LZW_DECODE"); _LZW_DECODEReady = true; } return _LZW_DECODEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LZW_DECODEContent = default;
         private static bool _LZW_DECODEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#LZW_DECODE_ABBREVIATION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#LZW_DECODE_ABBREVIATION"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName LZW_DECODE_ABBREVIATION { get { if (!_LZW_DECODE_ABBREVIATIONReady) { _LZW_DECODE_ABBREVIATIONContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "LZW_DECODE_ABBREVIATION"); _LZW_DECODE_ABBREVIATIONReady = true; } return _LZW_DECODE_ABBREVIATIONContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _LZW_DECODE_ABBREVIATIONContent = default;
         private static bool _LZW_DECODE_ABBREVIATIONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#M"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#M"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName M { get { if (!_MReady) { _MContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "M"); _MReady = true; } return _MContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _MContent = default;
         private static bool _MReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#MAC"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#MAC"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName MAC { get { if (!_MACReady) { _MACContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "MAC"); _MACReady = true; } return _MACContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _MACContent = default;
         private static bool _MACReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#MAC_EXPERT_ENCODING"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#MAC_EXPERT_ENCODING"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName MAC_EXPERT_ENCODING { get { if (!_MAC_EXPERT_ENCODINGReady) { _MAC_EXPERT_ENCODINGContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "MAC_EXPERT_ENCODING"); _MAC_EXPERT_ENCODINGReady = true; } return _MAC_EXPERT_ENCODINGContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _MAC_EXPERT_ENCODINGContent = default;
         private static bool _MAC_EXPERT_ENCODINGReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#MAC_ROMAN_ENCODING"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#MAC_ROMAN_ENCODING"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName MAC_ROMAN_ENCODING { get { if (!_MAC_ROMAN_ENCODINGReady) { _MAC_ROMAN_ENCODINGContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "MAC_ROMAN_ENCODING"); _MAC_ROMAN_ENCODINGReady = true; } return _MAC_ROMAN_ENCODINGContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _MAC_ROMAN_ENCODINGContent = default;
         private static bool _MAC_ROMAN_ENCODINGReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#MARK_INFO"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#MARK_INFO"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName MARK_INFO { get { if (!_MARK_INFOReady) { _MARK_INFOContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "MARK_INFO"); _MARK_INFOReady = true; } return _MARK_INFOContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _MARK_INFOContent = default;
         private static bool _MARK_INFOReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#MASK"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#MASK"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName MASK { get { if (!_MASKReady) { _MASKContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "MASK"); _MASKReady = true; } return _MASKContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _MASKContent = default;
         private static bool _MASKReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#MATRIX"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#MATRIX"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName MATRIX { get { if (!_MATRIXReady) { _MATRIXContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "MATRIX"); _MATRIXReady = true; } return _MATRIXContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _MATRIXContent = default;
         private static bool _MATRIXReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#MATTE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#MATTE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName MATTE { get { if (!_MATTEReady) { _MATTEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "MATTE"); _MATTEReady = true; } return _MATTEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _MATTEContent = default;
         private static bool _MATTEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#MAX_LEN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#MAX_LEN"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName MAX_LEN { get { if (!_MAX_LENReady) { _MAX_LENContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "MAX_LEN"); _MAX_LENReady = true; } return _MAX_LENContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _MAX_LENContent = default;
         private static bool _MAX_LENReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#MAX_WIDTH"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#MAX_WIDTH"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName MAX_WIDTH { get { if (!_MAX_WIDTHReady) { _MAX_WIDTHContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "MAX_WIDTH"); _MAX_WIDTHReady = true; } return _MAX_WIDTHContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _MAX_WIDTHContent = default;
         private static bool _MAX_WIDTHReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#MCID"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#MCID"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName MCID { get { if (!_MCIDReady) { _MCIDContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "MCID"); _MCIDReady = true; } return _MCIDContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _MCIDContent = default;
         private static bool _MCIDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#MDP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#MDP"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName MDP { get { if (!_MDPReady) { _MDPContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "MDP"); _MDPReady = true; } return _MDPContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _MDPContent = default;
         private static bool _MDPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#MEASURE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#MEASURE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName MEASURE { get { if (!_MEASUREReady) { _MEASUREContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "MEASURE"); _MEASUREReady = true; } return _MEASUREContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _MEASUREContent = default;
         private static bool _MEASUREReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#MEDIA_BOX"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#MEDIA_BOX"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName MEDIA_BOX { get { if (!_MEDIA_BOXReady) { _MEDIA_BOXContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "MEDIA_BOX"); _MEDIA_BOXReady = true; } return _MEDIA_BOXContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _MEDIA_BOXContent = default;
         private static bool _MEDIA_BOXReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#METADATA"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#METADATA"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName METADATA { get { if (!_METADATAReady) { _METADATAContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "METADATA"); _METADATAReady = true; } return _METADATAContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _METADATAContent = default;
         private static bool _METADATAReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#MISSING_WIDTH"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#MISSING_WIDTH"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName MISSING_WIDTH { get { if (!_MISSING_WIDTHReady) { _MISSING_WIDTHContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "MISSING_WIDTH"); _MISSING_WIDTHReady = true; } return _MISSING_WIDTHContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _MISSING_WIDTHContent = default;
         private static bool _MISSING_WIDTHReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#MIX"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#MIX"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName MIX { get { if (!_MIXReady) { _MIXContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "MIX"); _MIXReady = true; } return _MIXContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _MIXContent = default;
         private static bool _MIXReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#MK"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#MK"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName MK { get { if (!_MKReady) { _MKContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "MK"); _MKReady = true; } return _MKContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _MKContent = default;
         private static bool _MKReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ML"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ML"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ML { get { if (!_MLReady) { _MLContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ML"); _MLReady = true; } return _MLContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _MLContent = default;
         private static bool _MLReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#MM_TYPE1"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#MM_TYPE1"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName MM_TYPE1 { get { if (!_MM_TYPE1Ready) { _MM_TYPE1Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "MM_TYPE1"); _MM_TYPE1Ready = true; } return _MM_TYPE1Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _MM_TYPE1Content = default;
         private static bool _MM_TYPE1Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#MOD_DATE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#MOD_DATE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName MOD_DATE { get { if (!_MOD_DATEReady) { _MOD_DATEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "MOD_DATE"); _MOD_DATEReady = true; } return _MOD_DATEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _MOD_DATEContent = default;
         private static bool _MOD_DATEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#MULTIPLY"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#MULTIPLY"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName MULTIPLY { get { if (!_MULTIPLYReady) { _MULTIPLYContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "MULTIPLY"); _MULTIPLYReady = true; } return _MULTIPLYContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _MULTIPLYContent = default;
         private static bool _MULTIPLYReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#N"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#N"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName N { get { if (!_NReady) { _NContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "N"); _NReady = true; } return _NContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _NContent = default;
         private static bool _NReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#NAME"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#NAME"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName NAME { get { if (!_NAMEReady) { _NAMEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "NAME"); _NAMEReady = true; } return _NAMEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _NAMEContent = default;
         private static bool _NAMEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#NAMES"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#NAMES"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName NAMES { get { if (!_NAMESReady) { _NAMESContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "NAMES"); _NAMESReady = true; } return _NAMESContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _NAMESContent = default;
         private static bool _NAMESReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#NAVIGATOR"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#NAVIGATOR"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName NAVIGATOR { get { if (!_NAVIGATORReady) { _NAVIGATORContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "NAVIGATOR"); _NAVIGATORReady = true; } return _NAVIGATORContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _NAVIGATORContent = default;
         private static bool _NAVIGATORReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#NEED_APPEARANCES"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#NEED_APPEARANCES"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName NEED_APPEARANCES { get { if (!_NEED_APPEARANCESReady) { _NEED_APPEARANCESContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "NEED_APPEARANCES"); _NEED_APPEARANCESReady = true; } return _NEED_APPEARANCESContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _NEED_APPEARANCESContent = default;
         private static bool _NEED_APPEARANCESReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#NEW_WINDOW"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#NEW_WINDOW"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName NEW_WINDOW { get { if (!_NEW_WINDOWReady) { _NEW_WINDOWContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "NEW_WINDOW"); _NEW_WINDOWReady = true; } return _NEW_WINDOWContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _NEW_WINDOWContent = default;
         private static bool _NEW_WINDOWReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#NEXT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#NEXT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName NEXT { get { if (!_NEXTReady) { _NEXTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "NEXT"); _NEXTReady = true; } return _NEXTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _NEXTContent = default;
         private static bool _NEXTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#NM"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#NM"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName NM { get { if (!_NMReady) { _NMContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "NM"); _NMReady = true; } return _NMContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _NMContent = default;
         private static bool _NMReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#NON_EFONT_NO_WARN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#NON_EFONT_NO_WARN"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName NON_EFONT_NO_WARN { get { if (!_NON_EFONT_NO_WARNReady) { _NON_EFONT_NO_WARNContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "NON_EFONT_NO_WARN"); _NON_EFONT_NO_WARNReady = true; } return _NON_EFONT_NO_WARNContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _NON_EFONT_NO_WARNContent = default;
         private static bool _NON_EFONT_NO_WARNReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#NON_FULL_SCREEN_PAGE_MODE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#NON_FULL_SCREEN_PAGE_MODE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName NON_FULL_SCREEN_PAGE_MODE { get { if (!_NON_FULL_SCREEN_PAGE_MODEReady) { _NON_FULL_SCREEN_PAGE_MODEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "NON_FULL_SCREEN_PAGE_MODE"); _NON_FULL_SCREEN_PAGE_MODEReady = true; } return _NON_FULL_SCREEN_PAGE_MODEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _NON_FULL_SCREEN_PAGE_MODEContent = default;
         private static bool _NON_FULL_SCREEN_PAGE_MODEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#NONE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#NONE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName NONE { get { if (!_NONEReady) { _NONEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "NONE"); _NONEReady = true; } return _NONEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _NONEContent = default;
         private static bool _NONEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#NORMAL"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#NORMAL"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName NORMAL { get { if (!_NORMALReady) { _NORMALContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "NORMAL"); _NORMALReady = true; } return _NORMALContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _NORMALContent = default;
         private static bool _NORMALReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#NUMS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#NUMS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName NUMS { get { if (!_NUMSReady) { _NUMSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "NUMS"); _NUMSReady = true; } return _NUMSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _NUMSContent = default;
         private static bool _NUMSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#O"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#O"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName O { get { if (!_OReady) { _OContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "O"); _OReady = true; } return _OContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OContent = default;
         private static bool _OReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#OBJ"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#OBJ"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName OBJ { get { if (!_OBJReady) { _OBJContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "OBJ"); _OBJReady = true; } return _OBJContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OBJContent = default;
         private static bool _OBJReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#OBJ_STM"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#OBJ_STM"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName OBJ_STM { get { if (!_OBJ_STMReady) { _OBJ_STMContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "OBJ_STM"); _OBJ_STMReady = true; } return _OBJ_STMContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OBJ_STMContent = default;
         private static bool _OBJ_STMReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#OBJR"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#OBJR"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName OBJR { get { if (!_OBJRReady) { _OBJRContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "OBJR"); _OBJRReady = true; } return _OBJRContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OBJRContent = default;
         private static bool _OBJRReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#OC"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#OC"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName OC { get { if (!_OCReady) { _OCContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "OC"); _OCReady = true; } return _OCContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OCContent = default;
         private static bool _OCReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#OCG"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#OCG"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName OCG { get { if (!_OCGReady) { _OCGContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "OCG"); _OCGReady = true; } return _OCGContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OCGContent = default;
         private static bool _OCGReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#OCGS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#OCGS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName OCGS { get { if (!_OCGSReady) { _OCGSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "OCGS"); _OCGSReady = true; } return _OCGSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OCGSContent = default;
         private static bool _OCGSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#OCMD"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#OCMD"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName OCMD { get { if (!_OCMDReady) { _OCMDContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "OCMD"); _OCMDReady = true; } return _OCMDContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OCMDContent = default;
         private static bool _OCMDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#OCPROPERTIES"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#OCPROPERTIES"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName OCPROPERTIES { get { if (!_OCPROPERTIESReady) { _OCPROPERTIESContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "OCPROPERTIES"); _OCPROPERTIESReady = true; } return _OCPROPERTIESContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OCPROPERTIESContent = default;
         private static bool _OCPROPERTIESReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#OCSP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#OCSP"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName OCSP { get { if (!_OCSPReady) { _OCSPContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "OCSP"); _OCSPReady = true; } return _OCSPContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OCSPContent = default;
         private static bool _OCSPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#OCSPS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#OCSPS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName OCSPS { get { if (!_OCSPSReady) { _OCSPSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "OCSPS"); _OCSPSReady = true; } return _OCSPSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OCSPSContent = default;
         private static bool _OCSPSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#OE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#OE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName OE { get { if (!_OEReady) { _OEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "OE"); _OEReady = true; } return _OEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OEContent = default;
         private static bool _OEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#Off"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#Off"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName Off { get { if (!_OffReady) { _OffContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "Off"); _OffReady = true; } return _OffContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OffContent = default;
         private static bool _OffReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#OFF"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#OFF"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName OFF { get { if (!_OFFReady) { _OFFContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "OFF"); _OFFReady = true; } return _OFFContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OFFContent = default;
         private static bool _OFFReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#OID"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#OID"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName OID { get { if (!_OIDReady) { _OIDContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "OID"); _OIDReady = true; } return _OIDContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OIDContent = default;
         private static bool _OIDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ON"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ON"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ON { get { if (!_ONReady) { _ONContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ON"); _ONReady = true; } return _ONContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ONContent = default;
         private static bool _ONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#OP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#OP"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName OP { get { if (!_OPReady) { _OPContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "OP"); _OPReady = true; } return _OPContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OPContent = default;
         private static bool _OPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#OP_NS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#OP_NS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName OP_NS { get { if (!_OP_NSReady) { _OP_NSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "OP_NS"); _OP_NSReady = true; } return _OP_NSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OP_NSContent = default;
         private static bool _OP_NSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#OPEN_ACTION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#OPEN_ACTION"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName OPEN_ACTION { get { if (!_OPEN_ACTIONReady) { _OPEN_ACTIONContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "OPEN_ACTION"); _OPEN_ACTIONReady = true; } return _OPEN_ACTIONContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OPEN_ACTIONContent = default;
         private static bool _OPEN_ACTIONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#OPEN_TYPE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#OPEN_TYPE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName OPEN_TYPE { get { if (!_OPEN_TYPEReady) { _OPEN_TYPEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "OPEN_TYPE"); _OPEN_TYPEReady = true; } return _OPEN_TYPEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OPEN_TYPEContent = default;
         private static bool _OPEN_TYPEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#OPM"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#OPM"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName OPM { get { if (!_OPMReady) { _OPMContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "OPM"); _OPMReady = true; } return _OPMContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OPMContent = default;
         private static bool _OPMReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#OPT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#OPT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName OPT { get { if (!_OPTReady) { _OPTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "OPT"); _OPTReady = true; } return _OPTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OPTContent = default;
         private static bool _OPTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ORDER"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ORDER"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ORDER { get { if (!_ORDERReady) { _ORDERContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ORDER"); _ORDERReady = true; } return _ORDERContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ORDERContent = default;
         private static bool _ORDERReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ORDERING"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ORDERING"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ORDERING { get { if (!_ORDERINGReady) { _ORDERINGContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ORDERING"); _ORDERINGReady = true; } return _ORDERINGContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ORDERINGContent = default;
         private static bool _ORDERINGReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#OS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#OS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName OS { get { if (!_OSReady) { _OSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "OS"); _OSReady = true; } return _OSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OSContent = default;
         private static bool _OSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#OUTLINES"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#OUTLINES"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName OUTLINES { get { if (!_OUTLINESReady) { _OUTLINESContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "OUTLINES"); _OUTLINESReady = true; } return _OUTLINESContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OUTLINESContent = default;
         private static bool _OUTLINESReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#OUTPUT_CONDITION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#OUTPUT_CONDITION"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName OUTPUT_CONDITION { get { if (!_OUTPUT_CONDITIONReady) { _OUTPUT_CONDITIONContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "OUTPUT_CONDITION"); _OUTPUT_CONDITIONReady = true; } return _OUTPUT_CONDITIONContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OUTPUT_CONDITIONContent = default;
         private static bool _OUTPUT_CONDITIONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#OUTPUT_CONDITION_IDENTIFIER"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#OUTPUT_CONDITION_IDENTIFIER"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName OUTPUT_CONDITION_IDENTIFIER { get { if (!_OUTPUT_CONDITION_IDENTIFIERReady) { _OUTPUT_CONDITION_IDENTIFIERContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "OUTPUT_CONDITION_IDENTIFIER"); _OUTPUT_CONDITION_IDENTIFIERReady = true; } return _OUTPUT_CONDITION_IDENTIFIERContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OUTPUT_CONDITION_IDENTIFIERContent = default;
         private static bool _OUTPUT_CONDITION_IDENTIFIERReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#OUTPUT_INTENT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#OUTPUT_INTENT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName OUTPUT_INTENT { get { if (!_OUTPUT_INTENTReady) { _OUTPUT_INTENTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "OUTPUT_INTENT"); _OUTPUT_INTENTReady = true; } return _OUTPUT_INTENTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OUTPUT_INTENTContent = default;
         private static bool _OUTPUT_INTENTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#OUTPUT_INTENTS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#OUTPUT_INTENTS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName OUTPUT_INTENTS { get { if (!_OUTPUT_INTENTSReady) { _OUTPUT_INTENTSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "OUTPUT_INTENTS"); _OUTPUT_INTENTSReady = true; } return _OUTPUT_INTENTSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OUTPUT_INTENTSContent = default;
         private static bool _OUTPUT_INTENTSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#OVERLAY"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#OVERLAY"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName OVERLAY { get { if (!_OVERLAYReady) { _OVERLAYContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "OVERLAY"); _OVERLAYReady = true; } return _OVERLAYContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _OVERLAYContent = default;
         private static bool _OVERLAYReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#P"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#P"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName P { get { if (!_PReady) { _PContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "P"); _PReady = true; } return _PContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PContent = default;
         private static bool _PReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PA"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PA"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PA { get { if (!_PAReady) { _PAContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PA"); _PAReady = true; } return _PAContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PAContent = default;
         private static bool _PAReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PAGE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PAGE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PAGE { get { if (!_PAGEReady) { _PAGEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PAGE"); _PAGEReady = true; } return _PAGEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PAGEContent = default;
         private static bool _PAGEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PAGE_LABELS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PAGE_LABELS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PAGE_LABELS { get { if (!_PAGE_LABELSReady) { _PAGE_LABELSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PAGE_LABELS"); _PAGE_LABELSReady = true; } return _PAGE_LABELSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PAGE_LABELSContent = default;
         private static bool _PAGE_LABELSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PAGE_LAYOUT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PAGE_LAYOUT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PAGE_LAYOUT { get { if (!_PAGE_LAYOUTReady) { _PAGE_LAYOUTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PAGE_LAYOUT"); _PAGE_LAYOUTReady = true; } return _PAGE_LAYOUTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PAGE_LAYOUTContent = default;
         private static bool _PAGE_LAYOUTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PAGE_MODE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PAGE_MODE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PAGE_MODE { get { if (!_PAGE_MODEReady) { _PAGE_MODEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PAGE_MODE"); _PAGE_MODEReady = true; } return _PAGE_MODEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PAGE_MODEContent = default;
         private static bool _PAGE_MODEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PAGES"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PAGES"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PAGES { get { if (!_PAGESReady) { _PAGESContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PAGES"); _PAGESReady = true; } return _PAGESContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PAGESContent = default;
         private static bool _PAGESReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PAINT_TYPE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PAINT_TYPE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PAINT_TYPE { get { if (!_PAINT_TYPEReady) { _PAINT_TYPEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PAINT_TYPE"); _PAINT_TYPEReady = true; } return _PAINT_TYPEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PAINT_TYPEContent = default;
         private static bool _PAINT_TYPEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PANOSE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PANOSE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PANOSE { get { if (!_PANOSEReady) { _PANOSEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PANOSE"); _PANOSEReady = true; } return _PANOSEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PANOSEContent = default;
         private static bool _PANOSEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PARAMS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PARAMS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PARAMS { get { if (!_PARAMSReady) { _PARAMSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PARAMS"); _PARAMSReady = true; } return _PARAMSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PARAMSContent = default;
         private static bool _PARAMSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PARENT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PARENT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PARENT { get { if (!_PARENTReady) { _PARENTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PARENT"); _PARENTReady = true; } return _PARENTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PARENTContent = default;
         private static bool _PARENTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PARENT_TREE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PARENT_TREE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PARENT_TREE { get { if (!_PARENT_TREEReady) { _PARENT_TREEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PARENT_TREE"); _PARENT_TREEReady = true; } return _PARENT_TREEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PARENT_TREEContent = default;
         private static bool _PARENT_TREEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PARENT_TREE_NEXT_KEY"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PARENT_TREE_NEXT_KEY"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PARENT_TREE_NEXT_KEY { get { if (!_PARENT_TREE_NEXT_KEYReady) { _PARENT_TREE_NEXT_KEYContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PARENT_TREE_NEXT_KEY"); _PARENT_TREE_NEXT_KEYReady = true; } return _PARENT_TREE_NEXT_KEYContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PARENT_TREE_NEXT_KEYContent = default;
         private static bool _PARENT_TREE_NEXT_KEYReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PART"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PART"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PART { get { if (!_PARTReady) { _PARTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PART"); _PARTReady = true; } return _PARTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PARTContent = default;
         private static bool _PARTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PATH"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PATH"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PATH { get { if (!_PATHReady) { _PATHContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PATH"); _PATHReady = true; } return _PATHContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PATHContent = default;
         private static bool _PATHReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PATTERN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PATTERN"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PATTERN { get { if (!_PATTERNReady) { _PATTERNContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PATTERN"); _PATTERNReady = true; } return _PATTERNContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PATTERNContent = default;
         private static bool _PATTERNReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PATTERN_TYPE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PATTERN_TYPE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PATTERN_TYPE { get { if (!_PATTERN_TYPEReady) { _PATTERN_TYPEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PATTERN_TYPE"); _PATTERN_TYPEReady = true; } return _PATTERN_TYPEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PATTERN_TYPEContent = default;
         private static bool _PATTERN_TYPEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PC"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PC"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PC { get { if (!_PCReady) { _PCContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PC"); _PCReady = true; } return _PCContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PCContent = default;
         private static bool _PCReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PDF_DOC_ENCODING"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PDF_DOC_ENCODING"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PDF_DOC_ENCODING { get { if (!_PDF_DOC_ENCODINGReady) { _PDF_DOC_ENCODINGContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PDF_DOC_ENCODING"); _PDF_DOC_ENCODINGReady = true; } return _PDF_DOC_ENCODINGContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PDF_DOC_ENCODINGContent = default;
         private static bool _PDF_DOC_ENCODINGReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PERCEPTUAL"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PERCEPTUAL"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PERCEPTUAL { get { if (!_PERCEPTUALReady) { _PERCEPTUALContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PERCEPTUAL"); _PERCEPTUALReady = true; } return _PERCEPTUALContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PERCEPTUALContent = default;
         private static bool _PERCEPTUALReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PERMS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PERMS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PERMS { get { if (!_PERMSReady) { _PERMSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PERMS"); _PERMSReady = true; } return _PERMSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PERMSContent = default;
         private static bool _PERMSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PG"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PG"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PG { get { if (!_PGReady) { _PGContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PG"); _PGReady = true; } return _PGContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PGContent = default;
         private static bool _PGReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PI"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PI"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PI { get { if (!_PIReady) { _PIContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PI"); _PIReady = true; } return _PIContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PIContent = default;
         private static bool _PIReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PIECE_INFO"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PIECE_INFO"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PIECE_INFO { get { if (!_PIECE_INFOReady) { _PIECE_INFOContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PIECE_INFO"); _PIECE_INFOReady = true; } return _PIECE_INFOContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PIECE_INFOContent = default;
         private static bool _PIECE_INFOReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PO"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PO"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PO { get { if (!_POReady) { _POContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PO"); _POReady = true; } return _POContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _POContent = default;
         private static bool _POReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#POPUP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#POPUP"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName POPUP { get { if (!_POPUPReady) { _POPUPContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "POPUP"); _POPUPReady = true; } return _POPUPContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _POPUPContent = default;
         private static bool _POPUPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PRE_RELEASE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PRE_RELEASE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PRE_RELEASE { get { if (!_PRE_RELEASEReady) { _PRE_RELEASEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PRE_RELEASE"); _PRE_RELEASEReady = true; } return _PRE_RELEASEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PRE_RELEASEContent = default;
         private static bool _PRE_RELEASEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PREDICTOR"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PREDICTOR"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PREDICTOR { get { if (!_PREDICTORReady) { _PREDICTORContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PREDICTOR"); _PREDICTORReady = true; } return _PREDICTORContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PREDICTORContent = default;
         private static bool _PREDICTORReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PREV"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PREV"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PREV { get { if (!_PREVReady) { _PREVContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PREV"); _PREVReady = true; } return _PREVContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PREVContent = default;
         private static bool _PREVReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PRINT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PRINT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PRINT { get { if (!_PRINTReady) { _PRINTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PRINT"); _PRINTReady = true; } return _PRINTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PRINTContent = default;
         private static bool _PRINTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PRINT_AREA"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PRINT_AREA"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PRINT_AREA { get { if (!_PRINT_AREAReady) { _PRINT_AREAContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PRINT_AREA"); _PRINT_AREAReady = true; } return _PRINT_AREAContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PRINT_AREAContent = default;
         private static bool _PRINT_AREAReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PRINT_CLIP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PRINT_CLIP"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PRINT_CLIP { get { if (!_PRINT_CLIPReady) { _PRINT_CLIPContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PRINT_CLIP"); _PRINT_CLIPReady = true; } return _PRINT_CLIPContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PRINT_CLIPContent = default;
         private static bool _PRINT_CLIPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PRINT_SCALING"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PRINT_SCALING"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PRINT_SCALING { get { if (!_PRINT_SCALINGReady) { _PRINT_SCALINGContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PRINT_SCALING"); _PRINT_SCALINGReady = true; } return _PRINT_SCALINGContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PRINT_SCALINGContent = default;
         private static bool _PRINT_SCALINGReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PRINT_STATE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PRINT_STATE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PRINT_STATE { get { if (!_PRINT_STATEReady) { _PRINT_STATEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PRINT_STATE"); _PRINT_STATEReady = true; } return _PRINT_STATEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PRINT_STATEContent = default;
         private static bool _PRINT_STATEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PRIVATE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PRIVATE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PRIVATE { get { if (!_PRIVATEReady) { _PRIVATEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PRIVATE"); _PRIVATEReady = true; } return _PRIVATEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PRIVATEContent = default;
         private static bool _PRIVATEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PROC_SET"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PROC_SET"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PROC_SET { get { if (!_PROC_SETReady) { _PROC_SETContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PROC_SET"); _PROC_SETReady = true; } return _PROC_SETContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PROC_SETContent = default;
         private static bool _PROC_SETReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PROCESS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PROCESS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PROCESS { get { if (!_PROCESSReady) { _PROCESSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PROCESS"); _PROCESSReady = true; } return _PROCESSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PROCESSContent = default;
         private static bool _PROCESSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PRODUCER"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PRODUCER"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PRODUCER { get { if (!_PRODUCERReady) { _PRODUCERContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PRODUCER"); _PRODUCERReady = true; } return _PRODUCERContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PRODUCERContent = default;
         private static bool _PRODUCERReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PROP_BUILD"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PROP_BUILD"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PROP_BUILD { get { if (!_PROP_BUILDReady) { _PROP_BUILDContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PROP_BUILD"); _PROP_BUILDReady = true; } return _PROP_BUILDContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PROP_BUILDContent = default;
         private static bool _PROP_BUILDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PROPERTIES"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PROPERTIES"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PROPERTIES { get { if (!_PROPERTIESReady) { _PROPERTIESContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PROPERTIES"); _PROPERTIESReady = true; } return _PROPERTIESContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PROPERTIESContent = default;
         private static bool _PROPERTIESReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PS { get { if (!_PSReady) { _PSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PS"); _PSReady = true; } return _PSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PSContent = default;
         private static bool _PSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PUB_SEC"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PUB_SEC"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PUB_SEC { get { if (!_PUB_SECReady) { _PUB_SECContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PUB_SEC"); _PUB_SECReady = true; } return _PUB_SECContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PUB_SECContent = default;
         private static bool _PUB_SECReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#PV"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#PV"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName PV { get { if (!_PVReady) { _PVContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "PV"); _PVReady = true; } return _PVContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _PVContent = default;
         private static bool _PVReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#Q"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#Q"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName Q { get { if (!_QReady) { _QContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "Q"); _QReady = true; } return _QContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _QContent = default;
         private static bool _QReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#QUADPOINTS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#QUADPOINTS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName QUADPOINTS { get { if (!_QUADPOINTSReady) { _QUADPOINTSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "QUADPOINTS"); _QUADPOINTSReady = true; } return _QUADPOINTSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _QUADPOINTSContent = default;
         private static bool _QUADPOINTSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#R"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#R"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName R { get { if (!_RReady) { _RContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "R"); _RReady = true; } return _RContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _RContent = default;
         private static bool _RReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#RANGE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#RANGE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName RANGE { get { if (!_RANGEReady) { _RANGEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "RANGE"); _RANGEReady = true; } return _RANGEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _RANGEContent = default;
         private static bool _RANGEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#RC"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#RC"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName RC { get { if (!_RCReady) { _RCContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "RC"); _RCReady = true; } return _RCContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _RCContent = default;
         private static bool _RCReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#RD"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#RD"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName RD { get { if (!_RDReady) { _RDContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "RD"); _RDReady = true; } return _RDContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _RDContent = default;
         private static bool _RDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#REASON"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#REASON"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName REASON { get { if (!_REASONReady) { _REASONContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "REASON"); _REASONReady = true; } return _REASONContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _REASONContent = default;
         private static bool _REASONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#REASONS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#REASONS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName REASONS { get { if (!_REASONSReady) { _REASONSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "REASONS"); _REASONSReady = true; } return _REASONSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _REASONSContent = default;
         private static bool _REASONSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#RECIPIENTS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#RECIPIENTS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName RECIPIENTS { get { if (!_RECIPIENTSReady) { _RECIPIENTSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "RECIPIENTS"); _RECIPIENTSReady = true; } return _RECIPIENTSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _RECIPIENTSContent = default;
         private static bool _RECIPIENTSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#RECT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#RECT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName RECT { get { if (!_RECTReady) { _RECTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "RECT"); _RECTReady = true; } return _RECTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _RECTContent = default;
         private static bool _RECTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#REFERENCE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#REFERENCE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName REFERENCE { get { if (!_REFERENCEReady) { _REFERENCEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "REFERENCE"); _REFERENCEReady = true; } return _REFERENCEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _REFERENCEContent = default;
         private static bool _REFERENCEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#REGISTRY"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#REGISTRY"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName REGISTRY { get { if (!_REGISTRYReady) { _REGISTRYContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "REGISTRY"); _REGISTRYReady = true; } return _REGISTRYContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _REGISTRYContent = default;
         private static bool _REGISTRYReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#REGISTRY_NAME"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#REGISTRY_NAME"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName REGISTRY_NAME { get { if (!_REGISTRY_NAMEReady) { _REGISTRY_NAMEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "REGISTRY_NAME"); _REGISTRY_NAMEReady = true; } return _REGISTRY_NAMEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _REGISTRY_NAMEContent = default;
         private static bool _REGISTRY_NAMEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#RELATIVE_COLORIMETRIC"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#RELATIVE_COLORIMETRIC"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName RELATIVE_COLORIMETRIC { get { if (!_RELATIVE_COLORIMETRICReady) { _RELATIVE_COLORIMETRICContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "RELATIVE_COLORIMETRIC"); _RELATIVE_COLORIMETRICReady = true; } return _RELATIVE_COLORIMETRICContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _RELATIVE_COLORIMETRICContent = default;
         private static bool _RELATIVE_COLORIMETRICReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#RENAME"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#RENAME"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName RENAME { get { if (!_RENAMEReady) { _RENAMEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "RENAME"); _RENAMEReady = true; } return _RENAMEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _RENAMEContent = default;
         private static bool _RENAMEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#REPEAT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#REPEAT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName REPEAT { get { if (!_REPEATReady) { _REPEATContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "REPEAT"); _REPEATReady = true; } return _REPEATContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _REPEATContent = default;
         private static bool _REPEATReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#RES_FORK"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#RES_FORK"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName RES_FORK { get { if (!_RES_FORKReady) { _RES_FORKContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "RES_FORK"); _RES_FORKReady = true; } return _RES_FORKContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _RES_FORKContent = default;
         private static bool _RES_FORKReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#RESOURCES"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#RESOURCES"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName RESOURCES { get { if (!_RESOURCESReady) { _RESOURCESContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "RESOURCES"); _RESOURCESReady = true; } return _RESOURCESContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _RESOURCESContent = default;
         private static bool _RESOURCESReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#RGB"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#RGB"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName RGB { get { if (!_RGBReady) { _RGBContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "RGB"); _RGBReady = true; } return _RGBContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _RGBContent = default;
         private static bool _RGBReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#RI"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#RI"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName RI { get { if (!_RIReady) { _RIContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "RI"); _RIReady = true; } return _RIContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _RIContent = default;
         private static bool _RIReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ROLE_MAP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ROLE_MAP"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ROLE_MAP { get { if (!_ROLE_MAPReady) { _ROLE_MAPContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ROLE_MAP"); _ROLE_MAPReady = true; } return _ROLE_MAPContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ROLE_MAPContent = default;
         private static bool _ROLE_MAPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ROOT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ROOT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ROOT { get { if (!_ROOTReady) { _ROOTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ROOT"); _ROOTReady = true; } return _ROOTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ROOTContent = default;
         private static bool _ROOTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ROTATE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ROTATE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ROTATE { get { if (!_ROTATEReady) { _ROTATEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ROTATE"); _ROTATEReady = true; } return _ROTATEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ROTATEContent = default;
         private static bool _ROTATEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ROWS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ROWS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ROWS { get { if (!_ROWSReady) { _ROWSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ROWS"); _ROWSReady = true; } return _ROWSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ROWSContent = default;
         private static bool _ROWSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#RT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#RT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName RT { get { if (!_RTReady) { _RTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "RT"); _RTReady = true; } return _RTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _RTContent = default;
         private static bool _RTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#RUN_LENGTH_DECODE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#RUN_LENGTH_DECODE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName RUN_LENGTH_DECODE { get { if (!_RUN_LENGTH_DECODEReady) { _RUN_LENGTH_DECODEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "RUN_LENGTH_DECODE"); _RUN_LENGTH_DECODEReady = true; } return _RUN_LENGTH_DECODEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _RUN_LENGTH_DECODEContent = default;
         private static bool _RUN_LENGTH_DECODEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#RUN_LENGTH_DECODE_ABBREVIATION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#RUN_LENGTH_DECODE_ABBREVIATION"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName RUN_LENGTH_DECODE_ABBREVIATION { get { if (!_RUN_LENGTH_DECODE_ABBREVIATIONReady) { _RUN_LENGTH_DECODE_ABBREVIATIONContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "RUN_LENGTH_DECODE_ABBREVIATION"); _RUN_LENGTH_DECODE_ABBREVIATIONReady = true; } return _RUN_LENGTH_DECODE_ABBREVIATIONContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _RUN_LENGTH_DECODE_ABBREVIATIONContent = default;
         private static bool _RUN_LENGTH_DECODE_ABBREVIATIONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#RV"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#RV"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName RV { get { if (!_RVReady) { _RVContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "RV"); _RVReady = true; } return _RVContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _RVContent = default;
         private static bool _RVReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#S"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#S"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName S { get { if (!_SReady) { _SContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "S"); _SReady = true; } return _SContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SContent = default;
         private static bool _SReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SA"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SA"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SA { get { if (!_SAReady) { _SAContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SA"); _SAReady = true; } return _SAContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SAContent = default;
         private static bool _SAReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SATURATION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SATURATION"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SATURATION { get { if (!_SATURATIONReady) { _SATURATIONContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SATURATION"); _SATURATIONReady = true; } return _SATURATIONContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SATURATIONContent = default;
         private static bool _SATURATIONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SCHEMA"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SCHEMA"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SCHEMA { get { if (!_SCHEMAReady) { _SCHEMAContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SCHEMA"); _SCHEMAReady = true; } return _SCHEMAContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SCHEMAContent = default;
         private static bool _SCHEMAReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SCREEN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SCREEN"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SCREEN { get { if (!_SCREENReady) { _SCREENContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SCREEN"); _SCREENReady = true; } return _SCREENContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SCREENContent = default;
         private static bool _SCREENReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SE { get { if (!_SEReady) { _SEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SE"); _SEReady = true; } return _SEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SEContent = default;
         private static bool _SEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SEPARATION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SEPARATION"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SEPARATION { get { if (!_SEPARATIONReady) { _SEPARATIONContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SEPARATION"); _SEPARATIONReady = true; } return _SEPARATIONContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SEPARATIONContent = default;
         private static bool _SEPARATIONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SET_F"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SET_F"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SET_F { get { if (!_SET_FReady) { _SET_FContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SET_F"); _SET_FReady = true; } return _SET_FContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SET_FContent = default;
         private static bool _SET_FReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SET_FF"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SET_FF"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SET_FF { get { if (!_SET_FFReady) { _SET_FFContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SET_FF"); _SET_FFReady = true; } return _SET_FFContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SET_FFContent = default;
         private static bool _SET_FFReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SHADING"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SHADING"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SHADING { get { if (!_SHADINGReady) { _SHADINGContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SHADING"); _SHADINGReady = true; } return _SHADINGContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SHADINGContent = default;
         private static bool _SHADINGReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SHADING_TYPE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SHADING_TYPE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SHADING_TYPE { get { if (!_SHADING_TYPEReady) { _SHADING_TYPEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SHADING_TYPE"); _SHADING_TYPEReady = true; } return _SHADING_TYPEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SHADING_TYPEContent = default;
         private static bool _SHADING_TYPEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SIG"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SIG"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SIG { get { if (!_SIGReady) { _SIGContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SIG"); _SIGReady = true; } return _SIGContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SIGContent = default;
         private static bool _SIGReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SIG_FLAGS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SIG_FLAGS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SIG_FLAGS { get { if (!_SIG_FLAGSReady) { _SIG_FLAGSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SIG_FLAGS"); _SIG_FLAGSReady = true; } return _SIG_FLAGSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SIG_FLAGSContent = default;
         private static bool _SIG_FLAGSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SIG_REF"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SIG_REF"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SIG_REF { get { if (!_SIG_REFReady) { _SIG_REFContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SIG_REF"); _SIG_REFReady = true; } return _SIG_REFContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SIG_REFContent = default;
         private static bool _SIG_REFReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SIZE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SIZE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SIZE { get { if (!_SIZEReady) { _SIZEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SIZE"); _SIZEReady = true; } return _SIZEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SIZEContent = default;
         private static bool _SIZEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SM"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SM"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SM { get { if (!_SMReady) { _SMContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SM"); _SMReady = true; } return _SMContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SMContent = default;
         private static bool _SMReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SMASK"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SMASK"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SMASK { get { if (!_SMASKReady) { _SMASKContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SMASK"); _SMASKReady = true; } return _SMASKContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SMASKContent = default;
         private static bool _SMASKReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SMASK_IN_DATA"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SMASK_IN_DATA"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SMASK_IN_DATA { get { if (!_SMASK_IN_DATAReady) { _SMASK_IN_DATAContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SMASK_IN_DATA"); _SMASK_IN_DATAReady = true; } return _SMASK_IN_DATAContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SMASK_IN_DATAContent = default;
         private static bool _SMASK_IN_DATAReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SOFT_LIGHT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SOFT_LIGHT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SOFT_LIGHT { get { if (!_SOFT_LIGHTReady) { _SOFT_LIGHTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SOFT_LIGHT"); _SOFT_LIGHTReady = true; } return _SOFT_LIGHTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SOFT_LIGHTContent = default;
         private static bool _SOFT_LIGHTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SORT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SORT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SORT { get { if (!_SORTReady) { _SORTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SORT"); _SORTReady = true; } return _SORTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SORTContent = default;
         private static bool _SORTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SOUND"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SOUND"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SOUND { get { if (!_SOUNDReady) { _SOUNDContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SOUND"); _SOUNDReady = true; } return _SOUNDContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SOUNDContent = default;
         private static bool _SOUNDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SPLIT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SPLIT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SPLIT { get { if (!_SPLITReady) { _SPLITContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SPLIT"); _SPLITReady = true; } return _SPLITContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SPLITContent = default;
         private static bool _SPLITReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SS { get { if (!_SSReady) { _SSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SS"); _SSReady = true; } return _SSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SSContent = default;
         private static bool _SSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ST"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ST"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ST { get { if (!_STReady) { _STContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ST"); _STReady = true; } return _STContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _STContent = default;
         private static bool _STReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#STANDARD_ENCODING"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#STANDARD_ENCODING"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName STANDARD_ENCODING { get { if (!_STANDARD_ENCODINGReady) { _STANDARD_ENCODINGContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "STANDARD_ENCODING"); _STANDARD_ENCODINGReady = true; } return _STANDARD_ENCODINGContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _STANDARD_ENCODINGContent = default;
         private static bool _STANDARD_ENCODINGReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#STATE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#STATE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName STATE { get { if (!_STATEReady) { _STATEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "STATE"); _STATEReady = true; } return _STATEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _STATEContent = default;
         private static bool _STATEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#STATE_MODEL"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#STATE_MODEL"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName STATE_MODEL { get { if (!_STATE_MODELReady) { _STATE_MODELContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "STATE_MODEL"); _STATE_MODELReady = true; } return _STATE_MODELContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _STATE_MODELContent = default;
         private static bool _STATE_MODELReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#STATUS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#STATUS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName STATUS { get { if (!_STATUSReady) { _STATUSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "STATUS"); _STATUSReady = true; } return _STATUSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _STATUSContent = default;
         private static bool _STATUSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#STD_CF"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#STD_CF"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName STD_CF { get { if (!_STD_CFReady) { _STD_CFContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "STD_CF"); _STD_CFReady = true; } return _STD_CFContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _STD_CFContent = default;
         private static bool _STD_CFReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#STEM_H"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#STEM_H"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName STEM_H { get { if (!_STEM_HReady) { _STEM_HContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "STEM_H"); _STEM_HReady = true; } return _STEM_HContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _STEM_HContent = default;
         private static bool _STEM_HReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#STEM_V"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#STEM_V"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName STEM_V { get { if (!_STEM_VReady) { _STEM_VContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "STEM_V"); _STEM_VReady = true; } return _STEM_VContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _STEM_VContent = default;
         private static bool _STEM_VReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#STM_F"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#STM_F"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName STM_F { get { if (!_STM_FReady) { _STM_FContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "STM_F"); _STM_FReady = true; } return _STM_FContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _STM_FContent = default;
         private static bool _STM_FReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#STR_F"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#STR_F"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName STR_F { get { if (!_STR_FReady) { _STR_FContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "STR_F"); _STR_FReady = true; } return _STR_FContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _STR_FContent = default;
         private static bool _STR_FReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#STRUCT_ELEM"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#STRUCT_ELEM"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName STRUCT_ELEM { get { if (!_STRUCT_ELEMReady) { _STRUCT_ELEMContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "STRUCT_ELEM"); _STRUCT_ELEMReady = true; } return _STRUCT_ELEMContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _STRUCT_ELEMContent = default;
         private static bool _STRUCT_ELEMReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#STRUCT_PARENT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#STRUCT_PARENT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName STRUCT_PARENT { get { if (!_STRUCT_PARENTReady) { _STRUCT_PARENTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "STRUCT_PARENT"); _STRUCT_PARENTReady = true; } return _STRUCT_PARENTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _STRUCT_PARENTContent = default;
         private static bool _STRUCT_PARENTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#STRUCT_PARENTS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#STRUCT_PARENTS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName STRUCT_PARENTS { get { if (!_STRUCT_PARENTSReady) { _STRUCT_PARENTSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "STRUCT_PARENTS"); _STRUCT_PARENTSReady = true; } return _STRUCT_PARENTSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _STRUCT_PARENTSContent = default;
         private static bool _STRUCT_PARENTSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#STRUCT_TREE_ROOT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#STRUCT_TREE_ROOT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName STRUCT_TREE_ROOT { get { if (!_STRUCT_TREE_ROOTReady) { _STRUCT_TREE_ROOTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "STRUCT_TREE_ROOT"); _STRUCT_TREE_ROOTReady = true; } return _STRUCT_TREE_ROOTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _STRUCT_TREE_ROOTContent = default;
         private static bool _STRUCT_TREE_ROOTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#STYLE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#STYLE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName STYLE { get { if (!_STYLEReady) { _STYLEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "STYLE"); _STYLEReady = true; } return _STYLEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _STYLEContent = default;
         private static bool _STYLEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SUB_FILTER"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SUB_FILTER"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SUB_FILTER { get { if (!_SUB_FILTERReady) { _SUB_FILTERContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SUB_FILTER"); _SUB_FILTERReady = true; } return _SUB_FILTERContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SUB_FILTERContent = default;
         private static bool _SUB_FILTERReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SUBJ"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SUBJ"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SUBJ { get { if (!_SUBJReady) { _SUBJContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SUBJ"); _SUBJReady = true; } return _SUBJContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SUBJContent = default;
         private static bool _SUBJReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SUBJECT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SUBJECT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SUBJECT { get { if (!_SUBJECTReady) { _SUBJECTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SUBJECT"); _SUBJECTReady = true; } return _SUBJECTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SUBJECTContent = default;
         private static bool _SUBJECTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SUBJECT_DN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SUBJECT_DN"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SUBJECT_DN { get { if (!_SUBJECT_DNReady) { _SUBJECT_DNContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SUBJECT_DN"); _SUBJECT_DNReady = true; } return _SUBJECT_DNContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SUBJECT_DNContent = default;
         private static bool _SUBJECT_DNReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SUBTYPE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SUBTYPE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SUBTYPE { get { if (!_SUBTYPEReady) { _SUBTYPEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SUBTYPE"); _SUBTYPEReady = true; } return _SUBTYPEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SUBTYPEContent = default;
         private static bool _SUBTYPEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SUPPLEMENT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SUPPLEMENT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SUPPLEMENT { get { if (!_SUPPLEMENTReady) { _SUPPLEMENTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SUPPLEMENT"); _SUPPLEMENTReady = true; } return _SUPPLEMENTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SUPPLEMENTContent = default;
         private static bool _SUPPLEMENTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SV"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SV"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SV { get { if (!_SVReady) { _SVContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SV"); _SVReady = true; } return _SVContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SVContent = default;
         private static bool _SVReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SV_CERT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SV_CERT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SV_CERT { get { if (!_SV_CERTReady) { _SV_CERTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SV_CERT"); _SV_CERTReady = true; } return _SV_CERTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SV_CERTContent = default;
         private static bool _SV_CERTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SW"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SW"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SW { get { if (!_SWReady) { _SWContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SW"); _SWReady = true; } return _SWContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SWContent = default;
         private static bool _SWReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SY"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SY"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SY { get { if (!_SYReady) { _SYContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SY"); _SYReady = true; } return _SYContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SYContent = default;
         private static bool _SYReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#SYNCHRONOUS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#SYNCHRONOUS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SYNCHRONOUS { get { if (!_SYNCHRONOUSReady) { _SYNCHRONOUSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SYNCHRONOUS"); _SYNCHRONOUSReady = true; } return _SYNCHRONOUSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SYNCHRONOUSContent = default;
         private static bool _SYNCHRONOUSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#T"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#T"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName T { get { if (!_TReady) { _TContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "T"); _TReady = true; } return _TContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TContent = default;
         private static bool _TReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#TARGET"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#TARGET"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName TARGET { get { if (!_TARGETReady) { _TARGETContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "TARGET"); _TARGETReady = true; } return _TARGETContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TARGETContent = default;
         private static bool _TARGETReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#TEMPLATES"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#TEMPLATES"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName TEMPLATES { get { if (!_TEMPLATESReady) { _TEMPLATESContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "TEMPLATES"); _TEMPLATESReady = true; } return _TEMPLATESContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TEMPLATESContent = default;
         private static bool _TEMPLATESReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#THREAD"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#THREAD"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName THREAD { get { if (!_THREADReady) { _THREADContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "THREAD"); _THREADReady = true; } return _THREADContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _THREADContent = default;
         private static bool _THREADReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#THREADS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#THREADS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName THREADS { get { if (!_THREADSReady) { _THREADSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "THREADS"); _THREADSReady = true; } return _THREADSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _THREADSContent = default;
         private static bool _THREADSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#THREE_DD"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#THREE_DD"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName THREE_DD { get { if (!_THREE_DDReady) { _THREE_DDContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "THREE_DD"); _THREE_DDReady = true; } return _THREE_DDContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _THREE_DDContent = default;
         private static bool _THREE_DDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#THUMB"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#THUMB"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName THUMB { get { if (!_THUMBReady) { _THUMBContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "THUMB"); _THUMBReady = true; } return _THUMBContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _THUMBContent = default;
         private static bool _THUMBReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#TI"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#TI"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName TI { get { if (!_TIReady) { _TIContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "TI"); _TIReady = true; } return _TIContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TIContent = default;
         private static bool _TIReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#TILING_TYPE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#TILING_TYPE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName TILING_TYPE { get { if (!_TILING_TYPEReady) { _TILING_TYPEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "TILING_TYPE"); _TILING_TYPEReady = true; } return _TILING_TYPEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TILING_TYPEContent = default;
         private static bool _TILING_TYPEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#TIME_STAMP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#TIME_STAMP"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName TIME_STAMP { get { if (!_TIME_STAMPReady) { _TIME_STAMPContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "TIME_STAMP"); _TIME_STAMPReady = true; } return _TIME_STAMPContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TIME_STAMPContent = default;
         private static bool _TIME_STAMPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#TITLE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#TITLE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName TITLE { get { if (!_TITLEReady) { _TITLEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "TITLE"); _TITLEReady = true; } return _TITLEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TITLEContent = default;
         private static bool _TITLEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#TK"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#TK"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName TK { get { if (!_TKReady) { _TKContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "TK"); _TKReady = true; } return _TKContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TKContent = default;
         private static bool _TKReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#TM"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#TM"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName TM { get { if (!_TMReady) { _TMContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "TM"); _TMReady = true; } return _TMContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TMContent = default;
         private static bool _TMReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#TO_UNICODE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#TO_UNICODE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName TO_UNICODE { get { if (!_TO_UNICODEReady) { _TO_UNICODEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "TO_UNICODE"); _TO_UNICODEReady = true; } return _TO_UNICODEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TO_UNICODEContent = default;
         private static bool _TO_UNICODEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#TR"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#TR"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName TR { get { if (!_TRReady) { _TRContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "TR"); _TRReady = true; } return _TRContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TRContent = default;
         private static bool _TRReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#TR2"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#TR2"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName TR2 { get { if (!_TR2Ready) { _TR2Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "TR2"); _TR2Ready = true; } return _TR2Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TR2Content = default;
         private static bool _TR2Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#TRANS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#TRANS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName TRANS { get { if (!_TRANSReady) { _TRANSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "TRANS"); _TRANSReady = true; } return _TRANSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TRANSContent = default;
         private static bool _TRANSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#TRANSFORM_METHOD"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#TRANSFORM_METHOD"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName TRANSFORM_METHOD { get { if (!_TRANSFORM_METHODReady) { _TRANSFORM_METHODContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "TRANSFORM_METHOD"); _TRANSFORM_METHODReady = true; } return _TRANSFORM_METHODContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TRANSFORM_METHODContent = default;
         private static bool _TRANSFORM_METHODReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#TRANSFORM_PARAMS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#TRANSFORM_PARAMS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName TRANSFORM_PARAMS { get { if (!_TRANSFORM_PARAMSReady) { _TRANSFORM_PARAMSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "TRANSFORM_PARAMS"); _TRANSFORM_PARAMSReady = true; } return _TRANSFORM_PARAMSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TRANSFORM_PARAMSContent = default;
         private static bool _TRANSFORM_PARAMSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#TRANSPARENCY"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#TRANSPARENCY"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName TRANSPARENCY { get { if (!_TRANSPARENCYReady) { _TRANSPARENCYContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "TRANSPARENCY"); _TRANSPARENCYReady = true; } return _TRANSPARENCYContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TRANSPARENCYContent = default;
         private static bool _TRANSPARENCYReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#TRAPPED"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#TRAPPED"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName TRAPPED { get { if (!_TRAPPEDReady) { _TRAPPEDContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "TRAPPED"); _TRAPPEDReady = true; } return _TRAPPEDContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TRAPPEDContent = default;
         private static bool _TRAPPEDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#TREF"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#TREF"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName TREF { get { if (!_TREFReady) { _TREFContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "TREF"); _TREFReady = true; } return _TREFContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TREFContent = default;
         private static bool _TREFReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#TRIM_BOX"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#TRIM_BOX"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName TRIM_BOX { get { if (!_TRIM_BOXReady) { _TRIM_BOXContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "TRIM_BOX"); _TRIM_BOXReady = true; } return _TRIM_BOXContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TRIM_BOXContent = default;
         private static bool _TRIM_BOXReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#TRUE_TYPE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#TRUE_TYPE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName TRUE_TYPE { get { if (!_TRUE_TYPEReady) { _TRUE_TYPEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "TRUE_TYPE"); _TRUE_TYPEReady = true; } return _TRUE_TYPEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TRUE_TYPEContent = default;
         private static bool _TRUE_TYPEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#TRUSTED_MODE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#TRUSTED_MODE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName TRUSTED_MODE { get { if (!_TRUSTED_MODEReady) { _TRUSTED_MODEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "TRUSTED_MODE"); _TRUSTED_MODEReady = true; } return _TRUSTED_MODEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TRUSTED_MODEContent = default;
         private static bool _TRUSTED_MODEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#TU"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#TU"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName TU { get { if (!_TUReady) { _TUContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "TU"); _TUReady = true; } return _TUContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TUContent = default;
         private static bool _TUReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#TX"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#TX"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName TX { get { if (!_TXReady) { _TXContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "TX"); _TXReady = true; } return _TXContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TXContent = default;
         private static bool _TXReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#TYPE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#TYPE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName TYPE { get { if (!_TYPEReady) { _TYPEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "TYPE"); _TYPEReady = true; } return _TYPEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TYPEContent = default;
         private static bool _TYPEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#TYPE0"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#TYPE0"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName TYPE0 { get { if (!_TYPE0Ready) { _TYPE0Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "TYPE0"); _TYPE0Ready = true; } return _TYPE0Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TYPE0Content = default;
         private static bool _TYPE0Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#TYPE1"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#TYPE1"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName TYPE1 { get { if (!_TYPE1Ready) { _TYPE1Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "TYPE1"); _TYPE1Ready = true; } return _TYPE1Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TYPE1Content = default;
         private static bool _TYPE1Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#TYPE3"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#TYPE3"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName TYPE3 { get { if (!_TYPE3Ready) { _TYPE3Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "TYPE3"); _TYPE3Ready = true; } return _TYPE3Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _TYPE3Content = default;
         private static bool _TYPE3Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#U"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#U"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName U { get { if (!_UReady) { _UContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "U"); _UReady = true; } return _UContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _UContent = default;
         private static bool _UReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#UE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#UE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName UE { get { if (!_UEReady) { _UEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "UE"); _UEReady = true; } return _UEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _UEContent = default;
         private static bool _UEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#UF"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#UF"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName UF { get { if (!_UFReady) { _UFContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "UF"); _UFReady = true; } return _UFContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _UFContent = default;
         private static bool _UFReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#UNCHANGED"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#UNCHANGED"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName UNCHANGED { get { if (!_UNCHANGEDReady) { _UNCHANGEDContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "UNCHANGED"); _UNCHANGEDReady = true; } return _UNCHANGEDContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _UNCHANGEDContent = default;
         private static bool _UNCHANGEDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#UNIX"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#UNIX"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName UNIX { get { if (!_UNIXReady) { _UNIXContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "UNIX"); _UNIXReady = true; } return _UNIXContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _UNIXContent = default;
         private static bool _UNIXReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#URI"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#URI"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName URI { get { if (!_URIReady) { _URIContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "URI"); _URIReady = true; } return _URIContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _URIContent = default;
         private static bool _URIReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#URL"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#URL"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName URL { get { if (!_URLReady) { _URLContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "URL"); _URLReady = true; } return _URLContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _URLContent = default;
         private static bool _URLReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#URL_TYPE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#URL_TYPE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName URL_TYPE { get { if (!_URL_TYPEReady) { _URL_TYPEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "URL_TYPE"); _URL_TYPEReady = true; } return _URL_TYPEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _URL_TYPEContent = default;
         private static bool _URL_TYPEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#USAGE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#USAGE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName USAGE { get { if (!_USAGEReady) { _USAGEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "USAGE"); _USAGEReady = true; } return _USAGEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _USAGEContent = default;
         private static bool _USAGEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#USE_CMAP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#USE_CMAP"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName USE_CMAP { get { if (!_USE_CMAPReady) { _USE_CMAPContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "USE_CMAP"); _USE_CMAPReady = true; } return _USE_CMAPContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _USE_CMAPContent = default;
         private static bool _USE_CMAPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#USER_UNIT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#USER_UNIT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName USER_UNIT { get { if (!_USER_UNITReady) { _USER_UNITContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "USER_UNIT"); _USER_UNITReady = true; } return _USER_UNITContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _USER_UNITContent = default;
         private static bool _USER_UNITReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#V"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#V"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName V { get { if (!_VReady) { _VContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "V"); _VReady = true; } return _VContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _VContent = default;
         private static bool _VReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#VE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#VE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName VE { get { if (!_VEReady) { _VEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "VE"); _VEReady = true; } return _VEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _VEContent = default;
         private static bool _VEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#VERISIGN_PPKVS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#VERISIGN_PPKVS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName VERISIGN_PPKVS { get { if (!_VERISIGN_PPKVSReady) { _VERISIGN_PPKVSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "VERISIGN_PPKVS"); _VERISIGN_PPKVSReady = true; } return _VERISIGN_PPKVSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _VERISIGN_PPKVSContent = default;
         private static bool _VERISIGN_PPKVSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#VERSION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#VERSION"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName VERSION { get { if (!_VERSIONReady) { _VERSIONContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "VERSION"); _VERSIONReady = true; } return _VERSIONContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _VERSIONContent = default;
         private static bool _VERSIONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#VERTICES"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#VERTICES"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName VERTICES { get { if (!_VERTICESReady) { _VERTICESContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "VERTICES"); _VERTICESReady = true; } return _VERTICESContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _VERTICESContent = default;
         private static bool _VERTICESReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#VERTICES_PER_ROW"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#VERTICES_PER_ROW"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName VERTICES_PER_ROW { get { if (!_VERTICES_PER_ROWReady) { _VERTICES_PER_ROWContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "VERTICES_PER_ROW"); _VERTICES_PER_ROWReady = true; } return _VERTICES_PER_ROWContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _VERTICES_PER_ROWContent = default;
         private static bool _VERTICES_PER_ROWReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#VIEW"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#VIEW"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName VIEW { get { if (!_VIEWReady) { _VIEWContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "VIEW"); _VIEWReady = true; } return _VIEWContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _VIEWContent = default;
         private static bool _VIEWReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#VIEW_AREA"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#VIEW_AREA"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName VIEW_AREA { get { if (!_VIEW_AREAReady) { _VIEW_AREAContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "VIEW_AREA"); _VIEW_AREAReady = true; } return _VIEW_AREAContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _VIEW_AREAContent = default;
         private static bool _VIEW_AREAReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#VIEW_CLIP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#VIEW_CLIP"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName VIEW_CLIP { get { if (!_VIEW_CLIPReady) { _VIEW_CLIPContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "VIEW_CLIP"); _VIEW_CLIPReady = true; } return _VIEW_CLIPContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _VIEW_CLIPContent = default;
         private static bool _VIEW_CLIPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#VIEW_STATE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#VIEW_STATE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName VIEW_STATE { get { if (!_VIEW_STATEReady) { _VIEW_STATEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "VIEW_STATE"); _VIEW_STATEReady = true; } return _VIEW_STATEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _VIEW_STATEContent = default;
         private static bool _VIEW_STATEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#VIEWER_PREFERENCES"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#VIEWER_PREFERENCES"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName VIEWER_PREFERENCES { get { if (!_VIEWER_PREFERENCESReady) { _VIEWER_PREFERENCESContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "VIEWER_PREFERENCES"); _VIEWER_PREFERENCESReady = true; } return _VIEWER_PREFERENCESContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _VIEWER_PREFERENCESContent = default;
         private static bool _VIEWER_PREFERENCESReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#VOLUME"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#VOLUME"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName VOLUME { get { if (!_VOLUMEReady) { _VOLUMEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "VOLUME"); _VOLUMEReady = true; } return _VOLUMEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _VOLUMEContent = default;
         private static bool _VOLUMEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#VP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#VP"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName VP { get { if (!_VPReady) { _VPContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "VP"); _VPReady = true; } return _VPContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _VPContent = default;
         private static bool _VPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#VRI"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#VRI"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName VRI { get { if (!_VRIReady) { _VRIContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "VRI"); _VRIReady = true; } return _VRIContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _VRIContent = default;
         private static bool _VRIReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#W"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#W"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName W { get { if (!_WReady) { _WContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "W"); _WReady = true; } return _WContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _WContent = default;
         private static bool _WReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#W2"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#W2"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName W2 { get { if (!_W2Ready) { _W2Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "W2"); _W2Ready = true; } return _W2Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _W2Content = default;
         private static bool _W2Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#WC"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#WC"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName WC { get { if (!_WCReady) { _WCContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "WC"); _WCReady = true; } return _WCContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _WCContent = default;
         private static bool _WCReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#WHITE_POINT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#WHITE_POINT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName WHITE_POINT { get { if (!_WHITE_POINTReady) { _WHITE_POINTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "WHITE_POINT"); _WHITE_POINTReady = true; } return _WHITE_POINTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _WHITE_POINTContent = default;
         private static bool _WHITE_POINTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#WIDGET"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#WIDGET"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName WIDGET { get { if (!_WIDGETReady) { _WIDGETContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "WIDGET"); _WIDGETReady = true; } return _WIDGETContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _WIDGETContent = default;
         private static bool _WIDGETReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#WIDTH"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#WIDTH"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName WIDTH { get { if (!_WIDTHReady) { _WIDTHContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "WIDTH"); _WIDTHReady = true; } return _WIDTHContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _WIDTHContent = default;
         private static bool _WIDTHReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#WIDTHS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#WIDTHS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName WIDTHS { get { if (!_WIDTHSReady) { _WIDTHSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "WIDTHS"); _WIDTHSReady = true; } return _WIDTHSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _WIDTHSContent = default;
         private static bool _WIDTHSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#WIN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#WIN"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName WIN { get { if (!_WINReady) { _WINContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "WIN"); _WINReady = true; } return _WINContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _WINContent = default;
         private static bool _WINReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#WIN_ANSI_ENCODING"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#WIN_ANSI_ENCODING"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName WIN_ANSI_ENCODING { get { if (!_WIN_ANSI_ENCODINGReady) { _WIN_ANSI_ENCODINGContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "WIN_ANSI_ENCODING"); _WIN_ANSI_ENCODINGReady = true; } return _WIN_ANSI_ENCODINGContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _WIN_ANSI_ENCODINGContent = default;
         private static bool _WIN_ANSI_ENCODINGReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#WMODE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#WMODE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName WMODE { get { if (!_WMODEReady) { _WMODEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "WMODE"); _WMODEReady = true; } return _WMODEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _WMODEContent = default;
         private static bool _WMODEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#WP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#WP"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName WP { get { if (!_WPReady) { _WPContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "WP"); _WPReady = true; } return _WPContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _WPContent = default;
         private static bool _WPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#WS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#WS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName WS { get { if (!_WSReady) { _WSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "WS"); _WSReady = true; } return _WSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _WSContent = default;
         private static bool _WSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#X"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#X"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName X { get { if (!_XReady) { _XContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "X"); _XReady = true; } return _XContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _XContent = default;
         private static bool _XReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#X_STEP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#X_STEP"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName X_STEP { get { if (!_X_STEPReady) { _X_STEPContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "X_STEP"); _X_STEPReady = true; } return _X_STEPContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _X_STEPContent = default;
         private static bool _X_STEPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#XFA"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#XFA"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName XFA { get { if (!_XFAReady) { _XFAContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "XFA"); _XFAReady = true; } return _XFAContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _XFAContent = default;
         private static bool _XFAReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#XHEIGHT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#XHEIGHT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName XHEIGHT { get { if (!_XHEIGHTReady) { _XHEIGHTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "XHEIGHT"); _XHEIGHTReady = true; } return _XHEIGHTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _XHEIGHTContent = default;
         private static bool _XHEIGHTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#XOBJECT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#XOBJECT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName XOBJECT { get { if (!_XOBJECTReady) { _XOBJECTContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "XOBJECT"); _XOBJECTReady = true; } return _XOBJECTContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _XOBJECTContent = default;
         private static bool _XOBJECTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#XREF"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#XREF"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName XREF { get { if (!_XREFReady) { _XREFContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "XREF"); _XREFReady = true; } return _XREFContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _XREFContent = default;
         private static bool _XREFReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#XREF_STM"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#XREF_STM"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName XREF_STM { get { if (!_XREF_STMReady) { _XREF_STMContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "XREF_STM"); _XREF_STMReady = true; } return _XREF_STMContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _XREF_STMContent = default;
         private static bool _XREF_STMReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#Y"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#Y"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName Y { get { if (!_YReady) { _YContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "Y"); _YReady = true; } return _YContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _YContent = default;
         private static bool _YReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#Y_STEP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#Y_STEP"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName Y_STEP { get { if (!_Y_STEPReady) { _Y_STEPContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "Y_STEP"); _Y_STEPReady = true; } return _Y_STEPContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _Y_STEPContent = default;
         private static bool _Y_STEPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#YES"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#YES"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName YES { get { if (!_YESReady) { _YESContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "YES"); _YESReady = true; } return _YESContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _YESContent = default;
         private static bool _YESReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#ZA_DB"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#ZA_DB"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName ZA_DB { get { if (!_ZA_DBReady) { _ZA_DBContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "ZA_DB"); _ZA_DBReady = true; } return _ZA_DBContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _ZA_DBContent = default;
@@ -3613,7 +3613,7 @@ namespace Org.Apache.Pdfbox.Cos
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#getPDFName-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#getPDFName-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Cos.COSName"/></returns>
@@ -3626,14 +3626,14 @@ namespace Org.Apache.Pdfbox.Cos
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#getName--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#getName--"/> 
         /// </summary>
         public Java.Lang.String Name
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getName", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#isEmpty--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#isEmpty--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsEmpty()
@@ -3641,7 +3641,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<bool>("isEmpty", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#compareTo-java.lang.Object-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#compareTo-java.lang.Object-"/>
         /// </summary>
         /// <param name="arg0"><see cref="object"/></param>
         /// <returns><see cref="int"/></returns>
@@ -3650,7 +3650,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<int>("compareTo", "(Ljava/lang/Object;)I", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#compareTo-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#compareTo-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <returns><see cref="int"/></returns>
@@ -3659,7 +3659,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<int>("compareTo", "(Lorg/apache/pdfbox/cos/COSName;)I", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSName.html#writePDF-java.io.OutputStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSName.html#writePDF-java.io.OutputStream-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.OutputStream"/></param>
         /// <exception cref="Java.Io.IOException"/>

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
 {
     #region DecryptionMaterial declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/DecryptionMaterial.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/DecryptionMaterial.html"/>
     /// </summary>
     public partial class DecryptionMaterial : MASES.JCOBridge.C2JBridge.JVMBridgeBase<DecryptionMaterial>
     {

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdfparser.Xref
 {
     #region AbstractXReference declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/xref/AbstractXReference.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/xref/AbstractXReference.html"/>
     /// </summary>
     public partial class AbstractXReference : Org.Apache.Pdfbox.Pdfparser.Xref.XReferenceEntry
     {
@@ -93,21 +93,21 @@ namespace Org.Apache.Pdfbox.Pdfparser.Xref
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/xref/AbstractXReference.html#getFirstColumnValue--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/xref/AbstractXReference.html#getFirstColumnValue--"/> 
         /// </summary>
         public long FirstColumnValue
         {
             get { return IExecuteWithSignature<long>("getFirstColumnValue", "()J"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/xref/AbstractXReference.html#getType--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/xref/AbstractXReference.html#getType--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdfparser.Xref.XReferenceType Type
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdfparser.Xref.XReferenceType>("getType", "()Lorg/apache/pdfbox/pdfparser/xref/XReferenceType;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/xref/AbstractXReference.html#compareTo-java.lang.Object-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/xref/AbstractXReference.html#compareTo-java.lang.Object-"/>
         /// </summary>
         /// <param name="arg0"><see cref="object"/></param>
         /// <returns><see cref="int"/></returns>
@@ -116,7 +116,7 @@ namespace Org.Apache.Pdfbox.Pdfparser.Xref
             return IExecuteWithSignature<int>("compareTo", "(Ljava/lang/Object;)I", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/xref/AbstractXReference.html#compareTo-org.apache.pdfbox.pdfparser.xref.XReferenceEntry-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/xref/AbstractXReference.html#compareTo-org.apache.pdfbox.pdfparser.xref.XReferenceEntry-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdfparser.Xref.XReferenceEntry"/></param>
         /// <returns><see cref="int"/></returns>

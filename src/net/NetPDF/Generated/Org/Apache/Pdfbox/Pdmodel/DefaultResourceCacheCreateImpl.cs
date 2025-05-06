@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
 {
     #region DefaultResourceCacheCreateImpl declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/DefaultResourceCacheCreateImpl.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/DefaultResourceCacheCreateImpl.html"/>
     /// </summary>
     public partial class DefaultResourceCacheCreateImpl : Org.Apache.Pdfbox.Pdmodel.ResourceCacheCreateFunction
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/DefaultResourceCacheCreateImpl.html#org.apache.pdfbox.pdmodel.DefaultResourceCacheCreateImpl(boolean)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/DefaultResourceCacheCreateImpl.html#org.apache.pdfbox.pdmodel.DefaultResourceCacheCreateImpl(boolean)"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public DefaultResourceCacheCreateImpl(bool arg0)
@@ -99,7 +99,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/DefaultResourceCacheCreateImpl.html#create--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/DefaultResourceCacheCreateImpl.html#create--"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.ResourceCache"/></returns>
         public Org.Apache.Pdfbox.Pdmodel.ResourceCache Create()

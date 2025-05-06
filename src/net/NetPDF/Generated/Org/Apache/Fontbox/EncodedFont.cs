@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox
 {
     #region EncodedFont declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/EncodedFont.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/EncodedFont.html"/>
     /// </summary>
     public partial class EncodedFont : MASES.JCOBridge.C2JBridge.JVMBridgeBase<EncodedFont>
     {
@@ -74,7 +74,7 @@ namespace Org.Apache.Fontbox
 
     #region IEncodedFont
     /// <summary>
-    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/EncodedFont.html"/>
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/EncodedFont.html"/>
     /// </summary>
     public partial interface IEncodedFont
     {
@@ -111,7 +111,7 @@ namespace Org.Apache.Fontbox
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/EncodedFont.html#getEncoding--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/EncodedFont.html#getEncoding--"/> 
         /// </summary>
         public Org.Apache.Fontbox.Encoding.Encoding Encoding
         {

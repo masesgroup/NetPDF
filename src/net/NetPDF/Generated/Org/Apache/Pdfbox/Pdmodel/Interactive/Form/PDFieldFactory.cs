@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
 {
     #region PDFieldFactory declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDFieldFactory.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDFieldFactory.html"/>
     /// </summary>
     public partial class PDFieldFactory : MASES.JCOBridge.C2JBridge.JVMBridgeBase<PDFieldFactory>
     {
@@ -87,7 +87,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDFieldFactory.html#createField-org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm-org.apache.pdfbox.cos.COSDictionary-org.apache.pdfbox.pdmodel.interactive.form.PDNonTerminalField-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDFieldFactory.html#createField-org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm-org.apache.pdfbox.cos.COSDictionary-org.apache.pdfbox.pdmodel.interactive.form.PDNonTerminalField-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDAcroForm"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>

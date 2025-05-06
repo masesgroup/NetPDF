@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter.Compress
 {
     #region CompressParameters declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/compress/CompressParameters.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/compress/CompressParameters.html"/>
     /// </summary>
     public partial class CompressParameters : MASES.JCOBridge.C2JBridge.JVMBridgeBase<CompressParameters>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter.Compress
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/compress/CompressParameters.html#org.apache.pdfbox.pdfwriter.compress.CompressParameters(int)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/compress/CompressParameters.html#org.apache.pdfbox.pdfwriter.compress.CompressParameters(int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         public CompressParameters(int arg0)
@@ -91,19 +91,19 @@ namespace Org.Apache.Pdfbox.Pdfwriter.Compress
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/compress/CompressParameters.html#DEFAULT_OBJECT_STREAM_SIZE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/compress/CompressParameters.html#DEFAULT_OBJECT_STREAM_SIZE"/>
         /// </summary>
         public static int DEFAULT_OBJECT_STREAM_SIZE { get { if (!_DEFAULT_OBJECT_STREAM_SIZEReady) { _DEFAULT_OBJECT_STREAM_SIZEContent = SGetField<int>(LocalBridgeClazz, "DEFAULT_OBJECT_STREAM_SIZE"); _DEFAULT_OBJECT_STREAM_SIZEReady = true; } return _DEFAULT_OBJECT_STREAM_SIZEContent; } }
         private static int _DEFAULT_OBJECT_STREAM_SIZEContent = default;
         private static bool _DEFAULT_OBJECT_STREAM_SIZEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/compress/CompressParameters.html#DEFAULT_COMPRESSION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/compress/CompressParameters.html#DEFAULT_COMPRESSION"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdfwriter.Compress.CompressParameters DEFAULT_COMPRESSION { get { if (!_DEFAULT_COMPRESSIONReady) { _DEFAULT_COMPRESSIONContent = SGetField<Org.Apache.Pdfbox.Pdfwriter.Compress.CompressParameters>(LocalBridgeClazz, "DEFAULT_COMPRESSION"); _DEFAULT_COMPRESSIONReady = true; } return _DEFAULT_COMPRESSIONContent; } }
         private static Org.Apache.Pdfbox.Pdfwriter.Compress.CompressParameters _DEFAULT_COMPRESSIONContent = default;
         private static bool _DEFAULT_COMPRESSIONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/compress/CompressParameters.html#NO_COMPRESSION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/compress/CompressParameters.html#NO_COMPRESSION"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdfwriter.Compress.CompressParameters NO_COMPRESSION { get { if (!_NO_COMPRESSIONReady) { _NO_COMPRESSIONContent = SGetField<Org.Apache.Pdfbox.Pdfwriter.Compress.CompressParameters>(LocalBridgeClazz, "NO_COMPRESSION"); _NO_COMPRESSIONReady = true; } return _NO_COMPRESSIONContent; } }
         private static Org.Apache.Pdfbox.Pdfwriter.Compress.CompressParameters _NO_COMPRESSIONContent = default;
@@ -117,14 +117,14 @@ namespace Org.Apache.Pdfbox.Pdfwriter.Compress
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/compress/CompressParameters.html#getObjectStreamSize--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/compress/CompressParameters.html#getObjectStreamSize--"/> 
         /// </summary>
         public int ObjectStreamSize
         {
             get { return IExecuteWithSignature<int>("getObjectStreamSize", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/compress/CompressParameters.html#isCompress--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/compress/CompressParameters.html#isCompress--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsCompress()

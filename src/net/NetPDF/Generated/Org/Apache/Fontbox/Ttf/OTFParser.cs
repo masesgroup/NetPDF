@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf
 {
     #region OTFParser declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OTFParser.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OTFParser.html"/>
     /// </summary>
     public partial class OTFParser : Org.Apache.Fontbox.Ttf.TTFParser
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Fontbox.Ttf
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OTFParser.html#org.apache.fontbox.ttf.OTFParser(boolean)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OTFParser.html#org.apache.fontbox.ttf.OTFParser(boolean)"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public OTFParser(bool arg0)

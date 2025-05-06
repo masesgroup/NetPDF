@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Multipdf
 {
     #region PDFCloneUtility declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/multipdf/PDFCloneUtility.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/multipdf/PDFCloneUtility.html"/>
     /// </summary>
     public partial class PDFCloneUtility : MASES.JCOBridge.C2JBridge.JVMBridgeBase<PDFCloneUtility>
     {
@@ -91,7 +91,7 @@ namespace Org.Apache.Pdfbox.Multipdf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/multipdf/PDFCloneUtility.html#cloneForNewDocument-org.apache.pdfbox.cos.COSBase-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/multipdf/PDFCloneUtility.html#cloneForNewDocument-org.apache.pdfbox.cos.COSBase-"/>
         /// </summary>
         /// <param name="arg0"><typeparamref name="TCOSBase"/></param>
         /// <typeparam name="TCOSBase"><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></typeparam>

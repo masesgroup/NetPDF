@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
 {
     #region InstructionSequence declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/InstructionSequence.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/InstructionSequence.html"/>
     /// </summary>
     public partial class InstructionSequence : MASES.JCOBridge.C2JBridge.JVMBridgeBase<InstructionSequence>
     {
@@ -91,7 +91,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/InstructionSequence.html#addBoolean-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/InstructionSequence.html#addBoolean-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void AddBoolean(bool arg0)
@@ -99,7 +99,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
             IExecuteWithSignature("addBoolean", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/InstructionSequence.html#addInteger-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/InstructionSequence.html#addInteger-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         public void AddInteger(int arg0)
@@ -107,7 +107,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
             IExecuteWithSignature("addInteger", "(I)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/InstructionSequence.html#addName-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/InstructionSequence.html#addName-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         public void AddName(Java.Lang.String arg0)
@@ -115,7 +115,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
             IExecuteWithSignature("addName", "(Ljava/lang/String;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/InstructionSequence.html#addProc-org.apache.pdfbox.pdmodel.common.function.type4.InstructionSequence-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/InstructionSequence.html#addProc-org.apache.pdfbox.pdmodel.common.function.type4.InstructionSequence-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4.InstructionSequence"/></param>
         public void AddProc(Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4.InstructionSequence arg0)
@@ -123,7 +123,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
             IExecuteWithSignature("addProc", "(Lorg/apache/pdfbox/pdmodel/common/function/type4/InstructionSequence;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/InstructionSequence.html#addReal-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/InstructionSequence.html#addReal-float-"/>
         /// </summary>
         /// <param name="arg0"><see cref="float"/></param>
         public void AddReal(float arg0)
@@ -131,7 +131,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
             IExecuteWithSignature("addReal", "(F)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/InstructionSequence.html#execute-org.apache.pdfbox.pdmodel.common.function.type4.ExecutionContext-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/InstructionSequence.html#execute-org.apache.pdfbox.pdmodel.common.function.type4.ExecutionContext-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4.ExecutionContext"/></param>
         public void Execute(Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4.ExecutionContext arg0)

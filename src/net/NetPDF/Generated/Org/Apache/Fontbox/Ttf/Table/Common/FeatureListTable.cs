@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf.Table.Common
 {
     #region FeatureListTable declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/common/FeatureListTable.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/common/FeatureListTable.html"/>
     /// </summary>
     public partial class FeatureListTable : MASES.JCOBridge.C2JBridge.JVMBridgeBase<FeatureListTable>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Fontbox.Ttf.Table.Common
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/common/FeatureListTable.html#org.apache.fontbox.ttf.table.common.FeatureListTable(int,org.apache.fontbox.ttf.table.common.FeatureRecord[])"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/common/FeatureListTable.html#org.apache.fontbox.ttf.table.common.FeatureListTable(int,org.apache.fontbox.ttf.table.common.FeatureRecord[])"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Fontbox.Ttf.Table.Common.FeatureRecord"/></param>
@@ -100,14 +100,14 @@ namespace Org.Apache.Fontbox.Ttf.Table.Common
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/common/FeatureListTable.html#getFeatureCount--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/common/FeatureListTable.html#getFeatureCount--"/> 
         /// </summary>
         public int FeatureCount
         {
             get { return IExecuteWithSignature<int>("getFeatureCount", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/common/FeatureListTable.html#getFeatureRecords--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/common/FeatureListTable.html#getFeatureRecords--"/> 
         /// </summary>
         public Org.Apache.Fontbox.Ttf.Table.Common.FeatureRecord[] FeatureRecords
         {

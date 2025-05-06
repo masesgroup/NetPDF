@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Text
 {
     #region PDFMarkedContentExtractor declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFMarkedContentExtractor.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFMarkedContentExtractor.html"/>
     /// </summary>
     public partial class PDFMarkedContentExtractor : MASES.JCOBridge.C2JBridge.JVMBridgeBase<PDFMarkedContentExtractor>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Text
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFMarkedContentExtractor.html#org.apache.pdfbox.text.PDFMarkedContentExtractor(java.lang.String)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFMarkedContentExtractor.html#org.apache.pdfbox.text.PDFMarkedContentExtractor(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         public PDFMarkedContentExtractor(Java.Lang.String arg0)
@@ -99,14 +99,14 @@ namespace Org.Apache.Pdfbox.Text
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFMarkedContentExtractor.html#getMarkedContents--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFMarkedContentExtractor.html#getMarkedContents--"/> 
         /// </summary>
         public Java.Util.List<Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Markedcontent.PDMarkedContent> MarkedContents
         {
             get { return IExecuteWithSignature<Java.Util.List<Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Markedcontent.PDMarkedContent>>("getMarkedContents", "()Ljava/util/List;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFMarkedContentExtractor.html#isSuppressDuplicateOverlappingText--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFMarkedContentExtractor.html#isSuppressDuplicateOverlappingText--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsSuppressDuplicateOverlappingText()
@@ -114,7 +114,7 @@ namespace Org.Apache.Pdfbox.Text
             return IExecuteWithSignature<bool>("isSuppressDuplicateOverlappingText", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFMarkedContentExtractor.html#setSuppressDuplicateOverlappingText-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFMarkedContentExtractor.html#setSuppressDuplicateOverlappingText-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetSuppressDuplicateOverlappingText(bool arg0)
@@ -122,7 +122,7 @@ namespace Org.Apache.Pdfbox.Text
             IExecuteWithSignature("setSuppressDuplicateOverlappingText", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFMarkedContentExtractor.html#xobject-org.apache.pdfbox.pdmodel.graphics.PDXObject-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFMarkedContentExtractor.html#xobject-org.apache.pdfbox.pdmodel.graphics.PDXObject-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.PDXObject"/></param>
         public void Xobject(Org.Apache.Pdfbox.Pdmodel.Graphics.PDXObject arg0)

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Form
 {
     #region PDFormXObject declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html"/>
     /// </summary>
     public partial class PDFormXObject : Org.Apache.Pdfbox.Pdmodel.Graphics.PDXObject
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Form
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject(org.apache.pdfbox.cos.COSStream,org.apache.pdfbox.pdmodel.ResourceCache)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject(org.apache.pdfbox.cos.COSStream,org.apache.pdfbox.pdmodel.ResourceCache)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSStream"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.ResourceCache"/></param>
@@ -84,7 +84,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Form
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject(org.apache.pdfbox.cos.COSStream)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject(org.apache.pdfbox.cos.COSStream)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSStream"/></param>
         public PDFormXObject(Org.Apache.Pdfbox.Cos.COSStream arg0)
@@ -92,7 +92,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Form
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject(org.apache.pdfbox.pdmodel.common.PDStream)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject(org.apache.pdfbox.pdmodel.common.PDStream)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Common.PDStream"/></param>
         public PDFormXObject(Org.Apache.Pdfbox.Pdmodel.Common.PDStream arg0)
@@ -100,7 +100,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Form
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject(org.apache.pdfbox.pdmodel.PDDocument)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject(org.apache.pdfbox.pdmodel.PDDocument)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         public PDFormXObject(Org.Apache.Pdfbox.Pdmodel.PDDocument arg0)
@@ -128,70 +128,70 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Form
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#getBBox--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#setBBox-org.apache.pdfbox.pdmodel.common.PDRectangle-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#getBBox--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#setBBox-org.apache.pdfbox.pdmodel.common.PDRectangle-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.PDRectangle BBox
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.PDRectangle>("getBBox", "()Lorg/apache/pdfbox/pdmodel/common/PDRectangle;"); } set { IExecuteWithSignature("setBBox", "(Lorg/apache/pdfbox/pdmodel/common/PDRectangle;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#getContents--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#getContents--"/> 
         /// </summary>
         public Java.Io.InputStream Contents
         {
             get { return IExecuteWithSignature<Java.Io.InputStream>("getContents", "()Ljava/io/InputStream;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#getContentsForRandomAccess--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#getContentsForRandomAccess--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Io.RandomAccessRead ContentsForRandomAccess
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Io.RandomAccessRead>("getContentsForRandomAccess", "()Lorg/apache/pdfbox/io/RandomAccessRead;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#getContentStream--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#getContentStream--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.PDStream ContentStream
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.PDStream>("getContentStream", "()Lorg/apache/pdfbox/pdmodel/common/PDStream;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#getFormType--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#setFormType-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#getFormType--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#setFormType-int-"/>
         /// </summary>
         public int FormType
         {
             get { return IExecuteWithSignature<int>("getFormType", "()I"); } set { IExecuteWithSignature("setFormType", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#getGroup--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#setGroup-org.apache.pdfbox.pdmodel.graphics.form.PDTransparencyGroupAttributes-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#getGroup--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#setGroup-org.apache.pdfbox.pdmodel.graphics.form.PDTransparencyGroupAttributes-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Form.PDTransparencyGroupAttributes Group
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Form.PDTransparencyGroupAttributes>("getGroup", "()Lorg/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroupAttributes;"); } set { IExecuteWithSignature("setGroup", "(Lorg/apache/pdfbox/pdmodel/graphics/form/PDTransparencyGroupAttributes;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#getMatrix--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#setMatrix-java.awt.geom.AffineTransform-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#getMatrix--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#setMatrix-java.awt.geom.AffineTransform-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Util.Matrix Matrix
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Util.Matrix>("getMatrix", "()Lorg/apache/pdfbox/util/Matrix;"); } set { IExecuteWithSignature("setMatrix", "(Ljava/awt/geom/AffineTransform;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#getOptionalContent--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#setOptionalContent-org.apache.pdfbox.pdmodel.documentinterchange.markedcontent.PDPropertyList-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#getOptionalContent--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#setOptionalContent-org.apache.pdfbox.pdmodel.documentinterchange.markedcontent.PDPropertyList-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Markedcontent.PDPropertyList OptionalContent
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Markedcontent.PDPropertyList>("getOptionalContent", "()Lorg/apache/pdfbox/pdmodel/documentinterchange/markedcontent/PDPropertyList;"); } set { IExecuteWithSignature("setOptionalContent", "(Lorg/apache/pdfbox/pdmodel/documentinterchange/markedcontent/PDPropertyList;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#getResources--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#setResources-org.apache.pdfbox.pdmodel.PDResources-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#getResources--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#setResources-org.apache.pdfbox.pdmodel.PDResources-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.PDResources Resources
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.PDResources>("getResources", "()Lorg/apache/pdfbox/pdmodel/PDResources;"); } set { IExecuteWithSignature("setResources", "(Lorg/apache/pdfbox/pdmodel/PDResources;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#getStructParents--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#setStructParents-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#getStructParents--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.html#setStructParents-int-"/>
         /// </summary>
         public int StructParents
         {

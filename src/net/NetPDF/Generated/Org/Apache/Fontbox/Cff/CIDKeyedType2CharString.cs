@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Cff
 {
     #region CIDKeyedType2CharString declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CIDKeyedType2CharString.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CIDKeyedType2CharString.html"/>
     /// </summary>
     public partial class CIDKeyedType2CharString : Org.Apache.Fontbox.Cff.Type2CharString
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Fontbox.Cff
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CIDKeyedType2CharString.html#org.apache.fontbox.cff.CIDKeyedType2CharString(org.apache.fontbox.type1.Type1CharStringReader,java.lang.String,int,int,java.util.List,int,int)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CIDKeyedType2CharString.html#org.apache.fontbox.cff.CIDKeyedType2CharString(org.apache.fontbox.type1.Type1CharStringReader,java.lang.String,int,int,java.util.List,int,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Fontbox.Type1.Type1CharStringReader"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -105,7 +105,7 @@ namespace Org.Apache.Fontbox.Cff
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CIDKeyedType2CharString.html#getCID--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CIDKeyedType2CharString.html#getCID--"/> 
         /// </summary>
         public int CID
         {

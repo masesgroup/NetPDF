@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Handlers
 {
     #region PDAbstractAppearanceHandler declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/handlers/PDAbstractAppearanceHandler.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/handlers/PDAbstractAppearanceHandler.html"/>
     /// </summary>
     public partial class PDAbstractAppearanceHandler : Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Handlers.PDAppearanceHandler
     {
@@ -77,7 +77,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Handlers
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/handlers/PDAbstractAppearanceHandler.html#org.apache.pdfbox.pdmodel.interactive.annotation.handlers.PDAbstractAppearanceHandler(org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation,org.apache.pdfbox.pdmodel.PDDocument)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/handlers/PDAbstractAppearanceHandler.html#org.apache.pdfbox.pdmodel.interactive.annotation.handlers.PDAbstractAppearanceHandler(org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation,org.apache.pdfbox.pdmodel.PDDocument)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotation"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
@@ -86,7 +86,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Handlers
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/handlers/PDAbstractAppearanceHandler.html#org.apache.pdfbox.pdmodel.interactive.annotation.handlers.PDAbstractAppearanceHandler(org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/handlers/PDAbstractAppearanceHandler.html#org.apache.pdfbox.pdmodel.interactive.annotation.handlers.PDAbstractAppearanceHandler(org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotation"/></param>
         public PDAbstractAppearanceHandler(Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotation arg0)

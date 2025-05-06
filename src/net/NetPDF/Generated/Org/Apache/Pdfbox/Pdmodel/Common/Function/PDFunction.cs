@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function
 {
     #region PDFunction declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/PDFunction.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/PDFunction.html"/>
     /// </summary>
     public partial class PDFunction : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -77,7 +77,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/PDFunction.html#org.apache.pdfbox.pdmodel.common.function.PDFunction(org.apache.pdfbox.cos.COSBase)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/PDFunction.html#org.apache.pdfbox.pdmodel.common.function.PDFunction(org.apache.pdfbox.cos.COSBase)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></param>
         public PDFunction(Org.Apache.Pdfbox.Cos.COSBase arg0)
@@ -97,7 +97,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/PDFunction.html#create-org.apache.pdfbox.cos.COSBase-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/PDFunction.html#create-org.apache.pdfbox.cos.COSBase-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Common.Function.PDFunction"/></returns>
@@ -111,35 +111,35 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/PDFunction.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/PDFunction.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/PDFunction.html#getFunctionType--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/PDFunction.html#getFunctionType--"/> 
         /// </summary>
         public int FunctionType
         {
             get { return IExecuteWithSignature<int>("getFunctionType", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/PDFunction.html#getNumberOfInputParameters--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/PDFunction.html#getNumberOfInputParameters--"/> 
         /// </summary>
         public int NumberOfInputParameters
         {
             get { return IExecuteWithSignature<int>("getNumberOfInputParameters", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/PDFunction.html#getNumberOfOutputParameters--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/PDFunction.html#getNumberOfOutputParameters--"/> 
         /// </summary>
         public int NumberOfOutputParameters
         {
             get { return IExecuteWithSignature<int>("getNumberOfOutputParameters", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/PDFunction.html#eval-float[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/PDFunction.html#eval-float[]-"/>
         /// </summary>
         /// <param name="arg0"><see cref="float"/></param>
         /// <returns><see cref="float"/></returns>
@@ -149,7 +149,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function
             return IExecuteWithSignatureArray<float>("eval", "([F)[F", new object[] { arg0 });
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/PDFunction.html#getDomainForInput-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/PDFunction.html#getDomainForInput-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Common.PDRange"/></returns>
@@ -158,7 +158,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.PDRange>("getDomainForInput", "(I)Lorg/apache/pdfbox/pdmodel/common/PDRange;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/PDFunction.html#getRangeForOutput-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/PDFunction.html#getRangeForOutput-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Common.PDRange"/></returns>
@@ -167,7 +167,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.PDRange>("getRangeForOutput", "(I)Lorg/apache/pdfbox/pdmodel/common/PDRange;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/PDFunction.html#setDomainValues-org.apache.pdfbox.cos.COSArray-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/PDFunction.html#setDomainValues-org.apache.pdfbox.cos.COSArray-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSArray"/></param>
         public void SetDomainValues(Org.Apache.Pdfbox.Cos.COSArray arg0)
@@ -175,7 +175,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function
             IExecuteWithSignature("setDomainValues", "(Lorg/apache/pdfbox/cos/COSArray;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/PDFunction.html#setRangeValues-org.apache.pdfbox.cos.COSArray-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/PDFunction.html#setRangeValues-org.apache.pdfbox.cos.COSArray-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSArray"/></param>
         public void SetRangeValues(Org.Apache.Pdfbox.Cos.COSArray arg0)

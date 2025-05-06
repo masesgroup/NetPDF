@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
 {
     #region AccessPermission declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html"/>
     /// </summary>
     public partial class AccessPermission : MASES.JCOBridge.C2JBridge.JVMBridgeBase<AccessPermission>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#org.apache.pdfbox.pdmodel.encryption.AccessPermission(byte[])"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#org.apache.pdfbox.pdmodel.encryption.AccessPermission(byte[])"/>
         /// </summary>
         /// <param name="arg0"><see cref="byte"/></param>
         public AccessPermission(byte[] arg0)
@@ -83,7 +83,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#org.apache.pdfbox.pdmodel.encryption.AccessPermission(int)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#org.apache.pdfbox.pdmodel.encryption.AccessPermission(int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         public AccessPermission(int arg0)
@@ -103,7 +103,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#getOwnerAccessPermission--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#getOwnerAccessPermission--"/> 
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.Encryption.AccessPermission OwnerAccessPermission
         {
@@ -114,21 +114,21 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#getPermissionBytes--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#getPermissionBytes--"/> 
         /// </summary>
         public int PermissionBytes
         {
             get { return IExecuteWithSignature<int>("getPermissionBytes", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#getPermissionBytesForPublicKey--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#getPermissionBytesForPublicKey--"/> 
         /// </summary>
         public int PermissionBytesForPublicKey
         {
             get { return IExecuteWithSignature<int>("getPermissionBytesForPublicKey", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#canAssembleDocument--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#canAssembleDocument--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool CanAssembleDocument()
@@ -136,7 +136,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             return IExecuteWithSignature<bool>("canAssembleDocument", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#canExtractContent--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#canExtractContent--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool CanExtractContent()
@@ -144,7 +144,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             return IExecuteWithSignature<bool>("canExtractContent", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#canExtractForAccessibility--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#canExtractForAccessibility--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool CanExtractForAccessibility()
@@ -152,7 +152,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             return IExecuteWithSignature<bool>("canExtractForAccessibility", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#canFillInForm--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#canFillInForm--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool CanFillInForm()
@@ -160,7 +160,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             return IExecuteWithSignature<bool>("canFillInForm", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#canModify--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#canModify--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool CanModify()
@@ -168,7 +168,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             return IExecuteWithSignature<bool>("canModify", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#canModifyAnnotations--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#canModifyAnnotations--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool CanModifyAnnotations()
@@ -176,7 +176,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             return IExecuteWithSignature<bool>("canModifyAnnotations", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#canPrint--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#canPrint--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool CanPrint()
@@ -184,7 +184,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             return IExecuteWithSignature<bool>("canPrint", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#canPrintFaithful--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#canPrintFaithful--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool CanPrintFaithful()
@@ -192,7 +192,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             return IExecuteWithSignature<bool>("canPrintFaithful", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#isOwnerPermission--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#isOwnerPermission--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsOwnerPermission()
@@ -200,7 +200,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             return IExecuteWithSignature<bool>("isOwnerPermission", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#isReadOnly--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#isReadOnly--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsReadOnly()
@@ -208,7 +208,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             return IExecuteWithSignature<bool>("isReadOnly", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#setCanAssembleDocument-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#setCanAssembleDocument-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetCanAssembleDocument(bool arg0)
@@ -216,7 +216,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             IExecuteWithSignature("setCanAssembleDocument", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#setCanExtractContent-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#setCanExtractContent-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetCanExtractContent(bool arg0)
@@ -224,7 +224,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             IExecuteWithSignature("setCanExtractContent", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#setCanExtractForAccessibility-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#setCanExtractForAccessibility-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetCanExtractForAccessibility(bool arg0)
@@ -232,7 +232,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             IExecuteWithSignature("setCanExtractForAccessibility", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#setCanFillInForm-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#setCanFillInForm-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetCanFillInForm(bool arg0)
@@ -240,7 +240,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             IExecuteWithSignature("setCanFillInForm", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#setCanModify-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#setCanModify-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetCanModify(bool arg0)
@@ -248,7 +248,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             IExecuteWithSignature("setCanModify", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#setCanModifyAnnotations-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#setCanModifyAnnotations-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetCanModifyAnnotations(bool arg0)
@@ -256,7 +256,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             IExecuteWithSignature("setCanModifyAnnotations", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#setCanPrint-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#setCanPrint-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetCanPrint(bool arg0)
@@ -264,7 +264,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             IExecuteWithSignature("setCanPrint", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#setCanPrintFaithful-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#setCanPrintFaithful-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetCanPrintFaithful(bool arg0)
@@ -272,7 +272,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             IExecuteWithSignature("setCanPrintFaithful", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#setReadOnly--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/AccessPermission.html#setReadOnly--"/>
         /// </summary>
         public void SetReadOnly()
         {

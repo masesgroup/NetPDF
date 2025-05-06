@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Util
 {
     #region Vector declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/util/Vector.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/util/Vector.html"/>
     /// </summary>
     public partial class Vector : MASES.JCOBridge.C2JBridge.JVMBridgeBase<Vector>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Util
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/util/Vector.html#org.apache.pdfbox.util.Vector(float,float)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/util/Vector.html#org.apache.pdfbox.util.Vector(float,float)"/>
         /// </summary>
         /// <param name="arg0"><see cref="float"/></param>
         /// <param name="arg1"><see cref="float"/></param>
@@ -100,21 +100,21 @@ namespace Org.Apache.Pdfbox.Util
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/util/Vector.html#getX--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/util/Vector.html#getX--"/> 
         /// </summary>
         public float X
         {
             get { return IExecuteWithSignature<float>("getX", "()F"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/util/Vector.html#getY--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/util/Vector.html#getY--"/> 
         /// </summary>
         public float Y
         {
             get { return IExecuteWithSignature<float>("getY", "()F"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/util/Vector.html#scale-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/util/Vector.html#scale-float-"/>
         /// </summary>
         /// <param name="arg0"><see cref="float"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Util.Vector"/></returns>

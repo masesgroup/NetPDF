@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
 {
     #region PDSeparation declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDSeparation.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDSeparation.html"/>
     /// </summary>
     public partial class PDSeparation : Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDSpecialColorSpace
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDSeparation.html#org.apache.pdfbox.pdmodel.graphics.color.PDSeparation(org.apache.pdfbox.cos.COSArray,org.apache.pdfbox.pdmodel.PDResources)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDSeparation.html#org.apache.pdfbox.pdmodel.graphics.color.PDSeparation(org.apache.pdfbox.cos.COSArray,org.apache.pdfbox.pdmodel.PDResources)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSArray"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.PDResources"/></param>
@@ -101,21 +101,21 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDSeparation.html#getAlternateColorSpace--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDSeparation.html#setAlternateColorSpace-org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDSeparation.html#getAlternateColorSpace--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDSeparation.html#setAlternateColorSpace-org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace AlternateColorSpace
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace>("getAlternateColorSpace", "()Lorg/apache/pdfbox/pdmodel/graphics/color/PDColorSpace;"); } set { IExecuteWithSignature("setAlternateColorSpace", "(Lorg/apache/pdfbox/pdmodel/graphics/color/PDColorSpace;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDSeparation.html#getColorantName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDSeparation.html#setColorantName-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDSeparation.html#getColorantName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDSeparation.html#setColorantName-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String ColorantName
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getColorantName", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setColorantName", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDSeparation.html#setTintTransform-org.apache.pdfbox.pdmodel.common.function.PDFunction-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDSeparation.html#setTintTransform-org.apache.pdfbox.pdmodel.common.function.PDFunction-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Common.Function.PDFunction"/></param>
         public void SetTintTransform(Org.Apache.Pdfbox.Pdmodel.Common.Function.PDFunction arg0)

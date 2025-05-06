@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
 {
     #region PDShading declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html"/>
     /// </summary>
     public partial class PDShading : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -77,7 +77,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#org.apache.pdfbox.pdmodel.graphics.shading.PDShading(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#org.apache.pdfbox.pdmodel.graphics.shading.PDShading(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDShading(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -93,43 +93,43 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#SHADING_TYPE1"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#SHADING_TYPE1"/>
         /// </summary>
         public static int SHADING_TYPE1 { get { if (!_SHADING_TYPE1Ready) { _SHADING_TYPE1Content = SGetField<int>(LocalBridgeClazz, "SHADING_TYPE1"); _SHADING_TYPE1Ready = true; } return _SHADING_TYPE1Content; } }
         private static int _SHADING_TYPE1Content = default;
         private static bool _SHADING_TYPE1Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#SHADING_TYPE2"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#SHADING_TYPE2"/>
         /// </summary>
         public static int SHADING_TYPE2 { get { if (!_SHADING_TYPE2Ready) { _SHADING_TYPE2Content = SGetField<int>(LocalBridgeClazz, "SHADING_TYPE2"); _SHADING_TYPE2Ready = true; } return _SHADING_TYPE2Content; } }
         private static int _SHADING_TYPE2Content = default;
         private static bool _SHADING_TYPE2Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#SHADING_TYPE3"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#SHADING_TYPE3"/>
         /// </summary>
         public static int SHADING_TYPE3 { get { if (!_SHADING_TYPE3Ready) { _SHADING_TYPE3Content = SGetField<int>(LocalBridgeClazz, "SHADING_TYPE3"); _SHADING_TYPE3Ready = true; } return _SHADING_TYPE3Content; } }
         private static int _SHADING_TYPE3Content = default;
         private static bool _SHADING_TYPE3Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#SHADING_TYPE4"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#SHADING_TYPE4"/>
         /// </summary>
         public static int SHADING_TYPE4 { get { if (!_SHADING_TYPE4Ready) { _SHADING_TYPE4Content = SGetField<int>(LocalBridgeClazz, "SHADING_TYPE4"); _SHADING_TYPE4Ready = true; } return _SHADING_TYPE4Content; } }
         private static int _SHADING_TYPE4Content = default;
         private static bool _SHADING_TYPE4Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#SHADING_TYPE5"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#SHADING_TYPE5"/>
         /// </summary>
         public static int SHADING_TYPE5 { get { if (!_SHADING_TYPE5Ready) { _SHADING_TYPE5Content = SGetField<int>(LocalBridgeClazz, "SHADING_TYPE5"); _SHADING_TYPE5Ready = true; } return _SHADING_TYPE5Content; } }
         private static int _SHADING_TYPE5Content = default;
         private static bool _SHADING_TYPE5Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#SHADING_TYPE6"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#SHADING_TYPE6"/>
         /// </summary>
         public static int SHADING_TYPE6 { get { if (!_SHADING_TYPE6Ready) { _SHADING_TYPE6Content = SGetField<int>(LocalBridgeClazz, "SHADING_TYPE6"); _SHADING_TYPE6Ready = true; } return _SHADING_TYPE6Content; } }
         private static int _SHADING_TYPE6Content = default;
         private static bool _SHADING_TYPE6Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#SHADING_TYPE7"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#SHADING_TYPE7"/>
         /// </summary>
         public static int SHADING_TYPE7 { get { if (!_SHADING_TYPE7Ready) { _SHADING_TYPE7Content = SGetField<int>(LocalBridgeClazz, "SHADING_TYPE7"); _SHADING_TYPE7Ready = true; } return _SHADING_TYPE7Content; } }
         private static int _SHADING_TYPE7Content = default;
@@ -139,7 +139,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#create-org.apache.pdfbox.cos.COSDictionary-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#create-org.apache.pdfbox.cos.COSDictionary-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Shading.PDShading"/></returns>
@@ -153,63 +153,63 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#getAntiAlias--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#setAntiAlias-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#getAntiAlias--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#setAntiAlias-boolean-"/>
         /// </summary>
         public bool AntiAlias
         {
             get { return IExecuteWithSignature<bool>("getAntiAlias", "()Z"); } set { IExecuteWithSignature("setAntiAlias", "(Z)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#getBackground--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#setBackground-org.apache.pdfbox.cos.COSArray-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#getBackground--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#setBackground-org.apache.pdfbox.cos.COSArray-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSArray Background
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSArray>("getBackground", "()Lorg/apache/pdfbox/cos/COSArray;"); } set { IExecuteWithSignature("setBackground", "(Lorg/apache/pdfbox/cos/COSArray;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#getBBox--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#setBBox-org.apache.pdfbox.pdmodel.common.PDRectangle-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#getBBox--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#setBBox-org.apache.pdfbox.pdmodel.common.PDRectangle-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.PDRectangle BBox
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.PDRectangle>("getBBox", "()Lorg/apache/pdfbox/pdmodel/common/PDRectangle;"); } set { IExecuteWithSignature("setBBox", "(Lorg/apache/pdfbox/pdmodel/common/PDRectangle;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#getColorSpace--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#setColorSpace-org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#getColorSpace--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#setColorSpace-org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace ColorSpace
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace>("getColorSpace", "()Lorg/apache/pdfbox/pdmodel/graphics/color/PDColorSpace;"); } set { IExecuteWithSignature("setColorSpace", "(Lorg/apache/pdfbox/pdmodel/graphics/color/PDColorSpace;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#getFunction--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#getFunction--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.Function.PDFunction Function
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.Function.PDFunction>("getFunction", "()Lorg/apache/pdfbox/pdmodel/common/function/PDFunction;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#getShadingType--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#setShadingType-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#getShadingType--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#setShadingType-int-"/>
         /// </summary>
         public int ShadingType
         {
             get { return IExecuteWithSignature<int>("getShadingType", "()I"); } set { IExecuteWithSignature("setShadingType", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#getType--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#getType--"/> 
         /// </summary>
         public Java.Lang.String Type
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getType", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#toPaint-org.apache.pdfbox.util.Matrix-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#toPaint-org.apache.pdfbox.util.Matrix-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Util.Matrix"/></param>
         /// <returns><see cref="Java.Awt.Paint"/></returns>
@@ -218,7 +218,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
             return IExecuteWithSignature<Java.Awt.Paint>("toPaint", "(Lorg/apache/pdfbox/util/Matrix;)Ljava/awt/Paint;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#evalFunction-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#evalFunction-float-"/>
         /// </summary>
         /// <param name="arg0"><see cref="float"/></param>
         /// <returns><see cref="float"/></returns>
@@ -228,7 +228,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
             return IExecuteWithSignatureArray<float>("evalFunction", "(F)[F", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#evalFunction-float[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#evalFunction-float[]-"/>
         /// </summary>
         /// <param name="arg0"><see cref="float"/></param>
         /// <returns><see cref="float"/></returns>
@@ -238,7 +238,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
             return IExecuteWithSignatureArray<float>("evalFunction", "([F)[F", new object[] { arg0 });
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#getBounds-java.awt.geom.AffineTransform-org.apache.pdfbox.util.Matrix-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#getBounds-java.awt.geom.AffineTransform-org.apache.pdfbox.util.Matrix-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Awt.Geom.AffineTransform"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Util.Matrix"/></param>
@@ -249,7 +249,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
             return IExecuteWithSignature<Java.Awt.Geom.Rectangle2D>("getBounds", "(Ljava/awt/geom/AffineTransform;Lorg/apache/pdfbox/util/Matrix;)Ljava/awt/geom/Rectangle2D;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#setFunction-org.apache.pdfbox.cos.COSArray-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#setFunction-org.apache.pdfbox.cos.COSArray-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSArray"/></param>
         public void SetFunction(Org.Apache.Pdfbox.Cos.COSArray arg0)
@@ -257,7 +257,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
             IExecuteWithSignature("setFunction", "(Lorg/apache/pdfbox/cos/COSArray;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#setFunction-org.apache.pdfbox.pdmodel.common.function.PDFunction-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShading.html#setFunction-org.apache.pdfbox.pdmodel.common.function.PDFunction-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Common.Function.PDFunction"/></param>
         public void SetFunction(Org.Apache.Pdfbox.Pdmodel.Common.Function.PDFunction arg0)

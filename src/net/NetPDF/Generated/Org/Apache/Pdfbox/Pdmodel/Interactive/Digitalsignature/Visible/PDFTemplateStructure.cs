@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
 {
     #region PDFTemplateStructure declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html"/>
     /// </summary>
     public partial class PDFTemplateStructure : MASES.JCOBridge.C2JBridge.JVMBridgeBase<PDFTemplateStructure>
     {
@@ -91,196 +91,196 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getAcroForm--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setAcroForm-org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getAcroForm--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setAcroForm-org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDAcroForm AcroForm
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDAcroForm>("getAcroForm", "()Lorg/apache/pdfbox/pdmodel/interactive/form/PDAcroForm;"); } set { IExecuteWithSignature("setAcroForm", "(Lorg/apache/pdfbox/pdmodel/interactive/form/PDAcroForm;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getAcroFormDictionary--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setAcroFormDictionary-org.apache.pdfbox.cos.COSDictionary-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getAcroFormDictionary--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setAcroFormDictionary-org.apache.pdfbox.cos.COSDictionary-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSDictionary AcroFormDictionary
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSDictionary>("getAcroFormDictionary", "()Lorg/apache/pdfbox/cos/COSDictionary;"); } set { IExecuteWithSignature("setAcroFormDictionary", "(Lorg/apache/pdfbox/cos/COSDictionary;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getAcroFormFields--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setAcroFormFields-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getAcroFormFields--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setAcroFormFields-java.util.List-"/>
         /// </summary>
         public Java.Util.List<Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDField> AcroFormFields
         {
             get { return IExecuteWithSignature<Java.Util.List<Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDField>>("getAcroFormFields", "()Ljava/util/List;"); } set { IExecuteWithSignature("setAcroFormFields", "(Ljava/util/List;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getAffineTransform--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setAffineTransform-java.awt.geom.AffineTransform-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getAffineTransform--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setAffineTransform-java.awt.geom.AffineTransform-"/>
         /// </summary>
         public Java.Awt.Geom.AffineTransform AffineTransform
         {
             get { return IExecuteWithSignature<Java.Awt.Geom.AffineTransform>("getAffineTransform", "()Ljava/awt/geom/AffineTransform;"); } set { IExecuteWithSignature("setAffineTransform", "(Ljava/awt/geom/AffineTransform;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getAppearanceDictionary--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setAppearanceDictionary-org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceDictionary-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getAppearanceDictionary--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setAppearanceDictionary-org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceDictionary-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAppearanceDictionary AppearanceDictionary
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAppearanceDictionary>("getAppearanceDictionary", "()Lorg/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary;"); } set { IExecuteWithSignature("setAppearanceDictionary", "(Lorg/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getFormatterRectangle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setFormatterRectangle-org.apache.pdfbox.pdmodel.common.PDRectangle-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getFormatterRectangle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setFormatterRectangle-org.apache.pdfbox.pdmodel.common.PDRectangle-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.PDRectangle FormatterRectangle
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.PDRectangle>("getFormatterRectangle", "()Lorg/apache/pdfbox/pdmodel/common/PDRectangle;"); } set { IExecuteWithSignature("setFormatterRectangle", "(Lorg/apache/pdfbox/pdmodel/common/PDRectangle;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getHolderForm--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setHolderForm-org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getHolderForm--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setHolderForm-org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Form.PDFormXObject HolderForm
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Form.PDFormXObject>("getHolderForm", "()Lorg/apache/pdfbox/pdmodel/graphics/form/PDFormXObject;"); } set { IExecuteWithSignature("setHolderForm", "(Lorg/apache/pdfbox/pdmodel/graphics/form/PDFormXObject;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getHolderFormResources--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setHolderFormResources-org.apache.pdfbox.pdmodel.PDResources-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getHolderFormResources--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setHolderFormResources-org.apache.pdfbox.pdmodel.PDResources-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.PDResources HolderFormResources
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.PDResources>("getHolderFormResources", "()Lorg/apache/pdfbox/pdmodel/PDResources;"); } set { IExecuteWithSignature("setHolderFormResources", "(Lorg/apache/pdfbox/pdmodel/PDResources;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getHolderFormStream--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setHolderFormStream-org.apache.pdfbox.pdmodel.common.PDStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getHolderFormStream--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setHolderFormStream-org.apache.pdfbox.pdmodel.common.PDStream-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.PDStream HolderFormStream
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.PDStream>("getHolderFormStream", "()Lorg/apache/pdfbox/pdmodel/common/PDStream;"); } set { IExecuteWithSignature("setHolderFormStream", "(Lorg/apache/pdfbox/pdmodel/common/PDStream;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getImage--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setImage-org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getImage--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setImage-org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Image.PDImageXObject Image
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Image.PDImageXObject>("getImage", "()Lorg/apache/pdfbox/pdmodel/graphics/image/PDImageXObject;"); } set { IExecuteWithSignature("setImage", "(Lorg/apache/pdfbox/pdmodel/graphics/image/PDImageXObject;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getImageForm--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setImageForm-org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getImageForm--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setImageForm-org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Form.PDFormXObject ImageForm
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Form.PDFormXObject>("getImageForm", "()Lorg/apache/pdfbox/pdmodel/graphics/form/PDFormXObject;"); } set { IExecuteWithSignature("setImageForm", "(Lorg/apache/pdfbox/pdmodel/graphics/form/PDFormXObject;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getImageFormName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setImageFormName-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getImageFormName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setImageFormName-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSName ImageFormName
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSName>("getImageFormName", "()Lorg/apache/pdfbox/cos/COSName;"); } set { IExecuteWithSignature("setImageFormName", "(Lorg/apache/pdfbox/cos/COSName;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getImageFormResources--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setImageFormResources-org.apache.pdfbox.pdmodel.PDResources-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getImageFormResources--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setImageFormResources-org.apache.pdfbox.pdmodel.PDResources-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.PDResources ImageFormResources
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.PDResources>("getImageFormResources", "()Lorg/apache/pdfbox/pdmodel/PDResources;"); } set { IExecuteWithSignature("setImageFormResources", "(Lorg/apache/pdfbox/pdmodel/PDResources;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getImageFormStream--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setImageFormStream-org.apache.pdfbox.pdmodel.common.PDStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getImageFormStream--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setImageFormStream-org.apache.pdfbox.pdmodel.common.PDStream-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.PDStream ImageFormStream
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.PDStream>("getImageFormStream", "()Lorg/apache/pdfbox/pdmodel/common/PDStream;"); } set { IExecuteWithSignature("setImageFormStream", "(Lorg/apache/pdfbox/pdmodel/common/PDStream;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getImageName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setImageName-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getImageName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setImageName-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSName ImageName
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSName>("getImageName", "()Lorg/apache/pdfbox/cos/COSName;"); } set { IExecuteWithSignature("setImageName", "(Lorg/apache/pdfbox/cos/COSName;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getInnerForm--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setInnerForm-org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getInnerForm--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setInnerForm-org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Form.PDFormXObject InnerForm
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Form.PDFormXObject>("getInnerForm", "()Lorg/apache/pdfbox/pdmodel/graphics/form/PDFormXObject;"); } set { IExecuteWithSignature("setInnerForm", "(Lorg/apache/pdfbox/pdmodel/graphics/form/PDFormXObject;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getInnerFormName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setInnerFormName-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getInnerFormName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setInnerFormName-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSName InnerFormName
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSName>("getInnerFormName", "()Lorg/apache/pdfbox/cos/COSName;"); } set { IExecuteWithSignature("setInnerFormName", "(Lorg/apache/pdfbox/cos/COSName;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getInnerFormResources--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setInnerFormResources-org.apache.pdfbox.pdmodel.PDResources-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getInnerFormResources--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setInnerFormResources-org.apache.pdfbox.pdmodel.PDResources-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.PDResources InnerFormResources
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.PDResources>("getInnerFormResources", "()Lorg/apache/pdfbox/pdmodel/PDResources;"); } set { IExecuteWithSignature("setInnerFormResources", "(Lorg/apache/pdfbox/pdmodel/PDResources;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getInnerFormStream--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getInnerFormStream--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.PDStream InnerFormStream
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.PDStream>("getInnerFormStream", "()Lorg/apache/pdfbox/pdmodel/common/PDStream;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getPage--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setPage-org.apache.pdfbox.pdmodel.PDPage-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getPage--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setPage-org.apache.pdfbox.pdmodel.PDPage-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.PDPage Page
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.PDPage>("getPage", "()Lorg/apache/pdfbox/pdmodel/PDPage;"); } set { IExecuteWithSignature("setPage", "(Lorg/apache/pdfbox/pdmodel/PDPage;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getPdSignature--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setPdSignature-org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSignature-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getPdSignature--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setPdSignature-org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSignature-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature PdSignature
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSignature>("getPdSignature", "()Lorg/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature;"); } set { IExecuteWithSignature("setPdSignature", "(Lorg/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getProcSet--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setProcSet-org.apache.pdfbox.cos.COSArray-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getProcSet--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setProcSet-org.apache.pdfbox.cos.COSArray-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSArray ProcSet
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSArray>("getProcSet", "()Lorg/apache/pdfbox/cos/COSArray;"); } set { IExecuteWithSignature("setProcSet", "(Lorg/apache/pdfbox/cos/COSArray;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getSignatureField--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setSignatureField-org.apache.pdfbox.pdmodel.interactive.form.PDSignatureField-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getSignatureField--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setSignatureField-org.apache.pdfbox.pdmodel.interactive.form.PDSignatureField-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDSignatureField SignatureField
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDSignatureField>("getSignatureField", "()Lorg/apache/pdfbox/pdmodel/interactive/form/PDSignatureField;"); } set { IExecuteWithSignature("setSignatureField", "(Lorg/apache/pdfbox/pdmodel/interactive/form/PDSignatureField;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getSignatureRectangle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setSignatureRectangle-org.apache.pdfbox.pdmodel.common.PDRectangle-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getSignatureRectangle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setSignatureRectangle-org.apache.pdfbox.pdmodel.common.PDRectangle-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.PDRectangle SignatureRectangle
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.PDRectangle>("getSignatureRectangle", "()Lorg/apache/pdfbox/pdmodel/common/PDRectangle;"); } set { IExecuteWithSignature("setSignatureRectangle", "(Lorg/apache/pdfbox/pdmodel/common/PDRectangle;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getTemplate--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setTemplate-org.apache.pdfbox.pdmodel.PDDocument-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getTemplate--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setTemplate-org.apache.pdfbox.pdmodel.PDDocument-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.PDDocument Template
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.PDDocument>("getTemplate", "()Lorg/apache/pdfbox/pdmodel/PDDocument;"); } set { IExecuteWithSignature("setTemplate", "(Lorg/apache/pdfbox/pdmodel/PDDocument;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getVisualSignature--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setVisualSignature-org.apache.pdfbox.cos.COSDocument-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getVisualSignature--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setVisualSignature-org.apache.pdfbox.cos.COSDocument-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSDocument VisualSignature
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSDocument>("getVisualSignature", "()Lorg/apache/pdfbox/cos/COSDocument;"); } set { IExecuteWithSignature("setVisualSignature", "(Lorg/apache/pdfbox/cos/COSDocument;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getWidgetDictionary--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setWidgetDictionary-org.apache.pdfbox.cos.COSDictionary-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#getWidgetDictionary--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setWidgetDictionary-org.apache.pdfbox.cos.COSDictionary-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSDictionary WidgetDictionary
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSDictionary>("getWidgetDictionary", "()Lorg/apache/pdfbox/cos/COSDictionary;"); } set { IExecuteWithSignature("setWidgetDictionary", "(Lorg/apache/pdfbox/cos/COSDictionary;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setInnterFormStream-org.apache.pdfbox.pdmodel.common.PDStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/visible/PDFTemplateStructure.html#setInnterFormStream-org.apache.pdfbox.pdmodel.common.PDStream-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Common.PDStream"/></param>
         public void SetInnterFormStream(Org.Apache.Pdfbox.Pdmodel.Common.PDStream arg0)

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Multipdf
 {
     #region Splitter declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/multipdf/Splitter.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/multipdf/Splitter.html"/>
     /// </summary>
     public partial class Splitter : MASES.JCOBridge.C2JBridge.JVMBridgeBase<Splitter>
     {
@@ -91,14 +91,14 @@ namespace Org.Apache.Pdfbox.Multipdf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/multipdf/Splitter.html#getStreamCacheCreateFunction--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/multipdf/Splitter.html#setStreamCacheCreateFunction-org.apache.pdfbox.io.RandomAccessStreamCache.StreamCacheCreateFunction-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/multipdf/Splitter.html#getStreamCacheCreateFunction--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/multipdf/Splitter.html#setStreamCacheCreateFunction-org.apache.pdfbox.io.RandomAccessStreamCache.StreamCacheCreateFunction-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Io.RandomAccessStreamCache.StreamCacheCreateFunction StreamCacheCreateFunction
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Io.RandomAccessStreamCache.StreamCacheCreateFunction>("getStreamCacheCreateFunction", "()Lorg/apache/pdfbox/io/RandomAccessStreamCache$StreamCacheCreateFunction;"); } set { IExecuteWithSignature("setStreamCacheCreateFunction", "(Lorg/apache/pdfbox/io/RandomAccessStreamCache$StreamCacheCreateFunction;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/multipdf/Splitter.html#split-org.apache.pdfbox.pdmodel.PDDocument-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/multipdf/Splitter.html#split-org.apache.pdfbox.pdmodel.PDDocument-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <returns><see cref="Java.Util.List"/></returns>
@@ -108,7 +108,7 @@ namespace Org.Apache.Pdfbox.Multipdf
             return IExecuteWithSignature<Java.Util.List<Org.Apache.Pdfbox.Pdmodel.PDDocument>>("split", "(Lorg/apache/pdfbox/pdmodel/PDDocument;)Ljava/util/List;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/multipdf/Splitter.html#setEndPage-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/multipdf/Splitter.html#setEndPage-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         public void SetEndPage(int arg0)
@@ -116,7 +116,7 @@ namespace Org.Apache.Pdfbox.Multipdf
             IExecuteWithSignature("setEndPage", "(I)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/multipdf/Splitter.html#setSplitAtPage-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/multipdf/Splitter.html#setSplitAtPage-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         public void SetSplitAtPage(int arg0)
@@ -124,7 +124,7 @@ namespace Org.Apache.Pdfbox.Multipdf
             IExecuteWithSignature("setSplitAtPage", "(I)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/multipdf/Splitter.html#setStartPage-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/multipdf/Splitter.html#setStartPage-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         public void SetStartPage(int arg0)

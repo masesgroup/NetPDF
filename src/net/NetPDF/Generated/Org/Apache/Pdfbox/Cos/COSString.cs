@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Cos
 {
     #region COSString declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSString.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSString.html"/>
     /// </summary>
     public partial class COSString : Org.Apache.Pdfbox.Cos.COSBase
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Cos
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSString.html#org.apache.pdfbox.cos.COSString(byte[],boolean)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSString.html#org.apache.pdfbox.cos.COSString(byte[],boolean)"/>
         /// </summary>
         /// <param name="arg0"><see cref="byte"/></param>
         /// <param name="arg1"><see cref="bool"/></param>
@@ -84,7 +84,7 @@ namespace Org.Apache.Pdfbox.Cos
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSString.html#org.apache.pdfbox.cos.COSString(byte[])"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSString.html#org.apache.pdfbox.cos.COSString(byte[])"/>
         /// </summary>
         /// <param name="arg0"><see cref="byte"/></param>
         public COSString(byte[] arg0)
@@ -92,7 +92,7 @@ namespace Org.Apache.Pdfbox.Cos
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSString.html#org.apache.pdfbox.cos.COSString(java.lang.String,boolean)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSString.html#org.apache.pdfbox.cos.COSString(java.lang.String,boolean)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="bool"/></param>
@@ -101,7 +101,7 @@ namespace Org.Apache.Pdfbox.Cos
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSString.html#org.apache.pdfbox.cos.COSString(java.lang.String)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSString.html#org.apache.pdfbox.cos.COSString(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         public COSString(Java.Lang.String arg0)
@@ -117,7 +117,7 @@ namespace Org.Apache.Pdfbox.Cos
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSString.html#FORCE_PARSING"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSString.html#FORCE_PARSING"/>
         /// </summary>
         public static bool FORCE_PARSING { get { if (!_FORCE_PARSINGReady) { _FORCE_PARSINGContent = SGetField<bool>(LocalBridgeClazz, "FORCE_PARSING"); _FORCE_PARSINGReady = true; } return _FORCE_PARSINGContent; } }
         private static bool _FORCE_PARSINGContent = default;
@@ -127,7 +127,7 @@ namespace Org.Apache.Pdfbox.Cos
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSString.html#parseHex-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSString.html#parseHex-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Cos.COSString"/></returns>
@@ -141,35 +141,35 @@ namespace Org.Apache.Pdfbox.Cos
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSString.html#getASCII--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSString.html#getASCII--"/> 
         /// </summary>
         public Java.Lang.String ASCII
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getASCII", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSString.html#getBytes--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSString.html#getBytes--"/> 
         /// </summary>
         public byte[] Bytes
         {
             get { return IExecuteWithSignatureArray<byte>("getBytes", "()[B"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSString.html#getForceHexForm--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSString.html#getForceHexForm--"/> 
         /// </summary>
         public bool ForceHexForm
         {
             get { return IExecuteWithSignature<bool>("getForceHexForm", "()Z"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSString.html#getString--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSString.html#getString--"/> 
         /// </summary>
         public Java.Lang.String String
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getString", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSString.html#toHexString--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSString.html#toHexString--"/>
         /// </summary>
         /// <returns><see cref="Java.Lang.String"/></returns>
         public Java.Lang.String ToHexString()

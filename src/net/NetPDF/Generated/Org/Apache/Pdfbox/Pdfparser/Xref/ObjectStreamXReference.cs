@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdfparser.Xref
 {
     #region ObjectStreamXReference declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/xref/ObjectStreamXReference.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/xref/ObjectStreamXReference.html"/>
     /// </summary>
     public partial class ObjectStreamXReference : Org.Apache.Pdfbox.Pdfparser.Xref.AbstractXReference
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdfparser.Xref
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/xref/ObjectStreamXReference.html#org.apache.pdfbox.pdfparser.xref.ObjectStreamXReference(int,org.apache.pdfbox.cos.COSObjectKey,org.apache.pdfbox.cos.COSBase,org.apache.pdfbox.cos.COSObjectKey)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/xref/ObjectStreamXReference.html#org.apache.pdfbox.pdfparser.xref.ObjectStreamXReference(int,org.apache.pdfbox.cos.COSObjectKey,org.apache.pdfbox.cos.COSBase,org.apache.pdfbox.cos.COSObjectKey)"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSObjectKey"/></param>
@@ -102,21 +102,21 @@ namespace Org.Apache.Pdfbox.Pdfparser.Xref
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/xref/ObjectStreamXReference.html#getObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/xref/ObjectStreamXReference.html#getObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase Object
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/xref/ObjectStreamXReference.html#getObjectStreamIndex--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/xref/ObjectStreamXReference.html#getObjectStreamIndex--"/> 
         /// </summary>
         public int ObjectStreamIndex
         {
             get { return IExecuteWithSignature<int>("getObjectStreamIndex", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/xref/ObjectStreamXReference.html#getParentKey--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/xref/ObjectStreamXReference.html#getParentKey--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSObjectKey ParentKey
         {

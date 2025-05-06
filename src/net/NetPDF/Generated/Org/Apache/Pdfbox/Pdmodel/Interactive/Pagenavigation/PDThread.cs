@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Pagenavigation
 {
     #region PDThread declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDThread.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDThread.html"/>
     /// </summary>
     public partial class PDThread : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Pagenavigation
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDThread.html#org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDThread(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDThread.html#org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDThread(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDThread(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -99,21 +99,21 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Pagenavigation
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDThread.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDThread.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDThread.html#getFirstBead--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDThread.html#setFirstBead-org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDThreadBead-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDThread.html#getFirstBead--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDThread.html#setFirstBead-org.apache.pdfbox.pdmodel.interactive.pagenavigation.PDThreadBead-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Pagenavigation.PDThreadBead FirstBead
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Pagenavigation.PDThreadBead>("getFirstBead", "()Lorg/apache/pdfbox/pdmodel/interactive/pagenavigation/PDThreadBead;"); } set { IExecuteWithSignature("setFirstBead", "(Lorg/apache/pdfbox/pdmodel/interactive/pagenavigation/PDThreadBead;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDThread.html#getThreadInfo--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDThread.html#setThreadInfo-org.apache.pdfbox.pdmodel.PDDocumentInformation-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDThread.html#getThreadInfo--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/pagenavigation/PDThread.html#setThreadInfo-org.apache.pdfbox.pdmodel.PDDocumentInformation-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.PDDocumentInformation ThreadInfo
         {

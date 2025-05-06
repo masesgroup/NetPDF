@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Cff
 {
     #region Type1CharStringParser declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/Type1CharStringParser.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/Type1CharStringParser.html"/>
     /// </summary>
     public partial class Type1CharStringParser : MASES.JCOBridge.C2JBridge.JVMBridgeBase<Type1CharStringParser>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Fontbox.Cff
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/Type1CharStringParser.html#org.apache.fontbox.cff.Type1CharStringParser(java.lang.String)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/Type1CharStringParser.html#org.apache.fontbox.cff.Type1CharStringParser(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         public Type1CharStringParser(Java.Lang.String arg0)
@@ -99,7 +99,7 @@ namespace Org.Apache.Fontbox.Cff
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/Type1CharStringParser.html#parse-byte[]-java.util.List-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/Type1CharStringParser.html#parse-byte[]-java.util.List-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="byte"/></param>
         /// <param name="arg1"><see cref="Java.Util.List"/></param>

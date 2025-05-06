@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter.Compress
 {
     #region COSWriterObjectStream declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/compress/COSWriterObjectStream.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/compress/COSWriterObjectStream.html"/>
     /// </summary>
     public partial class COSWriterObjectStream : MASES.JCOBridge.C2JBridge.JVMBridgeBase<COSWriterObjectStream>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter.Compress
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/compress/COSWriterObjectStream.html#org.apache.pdfbox.pdfwriter.compress.COSWriterObjectStream(org.apache.pdfbox.pdfwriter.compress.COSWriterCompressionPool)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/compress/COSWriterObjectStream.html#org.apache.pdfbox.pdfwriter.compress.COSWriterObjectStream(org.apache.pdfbox.pdfwriter.compress.COSWriterCompressionPool)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdfwriter.Compress.COSWriterCompressionPool"/></param>
         public COSWriterObjectStream(Org.Apache.Pdfbox.Pdfwriter.Compress.COSWriterCompressionPool arg0)
@@ -99,14 +99,14 @@ namespace Org.Apache.Pdfbox.Pdfwriter.Compress
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/compress/COSWriterObjectStream.html#getPreparedKeys--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/compress/COSWriterObjectStream.html#getPreparedKeys--"/> 
         /// </summary>
         public Java.Util.List<Org.Apache.Pdfbox.Cos.COSObjectKey> PreparedKeys
         {
             get { return IExecuteWithSignature<Java.Util.List<Org.Apache.Pdfbox.Cos.COSObjectKey>>("getPreparedKeys", "()Ljava/util/List;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/compress/COSWriterObjectStream.html#writeObjectsToStream-org.apache.pdfbox.cos.COSStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/compress/COSWriterObjectStream.html#writeObjectsToStream-org.apache.pdfbox.cos.COSStream-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSStream"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Cos.COSStream"/></returns>
@@ -116,7 +116,7 @@ namespace Org.Apache.Pdfbox.Pdfwriter.Compress
             return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSStream>("writeObjectsToStream", "(Lorg/apache/pdfbox/cos/COSStream;)Lorg/apache/pdfbox/cos/COSStream;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfwriter/compress/COSWriterObjectStream.html#prepareStreamObject-org.apache.pdfbox.cos.COSObjectKey-org.apache.pdfbox.cos.COSBase-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/compress/COSWriterObjectStream.html#prepareStreamObject-org.apache.pdfbox.cos.COSObjectKey-org.apache.pdfbox.cos.COSBase-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSObjectKey"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></param>

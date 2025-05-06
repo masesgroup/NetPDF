@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdfparser.Xref
 {
     #region XReferenceEntry declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/xref/XReferenceEntry.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/xref/XReferenceEntry.html"/>
     /// </summary>
     public partial class XReferenceEntry : Java.Lang.Comparable<Org.Apache.Pdfbox.Pdfparser.Xref.XReferenceEntry>
     {
@@ -74,7 +74,7 @@ namespace Org.Apache.Pdfbox.Pdfparser.Xref
 
     #region IXReferenceEntry
     /// <summary>
-    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/xref/XReferenceEntry.html"/>
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/xref/XReferenceEntry.html"/>
     /// </summary>
     public partial interface IXReferenceEntry : Java.Lang.IComparable<Org.Apache.Pdfbox.Pdfparser.Xref.XReferenceEntry>
     {
@@ -111,35 +111,35 @@ namespace Org.Apache.Pdfbox.Pdfparser.Xref
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/xref/XReferenceEntry.html#getFirstColumnValue--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/xref/XReferenceEntry.html#getFirstColumnValue--"/> 
         /// </summary>
         public long FirstColumnValue
         {
             get { return IExecuteWithSignature<long>("getFirstColumnValue", "()J"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/xref/XReferenceEntry.html#getReferencedKey--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/xref/XReferenceEntry.html#getReferencedKey--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSObjectKey ReferencedKey
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSObjectKey>("getReferencedKey", "()Lorg/apache/pdfbox/cos/COSObjectKey;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/xref/XReferenceEntry.html#getSecondColumnValue--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/xref/XReferenceEntry.html#getSecondColumnValue--"/> 
         /// </summary>
         public long SecondColumnValue
         {
             get { return IExecuteWithSignature<long>("getSecondColumnValue", "()J"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/xref/XReferenceEntry.html#getThirdColumnValue--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/xref/XReferenceEntry.html#getThirdColumnValue--"/> 
         /// </summary>
         public long ThirdColumnValue
         {
             get { return IExecuteWithSignature<long>("getThirdColumnValue", "()J"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/xref/XReferenceEntry.html#getType--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/xref/XReferenceEntry.html#getType--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdfparser.Xref.XReferenceType Type
         {

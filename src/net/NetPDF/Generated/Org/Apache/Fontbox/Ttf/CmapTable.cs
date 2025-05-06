@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf
 {
     #region CmapTable declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapTable.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapTable.html"/>
     /// </summary>
     public partial class CmapTable : Org.Apache.Fontbox.Ttf.TTFTable
     {
@@ -83,103 +83,103 @@ namespace Org.Apache.Fontbox.Ttf
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapTable.html#ENCODING_MAC_ROMAN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapTable.html#ENCODING_MAC_ROMAN"/>
         /// </summary>
         public static int ENCODING_MAC_ROMAN { get { if (!_ENCODING_MAC_ROMANReady) { _ENCODING_MAC_ROMANContent = SGetField<int>(LocalBridgeClazz, "ENCODING_MAC_ROMAN"); _ENCODING_MAC_ROMANReady = true; } return _ENCODING_MAC_ROMANContent; } }
         private static int _ENCODING_MAC_ROMANContent = default;
         private static bool _ENCODING_MAC_ROMANReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapTable.html#ENCODING_UNICODE_1_0"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapTable.html#ENCODING_UNICODE_1_0"/>
         /// </summary>
         public static int ENCODING_UNICODE_1_0 { get { if (!_ENCODING_UNICODE_1_0Ready) { _ENCODING_UNICODE_1_0Content = SGetField<int>(LocalBridgeClazz, "ENCODING_UNICODE_1_0"); _ENCODING_UNICODE_1_0Ready = true; } return _ENCODING_UNICODE_1_0Content; } }
         private static int _ENCODING_UNICODE_1_0Content = default;
         private static bool _ENCODING_UNICODE_1_0Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapTable.html#ENCODING_UNICODE_1_1"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapTable.html#ENCODING_UNICODE_1_1"/>
         /// </summary>
         public static int ENCODING_UNICODE_1_1 { get { if (!_ENCODING_UNICODE_1_1Ready) { _ENCODING_UNICODE_1_1Content = SGetField<int>(LocalBridgeClazz, "ENCODING_UNICODE_1_1"); _ENCODING_UNICODE_1_1Ready = true; } return _ENCODING_UNICODE_1_1Content; } }
         private static int _ENCODING_UNICODE_1_1Content = default;
         private static bool _ENCODING_UNICODE_1_1Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapTable.html#ENCODING_UNICODE_2_0_BMP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapTable.html#ENCODING_UNICODE_2_0_BMP"/>
         /// </summary>
         public static int ENCODING_UNICODE_2_0_BMP { get { if (!_ENCODING_UNICODE_2_0_BMPReady) { _ENCODING_UNICODE_2_0_BMPContent = SGetField<int>(LocalBridgeClazz, "ENCODING_UNICODE_2_0_BMP"); _ENCODING_UNICODE_2_0_BMPReady = true; } return _ENCODING_UNICODE_2_0_BMPContent; } }
         private static int _ENCODING_UNICODE_2_0_BMPContent = default;
         private static bool _ENCODING_UNICODE_2_0_BMPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapTable.html#ENCODING_UNICODE_2_0_FULL"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapTable.html#ENCODING_UNICODE_2_0_FULL"/>
         /// </summary>
         public static int ENCODING_UNICODE_2_0_FULL { get { if (!_ENCODING_UNICODE_2_0_FULLReady) { _ENCODING_UNICODE_2_0_FULLContent = SGetField<int>(LocalBridgeClazz, "ENCODING_UNICODE_2_0_FULL"); _ENCODING_UNICODE_2_0_FULLReady = true; } return _ENCODING_UNICODE_2_0_FULLContent; } }
         private static int _ENCODING_UNICODE_2_0_FULLContent = default;
         private static bool _ENCODING_UNICODE_2_0_FULLReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapTable.html#ENCODING_WIN_BIG5"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapTable.html#ENCODING_WIN_BIG5"/>
         /// </summary>
         public static int ENCODING_WIN_BIG5 { get { if (!_ENCODING_WIN_BIG5Ready) { _ENCODING_WIN_BIG5Content = SGetField<int>(LocalBridgeClazz, "ENCODING_WIN_BIG5"); _ENCODING_WIN_BIG5Ready = true; } return _ENCODING_WIN_BIG5Content; } }
         private static int _ENCODING_WIN_BIG5Content = default;
         private static bool _ENCODING_WIN_BIG5Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapTable.html#ENCODING_WIN_JOHAB"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapTable.html#ENCODING_WIN_JOHAB"/>
         /// </summary>
         public static int ENCODING_WIN_JOHAB { get { if (!_ENCODING_WIN_JOHABReady) { _ENCODING_WIN_JOHABContent = SGetField<int>(LocalBridgeClazz, "ENCODING_WIN_JOHAB"); _ENCODING_WIN_JOHABReady = true; } return _ENCODING_WIN_JOHABContent; } }
         private static int _ENCODING_WIN_JOHABContent = default;
         private static bool _ENCODING_WIN_JOHABReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapTable.html#ENCODING_WIN_PRC"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapTable.html#ENCODING_WIN_PRC"/>
         /// </summary>
         public static int ENCODING_WIN_PRC { get { if (!_ENCODING_WIN_PRCReady) { _ENCODING_WIN_PRCContent = SGetField<int>(LocalBridgeClazz, "ENCODING_WIN_PRC"); _ENCODING_WIN_PRCReady = true; } return _ENCODING_WIN_PRCContent; } }
         private static int _ENCODING_WIN_PRCContent = default;
         private static bool _ENCODING_WIN_PRCReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapTable.html#ENCODING_WIN_SHIFT_JIS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapTable.html#ENCODING_WIN_SHIFT_JIS"/>
         /// </summary>
         public static int ENCODING_WIN_SHIFT_JIS { get { if (!_ENCODING_WIN_SHIFT_JISReady) { _ENCODING_WIN_SHIFT_JISContent = SGetField<int>(LocalBridgeClazz, "ENCODING_WIN_SHIFT_JIS"); _ENCODING_WIN_SHIFT_JISReady = true; } return _ENCODING_WIN_SHIFT_JISContent; } }
         private static int _ENCODING_WIN_SHIFT_JISContent = default;
         private static bool _ENCODING_WIN_SHIFT_JISReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapTable.html#ENCODING_WIN_SYMBOL"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapTable.html#ENCODING_WIN_SYMBOL"/>
         /// </summary>
         public static int ENCODING_WIN_SYMBOL { get { if (!_ENCODING_WIN_SYMBOLReady) { _ENCODING_WIN_SYMBOLContent = SGetField<int>(LocalBridgeClazz, "ENCODING_WIN_SYMBOL"); _ENCODING_WIN_SYMBOLReady = true; } return _ENCODING_WIN_SYMBOLContent; } }
         private static int _ENCODING_WIN_SYMBOLContent = default;
         private static bool _ENCODING_WIN_SYMBOLReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapTable.html#ENCODING_WIN_UNICODE_BMP"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapTable.html#ENCODING_WIN_UNICODE_BMP"/>
         /// </summary>
         public static int ENCODING_WIN_UNICODE_BMP { get { if (!_ENCODING_WIN_UNICODE_BMPReady) { _ENCODING_WIN_UNICODE_BMPContent = SGetField<int>(LocalBridgeClazz, "ENCODING_WIN_UNICODE_BMP"); _ENCODING_WIN_UNICODE_BMPReady = true; } return _ENCODING_WIN_UNICODE_BMPContent; } }
         private static int _ENCODING_WIN_UNICODE_BMPContent = default;
         private static bool _ENCODING_WIN_UNICODE_BMPReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapTable.html#ENCODING_WIN_UNICODE_FULL"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapTable.html#ENCODING_WIN_UNICODE_FULL"/>
         /// </summary>
         public static int ENCODING_WIN_UNICODE_FULL { get { if (!_ENCODING_WIN_UNICODE_FULLReady) { _ENCODING_WIN_UNICODE_FULLContent = SGetField<int>(LocalBridgeClazz, "ENCODING_WIN_UNICODE_FULL"); _ENCODING_WIN_UNICODE_FULLReady = true; } return _ENCODING_WIN_UNICODE_FULLContent; } }
         private static int _ENCODING_WIN_UNICODE_FULLContent = default;
         private static bool _ENCODING_WIN_UNICODE_FULLReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapTable.html#ENCODING_WIN_WANSUNG"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapTable.html#ENCODING_WIN_WANSUNG"/>
         /// </summary>
         public static int ENCODING_WIN_WANSUNG { get { if (!_ENCODING_WIN_WANSUNGReady) { _ENCODING_WIN_WANSUNGContent = SGetField<int>(LocalBridgeClazz, "ENCODING_WIN_WANSUNG"); _ENCODING_WIN_WANSUNGReady = true; } return _ENCODING_WIN_WANSUNGContent; } }
         private static int _ENCODING_WIN_WANSUNGContent = default;
         private static bool _ENCODING_WIN_WANSUNGReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapTable.html#PLATFORM_MACINTOSH"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapTable.html#PLATFORM_MACINTOSH"/>
         /// </summary>
         public static int PLATFORM_MACINTOSH { get { if (!_PLATFORM_MACINTOSHReady) { _PLATFORM_MACINTOSHContent = SGetField<int>(LocalBridgeClazz, "PLATFORM_MACINTOSH"); _PLATFORM_MACINTOSHReady = true; } return _PLATFORM_MACINTOSHContent; } }
         private static int _PLATFORM_MACINTOSHContent = default;
         private static bool _PLATFORM_MACINTOSHReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapTable.html#PLATFORM_UNICODE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapTable.html#PLATFORM_UNICODE"/>
         /// </summary>
         public static int PLATFORM_UNICODE { get { if (!_PLATFORM_UNICODEReady) { _PLATFORM_UNICODEContent = SGetField<int>(LocalBridgeClazz, "PLATFORM_UNICODE"); _PLATFORM_UNICODEReady = true; } return _PLATFORM_UNICODEContent; } }
         private static int _PLATFORM_UNICODEContent = default;
         private static bool _PLATFORM_UNICODEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapTable.html#PLATFORM_WINDOWS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapTable.html#PLATFORM_WINDOWS"/>
         /// </summary>
         public static int PLATFORM_WINDOWS { get { if (!_PLATFORM_WINDOWSReady) { _PLATFORM_WINDOWSContent = SGetField<int>(LocalBridgeClazz, "PLATFORM_WINDOWS"); _PLATFORM_WINDOWSReady = true; } return _PLATFORM_WINDOWSContent; } }
         private static int _PLATFORM_WINDOWSContent = default;
         private static bool _PLATFORM_WINDOWSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapTable.html#TAG"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapTable.html#TAG"/>
         /// </summary>
         public static Java.Lang.String TAG { get { if (!_TAGReady) { _TAGContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "TAG"); _TAGReady = true; } return _TAGContent; } }
         private static Java.Lang.String _TAGContent = default;
@@ -193,14 +193,14 @@ namespace Org.Apache.Fontbox.Ttf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapTable.html#getCmaps--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapTable.html#setCmaps-org.apache.fontbox.ttf.CmapSubtable[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapTable.html#getCmaps--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapTable.html#setCmaps-org.apache.fontbox.ttf.CmapSubtable[]-"/>
         /// </summary>
         public Org.Apache.Fontbox.Ttf.CmapSubtable[] Cmaps
         {
             get { return IExecuteWithSignatureArray<Org.Apache.Fontbox.Ttf.CmapSubtable>("getCmaps", "()[Lorg/apache/fontbox/ttf/CmapSubtable;"); } set { IExecuteWithSignature("setCmaps", "([Lorg/apache/fontbox/ttf/CmapSubtable;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/CmapTable.html#getSubtable-int-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/CmapTable.html#getSubtable-int-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="int"/></param>
