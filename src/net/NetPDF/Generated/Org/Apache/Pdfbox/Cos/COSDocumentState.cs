@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Cos
 {
     #region COSDocumentState declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDocumentState.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDocumentState.html"/>
     /// </summary>
     public partial class COSDocumentState : MASES.JCOBridge.C2JBridge.JVMBridgeBase<COSDocumentState>
     {
@@ -91,7 +91,7 @@ namespace Org.Apache.Pdfbox.Cos
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDocumentState.html#isAcceptingUpdates--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDocumentState.html#isAcceptingUpdates--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsAcceptingUpdates()
@@ -99,7 +99,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<bool>("isAcceptingUpdates", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSDocumentState.html#setParsing-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSDocumentState.html#setParsing-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetParsing(bool arg0)

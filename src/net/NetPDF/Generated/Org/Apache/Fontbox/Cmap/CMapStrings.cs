@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Cmap
 {
     #region CMapStrings declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMapStrings.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMapStrings.html"/>
     /// </summary>
     public partial class CMapStrings : MASES.JCOBridge.C2JBridge.JVMBridgeBase<CMapStrings>
     {
@@ -87,7 +87,7 @@ namespace Org.Apache.Fontbox.Cmap
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMapStrings.html#getByteValue-byte[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMapStrings.html#getByteValue-byte[]-"/>
         /// </summary>
         /// <param name="arg0"><see cref="byte"/></param>
         /// <returns><see cref="byte"/></returns>
@@ -96,7 +96,7 @@ namespace Org.Apache.Fontbox.Cmap
             return SExecuteWithSignatureArray<byte>(LocalBridgeClazz, "getByteValue", "([B)[B", new object[] { arg0 });
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMapStrings.html#getIndexValue-byte[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMapStrings.html#getIndexValue-byte[]-"/>
         /// </summary>
         /// <param name="arg0"><see cref="byte"/></param>
         /// <returns><see cref="Java.Lang.Integer"/></returns>
@@ -105,7 +105,7 @@ namespace Org.Apache.Fontbox.Cmap
             return SExecuteWithSignature<Java.Lang.Integer>(LocalBridgeClazz, "getIndexValue", "([B)Ljava/lang/Integer;", new object[] { arg0 });
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMapStrings.html#getMapping-byte[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMapStrings.html#getMapping-byte[]-"/>
         /// </summary>
         /// <param name="arg0"><see cref="byte"/></param>
         /// <returns><see cref="Java.Lang.String"/></returns>

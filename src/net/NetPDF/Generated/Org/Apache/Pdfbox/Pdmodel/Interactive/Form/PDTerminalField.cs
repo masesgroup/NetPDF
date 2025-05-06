@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
 {
     #region PDTerminalField declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDTerminalField.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDTerminalField.html"/>
     /// </summary>
     public partial class PDTerminalField : Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDField
     {
@@ -93,7 +93,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDTerminalField.html#importFDF-org.apache.pdfbox.pdmodel.fdf.FDFField-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDTerminalField.html#importFDF-org.apache.pdfbox.pdmodel.fdf.FDFField-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -102,7 +102,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             IExecuteWithSignature("importFDF", "(Lorg/apache/pdfbox/pdmodel/fdf/FDFField;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDTerminalField.html#setActions-org.apache.pdfbox.pdmodel.interactive.action.PDFormFieldAdditionalActions-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDTerminalField.html#setActions-org.apache.pdfbox.pdmodel.interactive.action.PDFormFieldAdditionalActions-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Action.PDFormFieldAdditionalActions"/></param>
         public void SetActions(Org.Apache.Pdfbox.Pdmodel.Interactive.Action.PDFormFieldAdditionalActions arg0)
@@ -110,7 +110,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             IExecuteWithSignature("setActions", "(Lorg/apache/pdfbox/pdmodel/interactive/action/PDFormFieldAdditionalActions;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDTerminalField.html#setWidgets-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDTerminalField.html#setWidgets-java.util.List-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Util.List"/></param>
         public void SetWidgets(Java.Util.List<Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotationWidget> arg0)

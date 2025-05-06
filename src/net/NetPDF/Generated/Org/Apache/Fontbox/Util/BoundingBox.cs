@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Util
 {
     #region BoundingBox declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/util/BoundingBox.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/util/BoundingBox.html"/>
     /// </summary>
     public partial class BoundingBox : MASES.JCOBridge.C2JBridge.JVMBridgeBase<BoundingBox>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Fontbox.Util
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/util/BoundingBox.html#org.apache.fontbox.util.BoundingBox(float,float,float,float)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/util/BoundingBox.html#org.apache.fontbox.util.BoundingBox(float,float,float,float)"/>
         /// </summary>
         /// <param name="arg0"><see cref="float"/></param>
         /// <param name="arg1"><see cref="float"/></param>
@@ -86,7 +86,7 @@ namespace Org.Apache.Fontbox.Util
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/util/BoundingBox.html#org.apache.fontbox.util.BoundingBox(java.util.List)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/util/BoundingBox.html#org.apache.fontbox.util.BoundingBox(java.util.List)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Util.List"/></param>
         public BoundingBox(Java.Util.List<Java.Lang.Number> arg0)
@@ -110,49 +110,49 @@ namespace Org.Apache.Fontbox.Util
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/util/BoundingBox.html#getHeight--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/util/BoundingBox.html#getHeight--"/> 
         /// </summary>
         public float Height
         {
             get { return IExecuteWithSignature<float>("getHeight", "()F"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/util/BoundingBox.html#getLowerLeftX--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/util/BoundingBox.html#setLowerLeftX-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/util/BoundingBox.html#getLowerLeftX--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/util/BoundingBox.html#setLowerLeftX-float-"/>
         /// </summary>
         public float LowerLeftX
         {
             get { return IExecuteWithSignature<float>("getLowerLeftX", "()F"); } set { IExecuteWithSignature("setLowerLeftX", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/util/BoundingBox.html#getLowerLeftY--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/util/BoundingBox.html#setLowerLeftY-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/util/BoundingBox.html#getLowerLeftY--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/util/BoundingBox.html#setLowerLeftY-float-"/>
         /// </summary>
         public float LowerLeftY
         {
             get { return IExecuteWithSignature<float>("getLowerLeftY", "()F"); } set { IExecuteWithSignature("setLowerLeftY", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/util/BoundingBox.html#getUpperRightX--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/util/BoundingBox.html#setUpperRightX-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/util/BoundingBox.html#getUpperRightX--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/util/BoundingBox.html#setUpperRightX-float-"/>
         /// </summary>
         public float UpperRightX
         {
             get { return IExecuteWithSignature<float>("getUpperRightX", "()F"); } set { IExecuteWithSignature("setUpperRightX", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/util/BoundingBox.html#getUpperRightY--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/util/BoundingBox.html#setUpperRightY-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/util/BoundingBox.html#getUpperRightY--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/util/BoundingBox.html#setUpperRightY-float-"/>
         /// </summary>
         public float UpperRightY
         {
             get { return IExecuteWithSignature<float>("getUpperRightY", "()F"); } set { IExecuteWithSignature("setUpperRightY", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/util/BoundingBox.html#getWidth--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/util/BoundingBox.html#getWidth--"/> 
         /// </summary>
         public float Width
         {
             get { return IExecuteWithSignature<float>("getWidth", "()F"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/util/BoundingBox.html#contains-float-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/util/BoundingBox.html#contains-float-float-"/>
         /// </summary>
         /// <param name="arg0"><see cref="float"/></param>
         /// <param name="arg1"><see cref="float"/></param>

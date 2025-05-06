@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
 {
     #region ShadingContext declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/ShadingContext.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/ShadingContext.html"/>
     /// </summary>
     public partial class ShadingContext : Java.Awt.PaintContext
     {
@@ -77,7 +77,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/ShadingContext.html#org.apache.pdfbox.pdmodel.graphics.shading.ShadingContext(org.apache.pdfbox.pdmodel.graphics.shading.PDShading,java.awt.image.ColorModel,java.awt.geom.AffineTransform,org.apache.pdfbox.util.Matrix)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/ShadingContext.html#org.apache.pdfbox.pdmodel.graphics.shading.ShadingContext(org.apache.pdfbox.pdmodel.graphics.shading.PDShading,java.awt.image.ColorModel,java.awt.geom.AffineTransform,org.apache.pdfbox.util.Matrix)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Shading.PDShading"/></param>
         /// <param name="arg1"><see cref="Java.Awt.ImageNs.ColorModel"/></param>
@@ -105,14 +105,14 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/ShadingContext.html#getColorModel--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/ShadingContext.html#getColorModel--"/> 
         /// </summary>
         public Java.Awt.ImageNs.ColorModel ColorModel
         {
             get { return IExecuteWithSignature<Java.Awt.ImageNs.ColorModel>("getColorModel", "()Ljava/awt/image/ColorModel;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/ShadingContext.html#dispose--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/ShadingContext.html#dispose--"/>
         /// </summary>
         public new void Dispose()
         {

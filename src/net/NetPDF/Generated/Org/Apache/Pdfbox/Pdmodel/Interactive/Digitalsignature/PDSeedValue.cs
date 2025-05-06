@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
 {
     #region PDSeedValue declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html"/>
     /// </summary>
     public partial class PDSeedValue : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValue(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValue(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDSeedValue(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -91,43 +91,43 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#FLAG_ADD_REV_INFO"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#FLAG_ADD_REV_INFO"/>
         /// </summary>
         public static int FLAG_ADD_REV_INFO { get { if (!_FLAG_ADD_REV_INFOReady) { _FLAG_ADD_REV_INFOContent = SGetField<int>(LocalBridgeClazz, "FLAG_ADD_REV_INFO"); _FLAG_ADD_REV_INFOReady = true; } return _FLAG_ADD_REV_INFOContent; } }
         private static int _FLAG_ADD_REV_INFOContent = default;
         private static bool _FLAG_ADD_REV_INFOReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#FLAG_DIGEST_METHOD"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#FLAG_DIGEST_METHOD"/>
         /// </summary>
         public static int FLAG_DIGEST_METHOD { get { if (!_FLAG_DIGEST_METHODReady) { _FLAG_DIGEST_METHODContent = SGetField<int>(LocalBridgeClazz, "FLAG_DIGEST_METHOD"); _FLAG_DIGEST_METHODReady = true; } return _FLAG_DIGEST_METHODContent; } }
         private static int _FLAG_DIGEST_METHODContent = default;
         private static bool _FLAG_DIGEST_METHODReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#FLAG_FILTER"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#FLAG_FILTER"/>
         /// </summary>
         public static int FLAG_FILTER { get { if (!_FLAG_FILTERReady) { _FLAG_FILTERContent = SGetField<int>(LocalBridgeClazz, "FLAG_FILTER"); _FLAG_FILTERReady = true; } return _FLAG_FILTERContent; } }
         private static int _FLAG_FILTERContent = default;
         private static bool _FLAG_FILTERReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#FLAG_LEGAL_ATTESTATION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#FLAG_LEGAL_ATTESTATION"/>
         /// </summary>
         public static int FLAG_LEGAL_ATTESTATION { get { if (!_FLAG_LEGAL_ATTESTATIONReady) { _FLAG_LEGAL_ATTESTATIONContent = SGetField<int>(LocalBridgeClazz, "FLAG_LEGAL_ATTESTATION"); _FLAG_LEGAL_ATTESTATIONReady = true; } return _FLAG_LEGAL_ATTESTATIONContent; } }
         private static int _FLAG_LEGAL_ATTESTATIONContent = default;
         private static bool _FLAG_LEGAL_ATTESTATIONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#FLAG_REASON"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#FLAG_REASON"/>
         /// </summary>
         public static int FLAG_REASON { get { if (!_FLAG_REASONReady) { _FLAG_REASONContent = SGetField<int>(LocalBridgeClazz, "FLAG_REASON"); _FLAG_REASONReady = true; } return _FLAG_REASONContent; } }
         private static int _FLAG_REASONContent = default;
         private static bool _FLAG_REASONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#FLAG_SUBFILTER"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#FLAG_SUBFILTER"/>
         /// </summary>
         public static int FLAG_SUBFILTER { get { if (!_FLAG_SUBFILTERReady) { _FLAG_SUBFILTERContent = SGetField<int>(LocalBridgeClazz, "FLAG_SUBFILTER"); _FLAG_SUBFILTERReady = true; } return _FLAG_SUBFILTERContent; } }
         private static int _FLAG_SUBFILTERContent = default;
         private static bool _FLAG_SUBFILTERReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#FLAG_V"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#FLAG_V"/>
         /// </summary>
         public static int FLAG_V { get { if (!_FLAG_VReady) { _FLAG_VContent = SGetField<int>(LocalBridgeClazz, "FLAG_V"); _FLAG_VReady = true; } return _FLAG_VContent; } }
         private static int _FLAG_VContent = default;
@@ -141,77 +141,77 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#getDigestMethod--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setDigestMethod-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#getDigestMethod--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setDigestMethod-java.util.List-"/>
         /// </summary>
         public Java.Util.List<Java.Lang.String> DigestMethod
         {
             get { return IExecuteWithSignature<Java.Util.List<Java.Lang.String>>("getDigestMethod", "()Ljava/util/List;"); } set { IExecuteWithSignature("setDigestMethod", "(Ljava/util/List;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#getFilter--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setFilter-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#getFilter--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setFilter-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         public Java.Lang.String Filter
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getFilter", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setFilter", "(Lorg/apache/pdfbox/cos/COSName;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#getLegalAttestation--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setLegalAttestation-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#getLegalAttestation--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setLegalAttestation-java.util.List-"/>
         /// </summary>
         public Java.Util.List<Java.Lang.String> LegalAttestation
         {
             get { return IExecuteWithSignature<Java.Util.List<Java.Lang.String>>("getLegalAttestation", "()Ljava/util/List;"); } set { IExecuteWithSignature("setLegalAttestation", "(Ljava/util/List;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#getMDP--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#getMDP--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueMDP MDP
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueMDP>("getMDP", "()Lorg/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueMDP;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#getReasons--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setReasons-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#getReasons--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setReasons-java.util.List-"/>
         /// </summary>
         public Java.Util.List<Java.Lang.String> Reasons
         {
             get { return IExecuteWithSignature<Java.Util.List<Java.Lang.String>>("getReasons", "()Ljava/util/List;"); } set { IExecuteWithSignature("setReasons", "(Ljava/util/List;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#getSeedValueCertificate--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setSeedValueCertificate-org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValueCertificate-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#getSeedValueCertificate--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setSeedValueCertificate-org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValueCertificate-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate SeedValueCertificate
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate>("getSeedValueCertificate", "()Lorg/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate;"); } set { IExecuteWithSignature("setSeedValueCertificate", "(Lorg/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#getSubFilter--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setSubFilter-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#getSubFilter--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setSubFilter-java.util.List-"/>
         /// </summary>
         public Java.Util.List<Java.Lang.String> SubFilter
         {
             get { return IExecuteWithSignature<Java.Util.List<Java.Lang.String>>("getSubFilter", "()Ljava/util/List;"); } set { IExecuteWithSignature("setSubFilter", "(Ljava/util/List;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#getTimeStamp--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setTimeStamp-org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValueTimeStamp-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#getTimeStamp--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setTimeStamp-org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValueTimeStamp-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueTimeStamp TimeStamp
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueTimeStamp>("getTimeStamp", "()Lorg/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueTimeStamp;"); } set { IExecuteWithSignature("setTimeStamp", "(Lorg/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueTimeStamp;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#getV--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setV-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#getV--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setV-float-"/>
         /// </summary>
         public float V
         {
             get { return IExecuteWithSignature<float>("getV", "()F"); } set { IExecuteWithSignature("setV", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#isAddRevInfoRequired--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#isAddRevInfoRequired--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsAddRevInfoRequired()
@@ -219,7 +219,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
             return IExecuteWithSignature<bool>("isAddRevInfoRequired", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#isDigestMethodRequired--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#isDigestMethodRequired--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsDigestMethodRequired()
@@ -227,7 +227,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
             return IExecuteWithSignature<bool>("isDigestMethodRequired", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#isFilterRequired--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#isFilterRequired--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsFilterRequired()
@@ -235,7 +235,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
             return IExecuteWithSignature<bool>("isFilterRequired", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#isLegalAttestationRequired--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#isLegalAttestationRequired--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsLegalAttestationRequired()
@@ -243,7 +243,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
             return IExecuteWithSignature<bool>("isLegalAttestationRequired", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#isReasonRequired--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#isReasonRequired--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsReasonRequired()
@@ -251,7 +251,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
             return IExecuteWithSignature<bool>("isReasonRequired", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#isSubFilterRequired--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#isSubFilterRequired--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsSubFilterRequired()
@@ -259,7 +259,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
             return IExecuteWithSignature<bool>("isSubFilterRequired", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#isVRequired--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#isVRequired--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsVRequired()
@@ -267,7 +267,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
             return IExecuteWithSignature<bool>("isVRequired", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setAddRevInfoRequired-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setAddRevInfoRequired-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetAddRevInfoRequired(bool arg0)
@@ -275,7 +275,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
             IExecuteWithSignature("setAddRevInfoRequired", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setDigestMethodRequired-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setDigestMethodRequired-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetDigestMethodRequired(bool arg0)
@@ -283,7 +283,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
             IExecuteWithSignature("setDigestMethodRequired", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setFilterRequired-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setFilterRequired-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetFilterRequired(bool arg0)
@@ -291,7 +291,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
             IExecuteWithSignature("setFilterRequired", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setLegalAttestationRequired-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setLegalAttestationRequired-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetLegalAttestationRequired(bool arg0)
@@ -299,7 +299,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
             IExecuteWithSignature("setLegalAttestationRequired", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setMPD-org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValueMDP-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setMPD-org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValueMDP-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueMDP"/></param>
         public void SetMPD(Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueMDP arg0)
@@ -307,7 +307,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
             IExecuteWithSignature("setMPD", "(Lorg/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueMDP;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setReasonRequired-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setReasonRequired-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetReasonRequired(bool arg0)
@@ -315,7 +315,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
             IExecuteWithSignature("setReasonRequired", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setSubFilterRequired-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setSubFilterRequired-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetSubFilterRequired(bool arg0)
@@ -323,7 +323,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
             IExecuteWithSignature("setSubFilterRequired", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setVRequired-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValue.html#setVRequired-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetVRequired(bool arg0)

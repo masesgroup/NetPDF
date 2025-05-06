@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
 {
     #region FDFOptionElement declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFOptionElement.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFOptionElement.html"/>
     /// </summary>
     public partial class FDFOptionElement : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFOptionElement.html#org.apache.pdfbox.pdmodel.fdf.FDFOptionElement(org.apache.pdfbox.cos.COSArray)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFOptionElement.html#org.apache.pdfbox.pdmodel.fdf.FDFOptionElement(org.apache.pdfbox.cos.COSArray)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSArray"/></param>
         public FDFOptionElement(Org.Apache.Pdfbox.Cos.COSArray arg0)
@@ -99,28 +99,28 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFOptionElement.html#getCOSArray--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFOptionElement.html#getCOSArray--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSArray COSArray
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSArray>("getCOSArray", "()Lorg/apache/pdfbox/cos/COSArray;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFOptionElement.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFOptionElement.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFOptionElement.html#getDefaultAppearanceString--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFOptionElement.html#setDefaultAppearanceString-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFOptionElement.html#getDefaultAppearanceString--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFOptionElement.html#setDefaultAppearanceString-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String DefaultAppearanceString
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getDefaultAppearanceString", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setDefaultAppearanceString", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFOptionElement.html#getOption--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFOptionElement.html#setOption-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFOptionElement.html#getOption--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFOptionElement.html#setOption-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Option
         {

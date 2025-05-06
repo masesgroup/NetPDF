@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font.Encoding
 {
     #region Encoding declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/encoding/Encoding.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/encoding/Encoding.html"/>
     /// </summary>
     public partial class Encoding : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -89,7 +89,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font.Encoding
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/encoding/Encoding.html#getInstance-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/encoding/Encoding.html#getInstance-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Font.Encoding.Encoding"/></returns>
@@ -102,28 +102,28 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font.Encoding
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/encoding/Encoding.html#getCodeToNameMap--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/encoding/Encoding.html#getCodeToNameMap--"/> 
         /// </summary>
         public Java.Util.Map<Java.Lang.Integer, Java.Lang.String> CodeToNameMap
         {
             get { return IExecuteWithSignature<Java.Util.Map<Java.Lang.Integer, Java.Lang.String>>("getCodeToNameMap", "()Ljava/util/Map;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/encoding/Encoding.html#getEncodingName--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/encoding/Encoding.html#getEncodingName--"/> 
         /// </summary>
         public Java.Lang.String EncodingName
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getEncodingName", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/encoding/Encoding.html#getNameToCodeMap--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/encoding/Encoding.html#getNameToCodeMap--"/> 
         /// </summary>
         public Java.Util.Map<Java.Lang.String, Java.Lang.Integer> NameToCodeMap
         {
             get { return IExecuteWithSignature<Java.Util.Map<Java.Lang.String, Java.Lang.Integer>>("getNameToCodeMap", "()Ljava/util/Map;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/encoding/Encoding.html#contains-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/encoding/Encoding.html#contains-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -132,7 +132,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font.Encoding
             return IExecuteWithSignature<bool>("contains", "(I)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/encoding/Encoding.html#contains-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/encoding/Encoding.html#contains-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -141,7 +141,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font.Encoding
             return IExecuteWithSignature<bool>("contains", "(Ljava/lang/String;)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/encoding/Encoding.html#getName-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/encoding/Encoding.html#getName-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="Java.Lang.String"/></returns>

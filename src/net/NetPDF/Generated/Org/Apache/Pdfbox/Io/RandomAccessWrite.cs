@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Io
 {
     #region RandomAccessWrite declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/RandomAccessWrite.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/RandomAccessWrite.html"/>
     /// </summary>
     public partial class RandomAccessWrite : Java.Io.Closeable
     {
@@ -74,7 +74,7 @@ namespace Org.Apache.Pdfbox.Io
 
     #region IRandomAccessWrite
     /// <summary>
-    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/RandomAccessWrite.html"/>
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/RandomAccessWrite.html"/>
     /// </summary>
     public partial interface IRandomAccessWrite : Java.Io.ICloseable
     {
@@ -111,7 +111,7 @@ namespace Org.Apache.Pdfbox.Io
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/RandomAccessWrite.html#clear--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/RandomAccessWrite.html#clear--"/>
         /// </summary>
         /// <exception cref="Java.Io.IOException"/>
         public void Clear()
@@ -119,7 +119,7 @@ namespace Org.Apache.Pdfbox.Io
             IExecuteWithSignature("clear", "()V");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/RandomAccessWrite.html#write-byte[]-int-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/RandomAccessWrite.html#write-byte[]-int-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="byte"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -130,7 +130,7 @@ namespace Org.Apache.Pdfbox.Io
             IExecuteWithSignature("write", "([BII)V", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/RandomAccessWrite.html#write-byte[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/RandomAccessWrite.html#write-byte[]-"/>
         /// </summary>
         /// <param name="arg0"><see cref="byte"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -139,7 +139,7 @@ namespace Org.Apache.Pdfbox.Io
             IExecuteWithSignature("write", "([B)V", new object[] { arg0 });
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/RandomAccessWrite.html#write-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/RandomAccessWrite.html#write-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <exception cref="Java.Io.IOException"/>

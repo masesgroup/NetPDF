@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
 {
     #region PDAppearanceDictionary declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary.html"/>
     /// </summary>
     public partial class PDAppearanceDictionary : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary.html#org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceDictionary(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary.html#org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceDictionary(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDAppearanceDictionary(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -99,35 +99,35 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary.html#getDownAppearance--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary.html#getDownAppearance--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAppearanceEntry DownAppearance
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAppearanceEntry>("getDownAppearance", "()Lorg/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceEntry;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary.html#getNormalAppearance--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary.html#getNormalAppearance--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAppearanceEntry NormalAppearance
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAppearanceEntry>("getNormalAppearance", "()Lorg/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceEntry;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary.html#getRolloverAppearance--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary.html#getRolloverAppearance--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAppearanceEntry RolloverAppearance
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAppearanceEntry>("getRolloverAppearance", "()Lorg/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceEntry;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary.html#setDownAppearance-org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceEntry-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary.html#setDownAppearance-org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceEntry-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAppearanceEntry"/></param>
         public void SetDownAppearance(Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAppearanceEntry arg0)
@@ -135,7 +135,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
             IExecuteWithSignature("setDownAppearance", "(Lorg/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceEntry;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary.html#setDownAppearance-org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary.html#setDownAppearance-org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceStream-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAppearanceStream"/></param>
         public void SetDownAppearance(Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAppearanceStream arg0)
@@ -143,7 +143,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
             IExecuteWithSignature("setDownAppearance", "(Lorg/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceStream;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary.html#setNormalAppearance-org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceEntry-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary.html#setNormalAppearance-org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceEntry-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAppearanceEntry"/></param>
         public void SetNormalAppearance(Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAppearanceEntry arg0)
@@ -151,7 +151,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
             IExecuteWithSignature("setNormalAppearance", "(Lorg/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceEntry;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary.html#setNormalAppearance-org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary.html#setNormalAppearance-org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceStream-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAppearanceStream"/></param>
         public void SetNormalAppearance(Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAppearanceStream arg0)
@@ -159,7 +159,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
             IExecuteWithSignature("setNormalAppearance", "(Lorg/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceStream;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary.html#setRolloverAppearance-org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceEntry-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary.html#setRolloverAppearance-org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceEntry-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAppearanceEntry"/></param>
         public void SetRolloverAppearance(Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAppearanceEntry arg0)
@@ -167,7 +167,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
             IExecuteWithSignature("setRolloverAppearance", "(Lorg/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceEntry;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary.html#setRolloverAppearance-org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary.html#setRolloverAppearance-org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceStream-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAppearanceStream"/></param>
         public void SetRolloverAppearance(Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAppearanceStream arg0)

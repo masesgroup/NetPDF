@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
 {
     #region PDAdditionalActions declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDAdditionalActions.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDAdditionalActions.html"/>
     /// </summary>
     public partial class PDAdditionalActions : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDAdditionalActions.html#org.apache.pdfbox.pdmodel.interactive.action.PDAdditionalActions(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDAdditionalActions.html#org.apache.pdfbox.pdmodel.interactive.action.PDAdditionalActions(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDAdditionalActions(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -99,14 +99,14 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDAdditionalActions.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDAdditionalActions.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDAdditionalActions.html#getF--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDAdditionalActions.html#setF-org.apache.pdfbox.pdmodel.interactive.action.PDAction-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDAdditionalActions.html#getF--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDAdditionalActions.html#setF-org.apache.pdfbox.pdmodel.interactive.action.PDAction-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Action.PDAction F
         {

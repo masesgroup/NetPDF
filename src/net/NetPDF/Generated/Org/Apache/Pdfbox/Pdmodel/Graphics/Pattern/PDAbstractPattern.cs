@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern
 {
     #region PDAbstractPattern declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern.html"/>
     /// </summary>
     public partial class PDAbstractPattern : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -77,7 +77,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern.html#org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern.html#org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDAbstractPattern(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -93,13 +93,13 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern.html#TYPE_SHADING_PATTERN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern.html#TYPE_SHADING_PATTERN"/>
         /// </summary>
         public static int TYPE_SHADING_PATTERN { get { if (!_TYPE_SHADING_PATTERNReady) { _TYPE_SHADING_PATTERNContent = SGetField<int>(LocalBridgeClazz, "TYPE_SHADING_PATTERN"); _TYPE_SHADING_PATTERNReady = true; } return _TYPE_SHADING_PATTERNContent; } }
         private static int _TYPE_SHADING_PATTERNContent = default;
         private static bool _TYPE_SHADING_PATTERNReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern.html#TYPE_TILING_PATTERN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern.html#TYPE_TILING_PATTERN"/>
         /// </summary>
         public static int TYPE_TILING_PATTERN { get { if (!_TYPE_TILING_PATTERNReady) { _TYPE_TILING_PATTERNContent = SGetField<int>(LocalBridgeClazz, "TYPE_TILING_PATTERN"); _TYPE_TILING_PATTERNReady = true; } return _TYPE_TILING_PATTERNContent; } }
         private static int _TYPE_TILING_PATTERNContent = default;
@@ -109,7 +109,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern.html#create-org.apache.pdfbox.cos.COSDictionary-org.apache.pdfbox.pdmodel.ResourceCache-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern.html#create-org.apache.pdfbox.cos.COSDictionary-org.apache.pdfbox.pdmodel.ResourceCache-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.ResourceCache"/></param>
@@ -124,35 +124,35 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern.html#getMatrix--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern.html#setMatrix-java.awt.geom.AffineTransform-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern.html#getMatrix--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern.html#setMatrix-java.awt.geom.AffineTransform-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Util.Matrix Matrix
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Util.Matrix>("getMatrix", "()Lorg/apache/pdfbox/util/Matrix;"); } set { IExecuteWithSignature("setMatrix", "(Ljava/awt/geom/AffineTransform;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern.html#getPatternType--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern.html#setPatternType-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern.html#getPatternType--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern.html#setPatternType-int-"/>
         /// </summary>
         public int PatternType
         {
             get { return IExecuteWithSignature<int>("getPatternType", "()I"); } set { IExecuteWithSignature("setPatternType", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern.html#getType--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern.html#getType--"/> 
         /// </summary>
         public Java.Lang.String Type
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getType", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern.html#setPaintType-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern.html#setPaintType-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         public void SetPaintType(int arg0)

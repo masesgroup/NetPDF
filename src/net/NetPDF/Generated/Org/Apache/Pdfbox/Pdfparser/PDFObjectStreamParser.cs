@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
 {
     #region PDFObjectStreamParser declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/PDFObjectStreamParser.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/PDFObjectStreamParser.html"/>
     /// </summary>
     public partial class PDFObjectStreamParser : Org.Apache.Pdfbox.Pdfparser.BaseParser
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/PDFObjectStreamParser.html#org.apache.pdfbox.pdfparser.PDFObjectStreamParser(org.apache.pdfbox.cos.COSStream,org.apache.pdfbox.cos.COSDocument)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/PDFObjectStreamParser.html#org.apache.pdfbox.pdfparser.PDFObjectStreamParser(org.apache.pdfbox.cos.COSStream,org.apache.pdfbox.cos.COSDocument)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSStream"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSDocument"/></param>
@@ -101,7 +101,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/PDFObjectStreamParser.html#readObjectNumbers--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/PDFObjectStreamParser.html#readObjectNumbers--"/>
         /// </summary>
         /// <returns><see cref="Java.Util.Map"/></returns>
         /// <exception cref="Java.Io.IOException"/>
@@ -110,7 +110,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
             return IExecuteWithSignature<Java.Util.Map<Java.Lang.Long, Java.Lang.Integer>>("readObjectNumbers", "()Ljava/util/Map;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/PDFObjectStreamParser.html#parseAllObjects--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/PDFObjectStreamParser.html#parseAllObjects--"/>
         /// </summary>
         /// <returns><see cref="Java.Util.Map"/></returns>
         /// <exception cref="Java.Io.IOException"/>
@@ -119,7 +119,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
             return IExecuteWithSignature<Java.Util.Map<Org.Apache.Pdfbox.Cos.COSObjectKey, Org.Apache.Pdfbox.Cos.COSBase>>("parseAllObjects", "()Ljava/util/Map;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/PDFObjectStreamParser.html#parseObject-long-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/PDFObjectStreamParser.html#parseObject-long-"/>
         /// </summary>
         /// <param name="arg0"><see cref="long"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></returns>

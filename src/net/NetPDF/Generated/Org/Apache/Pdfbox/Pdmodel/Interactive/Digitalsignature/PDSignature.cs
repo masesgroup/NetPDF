@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
 {
     #region PDSignature declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html"/>
     /// </summary>
     public partial class PDSignature : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSignature(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSignature(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDSignature(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -91,49 +91,49 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#FILTER_ADOBE_PPKLITE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#FILTER_ADOBE_PPKLITE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FILTER_ADOBE_PPKLITE { get { if (!_FILTER_ADOBE_PPKLITEReady) { _FILTER_ADOBE_PPKLITEContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FILTER_ADOBE_PPKLITE"); _FILTER_ADOBE_PPKLITEReady = true; } return _FILTER_ADOBE_PPKLITEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FILTER_ADOBE_PPKLITEContent = default;
         private static bool _FILTER_ADOBE_PPKLITEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#FILTER_CICI_SIGNIT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#FILTER_CICI_SIGNIT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FILTER_CICI_SIGNIT { get { if (!_FILTER_CICI_SIGNITReady) { _FILTER_CICI_SIGNITContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FILTER_CICI_SIGNIT"); _FILTER_CICI_SIGNITReady = true; } return _FILTER_CICI_SIGNITContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FILTER_CICI_SIGNITContent = default;
         private static bool _FILTER_CICI_SIGNITReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#FILTER_ENTRUST_PPKEF"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#FILTER_ENTRUST_PPKEF"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FILTER_ENTRUST_PPKEF { get { if (!_FILTER_ENTRUST_PPKEFReady) { _FILTER_ENTRUST_PPKEFContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FILTER_ENTRUST_PPKEF"); _FILTER_ENTRUST_PPKEFReady = true; } return _FILTER_ENTRUST_PPKEFContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FILTER_ENTRUST_PPKEFContent = default;
         private static bool _FILTER_ENTRUST_PPKEFReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#FILTER_VERISIGN_PPKVS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#FILTER_VERISIGN_PPKVS"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName FILTER_VERISIGN_PPKVS { get { if (!_FILTER_VERISIGN_PPKVSReady) { _FILTER_VERISIGN_PPKVSContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "FILTER_VERISIGN_PPKVS"); _FILTER_VERISIGN_PPKVSReady = true; } return _FILTER_VERISIGN_PPKVSContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _FILTER_VERISIGN_PPKVSContent = default;
         private static bool _FILTER_VERISIGN_PPKVSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#SUBFILTER_ADBE_PKCS7_DETACHED"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#SUBFILTER_ADBE_PKCS7_DETACHED"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SUBFILTER_ADBE_PKCS7_DETACHED { get { if (!_SUBFILTER_ADBE_PKCS7_DETACHEDReady) { _SUBFILTER_ADBE_PKCS7_DETACHEDContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SUBFILTER_ADBE_PKCS7_DETACHED"); _SUBFILTER_ADBE_PKCS7_DETACHEDReady = true; } return _SUBFILTER_ADBE_PKCS7_DETACHEDContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SUBFILTER_ADBE_PKCS7_DETACHEDContent = default;
         private static bool _SUBFILTER_ADBE_PKCS7_DETACHEDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#SUBFILTER_ADBE_PKCS7_SHA1"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#SUBFILTER_ADBE_PKCS7_SHA1"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SUBFILTER_ADBE_PKCS7_SHA1 { get { if (!_SUBFILTER_ADBE_PKCS7_SHA1Ready) { _SUBFILTER_ADBE_PKCS7_SHA1Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SUBFILTER_ADBE_PKCS7_SHA1"); _SUBFILTER_ADBE_PKCS7_SHA1Ready = true; } return _SUBFILTER_ADBE_PKCS7_SHA1Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SUBFILTER_ADBE_PKCS7_SHA1Content = default;
         private static bool _SUBFILTER_ADBE_PKCS7_SHA1Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#SUBFILTER_ADBE_X509_RSA_SHA1"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#SUBFILTER_ADBE_X509_RSA_SHA1"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SUBFILTER_ADBE_X509_RSA_SHA1 { get { if (!_SUBFILTER_ADBE_X509_RSA_SHA1Ready) { _SUBFILTER_ADBE_X509_RSA_SHA1Content = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SUBFILTER_ADBE_X509_RSA_SHA1"); _SUBFILTER_ADBE_X509_RSA_SHA1Ready = true; } return _SUBFILTER_ADBE_X509_RSA_SHA1Content; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SUBFILTER_ADBE_X509_RSA_SHA1Content = default;
         private static bool _SUBFILTER_ADBE_X509_RSA_SHA1Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#SUBFILTER_ETSI_CADES_DETACHED"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#SUBFILTER_ETSI_CADES_DETACHED"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSName SUBFILTER_ETSI_CADES_DETACHED { get { if (!_SUBFILTER_ETSI_CADES_DETACHEDReady) { _SUBFILTER_ETSI_CADES_DETACHEDContent = SGetField<Org.Apache.Pdfbox.Cos.COSName>(LocalBridgeClazz, "SUBFILTER_ETSI_CADES_DETACHED"); _SUBFILTER_ETSI_CADES_DETACHEDReady = true; } return _SUBFILTER_ETSI_CADES_DETACHEDContent; } }
         private static Org.Apache.Pdfbox.Cos.COSName _SUBFILTER_ETSI_CADES_DETACHEDContent = default;
@@ -147,84 +147,84 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getByteRange--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setByteRange-int[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getByteRange--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setByteRange-int[]-"/>
         /// </summary>
         public int[] ByteRange
         {
             get { return IExecuteWithSignatureArray<int>("getByteRange", "()[I"); } set { IExecuteWithSignature("setByteRange", "([I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getContactInfo--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setContactInfo-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getContactInfo--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setContactInfo-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String ContactInfo
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getContactInfo", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setContactInfo", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getContents--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setContents-byte[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getContents--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setContents-byte[]-"/>
         /// </summary>
         public byte[] Contents
         {
             get { return IExecuteWithSignatureArray<byte>("getContents", "()[B"); } set { IExecuteWithSignature("setContents", "([B)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getFilter--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setFilter-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getFilter--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setFilter-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         public Java.Lang.String Filter
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getFilter", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setFilter", "(Lorg/apache/pdfbox/cos/COSName;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getLocation--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setLocation-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getLocation--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setLocation-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Location
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getLocation", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setLocation", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setName-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setName-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Name
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getName", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setName", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getPropBuild--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setPropBuild-org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDPropBuild-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getPropBuild--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setPropBuild-org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDPropBuild-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDPropBuild PropBuild
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDPropBuild>("getPropBuild", "()Lorg/apache/pdfbox/pdmodel/interactive/digitalsignature/PDPropBuild;"); } set { IExecuteWithSignature("setPropBuild", "(Lorg/apache/pdfbox/pdmodel/interactive/digitalsignature/PDPropBuild;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getReason--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setReason-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getReason--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setReason-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Reason
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getReason", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setReason", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getSignDate--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setSignDate-java.util.Calendar-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getSignDate--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setSignDate-java.util.Calendar-"/>
         /// </summary>
         public Java.Util.Calendar SignDate
         {
             get { return IExecuteWithSignature<Java.Util.Calendar>("getSignDate", "()Ljava/util/Calendar;"); } set { IExecuteWithSignature("setSignDate", "(Ljava/util/Calendar;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getSubFilter--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setSubFilter-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getSubFilter--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setSubFilter-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         public Java.Lang.String SubFilter
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getSubFilter", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setSubFilter", "(Lorg/apache/pdfbox/cos/COSName;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getContents-byte[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getContents-byte[]-"/>
         /// </summary>
         /// <param name="arg0"><see cref="byte"/></param>
         /// <returns><see cref="byte"/></returns>
@@ -234,7 +234,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
             return IExecuteWithSignatureArray<byte>("getContents", "([B)[B", new object[] { arg0 });
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getContents-java.io.InputStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getContents-java.io.InputStream-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.InputStream"/></param>
         /// <returns><see cref="byte"/></returns>
@@ -244,7 +244,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
             return IExecuteWithSignatureArray<byte>("getContents", "(Ljava/io/InputStream;)[B", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getSignedContent-byte[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getSignedContent-byte[]-"/>
         /// </summary>
         /// <param name="arg0"><see cref="byte"/></param>
         /// <returns><see cref="byte"/></returns>
@@ -254,7 +254,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
             return IExecuteWithSignatureArray<byte>("getSignedContent", "([B)[B", new object[] { arg0 });
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getSignedContent-java.io.InputStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#getSignedContent-java.io.InputStream-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.InputStream"/></param>
         /// <returns><see cref="byte"/></returns>
@@ -264,7 +264,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
             return IExecuteWithSignatureArray<byte>("getSignedContent", "(Ljava/io/InputStream;)[B", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setType-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSignature.html#setType-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         public void SetType(Org.Apache.Pdfbox.Cos.COSName arg0)

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Handlers
 {
     #region PDSquigglyAppearanceHandler declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/handlers/PDSquigglyAppearanceHandler.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/handlers/PDSquigglyAppearanceHandler.html"/>
     /// </summary>
     public partial class PDSquigglyAppearanceHandler : Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Handlers.PDAbstractAppearanceHandler
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Handlers
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/handlers/PDSquigglyAppearanceHandler.html#org.apache.pdfbox.pdmodel.interactive.annotation.handlers.PDSquigglyAppearanceHandler(org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation,org.apache.pdfbox.pdmodel.PDDocument)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/handlers/PDSquigglyAppearanceHandler.html#org.apache.pdfbox.pdmodel.interactive.annotation.handlers.PDSquigglyAppearanceHandler(org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation,org.apache.pdfbox.pdmodel.PDDocument)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotation"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
@@ -84,7 +84,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Handlers
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/handlers/PDSquigglyAppearanceHandler.html#org.apache.pdfbox.pdmodel.interactive.annotation.handlers.PDSquigglyAppearanceHandler(org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/handlers/PDSquigglyAppearanceHandler.html#org.apache.pdfbox.pdmodel.interactive.annotation.handlers.PDSquigglyAppearanceHandler(org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotation"/></param>
         public PDSquigglyAppearanceHandler(Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotation arg0)

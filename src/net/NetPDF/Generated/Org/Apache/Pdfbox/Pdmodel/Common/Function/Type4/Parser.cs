@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
 {
     #region Parser declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/Parser.html"/>
     /// </summary>
     public partial class Parser : MASES.JCOBridge.C2JBridge.JVMBridgeBase<Parser>
     {
@@ -68,7 +68,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
         // TODO: complete the class
         #region SyntaxHandler declaration
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html"/>
         /// </summary>
         public partial class SyntaxHandler : MASES.JCOBridge.C2JBridge.JVMBridgeListener
         {
@@ -154,7 +154,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.html#parse-java.lang.CharSequence-org.apache.pdfbox.pdmodel.common.function.type4.Parser.SyntaxHandler-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/Parser.html#parse-java.lang.CharSequence-org.apache.pdfbox.pdmodel.common.function.type4.Parser.SyntaxHandler-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.CharSequence"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4.Parser.SyntaxHandler"/></param>
@@ -203,7 +203,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
             }
 
             /// <summary>
-            /// Handler for <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#comment-java.lang.CharSequence-"/>
+            /// Handler for <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#comment-java.lang.CharSequence-"/>
             /// </summary>
             /// <remarks>If <see cref="OnComment"/> has a value it takes precedence over corresponding class method</remarks>
             public global::System.Action<Java.Lang.CharSequence> OnComment { get; set; } = null;
@@ -218,7 +218,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
             }
 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#comment-java.lang.CharSequence-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#comment-java.lang.CharSequence-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.CharSequence"/></param>
             public virtual void Comment(Java.Lang.CharSequence arg0)
@@ -227,7 +227,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
             }
 
             /// <summary>
-            /// Handler for <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#newLine-java.lang.CharSequence-"/>
+            /// Handler for <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#newLine-java.lang.CharSequence-"/>
             /// </summary>
             /// <remarks>If <see cref="OnNewLine"/> has a value it takes precedence over corresponding class method</remarks>
             public global::System.Action<Java.Lang.CharSequence> OnNewLine { get; set; } = null;
@@ -242,7 +242,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
             }
 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#newLine-java.lang.CharSequence-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#newLine-java.lang.CharSequence-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.CharSequence"/></param>
             public virtual void NewLine(Java.Lang.CharSequence arg0)
@@ -251,7 +251,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
             }
 
             /// <summary>
-            /// Handler for <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#token-java.lang.CharSequence-"/>
+            /// Handler for <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#token-java.lang.CharSequence-"/>
             /// </summary>
             /// <remarks>If <see cref="OnToken"/> has a value it takes precedence over corresponding class method</remarks>
             public global::System.Action<Java.Lang.CharSequence> OnToken { get; set; } = null;
@@ -266,7 +266,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
             }
 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#token-java.lang.CharSequence-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#token-java.lang.CharSequence-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.CharSequence"/></param>
             public virtual void Token(Java.Lang.CharSequence arg0)
@@ -275,7 +275,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
             }
 
             /// <summary>
-            /// Handler for <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#whitespace-java.lang.CharSequence-"/>
+            /// Handler for <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#whitespace-java.lang.CharSequence-"/>
             /// </summary>
             /// <remarks>If <see cref="OnWhitespace"/> has a value it takes precedence over corresponding class method</remarks>
             public global::System.Action<Java.Lang.CharSequence> OnWhitespace { get; set; } = null;
@@ -290,7 +290,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
             }
 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#whitespace-java.lang.CharSequence-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#whitespace-java.lang.CharSequence-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.CharSequence"/></param>
             public virtual void Whitespace(Java.Lang.CharSequence arg0)
@@ -329,7 +329,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
 
             #region Instance methods
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#comment-java.lang.CharSequence-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#comment-java.lang.CharSequence-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.CharSequence"/></param>
             public override void Comment(Java.Lang.CharSequence arg0)
@@ -337,7 +337,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
                 IExecuteWithSignature("comment", "(Ljava/lang/CharSequence;)V", arg0);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#newLine-java.lang.CharSequence-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#newLine-java.lang.CharSequence-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.CharSequence"/></param>
             public override void NewLine(Java.Lang.CharSequence arg0)
@@ -345,7 +345,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
                 IExecuteWithSignature("newLine", "(Ljava/lang/CharSequence;)V", arg0);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#token-java.lang.CharSequence-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#token-java.lang.CharSequence-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.CharSequence"/></param>
             public override void Token(Java.Lang.CharSequence arg0)
@@ -353,7 +353,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
                 IExecuteWithSignature("token", "(Ljava/lang/CharSequence;)V", arg0);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#whitespace-java.lang.CharSequence-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/Parser.SyntaxHandler.html#whitespace-java.lang.CharSequence-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.CharSequence"/></param>
             public override void Whitespace(Java.Lang.CharSequence arg0)

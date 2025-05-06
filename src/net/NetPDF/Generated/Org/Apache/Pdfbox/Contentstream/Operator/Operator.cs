@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator
 {
     #region Operator declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/Operator.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/Operator.html"/>
     /// </summary>
     public partial class Operator : MASES.JCOBridge.C2JBridge.JVMBridgeBase<Operator>
     {
@@ -87,7 +87,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/Operator.html#getOperator-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/Operator.html#getOperator-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Contentstream.Operator.Operator"/></returns>
@@ -100,21 +100,21 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/Operator.html#getImageData--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/Operator.html#setImageData-byte[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/Operator.html#getImageData--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/Operator.html#setImageData-byte[]-"/>
         /// </summary>
         public byte[] ImageData
         {
             get { return IExecuteWithSignatureArray<byte>("getImageData", "()[B"); } set { IExecuteWithSignature("setImageData", "([B)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/Operator.html#getImageParameters--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/Operator.html#setImageParameters-org.apache.pdfbox.cos.COSDictionary-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/Operator.html#getImageParameters--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/Operator.html#setImageParameters-org.apache.pdfbox.cos.COSDictionary-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSDictionary ImageParameters
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSDictionary>("getImageParameters", "()Lorg/apache/pdfbox/cos/COSDictionary;"); } set { IExecuteWithSignature("setImageParameters", "(Lorg/apache/pdfbox/cos/COSDictionary;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/Operator.html#getName--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/Operator.html#getName--"/> 
         /// </summary>
         public Java.Lang.String Name
         {

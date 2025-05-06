@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Afm
 {
     #region CompositePart declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/CompositePart.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/CompositePart.html"/>
     /// </summary>
     public partial class CompositePart : MASES.JCOBridge.C2JBridge.JVMBridgeBase<CompositePart>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Fontbox.Afm
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/CompositePart.html#org.apache.fontbox.afm.CompositePart(java.lang.String,int,int)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/CompositePart.html#org.apache.fontbox.afm.CompositePart(java.lang.String,int,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -101,21 +101,21 @@ namespace Org.Apache.Fontbox.Afm
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/CompositePart.html#getName--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/CompositePart.html#getName--"/> 
         /// </summary>
         public Java.Lang.String Name
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getName", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/CompositePart.html#getXDisplacement--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/CompositePart.html#getXDisplacement--"/> 
         /// </summary>
         public int XDisplacement
         {
             get { return IExecuteWithSignature<int>("getXDisplacement", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/CompositePart.html#getYDisplacement--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/CompositePart.html#getYDisplacement--"/> 
         /// </summary>
         public int YDisplacement
         {

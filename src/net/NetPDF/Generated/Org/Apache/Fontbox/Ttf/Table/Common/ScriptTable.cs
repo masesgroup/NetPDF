@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf.Table.Common
 {
     #region ScriptTable declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/common/ScriptTable.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/common/ScriptTable.html"/>
     /// </summary>
     public partial class ScriptTable : MASES.JCOBridge.C2JBridge.JVMBridgeBase<ScriptTable>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Fontbox.Ttf.Table.Common
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/common/ScriptTable.html#org.apache.fontbox.ttf.table.common.ScriptTable(org.apache.fontbox.ttf.table.common.LangSysTable,java.util.Map)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/common/ScriptTable.html#org.apache.fontbox.ttf.table.common.ScriptTable(org.apache.fontbox.ttf.table.common.LangSysTable,java.util.Map)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Fontbox.Ttf.Table.Common.LangSysTable"/></param>
         /// <param name="arg1"><see cref="Java.Util.Map"/></param>
@@ -100,14 +100,14 @@ namespace Org.Apache.Fontbox.Ttf.Table.Common
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/common/ScriptTable.html#getDefaultLangSysTable--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/common/ScriptTable.html#getDefaultLangSysTable--"/> 
         /// </summary>
         public Org.Apache.Fontbox.Ttf.Table.Common.LangSysTable DefaultLangSysTable
         {
             get { return IExecuteWithSignature<Org.Apache.Fontbox.Ttf.Table.Common.LangSysTable>("getDefaultLangSysTable", "()Lorg/apache/fontbox/ttf/table/common/LangSysTable;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/common/ScriptTable.html#getLangSysTables--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/common/ScriptTable.html#getLangSysTables--"/> 
         /// </summary>
         public Java.Util.Map<Java.Lang.String, Org.Apache.Fontbox.Ttf.Table.Common.LangSysTable> LangSysTables
         {

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
 {
     #region InstructionSequenceBuilder declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/InstructionSequenceBuilder.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/InstructionSequenceBuilder.html"/>
     /// </summary>
     public partial class InstructionSequenceBuilder : MASES.JCOBridge.C2JBridge.JVMBridgeBase<InstructionSequenceBuilder>
     {
@@ -87,7 +87,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/InstructionSequenceBuilder.html#parseReal-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/InstructionSequenceBuilder.html#parseReal-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="float"/></returns>
@@ -96,7 +96,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
             return SExecuteWithSignature<float>(LocalBridgeClazz, "parseReal", "(Ljava/lang/String;)F", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/InstructionSequenceBuilder.html#parseInt-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/InstructionSequenceBuilder.html#parseInt-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="int"/></returns>
@@ -105,7 +105,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
             return SExecuteWithSignature<int>(LocalBridgeClazz, "parseInt", "(Ljava/lang/String;)I", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/InstructionSequenceBuilder.html#parse-java.lang.CharSequence-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/InstructionSequenceBuilder.html#parse-java.lang.CharSequence-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.CharSequence"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4.InstructionSequence"/></returns>
@@ -118,7 +118,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/InstructionSequenceBuilder.html#getInstructionSequence--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/InstructionSequenceBuilder.html#getInstructionSequence--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4.InstructionSequence InstructionSequence
         {

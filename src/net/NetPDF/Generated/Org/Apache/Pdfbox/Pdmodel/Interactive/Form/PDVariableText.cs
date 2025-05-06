@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
 {
     #region PDVariableText declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.html"/>
     /// </summary>
     public partial class PDVariableText : Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDTerminalField
     {
@@ -85,19 +85,19 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.html#QUADDING_CENTERED"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.html#QUADDING_CENTERED"/>
         /// </summary>
         public static int QUADDING_CENTERED { get { if (!_QUADDING_CENTEREDReady) { _QUADDING_CENTEREDContent = SGetField<int>(LocalBridgeClazz, "QUADDING_CENTERED"); _QUADDING_CENTEREDReady = true; } return _QUADDING_CENTEREDContent; } }
         private static int _QUADDING_CENTEREDContent = default;
         private static bool _QUADDING_CENTEREDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.html#QUADDING_LEFT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.html#QUADDING_LEFT"/>
         /// </summary>
         public static int QUADDING_LEFT { get { if (!_QUADDING_LEFTReady) { _QUADDING_LEFTContent = SGetField<int>(LocalBridgeClazz, "QUADDING_LEFT"); _QUADDING_LEFTReady = true; } return _QUADDING_LEFTContent; } }
         private static int _QUADDING_LEFTContent = default;
         private static bool _QUADDING_LEFTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.html#QUADDING_RIGHT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.html#QUADDING_RIGHT"/>
         /// </summary>
         public static int QUADDING_RIGHT { get { if (!_QUADDING_RIGHTReady) { _QUADDING_RIGHTContent = SGetField<int>(LocalBridgeClazz, "QUADDING_RIGHT"); _QUADDING_RIGHTReady = true; } return _QUADDING_RIGHTContent; } }
         private static int _QUADDING_RIGHTContent = default;
@@ -111,28 +111,28 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.html#getDefaultAppearance--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.html#setDefaultAppearance-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.html#getDefaultAppearance--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.html#setDefaultAppearance-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String DefaultAppearance
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getDefaultAppearance", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setDefaultAppearance", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.html#getDefaultStyleString--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.html#setDefaultStyleString-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.html#getDefaultStyleString--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.html#setDefaultStyleString-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String DefaultStyleString
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getDefaultStyleString", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setDefaultStyleString", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.html#getQ--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.html#setQ-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.html#getQ--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.html#setQ-int-"/>
         /// </summary>
         public int Q
         {
             get { return IExecuteWithSignature<int>("getQ", "()I"); } set { IExecuteWithSignature("setQ", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.html#getRichTextValue--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.html#setRichTextValue-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.html#getRichTextValue--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.html#setRichTextValue-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String RichTextValue
         {

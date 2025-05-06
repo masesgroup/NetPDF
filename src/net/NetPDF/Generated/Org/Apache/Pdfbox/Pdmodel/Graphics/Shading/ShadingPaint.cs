@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
 {
     #region ShadingPaint declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/ShadingPaint.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/ShadingPaint.html"/>
     /// </summary>
     public partial class ShadingPaint : Java.Awt.Paint
     {
@@ -74,7 +74,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
 
     #region ShadingPaint<T> declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/ShadingPaint.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/ShadingPaint.html"/>
     /// </summary>
     /// <typeparam name="T"><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Shading.PDShading"/></typeparam>
     public partial class ShadingPaint<T> : Java.Awt.Paint where T : Org.Apache.Pdfbox.Pdmodel.Graphics.Shading.PDShading
@@ -141,14 +141,14 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/ShadingPaint.html#getMatrix--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/ShadingPaint.html#getMatrix--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Util.Matrix Matrix
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Util.Matrix>("getMatrix", "()Lorg/apache/pdfbox/util/Matrix;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/ShadingPaint.html#getShading--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/ShadingPaint.html#getShading--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Shading.PDShading Shading
         {
@@ -190,14 +190,14 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/ShadingPaint.html#getMatrix--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/ShadingPaint.html#getMatrix--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Util.Matrix Matrix
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Util.Matrix>("getMatrix", "()Lorg/apache/pdfbox/util/Matrix;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/ShadingPaint.html#getShading--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/ShadingPaint.html#getShading--"/> 
         /// </summary>
         public T Shading
         {

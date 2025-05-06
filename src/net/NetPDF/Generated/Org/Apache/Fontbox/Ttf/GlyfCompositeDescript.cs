@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf
 {
     #region GlyfCompositeDescript declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfCompositeDescript.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfCompositeDescript.html"/>
     /// </summary>
     public partial class GlyfCompositeDescript : Org.Apache.Fontbox.Ttf.GlyfDescript
     {
@@ -91,14 +91,14 @@ namespace Org.Apache.Fontbox.Ttf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfCompositeDescript.html#getComponentCount--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfCompositeDescript.html#getComponentCount--"/> 
         /// </summary>
         public int ComponentCount
         {
             get { return IExecuteWithSignature<int>("getComponentCount", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfCompositeDescript.html#getComponents--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfCompositeDescript.html#getComponents--"/> 
         /// </summary>
         public Java.Util.List<Org.Apache.Fontbox.Ttf.GlyfCompositeComp> Components
         {

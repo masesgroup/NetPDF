@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Afm
 {
     #region FontMetrics declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html"/>
     /// </summary>
     public partial class FontMetrics : MASES.JCOBridge.C2JBridge.JVMBridgeBase<FontMetrics>
     {
@@ -91,259 +91,259 @@ namespace Org.Apache.Fontbox.Afm
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getAFMVersion--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setAFMVersion-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getAFMVersion--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setAFMVersion-float-"/>
         /// </summary>
         public float AFMVersion
         {
             get { return IExecuteWithSignature<float>("getAFMVersion", "()F"); } set { IExecuteWithSignature("setAFMVersion", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getAscender--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setAscender-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getAscender--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setAscender-float-"/>
         /// </summary>
         public float Ascender
         {
             get { return IExecuteWithSignature<float>("getAscender", "()F"); } set { IExecuteWithSignature("setAscender", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getAverageCharacterWidth--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getAverageCharacterWidth--"/> 
         /// </summary>
         public float AverageCharacterWidth
         {
             get { return IExecuteWithSignature<float>("getAverageCharacterWidth", "()F"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getCapHeight--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setCapHeight-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getCapHeight--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setCapHeight-float-"/>
         /// </summary>
         public float CapHeight
         {
             get { return IExecuteWithSignature<float>("getCapHeight", "()F"); } set { IExecuteWithSignature("setCapHeight", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getCharacters--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setCharacters-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getCharacters--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setCharacters-int-"/>
         /// </summary>
         public int Characters
         {
             get { return IExecuteWithSignature<int>("getCharacters", "()I"); } set { IExecuteWithSignature("setCharacters", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getCharacterSet--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setCharacterSet-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getCharacterSet--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setCharacterSet-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String CharacterSet
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getCharacterSet", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setCharacterSet", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getCharMetrics--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getCharMetrics--"/> 
         /// </summary>
         public Java.Util.List<Org.Apache.Fontbox.Afm.CharMetric> CharMetrics
         {
             get { return IExecuteWithSignature<Java.Util.List<Org.Apache.Fontbox.Afm.CharMetric>>("getCharMetrics", "()Ljava/util/List;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getCharWidth--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setCharWidth-float[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getCharWidth--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setCharWidth-float[]-"/>
         /// </summary>
         public float[] CharWidth
         {
             get { return IExecuteWithSignatureArray<float>("getCharWidth", "()[F"); } set { IExecuteWithSignature("setCharWidth", "([F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getComments--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getComments--"/> 
         /// </summary>
         public Java.Util.List<Java.Lang.String> Comments
         {
             get { return IExecuteWithSignature<Java.Util.List<Java.Lang.String>>("getComments", "()Ljava/util/List;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getComposites--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getComposites--"/> 
         /// </summary>
         public Java.Util.List<Org.Apache.Fontbox.Afm.Composite> Composites
         {
             get { return IExecuteWithSignature<Java.Util.List<Org.Apache.Fontbox.Afm.Composite>>("getComposites", "()Ljava/util/List;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getDescender--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setDescender-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getDescender--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setDescender-float-"/>
         /// </summary>
         public float Descender
         {
             get { return IExecuteWithSignature<float>("getDescender", "()F"); } set { IExecuteWithSignature("setDescender", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getEncodingScheme--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setEncodingScheme-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getEncodingScheme--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setEncodingScheme-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String EncodingScheme
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getEncodingScheme", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setEncodingScheme", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getEscChar--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setEscChar-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getEscChar--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setEscChar-int-"/>
         /// </summary>
         public int EscChar
         {
             get { return IExecuteWithSignature<int>("getEscChar", "()I"); } set { IExecuteWithSignature("setEscChar", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getFamilyName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setFamilyName-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getFamilyName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setFamilyName-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String FamilyName
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getFamilyName", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setFamilyName", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getFontBBox--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setFontBBox-org.apache.fontbox.util.BoundingBox-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getFontBBox--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setFontBBox-org.apache.fontbox.util.BoundingBox-"/>
         /// </summary>
         public Org.Apache.Fontbox.Util.BoundingBox FontBBox
         {
             get { return IExecuteWithSignature<Org.Apache.Fontbox.Util.BoundingBox>("getFontBBox", "()Lorg/apache/fontbox/util/BoundingBox;"); } set { IExecuteWithSignature("setFontBBox", "(Lorg/apache/fontbox/util/BoundingBox;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getFontName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setFontName-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getFontName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setFontName-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String FontName
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getFontName", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setFontName", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getFontVersion--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setFontVersion-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getFontVersion--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setFontVersion-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String FontVersion
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getFontVersion", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setFontVersion", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getFullName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setFullName-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getFullName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setFullName-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String FullName
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getFullName", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setFullName", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getIsBaseFont--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setIsBaseFont-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getIsBaseFont--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setIsBaseFont-boolean-"/>
         /// </summary>
         public bool IsBaseFont
         {
             get { return IExecuteWithSignature<bool>("getIsBaseFont", "()Z"); } set { IExecuteWithSignature("setIsBaseFont", "(Z)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getIsFixedPitch--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getIsFixedPitch--"/> 
         /// </summary>
         public bool IsFixedPitch
         {
             get { return IExecuteWithSignature<bool>("getIsFixedPitch", "()Z"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getIsFixedV--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setIsFixedV-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getIsFixedV--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setIsFixedV-boolean-"/>
         /// </summary>
         public bool IsFixedV
         {
             get { return IExecuteWithSignature<bool>("getIsFixedV", "()Z"); } set { IExecuteWithSignature("setIsFixedV", "(Z)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getItalicAngle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setItalicAngle-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getItalicAngle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setItalicAngle-float-"/>
         /// </summary>
         public float ItalicAngle
         {
             get { return IExecuteWithSignature<float>("getItalicAngle", "()F"); } set { IExecuteWithSignature("setItalicAngle", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getKernPairs--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getKernPairs--"/> 
         /// </summary>
         public Java.Util.List<Org.Apache.Fontbox.Afm.KernPair> KernPairs
         {
             get { return IExecuteWithSignature<Java.Util.List<Org.Apache.Fontbox.Afm.KernPair>>("getKernPairs", "()Ljava/util/List;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getKernPairs0--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getKernPairs0--"/> 
         /// </summary>
         public Java.Util.List<Org.Apache.Fontbox.Afm.KernPair> KernPairs0
         {
             get { return IExecuteWithSignature<Java.Util.List<Org.Apache.Fontbox.Afm.KernPair>>("getKernPairs0", "()Ljava/util/List;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getKernPairs1--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getKernPairs1--"/> 
         /// </summary>
         public Java.Util.List<Org.Apache.Fontbox.Afm.KernPair> KernPairs1
         {
             get { return IExecuteWithSignature<Java.Util.List<Org.Apache.Fontbox.Afm.KernPair>>("getKernPairs1", "()Ljava/util/List;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getMappingScheme--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setMappingScheme-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getMappingScheme--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setMappingScheme-int-"/>
         /// </summary>
         public int MappingScheme
         {
             get { return IExecuteWithSignature<int>("getMappingScheme", "()I"); } set { IExecuteWithSignature("setMappingScheme", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getMetricSets--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setMetricSets-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getMetricSets--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setMetricSets-int-"/>
         /// </summary>
         public int MetricSets
         {
             get { return IExecuteWithSignature<int>("getMetricSets", "()I"); } set { IExecuteWithSignature("setMetricSets", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getNotice--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setNotice-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getNotice--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setNotice-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Notice
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getNotice", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setNotice", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getStandardHorizontalWidth--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setStandardHorizontalWidth-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getStandardHorizontalWidth--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setStandardHorizontalWidth-float-"/>
         /// </summary>
         public float StandardHorizontalWidth
         {
             get { return IExecuteWithSignature<float>("getStandardHorizontalWidth", "()F"); } set { IExecuteWithSignature("setStandardHorizontalWidth", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getStandardVerticalWidth--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setStandardVerticalWidth-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getStandardVerticalWidth--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setStandardVerticalWidth-float-"/>
         /// </summary>
         public float StandardVerticalWidth
         {
             get { return IExecuteWithSignature<float>("getStandardVerticalWidth", "()F"); } set { IExecuteWithSignature("setStandardVerticalWidth", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getTrackKern--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getTrackKern--"/> 
         /// </summary>
         public Java.Util.List<Org.Apache.Fontbox.Afm.TrackKern> TrackKern
         {
             get { return IExecuteWithSignature<Java.Util.List<Org.Apache.Fontbox.Afm.TrackKern>>("getTrackKern", "()Ljava/util/List;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getUnderlinePosition--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setUnderlinePosition-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getUnderlinePosition--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setUnderlinePosition-float-"/>
         /// </summary>
         public float UnderlinePosition
         {
             get { return IExecuteWithSignature<float>("getUnderlinePosition", "()F"); } set { IExecuteWithSignature("setUnderlinePosition", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getUnderlineThickness--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setUnderlineThickness-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getUnderlineThickness--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setUnderlineThickness-float-"/>
         /// </summary>
         public float UnderlineThickness
         {
             get { return IExecuteWithSignature<float>("getUnderlineThickness", "()F"); } set { IExecuteWithSignature("setUnderlineThickness", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getVVector--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setVVector-float[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getVVector--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setVVector-float[]-"/>
         /// </summary>
         public float[] VVector
         {
             get { return IExecuteWithSignatureArray<float>("getVVector", "()[F"); } set { IExecuteWithSignature("setVVector", "([F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getWeight--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setWeight-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getWeight--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setWeight-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Weight
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getWeight", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setWeight", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getXHeight--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setXHeight-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getXHeight--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setXHeight-float-"/>
         /// </summary>
         public float XHeight
         {
             get { return IExecuteWithSignature<float>("getXHeight", "()F"); } set { IExecuteWithSignature("setXHeight", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getCharacterHeight-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getCharacterHeight-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="float"/></returns>
@@ -352,7 +352,7 @@ namespace Org.Apache.Fontbox.Afm
             return IExecuteWithSignature<float>("getCharacterHeight", "(Ljava/lang/String;)F", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#getCharacterWidth-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#getCharacterWidth-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="float"/></returns>
@@ -361,7 +361,7 @@ namespace Org.Apache.Fontbox.Afm
             return IExecuteWithSignature<float>("getCharacterWidth", "(Ljava/lang/String;)F", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#addCharMetric-org.apache.fontbox.afm.CharMetric-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#addCharMetric-org.apache.fontbox.afm.CharMetric-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Fontbox.Afm.CharMetric"/></param>
         public void AddCharMetric(Org.Apache.Fontbox.Afm.CharMetric arg0)
@@ -369,7 +369,7 @@ namespace Org.Apache.Fontbox.Afm
             IExecuteWithSignature("addCharMetric", "(Lorg/apache/fontbox/afm/CharMetric;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#addComment-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#addComment-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         public void AddComment(Java.Lang.String arg0)
@@ -377,7 +377,7 @@ namespace Org.Apache.Fontbox.Afm
             IExecuteWithSignature("addComment", "(Ljava/lang/String;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#addComposite-org.apache.fontbox.afm.Composite-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#addComposite-org.apache.fontbox.afm.Composite-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Fontbox.Afm.Composite"/></param>
         public void AddComposite(Org.Apache.Fontbox.Afm.Composite arg0)
@@ -385,7 +385,7 @@ namespace Org.Apache.Fontbox.Afm
             IExecuteWithSignature("addComposite", "(Lorg/apache/fontbox/afm/Composite;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#addKernPair-org.apache.fontbox.afm.KernPair-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#addKernPair-org.apache.fontbox.afm.KernPair-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Fontbox.Afm.KernPair"/></param>
         public void AddKernPair(Org.Apache.Fontbox.Afm.KernPair arg0)
@@ -393,7 +393,7 @@ namespace Org.Apache.Fontbox.Afm
             IExecuteWithSignature("addKernPair", "(Lorg/apache/fontbox/afm/KernPair;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#addKernPair0-org.apache.fontbox.afm.KernPair-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#addKernPair0-org.apache.fontbox.afm.KernPair-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Fontbox.Afm.KernPair"/></param>
         public void AddKernPair0(Org.Apache.Fontbox.Afm.KernPair arg0)
@@ -401,7 +401,7 @@ namespace Org.Apache.Fontbox.Afm
             IExecuteWithSignature("addKernPair0", "(Lorg/apache/fontbox/afm/KernPair;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#addKernPair1-org.apache.fontbox.afm.KernPair-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#addKernPair1-org.apache.fontbox.afm.KernPair-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Fontbox.Afm.KernPair"/></param>
         public void AddKernPair1(Org.Apache.Fontbox.Afm.KernPair arg0)
@@ -409,7 +409,7 @@ namespace Org.Apache.Fontbox.Afm
             IExecuteWithSignature("addKernPair1", "(Lorg/apache/fontbox/afm/KernPair;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#addTrackKern-org.apache.fontbox.afm.TrackKern-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#addTrackKern-org.apache.fontbox.afm.TrackKern-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Fontbox.Afm.TrackKern"/></param>
         public void AddTrackKern(Org.Apache.Fontbox.Afm.TrackKern arg0)
@@ -417,7 +417,7 @@ namespace Org.Apache.Fontbox.Afm
             IExecuteWithSignature("addTrackKern", "(Lorg/apache/fontbox/afm/TrackKern;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/afm/FontMetrics.html#setFixedPitch-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/afm/FontMetrics.html#setFixedPitch-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetFixedPitch(bool arg0)

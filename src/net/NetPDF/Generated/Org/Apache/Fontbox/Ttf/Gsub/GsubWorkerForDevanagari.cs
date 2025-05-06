@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf.Gsub
 {
     #region GsubWorkerForDevanagari declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/gsub/GsubWorkerForDevanagari.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/gsub/GsubWorkerForDevanagari.html"/>
     /// </summary>
     public partial class GsubWorkerForDevanagari : Org.Apache.Fontbox.Ttf.Gsub.GsubWorker
     {
@@ -91,7 +91,7 @@ namespace Org.Apache.Fontbox.Ttf.Gsub
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/gsub/GsubWorkerForDevanagari.html#applyTransforms-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/gsub/GsubWorkerForDevanagari.html#applyTransforms-java.util.List-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Util.List"/></param>
         /// <returns><see cref="Java.Util.List"/></returns>

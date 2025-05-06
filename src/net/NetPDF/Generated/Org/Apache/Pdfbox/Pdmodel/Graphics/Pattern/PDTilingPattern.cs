@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern
 {
     #region PDTilingPattern declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html"/>
     /// </summary>
     public partial class PDTilingPattern : Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDAbstractPattern
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern(org.apache.pdfbox.cos.COSDictionary,org.apache.pdfbox.pdmodel.ResourceCache)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern(org.apache.pdfbox.cos.COSDictionary,org.apache.pdfbox.pdmodel.ResourceCache)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.ResourceCache"/></param>
@@ -84,7 +84,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDTilingPattern(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -104,31 +104,31 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#PAINT_COLORED"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#PAINT_COLORED"/>
         /// </summary>
         public static int PAINT_COLORED { get { if (!_PAINT_COLOREDReady) { _PAINT_COLOREDContent = SGetField<int>(LocalBridgeClazz, "PAINT_COLORED"); _PAINT_COLOREDReady = true; } return _PAINT_COLOREDContent; } }
         private static int _PAINT_COLOREDContent = default;
         private static bool _PAINT_COLOREDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#PAINT_UNCOLORED"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#PAINT_UNCOLORED"/>
         /// </summary>
         public static int PAINT_UNCOLORED { get { if (!_PAINT_UNCOLOREDReady) { _PAINT_UNCOLOREDContent = SGetField<int>(LocalBridgeClazz, "PAINT_UNCOLORED"); _PAINT_UNCOLOREDReady = true; } return _PAINT_UNCOLOREDContent; } }
         private static int _PAINT_UNCOLOREDContent = default;
         private static bool _PAINT_UNCOLOREDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#TILING_CONSTANT_SPACING"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#TILING_CONSTANT_SPACING"/>
         /// </summary>
         public static int TILING_CONSTANT_SPACING { get { if (!_TILING_CONSTANT_SPACINGReady) { _TILING_CONSTANT_SPACINGContent = SGetField<int>(LocalBridgeClazz, "TILING_CONSTANT_SPACING"); _TILING_CONSTANT_SPACINGReady = true; } return _TILING_CONSTANT_SPACINGContent; } }
         private static int _TILING_CONSTANT_SPACINGContent = default;
         private static bool _TILING_CONSTANT_SPACINGReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#TILING_CONSTANT_SPACING_FASTER_TILING"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#TILING_CONSTANT_SPACING_FASTER_TILING"/>
         /// </summary>
         public static int TILING_CONSTANT_SPACING_FASTER_TILING { get { if (!_TILING_CONSTANT_SPACING_FASTER_TILINGReady) { _TILING_CONSTANT_SPACING_FASTER_TILINGContent = SGetField<int>(LocalBridgeClazz, "TILING_CONSTANT_SPACING_FASTER_TILING"); _TILING_CONSTANT_SPACING_FASTER_TILINGReady = true; } return _TILING_CONSTANT_SPACING_FASTER_TILINGContent; } }
         private static int _TILING_CONSTANT_SPACING_FASTER_TILINGContent = default;
         private static bool _TILING_CONSTANT_SPACING_FASTER_TILINGReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#TILING_NO_DISTORTION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#TILING_NO_DISTORTION"/>
         /// </summary>
         public static int TILING_NO_DISTORTION { get { if (!_TILING_NO_DISTORTIONReady) { _TILING_NO_DISTORTIONContent = SGetField<int>(LocalBridgeClazz, "TILING_NO_DISTORTION"); _TILING_NO_DISTORTIONReady = true; } return _TILING_NO_DISTORTIONContent; } }
         private static int _TILING_NO_DISTORTIONContent = default;
@@ -142,63 +142,63 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getBBox--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#setBBox-org.apache.pdfbox.pdmodel.common.PDRectangle-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getBBox--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#setBBox-org.apache.pdfbox.pdmodel.common.PDRectangle-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.PDRectangle BBox
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.PDRectangle>("getBBox", "()Lorg/apache/pdfbox/pdmodel/common/PDRectangle;"); } set { IExecuteWithSignature("setBBox", "(Lorg/apache/pdfbox/pdmodel/common/PDRectangle;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getContents--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getContents--"/> 
         /// </summary>
         public Java.Io.InputStream Contents
         {
             get { return IExecuteWithSignature<Java.Io.InputStream>("getContents", "()Ljava/io/InputStream;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getContentsForRandomAccess--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getContentsForRandomAccess--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Io.RandomAccessRead ContentsForRandomAccess
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Io.RandomAccessRead>("getContentsForRandomAccess", "()Lorg/apache/pdfbox/io/RandomAccessRead;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getContentStream--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getContentStream--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.PDStream ContentStream
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.PDStream>("getContentStream", "()Lorg/apache/pdfbox/pdmodel/common/PDStream;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getPaintType--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getPaintType--"/> 
         /// </summary>
         public int PaintType
         {
             get { return IExecuteWithSignature<int>("getPaintType", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getResources--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#setResources-org.apache.pdfbox.pdmodel.PDResources-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getResources--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#setResources-org.apache.pdfbox.pdmodel.PDResources-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.PDResources Resources
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.PDResources>("getResources", "()Lorg/apache/pdfbox/pdmodel/PDResources;"); } set { IExecuteWithSignature("setResources", "(Lorg/apache/pdfbox/pdmodel/PDResources;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getTilingType--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#setTilingType-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getTilingType--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#setTilingType-int-"/>
         /// </summary>
         public int TilingType
         {
             get { return IExecuteWithSignature<int>("getTilingType", "()I"); } set { IExecuteWithSignature("setTilingType", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getXStep--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#setXStep-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getXStep--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#setXStep-float-"/>
         /// </summary>
         public float XStep
         {
             get { return IExecuteWithSignature<float>("getXStep", "()F"); } set { IExecuteWithSignature("setXStep", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getYStep--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#setYStep-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getYStep--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#setYStep-float-"/>
         /// </summary>
         public float YStep
         {

@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Encoding
 {
     #region MacRomanEncoding declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/encoding/MacRomanEncoding.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/encoding/MacRomanEncoding.html"/>
     /// </summary>
     public partial class MacRomanEncoding : Org.Apache.Fontbox.Encoding.Encoding
     {
@@ -83,7 +83,7 @@ namespace Org.Apache.Fontbox.Encoding
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/encoding/MacRomanEncoding.html#INSTANCE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/encoding/MacRomanEncoding.html#INSTANCE"/>
         /// </summary>
         public static Org.Apache.Fontbox.Encoding.MacRomanEncoding INSTANCE { get { if (!_INSTANCEReady) { _INSTANCEContent = SGetField<Org.Apache.Fontbox.Encoding.MacRomanEncoding>(LocalBridgeClazz, "INSTANCE"); _INSTANCEReady = true; } return _INSTANCEContent; } }
         private static Org.Apache.Fontbox.Encoding.MacRomanEncoding _INSTANCEContent = default;

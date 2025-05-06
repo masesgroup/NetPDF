@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Util.Autodetect
 {
     #region FontDirFinder declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/util/autodetect/FontDirFinder.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/util/autodetect/FontDirFinder.html"/>
     /// </summary>
     public partial class FontDirFinder : MASES.JCOBridge.C2JBridge.JVMBridgeBase<FontDirFinder>
     {
@@ -74,7 +74,7 @@ namespace Org.Apache.Fontbox.Util.Autodetect
 
     #region IFontDirFinder
     /// <summary>
-    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/util/autodetect/FontDirFinder.html"/>
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/util/autodetect/FontDirFinder.html"/>
     /// </summary>
     public partial interface IFontDirFinder
     {
@@ -111,7 +111,7 @@ namespace Org.Apache.Fontbox.Util.Autodetect
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/util/autodetect/FontDirFinder.html#find--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/util/autodetect/FontDirFinder.html#find--"/>
         /// </summary>
         /// <returns><see cref="Java.Util.List"/></returns>
         public Java.Util.List<Java.Io.File> Find()

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator
 {
     #region MissingOperandException declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/MissingOperandException.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/MissingOperandException.html"/>
     /// </summary>
     public partial class MissingOperandException : Java.Io.IOException
     {

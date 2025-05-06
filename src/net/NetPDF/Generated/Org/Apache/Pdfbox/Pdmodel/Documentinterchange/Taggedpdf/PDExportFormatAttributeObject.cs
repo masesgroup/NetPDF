@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Taggedpdf
 {
     #region PDExportFormatAttributeObject declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html"/>
     /// </summary>
     public partial class PDExportFormatAttributeObject : Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Taggedpdf.PDLayoutAttributeObject
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Taggedpdf
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDExportFormatAttributeObject(java.lang.String)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDExportFormatAttributeObject(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         public PDExportFormatAttributeObject(Java.Lang.String arg0)
@@ -83,7 +83,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Taggedpdf
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDExportFormatAttributeObject(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDExportFormatAttributeObject(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDExportFormatAttributeObject(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -99,43 +99,43 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Taggedpdf
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#OWNER_CSS_1_00"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#OWNER_CSS_1_00"/>
         /// </summary>
         public static Java.Lang.String OWNER_CSS_1_00 { get { if (!_OWNER_CSS_1_00Ready) { _OWNER_CSS_1_00Content = SGetField<Java.Lang.String>(LocalBridgeClazz, "OWNER_CSS_1_00"); _OWNER_CSS_1_00Ready = true; } return _OWNER_CSS_1_00Content; } }
         private static Java.Lang.String _OWNER_CSS_1_00Content = default;
         private static bool _OWNER_CSS_1_00Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#OWNER_CSS_2_00"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#OWNER_CSS_2_00"/>
         /// </summary>
         public static Java.Lang.String OWNER_CSS_2_00 { get { if (!_OWNER_CSS_2_00Ready) { _OWNER_CSS_2_00Content = SGetField<Java.Lang.String>(LocalBridgeClazz, "OWNER_CSS_2_00"); _OWNER_CSS_2_00Ready = true; } return _OWNER_CSS_2_00Content; } }
         private static Java.Lang.String _OWNER_CSS_2_00Content = default;
         private static bool _OWNER_CSS_2_00Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#OWNER_HTML_3_20"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#OWNER_HTML_3_20"/>
         /// </summary>
         public static Java.Lang.String OWNER_HTML_3_20 { get { if (!_OWNER_HTML_3_20Ready) { _OWNER_HTML_3_20Content = SGetField<Java.Lang.String>(LocalBridgeClazz, "OWNER_HTML_3_20"); _OWNER_HTML_3_20Ready = true; } return _OWNER_HTML_3_20Content; } }
         private static Java.Lang.String _OWNER_HTML_3_20Content = default;
         private static bool _OWNER_HTML_3_20Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#OWNER_HTML_4_01"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#OWNER_HTML_4_01"/>
         /// </summary>
         public static Java.Lang.String OWNER_HTML_4_01 { get { if (!_OWNER_HTML_4_01Ready) { _OWNER_HTML_4_01Content = SGetField<Java.Lang.String>(LocalBridgeClazz, "OWNER_HTML_4_01"); _OWNER_HTML_4_01Ready = true; } return _OWNER_HTML_4_01Content; } }
         private static Java.Lang.String _OWNER_HTML_4_01Content = default;
         private static bool _OWNER_HTML_4_01Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#OWNER_OEB_1_00"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#OWNER_OEB_1_00"/>
         /// </summary>
         public static Java.Lang.String OWNER_OEB_1_00 { get { if (!_OWNER_OEB_1_00Ready) { _OWNER_OEB_1_00Content = SGetField<Java.Lang.String>(LocalBridgeClazz, "OWNER_OEB_1_00"); _OWNER_OEB_1_00Ready = true; } return _OWNER_OEB_1_00Content; } }
         private static Java.Lang.String _OWNER_OEB_1_00Content = default;
         private static bool _OWNER_OEB_1_00Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#OWNER_RTF_1_05"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#OWNER_RTF_1_05"/>
         /// </summary>
         public static Java.Lang.String OWNER_RTF_1_05 { get { if (!_OWNER_RTF_1_05Ready) { _OWNER_RTF_1_05Content = SGetField<Java.Lang.String>(LocalBridgeClazz, "OWNER_RTF_1_05"); _OWNER_RTF_1_05Ready = true; } return _OWNER_RTF_1_05Content; } }
         private static Java.Lang.String _OWNER_RTF_1_05Content = default;
         private static bool _OWNER_RTF_1_05Ready = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#OWNER_XML_1_00"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#OWNER_XML_1_00"/>
         /// </summary>
         public static Java.Lang.String OWNER_XML_1_00 { get { if (!_OWNER_XML_1_00Ready) { _OWNER_XML_1_00Content = SGetField<Java.Lang.String>(LocalBridgeClazz, "OWNER_XML_1_00"); _OWNER_XML_1_00Ready = true; } return _OWNER_XML_1_00Content; } }
         private static Java.Lang.String _OWNER_XML_1_00Content = default;
@@ -149,42 +149,42 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Taggedpdf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#getColSpan--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#setColSpan-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#getColSpan--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#setColSpan-int-"/>
         /// </summary>
         public int ColSpan
         {
             get { return IExecuteWithSignature<int>("getColSpan", "()I"); } set { IExecuteWithSignature("setColSpan", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#getHeaders--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#setHeaders-java.lang.String[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#getHeaders--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#setHeaders-java.lang.String[]-"/>
         /// </summary>
         public Java.Lang.String[] Headers
         {
             get { return IExecuteWithSignatureArray<Java.Lang.String>("getHeaders", "()[Ljava/lang/String;"); } set { IExecuteWithSignature("setHeaders", "([Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#getListNumbering--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#setListNumbering-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#getListNumbering--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#setListNumbering-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String ListNumbering
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getListNumbering", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setListNumbering", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#getRowSpan--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#setRowSpan-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#getRowSpan--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#setRowSpan-int-"/>
         /// </summary>
         public int RowSpan
         {
             get { return IExecuteWithSignature<int>("getRowSpan", "()I"); } set { IExecuteWithSignature("setRowSpan", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#getScope--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#setScope-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#getScope--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#setScope-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Scope
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getScope", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setScope", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#getSummary--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#setSummary-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#getSummary--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDExportFormatAttributeObject.html#setSummary-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Summary
         {

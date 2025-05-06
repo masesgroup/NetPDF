@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
 {
     #region PDAttributeObject declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDAttributeObject.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDAttributeObject.html"/>
     /// </summary>
     public partial class PDAttributeObject : Org.Apache.Pdfbox.Pdmodel.Common.PDDictionaryWrapper
     {
@@ -77,7 +77,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDAttributeObject.html#org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDAttributeObject.html#org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDAttributeObject(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -97,7 +97,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDAttributeObject.html#create-org.apache.pdfbox.cos.COSDictionary-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDAttributeObject.html#create-org.apache.pdfbox.cos.COSDictionary-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDAttributeObject"/></returns>
@@ -110,14 +110,14 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDAttributeObject.html#getOwner--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDAttributeObject.html#getOwner--"/> 
         /// </summary>
         public Java.Lang.String Owner
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getOwner", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDAttributeObject.html#isEmpty--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDAttributeObject.html#isEmpty--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsEmpty()

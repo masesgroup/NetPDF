@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination
 {
     #region PDPageFitDestination declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageFitDestination.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageFitDestination.html"/>
     /// </summary>
     public partial class PDPageFitDestination : Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination.PDPageDestination
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageFitDestination.html#org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitDestination(org.apache.pdfbox.cos.COSArray)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageFitDestination.html#org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageFitDestination(org.apache.pdfbox.cos.COSArray)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSArray"/></param>
         public PDPageFitDestination(Org.Apache.Pdfbox.Cos.COSArray arg0)
@@ -99,7 +99,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageFitDestination.html#fitBoundingBox--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageFitDestination.html#fitBoundingBox--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool FitBoundingBox()
@@ -107,7 +107,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination
             return IExecuteWithSignature<bool>("fitBoundingBox", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageFitDestination.html#setFitBoundingBox-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageFitDestination.html#setFitBoundingBox-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetFitBoundingBox(bool arg0)

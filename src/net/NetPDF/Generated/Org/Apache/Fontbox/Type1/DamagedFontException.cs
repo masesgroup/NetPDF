@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Type1
 {
     #region DamagedFontException declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/type1/DamagedFontException.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/DamagedFontException.html"/>
     /// </summary>
     public partial class DamagedFontException : Java.Io.IOException
     {

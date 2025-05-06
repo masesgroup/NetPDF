@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fixup
 {
     #region AbstractFixup declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fixup/AbstractFixup.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fixup/AbstractFixup.html"/>
     /// </summary>
     public partial class AbstractFixup : Org.Apache.Pdfbox.Pdmodel.Fixup.PDDocumentFixup
     {

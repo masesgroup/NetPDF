@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf.Model
 {
     #region GsubData declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/model/GsubData.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/model/GsubData.html"/>
     /// </summary>
     public partial class GsubData : MASES.JCOBridge.C2JBridge.JVMBridgeBase<GsubData>
     {
@@ -74,7 +74,7 @@ namespace Org.Apache.Fontbox.Ttf.Model
 
     #region IGsubData
     /// <summary>
-    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/model/GsubData.html"/>
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/model/GsubData.html"/>
     /// </summary>
     public partial interface IGsubData
     {
@@ -103,7 +103,7 @@ namespace Org.Apache.Fontbox.Ttf.Model
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/model/GsubData.html#NO_DATA_FOUND"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/model/GsubData.html#NO_DATA_FOUND"/>
         /// </summary>
         public static Org.Apache.Fontbox.Ttf.Model.GsubData NO_DATA_FOUND { get { if (!_NO_DATA_FOUNDReady) { _NO_DATA_FOUNDContent = SGetField<Org.Apache.Fontbox.Ttf.Model.GsubData>(LocalBridgeClazz, "NO_DATA_FOUND"); _NO_DATA_FOUNDReady = true; } return _NO_DATA_FOUNDContent; } }
         private static Org.Apache.Fontbox.Ttf.Model.GsubData _NO_DATA_FOUNDContent = default;
@@ -117,28 +117,28 @@ namespace Org.Apache.Fontbox.Ttf.Model
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/model/GsubData.html#getActiveScriptName--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/model/GsubData.html#getActiveScriptName--"/> 
         /// </summary>
         public Java.Lang.String ActiveScriptName
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getActiveScriptName", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/model/GsubData.html#getLanguage--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/model/GsubData.html#getLanguage--"/> 
         /// </summary>
         public Org.Apache.Fontbox.Ttf.Model.Language Language
         {
             get { return IExecuteWithSignature<Org.Apache.Fontbox.Ttf.Model.Language>("getLanguage", "()Lorg/apache/fontbox/ttf/model/Language;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/model/GsubData.html#getSupportedFeatures--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/model/GsubData.html#getSupportedFeatures--"/> 
         /// </summary>
         public Java.Util.Set<Java.Lang.String> SupportedFeatures
         {
             get { return IExecuteWithSignature<Java.Util.Set<Java.Lang.String>>("getSupportedFeatures", "()Ljava/util/Set;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/model/GsubData.html#isFeatureSupported-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/model/GsubData.html#isFeatureSupported-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -147,7 +147,7 @@ namespace Org.Apache.Fontbox.Ttf.Model
             return IExecuteWithSignature<bool>("isFeatureSupported", "(Ljava/lang/String;)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/model/GsubData.html#getFeature-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/model/GsubData.html#getFeature-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Fontbox.Ttf.Model.ScriptFeature"/></returns>

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
 {
     #region PDShadingType2 declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShadingType2.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShadingType2.html"/>
     /// </summary>
     public partial class PDShadingType2 : Org.Apache.Pdfbox.Pdmodel.Graphics.Shading.PDShading
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShadingType2.html#org.apache.pdfbox.pdmodel.graphics.shading.PDShadingType2(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShadingType2.html#org.apache.pdfbox.pdmodel.graphics.shading.PDShadingType2(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDShadingType2(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -99,21 +99,21 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShadingType2.html#getCoords--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShadingType2.html#setCoords-org.apache.pdfbox.cos.COSArray-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShadingType2.html#getCoords--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShadingType2.html#setCoords-org.apache.pdfbox.cos.COSArray-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSArray Coords
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSArray>("getCoords", "()Lorg/apache/pdfbox/cos/COSArray;"); } set { IExecuteWithSignature("setCoords", "(Lorg/apache/pdfbox/cos/COSArray;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShadingType2.html#getDomain--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShadingType2.html#setDomain-org.apache.pdfbox.cos.COSArray-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShadingType2.html#getDomain--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShadingType2.html#setDomain-org.apache.pdfbox.cos.COSArray-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSArray Domain
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSArray>("getDomain", "()Lorg/apache/pdfbox/cos/COSArray;"); } set { IExecuteWithSignature("setDomain", "(Lorg/apache/pdfbox/cos/COSArray;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShadingType2.html#getExtend--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShadingType2.html#setExtend-org.apache.pdfbox.cos.COSArray-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShadingType2.html#getExtend--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShadingType2.html#setExtend-org.apache.pdfbox.cos.COSArray-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSArray Extend
         {

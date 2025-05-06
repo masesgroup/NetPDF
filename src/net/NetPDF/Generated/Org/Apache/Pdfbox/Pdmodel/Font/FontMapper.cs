@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
 {
     #region FontMapper declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontMapper.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontMapper.html"/>
     /// </summary>
     public partial class FontMapper : MASES.JCOBridge.C2JBridge.JVMBridgeBase<FontMapper>
     {
@@ -74,7 +74,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
 
     #region IFontMapper
     /// <summary>
-    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontMapper.html"/>
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontMapper.html"/>
     /// </summary>
     public partial interface IFontMapper
     {
@@ -111,7 +111,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontMapper.html#getCIDFont-java.lang.String-org.apache.pdfbox.pdmodel.font.PDFontDescriptor-org.apache.pdfbox.pdmodel.font.PDCIDSystemInfo-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontMapper.html#getCIDFont-java.lang.String-org.apache.pdfbox.pdmodel.font.PDFontDescriptor-org.apache.pdfbox.pdmodel.font.PDCIDSystemInfo-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.Font.PDFontDescriptor"/></param>
@@ -122,7 +122,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Font.CIDFontMapping>("getCIDFont", "(Ljava/lang/String;Lorg/apache/pdfbox/pdmodel/font/PDFontDescriptor;Lorg/apache/pdfbox/pdmodel/font/PDCIDSystemInfo;)Lorg/apache/pdfbox/pdmodel/font/CIDFontMapping;", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontMapper.html#getFontBoxFont-java.lang.String-org.apache.pdfbox.pdmodel.font.PDFontDescriptor-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontMapper.html#getFontBoxFont-java.lang.String-org.apache.pdfbox.pdmodel.font.PDFontDescriptor-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.Font.PDFontDescriptor"/></param>
@@ -132,7 +132,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Font.FontMapping<Org.Apache.Fontbox.FontBoxFont>>("getFontBoxFont", "(Ljava/lang/String;Lorg/apache/pdfbox/pdmodel/font/PDFontDescriptor;)Lorg/apache/pdfbox/pdmodel/font/FontMapping;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontMapper.html#getTrueTypeFont-java.lang.String-org.apache.pdfbox.pdmodel.font.PDFontDescriptor-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontMapper.html#getTrueTypeFont-java.lang.String-org.apache.pdfbox.pdmodel.font.PDFontDescriptor-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.Font.PDFontDescriptor"/></param>

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
 {
     #region PublicKeyProtectionPolicy declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/PublicKeyProtectionPolicy.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/PublicKeyProtectionPolicy.html"/>
     /// </summary>
     public partial class PublicKeyProtectionPolicy : Org.Apache.Pdfbox.Pdmodel.Encryption.ProtectionPolicy
     {
@@ -91,28 +91,28 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/PublicKeyProtectionPolicy.html#getDecryptionCertificate--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/PublicKeyProtectionPolicy.html#setDecryptionCertificate-java.security.cert.X509Certificate-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/PublicKeyProtectionPolicy.html#getDecryptionCertificate--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/PublicKeyProtectionPolicy.html#setDecryptionCertificate-java.security.cert.X509Certificate-"/>
         /// </summary>
         public Java.Security.Cert.X509Certificate DecryptionCertificate
         {
             get { return IExecuteWithSignature<Java.Security.Cert.X509Certificate>("getDecryptionCertificate", "()Ljava/security/cert/X509Certificate;"); } set { IExecuteWithSignature("setDecryptionCertificate", "(Ljava/security/cert/X509Certificate;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/PublicKeyProtectionPolicy.html#getNumberOfRecipients--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/PublicKeyProtectionPolicy.html#getNumberOfRecipients--"/> 
         /// </summary>
         public int NumberOfRecipients
         {
             get { return IExecuteWithSignature<int>("getNumberOfRecipients", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/PublicKeyProtectionPolicy.html#getRecipientsIterator--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/PublicKeyProtectionPolicy.html#getRecipientsIterator--"/> 
         /// </summary>
         public Java.Util.Iterator<Org.Apache.Pdfbox.Pdmodel.Encryption.PublicKeyRecipient> RecipientsIterator
         {
             get { return IExecuteWithSignature<Java.Util.Iterator<Org.Apache.Pdfbox.Pdmodel.Encryption.PublicKeyRecipient>>("getRecipientsIterator", "()Ljava/util/Iterator;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/PublicKeyProtectionPolicy.html#removeRecipient-org.apache.pdfbox.pdmodel.encryption.PublicKeyRecipient-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/PublicKeyProtectionPolicy.html#removeRecipient-org.apache.pdfbox.pdmodel.encryption.PublicKeyRecipient-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Encryption.PublicKeyRecipient"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -121,7 +121,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             return IExecuteWithSignature<bool>("removeRecipient", "(Lorg/apache/pdfbox/pdmodel/encryption/PublicKeyRecipient;)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/PublicKeyProtectionPolicy.html#addRecipient-org.apache.pdfbox.pdmodel.encryption.PublicKeyRecipient-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/PublicKeyProtectionPolicy.html#addRecipient-org.apache.pdfbox.pdmodel.encryption.PublicKeyRecipient-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Encryption.PublicKeyRecipient"/></param>
         public void AddRecipient(Org.Apache.Pdfbox.Pdmodel.Encryption.PublicKeyRecipient arg0)

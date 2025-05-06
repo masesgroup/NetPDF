@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf.Table.Common
 {
     #region FeatureRecord declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/common/FeatureRecord.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/common/FeatureRecord.html"/>
     /// </summary>
     public partial class FeatureRecord : MASES.JCOBridge.C2JBridge.JVMBridgeBase<FeatureRecord>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Fontbox.Ttf.Table.Common
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/common/FeatureRecord.html#org.apache.fontbox.ttf.table.common.FeatureRecord(java.lang.String,org.apache.fontbox.ttf.table.common.FeatureTable)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/common/FeatureRecord.html#org.apache.fontbox.ttf.table.common.FeatureRecord(java.lang.String,org.apache.fontbox.ttf.table.common.FeatureTable)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Fontbox.Ttf.Table.Common.FeatureTable"/></param>
@@ -100,14 +100,14 @@ namespace Org.Apache.Fontbox.Ttf.Table.Common
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/common/FeatureRecord.html#getFeatureTable--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/common/FeatureRecord.html#getFeatureTable--"/> 
         /// </summary>
         public Org.Apache.Fontbox.Ttf.Table.Common.FeatureTable FeatureTable
         {
             get { return IExecuteWithSignature<Org.Apache.Fontbox.Ttf.Table.Common.FeatureTable>("getFeatureTable", "()Lorg/apache/fontbox/ttf/table/common/FeatureTable;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/common/FeatureRecord.html#getFeatureTag--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/common/FeatureRecord.html#getFeatureTag--"/> 
         /// </summary>
         public Java.Lang.String FeatureTag
         {

@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Cff
 {
     #region CFFExpertCharset declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFExpertCharset.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFExpertCharset.html"/>
     /// </summary>
     public partial class CFFExpertCharset : MASES.JCOBridge.C2JBridge.JVMBridgeBase<CFFExpertCharset>
     {
@@ -87,7 +87,7 @@ namespace Org.Apache.Fontbox.Cff
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFExpertCharset.html#getInstance--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFExpertCharset.html#getInstance--"/> 
         /// </summary>
         public static Org.Apache.Fontbox.Cff.CFFExpertCharset Instance
         {

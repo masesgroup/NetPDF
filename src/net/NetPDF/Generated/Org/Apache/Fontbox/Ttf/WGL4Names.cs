@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf
 {
     #region WGL4Names declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/WGL4Names.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/WGL4Names.html"/>
     /// </summary>
     public partial class WGL4Names : MASES.JCOBridge.C2JBridge.JVMBridgeBase<WGL4Names>
     {
@@ -83,7 +83,7 @@ namespace Org.Apache.Fontbox.Ttf
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/WGL4Names.html#NUMBER_OF_MAC_GLYPHS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/WGL4Names.html#NUMBER_OF_MAC_GLYPHS"/>
         /// </summary>
         public static int NUMBER_OF_MAC_GLYPHS { get { if (!_NUMBER_OF_MAC_GLYPHSReady) { _NUMBER_OF_MAC_GLYPHSContent = SGetField<int>(LocalBridgeClazz, "NUMBER_OF_MAC_GLYPHS"); _NUMBER_OF_MAC_GLYPHSReady = true; } return _NUMBER_OF_MAC_GLYPHSContent; } }
         private static int _NUMBER_OF_MAC_GLYPHSContent = default;
@@ -93,14 +93,14 @@ namespace Org.Apache.Fontbox.Ttf
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/WGL4Names.html#getAllNames--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/WGL4Names.html#getAllNames--"/> 
         /// </summary>
         public static Java.Lang.String[] AllNames
         {
             get { return SExecuteWithSignatureArray<Java.Lang.String>(LocalBridgeClazz, "getAllNames", "()[Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/WGL4Names.html#getGlyphIndex-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/WGL4Names.html#getGlyphIndex-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Lang.Integer"/></returns>
@@ -109,7 +109,7 @@ namespace Org.Apache.Fontbox.Ttf
             return SExecuteWithSignature<Java.Lang.Integer>(LocalBridgeClazz, "getGlyphIndex", "(Ljava/lang/String;)Ljava/lang/Integer;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/WGL4Names.html#getGlyphName-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/WGL4Names.html#getGlyphName-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="Java.Lang.String"/></returns>

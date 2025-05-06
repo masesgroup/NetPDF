@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
 {
     #region PDDeviceN declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceN.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceN.html"/>
     /// </summary>
     public partial class PDDeviceN : Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDSpecialColorSpace
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceN.html#org.apache.pdfbox.pdmodel.graphics.color.PDDeviceN(org.apache.pdfbox.cos.COSArray,org.apache.pdfbox.pdmodel.PDResources)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceN.html#org.apache.pdfbox.pdmodel.graphics.color.PDDeviceN(org.apache.pdfbox.cos.COSArray,org.apache.pdfbox.pdmodel.PDResources)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSArray"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.PDResources"/></param>
@@ -101,35 +101,35 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceN.html#getAlternateColorSpace--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceN.html#setAlternateColorSpace-org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceN.html#getAlternateColorSpace--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceN.html#setAlternateColorSpace-org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace AlternateColorSpace
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace>("getAlternateColorSpace", "()Lorg/apache/pdfbox/pdmodel/graphics/color/PDColorSpace;"); } set { IExecuteWithSignature("setAlternateColorSpace", "(Lorg/apache/pdfbox/pdmodel/graphics/color/PDColorSpace;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceN.html#getAttributes--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceN.html#setAttributes-org.apache.pdfbox.pdmodel.graphics.color.PDDeviceNAttributes-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceN.html#getAttributes--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceN.html#setAttributes-org.apache.pdfbox.pdmodel.graphics.color.PDDeviceNAttributes-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDDeviceNAttributes Attributes
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDDeviceNAttributes>("getAttributes", "()Lorg/apache/pdfbox/pdmodel/graphics/color/PDDeviceNAttributes;"); } set { IExecuteWithSignature("setAttributes", "(Lorg/apache/pdfbox/pdmodel/graphics/color/PDDeviceNAttributes;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceN.html#getColorantNames--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceN.html#setColorantNames-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceN.html#getColorantNames--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceN.html#setColorantNames-java.util.List-"/>
         /// </summary>
         public Java.Util.List<Java.Lang.String> ColorantNames
         {
             get { return IExecuteWithSignature<Java.Util.List<Java.Lang.String>>("getColorantNames", "()Ljava/util/List;"); } set { IExecuteWithSignature("setColorantNames", "(Ljava/util/List;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceN.html#getTintTransform--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceN.html#setTintTransform-org.apache.pdfbox.pdmodel.common.function.PDFunction-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceN.html#getTintTransform--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceN.html#setTintTransform-org.apache.pdfbox.pdmodel.common.function.PDFunction-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.Function.PDFunction TintTransform
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.Function.PDFunction>("getTintTransform", "()Lorg/apache/pdfbox/pdmodel/common/function/PDFunction;"); } set { IExecuteWithSignature("setTintTransform", "(Lorg/apache/pdfbox/pdmodel/common/function/PDFunction;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceN.html#isNChannel--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceN.html#isNChannel--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsNChannel()

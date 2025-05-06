@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf.Model
 {
     #region ScriptFeature declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/model/ScriptFeature.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/model/ScriptFeature.html"/>
     /// </summary>
     public partial class ScriptFeature : MASES.JCOBridge.C2JBridge.JVMBridgeBase<ScriptFeature>
     {
@@ -74,7 +74,7 @@ namespace Org.Apache.Fontbox.Ttf.Model
 
     #region IScriptFeature
     /// <summary>
-    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/model/ScriptFeature.html"/>
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/model/ScriptFeature.html"/>
     /// </summary>
     public partial interface IScriptFeature
     {
@@ -111,21 +111,21 @@ namespace Org.Apache.Fontbox.Ttf.Model
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/model/ScriptFeature.html#getAllGlyphIdsForSubstitution--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/model/ScriptFeature.html#getAllGlyphIdsForSubstitution--"/> 
         /// </summary>
         public Java.Util.Set<Java.Util.List<Java.Lang.Integer>> AllGlyphIdsForSubstitution
         {
             get { return IExecuteWithSignature<Java.Util.Set<Java.Util.List<Java.Lang.Integer>>>("getAllGlyphIdsForSubstitution", "()Ljava/util/Set;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/model/ScriptFeature.html#getName--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/model/ScriptFeature.html#getName--"/> 
         /// </summary>
         public Java.Lang.String Name
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getName", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/model/ScriptFeature.html#canReplaceGlyphs-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/model/ScriptFeature.html#canReplaceGlyphs-java.util.List-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Util.List"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -134,7 +134,7 @@ namespace Org.Apache.Fontbox.Ttf.Model
             return IExecuteWithSignature<bool>("canReplaceGlyphs", "(Ljava/util/List;)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/model/ScriptFeature.html#getReplacementForGlyphs-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/model/ScriptFeature.html#getReplacementForGlyphs-java.util.List-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Util.List"/></param>
         /// <returns><see cref="Java.Lang.Integer"/></returns>

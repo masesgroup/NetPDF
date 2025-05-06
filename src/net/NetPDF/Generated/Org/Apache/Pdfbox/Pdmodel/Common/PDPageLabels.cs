@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
 {
     #region PDPageLabels declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDPageLabels.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDPageLabels.html"/>
     /// </summary>
     public partial class PDPageLabels : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDPageLabels.html#org.apache.pdfbox.pdmodel.common.PDPageLabels(org.apache.pdfbox.pdmodel.PDDocument,org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDPageLabels.html#org.apache.pdfbox.pdmodel.common.PDPageLabels(org.apache.pdfbox.pdmodel.PDDocument,org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
@@ -85,7 +85,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDPageLabels.html#org.apache.pdfbox.pdmodel.common.PDPageLabels(org.apache.pdfbox.pdmodel.PDDocument)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDPageLabels.html#org.apache.pdfbox.pdmodel.common.PDPageLabels(org.apache.pdfbox.pdmodel.PDDocument)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         public PDPageLabels(Org.Apache.Pdfbox.Pdmodel.PDDocument arg0)
@@ -109,42 +109,42 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDPageLabels.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDPageLabels.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDPageLabels.html#getLabelsByPageIndices--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDPageLabels.html#getLabelsByPageIndices--"/> 
         /// </summary>
         public Java.Lang.String[] LabelsByPageIndices
         {
             get { return IExecuteWithSignatureArray<Java.Lang.String>("getLabelsByPageIndices", "()[Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDPageLabels.html#getPageIndices--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDPageLabels.html#getPageIndices--"/> 
         /// </summary>
         public Java.Util.NavigableSet<Java.Lang.Integer> PageIndices
         {
             get { return IExecuteWithSignature<Java.Util.NavigableSet<Java.Lang.Integer>>("getPageIndices", "()Ljava/util/NavigableSet;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDPageLabels.html#getPageIndicesByLabels--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDPageLabels.html#getPageIndicesByLabels--"/> 
         /// </summary>
         public Java.Util.Map<Java.Lang.String, Java.Lang.Integer> PageIndicesByLabels
         {
             get { return IExecuteWithSignature<Java.Util.Map<Java.Lang.String, Java.Lang.Integer>>("getPageIndicesByLabels", "()Ljava/util/Map;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDPageLabels.html#getPageRangeCount--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDPageLabels.html#getPageRangeCount--"/> 
         /// </summary>
         public int PageRangeCount
         {
             get { return IExecuteWithSignature<int>("getPageRangeCount", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDPageLabels.html#getPageLabelRange-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDPageLabels.html#getPageLabelRange-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Common.PDPageLabelRange"/></returns>
@@ -153,7 +153,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.PDPageLabelRange>("getPageLabelRange", "(I)Lorg/apache/pdfbox/pdmodel/common/PDPageLabelRange;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDPageLabels.html#setLabelItem-int-org.apache.pdfbox.pdmodel.common.PDPageLabelRange-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDPageLabels.html#setLabelItem-int-org.apache.pdfbox.pdmodel.common.PDPageLabelRange-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.Common.PDPageLabelRange"/></param>

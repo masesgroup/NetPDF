@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
 {
     #region PDComboBox declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDComboBox.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDComboBox.html"/>
     /// </summary>
     public partial class PDComboBox : Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDChoice
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDComboBox.html#org.apache.pdfbox.pdmodel.interactive.form.PDComboBox(org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDComboBox.html#org.apache.pdfbox.pdmodel.interactive.form.PDComboBox(org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDAcroForm"/></param>
         public PDComboBox(Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDAcroForm arg0)
@@ -99,7 +99,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDComboBox.html#isEdit--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDComboBox.html#isEdit--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsEdit()
@@ -107,7 +107,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             return IExecuteWithSignature<bool>("isEdit", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDComboBox.html#setEdit-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDComboBox.html#setEdit-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetEdit(bool arg0)

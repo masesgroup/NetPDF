@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
 {
     #region FDFField declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html"/>
     /// </summary>
     public partial class FDFField : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#org.apache.pdfbox.pdmodel.fdf.FDFField(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#org.apache.pdfbox.pdmodel.fdf.FDFField(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public FDFField(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -83,7 +83,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#org.apache.pdfbox.pdmodel.fdf.FDFField(org.w3c.dom.Element)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#org.apache.pdfbox.pdmodel.fdf.FDFField(org.w3c.dom.Element)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.W3c.Dom.Element"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -108,119 +108,119 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getAction--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setAction-org.apache.pdfbox.pdmodel.interactive.action.PDAction-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getAction--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setAction-org.apache.pdfbox.pdmodel.interactive.action.PDAction-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Action.PDAction Action
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Action.PDAction>("getAction", "()Lorg/apache/pdfbox/pdmodel/interactive/action/PDAction;"); } set { IExecuteWithSignature("setAction", "(Lorg/apache/pdfbox/pdmodel/interactive/action/PDAction;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getAdditionalActions--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setAdditionalActions-org.apache.pdfbox.pdmodel.interactive.action.PDAdditionalActions-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getAdditionalActions--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setAdditionalActions-org.apache.pdfbox.pdmodel.interactive.action.PDAdditionalActions-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Action.PDAdditionalActions AdditionalActions
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Action.PDAdditionalActions>("getAdditionalActions", "()Lorg/apache/pdfbox/pdmodel/interactive/action/PDAdditionalActions;"); } set { IExecuteWithSignature("setAdditionalActions", "(Lorg/apache/pdfbox/pdmodel/interactive/action/PDAdditionalActions;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getAppearanceDictionary--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setAppearanceDictionary-org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceDictionary-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getAppearanceDictionary--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setAppearanceDictionary-org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceDictionary-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAppearanceDictionary AppearanceDictionary
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAppearanceDictionary>("getAppearanceDictionary", "()Lorg/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary;"); } set { IExecuteWithSignature("setAppearanceDictionary", "(Lorg/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceDictionary;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getAppearanceStreamReference--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setAppearanceStreamReference-org.apache.pdfbox.pdmodel.fdf.FDFNamedPageReference-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getAppearanceStreamReference--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setAppearanceStreamReference-org.apache.pdfbox.pdmodel.fdf.FDFNamedPageReference-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Fdf.FDFNamedPageReference AppearanceStreamReference
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Fdf.FDFNamedPageReference>("getAppearanceStreamReference", "()Lorg/apache/pdfbox/pdmodel/fdf/FDFNamedPageReference;"); } set { IExecuteWithSignature("setAppearanceStreamReference", "(Lorg/apache/pdfbox/pdmodel/fdf/FDFNamedPageReference;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getClearFieldFlags--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getClearFieldFlags--"/> 
         /// </summary>
         public Java.Lang.Integer ClearFieldFlags
         {
             get { return IExecuteWithSignature<Java.Lang.Integer>("getClearFieldFlags", "()Ljava/lang/Integer;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getClearWidgetFieldFlags--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getClearWidgetFieldFlags--"/> 
         /// </summary>
         public Java.Lang.Integer ClearWidgetFieldFlags
         {
             get { return IExecuteWithSignature<Java.Lang.Integer>("getClearWidgetFieldFlags", "()Ljava/lang/Integer;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getCOSValue--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getCOSValue--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSValue
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSValue", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getFieldFlags--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getFieldFlags--"/> 
         /// </summary>
         public Java.Lang.Integer FieldFlags
         {
             get { return IExecuteWithSignature<Java.Lang.Integer>("getFieldFlags", "()Ljava/lang/Integer;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getIconFit--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setIconFit-org.apache.pdfbox.pdmodel.fdf.FDFIconFit-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getIconFit--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setIconFit-org.apache.pdfbox.pdmodel.fdf.FDFIconFit-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Fdf.FDFIconFit IconFit
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Fdf.FDFIconFit>("getIconFit", "()Lorg/apache/pdfbox/pdmodel/fdf/FDFIconFit;"); } set { IExecuteWithSignature("setIconFit", "(Lorg/apache/pdfbox/pdmodel/fdf/FDFIconFit;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getKids--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setKids-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getKids--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setKids-java.util.List-"/>
         /// </summary>
         public Java.Util.List<Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField> Kids
         {
             get { return IExecuteWithSignature<Java.Util.List<Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField>>("getKids", "()Ljava/util/List;"); } set { IExecuteWithSignature("setKids", "(Ljava/util/List;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getOptions--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setOptions-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getOptions--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setOptions-java.util.List-"/>
         /// </summary>
         public Java.Util.List<object> Options
         {
             get { return IExecuteWithSignature<Java.Util.List<object>>("getOptions", "()Ljava/util/List;"); } set { IExecuteWithSignature("setOptions", "(Ljava/util/List;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getPartialFieldName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setPartialFieldName-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getPartialFieldName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setPartialFieldName-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String PartialFieldName
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getPartialFieldName", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setPartialFieldName", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getRichText--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getRichText--"/> 
         /// </summary>
         public Java.Lang.String RichText
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getRichText", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getValue--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getValue--"/> 
         /// </summary>
         public object Value
         {
             get { return IExecuteWithSignature("getValue", "()Ljava/lang/Object;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getWidgetFieldFlags--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getWidgetFieldFlags--"/> 
         /// </summary>
         public Java.Lang.Integer WidgetFieldFlags
         {
             get { return IExecuteWithSignature<Java.Lang.Integer>("getWidgetFieldFlags", "()Ljava/lang/Integer;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getSetFieldFlags--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getSetFieldFlags--"/>
         /// </summary>
         /// <returns><see cref="Java.Lang.Integer"/></returns>
         public Java.Lang.Integer GetSetFieldFlags()
@@ -228,7 +228,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             return IExecuteWithSignature<Java.Lang.Integer>("getSetFieldFlags", "()Ljava/lang/Integer;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getSetWidgetFieldFlags--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getSetWidgetFieldFlags--"/>
         /// </summary>
         /// <returns><see cref="Java.Lang.Integer"/></returns>
         public Java.Lang.Integer GetSetWidgetFieldFlags()
@@ -236,7 +236,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             return IExecuteWithSignature<Java.Lang.Integer>("getSetWidgetFieldFlags", "()Ljava/lang/Integer;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setClearFieldFlags-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setClearFieldFlags-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         public void SetClearFieldFlags(int arg0)
@@ -244,7 +244,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("setClearFieldFlags", "(I)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setClearFieldFlags-java.lang.Integer-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setClearFieldFlags-java.lang.Integer-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.Integer"/></param>
         public void SetClearFieldFlags(Java.Lang.Integer arg0)
@@ -252,7 +252,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("setClearFieldFlags", "(Ljava/lang/Integer;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setClearWidgetFieldFlags-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setClearWidgetFieldFlags-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         public void SetClearWidgetFieldFlags(int arg0)
@@ -260,7 +260,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("setClearWidgetFieldFlags", "(I)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setClearWidgetFieldFlags-java.lang.Integer-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setClearWidgetFieldFlags-java.lang.Integer-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.Integer"/></param>
         public void SetClearWidgetFieldFlags(Java.Lang.Integer arg0)
@@ -268,7 +268,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("setClearWidgetFieldFlags", "(Ljava/lang/Integer;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setFieldFlags-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setFieldFlags-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         public void SetFieldFlags(int arg0)
@@ -276,7 +276,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("setFieldFlags", "(I)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setFieldFlags-java.lang.Integer-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setFieldFlags-java.lang.Integer-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.Integer"/></param>
         public void SetFieldFlags(Java.Lang.Integer arg0)
@@ -284,7 +284,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("setFieldFlags", "(Ljava/lang/Integer;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setRichText-org.apache.pdfbox.cos.COSStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setRichText-org.apache.pdfbox.cos.COSStream-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSStream"/></param>
         public void SetRichText(Org.Apache.Pdfbox.Cos.COSStream arg0)
@@ -292,7 +292,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("setRichText", "(Lorg/apache/pdfbox/cos/COSStream;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setRichText-org.apache.pdfbox.cos.COSString-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setRichText-org.apache.pdfbox.cos.COSString-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSString"/></param>
         public void SetRichText(Org.Apache.Pdfbox.Cos.COSString arg0)
@@ -300,7 +300,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("setRichText", "(Lorg/apache/pdfbox/cos/COSString;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setSetFieldFlags-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setSetFieldFlags-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         public void SetSetFieldFlags(int arg0)
@@ -308,7 +308,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("setSetFieldFlags", "(I)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setSetFieldFlags-java.lang.Integer-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setSetFieldFlags-java.lang.Integer-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.Integer"/></param>
         public void SetSetFieldFlags(Java.Lang.Integer arg0)
@@ -316,7 +316,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("setSetFieldFlags", "(Ljava/lang/Integer;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setSetWidgetFieldFlags-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setSetWidgetFieldFlags-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         public void SetSetWidgetFieldFlags(int arg0)
@@ -324,7 +324,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("setSetWidgetFieldFlags", "(I)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setSetWidgetFieldFlags-java.lang.Integer-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setSetWidgetFieldFlags-java.lang.Integer-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.Integer"/></param>
         public void SetSetWidgetFieldFlags(Java.Lang.Integer arg0)
@@ -332,7 +332,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("setSetWidgetFieldFlags", "(Ljava/lang/Integer;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setValue-java.lang.Object-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setValue-java.lang.Object-"/>
         /// </summary>
         /// <param name="arg0"><see cref="object"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -341,7 +341,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("setValue", "(Ljava/lang/Object;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setValue-org.apache.pdfbox.cos.COSBase-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setValue-org.apache.pdfbox.cos.COSBase-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></param>
         public void SetValue(Org.Apache.Pdfbox.Cos.COSBase arg0)
@@ -349,7 +349,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("setValue", "(Lorg/apache/pdfbox/cos/COSBase;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setWidgetFieldFlags-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setWidgetFieldFlags-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         public void SetWidgetFieldFlags(int arg0)
@@ -357,7 +357,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("setWidgetFieldFlags", "(I)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setWidgetFieldFlags-java.lang.Integer-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setWidgetFieldFlags-java.lang.Integer-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.Integer"/></param>
         public void SetWidgetFieldFlags(Java.Lang.Integer arg0)
@@ -365,7 +365,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             IExecuteWithSignature("setWidgetFieldFlags", "(Ljava/lang/Integer;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFField.html#writeXML-java.io.Writer-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#writeXML-java.io.Writer-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.Writer"/></param>
         /// <exception cref="Java.Io.IOException"/>

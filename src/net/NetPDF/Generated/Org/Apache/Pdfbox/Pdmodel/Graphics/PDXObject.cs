@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics
 {
     #region PDXObject declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/PDXObject.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/PDXObject.html"/>
     /// </summary>
     public partial class PDXObject : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -87,7 +87,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/PDXObject.html#createXObject-org.apache.pdfbox.cos.COSBase-org.apache.pdfbox.pdmodel.PDResources-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/PDXObject.html#createXObject-org.apache.pdfbox.cos.COSBase-org.apache.pdfbox.pdmodel.PDResources-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.PDResources"/></param>
@@ -102,14 +102,14 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/PDXObject.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/PDXObject.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/PDXObject.html#getStream--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/PDXObject.html#getStream--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.PDStream Stream
         {

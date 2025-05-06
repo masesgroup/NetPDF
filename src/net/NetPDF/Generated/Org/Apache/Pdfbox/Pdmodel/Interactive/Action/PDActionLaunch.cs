@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
 {
     #region PDActionLaunch declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html"/>
     /// </summary>
     public partial class PDActionLaunch : Org.Apache.Pdfbox.Pdmodel.Interactive.Action.PDAction
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#org.apache.pdfbox.pdmodel.interactive.action.PDActionLaunch(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#org.apache.pdfbox.pdmodel.interactive.action.PDActionLaunch(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDActionLaunch(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -91,7 +91,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#SUB_TYPE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#SUB_TYPE"/>
         /// </summary>
         public static Java.Lang.String SUB_TYPE { get { if (!_SUB_TYPEReady) { _SUB_TYPEContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "SUB_TYPE"); _SUB_TYPEReady = true; } return _SUB_TYPEContent; } }
         private static Java.Lang.String _SUB_TYPEContent = default;
@@ -105,49 +105,49 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#getD--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#setD-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#getD--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#setD-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String D
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getD", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setD", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#getF--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#setF-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#getF--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#setF-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String F
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getF", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setF", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#getFile--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#setFile-org.apache.pdfbox.pdmodel.common.filespecification.PDFileSpecification-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#getFile--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#setFile-org.apache.pdfbox.pdmodel.common.filespecification.PDFileSpecification-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.Filespecification.PDFileSpecification File
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.Filespecification.PDFileSpecification>("getFile", "()Lorg/apache/pdfbox/pdmodel/common/filespecification/PDFileSpecification;"); } set { IExecuteWithSignature("setFile", "(Lorg/apache/pdfbox/pdmodel/common/filespecification/PDFileSpecification;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#getO--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#setO-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#getO--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#setO-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String O
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getO", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setO", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#getOpenInNewWindow--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#setOpenInNewWindow-org.apache.pdfbox.pdmodel.interactive.action.OpenMode-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#getOpenInNewWindow--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#setOpenInNewWindow-org.apache.pdfbox.pdmodel.interactive.action.OpenMode-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Action.OpenMode OpenInNewWindow
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Action.OpenMode>("getOpenInNewWindow", "()Lorg/apache/pdfbox/pdmodel/interactive/action/OpenMode;"); } set { IExecuteWithSignature("setOpenInNewWindow", "(Lorg/apache/pdfbox/pdmodel/interactive/action/OpenMode;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#getP--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#setP-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#getP--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#setP-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String P
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getP", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setP", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#getWinLaunchParams--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#setWinLaunchParams-org.apache.pdfbox.pdmodel.interactive.action.PDWindowsLaunchParams-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#getWinLaunchParams--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionLaunch.html#setWinLaunchParams-org.apache.pdfbox.pdmodel.interactive.action.PDWindowsLaunchParams-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Action.PDWindowsLaunchParams WinLaunchParams
         {

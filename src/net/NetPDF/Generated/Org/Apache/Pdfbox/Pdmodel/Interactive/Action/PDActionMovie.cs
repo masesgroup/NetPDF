@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
 {
     #region PDActionMovie declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionMovie.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionMovie.html"/>
     /// </summary>
     public partial class PDActionMovie : Org.Apache.Pdfbox.Pdmodel.Interactive.Action.PDAction
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionMovie.html#org.apache.pdfbox.pdmodel.interactive.action.PDActionMovie(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionMovie.html#org.apache.pdfbox.pdmodel.interactive.action.PDActionMovie(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDActionMovie(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -91,7 +91,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionMovie.html#SUB_TYPE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionMovie.html#SUB_TYPE"/>
         /// </summary>
         public static Java.Lang.String SUB_TYPE { get { if (!_SUB_TYPEReady) { _SUB_TYPEContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "SUB_TYPE"); _SUB_TYPEReady = true; } return _SUB_TYPEContent; } }
         private static Java.Lang.String _SUB_TYPEContent = default;

@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf
 {
     #region OpenTypeFont declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OpenTypeFont.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OpenTypeFont.html"/>
     /// </summary>
     public partial class OpenTypeFont : Org.Apache.Fontbox.Ttf.TrueTypeFont
     {
@@ -91,14 +91,14 @@ namespace Org.Apache.Fontbox.Ttf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OpenTypeFont.html#getCFF--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OpenTypeFont.html#getCFF--"/> 
         /// </summary>
         public Org.Apache.Fontbox.Ttf.CFFTable CFF
         {
             get { return IExecuteWithSignature<Org.Apache.Fontbox.Ttf.CFFTable>("getCFF", "()Lorg/apache/fontbox/ttf/CFFTable;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OpenTypeFont.html#hasLayoutTables--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OpenTypeFont.html#hasLayoutTables--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool HasLayoutTables()
@@ -106,7 +106,7 @@ namespace Org.Apache.Fontbox.Ttf
             return IExecuteWithSignature<bool>("hasLayoutTables", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OpenTypeFont.html#isPostScript--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OpenTypeFont.html#isPostScript--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsPostScript()
@@ -114,7 +114,7 @@ namespace Org.Apache.Fontbox.Ttf
             return IExecuteWithSignature<bool>("isPostScript", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/OpenTypeFont.html#isSupportedOTF--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/OpenTypeFont.html#isSupportedOTF--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsSupportedOTF()

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
 {
     #region PDFStreamParser declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/PDFStreamParser.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/PDFStreamParser.html"/>
     /// </summary>
     public partial class PDFStreamParser : Org.Apache.Pdfbox.Pdfparser.BaseParser
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/PDFStreamParser.html#org.apache.pdfbox.pdfparser.PDFStreamParser(byte[])"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/PDFStreamParser.html#org.apache.pdfbox.pdfparser.PDFStreamParser(byte[])"/>
         /// </summary>
         /// <param name="arg0"><see cref="byte"/></param>
         public PDFStreamParser(byte[] arg0)
@@ -83,7 +83,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/PDFStreamParser.html#org.apache.pdfbox.pdfparser.PDFStreamParser(org.apache.pdfbox.contentstream.PDContentStream)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/PDFStreamParser.html#org.apache.pdfbox.pdfparser.PDFStreamParser(org.apache.pdfbox.contentstream.PDContentStream)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Contentstream.PDContentStream"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -108,7 +108,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/PDFStreamParser.html#parseNextToken--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/PDFStreamParser.html#parseNextToken--"/>
         /// </summary>
         /// <returns><see cref="object"/></returns>
         /// <exception cref="Java.Io.IOException"/>
@@ -117,7 +117,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
             return IExecuteWithSignature("parseNextToken", "()Ljava/lang/Object;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/PDFStreamParser.html#parse--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/PDFStreamParser.html#parse--"/>
         /// </summary>
         /// <returns><see cref="Java.Util.List"/></returns>
         /// <exception cref="Java.Io.IOException"/>
@@ -126,7 +126,7 @@ namespace Org.Apache.Pdfbox.Pdfparser
             return IExecuteWithSignature<Java.Util.List<object>>("parse", "()Ljava/util/List;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/PDFStreamParser.html#close--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/PDFStreamParser.html#close--"/>
         /// </summary>
         /// <exception cref="Java.Io.IOException"/>
         public void Close()

@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Cff
 {
     #region FDSelect declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/FDSelect.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/FDSelect.html"/>
     /// </summary>
     public partial class FDSelect : MASES.JCOBridge.C2JBridge.JVMBridgeBase<FDSelect>
     {
@@ -74,7 +74,7 @@ namespace Org.Apache.Fontbox.Cff
 
     #region IFDSelect
     /// <summary>
-    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/FDSelect.html"/>
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/FDSelect.html"/>
     /// </summary>
     public partial interface IFDSelect
     {
@@ -111,7 +111,7 @@ namespace Org.Apache.Fontbox.Cff
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/FDSelect.html#getFDIndex-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/FDSelect.html#getFDIndex-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="int"/></returns>

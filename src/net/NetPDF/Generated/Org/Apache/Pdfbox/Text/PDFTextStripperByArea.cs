@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Text
 {
     #region PDFTextStripperByArea declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripperByArea.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripperByArea.html"/>
     /// </summary>
     public partial class PDFTextStripperByArea : Org.Apache.Pdfbox.Text.PDFTextStripper
     {
@@ -91,14 +91,14 @@ namespace Org.Apache.Pdfbox.Text
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripperByArea.html#getRegions--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripperByArea.html#getRegions--"/> 
         /// </summary>
         public Java.Util.List<Java.Lang.String> Regions
         {
             get { return IExecuteWithSignature<Java.Util.List<Java.Lang.String>>("getRegions", "()Ljava/util/List;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripperByArea.html#getTextForRegion-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripperByArea.html#getTextForRegion-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Lang.String"/></returns>
@@ -107,7 +107,7 @@ namespace Org.Apache.Pdfbox.Text
             return IExecuteWithSignature<Java.Lang.String>("getTextForRegion", "(Ljava/lang/String;)Ljava/lang/String;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripperByArea.html#addRegion-java.lang.String-java.awt.geom.Rectangle2D-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripperByArea.html#addRegion-java.lang.String-java.awt.geom.Rectangle2D-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Awt.Geom.Rectangle2D"/></param>
@@ -116,7 +116,7 @@ namespace Org.Apache.Pdfbox.Text
             IExecuteWithSignature("addRegion", "(Ljava/lang/String;Ljava/awt/geom/Rectangle2D;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripperByArea.html#extractRegions-org.apache.pdfbox.pdmodel.PDPage-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripperByArea.html#extractRegions-org.apache.pdfbox.pdmodel.PDPage-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDPage"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -125,7 +125,7 @@ namespace Org.Apache.Pdfbox.Text
             IExecuteWithSignature("extractRegions", "(Lorg/apache/pdfbox/pdmodel/PDPage;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripperByArea.html#removeRegion-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripperByArea.html#removeRegion-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         public void RemoveRegion(Java.Lang.String arg0)

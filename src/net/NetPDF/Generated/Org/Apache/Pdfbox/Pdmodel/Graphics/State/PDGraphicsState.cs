@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
 {
     #region PDGraphicsState declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html"/>
     /// </summary>
     public partial class PDGraphicsState : Java.Lang.Cloneable
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState(org.apache.pdfbox.pdmodel.common.PDRectangle)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState(org.apache.pdfbox.pdmodel.common.PDRectangle)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Common.PDRectangle"/></param>
         public PDGraphicsState(Org.Apache.Pdfbox.Pdmodel.Common.PDRectangle arg0)
@@ -99,189 +99,189 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getAlphaConstant--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setAlphaConstant-double-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getAlphaConstant--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setAlphaConstant-double-"/>
         /// </summary>
         public double AlphaConstant
         {
             get { return IExecuteWithSignature<double>("getAlphaConstant", "()D"); } set { IExecuteWithSignature("setAlphaConstant", "(D)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getBlendMode--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setBlendMode-org.apache.pdfbox.pdmodel.graphics.blend.BlendMode-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getBlendMode--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setBlendMode-org.apache.pdfbox.pdmodel.graphics.blend.BlendMode-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode BlendMode
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode>("getBlendMode", "()Lorg/apache/pdfbox/pdmodel/graphics/blend/BlendMode;"); } set { IExecuteWithSignature("setBlendMode", "(Lorg/apache/pdfbox/pdmodel/graphics/blend/BlendMode;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getCurrentClippingPath--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getCurrentClippingPath--"/> 
         /// </summary>
         public Java.Awt.Geom.Area CurrentClippingPath
         {
             get { return IExecuteWithSignature<Java.Awt.Geom.Area>("getCurrentClippingPath", "()Ljava/awt/geom/Area;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getCurrentClippingPaths--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getCurrentClippingPaths--"/> 
         /// </summary>
         public Java.Util.List<Java.Awt.Geom.Path2D> CurrentClippingPaths
         {
             get { return IExecuteWithSignature<Java.Util.List<Java.Awt.Geom.Path2D>>("getCurrentClippingPaths", "()Ljava/util/List;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getCurrentTransformationMatrix--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setCurrentTransformationMatrix-org.apache.pdfbox.util.Matrix-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getCurrentTransformationMatrix--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setCurrentTransformationMatrix-org.apache.pdfbox.util.Matrix-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Util.Matrix CurrentTransformationMatrix
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Util.Matrix>("getCurrentTransformationMatrix", "()Lorg/apache/pdfbox/util/Matrix;"); } set { IExecuteWithSignature("setCurrentTransformationMatrix", "(Lorg/apache/pdfbox/util/Matrix;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getFlatness--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setFlatness-double-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getFlatness--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setFlatness-double-"/>
         /// </summary>
         public double Flatness
         {
             get { return IExecuteWithSignature<double>("getFlatness", "()D"); } set { IExecuteWithSignature("setFlatness", "(D)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getLineCap--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setLineCap-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getLineCap--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setLineCap-int-"/>
         /// </summary>
         public int LineCap
         {
             get { return IExecuteWithSignature<int>("getLineCap", "()I"); } set { IExecuteWithSignature("setLineCap", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getLineDashPattern--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setLineDashPattern-org.apache.pdfbox.pdmodel.graphics.PDLineDashPattern-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getLineDashPattern--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setLineDashPattern-org.apache.pdfbox.pdmodel.graphics.PDLineDashPattern-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.PDLineDashPattern LineDashPattern
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.PDLineDashPattern>("getLineDashPattern", "()Lorg/apache/pdfbox/pdmodel/graphics/PDLineDashPattern;"); } set { IExecuteWithSignature("setLineDashPattern", "(Lorg/apache/pdfbox/pdmodel/graphics/PDLineDashPattern;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getLineJoin--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setLineJoin-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getLineJoin--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setLineJoin-int-"/>
         /// </summary>
         public int LineJoin
         {
             get { return IExecuteWithSignature<int>("getLineJoin", "()I"); } set { IExecuteWithSignature("setLineJoin", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getLineWidth--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setLineWidth-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getLineWidth--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setLineWidth-float-"/>
         /// </summary>
         public float LineWidth
         {
             get { return IExecuteWithSignature<float>("getLineWidth", "()F"); } set { IExecuteWithSignature("setLineWidth", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getMiterLimit--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setMiterLimit-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getMiterLimit--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setMiterLimit-float-"/>
         /// </summary>
         public float MiterLimit
         {
             get { return IExecuteWithSignature<float>("getMiterLimit", "()F"); } set { IExecuteWithSignature("setMiterLimit", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getNonStrokeAlphaConstant--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setNonStrokeAlphaConstant-double-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getNonStrokeAlphaConstant--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setNonStrokeAlphaConstant-double-"/>
         /// </summary>
         public double NonStrokeAlphaConstant
         {
             get { return IExecuteWithSignature<double>("getNonStrokeAlphaConstant", "()D"); } set { IExecuteWithSignature("setNonStrokeAlphaConstant", "(D)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getNonStrokingColor--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setNonStrokingColor-org.apache.pdfbox.pdmodel.graphics.color.PDColor-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getNonStrokingColor--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setNonStrokingColor-org.apache.pdfbox.pdmodel.graphics.color.PDColor-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColor NonStrokingColor
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColor>("getNonStrokingColor", "()Lorg/apache/pdfbox/pdmodel/graphics/color/PDColor;"); } set { IExecuteWithSignature("setNonStrokingColor", "(Lorg/apache/pdfbox/pdmodel/graphics/color/PDColor;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getNonStrokingColorSpace--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setNonStrokingColorSpace-org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getNonStrokingColorSpace--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setNonStrokingColorSpace-org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace NonStrokingColorSpace
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace>("getNonStrokingColorSpace", "()Lorg/apache/pdfbox/pdmodel/graphics/color/PDColorSpace;"); } set { IExecuteWithSignature("setNonStrokingColorSpace", "(Lorg/apache/pdfbox/pdmodel/graphics/color/PDColorSpace;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getNonStrokingJavaComposite--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getNonStrokingJavaComposite--"/> 
         /// </summary>
         public Java.Awt.Composite NonStrokingJavaComposite
         {
             get { return IExecuteWithSignature<Java.Awt.Composite>("getNonStrokingJavaComposite", "()Ljava/awt/Composite;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getOverprintMode--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setOverprintMode-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getOverprintMode--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setOverprintMode-int-"/>
         /// </summary>
         public int OverprintMode
         {
             get { return IExecuteWithSignature<int>("getOverprintMode", "()I"); } set { IExecuteWithSignature("setOverprintMode", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getRenderingIntent--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setRenderingIntent-org.apache.pdfbox.pdmodel.graphics.state.RenderingIntent-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getRenderingIntent--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setRenderingIntent-org.apache.pdfbox.pdmodel.graphics.state.RenderingIntent-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.State.RenderingIntent RenderingIntent
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.State.RenderingIntent>("getRenderingIntent", "()Lorg/apache/pdfbox/pdmodel/graphics/state/RenderingIntent;"); } set { IExecuteWithSignature("setRenderingIntent", "(Lorg/apache/pdfbox/pdmodel/graphics/state/RenderingIntent;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getSmoothness--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setSmoothness-double-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getSmoothness--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setSmoothness-double-"/>
         /// </summary>
         public double Smoothness
         {
             get { return IExecuteWithSignature<double>("getSmoothness", "()D"); } set { IExecuteWithSignature("setSmoothness", "(D)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getSoftMask--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setSoftMask-org.apache.pdfbox.pdmodel.graphics.state.PDSoftMask-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getSoftMask--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setSoftMask-org.apache.pdfbox.pdmodel.graphics.state.PDSoftMask-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDSoftMask SoftMask
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDSoftMask>("getSoftMask", "()Lorg/apache/pdfbox/pdmodel/graphics/state/PDSoftMask;"); } set { IExecuteWithSignature("setSoftMask", "(Lorg/apache/pdfbox/pdmodel/graphics/state/PDSoftMask;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getStrokingColor--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setStrokingColor-org.apache.pdfbox.pdmodel.graphics.color.PDColor-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getStrokingColor--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setStrokingColor-org.apache.pdfbox.pdmodel.graphics.color.PDColor-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColor StrokingColor
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColor>("getStrokingColor", "()Lorg/apache/pdfbox/pdmodel/graphics/color/PDColor;"); } set { IExecuteWithSignature("setStrokingColor", "(Lorg/apache/pdfbox/pdmodel/graphics/color/PDColor;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getStrokingColorSpace--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setStrokingColorSpace-org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getStrokingColorSpace--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setStrokingColorSpace-org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace StrokingColorSpace
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace>("getStrokingColorSpace", "()Lorg/apache/pdfbox/pdmodel/graphics/color/PDColorSpace;"); } set { IExecuteWithSignature("setStrokingColorSpace", "(Lorg/apache/pdfbox/pdmodel/graphics/color/PDColorSpace;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getStrokingJavaComposite--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getStrokingJavaComposite--"/> 
         /// </summary>
         public Java.Awt.Composite StrokingJavaComposite
         {
             get { return IExecuteWithSignature<Java.Awt.Composite>("getStrokingJavaComposite", "()Ljava/awt/Composite;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getTextLineMatrix--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setTextLineMatrix-org.apache.pdfbox.util.Matrix-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getTextLineMatrix--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setTextLineMatrix-org.apache.pdfbox.util.Matrix-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Util.Matrix TextLineMatrix
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Util.Matrix>("getTextLineMatrix", "()Lorg/apache/pdfbox/util/Matrix;"); } set { IExecuteWithSignature("setTextLineMatrix", "(Lorg/apache/pdfbox/util/Matrix;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getTextMatrix--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setTextMatrix-org.apache.pdfbox.util.Matrix-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getTextMatrix--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setTextMatrix-org.apache.pdfbox.util.Matrix-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Util.Matrix TextMatrix
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Util.Matrix>("getTextMatrix", "()Lorg/apache/pdfbox/util/Matrix;"); } set { IExecuteWithSignature("setTextMatrix", "(Lorg/apache/pdfbox/util/Matrix;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getTextState--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setTextState-org.apache.pdfbox.pdmodel.graphics.state.PDTextState-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getTextState--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setTextState-org.apache.pdfbox.pdmodel.graphics.state.PDTextState-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDTextState TextState
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDTextState>("getTextState", "()Lorg/apache/pdfbox/pdmodel/graphics/state/PDTextState;"); } set { IExecuteWithSignature("setTextState", "(Lorg/apache/pdfbox/pdmodel/graphics/state/PDTextState;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getTransfer--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setTransfer-org.apache.pdfbox.cos.COSBase-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getTransfer--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setTransfer-org.apache.pdfbox.cos.COSBase-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase Transfer
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getTransfer", "()Lorg/apache/pdfbox/cos/COSBase;"); } set { IExecuteWithSignature("setTransfer", "(Lorg/apache/pdfbox/cos/COSBase;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#isAlphaSource--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#isAlphaSource--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsAlphaSource()
@@ -289,7 +289,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
             return IExecuteWithSignature<bool>("isAlphaSource", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#isNonStrokingOverprint--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#isNonStrokingOverprint--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsNonStrokingOverprint()
@@ -297,7 +297,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
             return IExecuteWithSignature<bool>("isNonStrokingOverprint", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#isOverprint--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#isOverprint--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsOverprint()
@@ -305,7 +305,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
             return IExecuteWithSignature<bool>("isOverprint", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#isStrokeAdjustment--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#isStrokeAdjustment--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsStrokeAdjustment()
@@ -313,7 +313,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
             return IExecuteWithSignature<bool>("isStrokeAdjustment", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#clone--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#clone--"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState"/></returns>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState Clone()
@@ -321,7 +321,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState>("clone", "()Lorg/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#intersectClippingPath-java.awt.geom.Area-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#intersectClippingPath-java.awt.geom.Area-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Awt.Geom.Area"/></param>
         public void IntersectClippingPath(Java.Awt.Geom.Area arg0)
@@ -329,7 +329,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
             IExecuteWithSignature("intersectClippingPath", "(Ljava/awt/geom/Area;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#intersectClippingPath-java.awt.geom.GeneralPath-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#intersectClippingPath-java.awt.geom.GeneralPath-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Awt.Geom.GeneralPath"/></param>
         public void IntersectClippingPath(Java.Awt.Geom.GeneralPath arg0)
@@ -337,7 +337,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
             IExecuteWithSignature("intersectClippingPath", "(Ljava/awt/geom/GeneralPath;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setAlphaSource-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setAlphaSource-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetAlphaSource(bool arg0)
@@ -345,7 +345,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
             IExecuteWithSignature("setAlphaSource", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setNonStrokingOverprint-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setNonStrokingOverprint-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetNonStrokingOverprint(bool arg0)
@@ -353,7 +353,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
             IExecuteWithSignature("setNonStrokingOverprint", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setOverprint-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setOverprint-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetOverprint(bool arg0)
@@ -361,7 +361,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
             IExecuteWithSignature("setOverprint", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setStrokeAdjustment-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setStrokeAdjustment-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetStrokeAdjustment(bool arg0)

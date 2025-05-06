@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fixup.Processor
 {
     #region AcroFormOrphanWidgetsProcessor declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fixup/processor/AcroFormOrphanWidgetsProcessor.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fixup/processor/AcroFormOrphanWidgetsProcessor.html"/>
     /// </summary>
     public partial class AcroFormOrphanWidgetsProcessor : Org.Apache.Pdfbox.Pdmodel.Fixup.Processor.AbstractProcessor
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fixup.Processor
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fixup/processor/AcroFormOrphanWidgetsProcessor.html#org.apache.pdfbox.pdmodel.fixup.processor.AcroFormOrphanWidgetsProcessor(org.apache.pdfbox.pdmodel.PDDocument)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fixup/processor/AcroFormOrphanWidgetsProcessor.html#org.apache.pdfbox.pdmodel.fixup.processor.AcroFormOrphanWidgetsProcessor(org.apache.pdfbox.pdmodel.PDDocument)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         public AcroFormOrphanWidgetsProcessor(Org.Apache.Pdfbox.Pdmodel.PDDocument arg0)

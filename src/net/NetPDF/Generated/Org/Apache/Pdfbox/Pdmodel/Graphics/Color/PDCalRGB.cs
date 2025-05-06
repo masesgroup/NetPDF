@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
 {
     #region PDCalRGB declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDCalRGB.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDCalRGB.html"/>
     /// </summary>
     public partial class PDCalRGB : Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDCIEDictionaryBasedColorSpace
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDCalRGB.html#org.apache.pdfbox.pdmodel.graphics.color.PDCalRGB(org.apache.pdfbox.cos.COSArray)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDCalRGB.html#org.apache.pdfbox.pdmodel.graphics.color.PDCalRGB(org.apache.pdfbox.cos.COSArray)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSArray"/></param>
         public PDCalRGB(Org.Apache.Pdfbox.Cos.COSArray arg0)
@@ -99,14 +99,14 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDCalRGB.html#getGamma--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDCalRGB.html#setGamma-org.apache.pdfbox.pdmodel.graphics.color.PDGamma-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDCalRGB.html#getGamma--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDCalRGB.html#setGamma-org.apache.pdfbox.pdmodel.graphics.color.PDGamma-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDGamma Gamma
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDGamma>("getGamma", "()Lorg/apache/pdfbox/pdmodel/graphics/color/PDGamma;"); } set { IExecuteWithSignature("setGamma", "(Lorg/apache/pdfbox/pdmodel/graphics/color/PDGamma;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDCalRGB.html#getMatrix--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDCalRGB.html#setMatrix-org.apache.pdfbox.util.Matrix-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDCalRGB.html#getMatrix--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDCalRGB.html#setMatrix-org.apache.pdfbox.util.Matrix-"/>
         /// </summary>
         public float[] Matrix
         {

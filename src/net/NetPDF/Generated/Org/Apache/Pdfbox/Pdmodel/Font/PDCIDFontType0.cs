@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
 {
     #region PDCIDFontType0 declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDCIDFontType0.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDCIDFontType0.html"/>
     /// </summary>
     public partial class PDCIDFontType0 : Org.Apache.Pdfbox.Pdmodel.Font.PDCIDFont
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDCIDFontType0.html#org.apache.pdfbox.pdmodel.font.PDCIDFontType0(org.apache.pdfbox.cos.COSDictionary,org.apache.pdfbox.pdmodel.font.PDType0Font)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDCIDFontType0.html#org.apache.pdfbox.pdmodel.font.PDCIDFontType0(org.apache.pdfbox.cos.COSDictionary,org.apache.pdfbox.pdmodel.font.PDType0Font)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font"/></param>
@@ -101,21 +101,21 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDCIDFontType0.html#getCFFFont--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDCIDFontType0.html#getCFFFont--"/> 
         /// </summary>
         public Org.Apache.Fontbox.Cff.CFFFont CFFFont
         {
             get { return IExecuteWithSignature<Org.Apache.Fontbox.Cff.CFFFont>("getCFFFont", "()Lorg/apache/fontbox/cff/CFFFont;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDCIDFontType0.html#getFontBoxFont--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDCIDFontType0.html#getFontBoxFont--"/> 
         /// </summary>
         public Org.Apache.Fontbox.FontBoxFont FontBoxFont
         {
             get { return IExecuteWithSignature<Org.Apache.Fontbox.FontBoxFont>("getFontBoxFont", "()Lorg/apache/fontbox/FontBoxFont;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDCIDFontType0.html#encode-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDCIDFontType0.html#encode-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="byte"/></returns>
@@ -124,7 +124,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
             return IExecuteWithSignatureArray<byte>("encode", "(I)[B", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDCIDFontType0.html#getType2CharString-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDCIDFontType0.html#getType2CharString-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="Org.Apache.Fontbox.Cff.Type2CharString"/></returns>

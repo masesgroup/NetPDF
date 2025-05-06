@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fixup.Processor
 {
     #region AcroFormDefaultsProcessor declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fixup/processor/AcroFormDefaultsProcessor.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fixup/processor/AcroFormDefaultsProcessor.html"/>
     /// </summary>
     public partial class AcroFormDefaultsProcessor : Org.Apache.Pdfbox.Pdmodel.Fixup.Processor.AbstractProcessor
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fixup.Processor
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fixup/processor/AcroFormDefaultsProcessor.html#org.apache.pdfbox.pdmodel.fixup.processor.AcroFormDefaultsProcessor(org.apache.pdfbox.pdmodel.PDDocument)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fixup/processor/AcroFormDefaultsProcessor.html#org.apache.pdfbox.pdmodel.fixup.processor.AcroFormDefaultsProcessor(org.apache.pdfbox.pdmodel.PDDocument)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         public AcroFormDefaultsProcessor(Org.Apache.Pdfbox.Pdmodel.PDDocument arg0)

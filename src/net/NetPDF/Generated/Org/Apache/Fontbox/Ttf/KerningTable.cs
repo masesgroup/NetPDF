@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf
 {
     #region KerningTable declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/KerningTable.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/KerningTable.html"/>
     /// </summary>
     public partial class KerningTable : Org.Apache.Fontbox.Ttf.TTFTable
     {
@@ -83,7 +83,7 @@ namespace Org.Apache.Fontbox.Ttf
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/KerningTable.html#TAG"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/KerningTable.html#TAG"/>
         /// </summary>
         public static Java.Lang.String TAG { get { if (!_TAGReady) { _TAGContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "TAG"); _TAGReady = true; } return _TAGContent; } }
         private static Java.Lang.String _TAGContent = default;
@@ -97,14 +97,14 @@ namespace Org.Apache.Fontbox.Ttf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/KerningTable.html#getHorizontalKerningSubtable--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/KerningTable.html#getHorizontalKerningSubtable--"/> 
         /// </summary>
         public Org.Apache.Fontbox.Ttf.KerningSubtable HorizontalKerningSubtable
         {
             get { return IExecuteWithSignature<Org.Apache.Fontbox.Ttf.KerningSubtable>("getHorizontalKerningSubtable", "()Lorg/apache/fontbox/ttf/KerningSubtable;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/KerningTable.html#getHorizontalKerningSubtable-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/KerningTable.html#getHorizontalKerningSubtable-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         /// <returns><see cref="Org.Apache.Fontbox.Ttf.KerningSubtable"/></returns>

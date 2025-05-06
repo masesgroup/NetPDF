@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
 {
     #region Operator declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Operator.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/Operator.html"/>
     /// </summary>
     public partial class Operator : MASES.JCOBridge.C2JBridge.JVMBridgeBase<Operator>
     {
@@ -74,7 +74,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
 
     #region IOperator
     /// <summary>
-    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Operator.html"/>
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/Operator.html"/>
     /// </summary>
     public partial interface IOperator
     {
@@ -111,7 +111,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/type4/Operator.html#execute-org.apache.pdfbox.pdmodel.common.function.type4.ExecutionContext-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/type4/Operator.html#execute-org.apache.pdfbox.pdmodel.common.function.type4.ExecutionContext-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4.ExecutionContext"/></param>
         public void Execute(Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4.ExecutionContext arg0)

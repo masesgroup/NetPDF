@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Taggedpdf
 {
     #region PDPrintFieldAttributeObject declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html"/>
     /// </summary>
     public partial class PDPrintFieldAttributeObject : Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Taggedpdf.PDStandardAttributeObject
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Taggedpdf
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDPrintFieldAttributeObject(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDPrintFieldAttributeObject(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDPrintFieldAttributeObject(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -91,49 +91,49 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Taggedpdf
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#CHECKED_STATE_NEUTRAL"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#CHECKED_STATE_NEUTRAL"/>
         /// </summary>
         public static Java.Lang.String CHECKED_STATE_NEUTRAL { get { if (!_CHECKED_STATE_NEUTRALReady) { _CHECKED_STATE_NEUTRALContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "CHECKED_STATE_NEUTRAL"); _CHECKED_STATE_NEUTRALReady = true; } return _CHECKED_STATE_NEUTRALContent; } }
         private static Java.Lang.String _CHECKED_STATE_NEUTRALContent = default;
         private static bool _CHECKED_STATE_NEUTRALReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#CHECKED_STATE_OFF"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#CHECKED_STATE_OFF"/>
         /// </summary>
         public static Java.Lang.String CHECKED_STATE_OFF { get { if (!_CHECKED_STATE_OFFReady) { _CHECKED_STATE_OFFContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "CHECKED_STATE_OFF"); _CHECKED_STATE_OFFReady = true; } return _CHECKED_STATE_OFFContent; } }
         private static Java.Lang.String _CHECKED_STATE_OFFContent = default;
         private static bool _CHECKED_STATE_OFFReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#CHECKED_STATE_ON"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#CHECKED_STATE_ON"/>
         /// </summary>
         public static Java.Lang.String CHECKED_STATE_ON { get { if (!_CHECKED_STATE_ONReady) { _CHECKED_STATE_ONContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "CHECKED_STATE_ON"); _CHECKED_STATE_ONReady = true; } return _CHECKED_STATE_ONContent; } }
         private static Java.Lang.String _CHECKED_STATE_ONContent = default;
         private static bool _CHECKED_STATE_ONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#OWNER_PRINT_FIELD"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#OWNER_PRINT_FIELD"/>
         /// </summary>
         public static Java.Lang.String OWNER_PRINT_FIELD { get { if (!_OWNER_PRINT_FIELDReady) { _OWNER_PRINT_FIELDContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "OWNER_PRINT_FIELD"); _OWNER_PRINT_FIELDReady = true; } return _OWNER_PRINT_FIELDContent; } }
         private static Java.Lang.String _OWNER_PRINT_FIELDContent = default;
         private static bool _OWNER_PRINT_FIELDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#ROLE_CB"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#ROLE_CB"/>
         /// </summary>
         public static Java.Lang.String ROLE_CB { get { if (!_ROLE_CBReady) { _ROLE_CBContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "ROLE_CB"); _ROLE_CBReady = true; } return _ROLE_CBContent; } }
         private static Java.Lang.String _ROLE_CBContent = default;
         private static bool _ROLE_CBReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#ROLE_PB"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#ROLE_PB"/>
         /// </summary>
         public static Java.Lang.String ROLE_PB { get { if (!_ROLE_PBReady) { _ROLE_PBContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "ROLE_PB"); _ROLE_PBReady = true; } return _ROLE_PBContent; } }
         private static Java.Lang.String _ROLE_PBContent = default;
         private static bool _ROLE_PBReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#ROLE_RB"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#ROLE_RB"/>
         /// </summary>
         public static Java.Lang.String ROLE_RB { get { if (!_ROLE_RBReady) { _ROLE_RBContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "ROLE_RB"); _ROLE_RBReady = true; } return _ROLE_RBContent; } }
         private static Java.Lang.String _ROLE_RBContent = default;
         private static bool _ROLE_RBReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#ROLE_TV"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#ROLE_TV"/>
         /// </summary>
         public static Java.Lang.String ROLE_TV { get { if (!_ROLE_TVReady) { _ROLE_TVContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "ROLE_TV"); _ROLE_TVReady = true; } return _ROLE_TVContent; } }
         private static Java.Lang.String _ROLE_TVContent = default;
@@ -147,21 +147,21 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Taggedpdf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#getAlternateName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#setAlternateName-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#getAlternateName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#setAlternateName-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String AlternateName
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getAlternateName", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setAlternateName", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#getCheckedState--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#setCheckedState-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#getCheckedState--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#setCheckedState-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String CheckedState
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getCheckedState", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setCheckedState", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#getRole--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#setRole-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#getRole--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDPrintFieldAttributeObject.html#setRole-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Role
         {

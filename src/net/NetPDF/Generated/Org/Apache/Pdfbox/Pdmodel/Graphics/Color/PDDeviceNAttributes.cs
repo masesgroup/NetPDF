@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
 {
     #region PDDeviceNAttributes declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceNAttributes.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceNAttributes.html"/>
     /// </summary>
     public partial class PDDeviceNAttributes : MASES.JCOBridge.C2JBridge.JVMBridgeBase<PDDeviceNAttributes>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceNAttributes.html#org.apache.pdfbox.pdmodel.graphics.color.PDDeviceNAttributes(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceNAttributes.html#org.apache.pdfbox.pdmodel.graphics.color.PDDeviceNAttributes(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDDeviceNAttributes(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -99,21 +99,21 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceNAttributes.html#getCOSDictionary--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceNAttributes.html#getCOSDictionary--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSDictionary COSDictionary
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSDictionary>("getCOSDictionary", "()Lorg/apache/pdfbox/cos/COSDictionary;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceNAttributes.html#getProcess--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceNAttributes.html#getProcess--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDDeviceNProcess Process
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDDeviceNProcess>("getProcess", "()Lorg/apache/pdfbox/pdmodel/graphics/color/PDDeviceNProcess;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceNAttributes.html#isNChannel--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceNAttributes.html#isNChannel--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsNChannel()
@@ -121,7 +121,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
             return IExecuteWithSignature<bool>("isNChannel", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceNAttributes.html#getColorants-org.apache.pdfbox.pdmodel.PDResources-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceNAttributes.html#getColorants-org.apache.pdfbox.pdmodel.PDResources-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDResources"/></param>
         /// <returns><see cref="Java.Util.Map"/></returns>
@@ -131,7 +131,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
             return IExecuteWithSignature<Java.Util.Map<Java.Lang.String, Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDSeparation>>("getColorants", "(Lorg/apache/pdfbox/pdmodel/PDResources;)Ljava/util/Map;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceNAttributes.html#setColorants-java.util.Map-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDDeviceNAttributes.html#setColorants-java.util.Map-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Util.Map"/></param>
         public void SetColorants(Java.Util.Map<Java.Lang.String, Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace> arg0)

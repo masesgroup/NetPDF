@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
 {
     #region SecurityHandler declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html"/>
     /// </summary>
     public partial class SecurityHandler : MASES.JCOBridge.C2JBridge.JVMBridgeBase<SecurityHandler>
     {
@@ -74,7 +74,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
 
     #region SecurityHandler<T_POLICY> declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html"/>
     /// </summary>
     /// <typeparam name="T_POLICY"><see cref="Org.Apache.Pdfbox.Pdmodel.Encryption.ProtectionPolicy"/></typeparam>
     public partial class SecurityHandler<T_POLICY> : MASES.JCOBridge.C2JBridge.JVMBridgeBase<SecurityHandler<T_POLICY>> where T_POLICY : Org.Apache.Pdfbox.Pdmodel.Encryption.ProtectionPolicy
@@ -141,28 +141,28 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#getCurrentAccessPermission--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#setCurrentAccessPermission-org.apache.pdfbox.pdmodel.encryption.AccessPermission-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#getCurrentAccessPermission--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#setCurrentAccessPermission-org.apache.pdfbox.pdmodel.encryption.AccessPermission-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Encryption.AccessPermission CurrentAccessPermission
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Encryption.AccessPermission>("getCurrentAccessPermission", "()Lorg/apache/pdfbox/pdmodel/encryption/AccessPermission;"); } set { IExecuteWithSignature("setCurrentAccessPermission", "(Lorg/apache/pdfbox/pdmodel/encryption/AccessPermission;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#getEncryptionKey--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#setEncryptionKey-byte[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#getEncryptionKey--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#setEncryptionKey-byte[]-"/>
         /// </summary>
         public byte[] EncryptionKey
         {
             get { return IExecuteWithSignatureArray<byte>("getEncryptionKey", "()[B"); } set { IExecuteWithSignature("setEncryptionKey", "([B)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#getKeyLength--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#setKeyLength-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#getKeyLength--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#setKeyLength-int-"/>
         /// </summary>
         public int KeyLength
         {
             get { return IExecuteWithSignature<int>("getKeyLength", "()I"); } set { IExecuteWithSignature("setKeyLength", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#prepareDocumentForEncryption-org.apache.pdfbox.pdmodel.PDDocument-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#prepareDocumentForEncryption-org.apache.pdfbox.pdmodel.PDDocument-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -171,7 +171,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             IExecuteWithSignature("prepareDocumentForEncryption", "(Lorg/apache/pdfbox/pdmodel/PDDocument;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#prepareForDecryption-org.apache.pdfbox.pdmodel.encryption.PDEncryption-org.apache.pdfbox.cos.COSArray-org.apache.pdfbox.pdmodel.encryption.DecryptionMaterial-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#prepareForDecryption-org.apache.pdfbox.pdmodel.encryption.PDEncryption-org.apache.pdfbox.cos.COSArray-org.apache.pdfbox.pdmodel.encryption.DecryptionMaterial-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSArray"/></param>
@@ -182,7 +182,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             IExecuteWithSignature("prepareForDecryption", "(Lorg/apache/pdfbox/pdmodel/encryption/PDEncryption;Lorg/apache/pdfbox/cos/COSArray;Lorg/apache/pdfbox/pdmodel/encryption/DecryptionMaterial;)V", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#hasProtectionPolicy--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#hasProtectionPolicy--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool HasProtectionPolicy()
@@ -190,7 +190,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             return IExecuteWithSignature<bool>("hasProtectionPolicy", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#isAES--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#isAES--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsAES()
@@ -198,7 +198,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             return IExecuteWithSignature<bool>("isAES", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#isDecryptMetadata--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#isDecryptMetadata--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsDecryptMetadata()
@@ -206,7 +206,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             return IExecuteWithSignature<bool>("isDecryptMetadata", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#decrypt-org.apache.pdfbox.cos.COSBase-long-long-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#decrypt-org.apache.pdfbox.cos.COSBase-long-long-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></param>
         /// <param name="arg1"><see cref="long"/></param>
@@ -217,7 +217,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             IExecuteWithSignature("decrypt", "(Lorg/apache/pdfbox/cos/COSBase;JJ)V", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#decryptStream-org.apache.pdfbox.cos.COSStream-long-long-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#decryptStream-org.apache.pdfbox.cos.COSStream-long-long-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSStream"/></param>
         /// <param name="arg1"><see cref="long"/></param>
@@ -228,7 +228,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             IExecuteWithSignature("decryptStream", "(Lorg/apache/pdfbox/cos/COSStream;JJ)V", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#encryptStream-org.apache.pdfbox.cos.COSStream-long-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#encryptStream-org.apache.pdfbox.cos.COSStream-long-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSStream"/></param>
         /// <param name="arg1"><see cref="long"/></param>
@@ -239,7 +239,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             IExecuteWithSignature("encryptStream", "(Lorg/apache/pdfbox/cos/COSStream;JI)V", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#encryptString-org.apache.pdfbox.cos.COSString-long-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#encryptString-org.apache.pdfbox.cos.COSString-long-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSString"/></param>
         /// <param name="arg1"><see cref="long"/></param>
@@ -250,7 +250,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             IExecuteWithSignature("encryptString", "(Lorg/apache/pdfbox/cos/COSString;JI)V", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#setAES-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#setAES-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetAES(bool arg0)
@@ -258,7 +258,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             IExecuteWithSignature("setAES", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#setCustomSecureRandom-java.security.SecureRandom-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#setCustomSecureRandom-java.security.SecureRandom-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Security.SecureRandom"/></param>
         public void SetCustomSecureRandom(Java.Security.SecureRandom arg0)
@@ -301,28 +301,28 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#getCurrentAccessPermission--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#setCurrentAccessPermission-org.apache.pdfbox.pdmodel.encryption.AccessPermission-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#getCurrentAccessPermission--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#setCurrentAccessPermission-org.apache.pdfbox.pdmodel.encryption.AccessPermission-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Encryption.AccessPermission CurrentAccessPermission
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Encryption.AccessPermission>("getCurrentAccessPermission", "()Lorg/apache/pdfbox/pdmodel/encryption/AccessPermission;"); } set { IExecuteWithSignature("setCurrentAccessPermission", "(Lorg/apache/pdfbox/pdmodel/encryption/AccessPermission;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#getEncryptionKey--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#setEncryptionKey-byte[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#getEncryptionKey--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#setEncryptionKey-byte[]-"/>
         /// </summary>
         public byte[] EncryptionKey
         {
             get { return IExecuteWithSignatureArray<byte>("getEncryptionKey", "()[B"); } set { IExecuteWithSignature("setEncryptionKey", "([B)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#getKeyLength--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#setKeyLength-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#getKeyLength--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#setKeyLength-int-"/>
         /// </summary>
         public int KeyLength
         {
             get { return IExecuteWithSignature<int>("getKeyLength", "()I"); } set { IExecuteWithSignature("setKeyLength", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#prepareDocumentForEncryption-org.apache.pdfbox.pdmodel.PDDocument-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#prepareDocumentForEncryption-org.apache.pdfbox.pdmodel.PDDocument-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -331,7 +331,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             IExecuteWithSignature("prepareDocumentForEncryption", "(Lorg/apache/pdfbox/pdmodel/PDDocument;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#prepareForDecryption-org.apache.pdfbox.pdmodel.encryption.PDEncryption-org.apache.pdfbox.cos.COSArray-org.apache.pdfbox.pdmodel.encryption.DecryptionMaterial-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#prepareForDecryption-org.apache.pdfbox.pdmodel.encryption.PDEncryption-org.apache.pdfbox.cos.COSArray-org.apache.pdfbox.pdmodel.encryption.DecryptionMaterial-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSArray"/></param>
@@ -342,7 +342,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             IExecuteWithSignature("prepareForDecryption", "(Lorg/apache/pdfbox/pdmodel/encryption/PDEncryption;Lorg/apache/pdfbox/cos/COSArray;Lorg/apache/pdfbox/pdmodel/encryption/DecryptionMaterial;)V", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#hasProtectionPolicy--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#hasProtectionPolicy--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool HasProtectionPolicy()
@@ -350,7 +350,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             return IExecuteWithSignature<bool>("hasProtectionPolicy", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#isAES--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#isAES--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsAES()
@@ -358,7 +358,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             return IExecuteWithSignature<bool>("isAES", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#isDecryptMetadata--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#isDecryptMetadata--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsDecryptMetadata()
@@ -366,7 +366,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             return IExecuteWithSignature<bool>("isDecryptMetadata", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#decrypt-org.apache.pdfbox.cos.COSBase-long-long-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#decrypt-org.apache.pdfbox.cos.COSBase-long-long-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></param>
         /// <param name="arg1"><see cref="long"/></param>
@@ -377,7 +377,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             IExecuteWithSignature("decrypt", "(Lorg/apache/pdfbox/cos/COSBase;JJ)V", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#decryptStream-org.apache.pdfbox.cos.COSStream-long-long-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#decryptStream-org.apache.pdfbox.cos.COSStream-long-long-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSStream"/></param>
         /// <param name="arg1"><see cref="long"/></param>
@@ -388,7 +388,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             IExecuteWithSignature("decryptStream", "(Lorg/apache/pdfbox/cos/COSStream;JJ)V", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#encryptStream-org.apache.pdfbox.cos.COSStream-long-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#encryptStream-org.apache.pdfbox.cos.COSStream-long-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSStream"/></param>
         /// <param name="arg1"><see cref="long"/></param>
@@ -399,7 +399,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             IExecuteWithSignature("encryptStream", "(Lorg/apache/pdfbox/cos/COSStream;JI)V", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#encryptString-org.apache.pdfbox.cos.COSString-long-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#encryptString-org.apache.pdfbox.cos.COSString-long-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSString"/></param>
         /// <param name="arg1"><see cref="long"/></param>
@@ -410,7 +410,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             IExecuteWithSignature("encryptString", "(Lorg/apache/pdfbox/cos/COSString;JI)V", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#setAES-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#setAES-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetAES(bool arg0)
@@ -418,7 +418,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Encryption
             IExecuteWithSignature("setAES", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#setCustomSecureRandom-java.security.SecureRandom-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/encryption/SecurityHandler.html#setCustomSecureRandom-java.security.SecureRandom-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Security.SecureRandom"/></param>
         public void SetCustomSecureRandom(Java.Security.SecureRandom arg0)

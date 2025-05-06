@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator.State
 {
     #region SetRenderingIntent declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/state/SetRenderingIntent.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/state/SetRenderingIntent.html"/>
     /// </summary>
     public partial class SetRenderingIntent : Org.Apache.Pdfbox.Contentstream.Operator.OperatorProcessor
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator.State
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/state/SetRenderingIntent.html#org.apache.pdfbox.contentstream.operator.state.SetRenderingIntent(org.apache.pdfbox.contentstream.PDFStreamEngine)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/state/SetRenderingIntent.html#org.apache.pdfbox.contentstream.operator.state.SetRenderingIntent(org.apache.pdfbox.contentstream.PDFStreamEngine)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Contentstream.PDFStreamEngine"/></param>
         public SetRenderingIntent(Org.Apache.Pdfbox.Contentstream.PDFStreamEngine arg0)

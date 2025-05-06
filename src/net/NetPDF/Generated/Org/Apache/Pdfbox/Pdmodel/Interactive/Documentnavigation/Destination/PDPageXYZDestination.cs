@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination
 {
     #region PDPageXYZDestination declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageXYZDestination.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageXYZDestination.html"/>
     /// </summary>
     public partial class PDPageXYZDestination : Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination.PDPageDestination
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageXYZDestination.html#org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageXYZDestination(org.apache.pdfbox.cos.COSArray)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageXYZDestination.html#org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDPageXYZDestination(org.apache.pdfbox.cos.COSArray)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSArray"/></param>
         public PDPageXYZDestination(Org.Apache.Pdfbox.Cos.COSArray arg0)
@@ -99,21 +99,21 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageXYZDestination.html#getLeft--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageXYZDestination.html#setLeft-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageXYZDestination.html#getLeft--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageXYZDestination.html#setLeft-int-"/>
         /// </summary>
         public int Left
         {
             get { return IExecuteWithSignature<int>("getLeft", "()I"); } set { IExecuteWithSignature("setLeft", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageXYZDestination.html#getTop--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageXYZDestination.html#setTop-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageXYZDestination.html#getTop--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageXYZDestination.html#setTop-int-"/>
         /// </summary>
         public int Top
         {
             get { return IExecuteWithSignature<int>("getTop", "()I"); } set { IExecuteWithSignature("setTop", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageXYZDestination.html#getZoom--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageXYZDestination.html#setZoom-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageXYZDestination.html#getZoom--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageXYZDestination.html#setZoom-float-"/>
         /// </summary>
         public float Zoom
         {

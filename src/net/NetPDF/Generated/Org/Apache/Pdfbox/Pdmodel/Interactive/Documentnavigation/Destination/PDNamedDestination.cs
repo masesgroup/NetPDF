@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination
 {
     #region PDNamedDestination declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDNamedDestination.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDNamedDestination.html"/>
     /// </summary>
     public partial class PDNamedDestination : Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination.PDDestination
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDNamedDestination.html#org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDNamedDestination(java.lang.String)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDNamedDestination.html#org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDNamedDestination(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         public PDNamedDestination(Java.Lang.String arg0)
@@ -83,7 +83,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDNamedDestination.html#org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDNamedDestination(org.apache.pdfbox.cos.COSName)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDNamedDestination.html#org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDNamedDestination(org.apache.pdfbox.cos.COSName)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         public PDNamedDestination(Org.Apache.Pdfbox.Cos.COSName arg0)
@@ -91,7 +91,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDNamedDestination.html#org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDNamedDestination(org.apache.pdfbox.cos.COSString)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDNamedDestination.html#org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDNamedDestination(org.apache.pdfbox.cos.COSString)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSString"/></param>
         public PDNamedDestination(Org.Apache.Pdfbox.Cos.COSString arg0)
@@ -115,7 +115,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDNamedDestination.html#getNamedDestination--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDNamedDestination.html#setNamedDestination-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDNamedDestination.html#getNamedDestination--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDNamedDestination.html#setNamedDestination-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String NamedDestination
         {

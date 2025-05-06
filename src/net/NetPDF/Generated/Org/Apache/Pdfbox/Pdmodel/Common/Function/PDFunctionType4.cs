@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function
 {
     #region PDFunctionType4 declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/PDFunctionType4.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/PDFunctionType4.html"/>
     /// </summary>
     public partial class PDFunctionType4 : Org.Apache.Pdfbox.Pdmodel.Common.Function.PDFunction
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Function
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/function/PDFunctionType4.html#org.apache.pdfbox.pdmodel.common.function.PDFunctionType4(org.apache.pdfbox.cos.COSBase)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/function/PDFunctionType4.html#org.apache.pdfbox.pdmodel.common.function.PDFunctionType4(org.apache.pdfbox.cos.COSBase)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></param>
         /// <exception cref="Java.Io.IOException"/>

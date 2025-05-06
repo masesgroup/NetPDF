@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
 {
     #region PDAnnotationTextMarkup declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationTextMarkup.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationTextMarkup.html"/>
     /// </summary>
     public partial class PDAnnotationTextMarkup : Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotationMarkup
     {
@@ -91,7 +91,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationTextMarkup.html#getQuadPoints--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationTextMarkup.html#setQuadPoints-float[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationTextMarkup.html#getQuadPoints--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationTextMarkup.html#setQuadPoints-float[]-"/>
         /// </summary>
         public float[] QuadPoints
         {

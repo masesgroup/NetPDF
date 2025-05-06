@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Cos
 {
     #region COSIncrement declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSIncrement.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSIncrement.html"/>
     /// </summary>
     public partial class COSIncrement : Java.Lang.Iterable<Org.Apache.Pdfbox.Cos.COSBase>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Cos
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSIncrement.html#org.apache.pdfbox.cos.COSIncrement(org.apache.pdfbox.cos.COSUpdateInfo)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSIncrement.html#org.apache.pdfbox.cos.COSIncrement(org.apache.pdfbox.cos.COSUpdateInfo)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSUpdateInfo"/></param>
         public COSIncrement(Org.Apache.Pdfbox.Cos.COSUpdateInfo arg0)
@@ -99,14 +99,14 @@ namespace Org.Apache.Pdfbox.Cos
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSIncrement.html#getObjects--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSIncrement.html#getObjects--"/> 
         /// </summary>
         public Java.Util.Set<Org.Apache.Pdfbox.Cos.COSBase> Objects
         {
             get { return IExecuteWithSignature<Java.Util.Set<Org.Apache.Pdfbox.Cos.COSBase>>("getObjects", "()Ljava/util/Set;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSIncrement.html#contains-org.apache.pdfbox.cos.COSBase-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSIncrement.html#contains-org.apache.pdfbox.cos.COSBase-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -115,7 +115,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<bool>("contains", "(Lorg/apache/pdfbox/cos/COSBase;)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSIncrement.html#iterator--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSIncrement.html#iterator--"/>
         /// </summary>
         /// <returns><see cref="Java.Util.Iterator"/></returns>
         public Java.Util.Iterator<Org.Apache.Pdfbox.Cos.COSBase> Iterator()
@@ -123,7 +123,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Java.Util.Iterator<Org.Apache.Pdfbox.Cos.COSBase>>("iterator", "()Ljava/util/Iterator;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSIncrement.html#exclude-org.apache.pdfbox.cos.COSBase...-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSIncrement.html#exclude-org.apache.pdfbox.cos.COSBase...-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Cos.COSIncrement"/></returns>

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator.State
 {
     #region SetLineJoinStyle declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/state/SetLineJoinStyle.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/state/SetLineJoinStyle.html"/>
     /// </summary>
     public partial class SetLineJoinStyle : Org.Apache.Pdfbox.Contentstream.Operator.OperatorProcessor
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator.State
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/state/SetLineJoinStyle.html#org.apache.pdfbox.contentstream.operator.state.SetLineJoinStyle(org.apache.pdfbox.contentstream.PDFStreamEngine)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/state/SetLineJoinStyle.html#org.apache.pdfbox.contentstream.operator.state.SetLineJoinStyle(org.apache.pdfbox.contentstream.PDFStreamEngine)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Contentstream.PDFStreamEngine"/></param>
         public SetLineJoinStyle(Org.Apache.Pdfbox.Contentstream.PDFStreamEngine arg0)

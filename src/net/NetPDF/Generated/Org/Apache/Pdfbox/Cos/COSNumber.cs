@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Cos
 {
     #region COSNumber declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSNumber.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSNumber.html"/>
     /// </summary>
     public partial class COSNumber : Org.Apache.Pdfbox.Cos.COSBase
     {
@@ -89,7 +89,7 @@ namespace Org.Apache.Pdfbox.Cos
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSNumber.html#get-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSNumber.html#get-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Cos.COSNumber"/></returns>
@@ -103,7 +103,7 @@ namespace Org.Apache.Pdfbox.Cos
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSNumber.html#floatValue--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSNumber.html#floatValue--"/>
         /// </summary>
         /// <returns><see cref="float"/></returns>
         public float FloatValue()
@@ -111,7 +111,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<float>("floatValue", "()F");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSNumber.html#intValue--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSNumber.html#intValue--"/>
         /// </summary>
         /// <returns><see cref="int"/></returns>
         public int IntValue()
@@ -119,7 +119,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<int>("intValue", "()I");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSNumber.html#longValue--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSNumber.html#longValue--"/>
         /// </summary>
         /// <returns><see cref="long"/></returns>
         public long LongValue()

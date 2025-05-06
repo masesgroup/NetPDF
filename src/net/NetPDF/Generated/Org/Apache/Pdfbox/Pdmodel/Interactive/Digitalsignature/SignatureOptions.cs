@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
 {
     #region SignatureOptions declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SignatureOptions.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SignatureOptions.html"/>
     /// </summary>
     public partial class SignatureOptions : Java.Io.Closeable
     {
@@ -83,7 +83,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SignatureOptions.html#DEFAULT_SIGNATURE_SIZE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SignatureOptions.html#DEFAULT_SIGNATURE_SIZE"/>
         /// </summary>
         public static int DEFAULT_SIGNATURE_SIZE { get { if (!_DEFAULT_SIGNATURE_SIZEReady) { _DEFAULT_SIGNATURE_SIZEContent = SGetField<int>(LocalBridgeClazz, "DEFAULT_SIGNATURE_SIZE"); _DEFAULT_SIGNATURE_SIZEReady = true; } return _DEFAULT_SIGNATURE_SIZEContent; } }
         private static int _DEFAULT_SIGNATURE_SIZEContent = default;
@@ -97,28 +97,28 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SignatureOptions.html#getPage--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SignatureOptions.html#setPage-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SignatureOptions.html#getPage--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SignatureOptions.html#setPage-int-"/>
         /// </summary>
         public int Page
         {
             get { return IExecuteWithSignature<int>("getPage", "()I"); } set { IExecuteWithSignature("setPage", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SignatureOptions.html#getPreferredSignatureSize--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SignatureOptions.html#setPreferredSignatureSize-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SignatureOptions.html#getPreferredSignatureSize--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SignatureOptions.html#setPreferredSignatureSize-int-"/>
         /// </summary>
         public int PreferredSignatureSize
         {
             get { return IExecuteWithSignature<int>("getPreferredSignatureSize", "()I"); } set { IExecuteWithSignature("setPreferredSignatureSize", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SignatureOptions.html#getVisualSignature--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SignatureOptions.html#getVisualSignature--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSDocument VisualSignature
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSDocument>("getVisualSignature", "()Lorg/apache/pdfbox/cos/COSDocument;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SignatureOptions.html#close--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SignatureOptions.html#close--"/>
         /// </summary>
         /// <exception cref="Java.Io.IOException"/>
         public void Close()
@@ -126,7 +126,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
             IExecuteWithSignature("close", "()V");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SignatureOptions.html#setVisualSignature-java.io.File-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SignatureOptions.html#setVisualSignature-java.io.File-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.File"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -135,7 +135,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
             IExecuteWithSignature("setVisualSignature", "(Ljava/io/File;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SignatureOptions.html#setVisualSignature-java.io.InputStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SignatureOptions.html#setVisualSignature-java.io.InputStream-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.InputStream"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -144,7 +144,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature
             IExecuteWithSignature("setVisualSignature", "(Ljava/io/InputStream;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SignatureOptions.html#setVisualSignature-org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSigProperties-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/SignatureOptions.html#setVisualSignature-org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSigProperties-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.Visible.PDVisibleSigProperties"/></param>
         /// <exception cref="Java.Io.IOException"/>

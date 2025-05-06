@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
 {
     #region PDCalGray declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDCalGray.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDCalGray.html"/>
     /// </summary>
     public partial class PDCalGray : Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDCIEDictionaryBasedColorSpace
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDCalGray.html#org.apache.pdfbox.pdmodel.graphics.color.PDCalGray(org.apache.pdfbox.cos.COSArray)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDCalGray.html#org.apache.pdfbox.pdmodel.graphics.color.PDCalGray(org.apache.pdfbox.cos.COSArray)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSArray"/></param>
         public PDCalGray(Org.Apache.Pdfbox.Cos.COSArray arg0)
@@ -99,7 +99,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDCalGray.html#getGamma--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDCalGray.html#setGamma-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDCalGray.html#getGamma--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDCalGray.html#setGamma-float-"/>
         /// </summary>
         public float Gamma
         {

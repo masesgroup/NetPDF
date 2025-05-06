@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf.Table.Common
 {
     #region RangeRecord declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/common/RangeRecord.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/common/RangeRecord.html"/>
     /// </summary>
     public partial class RangeRecord : MASES.JCOBridge.C2JBridge.JVMBridgeBase<RangeRecord>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Fontbox.Ttf.Table.Common
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/common/RangeRecord.html#org.apache.fontbox.ttf.table.common.RangeRecord(int,int,int)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/common/RangeRecord.html#org.apache.fontbox.ttf.table.common.RangeRecord(int,int,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -101,21 +101,21 @@ namespace Org.Apache.Fontbox.Ttf.Table.Common
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/common/RangeRecord.html#getEndGlyphID--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/common/RangeRecord.html#getEndGlyphID--"/> 
         /// </summary>
         public int EndGlyphID
         {
             get { return IExecuteWithSignature<int>("getEndGlyphID", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/common/RangeRecord.html#getStartCoverageIndex--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/common/RangeRecord.html#getStartCoverageIndex--"/> 
         /// </summary>
         public int StartCoverageIndex
         {
             get { return IExecuteWithSignature<int>("getStartCoverageIndex", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/common/RangeRecord.html#getStartGlyphID--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/common/RangeRecord.html#getStartGlyphID--"/> 
         /// </summary>
         public int StartGlyphID
         {

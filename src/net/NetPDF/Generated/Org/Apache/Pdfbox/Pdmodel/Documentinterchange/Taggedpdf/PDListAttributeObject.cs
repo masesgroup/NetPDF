@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Taggedpdf
 {
     #region PDListAttributeObject declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html"/>
     /// </summary>
     public partial class PDListAttributeObject : Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Taggedpdf.PDStandardAttributeObject
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Taggedpdf
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html#org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDListAttributeObject(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html#org.apache.pdfbox.pdmodel.documentinterchange.taggedpdf.PDListAttributeObject(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDListAttributeObject(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -91,61 +91,61 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Taggedpdf
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html#LIST_NUMBERING_CIRCLE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html#LIST_NUMBERING_CIRCLE"/>
         /// </summary>
         public static Java.Lang.String LIST_NUMBERING_CIRCLE { get { if (!_LIST_NUMBERING_CIRCLEReady) { _LIST_NUMBERING_CIRCLEContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "LIST_NUMBERING_CIRCLE"); _LIST_NUMBERING_CIRCLEReady = true; } return _LIST_NUMBERING_CIRCLEContent; } }
         private static Java.Lang.String _LIST_NUMBERING_CIRCLEContent = default;
         private static bool _LIST_NUMBERING_CIRCLEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html#LIST_NUMBERING_DECIMAL"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html#LIST_NUMBERING_DECIMAL"/>
         /// </summary>
         public static Java.Lang.String LIST_NUMBERING_DECIMAL { get { if (!_LIST_NUMBERING_DECIMALReady) { _LIST_NUMBERING_DECIMALContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "LIST_NUMBERING_DECIMAL"); _LIST_NUMBERING_DECIMALReady = true; } return _LIST_NUMBERING_DECIMALContent; } }
         private static Java.Lang.String _LIST_NUMBERING_DECIMALContent = default;
         private static bool _LIST_NUMBERING_DECIMALReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html#LIST_NUMBERING_DISC"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html#LIST_NUMBERING_DISC"/>
         /// </summary>
         public static Java.Lang.String LIST_NUMBERING_DISC { get { if (!_LIST_NUMBERING_DISCReady) { _LIST_NUMBERING_DISCContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "LIST_NUMBERING_DISC"); _LIST_NUMBERING_DISCReady = true; } return _LIST_NUMBERING_DISCContent; } }
         private static Java.Lang.String _LIST_NUMBERING_DISCContent = default;
         private static bool _LIST_NUMBERING_DISCReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html#LIST_NUMBERING_LOWER_ALPHA"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html#LIST_NUMBERING_LOWER_ALPHA"/>
         /// </summary>
         public static Java.Lang.String LIST_NUMBERING_LOWER_ALPHA { get { if (!_LIST_NUMBERING_LOWER_ALPHAReady) { _LIST_NUMBERING_LOWER_ALPHAContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "LIST_NUMBERING_LOWER_ALPHA"); _LIST_NUMBERING_LOWER_ALPHAReady = true; } return _LIST_NUMBERING_LOWER_ALPHAContent; } }
         private static Java.Lang.String _LIST_NUMBERING_LOWER_ALPHAContent = default;
         private static bool _LIST_NUMBERING_LOWER_ALPHAReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html#LIST_NUMBERING_LOWER_ROMAN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html#LIST_NUMBERING_LOWER_ROMAN"/>
         /// </summary>
         public static Java.Lang.String LIST_NUMBERING_LOWER_ROMAN { get { if (!_LIST_NUMBERING_LOWER_ROMANReady) { _LIST_NUMBERING_LOWER_ROMANContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "LIST_NUMBERING_LOWER_ROMAN"); _LIST_NUMBERING_LOWER_ROMANReady = true; } return _LIST_NUMBERING_LOWER_ROMANContent; } }
         private static Java.Lang.String _LIST_NUMBERING_LOWER_ROMANContent = default;
         private static bool _LIST_NUMBERING_LOWER_ROMANReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html#LIST_NUMBERING_NONE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html#LIST_NUMBERING_NONE"/>
         /// </summary>
         public static Java.Lang.String LIST_NUMBERING_NONE { get { if (!_LIST_NUMBERING_NONEReady) { _LIST_NUMBERING_NONEContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "LIST_NUMBERING_NONE"); _LIST_NUMBERING_NONEReady = true; } return _LIST_NUMBERING_NONEContent; } }
         private static Java.Lang.String _LIST_NUMBERING_NONEContent = default;
         private static bool _LIST_NUMBERING_NONEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html#LIST_NUMBERING_SQUARE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html#LIST_NUMBERING_SQUARE"/>
         /// </summary>
         public static Java.Lang.String LIST_NUMBERING_SQUARE { get { if (!_LIST_NUMBERING_SQUAREReady) { _LIST_NUMBERING_SQUAREContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "LIST_NUMBERING_SQUARE"); _LIST_NUMBERING_SQUAREReady = true; } return _LIST_NUMBERING_SQUAREContent; } }
         private static Java.Lang.String _LIST_NUMBERING_SQUAREContent = default;
         private static bool _LIST_NUMBERING_SQUAREReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html#LIST_NUMBERING_UPPER_ALPHA"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html#LIST_NUMBERING_UPPER_ALPHA"/>
         /// </summary>
         public static Java.Lang.String LIST_NUMBERING_UPPER_ALPHA { get { if (!_LIST_NUMBERING_UPPER_ALPHAReady) { _LIST_NUMBERING_UPPER_ALPHAContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "LIST_NUMBERING_UPPER_ALPHA"); _LIST_NUMBERING_UPPER_ALPHAReady = true; } return _LIST_NUMBERING_UPPER_ALPHAContent; } }
         private static Java.Lang.String _LIST_NUMBERING_UPPER_ALPHAContent = default;
         private static bool _LIST_NUMBERING_UPPER_ALPHAReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html#LIST_NUMBERING_UPPER_ROMAN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html#LIST_NUMBERING_UPPER_ROMAN"/>
         /// </summary>
         public static Java.Lang.String LIST_NUMBERING_UPPER_ROMAN { get { if (!_LIST_NUMBERING_UPPER_ROMANReady) { _LIST_NUMBERING_UPPER_ROMANContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "LIST_NUMBERING_UPPER_ROMAN"); _LIST_NUMBERING_UPPER_ROMANReady = true; } return _LIST_NUMBERING_UPPER_ROMANContent; } }
         private static Java.Lang.String _LIST_NUMBERING_UPPER_ROMANContent = default;
         private static bool _LIST_NUMBERING_UPPER_ROMANReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html#OWNER_LIST"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html#OWNER_LIST"/>
         /// </summary>
         public static Java.Lang.String OWNER_LIST { get { if (!_OWNER_LISTReady) { _OWNER_LISTContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "OWNER_LIST"); _OWNER_LISTReady = true; } return _OWNER_LISTContent; } }
         private static Java.Lang.String _OWNER_LISTContent = default;
@@ -159,7 +159,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Taggedpdf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html#getListNumbering--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html#setListNumbering-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html#getListNumbering--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/taggedpdf/PDListAttributeObject.html#setListNumbering-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String ListNumbering
         {

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator.Color
 {
     #region SetNonStrokingColor declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/color/SetNonStrokingColor.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/color/SetNonStrokingColor.html"/>
     /// </summary>
     public partial class SetNonStrokingColor : Org.Apache.Pdfbox.Contentstream.Operator.Color.SetColor
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator.Color
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/color/SetNonStrokingColor.html#org.apache.pdfbox.contentstream.operator.color.SetNonStrokingColor(org.apache.pdfbox.contentstream.PDFStreamEngine)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/color/SetNonStrokingColor.html#org.apache.pdfbox.contentstream.operator.color.SetNonStrokingColor(org.apache.pdfbox.contentstream.PDFStreamEngine)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Contentstream.PDFStreamEngine"/></param>
         public SetNonStrokingColor(Org.Apache.Pdfbox.Contentstream.PDFStreamEngine arg0)

@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Pfb
 {
     #region PfbParser declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/pfb/PfbParser.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/pfb/PfbParser.html"/>
     /// </summary>
     public partial class PfbParser : MASES.JCOBridge.C2JBridge.JVMBridgeBase<PfbParser>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Fontbox.Pfb
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/pfb/PfbParser.html#org.apache.fontbox.pfb.PfbParser(byte[])"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/pfb/PfbParser.html#org.apache.fontbox.pfb.PfbParser(byte[])"/>
         /// </summary>
         /// <param name="arg0"><see cref="byte"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -84,7 +84,7 @@ namespace Org.Apache.Fontbox.Pfb
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/pfb/PfbParser.html#org.apache.fontbox.pfb.PfbParser(java.io.InputStream)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/pfb/PfbParser.html#org.apache.fontbox.pfb.PfbParser(java.io.InputStream)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.InputStream"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -93,7 +93,7 @@ namespace Org.Apache.Fontbox.Pfb
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/pfb/PfbParser.html#org.apache.fontbox.pfb.PfbParser(java.lang.String)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/pfb/PfbParser.html#org.apache.fontbox.pfb.PfbParser(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -118,42 +118,42 @@ namespace Org.Apache.Fontbox.Pfb
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/pfb/PfbParser.html#getInputStream--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/pfb/PfbParser.html#getInputStream--"/> 
         /// </summary>
         public Java.Io.InputStream InputStream
         {
             get { return IExecuteWithSignature<Java.Io.InputStream>("getInputStream", "()Ljava/io/InputStream;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/pfb/PfbParser.html#getLengths--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/pfb/PfbParser.html#getLengths--"/> 
         /// </summary>
         public int[] Lengths
         {
             get { return IExecuteWithSignatureArray<int>("getLengths", "()[I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/pfb/PfbParser.html#getPfbdata--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/pfb/PfbParser.html#getPfbdata--"/> 
         /// </summary>
         public byte[] Pfbdata
         {
             get { return IExecuteWithSignatureArray<byte>("getPfbdata", "()[B"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/pfb/PfbParser.html#getSegment1--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/pfb/PfbParser.html#getSegment1--"/> 
         /// </summary>
         public byte[] Segment1
         {
             get { return IExecuteWithSignatureArray<byte>("getSegment1", "()[B"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/pfb/PfbParser.html#getSegment2--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/pfb/PfbParser.html#getSegment2--"/> 
         /// </summary>
         public byte[] Segment2
         {
             get { return IExecuteWithSignatureArray<byte>("getSegment2", "()[B"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/pfb/PfbParser.html#size--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/pfb/PfbParser.html#size--"/>
         /// </summary>
         /// <returns><see cref="int"/></returns>
         public int Size()

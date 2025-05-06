@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator.Graphics
 {
     #region GraphicsOperatorProcessor declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/graphics/GraphicsOperatorProcessor.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/graphics/GraphicsOperatorProcessor.html"/>
     /// </summary>
     public partial class GraphicsOperatorProcessor : Org.Apache.Pdfbox.Contentstream.Operator.OperatorProcessor
     {

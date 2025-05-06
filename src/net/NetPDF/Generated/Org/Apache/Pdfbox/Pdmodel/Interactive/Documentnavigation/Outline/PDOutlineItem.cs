@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline
 {
     #region PDOutlineItem declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html"/>
     /// </summary>
     public partial class PDOutlineItem : Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineNode
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDOutlineItem(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -99,56 +99,56 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getAction--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setAction-org.apache.pdfbox.pdmodel.interactive.action.PDAction-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getAction--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setAction-org.apache.pdfbox.pdmodel.interactive.action.PDAction-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Action.PDAction Action
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Action.PDAction>("getAction", "()Lorg/apache/pdfbox/pdmodel/interactive/action/PDAction;"); } set { IExecuteWithSignature("setAction", "(Lorg/apache/pdfbox/pdmodel/interactive/action/PDAction;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getDestination--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getDestination--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination.PDDestination Destination
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination.PDDestination>("getDestination", "()Lorg/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDDestination;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getNextSibling--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getNextSibling--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem NextSibling
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem>("getNextSibling", "()Lorg/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getPreviousSibling--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getPreviousSibling--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem PreviousSibling
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem>("getPreviousSibling", "()Lorg/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getStructureElement--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setStructureElement-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getStructureElement--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setStructureElement-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement StructureElement
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement>("getStructureElement", "()Lorg/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement;"); } set { IExecuteWithSignature("setStructureElement", "(Lorg/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getTextColor--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getTextColor--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColor TextColor
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColor>("getTextColor", "()Lorg/apache/pdfbox/pdmodel/graphics/color/PDColor;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getTitle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setTitle-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getTitle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setTitle-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Title
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getTitle", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setTitle", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#isBold--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#isBold--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsBold()
@@ -156,7 +156,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline
             return IExecuteWithSignature<bool>("isBold", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#isItalic--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#isItalic--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsItalic()
@@ -164,7 +164,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline
             return IExecuteWithSignature<bool>("isItalic", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#findDestinationPage-org.apache.pdfbox.pdmodel.PDDocument-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#findDestinationPage-org.apache.pdfbox.pdmodel.PDDocument-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.PDPage"/></returns>
@@ -174,7 +174,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.PDPage>("findDestinationPage", "(Lorg/apache/pdfbox/pdmodel/PDDocument;)Lorg/apache/pdfbox/pdmodel/PDPage;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#insertSiblingAfter-org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#insertSiblingAfter-org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem"/></param>
         public void InsertSiblingAfter(Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem arg0)
@@ -182,7 +182,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline
             IExecuteWithSignature("insertSiblingAfter", "(Lorg/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#insertSiblingBefore-org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#insertSiblingBefore-org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem"/></param>
         public void InsertSiblingBefore(Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem arg0)
@@ -190,7 +190,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline
             IExecuteWithSignature("insertSiblingBefore", "(Lorg/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setBold-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setBold-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetBold(bool arg0)
@@ -198,7 +198,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline
             IExecuteWithSignature("setBold", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setDestination-org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDDestination-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setDestination-org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDDestination-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination.PDDestination"/></param>
         public void SetDestination(Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination.PDDestination arg0)
@@ -206,7 +206,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline
             IExecuteWithSignature("setDestination", "(Lorg/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDDestination;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setDestination-org.apache.pdfbox.pdmodel.PDPage-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setDestination-org.apache.pdfbox.pdmodel.PDPage-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDPage"/></param>
         public void SetDestination(Org.Apache.Pdfbox.Pdmodel.PDPage arg0)
@@ -214,7 +214,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline
             IExecuteWithSignature("setDestination", "(Lorg/apache/pdfbox/pdmodel/PDPage;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setItalic-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setItalic-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetItalic(bool arg0)
@@ -222,7 +222,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline
             IExecuteWithSignature("setItalic", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setTextColor-java.awt.Color-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setTextColor-java.awt.Color-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Awt.Color"/></param>
         public void SetTextColor(Java.Awt.Color arg0)
@@ -230,7 +230,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline
             IExecuteWithSignature("setTextColor", "(Ljava/awt/Color;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setTextColor-org.apache.pdfbox.pdmodel.graphics.color.PDColor-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setTextColor-org.apache.pdfbox.pdmodel.graphics.color.PDColor-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColor"/></param>
         public void SetTextColor(Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColor arg0)

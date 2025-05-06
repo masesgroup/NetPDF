@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
 {
     #region PDButton declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDButton.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDButton.html"/>
     /// </summary>
     public partial class PDButton : Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDTerminalField
     {
@@ -93,35 +93,35 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDButton.html#getDefaultValue--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDButton.html#setDefaultValue-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDButton.html#getDefaultValue--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDButton.html#setDefaultValue-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String DefaultValue
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getDefaultValue", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setDefaultValue", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDButton.html#getExportValues--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDButton.html#setExportValues-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDButton.html#getExportValues--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDButton.html#setExportValues-java.util.List-"/>
         /// </summary>
         public Java.Util.List<Java.Lang.String> ExportValues
         {
             get { return IExecuteWithSignature<Java.Util.List<Java.Lang.String>>("getExportValues", "()Ljava/util/List;"); } set { IExecuteWithSignature("setExportValues", "(Ljava/util/List;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDButton.html#getOnValues--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDButton.html#getOnValues--"/> 
         /// </summary>
         public Java.Util.Set<Java.Lang.String> OnValues
         {
             get { return IExecuteWithSignature<Java.Util.Set<Java.Lang.String>>("getOnValues", "()Ljava/util/Set;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDButton.html#getValue--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDButton.html#setValue-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDButton.html#getValue--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDButton.html#setValue-int-"/>
         /// </summary>
         public Java.Lang.String Value
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getValue", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setValue", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDButton.html#isPushButton--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDButton.html#isPushButton--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsPushButton()
@@ -129,7 +129,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             return IExecuteWithSignature<bool>("isPushButton", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDButton.html#isRadioButton--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDButton.html#isRadioButton--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsRadioButton()

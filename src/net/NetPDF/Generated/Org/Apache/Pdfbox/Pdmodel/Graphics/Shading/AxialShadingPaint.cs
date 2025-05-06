@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
 {
     #region AxialShadingPaint declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/AxialShadingPaint.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/AxialShadingPaint.html"/>
     /// </summary>
     public partial class AxialShadingPaint : Org.Apache.Pdfbox.Pdmodel.Graphics.Shading.ShadingPaint<Org.Apache.Pdfbox.Pdmodel.Graphics.Shading.PDShadingType2>
     {

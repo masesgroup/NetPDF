@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Cff
 {
     #region CFFCharset declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFCharset.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFCharset.html"/>
     /// </summary>
     public partial class CFFCharset : MASES.JCOBridge.C2JBridge.JVMBridgeBase<CFFCharset>
     {
@@ -74,7 +74,7 @@ namespace Org.Apache.Fontbox.Cff
 
     #region ICFFCharset
     /// <summary>
-    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFCharset.html"/>
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFCharset.html"/>
     /// </summary>
     public partial interface ICFFCharset
     {
@@ -111,7 +111,7 @@ namespace Org.Apache.Fontbox.Cff
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFCharset.html#isCIDFont--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFCharset.html#isCIDFont--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsCIDFont()
@@ -119,7 +119,7 @@ namespace Org.Apache.Fontbox.Cff
             return IExecuteWithSignature<bool>("isCIDFont", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFCharset.html#getCIDForGID-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFCharset.html#getCIDForGID-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="int"/></returns>
@@ -128,7 +128,7 @@ namespace Org.Apache.Fontbox.Cff
             return IExecuteWithSignature<int>("getCIDForGID", "(I)I", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFCharset.html#getGIDForCID-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFCharset.html#getGIDForCID-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="int"/></returns>
@@ -137,7 +137,7 @@ namespace Org.Apache.Fontbox.Cff
             return IExecuteWithSignature<int>("getGIDForCID", "(I)I", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFCharset.html#getGIDForSID-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFCharset.html#getGIDForSID-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="int"/></returns>
@@ -146,7 +146,7 @@ namespace Org.Apache.Fontbox.Cff
             return IExecuteWithSignature<int>("getGIDForSID", "(I)I", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFCharset.html#getSID-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFCharset.html#getSID-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="int"/></returns>
@@ -155,7 +155,7 @@ namespace Org.Apache.Fontbox.Cff
             return IExecuteWithSignature<int>("getSID", "(Ljava/lang/String;)I", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFCharset.html#getSIDForGID-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFCharset.html#getSIDForGID-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="int"/></returns>
@@ -164,7 +164,7 @@ namespace Org.Apache.Fontbox.Cff
             return IExecuteWithSignature<int>("getSIDForGID", "(I)I", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFCharset.html#getNameForGID-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFCharset.html#getNameForGID-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="Java.Lang.String"/></returns>
@@ -173,7 +173,7 @@ namespace Org.Apache.Fontbox.Cff
             return IExecuteWithSignature<Java.Lang.String>("getNameForGID", "(I)Ljava/lang/String;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFCharset.html#addCID-int-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFCharset.html#addCID-int-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -182,7 +182,7 @@ namespace Org.Apache.Fontbox.Cff
             IExecuteWithSignature("addCID", "(II)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFCharset.html#addSID-int-int-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFCharset.html#addSID-int-int-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="int"/></param>

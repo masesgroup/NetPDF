@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
 {
     #region PDStructureElement declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html"/>
     /// </summary>
     public partial class PDStructureElement : Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureNode
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement(java.lang.String,org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureNode)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement(java.lang.String,org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureNode)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureNode"/></param>
@@ -84,7 +84,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDStructureElement(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -100,7 +100,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#TYPE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#TYPE"/>
         /// </summary>
         public static Java.Lang.String TYPE { get { if (!_TYPEReady) { _TYPEContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "TYPE"); _TYPEReady = true; } return _TYPEContent; } }
         private static Java.Lang.String _TYPEContent = default;
@@ -114,98 +114,98 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getActualText--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setActualText-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getActualText--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setActualText-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String ActualText
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getActualText", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setActualText", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getAlternateDescription--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setAlternateDescription-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getAlternateDescription--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setAlternateDescription-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String AlternateDescription
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getAlternateDescription", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setAlternateDescription", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getAttributes--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setAttributes-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.Revisions-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getAttributes--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setAttributes-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.Revisions-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.Revisions<Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDAttributeObject> Attributes
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.Revisions<Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDAttributeObject>>("getAttributes", "()Lorg/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/Revisions;"); } set { IExecuteWithSignature("setAttributes", "(Lorg/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/Revisions;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getClassNames--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setClassNames-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.Revisions-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getClassNames--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setClassNames-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.Revisions-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.Revisions<Java.Lang.String> ClassNames
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.Revisions<Java.Lang.String>>("getClassNames", "()Lorg/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/Revisions;"); } set { IExecuteWithSignature("setClassNames", "(Lorg/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/Revisions;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getElementIdentifier--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setElementIdentifier-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getElementIdentifier--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setElementIdentifier-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String ElementIdentifier
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getElementIdentifier", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setElementIdentifier", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getExpandedForm--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setExpandedForm-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getExpandedForm--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setExpandedForm-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String ExpandedForm
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getExpandedForm", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setExpandedForm", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getLanguage--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setLanguage-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getLanguage--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setLanguage-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Language
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getLanguage", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setLanguage", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getPage--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setPage-org.apache.pdfbox.pdmodel.PDPage-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getPage--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setPage-org.apache.pdfbox.pdmodel.PDPage-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.PDPage Page
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.PDPage>("getPage", "()Lorg/apache/pdfbox/pdmodel/PDPage;"); } set { IExecuteWithSignature("setPage", "(Lorg/apache/pdfbox/pdmodel/PDPage;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getParent--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setParent-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureNode-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getParent--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setParent-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureNode-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureNode Parent
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureNode>("getParent", "()Lorg/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureNode;"); } set { IExecuteWithSignature("setParent", "(Lorg/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureNode;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getRevisionNumber--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setRevisionNumber-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getRevisionNumber--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setRevisionNumber-int-"/>
         /// </summary>
         public int RevisionNumber
         {
             get { return IExecuteWithSignature<int>("getRevisionNumber", "()I"); } set { IExecuteWithSignature("setRevisionNumber", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getStandardStructureType--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getStandardStructureType--"/> 
         /// </summary>
         public Java.Lang.String StandardStructureType
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getStandardStructureType", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getStructureType--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setStructureType-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getStructureType--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setStructureType-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String StructureType
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getStructureType", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setStructureType", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getTitle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setTitle-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getTitle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setTitle-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Title
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getTitle", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setTitle", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#addAttribute-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#addAttribute-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDAttributeObject"/></param>
         public void AddAttribute(Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDAttributeObject arg0)
@@ -213,7 +213,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
             IExecuteWithSignature("addAttribute", "(Lorg/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDAttributeObject;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#addClassName-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#addClassName-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         public void AddClassName(Java.Lang.String arg0)
@@ -221,7 +221,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
             IExecuteWithSignature("addClassName", "(Ljava/lang/String;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#appendKid-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#appendKid-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         public void AppendKid(int arg0)
@@ -229,7 +229,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
             IExecuteWithSignature("appendKid", "(I)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#appendKid-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDMarkedContentReference-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#appendKid-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDMarkedContentReference-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDMarkedContentReference"/></param>
         public void AppendKid(Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDMarkedContentReference arg0)
@@ -237,7 +237,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
             IExecuteWithSignature("appendKid", "(Lorg/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDMarkedContentReference;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#appendKid-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDObjectReference-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#appendKid-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDObjectReference-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDObjectReference"/></param>
         public void AppendKid(Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDObjectReference arg0)
@@ -245,7 +245,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
             IExecuteWithSignature("appendKid", "(Lorg/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDObjectReference;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#appendKid-org.apache.pdfbox.pdmodel.documentinterchange.markedcontent.PDMarkedContent-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#appendKid-org.apache.pdfbox.pdmodel.documentinterchange.markedcontent.PDMarkedContent-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Markedcontent.PDMarkedContent"/></param>
         public void AppendKid(Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Markedcontent.PDMarkedContent arg0)
@@ -253,7 +253,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
             IExecuteWithSignature("appendKid", "(Lorg/apache/pdfbox/pdmodel/documentinterchange/markedcontent/PDMarkedContent;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#attributeChanged-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#attributeChanged-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDAttributeObject"/></param>
         public void AttributeChanged(Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDAttributeObject arg0)
@@ -261,14 +261,14 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
             IExecuteWithSignature("attributeChanged", "(Lorg/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDAttributeObject;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#incrementRevisionNumber--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#incrementRevisionNumber--"/>
         /// </summary>
         public void IncrementRevisionNumber()
         {
             IExecuteWithSignature("incrementRevisionNumber", "()V");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#insertBefore-org.apache.pdfbox.cos.COSInteger-java.lang.Object-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#insertBefore-org.apache.pdfbox.cos.COSInteger-java.lang.Object-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSInteger"/></param>
         /// <param name="arg1"><see cref="object"/></param>
@@ -277,7 +277,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
             IExecuteWithSignature("insertBefore", "(Lorg/apache/pdfbox/cos/COSInteger;Ljava/lang/Object;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#insertBefore-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDMarkedContentReference-java.lang.Object-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#insertBefore-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDMarkedContentReference-java.lang.Object-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDMarkedContentReference"/></param>
         /// <param name="arg1"><see cref="object"/></param>
@@ -286,7 +286,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
             IExecuteWithSignature("insertBefore", "(Lorg/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDMarkedContentReference;Ljava/lang/Object;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#insertBefore-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDObjectReference-java.lang.Object-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#insertBefore-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDObjectReference-java.lang.Object-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDObjectReference"/></param>
         /// <param name="arg1"><see cref="object"/></param>
@@ -295,7 +295,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
             IExecuteWithSignature("insertBefore", "(Lorg/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDObjectReference;Ljava/lang/Object;)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#removeAttribute-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#removeAttribute-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDAttributeObject"/></param>
         public void RemoveAttribute(Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDAttributeObject arg0)
@@ -303,7 +303,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
             IExecuteWithSignature("removeAttribute", "(Lorg/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDAttributeObject;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#removeClassName-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#removeClassName-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         public void RemoveClassName(Java.Lang.String arg0)
@@ -311,7 +311,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
             IExecuteWithSignature("removeClassName", "(Ljava/lang/String;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#removeKid-org.apache.pdfbox.cos.COSInteger-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#removeKid-org.apache.pdfbox.cos.COSInteger-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSInteger"/></param>
         public void RemoveKid(Org.Apache.Pdfbox.Cos.COSInteger arg0)
@@ -319,7 +319,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
             IExecuteWithSignature("removeKid", "(Lorg/apache/pdfbox/cos/COSInteger;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#removeKid-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDMarkedContentReference-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#removeKid-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDMarkedContentReference-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDMarkedContentReference"/></param>
         public void RemoveKid(Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDMarkedContentReference arg0)
@@ -327,7 +327,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
             IExecuteWithSignature("removeKid", "(Lorg/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDMarkedContentReference;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#removeKid-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDObjectReference-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#removeKid-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDObjectReference-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDObjectReference"/></param>
         public void RemoveKid(Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDObjectReference arg0)

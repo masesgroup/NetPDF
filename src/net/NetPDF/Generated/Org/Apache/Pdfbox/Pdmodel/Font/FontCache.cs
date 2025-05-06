@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
 {
     #region FontCache declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontCache.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontCache.html"/>
     /// </summary>
     public partial class FontCache : MASES.JCOBridge.C2JBridge.JVMBridgeBase<FontCache>
     {
@@ -91,7 +91,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontCache.html#getFont-org.apache.pdfbox.pdmodel.font.FontInfo-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontCache.html#getFont-org.apache.pdfbox.pdmodel.font.FontInfo-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Font.FontInfo"/></param>
         /// <returns><see cref="Org.Apache.Fontbox.FontBoxFont"/></returns>
@@ -100,7 +100,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
             return IExecuteWithSignature<Org.Apache.Fontbox.FontBoxFont>("getFont", "(Lorg/apache/pdfbox/pdmodel/font/FontInfo;)Lorg/apache/fontbox/FontBoxFont;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontCache.html#addFont-org.apache.pdfbox.pdmodel.font.FontInfo-org.apache.fontbox.FontBoxFont-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontCache.html#addFont-org.apache.pdfbox.pdmodel.font.FontInfo-org.apache.fontbox.FontBoxFont-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Font.FontInfo"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Fontbox.FontBoxFont"/></param>

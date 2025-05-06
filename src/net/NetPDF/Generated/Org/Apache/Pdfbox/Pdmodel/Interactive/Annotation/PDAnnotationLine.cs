@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
 {
     #region PDAnnotationLine declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html"/>
     /// </summary>
     public partial class PDAnnotationLine : Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotationMarkup
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationLine(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationLine(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDAnnotationLine(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -91,79 +91,79 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#IT_LINE_ARROW"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#IT_LINE_ARROW"/>
         /// </summary>
         public static Java.Lang.String IT_LINE_ARROW { get { if (!_IT_LINE_ARROWReady) { _IT_LINE_ARROWContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "IT_LINE_ARROW"); _IT_LINE_ARROWReady = true; } return _IT_LINE_ARROWContent; } }
         private static Java.Lang.String _IT_LINE_ARROWContent = default;
         private static bool _IT_LINE_ARROWReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#IT_LINE_DIMENSION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#IT_LINE_DIMENSION"/>
         /// </summary>
         public static Java.Lang.String IT_LINE_DIMENSION { get { if (!_IT_LINE_DIMENSIONReady) { _IT_LINE_DIMENSIONContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "IT_LINE_DIMENSION"); _IT_LINE_DIMENSIONReady = true; } return _IT_LINE_DIMENSIONContent; } }
         private static Java.Lang.String _IT_LINE_DIMENSIONContent = default;
         private static bool _IT_LINE_DIMENSIONReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#LE_BUTT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#LE_BUTT"/>
         /// </summary>
         public static Java.Lang.String LE_BUTT { get { if (!_LE_BUTTReady) { _LE_BUTTContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "LE_BUTT"); _LE_BUTTReady = true; } return _LE_BUTTContent; } }
         private static Java.Lang.String _LE_BUTTContent = default;
         private static bool _LE_BUTTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#LE_CIRCLE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#LE_CIRCLE"/>
         /// </summary>
         public static Java.Lang.String LE_CIRCLE { get { if (!_LE_CIRCLEReady) { _LE_CIRCLEContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "LE_CIRCLE"); _LE_CIRCLEReady = true; } return _LE_CIRCLEContent; } }
         private static Java.Lang.String _LE_CIRCLEContent = default;
         private static bool _LE_CIRCLEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#LE_CLOSED_ARROW"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#LE_CLOSED_ARROW"/>
         /// </summary>
         public static Java.Lang.String LE_CLOSED_ARROW { get { if (!_LE_CLOSED_ARROWReady) { _LE_CLOSED_ARROWContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "LE_CLOSED_ARROW"); _LE_CLOSED_ARROWReady = true; } return _LE_CLOSED_ARROWContent; } }
         private static Java.Lang.String _LE_CLOSED_ARROWContent = default;
         private static bool _LE_CLOSED_ARROWReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#LE_DIAMOND"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#LE_DIAMOND"/>
         /// </summary>
         public static Java.Lang.String LE_DIAMOND { get { if (!_LE_DIAMONDReady) { _LE_DIAMONDContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "LE_DIAMOND"); _LE_DIAMONDReady = true; } return _LE_DIAMONDContent; } }
         private static Java.Lang.String _LE_DIAMONDContent = default;
         private static bool _LE_DIAMONDReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#LE_NONE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#LE_NONE"/>
         /// </summary>
         public static Java.Lang.String LE_NONE { get { if (!_LE_NONEReady) { _LE_NONEContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "LE_NONE"); _LE_NONEReady = true; } return _LE_NONEContent; } }
         private static Java.Lang.String _LE_NONEContent = default;
         private static bool _LE_NONEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#LE_OPEN_ARROW"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#LE_OPEN_ARROW"/>
         /// </summary>
         public static Java.Lang.String LE_OPEN_ARROW { get { if (!_LE_OPEN_ARROWReady) { _LE_OPEN_ARROWContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "LE_OPEN_ARROW"); _LE_OPEN_ARROWReady = true; } return _LE_OPEN_ARROWContent; } }
         private static Java.Lang.String _LE_OPEN_ARROWContent = default;
         private static bool _LE_OPEN_ARROWReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#LE_R_CLOSED_ARROW"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#LE_R_CLOSED_ARROW"/>
         /// </summary>
         public static Java.Lang.String LE_R_CLOSED_ARROW { get { if (!_LE_R_CLOSED_ARROWReady) { _LE_R_CLOSED_ARROWContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "LE_R_CLOSED_ARROW"); _LE_R_CLOSED_ARROWReady = true; } return _LE_R_CLOSED_ARROWContent; } }
         private static Java.Lang.String _LE_R_CLOSED_ARROWContent = default;
         private static bool _LE_R_CLOSED_ARROWReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#LE_R_OPEN_ARROW"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#LE_R_OPEN_ARROW"/>
         /// </summary>
         public static Java.Lang.String LE_R_OPEN_ARROW { get { if (!_LE_R_OPEN_ARROWReady) { _LE_R_OPEN_ARROWContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "LE_R_OPEN_ARROW"); _LE_R_OPEN_ARROWReady = true; } return _LE_R_OPEN_ARROWContent; } }
         private static Java.Lang.String _LE_R_OPEN_ARROWContent = default;
         private static bool _LE_R_OPEN_ARROWReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#LE_SLASH"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#LE_SLASH"/>
         /// </summary>
         public static Java.Lang.String LE_SLASH { get { if (!_LE_SLASHReady) { _LE_SLASHContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "LE_SLASH"); _LE_SLASHReady = true; } return _LE_SLASHContent; } }
         private static Java.Lang.String _LE_SLASHContent = default;
         private static bool _LE_SLASHReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#LE_SQUARE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#LE_SQUARE"/>
         /// </summary>
         public static Java.Lang.String LE_SQUARE { get { if (!_LE_SQUAREReady) { _LE_SQUAREContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "LE_SQUARE"); _LE_SQUAREReady = true; } return _LE_SQUAREContent; } }
         private static Java.Lang.String _LE_SQUAREContent = default;
         private static bool _LE_SQUAREReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#SUB_TYPE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#SUB_TYPE"/>
         /// </summary>
         public static Java.Lang.String SUB_TYPE { get { if (!_SUB_TYPEReady) { _SUB_TYPEContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "SUB_TYPE"); _SUB_TYPEReady = true; } return _SUB_TYPEContent; } }
         private static Java.Lang.String _SUB_TYPEContent = default;
@@ -177,77 +177,77 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#getCaptionHorizontalOffset--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#setCaptionHorizontalOffset-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#getCaptionHorizontalOffset--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#setCaptionHorizontalOffset-float-"/>
         /// </summary>
         public float CaptionHorizontalOffset
         {
             get { return IExecuteWithSignature<float>("getCaptionHorizontalOffset", "()F"); } set { IExecuteWithSignature("setCaptionHorizontalOffset", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#getCaptionPositioning--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#setCaptionPositioning-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#getCaptionPositioning--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#setCaptionPositioning-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String CaptionPositioning
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getCaptionPositioning", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setCaptionPositioning", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#getCaptionVerticalOffset--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#setCaptionVerticalOffset-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#getCaptionVerticalOffset--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#setCaptionVerticalOffset-float-"/>
         /// </summary>
         public float CaptionVerticalOffset
         {
             get { return IExecuteWithSignature<float>("getCaptionVerticalOffset", "()F"); } set { IExecuteWithSignature("setCaptionVerticalOffset", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#getEndPointEndingStyle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#setEndPointEndingStyle-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#getEndPointEndingStyle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#setEndPointEndingStyle-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String EndPointEndingStyle
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getEndPointEndingStyle", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setEndPointEndingStyle", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#getInteriorColor--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#setInteriorColor-org.apache.pdfbox.pdmodel.graphics.color.PDColor-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#getInteriorColor--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#setInteriorColor-org.apache.pdfbox.pdmodel.graphics.color.PDColor-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColor InteriorColor
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColor>("getInteriorColor", "()Lorg/apache/pdfbox/pdmodel/graphics/color/PDColor;"); } set { IExecuteWithSignature("setInteriorColor", "(Lorg/apache/pdfbox/pdmodel/graphics/color/PDColor;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#getLeaderLineExtensionLength--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#setLeaderLineExtensionLength-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#getLeaderLineExtensionLength--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#setLeaderLineExtensionLength-float-"/>
         /// </summary>
         public float LeaderLineExtensionLength
         {
             get { return IExecuteWithSignature<float>("getLeaderLineExtensionLength", "()F"); } set { IExecuteWithSignature("setLeaderLineExtensionLength", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#getLeaderLineLength--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#setLeaderLineLength-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#getLeaderLineLength--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#setLeaderLineLength-float-"/>
         /// </summary>
         public float LeaderLineLength
         {
             get { return IExecuteWithSignature<float>("getLeaderLineLength", "()F"); } set { IExecuteWithSignature("setLeaderLineLength", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#getLeaderLineOffsetLength--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#setLeaderLineOffsetLength-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#getLeaderLineOffsetLength--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#setLeaderLineOffsetLength-float-"/>
         /// </summary>
         public float LeaderLineOffsetLength
         {
             get { return IExecuteWithSignature<float>("getLeaderLineOffsetLength", "()F"); } set { IExecuteWithSignature("setLeaderLineOffsetLength", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#getLine--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#setLine-float[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#getLine--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#setLine-float[]-"/>
         /// </summary>
         public float[] Line
         {
             get { return IExecuteWithSignatureArray<float>("getLine", "()[F"); } set { IExecuteWithSignature("setLine", "([F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#getStartPointEndingStyle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#setStartPointEndingStyle-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#getStartPointEndingStyle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#setStartPointEndingStyle-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String StartPointEndingStyle
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getStartPointEndingStyle", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setStartPointEndingStyle", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#hasCaption--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#hasCaption--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool HasCaption()
@@ -255,7 +255,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
             return IExecuteWithSignature<bool>("hasCaption", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#setCaption-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#setCaption-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetCaption(bool arg0)
@@ -263,7 +263,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
             IExecuteWithSignature("setCaption", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#setCustomAppearanceHandler-org.apache.pdfbox.pdmodel.interactive.annotation.handlers.PDAppearanceHandler-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationLine.html#setCustomAppearanceHandler-org.apache.pdfbox.pdmodel.interactive.annotation.handlers.PDAppearanceHandler-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Handlers.PDAppearanceHandler"/></param>
         public void SetCustomAppearanceHandler(Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Handlers.PDAppearanceHandler arg0)

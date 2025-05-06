@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Contentstream
 {
     #region PDContentStream declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/PDContentStream.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/PDContentStream.html"/>
     /// </summary>
     public partial class PDContentStream : MASES.JCOBridge.C2JBridge.JVMBridgeBase<PDContentStream>
     {
@@ -74,7 +74,7 @@ namespace Org.Apache.Pdfbox.Contentstream
 
     #region IPDContentStream
     /// <summary>
-    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/PDContentStream.html"/>
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/PDContentStream.html"/>
     /// </summary>
     public partial interface IPDContentStream
     {
@@ -111,42 +111,42 @@ namespace Org.Apache.Pdfbox.Contentstream
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/PDContentStream.html#getBBox--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/PDContentStream.html#getBBox--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.PDRectangle BBox
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.PDRectangle>("getBBox", "()Lorg/apache/pdfbox/pdmodel/common/PDRectangle;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/PDContentStream.html#getContents--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/PDContentStream.html#getContents--"/> 
         /// </summary>
         public Java.Io.InputStream Contents
         {
             get { return IExecuteWithSignature<Java.Io.InputStream>("getContents", "()Ljava/io/InputStream;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/PDContentStream.html#getContentsForRandomAccess--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/PDContentStream.html#getContentsForRandomAccess--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Io.RandomAccessRead ContentsForRandomAccess
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Io.RandomAccessRead>("getContentsForRandomAccess", "()Lorg/apache/pdfbox/io/RandomAccessRead;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/PDContentStream.html#getContentsForStreamParsing--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/PDContentStream.html#getContentsForStreamParsing--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Io.RandomAccessRead ContentsForStreamParsing
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Io.RandomAccessRead>("getContentsForStreamParsing", "()Lorg/apache/pdfbox/io/RandomAccessRead;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/PDContentStream.html#getMatrix--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/PDContentStream.html#getMatrix--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Util.Matrix Matrix
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Util.Matrix>("getMatrix", "()Lorg/apache/pdfbox/util/Matrix;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/PDContentStream.html#getResources--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/PDContentStream.html#getResources--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.PDResources Resources
         {

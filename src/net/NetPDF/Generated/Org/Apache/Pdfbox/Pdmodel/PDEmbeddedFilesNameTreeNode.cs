@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
 {
     #region PDEmbeddedFilesNameTreeNode declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDEmbeddedFilesNameTreeNode.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDEmbeddedFilesNameTreeNode.html"/>
     /// </summary>
     public partial class PDEmbeddedFilesNameTreeNode : Org.Apache.Pdfbox.Pdmodel.Common.PDNameTreeNode<Org.Apache.Pdfbox.Pdmodel.Common.Filespecification.PDComplexFileSpecification>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PDEmbeddedFilesNameTreeNode.html#org.apache.pdfbox.pdmodel.PDEmbeddedFilesNameTreeNode(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDEmbeddedFilesNameTreeNode.html#org.apache.pdfbox.pdmodel.PDEmbeddedFilesNameTreeNode(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDEmbeddedFilesNameTreeNode(Org.Apache.Pdfbox.Cos.COSDictionary arg0)

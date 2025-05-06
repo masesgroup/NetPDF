@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf
 {
     #region GlyphTable declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyphTable.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyphTable.html"/>
     /// </summary>
     public partial class GlyphTable : Org.Apache.Fontbox.Ttf.TTFTable
     {
@@ -83,7 +83,7 @@ namespace Org.Apache.Fontbox.Ttf
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyphTable.html#TAG"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyphTable.html#TAG"/>
         /// </summary>
         public static Java.Lang.String TAG { get { if (!_TAGReady) { _TAGContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "TAG"); _TAGReady = true; } return _TAGContent; } }
         private static Java.Lang.String _TAGContent = default;
@@ -97,7 +97,7 @@ namespace Org.Apache.Fontbox.Ttf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyphTable.html#getGlyph-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyphTable.html#getGlyph-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="Org.Apache.Fontbox.Ttf.GlyphData"/></returns>
@@ -107,7 +107,7 @@ namespace Org.Apache.Fontbox.Ttf
             return IExecuteWithSignature<Org.Apache.Fontbox.Ttf.GlyphData>("getGlyph", "(I)Lorg/apache/fontbox/ttf/GlyphData;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyphTable.html#setGlyphs-org.apache.fontbox.ttf.GlyphData[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyphTable.html#setGlyphs-org.apache.fontbox.ttf.GlyphData[]-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Fontbox.Ttf.GlyphData"/></param>
         public void SetGlyphs(Org.Apache.Fontbox.Ttf.GlyphData[] arg0)

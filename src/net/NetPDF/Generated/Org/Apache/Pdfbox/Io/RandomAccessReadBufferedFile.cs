@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Io
 {
     #region RandomAccessReadBufferedFile declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/RandomAccessReadBufferedFile.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/RandomAccessReadBufferedFile.html"/>
     /// </summary>
     public partial class RandomAccessReadBufferedFile : Org.Apache.Pdfbox.Io.RandomAccessRead
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Io
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/RandomAccessReadBufferedFile.html#org.apache.pdfbox.io.RandomAccessReadBufferedFile(java.io.File)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/RandomAccessReadBufferedFile.html#org.apache.pdfbox.io.RandomAccessReadBufferedFile(java.io.File)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.File"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -84,7 +84,7 @@ namespace Org.Apache.Pdfbox.Io
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/RandomAccessReadBufferedFile.html#org.apache.pdfbox.io.RandomAccessReadBufferedFile(java.lang.String)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/RandomAccessReadBufferedFile.html#org.apache.pdfbox.io.RandomAccessReadBufferedFile(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -93,7 +93,7 @@ namespace Org.Apache.Pdfbox.Io
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/RandomAccessReadBufferedFile.html#org.apache.pdfbox.io.RandomAccessReadBufferedFile(java.nio.file.Path)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/RandomAccessReadBufferedFile.html#org.apache.pdfbox.io.RandomAccessReadBufferedFile(java.nio.file.Path)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Nio.File.Path"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -118,14 +118,14 @@ namespace Org.Apache.Pdfbox.Io
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/RandomAccessReadBufferedFile.html#getPosition--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/RandomAccessReadBufferedFile.html#getPosition--"/> 
         /// </summary>
         public long Position
         {
             get { return IExecuteWithSignature<long>("getPosition", "()J"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/RandomAccessReadBufferedFile.html#isClosed--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/RandomAccessReadBufferedFile.html#isClosed--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsClosed()
@@ -133,7 +133,7 @@ namespace Org.Apache.Pdfbox.Io
             return IExecuteWithSignature<bool>("isClosed", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/RandomAccessReadBufferedFile.html#isEOF--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/RandomAccessReadBufferedFile.html#isEOF--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         /// <exception cref="Java.Io.IOException"/>
@@ -142,7 +142,7 @@ namespace Org.Apache.Pdfbox.Io
             return IExecuteWithSignature<bool>("isEOF", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/RandomAccessReadBufferedFile.html#read--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/RandomAccessReadBufferedFile.html#read--"/>
         /// </summary>
         /// <returns><see cref="int"/></returns>
         /// <exception cref="Java.Io.IOException"/>
@@ -151,7 +151,7 @@ namespace Org.Apache.Pdfbox.Io
             return IExecuteWithSignature<int>("read", "()I");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/RandomAccessReadBufferedFile.html#read-byte[]-int-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/RandomAccessReadBufferedFile.html#read-byte[]-int-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="byte"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -163,7 +163,7 @@ namespace Org.Apache.Pdfbox.Io
             return IExecuteWithSignature<int>("read", "([BII)I", arg0, arg1, arg2);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/RandomAccessReadBufferedFile.html#length--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/RandomAccessReadBufferedFile.html#length--"/>
         /// </summary>
         /// <returns><see cref="long"/></returns>
         /// <exception cref="Java.Io.IOException"/>
@@ -172,7 +172,7 @@ namespace Org.Apache.Pdfbox.Io
             return IExecuteWithSignature<long>("length", "()J");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/RandomAccessReadBufferedFile.html#createView-long-long-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/RandomAccessReadBufferedFile.html#createView-long-long-"/>
         /// </summary>
         /// <param name="arg0"><see cref="long"/></param>
         /// <param name="arg1"><see cref="long"/></param>
@@ -183,7 +183,7 @@ namespace Org.Apache.Pdfbox.Io
             return IExecuteWithSignature<Org.Apache.Pdfbox.Io.RandomAccessReadView>("createView", "(JJ)Lorg/apache/pdfbox/io/RandomAccessReadView;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/RandomAccessReadBufferedFile.html#close--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/RandomAccessReadBufferedFile.html#close--"/>
         /// </summary>
         /// <exception cref="Java.Io.IOException"/>
         public void Close()
@@ -191,7 +191,7 @@ namespace Org.Apache.Pdfbox.Io
             IExecuteWithSignature("close", "()V");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/RandomAccessReadBufferedFile.html#seek-long-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/RandomAccessReadBufferedFile.html#seek-long-"/>
         /// </summary>
         /// <param name="arg0"><see cref="long"/></param>
         /// <exception cref="Java.Io.IOException"/>

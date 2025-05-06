@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
 {
     #region PDAnnotationUnknown declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationUnknown.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationUnknown.html"/>
     /// </summary>
     public partial class PDAnnotationUnknown : Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotation
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationUnknown.html#org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationUnknown(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationUnknown.html#org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationUnknown(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDAnnotationUnknown(Org.Apache.Pdfbox.Cos.COSDictionary arg0)

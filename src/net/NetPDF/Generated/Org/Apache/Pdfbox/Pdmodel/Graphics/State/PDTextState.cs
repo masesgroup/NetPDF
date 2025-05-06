@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
 {
     #region PDTextState declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html"/>
     /// </summary>
     public partial class PDTextState : Java.Lang.Cloneable
     {
@@ -91,70 +91,70 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#getCharacterSpacing--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#setCharacterSpacing-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#getCharacterSpacing--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#setCharacterSpacing-float-"/>
         /// </summary>
         public float CharacterSpacing
         {
             get { return IExecuteWithSignature<float>("getCharacterSpacing", "()F"); } set { IExecuteWithSignature("setCharacterSpacing", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#getFont--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#setFont-org.apache.pdfbox.pdmodel.font.PDFont-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#getFont--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#setFont-org.apache.pdfbox.pdmodel.font.PDFont-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Font.PDFont Font
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Font.PDFont>("getFont", "()Lorg/apache/pdfbox/pdmodel/font/PDFont;"); } set { IExecuteWithSignature("setFont", "(Lorg/apache/pdfbox/pdmodel/font/PDFont;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#getFontSize--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#setFontSize-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#getFontSize--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#setFontSize-float-"/>
         /// </summary>
         public float FontSize
         {
             get { return IExecuteWithSignature<float>("getFontSize", "()F"); } set { IExecuteWithSignature("setFontSize", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#getHorizontalScaling--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#setHorizontalScaling-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#getHorizontalScaling--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#setHorizontalScaling-float-"/>
         /// </summary>
         public float HorizontalScaling
         {
             get { return IExecuteWithSignature<float>("getHorizontalScaling", "()F"); } set { IExecuteWithSignature("setHorizontalScaling", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#getKnockoutFlag--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#setKnockoutFlag-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#getKnockoutFlag--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#setKnockoutFlag-boolean-"/>
         /// </summary>
         public bool KnockoutFlag
         {
             get { return IExecuteWithSignature<bool>("getKnockoutFlag", "()Z"); } set { IExecuteWithSignature("setKnockoutFlag", "(Z)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#getLeading--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#setLeading-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#getLeading--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#setLeading-float-"/>
         /// </summary>
         public float Leading
         {
             get { return IExecuteWithSignature<float>("getLeading", "()F"); } set { IExecuteWithSignature("setLeading", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#getRenderingMode--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#setRenderingMode-org.apache.pdfbox.pdmodel.graphics.state.RenderingMode-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#getRenderingMode--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#setRenderingMode-org.apache.pdfbox.pdmodel.graphics.state.RenderingMode-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.State.RenderingMode RenderingMode
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.State.RenderingMode>("getRenderingMode", "()Lorg/apache/pdfbox/pdmodel/graphics/state/RenderingMode;"); } set { IExecuteWithSignature("setRenderingMode", "(Lorg/apache/pdfbox/pdmodel/graphics/state/RenderingMode;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#getRise--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#setRise-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#getRise--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#setRise-float-"/>
         /// </summary>
         public float Rise
         {
             get { return IExecuteWithSignature<float>("getRise", "()F"); } set { IExecuteWithSignature("setRise", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#getWordSpacing--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#setWordSpacing-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#getWordSpacing--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#setWordSpacing-float-"/>
         /// </summary>
         public float WordSpacing
         {
             get { return IExecuteWithSignature<float>("getWordSpacing", "()F"); } set { IExecuteWithSignature("setWordSpacing", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#clone--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDTextState.html#clone--"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDTextState"/></returns>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDTextState Clone()

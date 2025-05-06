@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Cmap
 {
     #region CMapParser declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMapParser.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMapParser.html"/>
     /// </summary>
     public partial class CMapParser : MASES.JCOBridge.C2JBridge.JVMBridgeBase<CMapParser>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Fontbox.Cmap
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMapParser.html#org.apache.fontbox.cmap.CMapParser(boolean)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMapParser.html#org.apache.fontbox.cmap.CMapParser(boolean)"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public CMapParser(bool arg0)
@@ -99,7 +99,7 @@ namespace Org.Apache.Fontbox.Cmap
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMapParser.html#parse-org.apache.pdfbox.io.RandomAccessRead-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMapParser.html#parse-org.apache.pdfbox.io.RandomAccessRead-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Io.RandomAccessRead"/></param>
         /// <returns><see cref="Org.Apache.Fontbox.Cmap.CMap"/></returns>
@@ -109,7 +109,7 @@ namespace Org.Apache.Fontbox.Cmap
             return IExecuteWithSignature<Org.Apache.Fontbox.Cmap.CMap>("parse", "(Lorg/apache/pdfbox/io/RandomAccessRead;)Lorg/apache/fontbox/cmap/CMap;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMapParser.html#parsePredefined-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMapParser.html#parsePredefined-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Fontbox.Cmap.CMap"/></returns>

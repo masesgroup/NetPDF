@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
 {
     #region FDFAnnotationTextMarkup declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationTextMarkup.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationTextMarkup.html"/>
     /// </summary>
     public partial class FDFAnnotationTextMarkup : Org.Apache.Pdfbox.Pdmodel.Fdf.FDFAnnotation
     {
@@ -77,7 +77,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationTextMarkup.html#org.apache.pdfbox.pdmodel.fdf.FDFAnnotationTextMarkup(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationTextMarkup.html#org.apache.pdfbox.pdmodel.fdf.FDFAnnotationTextMarkup(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public FDFAnnotationTextMarkup(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -85,7 +85,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationTextMarkup.html#org.apache.pdfbox.pdmodel.fdf.FDFAnnotationTextMarkup(org.w3c.dom.Element)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationTextMarkup.html#org.apache.pdfbox.pdmodel.fdf.FDFAnnotationTextMarkup(org.w3c.dom.Element)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.W3c.Dom.Element"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -110,7 +110,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationTextMarkup.html#getCoords--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationTextMarkup.html#setCoords-float[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationTextMarkup.html#getCoords--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationTextMarkup.html#setCoords-float[]-"/>
         /// </summary>
         public float[] Coords
         {

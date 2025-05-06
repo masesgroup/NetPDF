@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
 {
     #region PDActionFactory declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionFactory.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionFactory.html"/>
     /// </summary>
     public partial class PDActionFactory : MASES.JCOBridge.C2JBridge.JVMBridgeBase<PDActionFactory>
     {
@@ -87,7 +87,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionFactory.html#createAction-org.apache.pdfbox.cos.COSDictionary-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionFactory.html#createAction-org.apache.pdfbox.cos.COSDictionary-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Action.PDAction"/></returns>

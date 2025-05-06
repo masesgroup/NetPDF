@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
 {
     #region PDViewerPreferences declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html"/>
     /// </summary>
     public partial class PDViewerPreferences : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -68,7 +68,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
         // TODO: complete the class
         #region BOUNDARY declaration
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.BOUNDARY.html"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.BOUNDARY.html"/>
         /// </summary>
         public partial class BOUNDARY : Java.Lang.Enum<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.BOUNDARY>
         {
@@ -113,7 +113,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
 
         #region DUPLEX declaration
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.DUPLEX.html"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.DUPLEX.html"/>
         /// </summary>
         public partial class DUPLEX : Java.Lang.Enum<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.DUPLEX>
         {
@@ -158,7 +158,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
 
         #region NON_FULL_SCREEN_PAGE_MODE declaration
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE.html"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE.html"/>
         /// </summary>
         public partial class NON_FULL_SCREEN_PAGE_MODE : Java.Lang.Enum<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE>
         {
@@ -203,7 +203,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
 
         #region PRINT_SCALING declaration
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.PRINT_SCALING.html"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.PRINT_SCALING.html"/>
         /// </summary>
         public partial class PRINT_SCALING : Java.Lang.Enum<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.PRINT_SCALING>
         {
@@ -248,7 +248,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
 
         #region READING_DIRECTION declaration
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.READING_DIRECTION.html"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.READING_DIRECTION.html"/>
         /// </summary>
         public partial class READING_DIRECTION : Java.Lang.Enum<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.READING_DIRECTION>
         {
@@ -300,7 +300,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDViewerPreferences(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -324,70 +324,70 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getDuplex--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setDuplex-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.DUPLEX-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getDuplex--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setDuplex-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.DUPLEX-"/>
         /// </summary>
         public Java.Lang.String Duplex
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getDuplex", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setDuplex", "(Lorg/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences$DUPLEX;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getNonFullScreenPageMode--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setNonFullScreenPageMode-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getNonFullScreenPageMode--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setNonFullScreenPageMode-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE-"/>
         /// </summary>
         public Java.Lang.String NonFullScreenPageMode
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getNonFullScreenPageMode", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setNonFullScreenPageMode", "(Lorg/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences$NON_FULL_SCREEN_PAGE_MODE;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getPrintArea--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setPrintArea-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.BOUNDARY-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getPrintArea--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setPrintArea-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.BOUNDARY-"/>
         /// </summary>
         public Java.Lang.String PrintArea
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getPrintArea", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setPrintArea", "(Lorg/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences$BOUNDARY;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getPrintClip--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setPrintClip-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.BOUNDARY-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getPrintClip--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setPrintClip-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.BOUNDARY-"/>
         /// </summary>
         public Java.Lang.String PrintClip
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getPrintClip", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setPrintClip", "(Lorg/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences$BOUNDARY;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getPrintScaling--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setPrintScaling-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.PRINT_SCALING-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getPrintScaling--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setPrintScaling-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.PRINT_SCALING-"/>
         /// </summary>
         public Java.Lang.String PrintScaling
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getPrintScaling", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setPrintScaling", "(Lorg/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences$PRINT_SCALING;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getReadingDirection--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setReadingDirection-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.READING_DIRECTION-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getReadingDirection--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setReadingDirection-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.READING_DIRECTION-"/>
         /// </summary>
         public Java.Lang.String ReadingDirection
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getReadingDirection", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setReadingDirection", "(Lorg/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences$READING_DIRECTION;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getViewArea--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setViewArea-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.BOUNDARY-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getViewArea--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setViewArea-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.BOUNDARY-"/>
         /// </summary>
         public Java.Lang.String ViewArea
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getViewArea", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setViewArea", "(Lorg/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences$BOUNDARY;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getViewClip--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setViewClip-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.BOUNDARY-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getViewClip--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setViewClip-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.BOUNDARY-"/>
         /// </summary>
         public Java.Lang.String ViewClip
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getViewClip", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setViewClip", "(Lorg/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences$BOUNDARY;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#centerWindow--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#centerWindow--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool CenterWindow()
@@ -395,7 +395,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
             return IExecuteWithSignature<bool>("centerWindow", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#displayDocTitle--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#displayDocTitle--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool DisplayDocTitle()
@@ -403,7 +403,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
             return IExecuteWithSignature<bool>("displayDocTitle", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#fitWindow--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#fitWindow--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool FitWindow()
@@ -411,7 +411,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
             return IExecuteWithSignature<bool>("fitWindow", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#hideMenubar--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#hideMenubar--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool HideMenubar()
@@ -419,7 +419,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
             return IExecuteWithSignature<bool>("hideMenubar", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#hideToolbar--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#hideToolbar--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool HideToolbar()
@@ -427,7 +427,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
             return IExecuteWithSignature<bool>("hideToolbar", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#hideWindowUI--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#hideWindowUI--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool HideWindowUI()
@@ -435,7 +435,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
             return IExecuteWithSignature<bool>("hideWindowUI", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setCenterWindow-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setCenterWindow-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetCenterWindow(bool arg0)
@@ -443,7 +443,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
             IExecuteWithSignature("setCenterWindow", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setDisplayDocTitle-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setDisplayDocTitle-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetDisplayDocTitle(bool arg0)
@@ -451,7 +451,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
             IExecuteWithSignature("setDisplayDocTitle", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setFitWindow-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setFitWindow-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetFitWindow(bool arg0)
@@ -459,7 +459,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
             IExecuteWithSignature("setFitWindow", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setHideMenubar-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setHideMenubar-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetHideMenubar(bool arg0)
@@ -467,7 +467,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
             IExecuteWithSignature("setHideMenubar", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setHideToolbar-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setHideToolbar-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetHideToolbar(bool arg0)
@@ -475,7 +475,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
             IExecuteWithSignature("setHideToolbar", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setHideWindowUI-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setHideWindowUI-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetHideWindowUI(bool arg0)
@@ -499,31 +499,31 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
 
             #region Fields
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.BOUNDARY.html#ArtBox"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.BOUNDARY.html#ArtBox"/>
             /// </summary>
             public static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.BOUNDARY ArtBox { get { if (!_ArtBoxReady) { _ArtBoxContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.BOUNDARY>(LocalBridgeClazz, "ArtBox"); _ArtBoxReady = true; } return _ArtBoxContent; } }
             private static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.BOUNDARY _ArtBoxContent = default;
             private static bool _ArtBoxReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.BOUNDARY.html#BleedBox"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.BOUNDARY.html#BleedBox"/>
             /// </summary>
             public static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.BOUNDARY BleedBox { get { if (!_BleedBoxReady) { _BleedBoxContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.BOUNDARY>(LocalBridgeClazz, "BleedBox"); _BleedBoxReady = true; } return _BleedBoxContent; } }
             private static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.BOUNDARY _BleedBoxContent = default;
             private static bool _BleedBoxReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.BOUNDARY.html#CropBox"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.BOUNDARY.html#CropBox"/>
             /// </summary>
             public static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.BOUNDARY CropBox { get { if (!_CropBoxReady) { _CropBoxContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.BOUNDARY>(LocalBridgeClazz, "CropBox"); _CropBoxReady = true; } return _CropBoxContent; } }
             private static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.BOUNDARY _CropBoxContent = default;
             private static bool _CropBoxReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.BOUNDARY.html#MediaBox"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.BOUNDARY.html#MediaBox"/>
             /// </summary>
             public static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.BOUNDARY MediaBox { get { if (!_MediaBoxReady) { _MediaBoxContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.BOUNDARY>(LocalBridgeClazz, "MediaBox"); _MediaBoxReady = true; } return _MediaBoxContent; } }
             private static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.BOUNDARY _MediaBoxContent = default;
             private static bool _MediaBoxReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.BOUNDARY.html#TrimBox"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.BOUNDARY.html#TrimBox"/>
             /// </summary>
             public static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.BOUNDARY TrimBox { get { if (!_TrimBoxReady) { _TrimBoxContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.BOUNDARY>(LocalBridgeClazz, "TrimBox"); _TrimBoxReady = true; } return _TrimBoxContent; } }
             private static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.BOUNDARY _TrimBoxContent = default;
@@ -533,7 +533,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
 
             #region Static methods
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.BOUNDARY.html#valueOf-java.lang.String-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.BOUNDARY.html#valueOf-java.lang.String-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.String"/></param>
             /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.BOUNDARY"/></returns>
@@ -542,7 +542,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
                 return SExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.BOUNDARY>(LocalBridgeClazz, "valueOf", "(Ljava/lang/String;)Lorg/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences$BOUNDARY;", arg0);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.BOUNDARY.html#values--"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.BOUNDARY.html#values--"/>
             /// </summary>
             /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.BOUNDARY"/></returns>
             public static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.BOUNDARY[] Values()
@@ -577,19 +577,19 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
 
             #region Fields
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.DUPLEX.html#DuplexFlipLongEdge"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.DUPLEX.html#DuplexFlipLongEdge"/>
             /// </summary>
             public static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.DUPLEX DuplexFlipLongEdge { get { if (!_DuplexFlipLongEdgeReady) { _DuplexFlipLongEdgeContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.DUPLEX>(LocalBridgeClazz, "DuplexFlipLongEdge"); _DuplexFlipLongEdgeReady = true; } return _DuplexFlipLongEdgeContent; } }
             private static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.DUPLEX _DuplexFlipLongEdgeContent = default;
             private static bool _DuplexFlipLongEdgeReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.DUPLEX.html#DuplexFlipShortEdge"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.DUPLEX.html#DuplexFlipShortEdge"/>
             /// </summary>
             public static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.DUPLEX DuplexFlipShortEdge { get { if (!_DuplexFlipShortEdgeReady) { _DuplexFlipShortEdgeContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.DUPLEX>(LocalBridgeClazz, "DuplexFlipShortEdge"); _DuplexFlipShortEdgeReady = true; } return _DuplexFlipShortEdgeContent; } }
             private static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.DUPLEX _DuplexFlipShortEdgeContent = default;
             private static bool _DuplexFlipShortEdgeReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.DUPLEX.html#Simplex"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.DUPLEX.html#Simplex"/>
             /// </summary>
             public static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.DUPLEX Simplex { get { if (!_SimplexReady) { _SimplexContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.DUPLEX>(LocalBridgeClazz, "Simplex"); _SimplexReady = true; } return _SimplexContent; } }
             private static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.DUPLEX _SimplexContent = default;
@@ -599,7 +599,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
 
             #region Static methods
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.DUPLEX.html#valueOf-java.lang.String-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.DUPLEX.html#valueOf-java.lang.String-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.String"/></param>
             /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.DUPLEX"/></returns>
@@ -608,7 +608,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
                 return SExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.DUPLEX>(LocalBridgeClazz, "valueOf", "(Ljava/lang/String;)Lorg/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences$DUPLEX;", arg0);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.DUPLEX.html#values--"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.DUPLEX.html#values--"/>
             /// </summary>
             /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.DUPLEX"/></returns>
             public static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.DUPLEX[] Values()
@@ -643,25 +643,25 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
 
             #region Fields
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE.html#UseNone"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE.html#UseNone"/>
             /// </summary>
             public static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE UseNone { get { if (!_UseNoneReady) { _UseNoneContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE>(LocalBridgeClazz, "UseNone"); _UseNoneReady = true; } return _UseNoneContent; } }
             private static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE _UseNoneContent = default;
             private static bool _UseNoneReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE.html#UseOC"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE.html#UseOC"/>
             /// </summary>
             public static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE UseOC { get { if (!_UseOCReady) { _UseOCContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE>(LocalBridgeClazz, "UseOC"); _UseOCReady = true; } return _UseOCContent; } }
             private static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE _UseOCContent = default;
             private static bool _UseOCReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE.html#UseOutlines"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE.html#UseOutlines"/>
             /// </summary>
             public static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE UseOutlines { get { if (!_UseOutlinesReady) { _UseOutlinesContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE>(LocalBridgeClazz, "UseOutlines"); _UseOutlinesReady = true; } return _UseOutlinesContent; } }
             private static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE _UseOutlinesContent = default;
             private static bool _UseOutlinesReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE.html#UseThumbs"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE.html#UseThumbs"/>
             /// </summary>
             public static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE UseThumbs { get { if (!_UseThumbsReady) { _UseThumbsContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE>(LocalBridgeClazz, "UseThumbs"); _UseThumbsReady = true; } return _UseThumbsContent; } }
             private static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE _UseThumbsContent = default;
@@ -671,7 +671,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
 
             #region Static methods
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE.html#valueOf-java.lang.String-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE.html#valueOf-java.lang.String-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.String"/></param>
             /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE"/></returns>
@@ -680,7 +680,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
                 return SExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE>(LocalBridgeClazz, "valueOf", "(Ljava/lang/String;)Lorg/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences$NON_FULL_SCREEN_PAGE_MODE;", arg0);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE.html#values--"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE.html#values--"/>
             /// </summary>
             /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE"/></returns>
             public static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE[] Values()
@@ -715,13 +715,13 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
 
             #region Fields
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.PRINT_SCALING.html#AppDefault"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.PRINT_SCALING.html#AppDefault"/>
             /// </summary>
             public static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.PRINT_SCALING AppDefault { get { if (!_AppDefaultReady) { _AppDefaultContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.PRINT_SCALING>(LocalBridgeClazz, "AppDefault"); _AppDefaultReady = true; } return _AppDefaultContent; } }
             private static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.PRINT_SCALING _AppDefaultContent = default;
             private static bool _AppDefaultReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.PRINT_SCALING.html#None"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.PRINT_SCALING.html#None"/>
             /// </summary>
             public static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.PRINT_SCALING None { get { if (!_NoneReady) { _NoneContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.PRINT_SCALING>(LocalBridgeClazz, "None"); _NoneReady = true; } return _NoneContent; } }
             private static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.PRINT_SCALING _NoneContent = default;
@@ -731,7 +731,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
 
             #region Static methods
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.PRINT_SCALING.html#valueOf-java.lang.String-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.PRINT_SCALING.html#valueOf-java.lang.String-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.String"/></param>
             /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.PRINT_SCALING"/></returns>
@@ -740,7 +740,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
                 return SExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.PRINT_SCALING>(LocalBridgeClazz, "valueOf", "(Ljava/lang/String;)Lorg/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences$PRINT_SCALING;", arg0);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.PRINT_SCALING.html#values--"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.PRINT_SCALING.html#values--"/>
             /// </summary>
             /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.PRINT_SCALING"/></returns>
             public static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.PRINT_SCALING[] Values()
@@ -775,13 +775,13 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
 
             #region Fields
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.READING_DIRECTION.html#L2R"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.READING_DIRECTION.html#L2R"/>
             /// </summary>
             public static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.READING_DIRECTION L2R { get { if (!_L2RReady) { _L2RContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.READING_DIRECTION>(LocalBridgeClazz, "L2R"); _L2RReady = true; } return _L2RContent; } }
             private static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.READING_DIRECTION _L2RContent = default;
             private static bool _L2RReady = false; // this is used because in case of generics 
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.READING_DIRECTION.html#R2L"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.READING_DIRECTION.html#R2L"/>
             /// </summary>
             public static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.READING_DIRECTION R2L { get { if (!_R2LReady) { _R2LContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.READING_DIRECTION>(LocalBridgeClazz, "R2L"); _R2LReady = true; } return _R2LContent; } }
             private static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.READING_DIRECTION _R2LContent = default;
@@ -791,7 +791,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
 
             #region Static methods
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.READING_DIRECTION.html#valueOf-java.lang.String-"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.READING_DIRECTION.html#valueOf-java.lang.String-"/>
             /// </summary>
             /// <param name="arg0"><see cref="Java.Lang.String"/></param>
             /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.READING_DIRECTION"/></returns>
@@ -800,7 +800,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences
                 return SExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.READING_DIRECTION>(LocalBridgeClazz, "valueOf", "(Ljava/lang/String;)Lorg/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences$READING_DIRECTION;", arg0);
             }
             /// <summary>
-            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.READING_DIRECTION.html#values--"/>
+            /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.READING_DIRECTION.html#values--"/>
             /// </summary>
             /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.READING_DIRECTION"/></returns>
             public static Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.READING_DIRECTION[] Values()

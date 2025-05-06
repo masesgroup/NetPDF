@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf
 {
     #region GlyfCompositeComp declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfCompositeComp.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfCompositeComp.html"/>
     /// </summary>
     public partial class GlyfCompositeComp : MASES.JCOBridge.C2JBridge.JVMBridgeBase<GlyfCompositeComp>
     {
@@ -91,91 +91,91 @@ namespace Org.Apache.Fontbox.Ttf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfCompositeComp.html#getArgument1--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfCompositeComp.html#getArgument1--"/> 
         /// </summary>
         public short Argument1
         {
             get { return IExecuteWithSignature<short>("getArgument1", "()S"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfCompositeComp.html#getArgument2--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfCompositeComp.html#getArgument2--"/> 
         /// </summary>
         public short Argument2
         {
             get { return IExecuteWithSignature<short>("getArgument2", "()S"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfCompositeComp.html#getFirstContour--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfCompositeComp.html#getFirstContour--"/> 
         /// </summary>
         public int FirstContour
         {
             get { return IExecuteWithSignature<int>("getFirstContour", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfCompositeComp.html#getFirstIndex--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfCompositeComp.html#getFirstIndex--"/> 
         /// </summary>
         public int FirstIndex
         {
             get { return IExecuteWithSignature<int>("getFirstIndex", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfCompositeComp.html#getFlags--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfCompositeComp.html#getFlags--"/> 
         /// </summary>
         public short Flags
         {
             get { return IExecuteWithSignature<short>("getFlags", "()S"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfCompositeComp.html#getGlyphIndex--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfCompositeComp.html#getGlyphIndex--"/> 
         /// </summary>
         public int GlyphIndex
         {
             get { return IExecuteWithSignature<int>("getGlyphIndex", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfCompositeComp.html#getScale01--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfCompositeComp.html#getScale01--"/> 
         /// </summary>
         public double Scale01
         {
             get { return IExecuteWithSignature<double>("getScale01", "()D"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfCompositeComp.html#getScale10--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfCompositeComp.html#getScale10--"/> 
         /// </summary>
         public double Scale10
         {
             get { return IExecuteWithSignature<double>("getScale10", "()D"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfCompositeComp.html#getXScale--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfCompositeComp.html#getXScale--"/> 
         /// </summary>
         public double XScale
         {
             get { return IExecuteWithSignature<double>("getXScale", "()D"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfCompositeComp.html#getXTranslate--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfCompositeComp.html#getXTranslate--"/> 
         /// </summary>
         public int XTranslate
         {
             get { return IExecuteWithSignature<int>("getXTranslate", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfCompositeComp.html#getYScale--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfCompositeComp.html#getYScale--"/> 
         /// </summary>
         public double YScale
         {
             get { return IExecuteWithSignature<double>("getYScale", "()D"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfCompositeComp.html#getYTranslate--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfCompositeComp.html#getYTranslate--"/> 
         /// </summary>
         public int YTranslate
         {
             get { return IExecuteWithSignature<int>("getYTranslate", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfCompositeComp.html#scaleX-int-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfCompositeComp.html#scaleX-int-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -185,7 +185,7 @@ namespace Org.Apache.Fontbox.Ttf
             return IExecuteWithSignature<int>("scaleX", "(II)I", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/GlyfCompositeComp.html#scaleY-int-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/GlyfCompositeComp.html#scaleY-int-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="int"/></param>

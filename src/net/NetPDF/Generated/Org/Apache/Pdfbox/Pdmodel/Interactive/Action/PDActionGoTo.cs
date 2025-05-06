@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
 {
     #region PDActionGoTo declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionGoTo.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionGoTo.html"/>
     /// </summary>
     public partial class PDActionGoTo : Org.Apache.Pdfbox.Pdmodel.Interactive.Action.PDAction
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionGoTo.html#org.apache.pdfbox.pdmodel.interactive.action.PDActionGoTo(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionGoTo.html#org.apache.pdfbox.pdmodel.interactive.action.PDActionGoTo(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDActionGoTo(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -91,7 +91,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionGoTo.html#SUB_TYPE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionGoTo.html#SUB_TYPE"/>
         /// </summary>
         public static Java.Lang.String SUB_TYPE { get { if (!_SUB_TYPEReady) { _SUB_TYPEContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "SUB_TYPE"); _SUB_TYPEReady = true; } return _SUB_TYPEContent; } }
         private static Java.Lang.String _SUB_TYPEContent = default;
@@ -105,7 +105,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionGoTo.html#getDestination--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionGoTo.html#setDestination-org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDDestination-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionGoTo.html#getDestination--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionGoTo.html#setDestination-org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDDestination-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination.PDDestination Destination
         {

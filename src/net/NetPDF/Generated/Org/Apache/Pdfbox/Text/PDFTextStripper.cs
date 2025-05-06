@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Text
 {
     #region PDFTextStripper declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html"/>
     /// </summary>
     public partial class PDFTextStripper : MASES.JCOBridge.C2JBridge.JVMBridgeBase<PDFTextStripper>
     {
@@ -91,154 +91,154 @@ namespace Org.Apache.Pdfbox.Text
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#getAddMoreFormatting--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#setAddMoreFormatting-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#getAddMoreFormatting--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#setAddMoreFormatting-boolean-"/>
         /// </summary>
         public bool AddMoreFormatting
         {
             get { return IExecuteWithSignature<bool>("getAddMoreFormatting", "()Z"); } set { IExecuteWithSignature("setAddMoreFormatting", "(Z)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#getArticleEnd--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#setArticleEnd-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#getArticleEnd--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#setArticleEnd-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String ArticleEnd
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getArticleEnd", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setArticleEnd", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#getArticleStart--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#setArticleStart-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#getArticleStart--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#setArticleStart-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String ArticleStart
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getArticleStart", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setArticleStart", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#getAverageCharTolerance--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#setAverageCharTolerance-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#getAverageCharTolerance--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#setAverageCharTolerance-float-"/>
         /// </summary>
         public float AverageCharTolerance
         {
             get { return IExecuteWithSignature<float>("getAverageCharTolerance", "()F"); } set { IExecuteWithSignature("setAverageCharTolerance", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#getDropThreshold--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#setDropThreshold-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#getDropThreshold--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#setDropThreshold-float-"/>
         /// </summary>
         public float DropThreshold
         {
             get { return IExecuteWithSignature<float>("getDropThreshold", "()F"); } set { IExecuteWithSignature("setDropThreshold", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#getEndBookmark--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#setEndBookmark-org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#getEndBookmark--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#setEndBookmark-org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem EndBookmark
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem>("getEndBookmark", "()Lorg/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem;"); } set { IExecuteWithSignature("setEndBookmark", "(Lorg/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#getEndPage--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#setEndPage-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#getEndPage--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#setEndPage-int-"/>
         /// </summary>
         public int EndPage
         {
             get { return IExecuteWithSignature<int>("getEndPage", "()I"); } set { IExecuteWithSignature("setEndPage", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#getIgnoreContentStreamSpaceGlyphs--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#setIgnoreContentStreamSpaceGlyphs-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#getIgnoreContentStreamSpaceGlyphs--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#setIgnoreContentStreamSpaceGlyphs-boolean-"/>
         /// </summary>
         public bool IgnoreContentStreamSpaceGlyphs
         {
             get { return IExecuteWithSignature<bool>("getIgnoreContentStreamSpaceGlyphs", "()Z"); } set { IExecuteWithSignature("setIgnoreContentStreamSpaceGlyphs", "(Z)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#getIndentThreshold--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#setIndentThreshold-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#getIndentThreshold--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#setIndentThreshold-float-"/>
         /// </summary>
         public float IndentThreshold
         {
             get { return IExecuteWithSignature<float>("getIndentThreshold", "()F"); } set { IExecuteWithSignature("setIndentThreshold", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#getLineSeparator--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#setLineSeparator-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#getLineSeparator--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#setLineSeparator-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String LineSeparator
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getLineSeparator", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setLineSeparator", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#getPageEnd--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#setPageEnd-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#getPageEnd--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#setPageEnd-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String PageEnd
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getPageEnd", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setPageEnd", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#getPageStart--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#setPageStart-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#getPageStart--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#setPageStart-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String PageStart
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getPageStart", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setPageStart", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#getParagraphEnd--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#setParagraphEnd-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#getParagraphEnd--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#setParagraphEnd-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String ParagraphEnd
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getParagraphEnd", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setParagraphEnd", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#getParagraphStart--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#setParagraphStart-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#getParagraphStart--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#setParagraphStart-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String ParagraphStart
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getParagraphStart", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setParagraphStart", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#getSeparateByBeads--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#getSeparateByBeads--"/> 
         /// </summary>
         public bool SeparateByBeads
         {
             get { return IExecuteWithSignature<bool>("getSeparateByBeads", "()Z"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#getSortByPosition--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#setSortByPosition-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#getSortByPosition--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#setSortByPosition-boolean-"/>
         /// </summary>
         public bool SortByPosition
         {
             get { return IExecuteWithSignature<bool>("getSortByPosition", "()Z"); } set { IExecuteWithSignature("setSortByPosition", "(Z)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#getSpacingTolerance--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#setSpacingTolerance-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#getSpacingTolerance--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#setSpacingTolerance-float-"/>
         /// </summary>
         public float SpacingTolerance
         {
             get { return IExecuteWithSignature<float>("getSpacingTolerance", "()F"); } set { IExecuteWithSignature("setSpacingTolerance", "(F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#getStartBookmark--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#setStartBookmark-org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#getStartBookmark--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#setStartBookmark-org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem StartBookmark
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem>("getStartBookmark", "()Lorg/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem;"); } set { IExecuteWithSignature("setStartBookmark", "(Lorg/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#getStartPage--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#setStartPage-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#getStartPage--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#setStartPage-int-"/>
         /// </summary>
         public int StartPage
         {
             get { return IExecuteWithSignature<int>("getStartPage", "()I"); } set { IExecuteWithSignature("setStartPage", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#getSuppressDuplicateOverlappingText--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#setSuppressDuplicateOverlappingText-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#getSuppressDuplicateOverlappingText--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#setSuppressDuplicateOverlappingText-boolean-"/>
         /// </summary>
         public bool SuppressDuplicateOverlappingText
         {
             get { return IExecuteWithSignature<bool>("getSuppressDuplicateOverlappingText", "()Z"); } set { IExecuteWithSignature("setSuppressDuplicateOverlappingText", "(Z)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#getWordSeparator--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#setWordSeparator-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#getWordSeparator--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#setWordSeparator-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String WordSeparator
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getWordSeparator", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setWordSeparator", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#getText-org.apache.pdfbox.pdmodel.PDDocument-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#getText-org.apache.pdfbox.pdmodel.PDDocument-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <returns><see cref="Java.Lang.String"/></returns>
@@ -248,7 +248,7 @@ namespace Org.Apache.Pdfbox.Text
             return IExecuteWithSignature<Java.Lang.String>("getText", "(Lorg/apache/pdfbox/pdmodel/PDDocument;)Ljava/lang/String;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#setShouldSeparateByBeads-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#setShouldSeparateByBeads-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetShouldSeparateByBeads(bool arg0)
@@ -256,7 +256,7 @@ namespace Org.Apache.Pdfbox.Text
             IExecuteWithSignature("setShouldSeparateByBeads", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/text/PDFTextStripper.html#writeText-org.apache.pdfbox.pdmodel.PDDocument-java.io.Writer-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/text/PDFTextStripper.html#writeText-org.apache.pdfbox.pdmodel.PDDocument-java.io.Writer-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <param name="arg1"><see cref="Java.Io.Writer"/></param>

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
 {
     #region PageLayout declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PageLayout.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PageLayout.html"/>
     /// </summary>
     public partial class PageLayout : Java.Lang.Enum<Org.Apache.Pdfbox.Pdmodel.PageLayout>
     {
@@ -83,37 +83,37 @@ namespace Org.Apache.Pdfbox.Pdmodel
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PageLayout.html#ONE_COLUMN"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PageLayout.html#ONE_COLUMN"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.PageLayout ONE_COLUMN { get { if (!_ONE_COLUMNReady) { _ONE_COLUMNContent = SGetField<Org.Apache.Pdfbox.Pdmodel.PageLayout>(LocalBridgeClazz, "ONE_COLUMN"); _ONE_COLUMNReady = true; } return _ONE_COLUMNContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.PageLayout _ONE_COLUMNContent = default;
         private static bool _ONE_COLUMNReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PageLayout.html#SINGLE_PAGE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PageLayout.html#SINGLE_PAGE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.PageLayout SINGLE_PAGE { get { if (!_SINGLE_PAGEReady) { _SINGLE_PAGEContent = SGetField<Org.Apache.Pdfbox.Pdmodel.PageLayout>(LocalBridgeClazz, "SINGLE_PAGE"); _SINGLE_PAGEReady = true; } return _SINGLE_PAGEContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.PageLayout _SINGLE_PAGEContent = default;
         private static bool _SINGLE_PAGEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PageLayout.html#TWO_COLUMN_LEFT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PageLayout.html#TWO_COLUMN_LEFT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.PageLayout TWO_COLUMN_LEFT { get { if (!_TWO_COLUMN_LEFTReady) { _TWO_COLUMN_LEFTContent = SGetField<Org.Apache.Pdfbox.Pdmodel.PageLayout>(LocalBridgeClazz, "TWO_COLUMN_LEFT"); _TWO_COLUMN_LEFTReady = true; } return _TWO_COLUMN_LEFTContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.PageLayout _TWO_COLUMN_LEFTContent = default;
         private static bool _TWO_COLUMN_LEFTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PageLayout.html#TWO_COLUMN_RIGHT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PageLayout.html#TWO_COLUMN_RIGHT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.PageLayout TWO_COLUMN_RIGHT { get { if (!_TWO_COLUMN_RIGHTReady) { _TWO_COLUMN_RIGHTContent = SGetField<Org.Apache.Pdfbox.Pdmodel.PageLayout>(LocalBridgeClazz, "TWO_COLUMN_RIGHT"); _TWO_COLUMN_RIGHTReady = true; } return _TWO_COLUMN_RIGHTContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.PageLayout _TWO_COLUMN_RIGHTContent = default;
         private static bool _TWO_COLUMN_RIGHTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PageLayout.html#TWO_PAGE_LEFT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PageLayout.html#TWO_PAGE_LEFT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.PageLayout TWO_PAGE_LEFT { get { if (!_TWO_PAGE_LEFTReady) { _TWO_PAGE_LEFTContent = SGetField<Org.Apache.Pdfbox.Pdmodel.PageLayout>(LocalBridgeClazz, "TWO_PAGE_LEFT"); _TWO_PAGE_LEFTReady = true; } return _TWO_PAGE_LEFTContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.PageLayout _TWO_PAGE_LEFTContent = default;
         private static bool _TWO_PAGE_LEFTReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PageLayout.html#TWO_PAGE_RIGHT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PageLayout.html#TWO_PAGE_RIGHT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.PageLayout TWO_PAGE_RIGHT { get { if (!_TWO_PAGE_RIGHTReady) { _TWO_PAGE_RIGHTContent = SGetField<Org.Apache.Pdfbox.Pdmodel.PageLayout>(LocalBridgeClazz, "TWO_PAGE_RIGHT"); _TWO_PAGE_RIGHTReady = true; } return _TWO_PAGE_RIGHTContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.PageLayout _TWO_PAGE_RIGHTContent = default;
@@ -123,7 +123,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PageLayout.html#fromString-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PageLayout.html#fromString-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.PageLayout"/></returns>
@@ -132,7 +132,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             return SExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.PageLayout>(LocalBridgeClazz, "fromString", "(Ljava/lang/String;)Lorg/apache/pdfbox/pdmodel/PageLayout;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PageLayout.html#valueOf-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PageLayout.html#valueOf-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.PageLayout"/></returns>
@@ -141,7 +141,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
             return SExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.PageLayout>(LocalBridgeClazz, "valueOf", "(Ljava/lang/String;)Lorg/apache/pdfbox/pdmodel/PageLayout;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PageLayout.html#values--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PageLayout.html#values--"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.PageLayout"/></returns>
         public static Org.Apache.Pdfbox.Pdmodel.PageLayout[] Values()
@@ -153,7 +153,7 @@ namespace Org.Apache.Pdfbox.Pdmodel
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/PageLayout.html#stringValue--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PageLayout.html#stringValue--"/>
         /// </summary>
         /// <returns><see cref="Java.Lang.String"/></returns>
         public Java.Lang.String StringValue()

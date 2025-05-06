@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Util
 {
     #region DateConverter declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/util/DateConverter.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/util/DateConverter.html"/>
     /// </summary>
     public partial class DateConverter : MASES.JCOBridge.C2JBridge.JVMBridgeBase<DateConverter>
     {
@@ -87,7 +87,7 @@ namespace Org.Apache.Pdfbox.Util
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/util/DateConverter.html#toISO8601-java.util.Calendar-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/util/DateConverter.html#toISO8601-java.util.Calendar-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Util.Calendar"/></param>
         /// <returns><see cref="Java.Lang.String"/></returns>
@@ -96,7 +96,7 @@ namespace Org.Apache.Pdfbox.Util
             return SExecuteWithSignature<Java.Lang.String>(LocalBridgeClazz, "toISO8601", "(Ljava/util/Calendar;)Ljava/lang/String;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/util/DateConverter.html#toString-java.util.Calendar-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/util/DateConverter.html#toString-java.util.Calendar-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Util.Calendar"/></param>
         /// <returns><see cref="Java.Lang.String"/></returns>
@@ -105,7 +105,7 @@ namespace Org.Apache.Pdfbox.Util
             return SExecuteWithSignature<Java.Lang.String>(LocalBridgeClazz, "toString", "(Ljava/util/Calendar;)Ljava/lang/String;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/util/DateConverter.html#toCalendar-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/util/DateConverter.html#toCalendar-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Java.Util.Calendar"/></returns>
@@ -114,7 +114,7 @@ namespace Org.Apache.Pdfbox.Util
             return SExecuteWithSignature<Java.Util.Calendar>(LocalBridgeClazz, "toCalendar", "(Ljava/lang/String;)Ljava/util/Calendar;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/util/DateConverter.html#toCalendar-org.apache.pdfbox.cos.COSString-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/util/DateConverter.html#toCalendar-org.apache.pdfbox.cos.COSString-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSString"/></param>
         /// <returns><see cref="Java.Util.Calendar"/></returns>

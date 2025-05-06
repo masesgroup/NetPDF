@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Cff
 {
     #region CFFEncoding declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFEncoding.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFEncoding.html"/>
     /// </summary>
     public partial class CFFEncoding : Org.Apache.Fontbox.Encoding.Encoding
     {
@@ -93,7 +93,7 @@ namespace Org.Apache.Fontbox.Cff
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFEncoding.html#add-int-int-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFEncoding.html#add-int-int-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="int"/></param>

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
 {
     #region PDDictionaryWrapper declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDDictionaryWrapper.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDDictionaryWrapper.html"/>
     /// </summary>
     public partial class PDDictionaryWrapper : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDDictionaryWrapper.html#org.apache.pdfbox.pdmodel.common.PDDictionaryWrapper(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDDictionaryWrapper.html#org.apache.pdfbox.pdmodel.common.PDDictionaryWrapper(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDDictionaryWrapper(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -99,7 +99,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDDictionaryWrapper.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDDictionaryWrapper.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {

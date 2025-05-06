@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font.Encoding
 {
     #region Type1Encoding declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/encoding/Type1Encoding.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/encoding/Type1Encoding.html"/>
     /// </summary>
     public partial class Type1Encoding : Org.Apache.Pdfbox.Pdmodel.Font.Encoding.Encoding
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font.Encoding
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/encoding/Type1Encoding.html#org.apache.pdfbox.pdmodel.font.encoding.Type1Encoding(org.apache.fontbox.afm.FontMetrics)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/encoding/Type1Encoding.html#org.apache.pdfbox.pdmodel.font.encoding.Type1Encoding(org.apache.fontbox.afm.FontMetrics)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Fontbox.Afm.FontMetrics"/></param>
         public Type1Encoding(Org.Apache.Fontbox.Afm.FontMetrics arg0)
@@ -95,7 +95,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font.Encoding
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/encoding/Type1Encoding.html#fromFontBox-org.apache.fontbox.encoding.Encoding-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/encoding/Type1Encoding.html#fromFontBox-org.apache.fontbox.encoding.Encoding-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Fontbox.Encoding.Encoding"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Font.Encoding.Type1Encoding"/></returns>

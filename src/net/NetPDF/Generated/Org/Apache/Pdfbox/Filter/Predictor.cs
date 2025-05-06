@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Filter
 {
     #region Predictor declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/Predictor.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/Predictor.html"/>
     /// </summary>
     public partial class Predictor : MASES.JCOBridge.C2JBridge.JVMBridgeBase<Predictor>
     {

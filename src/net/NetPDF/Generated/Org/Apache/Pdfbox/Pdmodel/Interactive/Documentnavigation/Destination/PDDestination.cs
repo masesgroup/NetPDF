@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination
 {
     #region PDDestination declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDDestination.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDDestination.html"/>
     /// </summary>
     public partial class PDDestination : Org.Apache.Pdfbox.Pdmodel.Common.PDDestinationOrAction
     {
@@ -89,7 +89,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDDestination.html#create-org.apache.pdfbox.cos.COSBase-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDDestination.html#create-org.apache.pdfbox.cos.COSBase-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination.PDDestination"/></returns>

@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Cff
 {
     #region CFFFont declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFFont.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFFont.html"/>
     /// </summary>
     public partial class CFFFont : Org.Apache.Fontbox.FontBoxFont
     {
@@ -93,70 +93,70 @@ namespace Org.Apache.Fontbox.Cff
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFFont.html#getCharset--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFFont.html#getCharset--"/> 
         /// </summary>
         public Org.Apache.Fontbox.Cff.CFFCharset Charset
         {
             get { return IExecuteWithSignature<Org.Apache.Fontbox.Cff.CFFCharset>("getCharset", "()Lorg/apache/fontbox/cff/CFFCharset;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFFont.html#getCharStringBytes--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFFont.html#getCharStringBytes--"/> 
         /// </summary>
         public Java.Util.List<byte[]> CharStringBytes
         {
             get { return IExecuteWithSignature<Java.Util.List<byte[]>>("getCharStringBytes", "()Ljava/util/List;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFFont.html#getData--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFFont.html#getData--"/> 
         /// </summary>
         public byte[] Data
         {
             get { return IExecuteWithSignatureArray<byte>("getData", "()[B"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFFont.html#getFontBBox--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFFont.html#getFontBBox--"/> 
         /// </summary>
         public Org.Apache.Fontbox.Util.BoundingBox FontBBox
         {
             get { return IExecuteWithSignature<Org.Apache.Fontbox.Util.BoundingBox>("getFontBBox", "()Lorg/apache/fontbox/util/BoundingBox;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFFont.html#getFontMatrix--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFFont.html#getFontMatrix--"/> 
         /// </summary>
         public Java.Util.List<Java.Lang.Number> FontMatrix
         {
             get { return IExecuteWithSignature<Java.Util.List<Java.Lang.Number>>("getFontMatrix", "()Ljava/util/List;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFFont.html#getGlobalSubrIndex--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFFont.html#getGlobalSubrIndex--"/> 
         /// </summary>
         public Java.Util.List<byte[]> GlobalSubrIndex
         {
             get { return IExecuteWithSignature<Java.Util.List<byte[]>>("getGlobalSubrIndex", "()Ljava/util/List;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFFont.html#getName--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFFont.html#getName--"/> 
         /// </summary>
         public Java.Lang.String Name
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getName", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFFont.html#getNumCharStrings--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFFont.html#getNumCharStrings--"/> 
         /// </summary>
         public int NumCharStrings
         {
             get { return IExecuteWithSignature<int>("getNumCharStrings", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFFont.html#getTopDict--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFFont.html#getTopDict--"/> 
         /// </summary>
         public Java.Util.Map<Java.Lang.String, object> TopDict
         {
             get { return IExecuteWithSignature<Java.Util.Map<Java.Lang.String, object>>("getTopDict", "()Ljava/util/Map;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFFont.html#getType2CharString-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFFont.html#getType2CharString-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="Org.Apache.Fontbox.Cff.Type2CharString"/></returns>
@@ -166,7 +166,7 @@ namespace Org.Apache.Fontbox.Cff
             return IExecuteWithSignature<Org.Apache.Fontbox.Cff.Type2CharString>("getType2CharString", "(I)Lorg/apache/fontbox/cff/Type2CharString;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFFont.html#addValueToTopDict-java.lang.String-java.lang.Object-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFFont.html#addValueToTopDict-java.lang.String-java.lang.Object-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="object"/></param>

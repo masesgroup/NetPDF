@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
 {
     #region PDActionResetForm declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionResetForm.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionResetForm.html"/>
     /// </summary>
     public partial class PDActionResetForm : Org.Apache.Pdfbox.Pdmodel.Interactive.Action.PDAction
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionResetForm.html#org.apache.pdfbox.pdmodel.interactive.action.PDActionResetForm(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionResetForm.html#org.apache.pdfbox.pdmodel.interactive.action.PDActionResetForm(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDActionResetForm(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -91,7 +91,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionResetForm.html#SUB_TYPE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionResetForm.html#SUB_TYPE"/>
         /// </summary>
         public static Java.Lang.String SUB_TYPE { get { if (!_SUB_TYPEReady) { _SUB_TYPEContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "SUB_TYPE"); _SUB_TYPEReady = true; } return _SUB_TYPEContent; } }
         private static Java.Lang.String _SUB_TYPEContent = default;
@@ -105,14 +105,14 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Action
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionResetForm.html#getFields--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionResetForm.html#setFields-org.apache.pdfbox.cos.COSArray-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionResetForm.html#getFields--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionResetForm.html#setFields-org.apache.pdfbox.cos.COSArray-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSArray Fields
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSArray>("getFields", "()Lorg/apache/pdfbox/cos/COSArray;"); } set { IExecuteWithSignature("setFields", "(Lorg/apache/pdfbox/cos/COSArray;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionResetForm.html#getFlags--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/action/PDActionResetForm.html#setFlags-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionResetForm.html#getFlags--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/action/PDActionResetForm.html#setFlags-int-"/>
         /// </summary>
         public int Flags
         {

@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Cff
 {
     #region CFFStandardString declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFStandardString.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFStandardString.html"/>
     /// </summary>
     public partial class CFFStandardString : MASES.JCOBridge.C2JBridge.JVMBridgeBase<CFFStandardString>
     {
@@ -87,7 +87,7 @@ namespace Org.Apache.Fontbox.Cff
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFStandardString.html#getName-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFStandardString.html#getName-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="Java.Lang.String"/></returns>

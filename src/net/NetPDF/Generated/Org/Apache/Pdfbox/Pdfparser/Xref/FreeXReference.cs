@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdfparser.Xref
 {
     #region FreeXReference declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/xref/FreeXReference.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/xref/FreeXReference.html"/>
     /// </summary>
     public partial class FreeXReference : Org.Apache.Pdfbox.Pdfparser.Xref.AbstractXReference
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdfparser.Xref
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/xref/FreeXReference.html#org.apache.pdfbox.pdfparser.xref.FreeXReference(org.apache.pdfbox.cos.COSObjectKey,long)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/xref/FreeXReference.html#org.apache.pdfbox.pdfparser.xref.FreeXReference(org.apache.pdfbox.cos.COSObjectKey,long)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSObjectKey"/></param>
         /// <param name="arg1"><see cref="long"/></param>
@@ -92,7 +92,7 @@ namespace Org.Apache.Pdfbox.Pdfparser.Xref
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdfparser/xref/FreeXReference.html#NULL_ENTRY"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfparser/xref/FreeXReference.html#NULL_ENTRY"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdfparser.Xref.FreeXReference NULL_ENTRY { get { if (!_NULL_ENTRYReady) { _NULL_ENTRYContent = SGetField<Org.Apache.Pdfbox.Pdfparser.Xref.FreeXReference>(LocalBridgeClazz, "NULL_ENTRY"); _NULL_ENTRYReady = true; } return _NULL_ENTRYContent; } }
         private static Org.Apache.Pdfbox.Pdfparser.Xref.FreeXReference _NULL_ENTRYContent = default;

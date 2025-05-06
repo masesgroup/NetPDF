@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Rendering
 {
     #region ImageType declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/ImageType.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/ImageType.html"/>
     /// </summary>
     public partial class ImageType : Java.Lang.Enum<Org.Apache.Pdfbox.Rendering.ImageType>
     {
@@ -85,31 +85,31 @@ namespace Org.Apache.Pdfbox.Rendering
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/ImageType.html#ARGB"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/ImageType.html#ARGB"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Rendering.ImageType ARGB { get { if (!_ARGBReady) { _ARGBContent = SGetField<Org.Apache.Pdfbox.Rendering.ImageType>(LocalBridgeClazz, "ARGB"); _ARGBReady = true; } return _ARGBContent; } }
         private static Org.Apache.Pdfbox.Rendering.ImageType _ARGBContent = default;
         private static bool _ARGBReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/ImageType.html#BGR"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/ImageType.html#BGR"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Rendering.ImageType BGR { get { if (!_BGRReady) { _BGRContent = SGetField<Org.Apache.Pdfbox.Rendering.ImageType>(LocalBridgeClazz, "BGR"); _BGRReady = true; } return _BGRContent; } }
         private static Org.Apache.Pdfbox.Rendering.ImageType _BGRContent = default;
         private static bool _BGRReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/ImageType.html#BINARY"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/ImageType.html#BINARY"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Rendering.ImageType BINARY { get { if (!_BINARYReady) { _BINARYContent = SGetField<Org.Apache.Pdfbox.Rendering.ImageType>(LocalBridgeClazz, "BINARY"); _BINARYReady = true; } return _BINARYContent; } }
         private static Org.Apache.Pdfbox.Rendering.ImageType _BINARYContent = default;
         private static bool _BINARYReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/ImageType.html#GRAY"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/ImageType.html#GRAY"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Rendering.ImageType GRAY { get { if (!_GRAYReady) { _GRAYContent = SGetField<Org.Apache.Pdfbox.Rendering.ImageType>(LocalBridgeClazz, "GRAY"); _GRAYReady = true; } return _GRAYContent; } }
         private static Org.Apache.Pdfbox.Rendering.ImageType _GRAYContent = default;
         private static bool _GRAYReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/ImageType.html#RGB"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/ImageType.html#RGB"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Rendering.ImageType RGB { get { if (!_RGBReady) { _RGBContent = SGetField<Org.Apache.Pdfbox.Rendering.ImageType>(LocalBridgeClazz, "RGB"); _RGBReady = true; } return _RGBContent; } }
         private static Org.Apache.Pdfbox.Rendering.ImageType _RGBContent = default;
@@ -119,7 +119,7 @@ namespace Org.Apache.Pdfbox.Rendering
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/ImageType.html#valueOf-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/ImageType.html#valueOf-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Rendering.ImageType"/></returns>
@@ -128,7 +128,7 @@ namespace Org.Apache.Pdfbox.Rendering
             return SExecuteWithSignature<Org.Apache.Pdfbox.Rendering.ImageType>(LocalBridgeClazz, "valueOf", "(Ljava/lang/String;)Lorg/apache/pdfbox/rendering/ImageType;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/ImageType.html#values--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/ImageType.html#values--"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Pdfbox.Rendering.ImageType"/></returns>
         public static Org.Apache.Pdfbox.Rendering.ImageType[] Values()

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination
 {
     #region PDPageDestination declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageDestination.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageDestination.html"/>
     /// </summary>
     public partial class PDPageDestination : Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination.PDDestination
     {
@@ -93,21 +93,21 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageDestination.html#getPage--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageDestination.html#setPage-org.apache.pdfbox.pdmodel.PDPage-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageDestination.html#getPage--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageDestination.html#setPage-org.apache.pdfbox.pdmodel.PDPage-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.PDPage Page
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.PDPage>("getPage", "()Lorg/apache/pdfbox/pdmodel/PDPage;"); } set { IExecuteWithSignature("setPage", "(Lorg/apache/pdfbox/pdmodel/PDPage;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageDestination.html#getPageNumber--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageDestination.html#setPageNumber-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageDestination.html#getPageNumber--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageDestination.html#setPageNumber-int-"/>
         /// </summary>
         public int PageNumber
         {
             get { return IExecuteWithSignature<int>("getPageNumber", "()I"); } set { IExecuteWithSignature("setPageNumber", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageDestination.html#retrievePageNumber--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDPageDestination.html#retrievePageNumber--"/>
         /// </summary>
         /// <returns><see cref="int"/></returns>
         public int RetrievePageNumber()

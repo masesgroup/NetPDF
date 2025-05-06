@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Filter
 {
     #region DecodeOptions declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/DecodeOptions.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/DecodeOptions.html"/>
     /// </summary>
     public partial class DecodeOptions : MASES.JCOBridge.C2JBridge.JVMBridgeBase<DecodeOptions>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Filter
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/DecodeOptions.html#org.apache.pdfbox.filter.DecodeOptions(int,int,int,int)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/DecodeOptions.html#org.apache.pdfbox.filter.DecodeOptions(int,int,int,int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -86,7 +86,7 @@ namespace Org.Apache.Pdfbox.Filter
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/DecodeOptions.html#org.apache.pdfbox.filter.DecodeOptions(int)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/DecodeOptions.html#org.apache.pdfbox.filter.DecodeOptions(int)"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         public DecodeOptions(int arg0)
@@ -94,7 +94,7 @@ namespace Org.Apache.Pdfbox.Filter
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/DecodeOptions.html#org.apache.pdfbox.filter.DecodeOptions(java.awt.Rectangle)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/DecodeOptions.html#org.apache.pdfbox.filter.DecodeOptions(java.awt.Rectangle)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Awt.Rectangle"/></param>
         public DecodeOptions(Java.Awt.Rectangle arg0)
@@ -110,7 +110,7 @@ namespace Org.Apache.Pdfbox.Filter
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/DecodeOptions.html#DEFAULT"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/DecodeOptions.html#DEFAULT"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Filter.DecodeOptions DEFAULT { get { if (!_DEFAULTReady) { _DEFAULTContent = SGetField<Org.Apache.Pdfbox.Filter.DecodeOptions>(LocalBridgeClazz, "DEFAULT"); _DEFAULTReady = true; } return _DEFAULTContent; } }
         private static Org.Apache.Pdfbox.Filter.DecodeOptions _DEFAULTContent = default;
@@ -124,42 +124,42 @@ namespace Org.Apache.Pdfbox.Filter
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/DecodeOptions.html#getSourceRegion--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/DecodeOptions.html#setSourceRegion-java.awt.Rectangle-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/DecodeOptions.html#getSourceRegion--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/DecodeOptions.html#setSourceRegion-java.awt.Rectangle-"/>
         /// </summary>
         public Java.Awt.Rectangle SourceRegion
         {
             get { return IExecuteWithSignature<Java.Awt.Rectangle>("getSourceRegion", "()Ljava/awt/Rectangle;"); } set { IExecuteWithSignature("setSourceRegion", "(Ljava/awt/Rectangle;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/DecodeOptions.html#getSubsamplingOffsetX--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/DecodeOptions.html#setSubsamplingOffsetX-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/DecodeOptions.html#getSubsamplingOffsetX--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/DecodeOptions.html#setSubsamplingOffsetX-int-"/>
         /// </summary>
         public int SubsamplingOffsetX
         {
             get { return IExecuteWithSignature<int>("getSubsamplingOffsetX", "()I"); } set { IExecuteWithSignature("setSubsamplingOffsetX", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/DecodeOptions.html#getSubsamplingOffsetY--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/DecodeOptions.html#setSubsamplingOffsetY-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/DecodeOptions.html#getSubsamplingOffsetY--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/DecodeOptions.html#setSubsamplingOffsetY-int-"/>
         /// </summary>
         public int SubsamplingOffsetY
         {
             get { return IExecuteWithSignature<int>("getSubsamplingOffsetY", "()I"); } set { IExecuteWithSignature("setSubsamplingOffsetY", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/DecodeOptions.html#getSubsamplingX--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/DecodeOptions.html#setSubsamplingX-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/DecodeOptions.html#getSubsamplingX--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/DecodeOptions.html#setSubsamplingX-int-"/>
         /// </summary>
         public int SubsamplingX
         {
             get { return IExecuteWithSignature<int>("getSubsamplingX", "()I"); } set { IExecuteWithSignature("setSubsamplingX", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/DecodeOptions.html#getSubsamplingY--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/DecodeOptions.html#setSubsamplingY-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/DecodeOptions.html#getSubsamplingY--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/DecodeOptions.html#setSubsamplingY-int-"/>
         /// </summary>
         public int SubsamplingY
         {
             get { return IExecuteWithSignature<int>("getSubsamplingY", "()I"); } set { IExecuteWithSignature("setSubsamplingY", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/DecodeOptions.html#isFilterSubsampled--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/DecodeOptions.html#isFilterSubsampled--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsFilterSubsampled()

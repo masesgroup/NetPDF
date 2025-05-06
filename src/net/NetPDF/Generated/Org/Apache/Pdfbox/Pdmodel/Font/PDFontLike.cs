@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
 {
     #region PDFontLike declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDFontLike.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDFontLike.html"/>
     /// </summary>
     public partial class PDFontLike : MASES.JCOBridge.C2JBridge.JVMBridgeBase<PDFontLike>
     {
@@ -74,7 +74,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
 
     #region IPDFontLike
     /// <summary>
-    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDFontLike.html"/>
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDFontLike.html"/>
     /// </summary>
     public partial interface IPDFontLike
     {
@@ -111,42 +111,42 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDFontLike.html#getAverageFontWidth--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDFontLike.html#getAverageFontWidth--"/> 
         /// </summary>
         public float AverageFontWidth
         {
             get { return IExecuteWithSignature<float>("getAverageFontWidth", "()F"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDFontLike.html#getBoundingBox--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDFontLike.html#getBoundingBox--"/> 
         /// </summary>
         public Org.Apache.Fontbox.Util.BoundingBox BoundingBox
         {
             get { return IExecuteWithSignature<Org.Apache.Fontbox.Util.BoundingBox>("getBoundingBox", "()Lorg/apache/fontbox/util/BoundingBox;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDFontLike.html#getFontDescriptor--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDFontLike.html#getFontDescriptor--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Font.PDFontDescriptor FontDescriptor
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Font.PDFontDescriptor>("getFontDescriptor", "()Lorg/apache/pdfbox/pdmodel/font/PDFontDescriptor;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDFontLike.html#getFontMatrix--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDFontLike.html#getFontMatrix--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Util.Matrix FontMatrix
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Util.Matrix>("getFontMatrix", "()Lorg/apache/pdfbox/util/Matrix;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDFontLike.html#getName--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDFontLike.html#getName--"/> 
         /// </summary>
         public Java.Lang.String Name
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getName", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDFontLike.html#hasExplicitWidth-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDFontLike.html#hasExplicitWidth-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="bool"/></returns>
@@ -156,7 +156,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
             return IExecuteWithSignature<bool>("hasExplicitWidth", "(I)Z", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDFontLike.html#isDamaged--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDFontLike.html#isDamaged--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsDamaged()
@@ -164,7 +164,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
             return IExecuteWithSignature<bool>("isDamaged", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDFontLike.html#isEmbedded--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDFontLike.html#isEmbedded--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsEmbedded()
@@ -172,7 +172,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
             return IExecuteWithSignature<bool>("isEmbedded", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDFontLike.html#getWidth-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDFontLike.html#getWidth-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="float"/></returns>
@@ -182,7 +182,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
             return IExecuteWithSignature<float>("getWidth", "(I)F", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDFontLike.html#getWidthFromFont-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDFontLike.html#getWidthFromFont-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="float"/></returns>
@@ -192,7 +192,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
             return IExecuteWithSignature<float>("getWidthFromFont", "(I)F", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/PDFontLike.html#getPositionVector-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDFontLike.html#getPositionVector-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Util.Vector"/></returns>

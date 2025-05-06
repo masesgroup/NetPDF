@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Cos
 {
     #region COSInputStream declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSInputStream.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSInputStream.html"/>
     /// </summary>
     public partial class COSInputStream : Java.Io.FilterInputStream
     {
@@ -91,7 +91,7 @@ namespace Org.Apache.Pdfbox.Cos
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSInputStream.html#getDecodeResult--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSInputStream.html#getDecodeResult--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Filter.DecodeResult DecodeResult
         {

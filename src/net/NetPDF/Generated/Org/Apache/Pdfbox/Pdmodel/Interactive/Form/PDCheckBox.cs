@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
 {
     #region PDCheckBox declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDCheckBox.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDCheckBox.html"/>
     /// </summary>
     public partial class PDCheckBox : Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDButton
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDCheckBox.html#org.apache.pdfbox.pdmodel.interactive.form.PDCheckBox(org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDCheckBox.html#org.apache.pdfbox.pdmodel.interactive.form.PDCheckBox(org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDAcroForm"/></param>
         public PDCheckBox(Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDAcroForm arg0)
@@ -99,14 +99,14 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDCheckBox.html#getOnValue--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDCheckBox.html#getOnValue--"/> 
         /// </summary>
         public Java.Lang.String OnValue
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getOnValue", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDCheckBox.html#isChecked--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDCheckBox.html#isChecked--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsChecked()
@@ -114,7 +114,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             return IExecuteWithSignature<bool>("isChecked", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDCheckBox.html#check--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDCheckBox.html#check--"/>
         /// </summary>
         /// <exception cref="Java.Io.IOException"/>
         public void Check()
@@ -122,7 +122,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             IExecuteWithSignature("check", "()V");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDCheckBox.html#unCheck--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDCheckBox.html#unCheck--"/>
         /// </summary>
         /// <exception cref="Java.Io.IOException"/>
         public void UnCheck()

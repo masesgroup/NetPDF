@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
 {
     #region PDNumberTreeNode declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDNumberTreeNode.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDNumberTreeNode.html"/>
     /// </summary>
     public partial class PDNumberTreeNode : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDNumberTreeNode.html#org.apache.pdfbox.pdmodel.common.PDNumberTreeNode(java.lang.Class)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDNumberTreeNode.html#org.apache.pdfbox.pdmodel.common.PDNumberTreeNode(java.lang.Class)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.Class"/></param>
         public PDNumberTreeNode(Java.Lang.Class arg0)
@@ -83,7 +83,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDNumberTreeNode.html#org.apache.pdfbox.pdmodel.common.PDNumberTreeNode(org.apache.pdfbox.cos.COSDictionary,java.lang.Class)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDNumberTreeNode.html#org.apache.pdfbox.pdmodel.common.PDNumberTreeNode(org.apache.pdfbox.cos.COSDictionary,java.lang.Class)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         /// <param name="arg1"><see cref="Java.Lang.Class"/></param>
@@ -108,42 +108,42 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDNumberTreeNode.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDNumberTreeNode.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDNumberTreeNode.html#getKids--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDNumberTreeNode.html#setKids-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDNumberTreeNode.html#getKids--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDNumberTreeNode.html#setKids-java.util.List-"/>
         /// </summary>
         public Java.Util.List<Org.Apache.Pdfbox.Pdmodel.Common.PDNumberTreeNode> Kids
         {
             get { return IExecuteWithSignature<Java.Util.List<Org.Apache.Pdfbox.Pdmodel.Common.PDNumberTreeNode>>("getKids", "()Ljava/util/List;"); } set { IExecuteWithSignature("setKids", "(Ljava/util/List;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDNumberTreeNode.html#getLowerLimit--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDNumberTreeNode.html#getLowerLimit--"/> 
         /// </summary>
         public Java.Lang.Integer LowerLimit
         {
             get { return IExecuteWithSignature<Java.Lang.Integer>("getLowerLimit", "()Ljava/lang/Integer;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDNumberTreeNode.html#getNumbers--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDNumberTreeNode.html#setNumbers-java.util.Map-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDNumberTreeNode.html#getNumbers--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDNumberTreeNode.html#setNumbers-java.util.Map-"/>
         /// </summary>
         public Java.Util.Map<Java.Lang.Integer, Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable> Numbers
         {
             get { return IExecuteWithSignature<Java.Util.Map<Java.Lang.Integer, Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable>>("getNumbers", "()Ljava/util/Map;"); } set { IExecuteWithSignature("setNumbers", "(Ljava/util/Map;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDNumberTreeNode.html#getUpperLimit--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDNumberTreeNode.html#getUpperLimit--"/> 
         /// </summary>
         public Java.Lang.Integer UpperLimit
         {
             get { return IExecuteWithSignature<Java.Lang.Integer>("getUpperLimit", "()Ljava/lang/Integer;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDNumberTreeNode.html#getValue-java.lang.Integer-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDNumberTreeNode.html#getValue-java.lang.Integer-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.Integer"/></param>
         /// <returns><see cref="object"/></returns>

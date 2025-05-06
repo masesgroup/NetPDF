@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Io
 {
     #region RandomAccess declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/RandomAccess.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/RandomAccess.html"/>
     /// </summary>
     public partial class RandomAccess : MASES.JCOBridge.C2JBridge.JVMBridgeBase<RandomAccess>
     {
@@ -74,7 +74,7 @@ namespace Org.Apache.Pdfbox.Io
 
     #region IRandomAccess
     /// <summary>
-    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/RandomAccess.html"/>
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/RandomAccess.html"/>
     /// </summary>
     public partial interface IRandomAccess
     {

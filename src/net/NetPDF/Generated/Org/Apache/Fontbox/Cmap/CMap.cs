@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Cmap
 {
     #region CMap declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMap.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMap.html"/>
     /// </summary>
     public partial class CMap : MASES.JCOBridge.C2JBridge.JVMBridgeBase<CMap>
     {
@@ -91,63 +91,63 @@ namespace Org.Apache.Fontbox.Cmap
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMap.html#getName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMap.html#setName-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMap.html#getName--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMap.html#setName-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Name
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getName", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setName", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMap.html#getOrdering--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMap.html#setOrdering-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMap.html#getOrdering--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMap.html#setOrdering-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Ordering
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getOrdering", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setOrdering", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMap.html#getRegistry--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMap.html#setRegistry-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMap.html#getRegistry--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMap.html#setRegistry-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Registry
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getRegistry", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setRegistry", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMap.html#getSpaceMapping--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMap.html#getSpaceMapping--"/> 
         /// </summary>
         public int SpaceMapping
         {
             get { return IExecuteWithSignature<int>("getSpaceMapping", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMap.html#getSupplement--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMap.html#setSupplement-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMap.html#getSupplement--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMap.html#setSupplement-int-"/>
         /// </summary>
         public int Supplement
         {
             get { return IExecuteWithSignature<int>("getSupplement", "()I"); } set { IExecuteWithSignature("setSupplement", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMap.html#getType--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMap.html#setType-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMap.html#getType--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMap.html#setType-int-"/>
         /// </summary>
         public int Type
         {
             get { return IExecuteWithSignature<int>("getType", "()I"); } set { IExecuteWithSignature("setType", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMap.html#getVersion--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMap.html#setVersion-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMap.html#getVersion--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMap.html#setVersion-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Version
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getVersion", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setVersion", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMap.html#getWMode--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMap.html#setWMode-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMap.html#getWMode--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMap.html#setWMode-int-"/>
         /// </summary>
         public int WMode
         {
             get { return IExecuteWithSignature<int>("getWMode", "()I"); } set { IExecuteWithSignature("setWMode", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMap.html#hasCIDMappings--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMap.html#hasCIDMappings--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool HasCIDMappings()
@@ -155,7 +155,7 @@ namespace Org.Apache.Fontbox.Cmap
             return IExecuteWithSignature<bool>("hasCIDMappings", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMap.html#hasUnicodeMappings--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMap.html#hasUnicodeMappings--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool HasUnicodeMappings()
@@ -163,7 +163,7 @@ namespace Org.Apache.Fontbox.Cmap
             return IExecuteWithSignature<bool>("hasUnicodeMappings", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMap.html#getCodesFromUnicode-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMap.html#getCodesFromUnicode-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="byte"/></returns>
@@ -172,7 +172,7 @@ namespace Org.Apache.Fontbox.Cmap
             return IExecuteWithSignatureArray<byte>("getCodesFromUnicode", "(Ljava/lang/String;)[B", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMap.html#readCode-java.io.InputStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMap.html#readCode-java.io.InputStream-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.InputStream"/></param>
         /// <returns><see cref="int"/></returns>
@@ -182,7 +182,7 @@ namespace Org.Apache.Fontbox.Cmap
             return IExecuteWithSignature<int>("readCode", "(Ljava/io/InputStream;)I", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMap.html#toCID-byte[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMap.html#toCID-byte[]-"/>
         /// </summary>
         /// <param name="arg0"><see cref="byte"/></param>
         /// <returns><see cref="int"/></returns>
@@ -191,7 +191,7 @@ namespace Org.Apache.Fontbox.Cmap
             return IExecuteWithSignature<int>("toCID", "([B)I", new object[] { arg0 });
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMap.html#toCID-int-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMap.html#toCID-int-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -201,7 +201,7 @@ namespace Org.Apache.Fontbox.Cmap
             return IExecuteWithSignature<int>("toCID", "(II)I", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMap.html#toCID-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMap.html#toCID-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="int"/></returns>
@@ -210,7 +210,7 @@ namespace Org.Apache.Fontbox.Cmap
             return IExecuteWithSignature<int>("toCID", "(I)I", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMap.html#toUnicode-byte[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMap.html#toUnicode-byte[]-"/>
         /// </summary>
         /// <param name="arg0"><see cref="byte"/></param>
         /// <returns><see cref="Java.Lang.String"/></returns>
@@ -219,7 +219,7 @@ namespace Org.Apache.Fontbox.Cmap
             return IExecuteWithSignature<Java.Lang.String>("toUnicode", "([B)Ljava/lang/String;", new object[] { arg0 });
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMap.html#toUnicode-int-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMap.html#toUnicode-int-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -229,7 +229,7 @@ namespace Org.Apache.Fontbox.Cmap
             return IExecuteWithSignature<Java.Lang.String>("toUnicode", "(II)Ljava/lang/String;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cmap/CMap.html#toUnicode-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cmap/CMap.html#toUnicode-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="Java.Lang.String"/></returns>

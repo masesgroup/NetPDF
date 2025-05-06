@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf.Gsub
 {
     #region GsubWorker declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/gsub/GsubWorker.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/gsub/GsubWorker.html"/>
     /// </summary>
     public partial class GsubWorker : MASES.JCOBridge.C2JBridge.JVMBridgeBase<GsubWorker>
     {
@@ -74,7 +74,7 @@ namespace Org.Apache.Fontbox.Ttf.Gsub
 
     #region IGsubWorker
     /// <summary>
-    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/gsub/GsubWorker.html"/>
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/gsub/GsubWorker.html"/>
     /// </summary>
     public partial interface IGsubWorker
     {
@@ -111,7 +111,7 @@ namespace Org.Apache.Fontbox.Ttf.Gsub
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/gsub/GsubWorker.html#applyTransforms-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/gsub/GsubWorker.html#applyTransforms-java.util.List-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Util.List"/></param>
         /// <returns><see cref="Java.Util.List"/></returns>

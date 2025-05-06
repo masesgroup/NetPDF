@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator.Graphics
 {
     #region FillEvenOddRule declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/graphics/FillEvenOddRule.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/graphics/FillEvenOddRule.html"/>
     /// </summary>
     public partial class FillEvenOddRule : Org.Apache.Pdfbox.Contentstream.Operator.Graphics.GraphicsOperatorProcessor
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator.Graphics
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/graphics/FillEvenOddRule.html#org.apache.pdfbox.contentstream.operator.graphics.FillEvenOddRule(org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/graphics/FillEvenOddRule.html#org.apache.pdfbox.contentstream.operator.graphics.FillEvenOddRule(org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Contentstream.PDFGraphicsStreamEngine"/></param>
         public FillEvenOddRule(Org.Apache.Pdfbox.Contentstream.PDFGraphicsStreamEngine arg0)

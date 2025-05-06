@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent
 {
     #region PDOptionalContentMembershipDictionary declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentMembershipDictionary.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentMembershipDictionary.html"/>
     /// </summary>
     public partial class PDOptionalContentMembershipDictionary : Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Markedcontent.PDPropertyList
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentMembershipDictionary.html#org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentMembershipDictionary(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentMembershipDictionary.html#org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentMembershipDictionary(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDOptionalContentMembershipDictionary(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -99,14 +99,14 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Optionalcontent
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentMembershipDictionary.html#getOCGs--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentMembershipDictionary.html#setOCGs-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentMembershipDictionary.html#getOCGs--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentMembershipDictionary.html#setOCGs-java.util.List-"/>
         /// </summary>
         public Java.Util.List<Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Markedcontent.PDPropertyList> OCGs
         {
             get { return IExecuteWithSignature<Java.Util.List<Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Markedcontent.PDPropertyList>>("getOCGs", "()Ljava/util/List;"); } set { IExecuteWithSignature("setOCGs", "(Ljava/util/List;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentMembershipDictionary.html#getVisibilityPolicy--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentMembershipDictionary.html#setVisibilityPolicy-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentMembershipDictionary.html#getVisibilityPolicy--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentMembershipDictionary.html#setVisibilityPolicy-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSName VisibilityPolicy
         {

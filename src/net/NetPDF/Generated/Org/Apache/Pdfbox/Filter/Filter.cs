@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Filter
 {
     #region Filter declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/Filter.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/Filter.html"/>
     /// </summary>
     public partial class Filter : MASES.JCOBridge.C2JBridge.JVMBridgeBase<Filter>
     {
@@ -85,7 +85,7 @@ namespace Org.Apache.Pdfbox.Filter
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/Filter.html#SYSPROP_DEFLATELEVEL"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/Filter.html#SYSPROP_DEFLATELEVEL"/>
         /// </summary>
         public static Java.Lang.String SYSPROP_DEFLATELEVEL { get { if (!_SYSPROP_DEFLATELEVELReady) { _SYSPROP_DEFLATELEVELContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "SYSPROP_DEFLATELEVEL"); _SYSPROP_DEFLATELEVELReady = true; } return _SYSPROP_DEFLATELEVELContent; } }
         private static Java.Lang.String _SYSPROP_DEFLATELEVELContent = default;
@@ -95,14 +95,14 @@ namespace Org.Apache.Pdfbox.Filter
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/Filter.html#getCompressionLevel--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/Filter.html#getCompressionLevel--"/> 
         /// </summary>
         public static int CompressionLevel
         {
             get { return SExecuteWithSignature<int>(LocalBridgeClazz, "getCompressionLevel", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/Filter.html#findImageReader-java.lang.String-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/Filter.html#findImageReader-java.lang.String-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -113,7 +113,7 @@ namespace Org.Apache.Pdfbox.Filter
             return SExecuteWithSignature<Javax.Imageio.ImageReader>(LocalBridgeClazz, "findImageReader", "(Ljava/lang/String;Ljava/lang/String;)Ljavax/imageio/ImageReader;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/Filter.html#findRasterReader-java.lang.String-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/Filter.html#findRasterReader-java.lang.String-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <param name="arg1"><see cref="Java.Lang.String"/></param>
@@ -124,7 +124,7 @@ namespace Org.Apache.Pdfbox.Filter
             return SExecuteWithSignature<Javax.Imageio.ImageReader>(LocalBridgeClazz, "findRasterReader", "(Ljava/lang/String;Ljava/lang/String;)Ljavax/imageio/ImageReader;", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/Filter.html#decode-java.io.InputStream-java.util.List-org.apache.pdfbox.cos.COSDictionary-org.apache.pdfbox.filter.DecodeOptions-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/Filter.html#decode-java.io.InputStream-java.util.List-org.apache.pdfbox.cos.COSDictionary-org.apache.pdfbox.filter.DecodeOptions-java.util.List-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.InputStream"/></param>
         /// <param name="arg1"><see cref="Java.Util.List"/></param>
@@ -142,7 +142,7 @@ namespace Org.Apache.Pdfbox.Filter
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/Filter.html#decode-java.io.InputStream-java.io.OutputStream-org.apache.pdfbox.cos.COSDictionary-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/Filter.html#decode-java.io.InputStream-java.io.OutputStream-org.apache.pdfbox.cos.COSDictionary-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.InputStream"/></param>
         /// <param name="arg1"><see cref="Java.Io.OutputStream"/></param>
@@ -155,7 +155,7 @@ namespace Org.Apache.Pdfbox.Filter
             return IExecuteWithSignature<Org.Apache.Pdfbox.Filter.DecodeResult>("decode", "(Ljava/io/InputStream;Ljava/io/OutputStream;Lorg/apache/pdfbox/cos/COSDictionary;I)Lorg/apache/pdfbox/filter/DecodeResult;", arg0, arg1, arg2, arg3);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/Filter.html#encode-java.io.InputStream-java.io.OutputStream-org.apache.pdfbox.cos.COSDictionary-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/Filter.html#encode-java.io.InputStream-java.io.OutputStream-org.apache.pdfbox.cos.COSDictionary-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.InputStream"/></param>
         /// <param name="arg1"><see cref="Java.Io.OutputStream"/></param>
@@ -167,7 +167,7 @@ namespace Org.Apache.Pdfbox.Filter
             IExecuteWithSignature("encode", "(Ljava/io/InputStream;Ljava/io/OutputStream;Lorg/apache/pdfbox/cos/COSDictionary;I)V", arg0, arg1, arg2, arg3);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/Filter.html#decode-java.io.InputStream-java.io.OutputStream-org.apache.pdfbox.cos.COSDictionary-int-org.apache.pdfbox.filter.DecodeOptions-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/Filter.html#decode-java.io.InputStream-java.io.OutputStream-org.apache.pdfbox.cos.COSDictionary-int-org.apache.pdfbox.filter.DecodeOptions-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.InputStream"/></param>
         /// <param name="arg1"><see cref="Java.Io.OutputStream"/></param>

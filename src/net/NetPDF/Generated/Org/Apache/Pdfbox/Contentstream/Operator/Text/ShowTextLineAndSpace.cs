@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator.Text
 {
     #region ShowTextLineAndSpace declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/text/ShowTextLineAndSpace.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/text/ShowTextLineAndSpace.html"/>
     /// </summary>
     public partial class ShowTextLineAndSpace : Org.Apache.Pdfbox.Contentstream.Operator.OperatorProcessor
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator.Text
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/text/ShowTextLineAndSpace.html#org.apache.pdfbox.contentstream.operator.text.ShowTextLineAndSpace(org.apache.pdfbox.contentstream.PDFStreamEngine)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/text/ShowTextLineAndSpace.html#org.apache.pdfbox.contentstream.operator.text.ShowTextLineAndSpace(org.apache.pdfbox.contentstream.PDFStreamEngine)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Contentstream.PDFStreamEngine"/></param>
         public ShowTextLineAndSpace(Org.Apache.Pdfbox.Contentstream.PDFStreamEngine arg0)

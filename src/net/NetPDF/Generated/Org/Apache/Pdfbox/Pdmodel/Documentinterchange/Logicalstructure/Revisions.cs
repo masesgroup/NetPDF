@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
 {
     #region Revisions declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/Revisions.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/Revisions.html"/>
     /// </summary>
     public partial class Revisions : MASES.JCOBridge.C2JBridge.JVMBridgeBase<Revisions>
     {
@@ -72,7 +72,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
 
     #region Revisions<T> declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/Revisions.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/Revisions.html"/>
     /// </summary>
     /// <typeparam name="T"></typeparam>
     public partial class Revisions<T> : MASES.JCOBridge.C2JBridge.JVMBridgeBase<Revisions<T>>
@@ -137,7 +137,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/Revisions.html#getRevisionNumber-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/Revisions.html#getRevisionNumber-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="int"/></returns>
@@ -146,7 +146,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
             return IExecuteWithSignature<int>("getRevisionNumber", "(I)I", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/Revisions.html#size--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/Revisions.html#size--"/>
         /// </summary>
         /// <returns><see cref="int"/></returns>
         public int Size()
@@ -154,7 +154,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
             return IExecuteWithSignature<int>("size", "()I");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/Revisions.html#getObject-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/Revisions.html#getObject-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="object"/></returns>
@@ -163,7 +163,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
             return IExecuteWithSignature("getObject", "(I)Ljava/lang/Object;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/Revisions.html#addObject-java.lang.Object-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/Revisions.html#addObject-java.lang.Object-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="object"/></param>
         /// <param name="arg1"><see cref="int"/></param>
@@ -207,7 +207,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/Revisions.html#getRevisionNumber-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/Revisions.html#getRevisionNumber-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><see cref="int"/></returns>
@@ -216,7 +216,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
             return IExecuteWithSignature<int>("getRevisionNumber", "(I)I", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/Revisions.html#size--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/Revisions.html#size--"/>
         /// </summary>
         /// <returns><see cref="int"/></returns>
         public int Size()
@@ -224,7 +224,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
             return IExecuteWithSignature<int>("size", "()I");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/Revisions.html#getObject-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/Revisions.html#getObject-int-"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <returns><typeparamref name="T"/></returns>
@@ -233,7 +233,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure
             return IExecuteWithSignature<T>("getObject", "(I)Ljava/lang/Object;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/Revisions.html#addObject-java.lang.Object-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/Revisions.html#addObject-java.lang.Object-int-"/>
         /// </summary>
         /// <param name="arg0"><typeparamref name="T"/></param>
         /// <param name="arg1"><see cref="int"/></param>

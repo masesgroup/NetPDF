@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
 {
     #region FDFAnnotationText declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationText.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationText.html"/>
     /// </summary>
     public partial class FDFAnnotationText : Org.Apache.Pdfbox.Pdmodel.Fdf.FDFAnnotation
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationText.html#org.apache.pdfbox.pdmodel.fdf.FDFAnnotationText(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationText.html#org.apache.pdfbox.pdmodel.fdf.FDFAnnotationText(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public FDFAnnotationText(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -83,7 +83,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationText.html#org.apache.pdfbox.pdmodel.fdf.FDFAnnotationText(org.w3c.dom.Element)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationText.html#org.apache.pdfbox.pdmodel.fdf.FDFAnnotationText(org.w3c.dom.Element)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.W3c.Dom.Element"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -100,7 +100,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationText.html#SUBTYPE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationText.html#SUBTYPE"/>
         /// </summary>
         public static Java.Lang.String SUBTYPE { get { if (!_SUBTYPEReady) { _SUBTYPEContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "SUBTYPE"); _SUBTYPEReady = true; } return _SUBTYPEContent; } }
         private static Java.Lang.String _SUBTYPEContent = default;
@@ -114,21 +114,21 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationText.html#getIcon--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationText.html#setIcon-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationText.html#getIcon--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationText.html#setIcon-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String Icon
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getIcon", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setIcon", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationText.html#getState--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationText.html#setState-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationText.html#getState--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationText.html#setState-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String State
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getState", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setState", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationText.html#getStateModel--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationText.html#setStateModel-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationText.html#getStateModel--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationText.html#setStateModel-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String StateModel
         {

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Filespecification
 {
     #region PDSimpleFileSpecification declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/filespecification/PDSimpleFileSpecification.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/filespecification/PDSimpleFileSpecification.html"/>
     /// </summary>
     public partial class PDSimpleFileSpecification : Org.Apache.Pdfbox.Pdmodel.Common.Filespecification.PDFileSpecification
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common.Filespecification
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/filespecification/PDSimpleFileSpecification.html#org.apache.pdfbox.pdmodel.common.filespecification.PDSimpleFileSpecification(org.apache.pdfbox.cos.COSString)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/filespecification/PDSimpleFileSpecification.html#org.apache.pdfbox.pdmodel.common.filespecification.PDSimpleFileSpecification(org.apache.pdfbox.cos.COSString)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSString"/></param>
         public PDSimpleFileSpecification(Org.Apache.Pdfbox.Cos.COSString arg0)

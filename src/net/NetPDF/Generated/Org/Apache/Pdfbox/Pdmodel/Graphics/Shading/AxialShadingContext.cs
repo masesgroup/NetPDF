@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
 {
     #region AxialShadingContext declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/AxialShadingContext.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/AxialShadingContext.html"/>
     /// </summary>
     public partial class AxialShadingContext : Org.Apache.Pdfbox.Pdmodel.Graphics.Shading.ShadingContext
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/AxialShadingContext.html#org.apache.pdfbox.pdmodel.graphics.shading.AxialShadingContext(org.apache.pdfbox.pdmodel.graphics.shading.PDShadingType2,java.awt.image.ColorModel,java.awt.geom.AffineTransform,org.apache.pdfbox.util.Matrix,java.awt.Rectangle)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/AxialShadingContext.html#org.apache.pdfbox.pdmodel.graphics.shading.AxialShadingContext(org.apache.pdfbox.pdmodel.graphics.shading.PDShadingType2,java.awt.image.ColorModel,java.awt.geom.AffineTransform,org.apache.pdfbox.util.Matrix,java.awt.Rectangle)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Shading.PDShadingType2"/></param>
         /// <param name="arg1"><see cref="Java.Awt.ImageNs.ColorModel"/></param>
@@ -104,28 +104,28 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/AxialShadingContext.html#getCoords--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/AxialShadingContext.html#getCoords--"/> 
         /// </summary>
         public float[] Coords
         {
             get { return IExecuteWithSignatureArray<float>("getCoords", "()[F"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/AxialShadingContext.html#getDomain--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/AxialShadingContext.html#getDomain--"/> 
         /// </summary>
         public float[] Domain
         {
             get { return IExecuteWithSignatureArray<float>("getDomain", "()[F"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/AxialShadingContext.html#getExtend--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/AxialShadingContext.html#getExtend--"/> 
         /// </summary>
         public bool[] Extend
         {
             get { return IExecuteWithSignatureArray<bool>("getExtend", "()[Z"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/AxialShadingContext.html#getFunction--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/AxialShadingContext.html#getFunction--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.Function.PDFunction Function
         {

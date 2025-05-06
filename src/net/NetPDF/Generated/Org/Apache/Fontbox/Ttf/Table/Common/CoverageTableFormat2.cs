@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf.Table.Common
 {
     #region CoverageTableFormat2 declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/common/CoverageTableFormat2.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/common/CoverageTableFormat2.html"/>
     /// </summary>
     public partial class CoverageTableFormat2 : Org.Apache.Fontbox.Ttf.Table.Common.CoverageTableFormat1
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Fontbox.Ttf.Table.Common
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/common/CoverageTableFormat2.html#org.apache.fontbox.ttf.table.common.CoverageTableFormat2(int,org.apache.fontbox.ttf.table.common.RangeRecord[])"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/common/CoverageTableFormat2.html#org.apache.fontbox.ttf.table.common.CoverageTableFormat2(int,org.apache.fontbox.ttf.table.common.RangeRecord[])"/>
         /// </summary>
         /// <param name="arg0"><see cref="int"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Fontbox.Ttf.Table.Common.RangeRecord"/></param>
@@ -100,7 +100,7 @@ namespace Org.Apache.Fontbox.Ttf.Table.Common
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/table/common/CoverageTableFormat2.html#getRangeRecords--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/table/common/CoverageTableFormat2.html#getRangeRecords--"/> 
         /// </summary>
         public Org.Apache.Fontbox.Ttf.Table.Common.RangeRecord[] RangeRecords
         {

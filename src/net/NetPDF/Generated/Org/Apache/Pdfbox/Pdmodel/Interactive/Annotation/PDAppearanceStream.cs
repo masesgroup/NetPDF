@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
 {
     #region PDAppearanceStream declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceStream.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceStream.html"/>
     /// </summary>
     public partial class PDAppearanceStream : Org.Apache.Pdfbox.Pdmodel.Graphics.Form.PDFormXObject
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceStream.html#org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceStream(org.apache.pdfbox.cos.COSStream)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceStream.html#org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceStream(org.apache.pdfbox.cos.COSStream)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSStream"/></param>
         public PDAppearanceStream(Org.Apache.Pdfbox.Cos.COSStream arg0)
@@ -83,7 +83,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceStream.html#org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceStream(org.apache.pdfbox.pdmodel.PDDocument)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAppearanceStream.html#org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceStream(org.apache.pdfbox.pdmodel.PDDocument)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         public PDAppearanceStream(Org.Apache.Pdfbox.Pdmodel.PDDocument arg0)

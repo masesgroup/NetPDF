@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
 {
     #region PDLab declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDLab.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDLab.html"/>
     /// </summary>
     public partial class PDLab : Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDCIEDictionaryBasedColorSpace
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDLab.html#org.apache.pdfbox.pdmodel.graphics.color.PDLab(org.apache.pdfbox.cos.COSArray)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDLab.html#org.apache.pdfbox.pdmodel.graphics.color.PDLab(org.apache.pdfbox.cos.COSArray)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSArray"/></param>
         public PDLab(Org.Apache.Pdfbox.Cos.COSArray arg0)
@@ -99,14 +99,14 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Color
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDLab.html#getARange--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDLab.html#setARange-org.apache.pdfbox.pdmodel.common.PDRange-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDLab.html#getARange--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDLab.html#setARange-org.apache.pdfbox.pdmodel.common.PDRange-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.PDRange ARange
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.PDRange>("getARange", "()Lorg/apache/pdfbox/pdmodel/common/PDRange;"); } set { IExecuteWithSignature("setARange", "(Lorg/apache/pdfbox/pdmodel/common/PDRange;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDLab.html#getBRange--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/color/PDLab.html#setBRange-org.apache.pdfbox.pdmodel.common.PDRange-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDLab.html#getBRange--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/color/PDLab.html#setBRange-org.apache.pdfbox.pdmodel.common.PDRange-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.PDRange BRange
         {

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font.Encoding
 {
     #region MacExpertEncoding declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/encoding/MacExpertEncoding.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/encoding/MacExpertEncoding.html"/>
     /// </summary>
     public partial class MacExpertEncoding : Org.Apache.Pdfbox.Pdmodel.Font.Encoding.Encoding
     {
@@ -83,7 +83,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font.Encoding
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/encoding/MacExpertEncoding.html#INSTANCE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/encoding/MacExpertEncoding.html#INSTANCE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.Font.Encoding.MacExpertEncoding INSTANCE { get { if (!_INSTANCEReady) { _INSTANCEContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Font.Encoding.MacExpertEncoding>(LocalBridgeClazz, "INSTANCE"); _INSTANCEReady = true; } return _INSTANCEContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.Font.Encoding.MacExpertEncoding _INSTANCEContent = default;

@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Io
 {
     #region RandomAccessOutputStream declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/RandomAccessOutputStream.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/RandomAccessOutputStream.html"/>
     /// </summary>
     public partial class RandomAccessOutputStream : Java.Io.OutputStream
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Io
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.4/org/apache/pdfbox/io/RandomAccessOutputStream.html#org.apache.pdfbox.io.RandomAccessOutputStream(org.apache.pdfbox.io.RandomAccessWrite)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/org/apache/pdfbox/io/RandomAccessOutputStream.html#org.apache.pdfbox.io.RandomAccessOutputStream(org.apache.pdfbox.io.RandomAccessWrite)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Io.RandomAccessWrite"/></param>
         public RandomAccessOutputStream(Org.Apache.Pdfbox.Io.RandomAccessWrite arg0)

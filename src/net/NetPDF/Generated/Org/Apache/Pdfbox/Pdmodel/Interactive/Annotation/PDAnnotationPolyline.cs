@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
 {
     #region PDAnnotationPolyline declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPolyline.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPolyline.html"/>
     /// </summary>
     public partial class PDAnnotationPolyline : Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotationMarkup
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPolyline.html#org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationPolyline(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPolyline.html#org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationPolyline(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDAnnotationPolyline(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -91,7 +91,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPolyline.html#SUB_TYPE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPolyline.html#SUB_TYPE"/>
         /// </summary>
         public static Java.Lang.String SUB_TYPE { get { if (!_SUB_TYPEReady) { _SUB_TYPEContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "SUB_TYPE"); _SUB_TYPEReady = true; } return _SUB_TYPEContent; } }
         private static Java.Lang.String _SUB_TYPEContent = default;
@@ -105,35 +105,35 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPolyline.html#getEndPointEndingStyle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPolyline.html#setEndPointEndingStyle-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPolyline.html#getEndPointEndingStyle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPolyline.html#setEndPointEndingStyle-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String EndPointEndingStyle
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getEndPointEndingStyle", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setEndPointEndingStyle", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPolyline.html#getInteriorColor--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPolyline.html#setInteriorColor-org.apache.pdfbox.pdmodel.graphics.color.PDColor-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPolyline.html#getInteriorColor--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPolyline.html#setInteriorColor-org.apache.pdfbox.pdmodel.graphics.color.PDColor-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColor InteriorColor
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColor>("getInteriorColor", "()Lorg/apache/pdfbox/pdmodel/graphics/color/PDColor;"); } set { IExecuteWithSignature("setInteriorColor", "(Lorg/apache/pdfbox/pdmodel/graphics/color/PDColor;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPolyline.html#getStartPointEndingStyle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPolyline.html#setStartPointEndingStyle-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPolyline.html#getStartPointEndingStyle--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPolyline.html#setStartPointEndingStyle-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String StartPointEndingStyle
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getStartPointEndingStyle", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setStartPointEndingStyle", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPolyline.html#getVertices--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPolyline.html#setVertices-float[]-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPolyline.html#getVertices--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPolyline.html#setVertices-float[]-"/>
         /// </summary>
         public float[] Vertices
         {
             get { return IExecuteWithSignatureArray<float>("getVertices", "()[F"); } set { IExecuteWithSignature("setVertices", "([F)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPolyline.html#setCustomAppearanceHandler-org.apache.pdfbox.pdmodel.interactive.annotation.handlers.PDAppearanceHandler-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/annotation/PDAnnotationPolyline.html#setCustomAppearanceHandler-org.apache.pdfbox.pdmodel.interactive.annotation.handlers.PDAppearanceHandler-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Handlers.PDAppearanceHandler"/></param>
         public void SetCustomAppearanceHandler(Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.Handlers.PDAppearanceHandler arg0)

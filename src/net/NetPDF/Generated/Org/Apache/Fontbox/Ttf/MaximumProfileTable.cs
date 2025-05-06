@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Ttf
 {
     #region MaximumProfileTable declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html"/>
     /// </summary>
     public partial class MaximumProfileTable : Org.Apache.Fontbox.Ttf.TTFTable
     {
@@ -83,7 +83,7 @@ namespace Org.Apache.Fontbox.Ttf
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#TAG"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#TAG"/>
         /// </summary>
         public static Java.Lang.String TAG { get { if (!_TAGReady) { _TAGContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "TAG"); _TAGReady = true; } return _TAGContent; } }
         private static Java.Lang.String _TAGContent = default;
@@ -97,105 +97,105 @@ namespace Org.Apache.Fontbox.Ttf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#getMaxComponentDepth--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#setMaxComponentDepth-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#getMaxComponentDepth--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#setMaxComponentDepth-int-"/>
         /// </summary>
         public int MaxComponentDepth
         {
             get { return IExecuteWithSignature<int>("getMaxComponentDepth", "()I"); } set { IExecuteWithSignature("setMaxComponentDepth", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#getMaxComponentElements--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#setMaxComponentElements-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#getMaxComponentElements--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#setMaxComponentElements-int-"/>
         /// </summary>
         public int MaxComponentElements
         {
             get { return IExecuteWithSignature<int>("getMaxComponentElements", "()I"); } set { IExecuteWithSignature("setMaxComponentElements", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#getMaxCompositeContours--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#setMaxCompositeContours-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#getMaxCompositeContours--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#setMaxCompositeContours-int-"/>
         /// </summary>
         public int MaxCompositeContours
         {
             get { return IExecuteWithSignature<int>("getMaxCompositeContours", "()I"); } set { IExecuteWithSignature("setMaxCompositeContours", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#getMaxCompositePoints--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#setMaxCompositePoints-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#getMaxCompositePoints--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#setMaxCompositePoints-int-"/>
         /// </summary>
         public int MaxCompositePoints
         {
             get { return IExecuteWithSignature<int>("getMaxCompositePoints", "()I"); } set { IExecuteWithSignature("setMaxCompositePoints", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#getMaxContours--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#setMaxContours-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#getMaxContours--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#setMaxContours-int-"/>
         /// </summary>
         public int MaxContours
         {
             get { return IExecuteWithSignature<int>("getMaxContours", "()I"); } set { IExecuteWithSignature("setMaxContours", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#getMaxFunctionDefs--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#setMaxFunctionDefs-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#getMaxFunctionDefs--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#setMaxFunctionDefs-int-"/>
         /// </summary>
         public int MaxFunctionDefs
         {
             get { return IExecuteWithSignature<int>("getMaxFunctionDefs", "()I"); } set { IExecuteWithSignature("setMaxFunctionDefs", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#getMaxInstructionDefs--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#setMaxInstructionDefs-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#getMaxInstructionDefs--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#setMaxInstructionDefs-int-"/>
         /// </summary>
         public int MaxInstructionDefs
         {
             get { return IExecuteWithSignature<int>("getMaxInstructionDefs", "()I"); } set { IExecuteWithSignature("setMaxInstructionDefs", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#getMaxPoints--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#setMaxPoints-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#getMaxPoints--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#setMaxPoints-int-"/>
         /// </summary>
         public int MaxPoints
         {
             get { return IExecuteWithSignature<int>("getMaxPoints", "()I"); } set { IExecuteWithSignature("setMaxPoints", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#getMaxSizeOfInstructions--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#setMaxSizeOfInstructions-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#getMaxSizeOfInstructions--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#setMaxSizeOfInstructions-int-"/>
         /// </summary>
         public int MaxSizeOfInstructions
         {
             get { return IExecuteWithSignature<int>("getMaxSizeOfInstructions", "()I"); } set { IExecuteWithSignature("setMaxSizeOfInstructions", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#getMaxStackElements--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#setMaxStackElements-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#getMaxStackElements--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#setMaxStackElements-int-"/>
         /// </summary>
         public int MaxStackElements
         {
             get { return IExecuteWithSignature<int>("getMaxStackElements", "()I"); } set { IExecuteWithSignature("setMaxStackElements", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#getMaxStorage--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#setMaxStorage-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#getMaxStorage--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#setMaxStorage-int-"/>
         /// </summary>
         public int MaxStorage
         {
             get { return IExecuteWithSignature<int>("getMaxStorage", "()I"); } set { IExecuteWithSignature("setMaxStorage", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#getMaxTwilightPoints--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#setMaxTwilightPoints-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#getMaxTwilightPoints--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#setMaxTwilightPoints-int-"/>
         /// </summary>
         public int MaxTwilightPoints
         {
             get { return IExecuteWithSignature<int>("getMaxTwilightPoints", "()I"); } set { IExecuteWithSignature("setMaxTwilightPoints", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#getMaxZones--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#setMaxZones-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#getMaxZones--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#setMaxZones-int-"/>
         /// </summary>
         public int MaxZones
         {
             get { return IExecuteWithSignature<int>("getMaxZones", "()I"); } set { IExecuteWithSignature("setMaxZones", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#getNumGlyphs--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#setNumGlyphs-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#getNumGlyphs--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#setNumGlyphs-int-"/>
         /// </summary>
         public int NumGlyphs
         {
             get { return IExecuteWithSignature<int>("getNumGlyphs", "()I"); } set { IExecuteWithSignature("setNumGlyphs", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#getVersion--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/ttf/MaximumProfileTable.html#setVersion-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#getVersion--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/MaximumProfileTable.html#setVersion-float-"/>
         /// </summary>
         public float Version
         {

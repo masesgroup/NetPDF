@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
 {
     #region FDFIconFit declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html"/>
     /// </summary>
     public partial class FDFIconFit : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#org.apache.pdfbox.pdmodel.fdf.FDFIconFit(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#org.apache.pdfbox.pdmodel.fdf.FDFIconFit(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public FDFIconFit(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -91,37 +91,37 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#SCALE_OPTION_ALWAYS"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#SCALE_OPTION_ALWAYS"/>
         /// </summary>
         public static Java.Lang.String SCALE_OPTION_ALWAYS { get { if (!_SCALE_OPTION_ALWAYSReady) { _SCALE_OPTION_ALWAYSContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "SCALE_OPTION_ALWAYS"); _SCALE_OPTION_ALWAYSReady = true; } return _SCALE_OPTION_ALWAYSContent; } }
         private static Java.Lang.String _SCALE_OPTION_ALWAYSContent = default;
         private static bool _SCALE_OPTION_ALWAYSReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#SCALE_OPTION_NEVER"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#SCALE_OPTION_NEVER"/>
         /// </summary>
         public static Java.Lang.String SCALE_OPTION_NEVER { get { if (!_SCALE_OPTION_NEVERReady) { _SCALE_OPTION_NEVERContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "SCALE_OPTION_NEVER"); _SCALE_OPTION_NEVERReady = true; } return _SCALE_OPTION_NEVERContent; } }
         private static Java.Lang.String _SCALE_OPTION_NEVERContent = default;
         private static bool _SCALE_OPTION_NEVERReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#SCALE_OPTION_ONLY_WHEN_ICON_IS_BIGGER"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#SCALE_OPTION_ONLY_WHEN_ICON_IS_BIGGER"/>
         /// </summary>
         public static Java.Lang.String SCALE_OPTION_ONLY_WHEN_ICON_IS_BIGGER { get { if (!_SCALE_OPTION_ONLY_WHEN_ICON_IS_BIGGERReady) { _SCALE_OPTION_ONLY_WHEN_ICON_IS_BIGGERContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "SCALE_OPTION_ONLY_WHEN_ICON_IS_BIGGER"); _SCALE_OPTION_ONLY_WHEN_ICON_IS_BIGGERReady = true; } return _SCALE_OPTION_ONLY_WHEN_ICON_IS_BIGGERContent; } }
         private static Java.Lang.String _SCALE_OPTION_ONLY_WHEN_ICON_IS_BIGGERContent = default;
         private static bool _SCALE_OPTION_ONLY_WHEN_ICON_IS_BIGGERReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#SCALE_OPTION_ONLY_WHEN_ICON_IS_SMALLER"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#SCALE_OPTION_ONLY_WHEN_ICON_IS_SMALLER"/>
         /// </summary>
         public static Java.Lang.String SCALE_OPTION_ONLY_WHEN_ICON_IS_SMALLER { get { if (!_SCALE_OPTION_ONLY_WHEN_ICON_IS_SMALLERReady) { _SCALE_OPTION_ONLY_WHEN_ICON_IS_SMALLERContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "SCALE_OPTION_ONLY_WHEN_ICON_IS_SMALLER"); _SCALE_OPTION_ONLY_WHEN_ICON_IS_SMALLERReady = true; } return _SCALE_OPTION_ONLY_WHEN_ICON_IS_SMALLERContent; } }
         private static Java.Lang.String _SCALE_OPTION_ONLY_WHEN_ICON_IS_SMALLERContent = default;
         private static bool _SCALE_OPTION_ONLY_WHEN_ICON_IS_SMALLERReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#SCALE_TYPE_ANAMORPHIC"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#SCALE_TYPE_ANAMORPHIC"/>
         /// </summary>
         public static Java.Lang.String SCALE_TYPE_ANAMORPHIC { get { if (!_SCALE_TYPE_ANAMORPHICReady) { _SCALE_TYPE_ANAMORPHICContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "SCALE_TYPE_ANAMORPHIC"); _SCALE_TYPE_ANAMORPHICReady = true; } return _SCALE_TYPE_ANAMORPHICContent; } }
         private static Java.Lang.String _SCALE_TYPE_ANAMORPHICContent = default;
         private static bool _SCALE_TYPE_ANAMORPHICReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#SCALE_TYPE_PROPORTIONAL"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#SCALE_TYPE_PROPORTIONAL"/>
         /// </summary>
         public static Java.Lang.String SCALE_TYPE_PROPORTIONAL { get { if (!_SCALE_TYPE_PROPORTIONALReady) { _SCALE_TYPE_PROPORTIONALContent = SGetField<Java.Lang.String>(LocalBridgeClazz, "SCALE_TYPE_PROPORTIONAL"); _SCALE_TYPE_PROPORTIONALReady = true; } return _SCALE_TYPE_PROPORTIONALContent; } }
         private static Java.Lang.String _SCALE_TYPE_PROPORTIONALContent = default;
@@ -135,35 +135,35 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#getFractionalSpaceToAllocate--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#setFractionalSpaceToAllocate-org.apache.pdfbox.pdmodel.common.PDRange-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#getFractionalSpaceToAllocate--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#setFractionalSpaceToAllocate-org.apache.pdfbox.pdmodel.common.PDRange-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.PDRange FractionalSpaceToAllocate
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.PDRange>("getFractionalSpaceToAllocate", "()Lorg/apache/pdfbox/pdmodel/common/PDRange;"); } set { IExecuteWithSignature("setFractionalSpaceToAllocate", "(Lorg/apache/pdfbox/pdmodel/common/PDRange;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#getScaleOption--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#setScaleOption-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#getScaleOption--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#setScaleOption-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String ScaleOption
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getScaleOption", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setScaleOption", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#getScaleType--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#setScaleType-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#getScaleType--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#setScaleType-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String ScaleType
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getScaleType", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setScaleType", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#shouldScaleToFitAnnotation--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#shouldScaleToFitAnnotation--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool ShouldScaleToFitAnnotation()
@@ -171,7 +171,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Fdf
             return IExecuteWithSignature<bool>("shouldScaleToFitAnnotation", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#setScaleToFitAnnotation-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFIconFit.html#setScaleToFitAnnotation-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetScaleToFitAnnotation(bool arg0)

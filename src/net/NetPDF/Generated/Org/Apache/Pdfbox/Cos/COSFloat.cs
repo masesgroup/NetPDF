@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Cos
 {
     #region COSFloat declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSFloat.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSFloat.html"/>
     /// </summary>
     public partial class COSFloat : Org.Apache.Pdfbox.Cos.COSNumber
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Cos
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSFloat.html#org.apache.pdfbox.cos.COSFloat(float)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSFloat.html#org.apache.pdfbox.cos.COSFloat(float)"/>
         /// </summary>
         /// <param name="arg0"><see cref="float"/></param>
         public COSFloat(float arg0)
@@ -83,7 +83,7 @@ namespace Org.Apache.Pdfbox.Cos
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSFloat.html#org.apache.pdfbox.cos.COSFloat(java.lang.String)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSFloat.html#org.apache.pdfbox.cos.COSFloat(java.lang.String)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -100,13 +100,13 @@ namespace Org.Apache.Pdfbox.Cos
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSFloat.html#ONE"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSFloat.html#ONE"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSFloat ONE { get { if (!_ONEReady) { _ONEContent = SGetField<Org.Apache.Pdfbox.Cos.COSFloat>(LocalBridgeClazz, "ONE"); _ONEReady = true; } return _ONEContent; } }
         private static Org.Apache.Pdfbox.Cos.COSFloat _ONEContent = default;
         private static bool _ONEReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSFloat.html#ZERO"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSFloat.html#ZERO"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Cos.COSFloat ZERO { get { if (!_ZEROReady) { _ZEROContent = SGetField<Org.Apache.Pdfbox.Cos.COSFloat>(LocalBridgeClazz, "ZERO"); _ZEROReady = true; } return _ZEROContent; } }
         private static Org.Apache.Pdfbox.Cos.COSFloat _ZEROContent = default;
@@ -120,7 +120,7 @@ namespace Org.Apache.Pdfbox.Cos
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSFloat.html#writePDF-java.io.OutputStream-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSFloat.html#writePDF-java.io.OutputStream-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.OutputStream"/></param>
         /// <exception cref="Java.Io.IOException"/>

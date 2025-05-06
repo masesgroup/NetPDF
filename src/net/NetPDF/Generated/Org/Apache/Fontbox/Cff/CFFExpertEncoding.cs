@@ -27,7 +27,7 @@ namespace Org.Apache.Fontbox.Cff
 {
     #region CFFExpertEncoding declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFExpertEncoding.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFExpertEncoding.html"/>
     /// </summary>
     public partial class CFFExpertEncoding : Org.Apache.Fontbox.Cff.CFFEncoding
     {
@@ -87,7 +87,7 @@ namespace Org.Apache.Fontbox.Cff
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.4/org/apache/fontbox/cff/CFFExpertEncoding.html#getInstance--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/cff/CFFExpertEncoding.html#getInstance--"/> 
         /// </summary>
         public static Org.Apache.Fontbox.Cff.CFFExpertEncoding Instance
         {

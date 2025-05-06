@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator.Graphics
 {
     #region DrawObject declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/graphics/DrawObject.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/graphics/DrawObject.html"/>
     /// </summary>
     public partial class DrawObject : Org.Apache.Pdfbox.Contentstream.Operator.Graphics.GraphicsOperatorProcessor
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Contentstream.Operator.Graphics
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/contentstream/operator/graphics/DrawObject.html#org.apache.pdfbox.contentstream.operator.graphics.DrawObject(org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/graphics/DrawObject.html#org.apache.pdfbox.contentstream.operator.graphics.DrawObject(org.apache.pdfbox.contentstream.PDFGraphicsStreamEngine)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Contentstream.PDFGraphicsStreamEngine"/></param>
         public DrawObject(Org.Apache.Pdfbox.Contentstream.PDFGraphicsStreamEngine arg0)

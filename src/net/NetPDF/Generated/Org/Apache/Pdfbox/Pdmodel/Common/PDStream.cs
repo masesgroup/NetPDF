@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
 {
     #region PDStream declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html"/>
     /// </summary>
     public partial class PDStream : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#org.apache.pdfbox.pdmodel.common.PDStream(org.apache.pdfbox.cos.COSDocument)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#org.apache.pdfbox.pdmodel.common.PDStream(org.apache.pdfbox.cos.COSDocument)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDocument"/></param>
         public PDStream(Org.Apache.Pdfbox.Cos.COSDocument arg0)
@@ -83,7 +83,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#org.apache.pdfbox.pdmodel.common.PDStream(org.apache.pdfbox.cos.COSStream)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#org.apache.pdfbox.pdmodel.common.PDStream(org.apache.pdfbox.cos.COSStream)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSStream"/></param>
         public PDStream(Org.Apache.Pdfbox.Cos.COSStream arg0)
@@ -91,7 +91,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#org.apache.pdfbox.pdmodel.common.PDStream(org.apache.pdfbox.pdmodel.PDDocument,java.io.InputStream,org.apache.pdfbox.cos.COSArray)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#org.apache.pdfbox.pdmodel.common.PDStream(org.apache.pdfbox.pdmodel.PDDocument,java.io.InputStream,org.apache.pdfbox.cos.COSArray)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <param name="arg1"><see cref="Java.Io.InputStream"/></param>
@@ -102,7 +102,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#org.apache.pdfbox.pdmodel.common.PDStream(org.apache.pdfbox.pdmodel.PDDocument,java.io.InputStream,org.apache.pdfbox.cos.COSName)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#org.apache.pdfbox.pdmodel.common.PDStream(org.apache.pdfbox.pdmodel.PDDocument,java.io.InputStream,org.apache.pdfbox.cos.COSName)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <param name="arg1"><see cref="Java.Io.InputStream"/></param>
@@ -113,7 +113,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#org.apache.pdfbox.pdmodel.common.PDStream(org.apache.pdfbox.pdmodel.PDDocument,java.io.InputStream)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#org.apache.pdfbox.pdmodel.common.PDStream(org.apache.pdfbox.pdmodel.PDDocument,java.io.InputStream)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <param name="arg1"><see cref="Java.Io.InputStream"/></param>
@@ -123,7 +123,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#org.apache.pdfbox.pdmodel.common.PDStream(org.apache.pdfbox.pdmodel.PDDocument)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#org.apache.pdfbox.pdmodel.common.PDStream(org.apache.pdfbox.pdmodel.PDDocument)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         public PDStream(Org.Apache.Pdfbox.Pdmodel.PDDocument arg0)
@@ -147,70 +147,70 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#getDecodedStreamLength--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#setDecodedStreamLength-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#getDecodedStreamLength--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#setDecodedStreamLength-int-"/>
         /// </summary>
         public int DecodedStreamLength
         {
             get { return IExecuteWithSignature<int>("getDecodedStreamLength", "()I"); } set { IExecuteWithSignature("setDecodedStreamLength", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#getDecodeParms--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#setDecodeParms-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#getDecodeParms--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#setDecodeParms-java.util.List-"/>
         /// </summary>
         public Java.Util.List<object> DecodeParms
         {
             get { return IExecuteWithSignature<Java.Util.List<object>>("getDecodeParms", "()Ljava/util/List;"); } set { IExecuteWithSignature("setDecodeParms", "(Ljava/util/List;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#getFile--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#setFile-org.apache.pdfbox.pdmodel.common.filespecification.PDFileSpecification-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#getFile--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#setFile-org.apache.pdfbox.pdmodel.common.filespecification.PDFileSpecification-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.Filespecification.PDFileSpecification File
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.Filespecification.PDFileSpecification>("getFile", "()Lorg/apache/pdfbox/pdmodel/common/filespecification/PDFileSpecification;"); } set { IExecuteWithSignature("setFile", "(Lorg/apache/pdfbox/pdmodel/common/filespecification/PDFileSpecification;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#getFileDecodeParams--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#setFileDecodeParams-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#getFileDecodeParams--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#setFileDecodeParams-java.util.List-"/>
         /// </summary>
         public Java.Util.List<object> FileDecodeParams
         {
             get { return IExecuteWithSignature<Java.Util.List<object>>("getFileDecodeParams", "()Ljava/util/List;"); } set { IExecuteWithSignature("setFileDecodeParams", "(Ljava/util/List;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#getFileFilters--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#setFileFilters-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#getFileFilters--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#setFileFilters-java.util.List-"/>
         /// </summary>
         public Java.Util.List<Java.Lang.String> FileFilters
         {
             get { return IExecuteWithSignature<Java.Util.List<Java.Lang.String>>("getFileFilters", "()Ljava/util/List;"); } set { IExecuteWithSignature("setFileFilters", "(Ljava/util/List;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#getFilters--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#setFilters-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#getFilters--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#setFilters-java.util.List-"/>
         /// </summary>
         public Java.Util.List<Org.Apache.Pdfbox.Cos.COSName> Filters
         {
             get { return IExecuteWithSignature<Java.Util.List<Org.Apache.Pdfbox.Cos.COSName>>("getFilters", "()Ljava/util/List;"); } set { IExecuteWithSignature("setFilters", "(Ljava/util/List;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#getLength--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#getLength--"/> 
         /// </summary>
         public int Length
         {
             get { return IExecuteWithSignature<int>("getLength", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#getMetadata--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#setMetadata-org.apache.pdfbox.pdmodel.common.PDMetadata-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#getMetadata--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#setMetadata-org.apache.pdfbox.pdmodel.common.PDMetadata-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Common.PDMetadata Metadata
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Common.PDMetadata>("getMetadata", "()Lorg/apache/pdfbox/pdmodel/common/PDMetadata;"); } set { IExecuteWithSignature("setMetadata", "(Lorg/apache/pdfbox/pdmodel/common/PDMetadata;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#toByteArray--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#toByteArray--"/>
         /// </summary>
         /// <returns><see cref="byte"/></returns>
         /// <exception cref="Java.Io.IOException"/>
@@ -219,7 +219,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
             return IExecuteWithSignatureArray<byte>("toByteArray", "()[B");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#createInputStream-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#createInputStream-java.util.List-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Util.List"/></param>
         /// <returns><see cref="Java.Io.InputStream"/></returns>
@@ -229,7 +229,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
             return IExecuteWithSignature<Java.Io.InputStream>("createInputStream", "(Ljava/util/List;)Ljava/io/InputStream;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#createOutputStream--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#createOutputStream--"/>
         /// </summary>
         /// <returns><see cref="Java.Io.OutputStream"/></returns>
         /// <exception cref="Java.Io.IOException"/>
@@ -238,7 +238,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
             return IExecuteWithSignature<Java.Io.OutputStream>("createOutputStream", "()Ljava/io/OutputStream;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#createOutputStream-org.apache.pdfbox.cos.COSName-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#createOutputStream-org.apache.pdfbox.cos.COSName-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSName"/></param>
         /// <returns><see cref="Java.Io.OutputStream"/></returns>
@@ -248,7 +248,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
             return IExecuteWithSignature<Java.Io.OutputStream>("createOutputStream", "(Lorg/apache/pdfbox/cos/COSName;)Ljava/io/OutputStream;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#createInputStream--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#createInputStream--"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Pdfbox.Cos.COSInputStream"/></returns>
         /// <exception cref="Java.Io.IOException"/>
@@ -257,7 +257,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Common
             return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSInputStream>("createInputStream", "()Lorg/apache/pdfbox/cos/COSInputStream;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/common/PDStream.html#createInputStream-org.apache.pdfbox.filter.DecodeOptions-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/PDStream.html#createInputStream-org.apache.pdfbox.filter.DecodeOptions-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Filter.DecodeOptions"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Cos.COSInputStream"/></returns>

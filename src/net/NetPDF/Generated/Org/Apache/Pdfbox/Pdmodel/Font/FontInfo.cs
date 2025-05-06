@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
 {
     #region FontInfo declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontInfo.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontInfo.html"/>
     /// </summary>
     public partial class FontInfo : MASES.JCOBridge.C2JBridge.JVMBridgeBase<FontInfo>
     {
@@ -93,70 +93,70 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontInfo.html#getCIDSystemInfo--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontInfo.html#getCIDSystemInfo--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Font.CIDSystemInfo CIDSystemInfo
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Font.CIDSystemInfo>("getCIDSystemInfo", "()Lorg/apache/pdfbox/pdmodel/font/CIDSystemInfo;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontInfo.html#getCodePageRange1--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontInfo.html#getCodePageRange1--"/> 
         /// </summary>
         public int CodePageRange1
         {
             get { return IExecuteWithSignature<int>("getCodePageRange1", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontInfo.html#getCodePageRange2--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontInfo.html#getCodePageRange2--"/> 
         /// </summary>
         public int CodePageRange2
         {
             get { return IExecuteWithSignature<int>("getCodePageRange2", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontInfo.html#getFamilyClass--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontInfo.html#getFamilyClass--"/> 
         /// </summary>
         public int FamilyClass
         {
             get { return IExecuteWithSignature<int>("getFamilyClass", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontInfo.html#getFont--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontInfo.html#getFont--"/> 
         /// </summary>
         public Org.Apache.Fontbox.FontBoxFont Font
         {
             get { return IExecuteWithSignature<Org.Apache.Fontbox.FontBoxFont>("getFont", "()Lorg/apache/fontbox/FontBoxFont;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontInfo.html#getFormat--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontInfo.html#getFormat--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Font.FontFormat Format
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Font.FontFormat>("getFormat", "()Lorg/apache/pdfbox/pdmodel/font/FontFormat;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontInfo.html#getMacStyle--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontInfo.html#getMacStyle--"/> 
         /// </summary>
         public int MacStyle
         {
             get { return IExecuteWithSignature<int>("getMacStyle", "()I"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontInfo.html#getPanose--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontInfo.html#getPanose--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Font.PDPanoseClassification Panose
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Font.PDPanoseClassification>("getPanose", "()Lorg/apache/pdfbox/pdmodel/font/PDPanoseClassification;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontInfo.html#getPostScriptName--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontInfo.html#getPostScriptName--"/> 
         /// </summary>
         public Java.Lang.String PostScriptName
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getPostScriptName", "()Ljava/lang/String;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontInfo.html#getWeightClass--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontInfo.html#getWeightClass--"/> 
         /// </summary>
         public int WeightClass
         {

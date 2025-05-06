@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Cos
 {
     #region COSStream declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSStream.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSStream.html"/>
     /// </summary>
     public partial class COSStream : Org.Apache.Pdfbox.Cos.COSDictionary
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Cos
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSStream.html#org.apache.pdfbox.cos.COSStream(org.apache.pdfbox.io.RandomAccessStreamCache,org.apache.pdfbox.io.RandomAccessReadView)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSStream.html#org.apache.pdfbox.cos.COSStream(org.apache.pdfbox.io.RandomAccessStreamCache,org.apache.pdfbox.io.RandomAccessReadView)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Io.RandomAccessStreamCache"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Io.RandomAccessReadView"/></param>
@@ -85,7 +85,7 @@ namespace Org.Apache.Pdfbox.Cos
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSStream.html#org.apache.pdfbox.cos.COSStream(org.apache.pdfbox.io.RandomAccessStreamCache)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSStream.html#org.apache.pdfbox.cos.COSStream(org.apache.pdfbox.io.RandomAccessStreamCache)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Io.RandomAccessStreamCache"/></param>
         public COSStream(Org.Apache.Pdfbox.Io.RandomAccessStreamCache arg0)
@@ -113,21 +113,21 @@ namespace Org.Apache.Pdfbox.Cos
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSStream.html#getFilters--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSStream.html#getFilters--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase Filters
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getFilters", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSStream.html#getLength--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSStream.html#getLength--"/> 
         /// </summary>
         public long Length
         {
             get { return IExecuteWithSignature<long>("getLength", "()J"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSStream.html#hasData--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSStream.html#hasData--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool HasData()
@@ -135,7 +135,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<bool>("hasData", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSStream.html#createRawInputStream--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSStream.html#createRawInputStream--"/>
         /// </summary>
         /// <returns><see cref="Java.Io.InputStream"/></returns>
         /// <exception cref="Java.Io.IOException"/>
@@ -144,7 +144,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Java.Io.InputStream>("createRawInputStream", "()Ljava/io/InputStream;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSStream.html#createOutputStream--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSStream.html#createOutputStream--"/>
         /// </summary>
         /// <returns><see cref="Java.Io.OutputStream"/></returns>
         /// <exception cref="Java.Io.IOException"/>
@@ -153,7 +153,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Java.Io.OutputStream>("createOutputStream", "()Ljava/io/OutputStream;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSStream.html#createOutputStream-org.apache.pdfbox.cos.COSBase-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSStream.html#createOutputStream-org.apache.pdfbox.cos.COSBase-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></param>
         /// <returns><see cref="Java.Io.OutputStream"/></returns>
@@ -163,7 +163,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Java.Io.OutputStream>("createOutputStream", "(Lorg/apache/pdfbox/cos/COSBase;)Ljava/io/OutputStream;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSStream.html#createRawOutputStream--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSStream.html#createRawOutputStream--"/>
         /// </summary>
         /// <returns><see cref="Java.Io.OutputStream"/></returns>
         /// <exception cref="Java.Io.IOException"/>
@@ -172,7 +172,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Java.Io.OutputStream>("createRawOutputStream", "()Ljava/io/OutputStream;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSStream.html#toTextString--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSStream.html#toTextString--"/>
         /// </summary>
         /// <returns><see cref="Java.Lang.String"/></returns>
         public Java.Lang.String ToTextString()
@@ -180,7 +180,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Java.Lang.String>("toTextString", "()Ljava/lang/String;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSStream.html#createInputStream--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSStream.html#createInputStream--"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Pdfbox.Cos.COSInputStream"/></returns>
         /// <exception cref="Java.Io.IOException"/>
@@ -189,7 +189,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSInputStream>("createInputStream", "()Lorg/apache/pdfbox/cos/COSInputStream;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSStream.html#createInputStream-org.apache.pdfbox.filter.DecodeOptions-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSStream.html#createInputStream-org.apache.pdfbox.filter.DecodeOptions-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Filter.DecodeOptions"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Cos.COSInputStream"/></returns>
@@ -199,7 +199,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSInputStream>("createInputStream", "(Lorg/apache/pdfbox/filter/DecodeOptions;)Lorg/apache/pdfbox/cos/COSInputStream;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSStream.html#createView--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSStream.html#createView--"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Pdfbox.Io.RandomAccessRead"/></returns>
         /// <exception cref="Java.Io.IOException"/>
@@ -208,7 +208,7 @@ namespace Org.Apache.Pdfbox.Cos
             return IExecuteWithSignature<Org.Apache.Pdfbox.Io.RandomAccessRead>("createView", "()Lorg/apache/pdfbox/io/RandomAccessRead;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/cos/COSStream.html#close--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/cos/COSStream.html#close--"/>
         /// </summary>
         /// <exception cref="Java.Io.IOException"/>
         public void Close()

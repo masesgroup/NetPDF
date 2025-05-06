@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Filter
 {
     #region FlateFilterDecoderStream declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/FlateFilterDecoderStream.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/FlateFilterDecoderStream.html"/>
     /// </summary>
     public partial class FlateFilterDecoderStream : Java.Io.FilterInputStream
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Filter
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/FlateFilterDecoderStream.html#org.apache.pdfbox.filter.FlateFilterDecoderStream(java.io.InputStream)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/FlateFilterDecoderStream.html#org.apache.pdfbox.filter.FlateFilterDecoderStream(java.io.InputStream)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Io.InputStream"/></param>
         /// <exception cref="Java.Io.IOException"/>

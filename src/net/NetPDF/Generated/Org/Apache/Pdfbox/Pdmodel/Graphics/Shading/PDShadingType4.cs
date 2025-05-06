@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
 {
     #region PDShadingType4 declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShadingType4.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShadingType4.html"/>
     /// </summary>
     public partial class PDShadingType4 : MASES.JCOBridge.C2JBridge.JVMBridgeBase<PDShadingType4>
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShadingType4.html#org.apache.pdfbox.pdmodel.graphics.shading.PDShadingType4(org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShadingType4.html#org.apache.pdfbox.pdmodel.graphics.shading.PDShadingType4(org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
         public PDShadingType4(Org.Apache.Pdfbox.Cos.COSDictionary arg0)
@@ -99,7 +99,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Shading
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShadingType4.html#getBitsPerFlag--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/shading/PDShadingType4.html#setBitsPerFlag-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShadingType4.html#getBitsPerFlag--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/shading/PDShadingType4.html#setBitsPerFlag-int-"/>
         /// </summary>
         public int BitsPerFlag
         {

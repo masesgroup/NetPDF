@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Blend
 {
     #region BlendComposite declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendComposite.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendComposite.html"/>
     /// </summary>
     public partial class BlendComposite : Java.Awt.Composite
     {
@@ -87,7 +87,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Blend
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendComposite.html#getInstance-org.apache.pdfbox.pdmodel.graphics.blend.BlendMode-float-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendComposite.html#getInstance-org.apache.pdfbox.pdmodel.graphics.blend.BlendMode-float-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Blend.BlendMode"/></param>
         /// <param name="arg1"><see cref="float"/></param>
@@ -101,7 +101,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Blend
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/blend/BlendComposite.html#createContext-java.awt.image.ColorModel-java.awt.image.ColorModel-java.awt.RenderingHints-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/blend/BlendComposite.html#createContext-java.awt.image.ColorModel-java.awt.image.ColorModel-java.awt.RenderingHints-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Awt.ImageNs.ColorModel"/></param>
         /// <param name="arg1"><see cref="Java.Awt.ImageNs.ColorModel"/></param>

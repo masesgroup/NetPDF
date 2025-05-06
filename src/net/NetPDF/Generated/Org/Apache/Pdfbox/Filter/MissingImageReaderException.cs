@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Filter
 {
     #region MissingImageReaderException declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/filter/MissingImageReaderException.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/filter/MissingImageReaderException.html"/>
     /// </summary>
     public partial class MissingImageReaderException : Java.Io.IOException
     {

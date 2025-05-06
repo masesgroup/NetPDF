@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Rendering
 {
     #region PageDrawerParameters declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PageDrawerParameters.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PageDrawerParameters.html"/>
     /// </summary>
     public partial class PageDrawerParameters : MASES.JCOBridge.C2JBridge.JVMBridgeBase<PageDrawerParameters>
     {
@@ -91,35 +91,35 @@ namespace Org.Apache.Pdfbox.Rendering
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PageDrawerParameters.html#getDestination--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PageDrawerParameters.html#getDestination--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Rendering.RenderDestination Destination
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Rendering.RenderDestination>("getDestination", "()Lorg/apache/pdfbox/rendering/RenderDestination;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PageDrawerParameters.html#getImageDownscalingOptimizationThreshold--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PageDrawerParameters.html#getImageDownscalingOptimizationThreshold--"/> 
         /// </summary>
         public float ImageDownscalingOptimizationThreshold
         {
             get { return IExecuteWithSignature<float>("getImageDownscalingOptimizationThreshold", "()F"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PageDrawerParameters.html#getPage--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PageDrawerParameters.html#getPage--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.PDPage Page
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.PDPage>("getPage", "()Lorg/apache/pdfbox/pdmodel/PDPage;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PageDrawerParameters.html#getRenderingHints--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PageDrawerParameters.html#getRenderingHints--"/> 
         /// </summary>
         public Java.Awt.RenderingHints RenderingHints
         {
             get { return IExecuteWithSignature<Java.Awt.RenderingHints>("getRenderingHints", "()Ljava/awt/RenderingHints;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/rendering/PageDrawerParameters.html#isSubsamplingAllowed--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/rendering/PageDrawerParameters.html#isSubsamplingAllowed--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsSubsamplingAllowed()

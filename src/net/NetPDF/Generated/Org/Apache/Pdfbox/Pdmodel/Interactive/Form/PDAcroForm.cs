@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
 {
     #region PDAcroForm declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html"/>
     /// </summary>
     public partial class PDAcroForm : Org.Apache.Pdfbox.Pdmodel.Common.COSObjectable
     {
@@ -75,7 +75,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
     {
         #region Constructors
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm(org.apache.pdfbox.pdmodel.PDDocument,org.apache.pdfbox.cos.COSDictionary)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm(org.apache.pdfbox.pdmodel.PDDocument,org.apache.pdfbox.cos.COSDictionary)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <param name="arg1"><see cref="Org.Apache.Pdfbox.Cos.COSDictionary"/></param>
@@ -84,7 +84,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
         {
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm(org.apache.pdfbox.pdmodel.PDDocument)"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm(org.apache.pdfbox.pdmodel.PDDocument)"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         public PDAcroForm(Org.Apache.Pdfbox.Pdmodel.PDDocument arg0)
@@ -108,84 +108,84 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#getCalcOrder--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#setCalcOrder-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#getCalcOrder--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#setCalcOrder-java.util.List-"/>
         /// </summary>
         public Java.Util.List<Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDField> CalcOrder
         {
             get { return IExecuteWithSignature<Java.Util.List<Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDField>>("getCalcOrder", "()Ljava/util/List;"); } set { IExecuteWithSignature("setCalcOrder", "(Ljava/util/List;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#getCOSObject--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#getCOSObject--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Cos.COSBase COSObject
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Cos.COSBase>("getCOSObject", "()Lorg/apache/pdfbox/cos/COSBase;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#getDefaultAppearance--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#setDefaultAppearance-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#getDefaultAppearance--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#setDefaultAppearance-java.lang.String-"/>
         /// </summary>
         public Java.Lang.String DefaultAppearance
         {
             get { return IExecuteWithSignature<Java.Lang.String>("getDefaultAppearance", "()Ljava/lang/String;"); } set { IExecuteWithSignature("setDefaultAppearance", "(Ljava/lang/String;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#getDefaultResources--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#setDefaultResources-org.apache.pdfbox.pdmodel.PDResources-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#getDefaultResources--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#setDefaultResources-org.apache.pdfbox.pdmodel.PDResources-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.PDResources DefaultResources
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.PDResources>("getDefaultResources", "()Lorg/apache/pdfbox/pdmodel/PDResources;"); } set { IExecuteWithSignature("setDefaultResources", "(Lorg/apache/pdfbox/pdmodel/PDResources;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#getFieldIterator--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#getFieldIterator--"/> 
         /// </summary>
         public Java.Util.Iterator<Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDField> FieldIterator
         {
             get { return IExecuteWithSignature<Java.Util.Iterator<Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDField>>("getFieldIterator", "()Ljava/util/Iterator;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#getFields--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#setFields-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#getFields--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#setFields-java.util.List-"/>
         /// </summary>
         public Java.Util.List<Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDField> Fields
         {
             get { return IExecuteWithSignature<Java.Util.List<Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDField>>("getFields", "()Ljava/util/List;"); } set { IExecuteWithSignature("setFields", "(Ljava/util/List;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#getFieldTree--"/> 
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#getFieldTree--"/> 
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDFieldTree FieldTree
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDFieldTree>("getFieldTree", "()Lorg/apache/pdfbox/pdmodel/interactive/form/PDFieldTree;"); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#getNeedAppearances--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#setNeedAppearances-java.lang.Boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#getNeedAppearances--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#setNeedAppearances-java.lang.Boolean-"/>
         /// </summary>
         public bool NeedAppearances
         {
             get { return IExecuteWithSignature<bool>("getNeedAppearances", "()Z"); } set { IExecuteWithSignature("setNeedAppearances", "(Ljava/lang/Boolean;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#getQ--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#setQ-int-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#getQ--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#setQ-int-"/>
         /// </summary>
         public int Q
         {
             get { return IExecuteWithSignature<int>("getQ", "()I"); } set { IExecuteWithSignature("setQ", "(I)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#getScriptingHandler--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#setScriptingHandler-org.apache.pdfbox.pdmodel.interactive.form.ScriptingHandler-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#getScriptingHandler--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#setScriptingHandler-org.apache.pdfbox.pdmodel.interactive.form.ScriptingHandler-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Form.ScriptingHandler ScriptingHandler
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Form.ScriptingHandler>("getScriptingHandler", "()Lorg/apache/pdfbox/pdmodel/interactive/form/ScriptingHandler;"); } set { IExecuteWithSignature("setScriptingHandler", "(Lorg/apache/pdfbox/pdmodel/interactive/form/ScriptingHandler;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#getXFA--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#setXFA-org.apache.pdfbox.pdmodel.interactive.form.PDXFAResource-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#getXFA--"/> <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#setXFA-org.apache.pdfbox.pdmodel.interactive.form.PDXFAResource-"/>
         /// </summary>
         public Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDXFAResource XFA
         {
             get { return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDXFAResource>("getXFA", "()Lorg/apache/pdfbox/pdmodel/interactive/form/PDXFAResource;"); } set { IExecuteWithSignature("setXFA", "(Lorg/apache/pdfbox/pdmodel/interactive/form/PDXFAResource;)V", value); }
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#hasXFA--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#hasXFA--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool HasXFA()
@@ -193,7 +193,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             return IExecuteWithSignature<bool>("hasXFA", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#isAppendOnly--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#isAppendOnly--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsAppendOnly()
@@ -201,7 +201,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             return IExecuteWithSignature<bool>("isAppendOnly", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#isCachingFields--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#isCachingFields--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsCachingFields()
@@ -209,7 +209,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             return IExecuteWithSignature<bool>("isCachingFields", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#isSignaturesExist--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#isSignaturesExist--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool IsSignaturesExist()
@@ -217,7 +217,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             return IExecuteWithSignature<bool>("isSignaturesExist", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#xfaIsDynamic--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#xfaIsDynamic--"/>
         /// </summary>
         /// <returns><see cref="bool"/></returns>
         public bool XfaIsDynamic()
@@ -225,7 +225,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             return IExecuteWithSignature<bool>("xfaIsDynamic", "()Z");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#exportFDF--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#exportFDF--"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFDocument"/></returns>
         /// <exception cref="Java.Io.IOException"/>
@@ -234,7 +234,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Fdf.FDFDocument>("exportFDF", "()Lorg/apache/pdfbox/pdmodel/fdf/FDFDocument;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#getField-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#getField-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDField"/></returns>
@@ -243,7 +243,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDField>("getField", "(Ljava/lang/String;)Lorg/apache/pdfbox/pdmodel/interactive/form/PDField;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#flatten--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#flatten--"/>
         /// </summary>
         /// <exception cref="Java.Io.IOException"/>
         public void Flatten()
@@ -251,7 +251,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             IExecuteWithSignature("flatten", "()V");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#flatten-java.util.List-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#flatten-java.util.List-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Util.List"/></param>
         /// <param name="arg1"><see cref="bool"/></param>
@@ -261,7 +261,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             IExecuteWithSignature("flatten", "(Ljava/util/List;Z)V", arg0, arg1);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#importFDF-org.apache.pdfbox.pdmodel.fdf.FDFDocument-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#importFDF-org.apache.pdfbox.pdmodel.fdf.FDFDocument-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFDocument"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -270,7 +270,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             IExecuteWithSignature("importFDF", "(Lorg/apache/pdfbox/pdmodel/fdf/FDFDocument;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#refreshAppearances--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#refreshAppearances--"/>
         /// </summary>
         /// <exception cref="Java.Io.IOException"/>
         public void RefreshAppearances()
@@ -278,7 +278,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             IExecuteWithSignature("refreshAppearances", "()V");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#refreshAppearances-java.util.List-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#refreshAppearances-java.util.List-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Util.List"/></param>
         /// <exception cref="Java.Io.IOException"/>
@@ -287,7 +287,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             IExecuteWithSignature("refreshAppearances", "(Ljava/util/List;)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#setAppendOnly-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#setAppendOnly-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetAppendOnly(bool arg0)
@@ -295,7 +295,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             IExecuteWithSignature("setAppendOnly", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#setCacheFields-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#setCacheFields-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetCacheFields(bool arg0)
@@ -303,7 +303,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Form
             IExecuteWithSignature("setCacheFields", "(Z)V", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#setSignaturesExist-boolean-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/form/PDAcroForm.html#setSignaturesExist-boolean-"/>
         /// </summary>
         /// <param name="arg0"><see cref="bool"/></param>
         public void SetSignaturesExist(bool arg0)

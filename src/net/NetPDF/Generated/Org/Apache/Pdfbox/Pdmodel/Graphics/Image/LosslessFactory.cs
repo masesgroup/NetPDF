@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Image
 {
     #region LosslessFactory declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/image/LosslessFactory.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/image/LosslessFactory.html"/>
     /// </summary>
     public partial class LosslessFactory : MASES.JCOBridge.C2JBridge.JVMBridgeBase<LosslessFactory>
     {
@@ -87,7 +87,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Image
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/image/LosslessFactory.html#createFromImage-org.apache.pdfbox.pdmodel.PDDocument-java.awt.image.BufferedImage-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/image/LosslessFactory.html#createFromImage-org.apache.pdfbox.pdmodel.PDDocument-java.awt.image.BufferedImage-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
         /// <param name="arg1"><see cref="Java.Awt.ImageNs.BufferedImage"/></param>

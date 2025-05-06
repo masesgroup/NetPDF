@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
 {
     #region FontMappers declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontMappers.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontMappers.html"/>
     /// </summary>
     public partial class FontMappers : MASES.JCOBridge.C2JBridge.JVMBridgeBase<FontMappers>
     {
@@ -87,7 +87,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontMappers.html#instance--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontMappers.html#instance--"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Font.FontMapper"/></returns>
         public static Org.Apache.Pdfbox.Pdmodel.Font.FontMapper Instance()
@@ -95,7 +95,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Font
             return SExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Font.FontMapper>(LocalBridgeClazz, "instance", "()Lorg/apache/pdfbox/pdmodel/font/FontMapper;");
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/font/FontMappers.html#set-org.apache.pdfbox.pdmodel.font.FontMapper-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/FontMappers.html#set-org.apache.pdfbox.pdmodel.font.FontMapper-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.Font.FontMapper"/></param>
         public static void Set(Org.Apache.Pdfbox.Pdmodel.Font.FontMapper arg0)

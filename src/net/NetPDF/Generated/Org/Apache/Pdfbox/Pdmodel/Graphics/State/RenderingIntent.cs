@@ -27,7 +27,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
 {
     #region RenderingIntent declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/RenderingIntent.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/RenderingIntent.html"/>
     /// </summary>
     public partial class RenderingIntent : Java.Lang.Enum<Org.Apache.Pdfbox.Pdmodel.Graphics.State.RenderingIntent>
     {
@@ -83,25 +83,25 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
 
         #region Fields
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/RenderingIntent.html#ABSOLUTE_COLORIMETRIC"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/RenderingIntent.html#ABSOLUTE_COLORIMETRIC"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.Graphics.State.RenderingIntent ABSOLUTE_COLORIMETRIC { get { if (!_ABSOLUTE_COLORIMETRICReady) { _ABSOLUTE_COLORIMETRICContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Graphics.State.RenderingIntent>(LocalBridgeClazz, "ABSOLUTE_COLORIMETRIC"); _ABSOLUTE_COLORIMETRICReady = true; } return _ABSOLUTE_COLORIMETRICContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.Graphics.State.RenderingIntent _ABSOLUTE_COLORIMETRICContent = default;
         private static bool _ABSOLUTE_COLORIMETRICReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/RenderingIntent.html#PERCEPTUAL"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/RenderingIntent.html#PERCEPTUAL"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.Graphics.State.RenderingIntent PERCEPTUAL { get { if (!_PERCEPTUALReady) { _PERCEPTUALContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Graphics.State.RenderingIntent>(LocalBridgeClazz, "PERCEPTUAL"); _PERCEPTUALReady = true; } return _PERCEPTUALContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.Graphics.State.RenderingIntent _PERCEPTUALContent = default;
         private static bool _PERCEPTUALReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/RenderingIntent.html#RELATIVE_COLORIMETRIC"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/RenderingIntent.html#RELATIVE_COLORIMETRIC"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.Graphics.State.RenderingIntent RELATIVE_COLORIMETRIC { get { if (!_RELATIVE_COLORIMETRICReady) { _RELATIVE_COLORIMETRICContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Graphics.State.RenderingIntent>(LocalBridgeClazz, "RELATIVE_COLORIMETRIC"); _RELATIVE_COLORIMETRICReady = true; } return _RELATIVE_COLORIMETRICContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.Graphics.State.RenderingIntent _RELATIVE_COLORIMETRICContent = default;
         private static bool _RELATIVE_COLORIMETRICReady = false; // this is used because in case of generics 
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/RenderingIntent.html#SATURATION"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/RenderingIntent.html#SATURATION"/>
         /// </summary>
         public static Org.Apache.Pdfbox.Pdmodel.Graphics.State.RenderingIntent SATURATION { get { if (!_SATURATIONReady) { _SATURATIONContent = SGetField<Org.Apache.Pdfbox.Pdmodel.Graphics.State.RenderingIntent>(LocalBridgeClazz, "SATURATION"); _SATURATIONReady = true; } return _SATURATIONContent; } }
         private static Org.Apache.Pdfbox.Pdmodel.Graphics.State.RenderingIntent _SATURATIONContent = default;
@@ -111,7 +111,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
 
         #region Static methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/RenderingIntent.html#fromString-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/RenderingIntent.html#fromString-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.State.RenderingIntent"/></returns>
@@ -120,7 +120,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
             return SExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.State.RenderingIntent>(LocalBridgeClazz, "fromString", "(Ljava/lang/String;)Lorg/apache/pdfbox/pdmodel/graphics/state/RenderingIntent;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/RenderingIntent.html#valueOf-java.lang.String-"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/RenderingIntent.html#valueOf-java.lang.String-"/>
         /// </summary>
         /// <param name="arg0"><see cref="Java.Lang.String"/></param>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.State.RenderingIntent"/></returns>
@@ -129,7 +129,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
             return SExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.State.RenderingIntent>(LocalBridgeClazz, "valueOf", "(Ljava/lang/String;)Lorg/apache/pdfbox/pdmodel/graphics/state/RenderingIntent;", arg0);
         }
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/RenderingIntent.html#values--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/RenderingIntent.html#values--"/>
         /// </summary>
         /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.State.RenderingIntent"/></returns>
         public static Org.Apache.Pdfbox.Pdmodel.Graphics.State.RenderingIntent[] Values()
@@ -141,7 +141,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Graphics.State
 
         #region Instance methods
         /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.4/org/apache/pdfbox/pdmodel/graphics/state/RenderingIntent.html#stringValue--"/>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/RenderingIntent.html#stringValue--"/>
         /// </summary>
         /// <returns><see cref="Java.Lang.String"/></returns>
         public Java.Lang.String StringValue()
