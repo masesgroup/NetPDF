@@ -18,7 +18,7 @@
 		<DefineConstants>$(DefineConstants);NETPDF_SIMPLIFIED_GENERATION</DefineConstants>
 	</PropertyGroup>
 	<ItemGroup Condition="True">
-		<netpdf_jars Include="$(ProjectDir)\..\..\..\jars\*.*"/>
+		<netpdf_jars Include="$(ProjectDir)\..\..\..\jars\*.*" />
 		<netpdf_config Include="$(ProjectDir)\..\..\config\*.*" />
 	</ItemGroup>
 	<Target Name="CopyCustomContent" AfterTargets="AfterBuild" Condition="'$(GITHUB_ACTIONS)' != 'true' Or '$(GITHUB_TEST_PREPARATION)' == 'true'">
@@ -47,7 +47,7 @@
 		<None Remove="Specific\**" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="MASES.JNet" Version="2.5.12">
+		<PackageReference Include="MASES.JNet" Version="2.5.13">
 			<IncludeAssets>All</IncludeAssets>
 			<PrivateAssets>None</PrivateAssets>
 		</PackageReference>
