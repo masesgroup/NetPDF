@@ -38,7 +38,7 @@ namespace MASES.NetPDF.PowerShell.Cmdlet
         {
             base.OnBeforeCreateGlobalInstance();
             var nounName = JNetPSHelper.NounName<TCmdlet>();
-            JNetPSHelper<NetPDFPSCore>.SetClassToRun(nounName);
+            JNetCLICoreHelper.ApplicationClassToRun = nounName;
         }
 
         protected override void OnAfterCreateGlobalInstance()
