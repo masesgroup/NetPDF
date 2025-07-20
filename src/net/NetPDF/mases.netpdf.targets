@@ -1,16 +1,16 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
-		<netpdf_jars Include="$(MSBuildThisFileDirectory)\jars\*.*" />
-		<netpdf_config Include="$(MSBuildThisFileDirectory)\config\*.*" />
+		<netpdf_jars Include="$(MSBuildThisFileDirectory)\jars\**\*.*" />
+		<netpdf_config Include="$(MSBuildThisFileDirectory)\config\**\*.*" />
 	</ItemGroup>
 
 	<Target Name="NetPDF_CopyFilesNative" BeforeTargets="Build">
-		<Copy SourceFiles="@(netpdf_jars)" DestinationFolder="$(TargetDir)\jars" />
-		<Copy SourceFiles="@(netpdf_config)" DestinationFolder="$(TargetDir)\config" />
+		<Copy SourceFiles="@(netpdf_jars)" DestinationFolder="$(TargetDir)\jars\%(RecursiveDir)" />
+		<Copy SourceFiles="@(netpdf_config)" DestinationFolder="$(TargetDir)\config\%(RecursiveDir)" />
 	</Target>
 
 	<Target Name="NetPDF_CopyFilesNativePublish" BeforeTargets="Publish">
-		<Copy SourceFiles="@(netpdf_jars)" DestinationFolder="$(PublishDir)\jars" />
-		<Copy SourceFiles="@(netpdf_config)" DestinationFolder="$(PublishDir)\config" />
+		<Copy SourceFiles="@(netpdf_jars)" DestinationFolder="$(PublishDir)\jars\%(RecursiveDir)" />
+		<Copy SourceFiles="@(netpdf_config)" DestinationFolder="$(PublishDir)\config\%(RecursiveDir)" />
 	</Target>
 </Project>
