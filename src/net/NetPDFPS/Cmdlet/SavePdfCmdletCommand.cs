@@ -23,7 +23,7 @@ using Org.Apache.Pdfbox.Pdmodel;
 using System;
 using System.Management.Automation;
 
-namespace MASES.NetPDFPS.Cmdlet
+namespace MASES.NetPDF.PowerShell.Cmdlet
 {
     [Cmdlet(VerbsData.Save, "PDF")]
     [OutputType(typeof(PDDocument))]

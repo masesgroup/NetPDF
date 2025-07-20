@@ -16,11 +16,11 @@
 *  Refer to LICENSE for more information.
 */
 
-using MASES.JNetPSCore.Cmdlet;
+using MASES.JNet.PowerShell.Cmdlet;
 using MASES.NetPDF;
 using System.Management.Automation;
 
-namespace MASES.NetPDFPS.Cmdlet
+namespace MASES.NetPDF.PowerShell.Cmdlet
 {
     public class StartNetPDFPSCmdletCommandBase<TCmdlet> : StartJNetPSCmdletCommandBase<TCmdlet, NetPDFPSCore>
         where TCmdlet : StartNetPDFPSCmdletCommandBase<TCmdlet>

@@ -5,7 +5,7 @@
 		<PackageType>DotnetTool</PackageType>
 		<OutputType>Exe</OutputType>
 		<AssemblyName>MASES.NetPDFCLI</AssemblyName>
-		<RootNamespace>MASES.NetPDFCLI</RootNamespace>
+		<RootNamespace>MASES.NetPDF.CLI</RootNamespace>
 		<Title>NetPDF command line interface - .NET suite for PDFBox™</Title>
 		<Description>Command line interface of .NET suite for PDFBox™. NetPDF is a comprehensive suite of libraries and tools to use PDFBox™ and .NET side-by-side.</Description>
 		<Product>NetPDFCLI</Product>
@@ -16,26 +16,20 @@
 		<RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
 		<RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
 	</PropertyGroup>
-
-	<ItemGroup Condition="True">
-		<netpdfcli_jars Include="$(ProjectDir)\..\..\..\jars\*.*" />
-		<netpdfcli_config Include="$(ProjectDir)\..\..\config\*.*" />
-	</ItemGroup>
-
 	<Target Name="CopyCustomContent" AfterTargets="AfterBuild">
-		<Copy SourceFiles="@(netpdfcli_jars)" DestinationFolder="$(OutDir)\jars" />
-		<Copy SourceFiles="@(netpdfcli_config)" DestinationFolder="$(OutDir)\config" />
+		<Copy SourceFiles="@(netpdf_jars)" DestinationFolder="$(OutDir)\jars\%(RecursiveDir)" />
+		<Copy SourceFiles="@(netpdf_config)" DestinationFolder="$(OutDir)\config\%(RecursiveDir)" />
 	</Target>
 	<Target Name="CopyCustomContentOnPublish" AfterTargets="Publish">
-		<Copy SourceFiles="@(netpdfcli_jars)" DestinationFolder="$(OutDir)\jars" />
-		<Copy SourceFiles="@(netpdfcli_config)" DestinationFolder="$(OutDir)\config" />
+		<Copy SourceFiles="@(netpdf_jars)" DestinationFolder="$(OutDir)\jars\%(RecursiveDir)" />
+		<Copy SourceFiles="@(netpdf_config)" DestinationFolder="$(OutDir)\config\%(RecursiveDir)" />
 	</Target>
 	
 	<ItemGroup>
 		<None Include="..\..\documentation\articles\usageCLI.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="4.14.0" />
+		<PackageReference Include="MASES.JNetCLICore" Version="2.5.13" />
 		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
 	</ItemGroup>
 	<ItemGroup>
