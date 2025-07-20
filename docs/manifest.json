@@ -12,6 +12,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NetPDF.CLI.NetPDFCLICore-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NetPDF.CLI.NetPDFCLICore-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.NetPDF.CLI.NetPDFCLICore<T>",
+      "Summary": "<p sourcefile=\"api/MASES.NetPDF.CLI.NetPDFCLICore-1.yml\" sourcestartlinenumber=\"1\">Overridable implementation of <xref href=\"MASES.NetPDF.NetPDFCore%601\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NetPDF.CLI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NetPDF.CLI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.NetPDF.CLI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MASES.NetPDF.Const.yml",
       "output": {
         ".html": {
@@ -40,6 +68,160 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NetPDF.PowerShell.Cmdlet.NetPDFPSCmdlet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NetPDF.PowerShell.Cmdlet.NetPDFPSCmdlet.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.NetPDF.PowerShell.Cmdlet.NetPDFPSCmdlet",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NetPDF.PowerShell.Cmdlet.NewPdfCmdletCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NetPDF.PowerShell.Cmdlet.NewPdfCmdletCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.NetPDF.PowerShell.Cmdlet.NewPdfCmdletCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NetPDF.PowerShell.Cmdlet.OpenPdfCmdletCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NetPDF.PowerShell.Cmdlet.OpenPdfCmdletCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.NetPDF.PowerShell.Cmdlet.OpenPdfCmdletCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NetPDF.PowerShell.Cmdlet.PDFBoxClassToRunCmdletCommandBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NetPDF.PowerShell.Cmdlet.PDFBoxClassToRunCmdletCommandBase-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.NetPDF.PowerShell.Cmdlet.PDFBoxClassToRunCmdletCommandBase<TCmdlet>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NetPDF.PowerShell.Cmdlet.SavePdfCmdletCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NetPDF.PowerShell.Cmdlet.SavePdfCmdletCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.NetPDF.PowerShell.Cmdlet.SavePdfCmdletCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NetPDF.PowerShell.Cmdlet.StartNetPDFPSCmdletCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NetPDF.PowerShell.Cmdlet.StartNetPDFPSCmdletCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.NetPDF.PowerShell.Cmdlet.StartNetPDFPSCmdletCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NetPDF.PowerShell.Cmdlet.StartNetPDFPSCmdletCommandBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NetPDF.PowerShell.Cmdlet.StartNetPDFPSCmdletCommandBase-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.NetPDF.PowerShell.Cmdlet.StartNetPDFPSCmdletCommandBase<TCmdlet>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NetPDF.PowerShell.Cmdlet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NetPDF.PowerShell.Cmdlet.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.NetPDF.PowerShell.Cmdlet",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NetPDF.PowerShell.NetPDFPSCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NetPDF.PowerShell.NetPDFPSCore.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.NetPDF.PowerShell.NetPDFPSCore",
+      "Summary": "<p sourcefile=\"api/MASES.NetPDF.PowerShell.NetPDFPSCore.yml\" sourcestartlinenumber=\"1\">Concrete implementation of <xref href=\"MASES.NetPDF.NetPDFCore%601\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NetPDF.PowerShell.NetPDFPSHelper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NetPDF.PowerShell.NetPDFPSHelper-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.NetPDF.PowerShell.NetPDFPSHelper<TClass>",
+      "Summary": "<p sourcefile=\"api/MASES.NetPDF.PowerShell.NetPDFPSHelper-1.yml\" sourcestartlinenumber=\"1\">Public Helper class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MASES.NetPDF.PowerShell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MASES.NetPDF.PowerShell.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MASES.NetPDF.PowerShell",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MASES.NetPDF.yml",
       "output": {
         ".html": {
@@ -50,188 +232,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "MASES.NetPDF",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.NetPDFCLI.NetPDFCLICore-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.NetPDFCLI.NetPDFCLICore-1.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.NetPDFCLI.NetPDFCLICore<T>",
-      "Summary": "<p sourcefile=\"api/MASES.NetPDFCLI.NetPDFCLICore-1.yml\" sourcestartlinenumber=\"1\">Overridable implementation of <xref href=\"MASES.NetPDF.NetPDFCore%601\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.NetPDFCLI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.NetPDFCLI.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.NetPDFCLI",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.NetPDFPS.Cmdlet.NetPDFPSCmdlet.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.NetPDFPS.Cmdlet.NetPDFPSCmdlet.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.NetPDFPS.Cmdlet.NetPDFPSCmdlet",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.NetPDFPS.Cmdlet.NewPdfCmdletCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.NetPDFPS.Cmdlet.NewPdfCmdletCommand.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.NetPDFPS.Cmdlet.NewPdfCmdletCommand",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.NetPDFPS.Cmdlet.OpenPdfCmdletCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.NetPDFPS.Cmdlet.OpenPdfCmdletCommand.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.NetPDFPS.Cmdlet.OpenPdfCmdletCommand",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.NetPDFPS.Cmdlet.PDFBoxClassToRunCmdletCommandBase-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.NetPDFPS.Cmdlet.PDFBoxClassToRunCmdletCommandBase-1.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.NetPDFPS.Cmdlet.PDFBoxClassToRunCmdletCommandBase<TCmdlet>",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.NetPDFPS.Cmdlet.SavePdfCmdletCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.NetPDFPS.Cmdlet.SavePdfCmdletCommand.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.NetPDFPS.Cmdlet.SavePdfCmdletCommand",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.NetPDFPS.Cmdlet.StartNetPDFPSCmdletCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.NetPDFPS.Cmdlet.StartNetPDFPSCmdletCommand.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.NetPDFPS.Cmdlet.StartNetPDFPSCmdletCommand",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.NetPDFPS.Cmdlet.StartNetPDFPSCmdletCommandBase-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.NetPDFPS.Cmdlet.StartNetPDFPSCmdletCommandBase-1.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.NetPDFPS.Cmdlet.StartNetPDFPSCmdletCommandBase<TCmdlet>",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.NetPDFPS.Cmdlet.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.NetPDFPS.Cmdlet.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.NetPDFPS.Cmdlet",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.NetPDFPS.NetPDFPSCore.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.NetPDFPS.NetPDFPSCore.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.NetPDFPS.NetPDFPSCore",
-      "Summary": "<p sourcefile=\"api/MASES.NetPDFPS.NetPDFPSCore.yml\" sourcestartlinenumber=\"1\">Concrete implementation of NetPDFCore&lt;T&gt;</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.NetPDFPS.NetPDFPSHelper-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.NetPDFPS.NetPDFPSHelper-1.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.NetPDFPS.NetPDFPSHelper<TClass>",
-      "Summary": "<p sourcefile=\"api/MASES.NetPDFPS.NetPDFPSHelper-1.yml\" sourcestartlinenumber=\"1\">Public Helper class</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MASES.NetPDFPS.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MASES.NetPDFPS.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MASES.NetPDFPS",
       "Summary": null
     },
     {

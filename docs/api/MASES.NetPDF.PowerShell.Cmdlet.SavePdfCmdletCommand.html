@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-      <title>Class NetPDFPSCmdlet | MASES Group - NetPDF </title>
+      <title>Class SavePdfCmdletCommand | MASES Group - NetPDF </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class NetPDFPSCmdlet | MASES Group - NetPDF ">
+      <meta name="title" content="Class SavePdfCmdletCommand | MASES Group - NetPDF ">
       <meta name="description" content="This is a descriptive page of NetPDF, the .NET suite for PDFBox™">
       
       <link rel="icon" href="../images/favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/masesgroup/NetPDF/new/master/apiSpec/new?filename=MASES_NetPDFPS_Cmdlet_NetPDFPSCmdlet.md&amp;value=---%0Auid%3A%20MASES.NetPDFPS.Cmdlet.NetPDFPSCmdlet%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/masesgroup/NetPDF/new/master/apiSpec/new?filename=MASES_NetPDF_PowerShell_Cmdlet_SavePdfCmdletCommand.md&amp;value=---%0Auid%3A%20MASES.NetPDF.PowerShell.Cmdlet.SavePdfCmdletCommand%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,16 +84,16 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="MASES.NetPDFPS.Cmdlet.NetPDFPSCmdlet">
+        <article data-uid="MASES.NetPDF.PowerShell.Cmdlet.SavePdfCmdletCommand">
 
 
 
-  <h1 id="MASES_NetPDFPS_Cmdlet_NetPDFPSCmdlet" data-uid="MASES.NetPDFPS.Cmdlet.NetPDFPSCmdlet" class="text-break">
-Class NetPDFPSCmdlet  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDFPS/Cmdlet/NetPDFPSCmdlet.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <h1 id="MASES_NetPDF_PowerShell_Cmdlet_SavePdfCmdletCommand" data-uid="MASES.NetPDF.PowerShell.Cmdlet.SavePdfCmdletCommand" class="text-break">
+Class SavePdfCmdletCommand  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDFPS/Cmdlet/SavePdfCmdletCommand.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="MASES.html">MASES</a>.<a class="xref" href="MASES.NetPDFPS.html">NetPDFPS</a>.<a class="xref" href="MASES.NetPDFPS.Cmdlet.html">Cmdlet</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="MASES.html">MASES</a>.<a class="xref" href="MASES.NetPDF.html">NetPDF</a>.<a class="xref" href="MASES.NetPDF.PowerShell.html">PowerShell</a>.<a class="xref" href="MASES.NetPDF.PowerShell.Cmdlet.html">Cmdlet</a></dd></dl>
   <dl><dt>Assembly</dt><dd>MASES.NetPDFPS.dll</dd></dl>
   </div>
 
@@ -101,7 +101,9 @@ Class NetPDFPSCmdlet  <a class="header-action link-secondary" title="View source
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class NetPDFPSCmdlet : JNetPSCmdlet&lt;NetPDFPSCore&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">[Cmdlet(&quot;Save&quot;, &quot;PDF&quot;)]
+[OutputType(new Type[] { typeof(PDDocument) })]
+public class SavePdfCmdletCommand : NetPDFPSCmdlet</code></pre>
   </div>
 
 
@@ -114,34 +116,19 @@ Class NetPDFPSCmdlet  <a class="header-action link-secondary" title="View source
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.management.automation.internal.internalcommand">InternalCommand</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.management.automation.cmdlet">Cmdlet</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.management.automation.pscmdlet">PSCmdlet</a></div>
-      <div><a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.JNetPSCmdlet-1.html">JNetPSCmdlet</a>&lt;<a class="xref" href="MASES.NetPDFPS.NetPDFPSCore.html">NetPDFPSCore</a>&gt;</div>
-      <div><span class="xref">NetPDFPSCmdlet</span></div>
+      <div><a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.JNetPSCmdlet-1.html">JNetPSCmdlet</a>&lt;<a class="xref" href="MASES.NetPDF.PowerShell.NetPDFPSCore.html">NetPDFPSCore</a>&gt;</div>
+      <div><a class="xref" href="MASES.NetPDF.PowerShell.Cmdlet.NetPDFPSCmdlet.html">NetPDFPSCmdlet</a></div>
+      <div><span class="xref">SavePdfCmdletCommand</span></div>
     </dd>
   </dl>
 
 
-  <dl class="typelist derived">
-    <dt>Derived</dt>
-    <dd>
-      <div><a class="xref" href="MASES.NetPDFPS.Cmdlet.OpenPdfCmdletCommand.html">OpenPdfCmdletCommand</a></div>
-      <div><a class="xref" href="MASES.NetPDFPS.Cmdlet.SavePdfCmdletCommand.html">SavePdfCmdletCommand</a></div>
-    </dd>
-  </dl>
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.JNetPSCmdlet-1.html#MASES_JNetPSCore_Cmdlet_JNetPSCmdlet_1_BeginProcessing">JNetPSCmdlet&lt;NetPDFPSCore&gt;.BeginProcessing()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.JNetPSCmdlet-1.html#MASES_JNetPSCore_Cmdlet_JNetPSCmdlet_1_ProcessRecord">JNetPSCmdlet&lt;NetPDFPSCore&gt;.ProcessRecord()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.JNetPSCmdlet-1.html#MASES_JNetPSCore_Cmdlet_JNetPSCmdlet_1_ProcessCommand">JNetPSCmdlet&lt;NetPDFPSCore&gt;.ProcessCommand()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNetPSCore.Cmdlet.JNetPSCmdlet-1.html#MASES_JNetPSCore_Cmdlet_JNetPSCmdlet_1_EndProcessing">JNetPSCmdlet&lt;NetPDFPSCore&gt;.EndProcessing()</a>
+      <a class="xref" href="https://jnet.masesgroup.com/api/MASES.JNet.PowerShell.Cmdlet.JNetPSCmdlet-1.html#MASES_JNet_PowerShell_Cmdlet_JNetPSCmdlet_1_ProcessRecord">JNetPSCmdlet&lt;NetPDFPSCore&gt;.ProcessRecord()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.management.automation.pscmdlet.currentproviderlocation">PSCmdlet.CurrentProviderLocation(string)</a>
@@ -300,11 +287,193 @@ Class NetPDFPSCmdlet  <a class="header-action link-secondary" title="View source
 
 
 
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="MASES_NetPDF_PowerShell_Cmdlet_SavePdfCmdletCommand_CompressParameter_" data-uid="MASES.NetPDF.PowerShell.Cmdlet.SavePdfCmdletCommand.CompressParameter*"></a>
+
+  <h3 id="MASES_NetPDF_PowerShell_Cmdlet_SavePdfCmdletCommand_CompressParameter" data-uid="MASES.NetPDF.PowerShell.Cmdlet.SavePdfCmdletCommand.CompressParameter">
+  CompressParameter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDFPS/Cmdlet/SavePdfCmdletCommand.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Parameter(Mandatory = false, Position = 2, ValueFromPipeline = true, ValueFromPipelineByPropertyName = true, HelpMessage = &quot;The compression to apply&quot;)]
+public CompressParameters CompressParameter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Pdfwriter.Compress.CompressParameters.html">CompressParameters</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MASES_NetPDF_PowerShell_Cmdlet_SavePdfCmdletCommand_OutputFile_" data-uid="MASES.NetPDF.PowerShell.Cmdlet.SavePdfCmdletCommand.OutputFile*"></a>
+
+  <h3 id="MASES_NetPDF_PowerShell_Cmdlet_SavePdfCmdletCommand_OutputFile" data-uid="MASES.NetPDF.PowerShell.Cmdlet.SavePdfCmdletCommand.OutputFile">
+  OutputFile
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDFPS/Cmdlet/SavePdfCmdletCommand.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Parameter(Mandatory = true, Position = 1, ValueFromPipeline = true, ValueFromPipelineByPropertyName = true, HelpMessage = &quot;The file name of the PDF to write&quot;)]
+public string OutputFile { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MASES_NetPDF_PowerShell_Cmdlet_SavePdfCmdletCommand_PdfDocument_" data-uid="MASES.NetPDF.PowerShell.Cmdlet.SavePdfCmdletCommand.PdfDocument*"></a>
+
+  <h3 id="MASES_NetPDF_PowerShell_Cmdlet_SavePdfCmdletCommand_PdfDocument" data-uid="MASES.NetPDF.PowerShell.Cmdlet.SavePdfCmdletCommand.PdfDocument">
+  PdfDocument
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDFPS/Cmdlet/SavePdfCmdletCommand.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Parameter(Mandatory = true, Position = 0, ValueFromPipeline = true, ValueFromPipelineByPropertyName = true, HelpMessage = &quot;The object containing the PDF&quot;)]
+public PDDocument PdfDocument { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Org.Apache.Pdfbox.Pdmodel.PDDocument.html">PDDocument</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="MASES_NetPDF_PowerShell_Cmdlet_SavePdfCmdletCommand_BeginProcessing_" data-uid="MASES.NetPDF.PowerShell.Cmdlet.SavePdfCmdletCommand.BeginProcessing*"></a>
+
+  <h3 id="MASES_NetPDF_PowerShell_Cmdlet_SavePdfCmdletCommand_BeginProcessing" data-uid="MASES.NetPDF.PowerShell.Cmdlet.SavePdfCmdletCommand.BeginProcessing">
+  BeginProcessing()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDFPS/Cmdlet/SavePdfCmdletCommand.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void BeginProcessing()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MASES_NetPDF_PowerShell_Cmdlet_SavePdfCmdletCommand_EndProcessing_" data-uid="MASES.NetPDF.PowerShell.Cmdlet.SavePdfCmdletCommand.EndProcessing*"></a>
+
+  <h3 id="MASES_NetPDF_PowerShell_Cmdlet_SavePdfCmdletCommand_EndProcessing" data-uid="MASES.NetPDF.PowerShell.Cmdlet.SavePdfCmdletCommand.EndProcessing">
+  EndProcessing()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDFPS/Cmdlet/SavePdfCmdletCommand.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void EndProcessing()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MASES_NetPDF_PowerShell_Cmdlet_SavePdfCmdletCommand_ProcessCommand_" data-uid="MASES.NetPDF.PowerShell.Cmdlet.SavePdfCmdletCommand.ProcessCommand*"></a>
+
+  <h3 id="MASES_NetPDF_PowerShell_Cmdlet_SavePdfCmdletCommand_ProcessCommand" data-uid="MASES.NetPDF.PowerShell.Cmdlet.SavePdfCmdletCommand.ProcessCommand">
+  ProcessCommand()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDFPS/Cmdlet/SavePdfCmdletCommand.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void ProcessCommand()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDFPS/Cmdlet/NetPDFPSCmdlet.cs/#L23" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDFPS/Cmdlet/SavePdfCmdletCommand.cs/#L28" class="edit-link">Edit this page</a>
         </div>
 
 
