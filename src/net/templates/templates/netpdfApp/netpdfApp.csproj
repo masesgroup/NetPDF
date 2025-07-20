@@ -14,6 +14,6 @@
 	</ItemGroup>
 	<ItemGroup Condition="!Exists('..\..\..\NetPDF\NetPDF.csproj')">
 		<!--Outside GitHub repo-->
-		<PackageReference Include="MASES.NetPDF" Version="3.0.4" IncludeAssets="All" PrivateAssets="None" />
+		<PackageReference Include="MASES.NetPDF" Version="3.0.5" IncludeAssets="All" PrivateAssets="None" />
 	</ItemGroup>
 </Project>
