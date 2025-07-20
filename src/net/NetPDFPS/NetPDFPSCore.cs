@@ -16,10 +16,10 @@
 *  Refer to LICENSE for more information.
 */
 
-using MASES.NetPDFCLI;
+using MASES.NetPDF.CLI;
 using System;
 
-namespace MASES.NetPDFPS
+namespace MASES.NetPDF.PowerShell
 {
     /// <summary>
     /// Concrete implementation of <see cref="NetPDFCore{T}"/>

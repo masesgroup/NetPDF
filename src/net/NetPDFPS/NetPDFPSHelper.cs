@@ -16,18 +16,16 @@
 *  Refer to LICENSE for more information.
 */
 
-using MASES.JNetPSCore;
+using MASES.JNet.PowerShell;
 using MASES.NetPDF;
 
-namespace MASES.NetPDFPS
+namespace MASES.NetPDF.PowerShell
 {
     /// <summary>
     /// Public Helper class
     /// </summary>
     public static class NetPDFPSHelper<TClass> where TClass : NetPDFCore<TClass>
     {
-        public static void SetClassToRun(string classToRun) { JNetPSHelper<TClass>.Set(typeof(NetPDFCore<>), nameof(NetPDFPSCore.ApplicationClassToRun), classToRun); }
-
         public static void SetCommonLoggingPath(string commonLoggingath) { JNetPSHelper<TClass>.Set(typeof(NetPDFCore<>), nameof(NetPDFPSCore.ApplicationCommonLoggingPath), commonLoggingath); }
 
         public static void SetLogPath(string logPath) { JNetPSHelper<TClass>.Set(typeof(NetPDFCore<>), nameof(NetPDFPSCore.ApplicationLogPath), logPath); }

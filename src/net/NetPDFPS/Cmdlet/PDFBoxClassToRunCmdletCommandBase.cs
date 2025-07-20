@@ -17,12 +17,13 @@
 */
 
 using MASES.JCOBridge.C2JBridge;
-using MASES.JNetPSCore;
+using MASES.JNet.PowerShell;
+using MASES.JNet.Specific.CLI;
 using System;
 using System.Management.Automation;
 using System.Reflection;
 
-namespace MASES.NetPDFPS.Cmdlet
+namespace MASES.NetPDF.PowerShell.Cmdlet
 {
     public class PDFBoxClassToRunCmdletCommandBase<TCmdlet> : StartNetPDFPSCmdletCommandBase<TCmdlet>
         where TCmdlet : PDFBoxClassToRunCmdletCommandBase<TCmdlet>
@@ -37,7 +38,7 @@ namespace MASES.NetPDFPS.Cmdlet
         {
             base.OnBeforeCreateGlobalInstance();
             var nounName = JNetPSHelper.NounName<TCmdlet>();
-            NetPDFPSHelper<NetPDFPSCore>.SetClassToRun(nounName);
+            JNetPSHelper<NetPDFPSCore>.SetClassToRun(nounName);
         }
 
         protected override void OnAfterCreateGlobalInstance()
@@ -50,7 +51,7 @@ namespace MASES.NetPDFPS.Cmdlet
 
             try
             {
-                JNetPSHelper<NetPDFPSCore>.Launch(NetPDFPSCore.MainClassToRun, arguments);
+                JNetPSHelper<NetPDFPSCore>.Launch(JNetCLICoreHelper.MainClassToRun, arguments);
             }
             catch (TargetInvocationException tie)
             {

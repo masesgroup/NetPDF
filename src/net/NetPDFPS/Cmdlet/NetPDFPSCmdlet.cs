@@ -16,9 +16,9 @@
 *  Refer to LICENSE for more information.
 */
 
-using MASES.JNetPSCore.Cmdlet;
+using MASES.JNet.PowerShell.Cmdlet;
 
-namespace MASES.NetPDFPS.Cmdlet
+namespace MASES.NetPDF.PowerShell.Cmdlet
 {
     public abstract class NetPDFPSCmdlet : JNetPSCmdlet<NetPDFPSCore>
     {

@@ -43,11 +43,6 @@ namespace MASES.NetPDF
                 {
                     new ArgumentMetadata<string>()
                     {
-                        Name = CLIParam.ClassToRun,
-                        Help = "The class to be instantiated from CLI.",
-                    },
-                    new ArgumentMetadata<string>()
-                    {
                         Name = CLIParam.CommonLoggingConfiguration,
                         Default = DefaultCommonLoggingConfiguration(),
                         Help = "The file containing the configuration of common logging.",
@@ -95,7 +90,6 @@ namespace MASES.NetPDF
         {
             var result = base.ProcessCommandLine();
 
-            _classToRun = ParsedArgs.Get<string>(CLIParam.ClassToRun);
             _commonLoggingPath = ParsedArgs.Get<string>(CLIParam.CommonLoggingConfiguration);
             if (!Path.IsPathRooted(_commonLoggingPath)) // it is not a full path
             {
@@ -114,37 +108,6 @@ namespace MASES.NetPDF
             _usePureJavaCMYKConversion = ParsedArgs.Exist(CLIParam.UsePureJavaCMYKConversion);
             return result;
         }
-        /// <summary>
-        /// Prepare <see cref="MainClassToRun"/> property
-        /// </summary>
-        /// <param name="className">The class to search</param>
-        /// <exception cref="ArgumentException">If <paramref name="className"/> does not have a corresponding implemented <see cref="Type"/></exception>
-        protected virtual void PrepareMainClassToRun(string className)
-        {
-            if (string.IsNullOrWhiteSpace(className)) return;
-            var invariantLowClassName = className.ToLowerInvariant();
-            Type type = null;
-            foreach (var item in typeof(NetPDFCore<>).Assembly.ExportedTypes)
-            {
-                if (item.Name.ToLowerInvariant() == invariantLowClassName
-                    || item.FullName.ToLowerInvariant() == invariantLowClassName)
-                {
-                    type = item;
-                    break;
-                }
-            }
-            MainClassToRun = type ?? throw new ArgumentException($"Requested class {className} is not a valid class name.");
-        }
-
-        /// <summary>
-        /// Sets the <see cref="Type"/> to be invoked at startup
-        /// </summary>
-        public static Type MainClassToRun { get; protected set; }
-
-        /// <summary>
-        /// Sets the global value of class to run
-        /// </summary>
-        public static string ApplicationClassToRun { get; set; }
 
         /// <summary>
         /// Sets the global value of log4j path
@@ -165,15 +128,6 @@ namespace MASES.NetPDF
         /// <see langword="true"/> to enable pure Java CMYK conversion
         /// </summary>
         public static bool? ApplicationUsePureJavaCMYKConversion { get; set; }
-
-        /// <summary>
-        /// value can be overridden in subclasses
-        /// </summary>
-        protected string _classToRun;
-        /// <summary>
-        /// The class to run in CLI version
-        /// </summary>
-        public virtual string ClassToRun { get { return ApplicationClassToRun ?? _classToRun; } }
 
         string _commonLoggingPath;
         /// <summary>

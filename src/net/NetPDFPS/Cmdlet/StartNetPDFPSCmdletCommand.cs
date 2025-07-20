@@ -18,7 +18,7 @@
 
 using System.Management.Automation;
 
-namespace MASES.NetPDFPS.Cmdlet
+namespace MASES.NetPDF.PowerShell.Cmdlet
 {
     [Cmdlet(VerbsLifecycle.Start, "NetPDFPS")]
     public class StartNetPDFPSCmdletCommand : StartNetPDFPSCmdletCommandBase<StartNetPDFPSCmdletCommand>

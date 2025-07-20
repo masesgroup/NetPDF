@@ -16,10 +16,10 @@
 *  Refer to LICENSE for more information.
 */
 
-using MASES.JNetPSCore.Cmdlet;
+using MASES.JNet.PowerShell.Cmdlet;
 using System.Management.Automation;
 
-namespace MASES.NetPDFPS.Cmdlet
+namespace MASES.NetPDF.PowerShell.Cmdlet
 {
     [Cmdlet(VerbsCommon.New, "PDFObject")]
     public class NewPdfCmdletCommand : NewObjectCmdletCommandBase<NewPdfCmdletCommand, NetPDFPSCore>
