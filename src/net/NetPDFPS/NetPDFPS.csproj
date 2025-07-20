@@ -18,11 +18,11 @@
 	</PropertyGroup>
 
 	<Target Name="CopyCustomContent" AfterTargets="AfterBuild">
-		<Copy SourceFiles="@(netpdf_jars)" DestinationFolder="$(OutDir)\jars\%(RecursiveDir)" />
+		<Copy SourceFiles="@(netpdf_jars)" DestinationFolder="$(OutDir)\..\jars\%(RecursiveDir)" />
 		<Copy SourceFiles="@(netpdf_config)" DestinationFolder="$(OutDir)\config\%(RecursiveDir)" />
 	</Target>
 	<Target Name="CopyCustomContentOnPublish" AfterTargets="Publish">
-		<Copy SourceFiles="@(netpdf_jars)" DestinationFolder="$(OutDir)\jars\%(RecursiveDir)" />
+		<Copy SourceFiles="@(netpdf_jars)" DestinationFolder="$(OutDir)\..\jars\%(RecursiveDir)" />
 		<Copy SourceFiles="@(netpdf_config)" DestinationFolder="$(OutDir)\config\%(RecursiveDir)" />
 	</Target>
 	<ItemGroup>
