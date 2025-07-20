@@ -13,7 +13,7 @@
 		<PackageTags>netpdf cli pdf pdfbox dotnet clr netcore net8 gateway</PackageTags>
 		<PackageId>MASES.NetPDFCLI</PackageId>
 		<PackageReadmeFile>usageCLI.md</PackageReadmeFile>
-		<RunAnalyzersDuringLiveAnalysis>True</RunAnalyzersDuringLiveAnalysis>
+		<RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
 		<RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
 	</PropertyGroup>
 	<Target Name="CopyCustomContent" AfterTargets="AfterBuild">
