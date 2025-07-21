@@ -20,6 +20,7 @@ using MASES.JCOBridge.C2JBridge;
 using MASES.JNet.PowerShell;
 using MASES.JNet.Specific.CLI;
 using System;
+using System.Linq;
 using System.Management.Automation;
 using System.Reflection;
 
@@ -43,11 +44,7 @@ namespace MASES.NetPDF.PowerShell.Cmdlet
 
         protected override void OnAfterCreateGlobalInstance()
         {
-            string[] arguments = Array.Empty<string>();
-            if (Arguments != null)
-            {
-                arguments = Arguments.Split(' ');
-            }
+            string[] arguments = JNetPSHelper.ExtractArguments(Arguments).ToArray();
 
             try
             {

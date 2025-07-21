@@ -17,10 +17,6 @@
 */
 
 using MASES.NetPDF.CLI;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Reflection;
 
 namespace MASES.NetPDF.PowerShell
 {
@@ -29,18 +25,8 @@ namespace MASES.NetPDF.PowerShell
     /// </summary>
     public class NetPDFPSCore : NetPDFCLICore<NetPDFPSCore>
     {
-        static Assembly assembly = typeof(NetPDFPSCore).Assembly;
 #if NET6_0_OR_GREATER
         public static void Main(string[] args) { } // used in conjunction with project of executable type to produce artifacts with all needed assemblies
 #endif
-        protected override IList<string> PathToParse
-        {
-            get
-            {
-                var lst = base.PathToParse;
-                lst.Add(Path.Combine(assembly.Location, "..", JARsSubFolder, "*.jar"));
-                return lst;
-            }
-        }
     }
 }
