@@ -22,7 +22,7 @@ Author = 'MASES s.r.l.'
 CompanyName = 'MASES s.r.l.'
 
 # Copyright statement for this module
-Copyright = 'Copyright ©  MASES s.r.l. 2025'
+Copyright = 'Copyright 2024-2025 MASES s.r.l.'
 
 # Description of the functionality provided by this module
 Description = 'PowerShell Module to use PDFBox™ and PowerShell side-by-side. With NetPDFPS it is possible to use PDFBox™ objects within PowerShell. See https://github.com/masesgroup/NetPDF for further information.'
