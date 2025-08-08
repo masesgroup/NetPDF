@@ -78,7 +78,7 @@ jobs:
 
       - name: Upload GitHub release
         run: |
-          gh release upload --repo ${{ github.repository }} ${GITHUB_REF_NAME} .\NetPDFNuGet.zip
+          gh release upload ${{ github.event.release.tag_name }} .\NetPDFNuGet.zip
         env:
           GH_TOKEN: ${{ github.token }}
 
