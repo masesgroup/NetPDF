@@ -17,6 +17,24 @@ on:
         required: true
         default: false
         type: boolean
+      ForceContinueOnError:
+        description: 'Force continue-on-error (temporary not used)'
+        required: false
+        default: true
+        type: boolean
+      UploadServerLogs:
+        description: 'Upload server logs (temporary not used)'
+        required: false
+        default: false
+        type: boolean
+      EnableProcessDump:
+        description: 'Enable .NET process dump (temporary not used)'
+        required: false
+        default: '0'
+        type: choice
+        options:
+          - "0"
+          - "1"
 
 concurrency:
   group: '${{ github.workflow }} @ ${{ github.event.pull_request.head.label || github.head_ref || github.ref }}'

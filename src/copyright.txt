@@ -1,5 +1,5 @@
 /*
-*  Copyright 2024-2025 MASES s.r.l.
+*  Copyright (c) 2024-2025 MASES s.r.l.
 *
 *  Licensed under the Apache License, Version 2.0 (the "License");
 *  you may not use this file except in compliance with the License.
@@ -15,22 +15,3 @@
 *
 *  Refer to LICENSE for more information.
 */
-
-using MASES.JCOBridge.C2JBridge;
-
-namespace Org.Apache.Pdfbox.Io
-{
-    #region RandomAccess implementation
-    public partial class RandomAccess : Org.Apache.Pdfbox.Io.IRandomAccessRead
-    {
-        #region Instance methods
-        /// <inheritdoc/>
-        public void Close()
-        {
-
-        }
-
-        #endregion
-    }
-    #endregion
-}

@@ -67,7 +67,7 @@ _netpdfps_ accepts the following cmdlets:
   * OutputFile
   * CompressParameter (optional)
 
-### JVM identification
+### JVM™ identification
 
-One of the most important command-line switch is **JVMPath**: it can be used to set-up the location of the JVM library (jvm.dll/libjvm.so) if JCOBridge is not able to identify a suitable JRE installation.
+One of the most important command-line switch is **JVMPath**: it can be used to set-up the location of the JVM™ library (jvm.dll/libjvm.so) if JCOBridge is not able to identify a suitable JRE installation.
 

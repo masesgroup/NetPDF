@@ -12,7 +12,7 @@ _description: Describes the CLI tool to use PDFBox™ classes from any command-l
   * The image hosts both .NET 6 and JRE 11 runtimes
 
 > [!IMPORTANT]
-> The **dotnet tool** needs a JRE/JDK installed within the system (see [JVM identification](#jvm-identification))
+> The **dotnet tool** needs a JRE/JDK installed within the system (see [JVM™ identification](#jvm-identification))
 
 ## Usage
 
@@ -53,6 +53,6 @@ _netpdf_ accepts the following command-line switch:
 
 Plus other switches available at [Command line switch](commandlineswitch.md) page.
 
-### JVM identification
+### JVM™ identification
 
-One of the most important command-line switch is **JVMPath** and it is available in [JCOBridge switches](https://www.jcobridge.com/net-examples/command-line-options/): it can be used to set-up the location of the JVM library (jvm.dll/libjvm.so) if JCOBridge is not able to identify a suitable JRE installation.
+One of the most important command-line switch is **JVMPath** and it is available in [JCOBridge switches](https://www.jcobridge.com/net-examples/command-line-options/): it can be used to set-up the location of the JVM™ library (jvm.dll/libjvm.so) if JCOBridge is not able to identify a suitable JRE installation.

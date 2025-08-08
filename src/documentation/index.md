@@ -56,7 +56,7 @@ This project adheres to the Contributor [Covenant code of conduct](https://githu
 * [Usage](src/documentation/articles/usage.md)
 * [Performance tips](https://jnet.masesgroup.com/articles/performancetips.html)
 * [APIs extensibility](https://jnet.masesgroup.com/articles/API_extensibility.html)
-* [JVM callbacks](https://jnet.masesgroup.com/articles/jvm_callbacks.html)
+* [JVM™ callbacks](https://jnet.masesgroup.com/articles/jvm_callbacks.html)
 * [NetPDF CLI usage](src/documentation/articles/usageCLI.md)
 * [NetPDF Docker usage](src/documentation/articles/docker.md)
 * [NetPDF PowerShell usage](src/documentation/articles/usagePS.md)
@@ -72,21 +72,28 @@ This project adheres to the Contributor [Covenant code of conduct](https://githu
 
 NetPDF uses [JNet](https://github.com/masesgroup/JNet), and indeed [JCOBridge](https://www.jcobridge.com/) with its [features](https://www.jcobridge.com/features/), to obtain many benefits:
 * **Cyber-security**: 
-  * [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine) and [CLR, or CoreCLR,](https://en.wikipedia.org/wiki/Common_Language_Runtime) runs in the same process, but are insulated from each other;
-  * JCOBridge does not make any code injection into JVM;
+  * [JVM™](https://en.wikipedia.org/wiki/Java_virtual_machine) and [CLR, or CoreCLR,](https://en.wikipedia.org/wiki/Common_Language_Runtime) runs in the same process, but are insulated from each other;
+  * JCOBridge does not make any code injection into JVM™;
   * JCOBridge does not use any other communication mechanism than JNI;
-  * .NET (CLR) inherently inherits the cyber-security levels of running JVM; 
-* **Direct access the JVM from any .NET application**: 
+  * .NET (CLR) inherently inherits the cyber-security levels of running JVM™; 
+* **Direct access the JVM™ from any .NET application**: 
   * Any Java/Scala/Kotlin/... class can be directly managed;
   * No need to learn new APIs: we try to expose the same APIs in C# style;
   * No extra validation cycle on protocol and functionality: bug fix, improvements, new features are immediately available;
   * Documentation is shared;
 * **Dynamic code**: it helps to write a Java/Scala/Kotlin/etc seamless language code directly inside a standard .NET application written in C#/VB.NET: look at this [simple example](https://www.jcobridge.com/net-examples/dotnet-examples/) and [APIs extensibility](https://jnet.masesgroup.com/articles/API_extensibility.html).
 
+[JCOBridge 2.6.*](https://www.jcobridge.com) can be used for free without any obligations; you need to purchase a commercial license, or uninstall the software, if you have direct or indirect incomes from the product usage.
+
 ### JCOBridge resources
 
 Have a look at the following JCOBridge resources:
-- [Release notes](https://www.jcobridge.com/release-notes/)
-- [Community Edition](https://www.jcobridge.com/pricing-25/)
-- [Commercial Edition](https://www.jcobridge.com/pricing-25/)
-- Latest release: [![JCOBridge nuget](https://img.shields.io/nuget/v/MASES.JCOBridge)](https://www.nuget.org/packages/MASES.JCOBridge)
+
+|JCOBridge | 2.5.* series | 2.6.* series |
+|:---:	|:---:	|:---:	|
+|NetPDF | > 3.0.* series | > 3.0.6 series |
+|Release notes|[Link](https://www.jcobridge.com/release-notes/)| [Link](https://www.jcobridge.com/release-notes/)|
+|Community Edition|[Conditions](https://www.jcobridge.com/pricing-25/)|[Conditions](https://www.jcobridge.com/pricing-25/)|
+|Commercial Edition|[Information](https://www.jcobridge.com/pricing-26/)|[Information](https://www.jcobridge.com/pricing-26/)|
+
+Latest release: [![JCOBridge nuget](https://img.shields.io/nuget/v/MASES.JCOBridge)](https://www.nuget.org/packages/MASES.JCOBridge)
