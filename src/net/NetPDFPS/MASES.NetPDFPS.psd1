@@ -18,7 +18,7 @@ Author = 'MASES s.r.l.'
 
 CompanyName = 'MASES s.r.l.'
 
-Copyright = 'Copyright ©  MASES s.r.l. 2025'
+Copyright = 'Copyright 2024-2025 MASES s.r.l.'
 
 Description = 'NetPDF (.NET suite for PDFBox™) PowerShell (aka NetPDFPS) is a PowerShell Module to use PDFBox™ and PowerShell side-by-side. With NetPDFPS it is possible to:
 - create and use PDFBox™ objects from PowerShell: initialize PDFBox™ object (Java, Scala, Kotlin, ...), execute methods on the object, read data from the object to be used for further PowerShell code 
