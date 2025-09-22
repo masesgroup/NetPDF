@@ -37,11 +37,12 @@
 		</developer>
 	</developers>
 	<properties>
+		<maven.compiler.release>11</maven.compiler.release>
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
 		<classpathfile>${basedir}/classpathfile.classpath</classpathfile>
 		<mavenSkipMain>false</mavenSkipMain> <!-- set mavenSkipMain to true to avoid source compilation: use directive in command-line -->
-		<jnetVersion>2.6.1.0</jnetVersion>
+		<jnetVersion>2.6.4.0</jnetVersion>
 		<pdfBoxVersion>3.0.5</pdfBoxVersion>
 		<netpdfversion>3.0.7.0</netpdfversion>
 		<rootDir>${basedir}/../../../</rootDir>
@@ -141,15 +142,11 @@
 						<arg>-cp</arg>
 						<arg>${originalClassPath}${path.separator}${jcobridgepath}${path.separator}${jnetpath}</arg>
 					</compilerArgs>
-					<source>11</source>
-					<target>11</target>
+					<release>${maven.compiler.release}</release>
+					<source>${maven.compiler.source}</source>
+					<target>${maven.compiler.target}</target>
 					<skipMain>${mavenSkipMain}</skipMain>
 				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.14.1</version>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
