@@ -89,7 +89,7 @@
 
 
   <h1 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font" class="text-break">
-Class PDType0Font  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L64"><i class="bi bi-code-slash"></i></a>
+Class PDType0Font  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PDType0Font : PDFont, IDynamicMetaObjectProvider, IJVMBridgeCore, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, ICOSObjectable, IPDFontLike</code></pre>
+    <pre><code class="lang-csharp hljs">public class PDType0Font : PDFont, IDynamicMetaObjectProvider, IJVMBridgeCore, IEquatable&lt;IJVMBridgeBase&gt;, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, ICOSObjectable, IPDFontLike</code></pre>
   </div>
 
 
@@ -125,6 +125,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeCore.html">IJVMBridgeCore</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a>&gt;</div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseStatic.html">IJVMBridgeBaseStatic</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a></div>
@@ -283,16 +284,16 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;PDFont&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PDFont&gt;.SExecuteArray&lt;T&gt;(IJavaType, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PDFont&gt;.SExecuteArray&lt;TArrayType&gt;(IJavaType, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PDFont&gt;.SExecuteWithSignatureArray&lt;T&gt;(IJavaType, string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PDFont&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(IJavaType, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PDFont&gt;.SExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PDFont&gt;.SExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PDFont&gt;.SExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PDFont&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PDFont&gt;.SGetField(IJavaType, string)</a>
@@ -340,6 +341,12 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PDFont&gt;.NewWithSignature(string, params object[])</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PDFont&gt;.NewAndWrapsDirect&lt;TNewClass&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;PDFont&gt;.NewWithSignatureAndWrapsDirect&lt;TNewClass&gt;(string, string, params object[])</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_Execute__1___0___">JVMBridgeBase&lt;PDFont&gt;.Execute&lt;T&gt;(params T[])</a>
     </div>
     <div>
@@ -349,13 +356,25 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_BridgeClazz">JVMBridgeBase&lt;PDFont&gt;.BridgeClazz</a>
     </div>
     <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ReferenceEqualsJVM_MASES_JCOBridge_C2JBridge_JVMBridgeBase_MASES_JCOBridge_C2JBridge_JVMBridgeBase_">JVMBridgeBase.ReferenceEqualsJVM(JVMBridgeBase, JVMBridgeBase)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">JVMBridgeBase.ClazzOf&lt;TClass&gt;(out Exception, bool)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, out Exception, bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_RuntimeClassNameOf__1">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.RuntimeClassNameOf(Type)</a>
     </div>
     <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ClassNameOf__1">JVMBridgeBase.ClassNameOf&lt;T&gt;()</a>
@@ -412,7 +431,13 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Dispose">JVMBridgeBase.Dispose()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.Dispose(bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ToString">JVMBridgeBase.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Equals_MASES_JCOBridge_C2JBridge_IJVMBridgeBase_">JVMBridgeBase.Equals(IJVMBridgeBase)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
@@ -460,10 +485,10 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
@@ -583,9 +608,42 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <a id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.#ctor*"></a>
 
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)">
+  PDType0Font(IJVMBridgeBaseInitializer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Internal constructor: used internally from JCOBridge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.&quot;)]
+public PDType0Font(IJVMBridgeBaseInitializer initializer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>initializer</code> <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer.html">IJVMBridgeBaseInitializer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.#ctor*"></a>
+
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font__ctor_Org_Apache_Pdfbox_Cos_COSDictionary_" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.#ctor(Org.Apache.Pdfbox.Cos.COSDictionary)">
   PDType0Font(COSDictionary)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L78"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#org.apache.pdfbox.pdmodel.font.PDType0Font(org.apache.pdfbox.cos.COSDictionary)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#org.apache.pdfbox.pdmodel.font.PDType0Font(org.apache.pdfbox.cos.COSDictionary)</a></p>
@@ -623,7 +681,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font__ctor_System_Object___" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.#ctor(System.Object[])">
   PDType0Font(params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
@@ -659,7 +717,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_BaseFont" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.BaseFont">
   BaseFont
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L204"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L210"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getBaseFont--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getBaseFont--</a></p>
@@ -691,7 +749,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_BridgeClassName" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.BridgeClassName">
   BridgeClassName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Java class name to be instantiated</p>
@@ -723,7 +781,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_CMap" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.CMap">
   CMap
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L211"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L217"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getCMap--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getCMap--</a></p>
@@ -755,7 +813,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_CMapUCS2" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.CMapUCS2">
   CMapUCS2
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L225"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L231"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getCMapUCS2--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getCMapUCS2--</a></p>
@@ -787,7 +845,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_CmapLookup" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.CmapLookup">
   CmapLookup
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L224"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getCmapLookup--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getCmapLookup--</a></p>
@@ -819,7 +877,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_DescendantFont" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.DescendantFont">
   DescendantFont
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L232"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L238"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getDescendantFont--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getDescendantFont--</a></p>
@@ -851,7 +909,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_GsubData" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.GsubData">
   GsubData
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L239"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L245"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getGsubData--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getGsubData--</a></p>
@@ -883,7 +941,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_IsBridgeAbstract" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.IsBridgeAbstract">
   IsBridgeAbstract
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an abstract class, i.e. cannot be created an instance</p>
@@ -915,7 +973,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_IsBridgeCloseable" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.IsBridgeCloseable">
   IsBridgeCloseable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> implements Closeable</p>
@@ -947,7 +1005,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_IsBridgeInterface" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.IsBridgeInterface">
   IsBridgeInterface
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an interface, i.e. does not have any public constructor</p>
@@ -979,7 +1037,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_IsBridgeStatic" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.IsBridgeStatic">
   IsBridgeStatic
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is a static class, i.e. does not have any public constructor</p>
@@ -1015,7 +1073,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_AddGlyphsToSubset_Java_Util_Set_Java_Lang_Integer__" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.AddGlyphsToSubset(Java.Util.Set{Java.Lang.Integer})">
   AddGlyphsToSubset(Set&lt;Integer&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L305"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L311"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#addGlyphsToSubset-java.util.Set-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#addGlyphsToSubset-java.util.Set-</a></p>
@@ -1048,7 +1106,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_CodeToCID_System_Int32_" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.CodeToCID(System.Int32)">
   CodeToCID(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L267"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L273"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#codeToCID-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#codeToCID-int-</a></p>
@@ -1087,7 +1145,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_CodeToGID_System_Int32_" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.CodeToGID(System.Int32)">
   CodeToGID(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L277"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L283"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#codeToGID-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#codeToGID-int-</a></p>
@@ -1131,7 +1189,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_EncodeGlyphId_System_Int32_" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.EncodeGlyphId(System.Int32)">
   EncodeGlyphId(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L258"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L264"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#encodeGlyphId-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#encodeGlyphId-int-</a></p>
@@ -1170,7 +1228,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_GetNormalizedPath_System_Int32_" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.GetNormalizedPath(System.Int32)">
   GetNormalizedPath(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L287"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L293"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getNormalizedPath-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getNormalizedPath-int-</a></p>
@@ -1214,7 +1272,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_GetPath_System_Int32_" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.GetPath(System.Int32)">
   GetPath(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L297"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L303"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getPath-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#getPath-int-</a></p>
@@ -1258,7 +1316,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_HasGlyph_System_Int32_" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.HasGlyph(System.Int32)">
   HasGlyph(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L249"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L255"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#hasGlyph-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#hasGlyph-int-</a></p>
@@ -1302,7 +1360,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_Load_Org_Apache_Pdfbox_Pdmodel_PDDocument_Java_Io_File_" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.Load(Org.Apache.Pdfbox.Pdmodel.PDDocument,Java.Io.File)">
   Load(PDDocument, File)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L105"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#load-org.apache.pdfbox.pdmodel.PDDocument-java.io.File-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#load-org.apache.pdfbox.pdmodel.PDDocument-java.io.File-</a></p>
@@ -1349,7 +1407,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_Load_Org_Apache_Pdfbox_Pdmodel_PDDocument_Java_Io_InputStream_" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.Load(Org.Apache.Pdfbox.Pdmodel.PDDocument,Java.Io.InputStream)">
   Load(PDDocument, InputStream)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L128"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#load-org.apache.pdfbox.pdmodel.PDDocument-java.io.InputStream-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#load-org.apache.pdfbox.pdmodel.PDDocument-java.io.InputStream-</a></p>
@@ -1396,7 +1454,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_Load_Org_Apache_Pdfbox_Pdmodel_PDDocument_Java_Io_InputStream_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.Load(Org.Apache.Pdfbox.Pdmodel.PDDocument,Java.Io.InputStream,System.Boolean)">
   Load(PDDocument, InputStream, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L117"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#load-org.apache.pdfbox.pdmodel.PDDocument-java.io.InputStream-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#load-org.apache.pdfbox.pdmodel.PDDocument-java.io.InputStream-boolean-</a></p>
@@ -1446,7 +1504,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_Load_Org_Apache_Pdfbox_Pdmodel_PDDocument_Org_Apache_Fontbox_Ttf_TrueTypeFont_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.Load(Org.Apache.Pdfbox.Pdmodel.PDDocument,Org.Apache.Fontbox.Ttf.TrueTypeFont,System.Boolean)">
   Load(PDDocument, TrueTypeFont, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L140"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#load-org.apache.pdfbox.pdmodel.PDDocument-org.apache.fontbox.ttf.TrueTypeFont-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#load-org.apache.pdfbox.pdmodel.PDDocument-org.apache.fontbox.ttf.TrueTypeFont-boolean-</a></p>
@@ -1496,7 +1554,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_Load_Org_Apache_Pdfbox_Pdmodel_PDDocument_Org_Apache_Pdfbox_Io_RandomAccessRead_System_Boolean_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.Load(Org.Apache.Pdfbox.Pdmodel.PDDocument,Org.Apache.Pdfbox.Io.RandomAccessRead,System.Boolean,System.Boolean)">
   Load(PDDocument, RandomAccessRead, bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L153"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#load-org.apache.pdfbox.pdmodel.PDDocument-org.apache.pdfbox.io.RandomAccessRead-boolean-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#load-org.apache.pdfbox.pdmodel.PDDocument-org.apache.pdfbox.io.RandomAccessRead-boolean-boolean-</a></p>
@@ -1549,7 +1607,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_LoadVertical_Org_Apache_Pdfbox_Pdmodel_PDDocument_Java_Io_File_" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.LoadVertical(Org.Apache.Pdfbox.Pdmodel.PDDocument,Java.Io.File)">
   LoadVertical(PDDocument, File)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L164"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#loadVertical-org.apache.pdfbox.pdmodel.PDDocument-java.io.File-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#loadVertical-org.apache.pdfbox.pdmodel.PDDocument-java.io.File-</a></p>
@@ -1596,7 +1654,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_LoadVertical_Org_Apache_Pdfbox_Pdmodel_PDDocument_Java_Io_InputStream_" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.LoadVertical(Org.Apache.Pdfbox.Pdmodel.PDDocument,Java.Io.InputStream)">
   LoadVertical(PDDocument, InputStream)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L187"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#loadVertical-org.apache.pdfbox.pdmodel.PDDocument-java.io.InputStream-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#loadVertical-org.apache.pdfbox.pdmodel.PDDocument-java.io.InputStream-</a></p>
@@ -1643,7 +1701,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_LoadVertical_Org_Apache_Pdfbox_Pdmodel_PDDocument_Java_Io_InputStream_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.LoadVertical(Org.Apache.Pdfbox.Pdmodel.PDDocument,Java.Io.InputStream,System.Boolean)">
   LoadVertical(PDDocument, InputStream, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L176"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#loadVertical-org.apache.pdfbox.pdmodel.PDDocument-java.io.InputStream-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#loadVertical-org.apache.pdfbox.pdmodel.PDDocument-java.io.InputStream-boolean-</a></p>
@@ -1693,7 +1751,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_LoadVertical_Org_Apache_Pdfbox_Pdmodel_PDDocument_Org_Apache_Fontbox_Ttf_TrueTypeFont_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.LoadVertical(Org.Apache.Pdfbox.Pdmodel.PDDocument,Org.Apache.Fontbox.Ttf.TrueTypeFont,System.Boolean)">
   LoadVertical(PDDocument, TrueTypeFont, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L199"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#loadVertical-org.apache.pdfbox.pdmodel.PDDocument-org.apache.fontbox.ttf.TrueTypeFont-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/font/PDType0Font.html#loadVertical-org.apache.pdfbox.pdmodel.PDDocument-org.apache.fontbox.ttf.TrueTypeFont-boolean-</a></p>
@@ -1747,7 +1805,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font_op_Implicit_Org_Apache_Pdfbox_Pdmodel_Font_PDType0Font__Org_Apache_Pdfbox_Pdmodel_Font_PDVectorFont" data-uid="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.op_Implicit(Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font)~Org.Apache.Pdfbox.Pdmodel.Font.PDVectorFont">
   implicit operator PDVectorFont(PDType0Font)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L89"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Converter from <a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Font.PDType0Font.html">PDType0Font</a> to <a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Font.PDVectorFont.html">PDVectorFont</a></p>
@@ -1784,7 +1842,7 @@ Class PDType0Font  <a class="header-action link-secondary" title="View source" h
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L64" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Font/PDType0Font.cs/#L70" class="edit-link">Edit this page</a>
         </div>
 
 

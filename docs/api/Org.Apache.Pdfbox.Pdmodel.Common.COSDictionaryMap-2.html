@@ -89,7 +89,7 @@
 
 
   <h1 id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2" class="text-break">
-Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L261"><i class="bi bi-code-slash"></i></a>
+Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L273"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class COSDictionaryMap&lt;K, V&gt; : Map&lt;K, V&gt;, IDynamicMetaObjectProvider, IJVMBridgeCore, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, IMap&lt;K, V&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class COSDictionaryMap&lt;K, V&gt; : Map&lt;K, V&gt;, IDynamicMetaObjectProvider, IJVMBridgeCore, IEquatable&lt;IJVMBridgeBase&gt;, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, IMap&lt;K, V&gt;</code></pre>
   </div>
 
 
@@ -132,6 +132,7 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeCore.html">IJVMBridgeCore</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a>&gt;</div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseStatic.html">IJVMBridgeBaseStatic</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a></div>
@@ -358,16 +359,16 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;Map&lt;K, V&gt;&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Map&lt;K, V&gt;&gt;.SExecuteArray&lt;T&gt;(IJavaType, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Map&lt;K, V&gt;&gt;.SExecuteArray&lt;TArrayType&gt;(IJavaType, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Map&lt;K, V&gt;&gt;.SExecuteWithSignatureArray&lt;T&gt;(IJavaType, string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Map&lt;K, V&gt;&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(IJavaType, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Map&lt;K, V&gt;&gt;.SExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Map&lt;K, V&gt;&gt;.SExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Map&lt;K, V&gt;&gt;.SExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Map&lt;K, V&gt;&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Map&lt;K, V&gt;&gt;.SGetField(IJavaType, string)</a>
@@ -415,6 +416,12 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Map&lt;K, V&gt;&gt;.NewWithSignature(string, params object[])</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Map&lt;K, V&gt;&gt;.NewAndWrapsDirect&lt;TNewClass&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Map&lt;K, V&gt;&gt;.NewWithSignatureAndWrapsDirect&lt;TNewClass&gt;(string, string, params object[])</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_Execute__1___0___">JVMBridgeBase&lt;Map&lt;K, V&gt;&gt;.Execute&lt;T&gt;(params T[])</a>
     </div>
     <div>
@@ -424,13 +431,25 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_BridgeClazz">JVMBridgeBase&lt;Map&lt;K, V&gt;&gt;.BridgeClazz</a>
     </div>
     <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ReferenceEqualsJVM_MASES_JCOBridge_C2JBridge_JVMBridgeBase_MASES_JCOBridge_C2JBridge_JVMBridgeBase_">JVMBridgeBase.ReferenceEqualsJVM(JVMBridgeBase, JVMBridgeBase)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">JVMBridgeBase.ClazzOf&lt;TClass&gt;(out Exception, bool)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, out Exception, bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_RuntimeClassNameOf__1">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.RuntimeClassNameOf(Type)</a>
     </div>
     <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ClassNameOf__1">JVMBridgeBase.ClassNameOf&lt;T&gt;()</a>
@@ -484,13 +503,19 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_CastDirect__1">JVMBridgeBase.CastDirect&lt;TNewClass&gt;()</a>
     </div>
     <div>
-      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Execute__1___0___">JVMBridgeBase.Execute&lt;T&gt;(params T[])</a>
-    </div>
-    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Dispose">JVMBridgeBase.Dispose()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.Dispose(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Execute__1___0___">JVMBridgeBase.Execute&lt;T&gt;(params T[])</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ToString">JVMBridgeBase.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Equals_MASES_JCOBridge_C2JBridge_IJVMBridgeBase_">JVMBridgeBase.Equals(IJVMBridgeBase)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
@@ -538,10 +563,10 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
@@ -636,7 +661,7 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2__ctor" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2.#ctor">
   COSDictionaryMap()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L81"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Default constructor: even if the corresponding Java class does not have one, it is mandatory for JCOBridge</p>
@@ -663,7 +688,7 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2__ctor_Java_Util_Map__0__1__Org_Apache_Pdfbox_Cos_COSDictionary_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2.#ctor(Java.Util.Map{`0,`1},Org.Apache.Pdfbox.Cos.COSDictionary)">
   COSDictionaryMap(Map&lt;K, V&gt;, COSDictionary)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L269"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L281"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#org.apache.pdfbox.pdmodel.common.COSDictionaryMap(java.util.Map,org.apache.pdfbox.cos.COSDictionary)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#org.apache.pdfbox.pdmodel.common.COSDictionaryMap(java.util.Map,org.apache.pdfbox.cos.COSDictionary)</a></p>
@@ -697,9 +722,42 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
 
   <a id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2.#ctor*"></a>
 
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)">
+  COSDictionaryMap(IJVMBridgeBaseInitializer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Internal constructor: used internally from JCOBridge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.&quot;)]
+public COSDictionaryMap(IJVMBridgeBaseInitializer initializer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>initializer</code> <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer.html">IJVMBridgeBaseInitializer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2.#ctor*"></a>
+
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2__ctor_System_Object___" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2.#ctor(System.Object[])">
   COSDictionaryMap(params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L90"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
@@ -735,7 +793,7 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2_BridgeClassName" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2.BridgeClassName">
   BridgeClassName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L97"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Java class name to be instantiated</p>
@@ -767,7 +825,7 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2_IsBridgeAbstract" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2.IsBridgeAbstract">
   IsBridgeAbstract
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L99"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an abstract class, i.e. cannot be created an instance</p>
@@ -799,7 +857,7 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2_IsBridgeCloseable" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2.IsBridgeCloseable">
   IsBridgeCloseable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L101"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> implements Closeable</p>
@@ -831,7 +889,7 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2_IsBridgeInterface" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2.IsBridgeInterface">
   IsBridgeInterface
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L103"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an interface, i.e. does not have any public constructor</p>
@@ -863,7 +921,7 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2_IsBridgeStatic" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2.IsBridgeStatic">
   IsBridgeStatic
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L105"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is a static class, i.e. does not have any public constructor</p>
@@ -899,7 +957,7 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2_Clear" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2.Clear">
   Clear()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L401"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L413"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#clear--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#clear--</a></p>
@@ -926,7 +984,7 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2_ContainsKey_System_Object_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2.ContainsKey(System.Object)">
   ContainsKey(object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L317"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L329"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#containsKey-java.lang.Object-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#containsKey-java.lang.Object-</a></p>
@@ -965,7 +1023,7 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2_ContainsValue_System_Object_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2.ContainsValue(System.Object)">
   ContainsValue(object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L326"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L338"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#containsValue-java.lang.Object-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#containsValue-java.lang.Object-</a></p>
@@ -1004,7 +1062,7 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2_Convert_Java_Util_Map_Java_Lang_String_System_Object__" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2.Convert(Java.Util.Map{Java.Lang.String,System.Object})">
   Convert(Map&lt;String, object&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L294"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L306"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#convert-java.util.Map-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#convert-java.util.Map-</a></p>
@@ -1043,7 +1101,7 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2_ConvertBasicTypesToMap_Org_Apache_Pdfbox_Cos_COSDictionary_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2.ConvertBasicTypesToMap(Org.Apache.Pdfbox.Cos.COSDictionary)">
   ConvertBasicTypesToMap(COSDictionary)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L304"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L316"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#convertBasicTypesToMap-org.apache.pdfbox.cos.COSDictionary-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#convertBasicTypesToMap-org.apache.pdfbox.cos.COSDictionary-</a></p>
@@ -1087,7 +1145,7 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2_EntrySet" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2.EntrySet">
   EntrySet()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L358"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L370"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#entrySet--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#entrySet--</a></p>
@@ -1120,7 +1178,7 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2_Get_System_Object_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2.Get(System.Object)">
   Get(object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L375"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L387"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#get-java.lang.Object-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#get-java.lang.Object-</a></p>
@@ -1159,7 +1217,7 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2_IsEmpty" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2.IsEmpty">
   IsEmpty()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L334"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L346"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#isEmpty--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#isEmpty--</a></p>
@@ -1192,7 +1250,7 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2_KeySet" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2.KeySet">
   KeySet()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L366"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L378"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#keySet--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#keySet--</a></p>
@@ -1225,7 +1283,7 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2_Put__0__1_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2.Put(`0,`1)">
   Put(K, V)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L385"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L397"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#put-java.lang.Object-java.lang.Object-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#put-java.lang.Object-java.lang.Object-</a></p>
@@ -1267,7 +1325,7 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2_PutAll__2_Java_Util_Map___0___1__" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2.PutAll``2(Java.Util.Map{``0,``1})">
   PutAll&lt;Arg0ExtendsK, Arg0ExtendsV&gt;(Map&lt;Arg0ExtendsK, Arg0ExtendsV&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L411"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L423"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#putAll-java.util.Map-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#putAll-java.util.Map-</a></p>
@@ -1309,7 +1367,7 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2_Remove_System_Object_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2.Remove(System.Object)">
   Remove(object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L394"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L406"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#remove-java.lang.Object-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#remove-java.lang.Object-</a></p>
@@ -1348,7 +1406,7 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2_Size" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2.Size">
   Size()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L342"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L354"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#size--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#size--</a></p>
@@ -1381,7 +1439,7 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2_Values" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2.Values">
   Values()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L350"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L362"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#values--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSDictionaryMap.html#values--</a></p>
@@ -1418,7 +1476,7 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap_2_op_Implicit_Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap__0__1___Org_Apache_Pdfbox_Pdmodel_Common_COSDictionaryMap" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap`2.op_Implicit(Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap{`0,`1})~Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap">
   implicit operator COSDictionaryMap(COSDictionaryMap&lt;K, V&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L280"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L292"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Converter from <a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap-2.html">COSDictionaryMap&lt;K, V&gt;</a> to <a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Common.COSDictionaryMap.html">COSDictionaryMap</a></p>
@@ -1455,7 +1513,7 @@ Class COSDictionaryMap&lt;K, V&gt;  <a class="header-action link-secondary" titl
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L261" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSDictionaryMap.cs/#L273" class="edit-link">Edit this page</a>
         </div>
 
 

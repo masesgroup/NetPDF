@@ -89,7 +89,7 @@
 
 
   <h1 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField" class="text-break">
-Class FDFField  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L64"><i class="bi bi-code-slash"></i></a>
+Class FDFField  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class FDFField : COSObjectable, IDynamicMetaObjectProvider, IJVMBridgeCore, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, ICOSObjectable</code></pre>
+    <pre><code class="lang-csharp hljs">public class FDFField : COSObjectable, IDynamicMetaObjectProvider, IJVMBridgeCore, IEquatable&lt;IJVMBridgeBase&gt;, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, ICOSObjectable</code></pre>
   </div>
 
 
@@ -125,6 +125,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeCore.html">IJVMBridgeCore</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a>&gt;</div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseStatic.html">IJVMBridgeBaseStatic</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a></div>
@@ -222,16 +223,16 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;T&gt;(IJavaType, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;TArrayType&gt;(IJavaType, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;T&gt;(IJavaType, string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(IJavaType, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SGetField(IJavaType, string)</a>
@@ -279,6 +280,12 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.NewWithSignature(string, params object[])</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.NewAndWrapsDirect&lt;TNewClass&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.NewWithSignatureAndWrapsDirect&lt;TNewClass&gt;(string, string, params object[])</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_Execute__1___0___">JVMBridgeBase&lt;COSObjectable&gt;.Execute&lt;T&gt;(params T[])</a>
     </div>
     <div>
@@ -288,13 +295,25 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_BridgeClazz">JVMBridgeBase&lt;COSObjectable&gt;.BridgeClazz</a>
     </div>
     <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ReferenceEqualsJVM_MASES_JCOBridge_C2JBridge_JVMBridgeBase_MASES_JCOBridge_C2JBridge_JVMBridgeBase_">JVMBridgeBase.ReferenceEqualsJVM(JVMBridgeBase, JVMBridgeBase)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">JVMBridgeBase.ClazzOf&lt;TClass&gt;(out Exception, bool)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, out Exception, bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_RuntimeClassNameOf__1">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.RuntimeClassNameOf(Type)</a>
     </div>
     <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ClassNameOf__1">JVMBridgeBase.ClassNameOf&lt;T&gt;()</a>
@@ -351,7 +370,13 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Dispose">JVMBridgeBase.Dispose()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.Dispose(bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ToString">JVMBridgeBase.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Equals_MASES_JCOBridge_C2JBridge_IJVMBridgeBase_">JVMBridgeBase.Equals(IJVMBridgeBase)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
@@ -399,10 +424,10 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
@@ -522,9 +547,42 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <a id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.#ctor*"></a>
 
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)">
+  FDFField(IJVMBridgeBaseInitializer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Internal constructor: used internally from JCOBridge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.&quot;)]
+public FDFField(IJVMBridgeBaseInitializer initializer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>initializer</code> <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer.html">IJVMBridgeBaseInitializer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.#ctor*"></a>
+
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField__ctor_Org_Apache_Pdfbox_Cos_COSDictionary_" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.#ctor(Org.Apache.Pdfbox.Cos.COSDictionary)">
   FDFField(COSDictionary)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L77"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#org.apache.pdfbox.pdmodel.fdf.FDFField(org.apache.pdfbox.cos.COSDictionary)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#org.apache.pdfbox.pdmodel.fdf.FDFField(org.apache.pdfbox.cos.COSDictionary)</a></p>
@@ -557,7 +615,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField__ctor_Org_W3c_Dom_Element_" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.#ctor(Org.W3c.Dom.Element)">
   FDFField(Element)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L86"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#org.apache.pdfbox.pdmodel.fdf.FDFField(org.w3c.dom.Element)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#org.apache.pdfbox.pdmodel.fdf.FDFField(org.w3c.dom.Element)</a></p>
@@ -595,7 +653,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField__ctor_System_Object___" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.#ctor(System.Object[])">
   FDFField(params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
@@ -631,7 +689,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_Action" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.Action">
   Action
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L109"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getAction--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getAction--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setAction-org.apache.pdfbox.pdmodel.interactive.action.PDAction-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setAction-org.apache.pdfbox.pdmodel.interactive.action.PDAction-</a></p>
@@ -663,7 +721,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_AdditionalActions" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.AdditionalActions">
   AdditionalActions
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L116"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getAdditionalActions--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getAdditionalActions--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setAdditionalActions-org.apache.pdfbox.pdmodel.interactive.action.PDAdditionalActions-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setAdditionalActions-org.apache.pdfbox.pdmodel.interactive.action.PDAdditionalActions-</a></p>
@@ -695,7 +753,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_AppearanceDictionary" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.AppearanceDictionary">
   AppearanceDictionary
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L123"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getAppearanceDictionary--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getAppearanceDictionary--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setAppearanceDictionary-org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceDictionary-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setAppearanceDictionary-org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceDictionary-</a></p>
@@ -727,7 +785,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_AppearanceStreamReference" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.AppearanceStreamReference">
   AppearanceStreamReference
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L130"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getAppearanceStreamReference--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getAppearanceStreamReference--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setAppearanceStreamReference-org.apache.pdfbox.pdmodel.fdf.FDFNamedPageReference-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setAppearanceStreamReference-org.apache.pdfbox.pdmodel.fdf.FDFNamedPageReference-</a></p>
@@ -759,7 +817,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_BridgeClassName" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.BridgeClassName">
   BridgeClassName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Java class name to be instantiated</p>
@@ -791,7 +849,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_COSObject" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.COSObject">
   COSObject
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L151"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getCOSObject--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getCOSObject--</a></p>
@@ -823,7 +881,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_COSValue" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.COSValue">
   COSValue
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L158"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getCOSValue--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getCOSValue--</a></p>
@@ -855,7 +913,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_ClearFieldFlags" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.ClearFieldFlags">
   ClearFieldFlags
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L137"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getClearFieldFlags--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getClearFieldFlags--</a></p>
@@ -887,7 +945,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_ClearWidgetFieldFlags" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.ClearWidgetFieldFlags">
   ClearWidgetFieldFlags
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L144"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getClearWidgetFieldFlags--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getClearWidgetFieldFlags--</a></p>
@@ -919,7 +977,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_FieldFlags" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.FieldFlags">
   FieldFlags
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L165"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getFieldFlags--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getFieldFlags--</a></p>
@@ -951,7 +1009,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_IconFit" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.IconFit">
   IconFit
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L172"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getIconFit--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getIconFit--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setIconFit-org.apache.pdfbox.pdmodel.fdf.FDFIconFit-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setIconFit-org.apache.pdfbox.pdmodel.fdf.FDFIconFit-</a></p>
@@ -983,7 +1041,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_IsBridgeAbstract" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.IsBridgeAbstract">
   IsBridgeAbstract
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an abstract class, i.e. cannot be created an instance</p>
@@ -1015,7 +1073,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_IsBridgeCloseable" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.IsBridgeCloseable">
   IsBridgeCloseable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> implements Closeable</p>
@@ -1047,7 +1105,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_IsBridgeInterface" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.IsBridgeInterface">
   IsBridgeInterface
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an interface, i.e. does not have any public constructor</p>
@@ -1079,7 +1137,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_IsBridgeStatic" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.IsBridgeStatic">
   IsBridgeStatic
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is a static class, i.e. does not have any public constructor</p>
@@ -1111,7 +1169,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_Kids" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.Kids">
   Kids
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L173"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L179"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getKids--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getKids--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setKids-java.util.List-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setKids-java.util.List-</a></p>
@@ -1143,7 +1201,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_Options" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.Options">
   Options
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L180"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L186"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getOptions--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getOptions--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setOptions-java.util.List-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setOptions-java.util.List-</a></p>
@@ -1175,7 +1233,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_PartialFieldName" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.PartialFieldName">
   PartialFieldName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L193"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getPartialFieldName--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getPartialFieldName--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setPartialFieldName-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setPartialFieldName-java.lang.String-</a></p>
@@ -1207,7 +1265,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_RichText" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.RichText">
   RichText
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L200"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getRichText--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getRichText--</a></p>
@@ -1239,7 +1297,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_Value" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.Value">
   Value
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L207"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getValue--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getValue--</a></p>
@@ -1271,7 +1329,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_WidgetFieldFlags" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.WidgetFieldFlags">
   WidgetFieldFlags
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L214"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getWidgetFieldFlags--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getWidgetFieldFlags--</a></p>
@@ -1307,7 +1365,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_GetSetFieldFlags" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.GetSetFieldFlags">
   GetSetFieldFlags()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L216"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L222"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getSetFieldFlags--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getSetFieldFlags--</a></p>
@@ -1340,7 +1398,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_GetSetWidgetFieldFlags" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.GetSetWidgetFieldFlags">
   GetSetWidgetFieldFlags()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L224"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L230"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getSetWidgetFieldFlags--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#getSetWidgetFieldFlags--</a></p>
@@ -1373,7 +1431,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_SetClearFieldFlags_Java_Lang_Integer_" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.SetClearFieldFlags(Java.Lang.Integer)">
   SetClearFieldFlags(Integer)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L240"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L246"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setClearFieldFlags-java.lang.Integer-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setClearFieldFlags-java.lang.Integer-</a></p>
@@ -1406,7 +1464,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_SetClearFieldFlags_System_Int32_" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.SetClearFieldFlags(System.Int32)">
   SetClearFieldFlags(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L232"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L238"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setClearFieldFlags-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setClearFieldFlags-int-</a></p>
@@ -1439,7 +1497,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_SetClearWidgetFieldFlags_Java_Lang_Integer_" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.SetClearWidgetFieldFlags(Java.Lang.Integer)">
   SetClearWidgetFieldFlags(Integer)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L256"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L262"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setClearWidgetFieldFlags-java.lang.Integer-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setClearWidgetFieldFlags-java.lang.Integer-</a></p>
@@ -1472,7 +1530,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_SetClearWidgetFieldFlags_System_Int32_" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.SetClearWidgetFieldFlags(System.Int32)">
   SetClearWidgetFieldFlags(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L248"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L254"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setClearWidgetFieldFlags-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setClearWidgetFieldFlags-int-</a></p>
@@ -1505,7 +1563,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_SetFieldFlags_Java_Lang_Integer_" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.SetFieldFlags(Java.Lang.Integer)">
   SetFieldFlags(Integer)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L272"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L278"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setFieldFlags-java.lang.Integer-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setFieldFlags-java.lang.Integer-</a></p>
@@ -1538,7 +1596,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_SetFieldFlags_System_Int32_" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.SetFieldFlags(System.Int32)">
   SetFieldFlags(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L264"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L270"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setFieldFlags-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setFieldFlags-int-</a></p>
@@ -1571,7 +1629,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_SetRichText_Org_Apache_Pdfbox_Cos_COSStream_" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.SetRichText(Org.Apache.Pdfbox.Cos.COSStream)">
   SetRichText(COSStream)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L280"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L286"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setRichText-org.apache.pdfbox.cos.COSStream-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setRichText-org.apache.pdfbox.cos.COSStream-</a></p>
@@ -1604,7 +1662,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_SetRichText_Org_Apache_Pdfbox_Cos_COSString_" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.SetRichText(Org.Apache.Pdfbox.Cos.COSString)">
   SetRichText(COSString)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L288"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L294"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setRichText-org.apache.pdfbox.cos.COSString-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setRichText-org.apache.pdfbox.cos.COSString-</a></p>
@@ -1637,7 +1695,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_SetSetFieldFlags_Java_Lang_Integer_" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.SetSetFieldFlags(Java.Lang.Integer)">
   SetSetFieldFlags(Integer)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L304"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L310"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setSetFieldFlags-java.lang.Integer-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setSetFieldFlags-java.lang.Integer-</a></p>
@@ -1670,7 +1728,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_SetSetFieldFlags_System_Int32_" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.SetSetFieldFlags(System.Int32)">
   SetSetFieldFlags(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L296"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L302"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setSetFieldFlags-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setSetFieldFlags-int-</a></p>
@@ -1703,7 +1761,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_SetSetWidgetFieldFlags_Java_Lang_Integer_" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.SetSetWidgetFieldFlags(Java.Lang.Integer)">
   SetSetWidgetFieldFlags(Integer)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L320"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L326"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setSetWidgetFieldFlags-java.lang.Integer-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setSetWidgetFieldFlags-java.lang.Integer-</a></p>
@@ -1736,7 +1794,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_SetSetWidgetFieldFlags_System_Int32_" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.SetSetWidgetFieldFlags(System.Int32)">
   SetSetWidgetFieldFlags(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L312"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L318"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setSetWidgetFieldFlags-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setSetWidgetFieldFlags-int-</a></p>
@@ -1769,7 +1827,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_SetValue_Org_Apache_Pdfbox_Cos_COSBase_" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.SetValue(Org.Apache.Pdfbox.Cos.COSBase)">
   SetValue(COSBase)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L337"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L343"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setValue-org.apache.pdfbox.cos.COSBase-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setValue-org.apache.pdfbox.cos.COSBase-</a></p>
@@ -1802,7 +1860,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_SetValue_System_Object_" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.SetValue(System.Object)">
   SetValue(object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L329"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L335"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setValue-java.lang.Object-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setValue-java.lang.Object-</a></p>
@@ -1840,7 +1898,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_SetWidgetFieldFlags_Java_Lang_Integer_" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.SetWidgetFieldFlags(Java.Lang.Integer)">
   SetWidgetFieldFlags(Integer)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L353"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L359"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setWidgetFieldFlags-java.lang.Integer-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setWidgetFieldFlags-java.lang.Integer-</a></p>
@@ -1873,7 +1931,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_SetWidgetFieldFlags_System_Int32_" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.SetWidgetFieldFlags(System.Int32)">
   SetWidgetFieldFlags(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L345"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L351"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setWidgetFieldFlags-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#setWidgetFieldFlags-int-</a></p>
@@ -1906,7 +1964,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Fdf_FDFField_WriteXML_Java_Io_Writer_" data-uid="Org.Apache.Pdfbox.Pdmodel.Fdf.FDFField.WriteXML(Java.Io.Writer)">
   WriteXML(Writer)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L362"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L368"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#writeXML-java.io.Writer-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/fdf/FDFField.html#writeXML-java.io.Writer-</a></p>
@@ -1944,7 +2002,7 @@ Class FDFField  <a class="header-action link-secondary" title="View source" href
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L64" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Fdf/FDFField.cs/#L70" class="edit-link">Edit this page</a>
         </div>
 
 

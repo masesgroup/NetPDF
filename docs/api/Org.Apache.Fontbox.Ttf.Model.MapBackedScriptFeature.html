@@ -89,7 +89,7 @@
 
 
   <h1 id="Org_Apache_Fontbox_Ttf_Model_MapBackedScriptFeature" data-uid="Org.Apache.Fontbox.Ttf.Model.MapBackedScriptFeature" class="text-break">
-Class MapBackedScriptFeature  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L64"><i class="bi bi-code-slash"></i></a>
+Class MapBackedScriptFeature  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class MapBackedScriptFeature  <a class="header-action link-secondary" title="Vie
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MapBackedScriptFeature : ScriptFeature, IDynamicMetaObjectProvider, IJVMBridgeCore, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, IScriptFeature</code></pre>
+    <pre><code class="lang-csharp hljs">public class MapBackedScriptFeature : ScriptFeature, IDynamicMetaObjectProvider, IJVMBridgeCore, IEquatable&lt;IJVMBridgeBase&gt;, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, IScriptFeature</code></pre>
   </div>
 
 
@@ -125,6 +125,7 @@ Class MapBackedScriptFeature  <a class="header-action link-secondary" title="Vie
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeCore.html">IJVMBridgeCore</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a>&gt;</div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseStatic.html">IJVMBridgeBaseStatic</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a></div>
@@ -222,16 +223,16 @@ Class MapBackedScriptFeature  <a class="header-action link-secondary" title="Vie
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;ScriptFeature&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ScriptFeature&gt;.SExecuteArray&lt;T&gt;(IJavaType, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ScriptFeature&gt;.SExecuteArray&lt;TArrayType&gt;(IJavaType, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ScriptFeature&gt;.SExecuteWithSignatureArray&lt;T&gt;(IJavaType, string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ScriptFeature&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(IJavaType, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ScriptFeature&gt;.SExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ScriptFeature&gt;.SExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ScriptFeature&gt;.SExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ScriptFeature&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ScriptFeature&gt;.SGetField(IJavaType, string)</a>
@@ -279,6 +280,12 @@ Class MapBackedScriptFeature  <a class="header-action link-secondary" title="Vie
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ScriptFeature&gt;.NewWithSignature(string, params object[])</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ScriptFeature&gt;.NewAndWrapsDirect&lt;TNewClass&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ScriptFeature&gt;.NewWithSignatureAndWrapsDirect&lt;TNewClass&gt;(string, string, params object[])</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_Execute__1___0___">JVMBridgeBase&lt;ScriptFeature&gt;.Execute&lt;T&gt;(params T[])</a>
     </div>
     <div>
@@ -288,13 +295,25 @@ Class MapBackedScriptFeature  <a class="header-action link-secondary" title="Vie
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_BridgeClazz">JVMBridgeBase&lt;ScriptFeature&gt;.BridgeClazz</a>
     </div>
     <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ReferenceEqualsJVM_MASES_JCOBridge_C2JBridge_JVMBridgeBase_MASES_JCOBridge_C2JBridge_JVMBridgeBase_">JVMBridgeBase.ReferenceEqualsJVM(JVMBridgeBase, JVMBridgeBase)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">JVMBridgeBase.ClazzOf&lt;TClass&gt;(out Exception, bool)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, out Exception, bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_RuntimeClassNameOf__1">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.RuntimeClassNameOf(Type)</a>
     </div>
     <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ClassNameOf__1">JVMBridgeBase.ClassNameOf&lt;T&gt;()</a>
@@ -351,7 +370,13 @@ Class MapBackedScriptFeature  <a class="header-action link-secondary" title="Vie
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Dispose">JVMBridgeBase.Dispose()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.Dispose(bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ToString">JVMBridgeBase.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Equals_MASES_JCOBridge_C2JBridge_IJVMBridgeBase_">JVMBridgeBase.Equals(IJVMBridgeBase)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
@@ -399,10 +424,10 @@ Class MapBackedScriptFeature  <a class="header-action link-secondary" title="Vie
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
@@ -524,7 +549,7 @@ Class MapBackedScriptFeature  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Fontbox_Ttf_Model_MapBackedScriptFeature__ctor_Java_Lang_String_Java_Util_Map_Java_Util_List_Java_Lang_Integer__Java_Lang_Integer__" data-uid="Org.Apache.Fontbox.Ttf.Model.MapBackedScriptFeature.#ctor(Java.Lang.String,Java.Util.Map{Java.Util.List{Java.Lang.Integer},Java.Lang.Integer})">
   MapBackedScriptFeature(String, Map&lt;List&lt;Integer&gt;, Integer&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L78"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/model/MapBackedScriptFeature.html#org.apache.fontbox.ttf.model.MapBackedScriptFeature(java.lang.String,java.util.Map)">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/model/MapBackedScriptFeature.html#org.apache.fontbox.ttf.model.MapBackedScriptFeature(java.lang.String,java.util.Map)</a></p>
@@ -558,9 +583,42 @@ Class MapBackedScriptFeature  <a class="header-action link-secondary" title="Vie
 
   <a id="Org_Apache_Fontbox_Ttf_Model_MapBackedScriptFeature__ctor_" data-uid="Org.Apache.Fontbox.Ttf.Model.MapBackedScriptFeature.#ctor*"></a>
 
+  <h3 id="Org_Apache_Fontbox_Ttf_Model_MapBackedScriptFeature__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_" data-uid="Org.Apache.Fontbox.Ttf.Model.MapBackedScriptFeature.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)">
+  MapBackedScriptFeature(IJVMBridgeBaseInitializer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Internal constructor: used internally from JCOBridge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.&quot;)]
+public MapBackedScriptFeature(IJVMBridgeBaseInitializer initializer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>initializer</code> <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer.html">IJVMBridgeBaseInitializer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Ttf_Model_MapBackedScriptFeature__ctor_" data-uid="Org.Apache.Fontbox.Ttf.Model.MapBackedScriptFeature.#ctor*"></a>
+
   <h3 id="Org_Apache_Fontbox_Ttf_Model_MapBackedScriptFeature__ctor_System_Object___" data-uid="Org.Apache.Fontbox.Ttf.Model.MapBackedScriptFeature.#ctor(System.Object[])">
   MapBackedScriptFeature(params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
@@ -596,7 +654,7 @@ Class MapBackedScriptFeature  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Fontbox_Ttf_Model_MapBackedScriptFeature_AllGlyphIdsForSubstitution" data-uid="Org.Apache.Fontbox.Ttf.Model.MapBackedScriptFeature.AllGlyphIdsForSubstitution">
   AllGlyphIdsForSubstitution
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L101"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/model/MapBackedScriptFeature.html#getAllGlyphIdsForSubstitution--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/model/MapBackedScriptFeature.html#getAllGlyphIdsForSubstitution--</a></p>
@@ -628,7 +686,7 @@ Class MapBackedScriptFeature  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Fontbox_Ttf_Model_MapBackedScriptFeature_BridgeClassName" data-uid="Org.Apache.Fontbox.Ttf.Model.MapBackedScriptFeature.BridgeClassName">
   BridgeClassName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Java class name to be instantiated</p>
@@ -660,7 +718,7 @@ Class MapBackedScriptFeature  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Fontbox_Ttf_Model_MapBackedScriptFeature_IsBridgeAbstract" data-uid="Org.Apache.Fontbox.Ttf.Model.MapBackedScriptFeature.IsBridgeAbstract">
   IsBridgeAbstract
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an abstract class, i.e. cannot be created an instance</p>
@@ -692,7 +750,7 @@ Class MapBackedScriptFeature  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Fontbox_Ttf_Model_MapBackedScriptFeature_IsBridgeCloseable" data-uid="Org.Apache.Fontbox.Ttf.Model.MapBackedScriptFeature.IsBridgeCloseable">
   IsBridgeCloseable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> implements Closeable</p>
@@ -724,7 +782,7 @@ Class MapBackedScriptFeature  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Fontbox_Ttf_Model_MapBackedScriptFeature_IsBridgeInterface" data-uid="Org.Apache.Fontbox.Ttf.Model.MapBackedScriptFeature.IsBridgeInterface">
   IsBridgeInterface
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an interface, i.e. does not have any public constructor</p>
@@ -756,7 +814,7 @@ Class MapBackedScriptFeature  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Fontbox_Ttf_Model_MapBackedScriptFeature_IsBridgeStatic" data-uid="Org.Apache.Fontbox.Ttf.Model.MapBackedScriptFeature.IsBridgeStatic">
   IsBridgeStatic
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is a static class, i.e. does not have any public constructor</p>
@@ -788,7 +846,7 @@ Class MapBackedScriptFeature  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Fontbox_Ttf_Model_MapBackedScriptFeature_Name" data-uid="Org.Apache.Fontbox.Ttf.Model.MapBackedScriptFeature.Name">
   Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L108"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/model/MapBackedScriptFeature.html#getName--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/model/MapBackedScriptFeature.html#getName--</a></p>
@@ -824,7 +882,7 @@ Class MapBackedScriptFeature  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Fontbox_Ttf_Model_MapBackedScriptFeature_CanReplaceGlyphs_Java_Util_List_Java_Lang_Integer__" data-uid="Org.Apache.Fontbox.Ttf.Model.MapBackedScriptFeature.CanReplaceGlyphs(Java.Util.List{Java.Lang.Integer})">
   CanReplaceGlyphs(List&lt;Integer&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L117"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/model/MapBackedScriptFeature.html#canReplaceGlyphs-java.util.List-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/model/MapBackedScriptFeature.html#canReplaceGlyphs-java.util.List-</a></p>
@@ -863,7 +921,7 @@ Class MapBackedScriptFeature  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Fontbox_Ttf_Model_MapBackedScriptFeature_GetReplacementForGlyphs_Java_Util_List_Java_Lang_Integer__" data-uid="Org.Apache.Fontbox.Ttf.Model.MapBackedScriptFeature.GetReplacementForGlyphs(Java.Util.List{Java.Lang.Integer})">
   GetReplacementForGlyphs(List&lt;Integer&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L126"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/model/MapBackedScriptFeature.html#getReplacementForGlyphs-java.util.List-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/ttf/model/MapBackedScriptFeature.html#getReplacementForGlyphs-java.util.List-</a></p>
@@ -902,7 +960,7 @@ Class MapBackedScriptFeature  <a class="header-action link-secondary" title="Vie
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L64" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Ttf/Model/MapBackedScriptFeature.cs/#L70" class="edit-link">Edit this page</a>
         </div>
 
 

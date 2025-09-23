@@ -89,7 +89,7 @@
 
 
   <h1 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName" class="text-break">
-Class OperatorName  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L64"><i class="bi bi-code-slash"></i></a>
+Class OperatorName  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class OperatorName : JVMBridgeBase&lt;OperatorName&gt;, IDynamicMetaObjectProvider, IJVMBridgeCore, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition</code></pre>
+    <pre><code class="lang-csharp hljs">public class OperatorName : JVMBridgeBase&lt;OperatorName&gt;, IDynamicMetaObjectProvider, IJVMBridgeCore, IEquatable&lt;IJVMBridgeBase&gt;, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition</code></pre>
   </div>
 
 
@@ -124,6 +124,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeCore.html">IJVMBridgeCore</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a>&gt;</div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseStatic.html">IJVMBridgeBaseStatic</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a></div>
@@ -220,16 +221,16 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;OperatorName&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;OperatorName&gt;.SExecuteArray&lt;T&gt;(IJavaType, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;OperatorName&gt;.SExecuteArray&lt;TArrayType&gt;(IJavaType, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;OperatorName&gt;.SExecuteWithSignatureArray&lt;T&gt;(IJavaType, string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;OperatorName&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(IJavaType, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;OperatorName&gt;.SExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;OperatorName&gt;.SExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;OperatorName&gt;.SExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;OperatorName&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;OperatorName&gt;.SGetField(IJavaType, string)</a>
@@ -277,6 +278,12 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;OperatorName&gt;.NewWithSignature(string, params object[])</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;OperatorName&gt;.NewAndWrapsDirect&lt;TNewClass&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;OperatorName&gt;.NewWithSignatureAndWrapsDirect&lt;TNewClass&gt;(string, string, params object[])</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_Execute__1___0___">JVMBridgeBase&lt;OperatorName&gt;.Execute&lt;T&gt;(params T[])</a>
     </div>
     <div>
@@ -286,13 +293,25 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_BridgeClazz">JVMBridgeBase&lt;OperatorName&gt;.BridgeClazz</a>
     </div>
     <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ReferenceEqualsJVM_MASES_JCOBridge_C2JBridge_JVMBridgeBase_MASES_JCOBridge_C2JBridge_JVMBridgeBase_">JVMBridgeBase.ReferenceEqualsJVM(JVMBridgeBase, JVMBridgeBase)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">JVMBridgeBase.ClazzOf&lt;TClass&gt;(out Exception, bool)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, out Exception, bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_RuntimeClassNameOf__1">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.RuntimeClassNameOf(Type)</a>
     </div>
     <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ClassNameOf__1">JVMBridgeBase.ClassNameOf&lt;T&gt;()</a>
@@ -349,7 +368,13 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Dispose">JVMBridgeBase.Dispose()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.Dispose(bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ToString">JVMBridgeBase.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Equals_MASES_JCOBridge_C2JBridge_IJVMBridgeBase_">JVMBridgeBase.Equals(IJVMBridgeBase)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
@@ -397,10 +422,10 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
@@ -520,9 +545,42 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <a id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName__ctor_" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.#ctor*"></a>
 
+  <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)">
+  OperatorName(IJVMBridgeBaseInitializer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Internal constructor: used internally from JCOBridge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.&quot;)]
+public OperatorName(IJVMBridgeBaseInitializer initializer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>initializer</code> <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer.html">IJVMBridgeBaseInitializer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName__ctor_" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.#ctor*"></a>
+
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName__ctor_System_Object___" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.#ctor(System.Object[])">
   OperatorName(params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
@@ -558,7 +616,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_APPEND_RECT" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.APPEND_RECT">
   APPEND_RECT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#APPEND_RECT">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#APPEND_RECT</a></p>
@@ -590,7 +648,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_BEGIN_COMPATIBILITY_SECTION" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.BEGIN_COMPATIBILITY_SECTION">
   BEGIN_COMPATIBILITY_SECTION
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L90"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#BEGIN_COMPATIBILITY_SECTION">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#BEGIN_COMPATIBILITY_SECTION</a></p>
@@ -622,7 +680,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_BEGIN_INLINE_IMAGE" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.BEGIN_INLINE_IMAGE">
   BEGIN_INLINE_IMAGE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L96"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#BEGIN_INLINE_IMAGE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#BEGIN_INLINE_IMAGE</a></p>
@@ -654,7 +712,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_BEGIN_INLINE_IMAGE_DATA" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.BEGIN_INLINE_IMAGE_DATA">
   BEGIN_INLINE_IMAGE_DATA
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L102"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#BEGIN_INLINE_IMAGE_DATA">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#BEGIN_INLINE_IMAGE_DATA</a></p>
@@ -686,7 +744,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_BEGIN_MARKED_CONTENT" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.BEGIN_MARKED_CONTENT">
   BEGIN_MARKED_CONTENT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L108"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#BEGIN_MARKED_CONTENT">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#BEGIN_MARKED_CONTENT</a></p>
@@ -718,7 +776,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_BEGIN_MARKED_CONTENT_SEQ" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.BEGIN_MARKED_CONTENT_SEQ">
   BEGIN_MARKED_CONTENT_SEQ
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L114"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#BEGIN_MARKED_CONTENT_SEQ">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#BEGIN_MARKED_CONTENT_SEQ</a></p>
@@ -750,7 +808,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_BEGIN_TEXT" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.BEGIN_TEXT">
   BEGIN_TEXT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L120"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#BEGIN_TEXT">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#BEGIN_TEXT</a></p>
@@ -782,7 +840,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_BridgeClassName" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.BridgeClassName">
   BridgeClassName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Java class name to be instantiated</p>
@@ -814,7 +872,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_CLIP_EVEN_ODD" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.CLIP_EVEN_ODD">
   CLIP_EVEN_ODD
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L126"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#CLIP_EVEN_ODD">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#CLIP_EVEN_ODD</a></p>
@@ -846,7 +904,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_CLIP_NON_ZERO" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.CLIP_NON_ZERO">
   CLIP_NON_ZERO
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L132"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#CLIP_NON_ZERO">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#CLIP_NON_ZERO</a></p>
@@ -878,7 +936,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_CLOSE_AND_STROKE" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.CLOSE_AND_STROKE">
   CLOSE_AND_STROKE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L138"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#CLOSE_AND_STROKE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#CLOSE_AND_STROKE</a></p>
@@ -910,7 +968,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_CLOSE_FILL_EVEN_ODD_AND_STROKE" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.CLOSE_FILL_EVEN_ODD_AND_STROKE">
   CLOSE_FILL_EVEN_ODD_AND_STROKE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L144"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#CLOSE_FILL_EVEN_ODD_AND_STROKE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#CLOSE_FILL_EVEN_ODD_AND_STROKE</a></p>
@@ -942,7 +1000,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_CLOSE_FILL_NON_ZERO_AND_STROKE" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.CLOSE_FILL_NON_ZERO_AND_STROKE">
   CLOSE_FILL_NON_ZERO_AND_STROKE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L144"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L150"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#CLOSE_FILL_NON_ZERO_AND_STROKE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#CLOSE_FILL_NON_ZERO_AND_STROKE</a></p>
@@ -974,7 +1032,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_CLOSE_PATH" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.CLOSE_PATH">
   CLOSE_PATH
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L156"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#CLOSE_PATH">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#CLOSE_PATH</a></p>
@@ -1006,7 +1064,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_CONCAT" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.CONCAT">
   CONCAT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L156"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L162"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#CONCAT">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#CONCAT</a></p>
@@ -1038,7 +1096,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_CURVE_TO" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.CURVE_TO">
   CURVE_TO
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L168"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#CURVE_TO">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#CURVE_TO</a></p>
@@ -1070,7 +1128,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_CURVE_TO_REPLICATE_FINAL_POINT" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.CURVE_TO_REPLICATE_FINAL_POINT">
   CURVE_TO_REPLICATE_FINAL_POINT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L168"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L174"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#CURVE_TO_REPLICATE_FINAL_POINT">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#CURVE_TO_REPLICATE_FINAL_POINT</a></p>
@@ -1102,7 +1160,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_CURVE_TO_REPLICATE_INITIAL_POINT" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.CURVE_TO_REPLICATE_INITIAL_POINT">
   CURVE_TO_REPLICATE_INITIAL_POINT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L180"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#CURVE_TO_REPLICATE_INITIAL_POINT">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#CURVE_TO_REPLICATE_INITIAL_POINT</a></p>
@@ -1134,7 +1192,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_DRAW_OBJECT" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.DRAW_OBJECT">
   DRAW_OBJECT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L180"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L186"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#DRAW_OBJECT">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#DRAW_OBJECT</a></p>
@@ -1166,7 +1224,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_ENDPATH" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.ENDPATH">
   ENDPATH
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L216"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#ENDPATH">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#ENDPATH</a></p>
@@ -1198,7 +1256,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_END_COMPATIBILITY_SECTION" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.END_COMPATIBILITY_SECTION">
   END_COMPATIBILITY_SECTION
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L192"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#END_COMPATIBILITY_SECTION">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#END_COMPATIBILITY_SECTION</a></p>
@@ -1230,7 +1288,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_END_INLINE_IMAGE" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.END_INLINE_IMAGE">
   END_INLINE_IMAGE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L198"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#END_INLINE_IMAGE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#END_INLINE_IMAGE</a></p>
@@ -1262,7 +1320,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_END_MARKED_CONTENT" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.END_MARKED_CONTENT">
   END_MARKED_CONTENT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L204"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#END_MARKED_CONTENT">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#END_MARKED_CONTENT</a></p>
@@ -1294,7 +1352,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_END_TEXT" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.END_TEXT">
   END_TEXT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L204"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L210"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#END_TEXT">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#END_TEXT</a></p>
@@ -1326,7 +1384,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_FILL_EVEN_ODD" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.FILL_EVEN_ODD">
   FILL_EVEN_ODD
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L216"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L222"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#FILL_EVEN_ODD">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#FILL_EVEN_ODD</a></p>
@@ -1358,7 +1416,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_FILL_EVEN_ODD_AND_STROKE" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.FILL_EVEN_ODD_AND_STROKE">
   FILL_EVEN_ODD_AND_STROKE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L228"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#FILL_EVEN_ODD_AND_STROKE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#FILL_EVEN_ODD_AND_STROKE</a></p>
@@ -1390,7 +1448,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_FILL_NON_ZERO" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.FILL_NON_ZERO">
   FILL_NON_ZERO
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L228"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L234"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#FILL_NON_ZERO">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#FILL_NON_ZERO</a></p>
@@ -1422,7 +1480,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_FILL_NON_ZERO_AND_STROKE" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.FILL_NON_ZERO_AND_STROKE">
   FILL_NON_ZERO_AND_STROKE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L234"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L240"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#FILL_NON_ZERO_AND_STROKE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#FILL_NON_ZERO_AND_STROKE</a></p>
@@ -1454,7 +1512,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_IsBridgeAbstract" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.IsBridgeAbstract">
   IsBridgeAbstract
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an abstract class, i.e. cannot be created an instance</p>
@@ -1486,7 +1544,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_IsBridgeCloseable" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.IsBridgeCloseable">
   IsBridgeCloseable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> implements Closeable</p>
@@ -1518,7 +1576,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_IsBridgeInterface" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.IsBridgeInterface">
   IsBridgeInterface
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an interface, i.e. does not have any public constructor</p>
@@ -1550,7 +1608,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_IsBridgeStatic" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.IsBridgeStatic">
   IsBridgeStatic
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is a static class, i.e. does not have any public constructor</p>
@@ -1582,7 +1640,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_LEGACY_FILL_NON_ZERO" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.LEGACY_FILL_NON_ZERO">
   LEGACY_FILL_NON_ZERO
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L240"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L246"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#LEGACY_FILL_NON_ZERO">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#LEGACY_FILL_NON_ZERO</a></p>
@@ -1614,7 +1672,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_LINE_TO" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.LINE_TO">
   LINE_TO
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L246"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L252"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#LINE_TO">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#LINE_TO</a></p>
@@ -1646,7 +1704,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_MARKED_CONTENT_POINT" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.MARKED_CONTENT_POINT">
   MARKED_CONTENT_POINT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L252"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L258"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#MARKED_CONTENT_POINT">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#MARKED_CONTENT_POINT</a></p>
@@ -1678,7 +1736,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_MARKED_CONTENT_POINT_WITH_PROPS" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.MARKED_CONTENT_POINT_WITH_PROPS">
   MARKED_CONTENT_POINT_WITH_PROPS
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L258"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L264"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#MARKED_CONTENT_POINT_WITH_PROPS">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#MARKED_CONTENT_POINT_WITH_PROPS</a></p>
@@ -1710,7 +1768,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_MOVE_TEXT" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.MOVE_TEXT">
   MOVE_TEXT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L264"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L270"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#MOVE_TEXT">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#MOVE_TEXT</a></p>
@@ -1742,7 +1800,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_MOVE_TEXT_SET_LEADING" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.MOVE_TEXT_SET_LEADING">
   MOVE_TEXT_SET_LEADING
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L270"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L276"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#MOVE_TEXT_SET_LEADING">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#MOVE_TEXT_SET_LEADING</a></p>
@@ -1774,7 +1832,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_MOVE_TO" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.MOVE_TO">
   MOVE_TO
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L276"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L282"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#MOVE_TO">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#MOVE_TO</a></p>
@@ -1806,7 +1864,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_NEXT_LINE" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.NEXT_LINE">
   NEXT_LINE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L282"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L288"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#NEXT_LINE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#NEXT_LINE</a></p>
@@ -1838,7 +1896,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_NON_STROKING_CMYK" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.NON_STROKING_CMYK">
   NON_STROKING_CMYK
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L288"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L294"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#NON_STROKING_CMYK">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#NON_STROKING_CMYK</a></p>
@@ -1870,7 +1928,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_NON_STROKING_COLOR" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.NON_STROKING_COLOR">
   NON_STROKING_COLOR
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L294"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L300"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#NON_STROKING_COLOR">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#NON_STROKING_COLOR</a></p>
@@ -1902,7 +1960,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_NON_STROKING_COLORSPACE" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.NON_STROKING_COLORSPACE">
   NON_STROKING_COLORSPACE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L306"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L312"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#NON_STROKING_COLORSPACE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#NON_STROKING_COLORSPACE</a></p>
@@ -1934,7 +1992,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_NON_STROKING_COLOR_N" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.NON_STROKING_COLOR_N">
   NON_STROKING_COLOR_N
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L300"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L306"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#NON_STROKING_COLOR_N">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#NON_STROKING_COLOR_N</a></p>
@@ -1966,7 +2024,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_NON_STROKING_GRAY" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.NON_STROKING_GRAY">
   NON_STROKING_GRAY
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L312"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L318"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#NON_STROKING_GRAY">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#NON_STROKING_GRAY</a></p>
@@ -1998,7 +2056,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_NON_STROKING_RGB" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.NON_STROKING_RGB">
   NON_STROKING_RGB
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L318"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L324"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#NON_STROKING_RGB">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#NON_STROKING_RGB</a></p>
@@ -2030,7 +2088,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_RESTORE" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.RESTORE">
   RESTORE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L324"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L330"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#RESTORE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#RESTORE</a></p>
@@ -2062,7 +2120,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_SAVE" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.SAVE">
   SAVE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L330"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L336"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SAVE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SAVE</a></p>
@@ -2094,7 +2152,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_SET_CHAR_SPACING" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.SET_CHAR_SPACING">
   SET_CHAR_SPACING
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L336"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L342"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_CHAR_SPACING">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_CHAR_SPACING</a></p>
@@ -2126,7 +2184,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_SET_FLATNESS" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.SET_FLATNESS">
   SET_FLATNESS
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L342"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L348"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_FLATNESS">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_FLATNESS</a></p>
@@ -2158,7 +2216,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_SET_FONT_AND_SIZE" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.SET_FONT_AND_SIZE">
   SET_FONT_AND_SIZE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L348"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L354"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_FONT_AND_SIZE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_FONT_AND_SIZE</a></p>
@@ -2190,7 +2248,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_SET_GRAPHICS_STATE_PARAMS" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.SET_GRAPHICS_STATE_PARAMS">
   SET_GRAPHICS_STATE_PARAMS
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L354"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L360"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_GRAPHICS_STATE_PARAMS">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_GRAPHICS_STATE_PARAMS</a></p>
@@ -2222,7 +2280,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_SET_LINE_CAPSTYLE" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.SET_LINE_CAPSTYLE">
   SET_LINE_CAPSTYLE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L360"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L366"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_LINE_CAPSTYLE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_LINE_CAPSTYLE</a></p>
@@ -2254,7 +2312,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_SET_LINE_DASHPATTERN" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.SET_LINE_DASHPATTERN">
   SET_LINE_DASHPATTERN
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L366"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L372"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_LINE_DASHPATTERN">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_LINE_DASHPATTERN</a></p>
@@ -2286,7 +2344,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_SET_LINE_JOINSTYLE" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.SET_LINE_JOINSTYLE">
   SET_LINE_JOINSTYLE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L372"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L378"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_LINE_JOINSTYLE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_LINE_JOINSTYLE</a></p>
@@ -2318,7 +2376,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_SET_LINE_MITERLIMIT" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.SET_LINE_MITERLIMIT">
   SET_LINE_MITERLIMIT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L378"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L384"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_LINE_MITERLIMIT">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_LINE_MITERLIMIT</a></p>
@@ -2350,7 +2408,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_SET_LINE_WIDTH" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.SET_LINE_WIDTH">
   SET_LINE_WIDTH
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L384"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L390"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_LINE_WIDTH">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_LINE_WIDTH</a></p>
@@ -2382,7 +2440,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_SET_MATRIX" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.SET_MATRIX">
   SET_MATRIX
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L390"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L396"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_MATRIX">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_MATRIX</a></p>
@@ -2414,7 +2472,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_SET_RENDERINGINTENT" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.SET_RENDERINGINTENT">
   SET_RENDERINGINTENT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L396"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L402"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_RENDERINGINTENT">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_RENDERINGINTENT</a></p>
@@ -2446,7 +2504,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_SET_TEXT_HORIZONTAL_SCALING" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.SET_TEXT_HORIZONTAL_SCALING">
   SET_TEXT_HORIZONTAL_SCALING
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L402"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L408"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_TEXT_HORIZONTAL_SCALING">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_TEXT_HORIZONTAL_SCALING</a></p>
@@ -2478,7 +2536,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_SET_TEXT_LEADING" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.SET_TEXT_LEADING">
   SET_TEXT_LEADING
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L408"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L414"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_TEXT_LEADING">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_TEXT_LEADING</a></p>
@@ -2510,7 +2568,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_SET_TEXT_RENDERINGMODE" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.SET_TEXT_RENDERINGMODE">
   SET_TEXT_RENDERINGMODE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L414"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L420"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_TEXT_RENDERINGMODE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_TEXT_RENDERINGMODE</a></p>
@@ -2542,7 +2600,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_SET_TEXT_RISE" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.SET_TEXT_RISE">
   SET_TEXT_RISE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L420"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L426"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_TEXT_RISE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_TEXT_RISE</a></p>
@@ -2574,7 +2632,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_SET_WORD_SPACING" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.SET_WORD_SPACING">
   SET_WORD_SPACING
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L426"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L432"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_WORD_SPACING">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SET_WORD_SPACING</a></p>
@@ -2606,7 +2664,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_SHADING_FILL" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.SHADING_FILL">
   SHADING_FILL
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L432"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L438"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SHADING_FILL">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SHADING_FILL</a></p>
@@ -2638,7 +2696,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_SHOW_TEXT" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.SHOW_TEXT">
   SHOW_TEXT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L438"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L444"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SHOW_TEXT">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SHOW_TEXT</a></p>
@@ -2670,7 +2728,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_SHOW_TEXT_ADJUSTED" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.SHOW_TEXT_ADJUSTED">
   SHOW_TEXT_ADJUSTED
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L444"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L450"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SHOW_TEXT_ADJUSTED">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SHOW_TEXT_ADJUSTED</a></p>
@@ -2702,7 +2760,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_SHOW_TEXT_LINE" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.SHOW_TEXT_LINE">
   SHOW_TEXT_LINE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L450"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L456"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SHOW_TEXT_LINE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SHOW_TEXT_LINE</a></p>
@@ -2734,7 +2792,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_SHOW_TEXT_LINE_AND_SPACE" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.SHOW_TEXT_LINE_AND_SPACE">
   SHOW_TEXT_LINE_AND_SPACE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L456"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L462"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SHOW_TEXT_LINE_AND_SPACE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#SHOW_TEXT_LINE_AND_SPACE</a></p>
@@ -2766,7 +2824,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_STROKE_PATH" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.STROKE_PATH">
   STROKE_PATH
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L462"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L468"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#STROKE_PATH">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#STROKE_PATH</a></p>
@@ -2798,7 +2856,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_STROKING_COLOR" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.STROKING_COLOR">
   STROKING_COLOR
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L468"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L474"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#STROKING_COLOR">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#STROKING_COLOR</a></p>
@@ -2830,7 +2888,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_STROKING_COLORSPACE" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.STROKING_COLORSPACE">
   STROKING_COLORSPACE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L498"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L504"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#STROKING_COLORSPACE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#STROKING_COLORSPACE</a></p>
@@ -2862,7 +2920,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_STROKING_COLOR_CMYK" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.STROKING_COLOR_CMYK">
   STROKING_COLOR_CMYK
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L474"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L480"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#STROKING_COLOR_CMYK">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#STROKING_COLOR_CMYK</a></p>
@@ -2894,7 +2952,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_STROKING_COLOR_GRAY" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.STROKING_COLOR_GRAY">
   STROKING_COLOR_GRAY
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L480"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L486"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#STROKING_COLOR_GRAY">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#STROKING_COLOR_GRAY</a></p>
@@ -2926,7 +2984,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_STROKING_COLOR_N" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.STROKING_COLOR_N">
   STROKING_COLOR_N
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L486"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L492"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#STROKING_COLOR_N">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#STROKING_COLOR_N</a></p>
@@ -2958,7 +3016,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_STROKING_COLOR_RGB" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.STROKING_COLOR_RGB">
   STROKING_COLOR_RGB
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L492"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L498"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#STROKING_COLOR_RGB">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#STROKING_COLOR_RGB</a></p>
@@ -2990,7 +3048,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_TYPE3_D0" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.TYPE3_D0">
   TYPE3_D0
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L504"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L510"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#TYPE3_D0">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#TYPE3_D0</a></p>
@@ -3022,7 +3080,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="Org_Apache_Pdfbox_Contentstream_Operator_OperatorName_TYPE3_D1" data-uid="Org.Apache.Pdfbox.Contentstream.Operator.OperatorName.TYPE3_D1">
   TYPE3_D1
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L510"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L516"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#TYPE3_D1">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/contentstream/operator/OperatorName.html#TYPE3_D1</a></p>
@@ -3054,7 +3112,7 @@ Class OperatorName  <a class="header-action link-secondary" title="View source" 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L64" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Contentstream/Operator/OperatorName.cs/#L70" class="edit-link">Edit this page</a>
         </div>
 
 

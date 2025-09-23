@@ -89,7 +89,7 @@
 
 
   <h1 id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern" class="text-break">
-Class PDTilingPattern  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L64"><i class="bi bi-code-slash"></i></a>
+Class PDTilingPattern  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PDTilingPattern : PDAbstractPattern, IDynamicMetaObjectProvider, IJVMBridgeCore, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, ICOSObjectable</code></pre>
+    <pre><code class="lang-csharp hljs">public class PDTilingPattern : PDAbstractPattern, IDynamicMetaObjectProvider, IJVMBridgeCore, IEquatable&lt;IJVMBridgeBase&gt;, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, ICOSObjectable</code></pre>
   </div>
 
 
@@ -126,6 +126,7 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeCore.html">IJVMBridgeCore</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a>&gt;</div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseStatic.html">IJVMBridgeBaseStatic</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a></div>
@@ -247,16 +248,16 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;T&gt;(IJavaType, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;TArrayType&gt;(IJavaType, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;T&gt;(IJavaType, string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(IJavaType, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SGetField(IJavaType, string)</a>
@@ -304,6 +305,12 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.NewWithSignature(string, params object[])</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.NewAndWrapsDirect&lt;TNewClass&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.NewWithSignatureAndWrapsDirect&lt;TNewClass&gt;(string, string, params object[])</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_Execute__1___0___">JVMBridgeBase&lt;COSObjectable&gt;.Execute&lt;T&gt;(params T[])</a>
     </div>
     <div>
@@ -313,13 +320,25 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_BridgeClazz">JVMBridgeBase&lt;COSObjectable&gt;.BridgeClazz</a>
     </div>
     <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ReferenceEqualsJVM_MASES_JCOBridge_C2JBridge_JVMBridgeBase_MASES_JCOBridge_C2JBridge_JVMBridgeBase_">JVMBridgeBase.ReferenceEqualsJVM(JVMBridgeBase, JVMBridgeBase)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">JVMBridgeBase.ClazzOf&lt;TClass&gt;(out Exception, bool)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, out Exception, bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_RuntimeClassNameOf__1">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.RuntimeClassNameOf(Type)</a>
     </div>
     <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ClassNameOf__1">JVMBridgeBase.ClassNameOf&lt;T&gt;()</a>
@@ -376,7 +395,13 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Dispose">JVMBridgeBase.Dispose()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.Dispose(bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ToString">JVMBridgeBase.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Equals_MASES_JCOBridge_C2JBridge_IJVMBridgeBase_">JVMBridgeBase.Equals(IJVMBridgeBase)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
@@ -424,10 +449,10 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
@@ -547,9 +572,42 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
 
   <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.#ctor*"></a>
 
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)">
+  PDTilingPattern(IJVMBridgeBaseInitializer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Internal constructor: used internally from JCOBridge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.&quot;)]
+public PDTilingPattern(IJVMBridgeBaseInitializer initializer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>initializer</code> <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer.html">IJVMBridgeBaseInitializer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.#ctor*"></a>
+
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern__ctor_Org_Apache_Pdfbox_Cos_COSDictionary_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.#ctor(Org.Apache.Pdfbox.Cos.COSDictionary)">
   PDTilingPattern(COSDictionary)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L86"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern(org.apache.pdfbox.cos.COSDictionary)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern(org.apache.pdfbox.cos.COSDictionary)</a></p>
@@ -582,7 +640,7 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern__ctor_Org_Apache_Pdfbox_Cos_COSDictionary_Org_Apache_Pdfbox_Pdmodel_ResourceCache_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.#ctor(Org.Apache.Pdfbox.Cos.COSDictionary,Org.Apache.Pdfbox.Pdmodel.ResourceCache)">
   PDTilingPattern(COSDictionary, ResourceCache)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L78"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern(org.apache.pdfbox.cos.COSDictionary,org.apache.pdfbox.pdmodel.ResourceCache)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#org.apache.pdfbox.pdmodel.graphics.pattern.PDTilingPattern(org.apache.pdfbox.cos.COSDictionary,org.apache.pdfbox.pdmodel.ResourceCache)</a></p>
@@ -618,7 +676,7 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern__ctor_System_Object___" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.#ctor(System.Object[])">
   PDTilingPattern(params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
@@ -654,7 +712,7 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern_BBox" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.BBox">
   BBox
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L143"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getBBox--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getBBox--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#setBBox-org.apache.pdfbox.pdmodel.common.PDRectangle-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#setBBox-org.apache.pdfbox.pdmodel.common.PDRectangle-</a></p>
@@ -686,7 +744,7 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern_BridgeClassName" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.BridgeClassName">
   BridgeClassName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Java class name to be instantiated</p>
@@ -718,7 +776,7 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern_ContentStream" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.ContentStream">
   ContentStream
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L164"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getContentStream--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getContentStream--</a></p>
@@ -750,7 +808,7 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern_Contents" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.Contents">
   Contents
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L144"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L150"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getContents--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getContents--</a></p>
@@ -782,7 +840,7 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern_ContentsForRandomAccess" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.ContentsForRandomAccess">
   ContentsForRandomAccess
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L157"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getContentsForRandomAccess--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getContentsForRandomAccess--</a></p>
@@ -814,7 +872,7 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern_IsBridgeAbstract" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.IsBridgeAbstract">
   IsBridgeAbstract
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an abstract class, i.e. cannot be created an instance</p>
@@ -846,7 +904,7 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern_IsBridgeCloseable" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.IsBridgeCloseable">
   IsBridgeCloseable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> implements Closeable</p>
@@ -878,7 +936,7 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern_IsBridgeInterface" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.IsBridgeInterface">
   IsBridgeInterface
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an interface, i.e. does not have any public constructor</p>
@@ -910,7 +968,7 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern_IsBridgeStatic" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.IsBridgeStatic">
   IsBridgeStatic
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is a static class, i.e. does not have any public constructor</p>
@@ -942,7 +1000,7 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern_PAINT_COLORED" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.PAINT_COLORED">
   PAINT_COLORED
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L105"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#PAINT_COLORED">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#PAINT_COLORED</a></p>
@@ -974,7 +1032,7 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern_PAINT_UNCOLORED" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.PAINT_UNCOLORED">
   PAINT_UNCOLORED
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L111"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#PAINT_UNCOLORED">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#PAINT_UNCOLORED</a></p>
@@ -1006,7 +1064,7 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern_PaintType" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.PaintType">
   PaintType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L171"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getPaintType--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getPaintType--</a></p>
@@ -1038,7 +1096,7 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern_Resources" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.Resources">
   Resources
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L172"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L178"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getResources--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getResources--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#setResources-org.apache.pdfbox.pdmodel.PDResources-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#setResources-org.apache.pdfbox.pdmodel.PDResources-</a></p>
@@ -1070,7 +1128,7 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern_TILING_CONSTANT_SPACING" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.TILING_CONSTANT_SPACING">
   TILING_CONSTANT_SPACING
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L117"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#TILING_CONSTANT_SPACING">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#TILING_CONSTANT_SPACING</a></p>
@@ -1102,7 +1160,7 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern_TILING_CONSTANT_SPACING_FASTER_TILING" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.TILING_CONSTANT_SPACING_FASTER_TILING">
   TILING_CONSTANT_SPACING_FASTER_TILING
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L123"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#TILING_CONSTANT_SPACING_FASTER_TILING">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#TILING_CONSTANT_SPACING_FASTER_TILING</a></p>
@@ -1134,7 +1192,7 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern_TILING_NO_DISTORTION" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.TILING_NO_DISTORTION">
   TILING_NO_DISTORTION
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L129"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#TILING_NO_DISTORTION">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#TILING_NO_DISTORTION</a></p>
@@ -1166,7 +1224,7 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern_TilingType" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.TilingType">
   TilingType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L179"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L185"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getTilingType--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getTilingType--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#setTilingType-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#setTilingType-int-</a></p>
@@ -1198,7 +1256,7 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern_XStep" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.XStep">
   XStep
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L192"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getXStep--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getXStep--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#setXStep-float-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#setXStep-float-</a></p>
@@ -1230,7 +1288,7 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern_YStep" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.YStep">
   YStep
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L199"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getYStep--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#getYStep--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#setYStep-float-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/pattern/PDTilingPattern.html#setYStep-float-</a></p>
@@ -1266,7 +1324,7 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern_op_Implicit_Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDTilingPattern__Org_Apache_Pdfbox_Contentstream_PDContentStream" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.op_Implicit(Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern)~Org.Apache.Pdfbox.Contentstream.PDContentStream">
   implicit operator PDContentStream(PDTilingPattern)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L97"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Converter from <a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDTilingPattern.html">PDTilingPattern</a> to <a class="xref" href="Org.Apache.Pdfbox.Contentstream.PDContentStream.html">PDContentStream</a></p>
@@ -1303,7 +1361,7 @@ Class PDTilingPattern  <a class="header-action link-secondary" title="View sourc
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L64" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/Pattern/PDTilingPattern.cs/#L70" class="edit-link">Edit this page</a>
         </div>
 
 

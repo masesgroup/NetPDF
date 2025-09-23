@@ -89,7 +89,7 @@
 
 
   <h1 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1" class="text-break">
-Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L380"><i class="bi bi-code-slash"></i></a>
+Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L392"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class COSArrayList&lt;E&gt; : List&lt;E&gt;, IDynamicMetaObjectProvider, IJVMBridgeCore, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, IEnumerableExtension, IEnumerable&lt;E&gt;, IEnumerable, IAsyncEnumerable&lt;E&gt;, IIterable&lt;E&gt;, IList&lt;E&gt;, ICollection&lt;E&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class COSArrayList&lt;E&gt; : List&lt;E&gt;, IDynamicMetaObjectProvider, IJVMBridgeCore, IEquatable&lt;IJVMBridgeBase&gt;, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, IEnumerableExtension, IEnumerable&lt;E&gt;, IEnumerable, IAsyncEnumerable&lt;E&gt;, IIterable&lt;E&gt;, IList&lt;E&gt;, ICollection&lt;E&gt;</code></pre>
   </div>
 
 
@@ -135,6 +135,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeCore.html">IJVMBridgeCore</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a>&gt;</div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseStatic.html">IJVMBridgeBaseStatic</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a></div>
@@ -310,16 +311,16 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;Iterable&lt;E&gt;&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Iterable&lt;E&gt;&gt;.SExecuteArray&lt;T&gt;(IJavaType, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Iterable&lt;E&gt;&gt;.SExecuteArray&lt;TArrayType&gt;(IJavaType, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Iterable&lt;E&gt;&gt;.SExecuteWithSignatureArray&lt;T&gt;(IJavaType, string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Iterable&lt;E&gt;&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(IJavaType, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Iterable&lt;E&gt;&gt;.SExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Iterable&lt;E&gt;&gt;.SExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Iterable&lt;E&gt;&gt;.SExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Iterable&lt;E&gt;&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Iterable&lt;E&gt;&gt;.SGetField(IJavaType, string)</a>
@@ -367,6 +368,12 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Iterable&lt;E&gt;&gt;.NewWithSignature(string, params object[])</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Iterable&lt;E&gt;&gt;.NewAndWrapsDirect&lt;TNewClass&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Iterable&lt;E&gt;&gt;.NewWithSignatureAndWrapsDirect&lt;TNewClass&gt;(string, string, params object[])</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_Execute__1___0___">JVMBridgeBase&lt;Iterable&lt;E&gt;&gt;.Execute&lt;T&gt;(params T[])</a>
     </div>
     <div>
@@ -376,13 +383,25 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_BridgeClazz">JVMBridgeBase&lt;Iterable&lt;E&gt;&gt;.BridgeClazz</a>
     </div>
     <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ReferenceEqualsJVM_MASES_JCOBridge_C2JBridge_JVMBridgeBase_MASES_JCOBridge_C2JBridge_JVMBridgeBase_">JVMBridgeBase.ReferenceEqualsJVM(JVMBridgeBase, JVMBridgeBase)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">JVMBridgeBase.ClazzOf&lt;TClass&gt;(out Exception, bool)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, out Exception, bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_RuntimeClassNameOf__1">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.RuntimeClassNameOf(Type)</a>
     </div>
     <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ClassNameOf__1">JVMBridgeBase.ClassNameOf&lt;T&gt;()</a>
@@ -439,7 +458,13 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Dispose">JVMBridgeBase.Dispose()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.Dispose(bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ToString">JVMBridgeBase.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Equals_MASES_JCOBridge_C2JBridge_IJVMBridgeBase_">JVMBridgeBase.Equals(IJVMBridgeBase)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
@@ -487,10 +512,10 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
@@ -585,7 +610,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1__ctor" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.#ctor">
   COSArrayList()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L80"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Default constructor: even if the corresponding Java class does not have one, it is mandatory for JCOBridge</p>
@@ -612,7 +637,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1__ctor_Java_Util_List__0__Org_Apache_Pdfbox_Cos_COSArray_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.#ctor(Java.Util.List{`0},Org.Apache.Pdfbox.Cos.COSArray)">
   COSArrayList(List&lt;E&gt;, COSArray)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L399"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L411"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#org.apache.pdfbox.pdmodel.common.COSArrayList(java.util.List,org.apache.pdfbox.cos.COSArray)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#org.apache.pdfbox.pdmodel.common.COSArrayList(java.util.List,org.apache.pdfbox.cos.COSArray)</a></p>
@@ -646,9 +671,42 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <a id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.#ctor*"></a>
 
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)">
+  COSArrayList(IJVMBridgeBaseInitializer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Internal constructor: used internally from JCOBridge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.&quot;)]
+public COSArrayList(IJVMBridgeBaseInitializer initializer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>initializer</code> <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer.html">IJVMBridgeBaseInitializer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.#ctor*"></a>
+
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1__ctor_Org_Apache_Pdfbox_Cos_COSDictionary_Org_Apache_Pdfbox_Cos_COSName_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.#ctor(Org.Apache.Pdfbox.Cos.COSDictionary,Org.Apache.Pdfbox.Cos.COSName)">
   COSArrayList(COSDictionary, COSName)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L408"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L420"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#org.apache.pdfbox.pdmodel.common.COSArrayList(org.apache.pdfbox.cos.COSDictionary,org.apache.pdfbox.cos.COSName)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#org.apache.pdfbox.pdmodel.common.COSArrayList(org.apache.pdfbox.cos.COSDictionary,org.apache.pdfbox.cos.COSName)</a></p>
@@ -684,7 +742,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1__ctor_System_Object___" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.#ctor(System.Object[])">
   COSArrayList(params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L89"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
@@ -716,7 +774,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1__ctor__0_Org_Apache_Pdfbox_Cos_COSBase_Org_Apache_Pdfbox_Cos_COSDictionary_Org_Apache_Pdfbox_Cos_COSName_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.#ctor(`0,Org.Apache.Pdfbox.Cos.COSBase,Org.Apache.Pdfbox.Cos.COSDictionary,Org.Apache.Pdfbox.Cos.COSName)">
   COSArrayList(E, COSBase, COSDictionary, COSName)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L390"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L402"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#org.apache.pdfbox.pdmodel.common.COSArrayList(java.lang.Object,org.apache.pdfbox.cos.COSBase,org.apache.pdfbox.cos.COSDictionary,org.apache.pdfbox.cos.COSName)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#org.apache.pdfbox.pdmodel.common.COSArrayList(java.lang.Object,org.apache.pdfbox.cos.COSBase,org.apache.pdfbox.cos.COSDictionary,org.apache.pdfbox.cos.COSName)</a></p>
@@ -762,7 +820,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_BridgeClassName" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.BridgeClassName">
   BridgeClassName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L96"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Java class name to be instantiated</p>
@@ -794,7 +852,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_IsBridgeAbstract" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.IsBridgeAbstract">
   IsBridgeAbstract
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L98"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an abstract class, i.e. cannot be created an instance</p>
@@ -826,7 +884,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_IsBridgeCloseable" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.IsBridgeCloseable">
   IsBridgeCloseable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L100"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> implements Closeable</p>
@@ -858,7 +916,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_IsBridgeInterface" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.IsBridgeInterface">
   IsBridgeInterface
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L102"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an interface, i.e. does not have any public constructor</p>
@@ -890,7 +948,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_IsBridgeStatic" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.IsBridgeStatic">
   IsBridgeStatic
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L104"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is a static class, i.e. does not have any public constructor</p>
@@ -926,7 +984,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_Add_System_Int32__0_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.Add(System.Int32,`0)">
   Add(int, E)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L644"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L656"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#add-int-java.lang.Object-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#add-int-java.lang.Object-</a></p>
@@ -962,7 +1020,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_Add__0_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.Add(`0)">
   Add(E)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L456"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L468"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#add-java.lang.Object-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#add-java.lang.Object-</a></p>
@@ -1001,7 +1059,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_AddAll__1_Java_Util_Collection___0__" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.AddAll``1(Java.Util.Collection{``0})">
   AddAll&lt;Arg0ExtendsE&gt;(Collection&lt;Arg0ExtendsE&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L477"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L489"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#addAll-java.util.Collection-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#addAll-java.util.Collection-</a></p>
@@ -1046,7 +1104,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_AddAll__1_System_Int32_Java_Util_Collection___0__" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.AddAll``1(System.Int32,Java.Util.Collection{``0})">
   AddAll&lt;Arg1ExtendsE&gt;(int, Collection&lt;Arg1ExtendsE&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L467"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L479"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#addAll-int-java.util.Collection-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#addAll-int-java.util.Collection-</a></p>
@@ -1094,7 +1152,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_Clear" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.Clear">
   Clear()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L651"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L663"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#clear--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#clear--</a></p>
@@ -1121,7 +1179,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_Contains_System_Object_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.Contains(System.Object)">
   Contains(object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L486"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L498"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#contains-java.lang.Object-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#contains-java.lang.Object-</a></p>
@@ -1160,7 +1218,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_ContainsAll_Java_Util_Collection_System_Object__" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.ContainsAll(Java.Util.Collection{System.Object})">
   ContainsAll(Collection&lt;object&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L495"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L507"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#containsAll-java.util.Collection-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#containsAll-java.util.Collection-</a></p>
@@ -1199,7 +1257,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_ConverterToCOSArray_Java_Util_List_System_Object__" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.ConverterToCOSArray(Java.Util.List{System.Object})">
   ConverterToCOSArray(List&lt;object&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L433"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L445"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#converterToCOSArray-java.util.List-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#converterToCOSArray-java.util.List-</a></p>
@@ -1238,7 +1296,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_Get_System_Int32_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.Get(System.Int32)">
   Get(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L539"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L551"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#get-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#get-int-</a></p>
@@ -1277,7 +1335,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_IndexOf_System_Object_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.IndexOf(System.Object)">
   IndexOf(object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L567"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L579"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#indexOf-java.lang.Object-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#indexOf-java.lang.Object-</a></p>
@@ -1316,7 +1374,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_IsEmpty" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.IsEmpty">
   IsEmpty()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L503"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L515"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#isEmpty--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#isEmpty--</a></p>
@@ -1349,7 +1407,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_Iterator" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.Iterator">
   Iterator()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L600"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L612"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#iterator--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#iterator--</a></p>
@@ -1382,7 +1440,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_LastIndexOf_System_Object_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.LastIndexOf(System.Object)">
   LastIndexOf(object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L576"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L588"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#lastIndexOf-java.lang.Object-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#lastIndexOf-java.lang.Object-</a></p>
@@ -1421,7 +1479,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_ListIterator" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.ListIterator">
   ListIterator()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L618"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L630"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#listIterator--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#listIterator--</a></p>
@@ -1454,7 +1512,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_ListIterator_System_Int32_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.ListIterator(System.Int32)">
   ListIterator(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L627"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L639"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#listIterator-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#listIterator-int-</a></p>
@@ -1493,7 +1551,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_Remove_System_Int32_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.Remove(System.Int32)">
   Remove(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L548"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L560"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#remove-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#remove-int-</a></p>
@@ -1532,7 +1590,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_Remove_System_Object_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.Remove(System.Object)">
   Remove(object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L512"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L524"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#remove-java.lang.Object-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#remove-java.lang.Object-</a></p>
@@ -1571,7 +1629,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_RemoveAll_Java_Util_Collection_System_Object__" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.RemoveAll(Java.Util.Collection{System.Object})">
   RemoveAll(Collection&lt;object&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L521"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L533"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#removeAll-java.util.Collection-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#removeAll-java.util.Collection-</a></p>
@@ -1610,7 +1668,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_RetainAll_Java_Util_Collection_System_Object__" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.RetainAll(Java.Util.Collection{System.Object})">
   RetainAll(Collection&lt;object&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L530"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L542"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#retainAll-java.util.Collection-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#retainAll-java.util.Collection-</a></p>
@@ -1649,7 +1707,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_Set_System_Int32__0_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.Set(System.Int32,`0)">
   Set(int, E)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L558"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L570"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#set-int-java.lang.Object-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#set-int-java.lang.Object-</a></p>
@@ -1691,7 +1749,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_Size" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.Size">
   Size()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L584"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L596"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#size--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#size--</a></p>
@@ -1724,7 +1782,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_SubList_System_Int32_System_Int32_" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.SubList(System.Int32,System.Int32)">
   SubList(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L610"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L622"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#subList-int-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#subList-int-int-</a></p>
@@ -1766,7 +1824,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_ToArray" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.ToArray">
   ToArray()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L592"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L604"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#toArray--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#toArray--</a></p>
@@ -1799,7 +1857,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_ToArray__1___0___" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.ToArray``1(``0[])">
   ToArray&lt;X&gt;(X[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L447"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L459"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#toArray-java.lang.Object[]-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#toArray-java.lang.Object[]-</a></p>
@@ -1843,7 +1901,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_ToList" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.ToList">
   ToList()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L635"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L647"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#toList--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/common/COSArrayList.html#toList--</a></p>
@@ -1880,7 +1938,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList_1_op_Implicit_Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList__0___Org_Apache_Pdfbox_Pdmodel_Common_COSArrayList" data-uid="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList`1.op_Implicit(Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList{`0})~Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList">
   implicit operator COSArrayList(COSArrayList&lt;E&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L419"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L431"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Converter from <a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList-1.html">COSArrayList&lt;E&gt;</a> to <a class="xref" href="Org.Apache.Pdfbox.Pdmodel.Common.COSArrayList.html">COSArrayList</a></p>
@@ -1917,7 +1975,7 @@ Class COSArrayList&lt;E&gt;  <a class="header-action link-secondary" title="View
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L380" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Common/COSArrayList.cs/#L392" class="edit-link">Edit this page</a>
         </div>
 
 
