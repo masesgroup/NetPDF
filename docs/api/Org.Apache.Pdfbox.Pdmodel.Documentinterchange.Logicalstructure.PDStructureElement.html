@@ -89,7 +89,7 @@
 
 
   <h1 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement" class="text-break">
-Class PDStructureElement  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L64"><i class="bi bi-code-slash"></i></a>
+Class PDStructureElement  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PDStructureElement : PDStructureNode, IDynamicMetaObjectProvider, IJVMBridgeCore, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, ICOSObjectable</code></pre>
+    <pre><code class="lang-csharp hljs">public class PDStructureElement : PDStructureNode, IDynamicMetaObjectProvider, IJVMBridgeCore, IEquatable&lt;IJVMBridgeBase&gt;, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, ICOSObjectable</code></pre>
   </div>
 
 
@@ -126,6 +126,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeCore.html">IJVMBridgeCore</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a>&gt;</div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseStatic.html">IJVMBridgeBaseStatic</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a></div>
@@ -244,16 +245,16 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;T&gt;(IJavaType, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;TArrayType&gt;(IJavaType, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;T&gt;(IJavaType, string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(IJavaType, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SGetField(IJavaType, string)</a>
@@ -301,6 +302,12 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.NewWithSignature(string, params object[])</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.NewAndWrapsDirect&lt;TNewClass&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.NewWithSignatureAndWrapsDirect&lt;TNewClass&gt;(string, string, params object[])</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_Execute__1___0___">JVMBridgeBase&lt;COSObjectable&gt;.Execute&lt;T&gt;(params T[])</a>
     </div>
     <div>
@@ -310,13 +317,25 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_BridgeClazz">JVMBridgeBase&lt;COSObjectable&gt;.BridgeClazz</a>
     </div>
     <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ReferenceEqualsJVM_MASES_JCOBridge_C2JBridge_JVMBridgeBase_MASES_JCOBridge_C2JBridge_JVMBridgeBase_">JVMBridgeBase.ReferenceEqualsJVM(JVMBridgeBase, JVMBridgeBase)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">JVMBridgeBase.ClazzOf&lt;TClass&gt;(out Exception, bool)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, out Exception, bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_RuntimeClassNameOf__1">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.RuntimeClassNameOf(Type)</a>
     </div>
     <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ClassNameOf__1">JVMBridgeBase.ClassNameOf&lt;T&gt;()</a>
@@ -373,7 +392,13 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Dispose">JVMBridgeBase.Dispose()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.Dispose(bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ToString">JVMBridgeBase.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Equals_MASES_JCOBridge_C2JBridge_IJVMBridgeBase_">JVMBridgeBase.Equals(IJVMBridgeBase)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
@@ -421,10 +446,10 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
@@ -546,7 +571,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement__ctor_Java_Lang_String_Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureNode_" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.#ctor(Java.Lang.String,Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureNode)">
   PDStructureElement(String, PDStructureNode)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L78"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement(java.lang.String,org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureNode)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement(java.lang.String,org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureNode)</a></p>
@@ -580,9 +605,42 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <a id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.#ctor*"></a>
 
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)">
+  PDStructureElement(IJVMBridgeBaseInitializer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Internal constructor: used internally from JCOBridge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.&quot;)]
+public PDStructureElement(IJVMBridgeBaseInitializer initializer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>initializer</code> <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer.html">IJVMBridgeBaseInitializer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.#ctor*"></a>
+
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement__ctor_Org_Apache_Pdfbox_Cos_COSDictionary_" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.#ctor(Org.Apache.Pdfbox.Cos.COSDictionary)">
   PDStructureElement(COSDictionary)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L86"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement(org.apache.pdfbox.cos.COSDictionary)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement(org.apache.pdfbox.cos.COSDictionary)</a></p>
@@ -615,7 +673,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement__ctor_System_Object___" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.#ctor(System.Object[])">
   PDStructureElement(params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
@@ -651,7 +709,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_ActualText" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.ActualText">
   ActualText
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L115"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getActualText--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getActualText--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setActualText-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setActualText-java.lang.String-</a></p>
@@ -683,7 +741,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_AlternateDescription" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.AlternateDescription">
   AlternateDescription
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L122"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getAlternateDescription--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getAlternateDescription--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setAlternateDescription-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setAlternateDescription-java.lang.String-</a></p>
@@ -715,7 +773,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_Attributes" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.Attributes">
   Attributes
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L129"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getAttributes--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getAttributes--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setAttributes-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.Revisions-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setAttributes-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.Revisions-</a></p>
@@ -747,7 +805,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_BridgeClassName" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.BridgeClassName">
   BridgeClassName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Java class name to be instantiated</p>
@@ -779,7 +837,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_ClassNames" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.ClassNames">
   ClassNames
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L136"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getClassNames--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getClassNames--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setClassNames-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.Revisions-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setClassNames-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.Revisions-</a></p>
@@ -811,7 +869,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_ElementIdentifier" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.ElementIdentifier">
   ElementIdentifier
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L143"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getElementIdentifier--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getElementIdentifier--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setElementIdentifier-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setElementIdentifier-java.lang.String-</a></p>
@@ -843,7 +901,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_ExpandedForm" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.ExpandedForm">
   ExpandedForm
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L144"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L150"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getExpandedForm--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getExpandedForm--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setExpandedForm-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setExpandedForm-java.lang.String-</a></p>
@@ -875,7 +933,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_IsBridgeAbstract" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.IsBridgeAbstract">
   IsBridgeAbstract
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an abstract class, i.e. cannot be created an instance</p>
@@ -907,7 +965,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_IsBridgeCloseable" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.IsBridgeCloseable">
   IsBridgeCloseable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> implements Closeable</p>
@@ -939,7 +997,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_IsBridgeInterface" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.IsBridgeInterface">
   IsBridgeInterface
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an interface, i.e. does not have any public constructor</p>
@@ -971,7 +1029,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_IsBridgeStatic" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.IsBridgeStatic">
   IsBridgeStatic
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is a static class, i.e. does not have any public constructor</p>
@@ -1003,7 +1061,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_Language" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.Language">
   Language
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L157"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getLanguage--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getLanguage--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setLanguage-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setLanguage-java.lang.String-</a></p>
@@ -1035,7 +1093,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_Page" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.Page">
   Page
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L164"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getPage--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getPage--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setPage-org.apache.pdfbox.pdmodel.PDPage-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setPage-org.apache.pdfbox.pdmodel.PDPage-</a></p>
@@ -1067,7 +1125,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_Parent" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.Parent">
   Parent
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L171"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getParent--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getParent--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setParent-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureNode-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setParent-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureNode-</a></p>
@@ -1099,7 +1157,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_RevisionNumber" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.RevisionNumber">
   RevisionNumber
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L172"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L178"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getRevisionNumber--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getRevisionNumber--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setRevisionNumber-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setRevisionNumber-int-</a></p>
@@ -1131,7 +1189,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_StandardStructureType" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.StandardStructureType">
   StandardStructureType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L179"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L185"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getStandardStructureType--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getStandardStructureType--</a></p>
@@ -1163,7 +1221,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_StructureType" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.StructureType">
   StructureType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L192"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getStructureType--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getStructureType--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setStructureType-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setStructureType-java.lang.String-</a></p>
@@ -1195,7 +1253,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_TYPE" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.TYPE">
   TYPE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L101"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#TYPE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#TYPE</a></p>
@@ -1227,7 +1285,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_Title" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.Title">
   Title
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L199"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getTitle--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#getTitle--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setTitle-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#setTitle-java.lang.String-</a></p>
@@ -1263,7 +1321,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_AddAttribute_Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDAttributeObject_" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.AddAttribute(Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDAttributeObject)">
   AddAttribute(PDAttributeObject)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L207"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#addAttribute-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#addAttribute-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject-</a></p>
@@ -1296,7 +1354,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_AddClassName_Java_Lang_String_" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.AddClassName(Java.Lang.String)">
   AddClassName(String)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L209"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L215"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#addClassName-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#addClassName-java.lang.String-</a></p>
@@ -1329,7 +1387,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_AppendKid_Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDMarkedContentReference_" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.AppendKid(Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDMarkedContentReference)">
   AppendKid(PDMarkedContentReference)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L225"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L231"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#appendKid-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDMarkedContentReference-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#appendKid-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDMarkedContentReference-</a></p>
@@ -1362,7 +1420,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_AppendKid_Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDObjectReference_" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.AppendKid(Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDObjectReference)">
   AppendKid(PDObjectReference)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L233"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L239"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#appendKid-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDObjectReference-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#appendKid-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDObjectReference-</a></p>
@@ -1395,7 +1453,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_AppendKid_Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Markedcontent_PDMarkedContent_" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.AppendKid(Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Markedcontent.PDMarkedContent)">
   AppendKid(PDMarkedContent)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L241"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L247"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#appendKid-org.apache.pdfbox.pdmodel.documentinterchange.markedcontent.PDMarkedContent-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#appendKid-org.apache.pdfbox.pdmodel.documentinterchange.markedcontent.PDMarkedContent-</a></p>
@@ -1428,7 +1486,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_AppendKid_System_Int32_" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.AppendKid(System.Int32)">
   AppendKid(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L217"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L223"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#appendKid-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#appendKid-int-</a></p>
@@ -1461,7 +1519,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_AttributeChanged_Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDAttributeObject_" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.AttributeChanged(Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDAttributeObject)">
   AttributeChanged(PDAttributeObject)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L249"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L255"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#attributeChanged-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#attributeChanged-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject-</a></p>
@@ -1494,7 +1552,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_IncrementRevisionNumber" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.IncrementRevisionNumber">
   IncrementRevisionNumber()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L256"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L262"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#incrementRevisionNumber--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#incrementRevisionNumber--</a></p>
@@ -1521,7 +1579,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_InsertBefore_Org_Apache_Pdfbox_Cos_COSInteger_System_Object_" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.InsertBefore(Org.Apache.Pdfbox.Cos.COSInteger,System.Object)">
   InsertBefore(COSInteger, object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L265"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L271"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#insertBefore-org.apache.pdfbox.cos.COSInteger-java.lang.Object-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#insertBefore-org.apache.pdfbox.cos.COSInteger-java.lang.Object-</a></p>
@@ -1557,7 +1615,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_InsertBefore_Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDMarkedContentReference_System_Object_" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.InsertBefore(Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDMarkedContentReference,System.Object)">
   InsertBefore(PDMarkedContentReference, object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L274"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L280"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#insertBefore-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDMarkedContentReference-java.lang.Object-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#insertBefore-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDMarkedContentReference-java.lang.Object-</a></p>
@@ -1593,7 +1651,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_InsertBefore_Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDObjectReference_System_Object_" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.InsertBefore(Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDObjectReference,System.Object)">
   InsertBefore(PDObjectReference, object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L283"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L289"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#insertBefore-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDObjectReference-java.lang.Object-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#insertBefore-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDObjectReference-java.lang.Object-</a></p>
@@ -1629,7 +1687,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_RemoveAttribute_Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDAttributeObject_" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.RemoveAttribute(Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDAttributeObject)">
   RemoveAttribute(PDAttributeObject)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L291"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L297"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#removeAttribute-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#removeAttribute-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDAttributeObject-</a></p>
@@ -1662,7 +1720,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_RemoveClassName_Java_Lang_String_" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.RemoveClassName(Java.Lang.String)">
   RemoveClassName(String)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L299"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L305"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#removeClassName-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#removeClassName-java.lang.String-</a></p>
@@ -1695,7 +1753,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_RemoveKid_Org_Apache_Pdfbox_Cos_COSInteger_" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.RemoveKid(Org.Apache.Pdfbox.Cos.COSInteger)">
   RemoveKid(COSInteger)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L307"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L313"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#removeKid-org.apache.pdfbox.cos.COSInteger-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#removeKid-org.apache.pdfbox.cos.COSInteger-</a></p>
@@ -1728,7 +1786,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_RemoveKid_Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDMarkedContentReference_" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.RemoveKid(Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDMarkedContentReference)">
   RemoveKid(PDMarkedContentReference)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L315"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L321"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#removeKid-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDMarkedContentReference-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#removeKid-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDMarkedContentReference-</a></p>
@@ -1761,7 +1819,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDStructureElement_RemoveKid_Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Logicalstructure_PDObjectReference_" data-uid="Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDStructureElement.RemoveKid(Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Logicalstructure.PDObjectReference)">
   RemoveKid(PDObjectReference)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L323"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L329"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#removeKid-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDObjectReference-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElement.html#removeKid-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDObjectReference-</a></p>
@@ -1794,7 +1852,7 @@ Class PDStructureElement  <a class="header-action link-secondary" title="View so
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L64" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Documentinterchange/Logicalstructure/PDStructureElement.cs/#L70" class="edit-link">Edit this page</a>
         </div>
 
 

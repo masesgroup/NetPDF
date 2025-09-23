@@ -89,7 +89,7 @@
 
 
   <h1 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate" class="text-break">
-Class PDSeedValueCertificate  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L64"><i class="bi bi-code-slash"></i></a>
+Class PDSeedValueCertificate  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PDSeedValueCertificate : COSObjectable, IDynamicMetaObjectProvider, IJVMBridgeCore, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, ICOSObjectable</code></pre>
+    <pre><code class="lang-csharp hljs">public class PDSeedValueCertificate : COSObjectable, IDynamicMetaObjectProvider, IJVMBridgeCore, IEquatable&lt;IJVMBridgeBase&gt;, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, ICOSObjectable</code></pre>
   </div>
 
 
@@ -125,6 +125,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeCore.html">IJVMBridgeCore</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a>&gt;</div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseStatic.html">IJVMBridgeBaseStatic</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a></div>
@@ -222,16 +223,16 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;T&gt;(IJavaType, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;TArrayType&gt;(IJavaType, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;T&gt;(IJavaType, string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(IJavaType, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SGetField(IJavaType, string)</a>
@@ -279,6 +280,12 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.NewWithSignature(string, params object[])</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.NewAndWrapsDirect&lt;TNewClass&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.NewWithSignatureAndWrapsDirect&lt;TNewClass&gt;(string, string, params object[])</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_Execute__1___0___">JVMBridgeBase&lt;COSObjectable&gt;.Execute&lt;T&gt;(params T[])</a>
     </div>
     <div>
@@ -288,13 +295,25 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_BridgeClazz">JVMBridgeBase&lt;COSObjectable&gt;.BridgeClazz</a>
     </div>
     <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ReferenceEqualsJVM_MASES_JCOBridge_C2JBridge_JVMBridgeBase_MASES_JCOBridge_C2JBridge_JVMBridgeBase_">JVMBridgeBase.ReferenceEqualsJVM(JVMBridgeBase, JVMBridgeBase)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">JVMBridgeBase.ClazzOf&lt;TClass&gt;(out Exception, bool)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, out Exception, bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_RuntimeClassNameOf__1">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.RuntimeClassNameOf(Type)</a>
     </div>
     <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ClassNameOf__1">JVMBridgeBase.ClassNameOf&lt;T&gt;()</a>
@@ -351,7 +370,13 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Dispose">JVMBridgeBase.Dispose()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.Dispose(bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ToString">JVMBridgeBase.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Equals_MASES_JCOBridge_C2JBridge_IJVMBridgeBase_">JVMBridgeBase.Equals(IJVMBridgeBase)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
@@ -399,10 +424,10 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
@@ -522,9 +547,42 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.#ctor*"></a>
 
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)">
+  PDSeedValueCertificate(IJVMBridgeBaseInitializer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Internal constructor: used internally from JCOBridge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.&quot;)]
+public PDSeedValueCertificate(IJVMBridgeBaseInitializer initializer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>initializer</code> <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer.html">IJVMBridgeBaseInitializer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.#ctor*"></a>
+
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate__ctor_Org_Apache_Pdfbox_Cos_COSDictionary_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.#ctor(Org.Apache.Pdfbox.Cos.COSDictionary)">
   PDSeedValueCertificate(COSDictionary)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L77"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValueCertificate(org.apache.pdfbox.cos.COSDictionary)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValueCertificate(org.apache.pdfbox.cos.COSDictionary)</a></p>
@@ -557,7 +615,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate__ctor_System_Object___" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.#ctor(System.Object[])">
   PDSeedValueCertificate(params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
@@ -593,7 +651,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_BridgeClassName" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.BridgeClassName">
   BridgeClassName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Java class name to be instantiated</p>
@@ -625,7 +683,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_COSObject" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.COSObject">
   COSObject
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L136"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#getCOSObject--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#getCOSObject--</a></p>
@@ -657,7 +715,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_FLAG_ISSUER" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.FLAG_ISSUER">
   FLAG_ISSUER
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L92"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#FLAG_ISSUER">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#FLAG_ISSUER</a></p>
@@ -689,7 +747,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_FLAG_KEY_USAGE" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.FLAG_KEY_USAGE">
   FLAG_KEY_USAGE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L98"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#FLAG_KEY_USAGE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#FLAG_KEY_USAGE</a></p>
@@ -721,7 +779,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_FLAG_OID" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.FLAG_OID">
   FLAG_OID
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L104"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#FLAG_OID">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#FLAG_OID</a></p>
@@ -753,7 +811,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_FLAG_SUBJECT" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.FLAG_SUBJECT">
   FLAG_SUBJECT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L110"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#FLAG_SUBJECT">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#FLAG_SUBJECT</a></p>
@@ -785,7 +843,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_FLAG_SUBJECT_DN" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.FLAG_SUBJECT_DN">
   FLAG_SUBJECT_DN
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L116"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#FLAG_SUBJECT_DN">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#FLAG_SUBJECT_DN</a></p>
@@ -817,7 +875,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_FLAG_URL" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.FLAG_URL">
   FLAG_URL
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L122"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#FLAG_URL">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#FLAG_URL</a></p>
@@ -849,7 +907,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_IsBridgeAbstract" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.IsBridgeAbstract">
   IsBridgeAbstract
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an abstract class, i.e. cannot be created an instance</p>
@@ -881,7 +939,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_IsBridgeCloseable" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.IsBridgeCloseable">
   IsBridgeCloseable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> implements Closeable</p>
@@ -913,7 +971,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_IsBridgeInterface" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.IsBridgeInterface">
   IsBridgeInterface
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an interface, i.e. does not have any public constructor</p>
@@ -945,7 +1003,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_IsBridgeStatic" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.IsBridgeStatic">
   IsBridgeStatic
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is a static class, i.e. does not have any public constructor</p>
@@ -977,7 +1035,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_Issuer" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.Issuer">
   Issuer
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L143"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#getIssuer--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#getIssuer--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#setIssuer-java.util.List-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#setIssuer-java.util.List-</a></p>
@@ -1009,7 +1067,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_KeyUsage" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.KeyUsage">
   KeyUsage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L144"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L150"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#getKeyUsage--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#getKeyUsage--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#setKeyUsage-java.util.List-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#setKeyUsage-java.util.List-</a></p>
@@ -1041,7 +1099,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_OID" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.OID">
   OID
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L157"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#getOID--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#getOID--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#setOID-java.util.List-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#setOID-java.util.List-</a></p>
@@ -1073,7 +1131,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_Subject" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.Subject">
   Subject
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L164"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#getSubject--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#getSubject--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#setSubject-java.util.List-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#setSubject-java.util.List-</a></p>
@@ -1105,7 +1163,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_SubjectDN" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.SubjectDN">
   SubjectDN
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L171"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#getSubjectDN--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#getSubjectDN--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#setSubjectDN-java.util.List-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#setSubjectDN-java.util.List-</a></p>
@@ -1137,7 +1195,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_URL" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.URL">
   URL
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L172"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L178"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#getURL--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#getURL--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#setURL-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#setURL-java.lang.String-</a></p>
@@ -1169,7 +1227,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_URLType" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.URLType">
   URLType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L179"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L185"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#getURLType--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#getURLType--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#setURLType-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#setURLType-java.lang.String-</a></p>
@@ -1205,7 +1263,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_AddIssuer_System_Byte___" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.AddIssuer(System.Byte[])">
   AddIssuer(byte[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L235"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L241"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#addIssuer-byte[]-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#addIssuer-byte[]-</a></p>
@@ -1238,7 +1296,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_AddKeyUsage_Java_Lang_String_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.AddKeyUsage(Java.Lang.String)">
   AddKeyUsage(String)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L259"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L265"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#addKeyUsage-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#addKeyUsage-java.lang.String-</a></p>
@@ -1271,7 +1329,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_AddKeyUsage_System_Char_System_Char_System_Char_System_Char_System_Char_System_Char_System_Char_System_Char_System_Char_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.AddKeyUsage(System.Char,System.Char,System.Char,System.Char,System.Char,System.Char,System.Char,System.Char,System.Char)">
   AddKeyUsage(char, char, char, char, char, char, char, char, char)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L251"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L257"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#addKeyUsage-char-char-char-char-char-char-char-char-char-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#addKeyUsage-char-char-char-char-char-char-char-char-char-</a></p>
@@ -1328,7 +1386,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_AddOID_System_Byte___" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.AddOID(System.Byte[])">
   AddOID(byte[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L267"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L273"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#addOID-byte[]-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#addOID-byte[]-</a></p>
@@ -1361,7 +1419,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_AddSubject_System_Byte___" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.AddSubject(System.Byte[])">
   AddSubject(byte[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L275"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L281"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#addSubject-byte[]-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#addSubject-byte[]-</a></p>
@@ -1394,7 +1452,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_IsIssuerRequired" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.IsIssuerRequired">
   IsIssuerRequired()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L193"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#isIssuerRequired--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#isIssuerRequired--</a></p>
@@ -1427,7 +1485,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_IsKeyUsageRequired" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.IsKeyUsageRequired">
   IsKeyUsageRequired()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L195"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L201"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#isKeyUsageRequired--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#isKeyUsageRequired--</a></p>
@@ -1460,7 +1518,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_IsOIDRequired" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.IsOIDRequired">
   IsOIDRequired()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L203"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L209"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#isOIDRequired--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#isOIDRequired--</a></p>
@@ -1493,7 +1551,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_IsSubjectDNRequired" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.IsSubjectDNRequired">
   IsSubjectDNRequired()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L211"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L217"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#isSubjectDNRequired--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#isSubjectDNRequired--</a></p>
@@ -1526,7 +1584,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_IsSubjectRequired" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.IsSubjectRequired">
   IsSubjectRequired()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L219"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L225"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#isSubjectRequired--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#isSubjectRequired--</a></p>
@@ -1559,7 +1617,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_IsURLRequired" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.IsURLRequired">
   IsURLRequired()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L227"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L233"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#isURLRequired--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#isURLRequired--</a></p>
@@ -1592,7 +1650,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_RemoveIssuer_System_Byte___" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.RemoveIssuer(System.Byte[])">
   RemoveIssuer(byte[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L283"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L289"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#removeIssuer-byte[]-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#removeIssuer-byte[]-</a></p>
@@ -1625,7 +1683,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_RemoveKeyUsage_Java_Lang_String_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.RemoveKeyUsage(Java.Lang.String)">
   RemoveKeyUsage(String)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L291"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L297"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#removeKeyUsage-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#removeKeyUsage-java.lang.String-</a></p>
@@ -1658,7 +1716,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_RemoveOID_System_Byte___" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.RemoveOID(System.Byte[])">
   RemoveOID(byte[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L299"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L305"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#removeOID-byte[]-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#removeOID-byte[]-</a></p>
@@ -1691,7 +1749,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_RemoveSubject_System_Byte___" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.RemoveSubject(System.Byte[])">
   RemoveSubject(byte[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L307"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L313"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#removeSubject-byte[]-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#removeSubject-byte[]-</a></p>
@@ -1724,7 +1782,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_SetIssuerRequired_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.SetIssuerRequired(System.Boolean)">
   SetIssuerRequired(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L315"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L321"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#setIssuerRequired-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#setIssuerRequired-boolean-</a></p>
@@ -1757,7 +1815,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_SetKeyUsageRequired_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.SetKeyUsageRequired(System.Boolean)">
   SetKeyUsageRequired(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L323"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L329"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#setKeyUsageRequired-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#setKeyUsageRequired-boolean-</a></p>
@@ -1790,7 +1848,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_SetOIDRequired_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.SetOIDRequired(System.Boolean)">
   SetOIDRequired(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L331"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L337"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#setOIDRequired-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#setOIDRequired-boolean-</a></p>
@@ -1823,7 +1881,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_SetSubjectDNRequired_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.SetSubjectDNRequired(System.Boolean)">
   SetSubjectDNRequired(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L339"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L345"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#setSubjectDNRequired-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#setSubjectDNRequired-boolean-</a></p>
@@ -1856,7 +1914,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_SetSubjectRequired_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.SetSubjectRequired(System.Boolean)">
   SetSubjectRequired(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L347"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L353"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#setSubjectRequired-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#setSubjectRequired-boolean-</a></p>
@@ -1889,7 +1947,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_PDSeedValueCertificate_SetURLRequired_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.PDSeedValueCertificate.SetURLRequired(System.Boolean)">
   SetURLRequired(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L355"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L361"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#setURLRequired-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/digitalsignature/PDSeedValueCertificate.html#setURLRequired-boolean-</a></p>
@@ -1922,7 +1980,7 @@ Class PDSeedValueCertificate  <a class="header-action link-secondary" title="Vie
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L64" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Digitalsignature/PDSeedValueCertificate.cs/#L70" class="edit-link">Edit this page</a>
         </div>
 
 

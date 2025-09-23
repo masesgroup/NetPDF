@@ -89,7 +89,7 @@
 
 
   <h1 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem" class="text-break">
-Class PDOutlineItem  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L64"><i class="bi bi-code-slash"></i></a>
+Class PDOutlineItem  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PDOutlineItem : PDOutlineNode, IDynamicMetaObjectProvider, IJVMBridgeCore, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, ICOSObjectable</code></pre>
+    <pre><code class="lang-csharp hljs">public class PDOutlineItem : PDOutlineNode, IDynamicMetaObjectProvider, IJVMBridgeCore, IEquatable&lt;IJVMBridgeBase&gt;, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, ICOSObjectable</code></pre>
   </div>
 
 
@@ -127,6 +127,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeCore.html">IJVMBridgeCore</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a>&gt;</div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseStatic.html">IJVMBridgeBaseStatic</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a></div>
@@ -257,16 +258,16 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;T&gt;(IJavaType, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;TArrayType&gt;(IJavaType, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;T&gt;(IJavaType, string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(IJavaType, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SGetField(IJavaType, string)</a>
@@ -314,6 +315,12 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.NewWithSignature(string, params object[])</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.NewAndWrapsDirect&lt;TNewClass&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.NewWithSignatureAndWrapsDirect&lt;TNewClass&gt;(string, string, params object[])</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_Execute__1___0___">JVMBridgeBase&lt;COSObjectable&gt;.Execute&lt;T&gt;(params T[])</a>
     </div>
     <div>
@@ -323,13 +330,25 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_BridgeClazz">JVMBridgeBase&lt;COSObjectable&gt;.BridgeClazz</a>
     </div>
     <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ReferenceEqualsJVM_MASES_JCOBridge_C2JBridge_JVMBridgeBase_MASES_JCOBridge_C2JBridge_JVMBridgeBase_">JVMBridgeBase.ReferenceEqualsJVM(JVMBridgeBase, JVMBridgeBase)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">JVMBridgeBase.ClazzOf&lt;TClass&gt;(out Exception, bool)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, out Exception, bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_RuntimeClassNameOf__1">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.RuntimeClassNameOf(Type)</a>
     </div>
     <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ClassNameOf__1">JVMBridgeBase.ClassNameOf&lt;T&gt;()</a>
@@ -386,7 +405,13 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Dispose">JVMBridgeBase.Dispose()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.Dispose(bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ToString">JVMBridgeBase.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Equals_MASES_JCOBridge_C2JBridge_IJVMBridgeBase_">JVMBridgeBase.Equals(IJVMBridgeBase)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
@@ -434,10 +459,10 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
@@ -557,9 +582,42 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
 
   <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.#ctor*"></a>
 
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)">
+  PDOutlineItem(IJVMBridgeBaseInitializer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Internal constructor: used internally from JCOBridge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.&quot;)]
+public PDOutlineItem(IJVMBridgeBaseInitializer initializer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>initializer</code> <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer.html">IJVMBridgeBaseInitializer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.#ctor*"></a>
+
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem__ctor_Org_Apache_Pdfbox_Cos_COSDictionary_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.#ctor(Org.Apache.Pdfbox.Cos.COSDictionary)">
   PDOutlineItem(COSDictionary)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L77"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem(org.apache.pdfbox.cos.COSDictionary)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem(org.apache.pdfbox.cos.COSDictionary)</a></p>
@@ -592,7 +650,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem__ctor_System_Object___" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.#ctor(System.Object[])">
   PDOutlineItem(params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
@@ -628,7 +686,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem_Action" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.Action">
   Action
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L100"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getAction--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getAction--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setAction-org.apache.pdfbox.pdmodel.interactive.action.PDAction-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setAction-org.apache.pdfbox.pdmodel.interactive.action.PDAction-</a></p>
@@ -660,7 +718,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem_BridgeClassName" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.BridgeClassName">
   BridgeClassName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Java class name to be instantiated</p>
@@ -692,7 +750,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem_Destination" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.Destination">
   Destination
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L107"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getDestination--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getDestination--</a></p>
@@ -724,7 +782,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem_IsBridgeAbstract" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.IsBridgeAbstract">
   IsBridgeAbstract
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an abstract class, i.e. cannot be created an instance</p>
@@ -756,7 +814,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem_IsBridgeCloseable" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.IsBridgeCloseable">
   IsBridgeCloseable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> implements Closeable</p>
@@ -788,7 +846,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem_IsBridgeInterface" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.IsBridgeInterface">
   IsBridgeInterface
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an interface, i.e. does not have any public constructor</p>
@@ -820,7 +878,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem_IsBridgeStatic" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.IsBridgeStatic">
   IsBridgeStatic
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is a static class, i.e. does not have any public constructor</p>
@@ -852,7 +910,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem_NextSibling" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.NextSibling">
   NextSibling
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L114"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getNextSibling--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getNextSibling--</a></p>
@@ -884,7 +942,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem_PreviousSibling" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.PreviousSibling">
   PreviousSibling
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L121"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getPreviousSibling--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getPreviousSibling--</a></p>
@@ -916,7 +974,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem_StructureElement" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.StructureElement">
   StructureElement
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L128"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getStructureElement--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getStructureElement--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setStructureElement-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setStructureElement-org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement-</a></p>
@@ -948,7 +1006,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem_TextColor" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.TextColor">
   TextColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L135"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getTextColor--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getTextColor--</a></p>
@@ -980,7 +1038,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem_Title" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.Title">
   Title
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L142"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getTitle--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#getTitle--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setTitle-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setTitle-java.lang.String-</a></p>
@@ -1016,7 +1074,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem_FindDestinationPage_Org_Apache_Pdfbox_Pdmodel_PDDocument_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.FindDestinationPage(Org.Apache.Pdfbox.Pdmodel.PDDocument)">
   FindDestinationPage(PDDocument)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L168"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#findDestinationPage-org.apache.pdfbox.pdmodel.PDDocument-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#findDestinationPage-org.apache.pdfbox.pdmodel.PDDocument-</a></p>
@@ -1060,7 +1118,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem_InsertSiblingAfter_Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.InsertSiblingAfter(Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem)">
   InsertSiblingAfter(PDOutlineItem)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L176"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#insertSiblingAfter-org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#insertSiblingAfter-org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem-</a></p>
@@ -1093,7 +1151,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem_InsertSiblingBefore_Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.InsertSiblingBefore(Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem)">
   InsertSiblingBefore(PDOutlineItem)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L184"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#insertSiblingBefore-org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#insertSiblingBefore-org.apache.pdfbox.pdmodel.interactive.documentnavigation.outline.PDOutlineItem-</a></p>
@@ -1126,7 +1184,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem_IsBold" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.IsBold">
   IsBold()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L144"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L150"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#isBold--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#isBold--</a></p>
@@ -1159,7 +1217,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem_IsItalic" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.IsItalic">
   IsItalic()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L158"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#isItalic--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#isItalic--</a></p>
@@ -1192,7 +1250,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem_SetBold_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.SetBold(System.Boolean)">
   SetBold(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L192"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setBold-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setBold-boolean-</a></p>
@@ -1225,7 +1283,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem_SetDestination_Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Destination_PDDestination_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.SetDestination(Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination.PDDestination)">
   SetDestination(PDDestination)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L200"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setDestination-org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDDestination-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setDestination-org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDDestination-</a></p>
@@ -1258,7 +1316,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem_SetDestination_Org_Apache_Pdfbox_Pdmodel_PDPage_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.SetDestination(Org.Apache.Pdfbox.Pdmodel.PDPage)">
   SetDestination(PDPage)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L208"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setDestination-org.apache.pdfbox.pdmodel.PDPage-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setDestination-org.apache.pdfbox.pdmodel.PDPage-</a></p>
@@ -1291,7 +1349,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem_SetItalic_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.SetItalic(System.Boolean)">
   SetItalic(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L216"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setItalic-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setItalic-boolean-</a></p>
@@ -1324,7 +1382,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem_SetTextColor_Java_Awt_Color_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.SetTextColor(Java.Awt.Color)">
   SetTextColor(Color)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L224"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setTextColor-java.awt.Color-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setTextColor-java.awt.Color-</a></p>
@@ -1357,7 +1415,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Documentnavigation_Outline_PDOutlineItem_SetTextColor_Org_Apache_Pdfbox_Pdmodel_Graphics_Color_PDColor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Outline.PDOutlineItem.SetTextColor(Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColor)">
   SetTextColor(PDColor)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L226"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L232"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setTextColor-org.apache.pdfbox.pdmodel.graphics.color.PDColor-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/documentnavigation/outline/PDOutlineItem.html#setTextColor-org.apache.pdfbox.pdmodel.graphics.color.PDColor-</a></p>
@@ -1390,7 +1448,7 @@ Class PDOutlineItem  <a class="header-action link-secondary" title="View source"
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L64" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Documentnavigation/Outline/PDOutlineItem.cs/#L70" class="edit-link">Edit this page</a>
         </div>
 
 

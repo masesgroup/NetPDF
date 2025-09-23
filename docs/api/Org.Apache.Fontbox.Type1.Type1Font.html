@@ -89,7 +89,7 @@
 
 
   <h1 id="Org_Apache_Fontbox_Type1_Type1Font" data-uid="Org.Apache.Fontbox.Type1.Type1Font" class="text-break">
-Class Type1Font  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L64"><i class="bi bi-code-slash"></i></a>
+Class Type1Font  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Type1Font : JVMBridgeBase&lt;Type1Font&gt;, IDynamicMetaObjectProvider, IJVMBridgeCore, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, IType1CharStringReader, IEncodedFont, IFontBoxFont</code></pre>
+    <pre><code class="lang-csharp hljs">public class Type1Font : JVMBridgeBase&lt;Type1Font&gt;, IDynamicMetaObjectProvider, IJVMBridgeCore, IEquatable&lt;IJVMBridgeBase&gt;, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, IType1CharStringReader, IEncodedFont, IFontBoxFont</code></pre>
   </div>
 
 
@@ -124,6 +124,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeCore.html">IJVMBridgeCore</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a>&gt;</div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseStatic.html">IJVMBridgeBaseStatic</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a></div>
@@ -223,16 +224,16 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;Type1Font&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Type1Font&gt;.SExecuteArray&lt;T&gt;(IJavaType, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Type1Font&gt;.SExecuteArray&lt;TArrayType&gt;(IJavaType, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Type1Font&gt;.SExecuteWithSignatureArray&lt;T&gt;(IJavaType, string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Type1Font&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(IJavaType, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Type1Font&gt;.SExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Type1Font&gt;.SExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Type1Font&gt;.SExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Type1Font&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Type1Font&gt;.SGetField(IJavaType, string)</a>
@@ -280,6 +281,12 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Type1Font&gt;.NewWithSignature(string, params object[])</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Type1Font&gt;.NewAndWrapsDirect&lt;TNewClass&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Type1Font&gt;.NewWithSignatureAndWrapsDirect&lt;TNewClass&gt;(string, string, params object[])</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_Execute__1___0___">JVMBridgeBase&lt;Type1Font&gt;.Execute&lt;T&gt;(params T[])</a>
     </div>
     <div>
@@ -289,13 +296,25 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_BridgeClazz">JVMBridgeBase&lt;Type1Font&gt;.BridgeClazz</a>
     </div>
     <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ReferenceEqualsJVM_MASES_JCOBridge_C2JBridge_JVMBridgeBase_MASES_JCOBridge_C2JBridge_JVMBridgeBase_">JVMBridgeBase.ReferenceEqualsJVM(JVMBridgeBase, JVMBridgeBase)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">JVMBridgeBase.ClazzOf&lt;TClass&gt;(out Exception, bool)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, out Exception, bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_RuntimeClassNameOf__1">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.RuntimeClassNameOf(Type)</a>
     </div>
     <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ClassNameOf__1">JVMBridgeBase.ClassNameOf&lt;T&gt;()</a>
@@ -352,7 +371,13 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Dispose">JVMBridgeBase.Dispose()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.Dispose(bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ToString">JVMBridgeBase.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Equals_MASES_JCOBridge_C2JBridge_IJVMBridgeBase_">JVMBridgeBase.Equals(IJVMBridgeBase)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
@@ -400,10 +425,10 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
@@ -523,9 +548,42 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <a id="Org_Apache_Fontbox_Type1_Type1Font__ctor_" data-uid="Org.Apache.Fontbox.Type1.Type1Font.#ctor*"></a>
 
+  <h3 id="Org_Apache_Fontbox_Type1_Type1Font__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_" data-uid="Org.Apache.Fontbox.Type1.Type1Font.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)">
+  Type1Font(IJVMBridgeBaseInitializer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Internal constructor: used internally from JCOBridge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.&quot;)]
+public Type1Font(IJVMBridgeBaseInitializer initializer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>initializer</code> <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer.html">IJVMBridgeBaseInitializer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Fontbox_Type1_Type1Font__ctor_" data-uid="Org.Apache.Fontbox.Type1.Type1Font.#ctor*"></a>
+
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font__ctor_System_Object___" data-uid="Org.Apache.Fontbox.Type1.Type1Font.#ctor(System.Object[])">
   Type1Font(params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
@@ -561,7 +619,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_ASCIISegment" data-uid="Org.Apache.Fontbox.Type1.Type1Font.ASCIISegment">
   ASCIISegment
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L135"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getASCIISegment--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getASCIISegment--</a></p>
@@ -593,7 +651,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_BinarySegment" data-uid="Org.Apache.Fontbox.Type1.Type1Font.BinarySegment">
   BinarySegment
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L142"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getBinarySegment--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getBinarySegment--</a></p>
@@ -625,7 +683,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_BlueFuzz" data-uid="Org.Apache.Fontbox.Type1.Type1Font.BlueFuzz">
   BlueFuzz
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L143"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L149"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getBlueFuzz--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getBlueFuzz--</a></p>
@@ -657,7 +715,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_BlueScale" data-uid="Org.Apache.Fontbox.Type1.Type1Font.BlueScale">
   BlueScale
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L156"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getBlueScale--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getBlueScale--</a></p>
@@ -689,7 +747,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_BlueShift" data-uid="Org.Apache.Fontbox.Type1.Type1Font.BlueShift">
   BlueShift
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L157"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L163"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getBlueShift--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getBlueShift--</a></p>
@@ -721,7 +779,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_BlueValues" data-uid="Org.Apache.Fontbox.Type1.Type1Font.BlueValues">
   BlueValues
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L170"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getBlueValues--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getBlueValues--</a></p>
@@ -753,7 +811,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_BridgeClassName" data-uid="Org.Apache.Fontbox.Type1.Type1Font.BridgeClassName">
   BridgeClassName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Java class name to be instantiated</p>
@@ -785,7 +843,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_CharStringsDict" data-uid="Org.Apache.Fontbox.Type1.Type1Font.CharStringsDict">
   CharStringsDict
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L177"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getCharStringsDict--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getCharStringsDict--</a></p>
@@ -817,7 +875,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_Encoding" data-uid="Org.Apache.Fontbox.Type1.Type1Font.Encoding">
   Encoding
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L184"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getEncoding--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getEncoding--</a></p>
@@ -849,7 +907,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_FamilyBlues" data-uid="Org.Apache.Fontbox.Type1.Type1Font.FamilyBlues">
   FamilyBlues
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L185"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L191"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getFamilyBlues--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getFamilyBlues--</a></p>
@@ -881,7 +939,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_FamilyName" data-uid="Org.Apache.Fontbox.Type1.Type1Font.FamilyName">
   FamilyName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L198"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getFamilyName--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getFamilyName--</a></p>
@@ -913,7 +971,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_FamilyOtherBlues" data-uid="Org.Apache.Fontbox.Type1.Type1Font.FamilyOtherBlues">
   FamilyOtherBlues
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L199"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L205"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getFamilyOtherBlues--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getFamilyOtherBlues--</a></p>
@@ -945,7 +1003,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_FontBBox" data-uid="Org.Apache.Fontbox.Type1.Type1Font.FontBBox">
   FontBBox
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L212"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getFontBBox--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getFontBBox--</a></p>
@@ -977,7 +1035,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_FontID" data-uid="Org.Apache.Fontbox.Type1.Type1Font.FontID">
   FontID
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L213"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L219"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getFontID--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getFontID--</a></p>
@@ -1009,7 +1067,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_FontMatrix" data-uid="Org.Apache.Fontbox.Type1.Type1Font.FontMatrix">
   FontMatrix
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L220"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L226"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getFontMatrix--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getFontMatrix--</a></p>
@@ -1041,7 +1099,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_FontName" data-uid="Org.Apache.Fontbox.Type1.Type1Font.FontName">
   FontName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L227"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L233"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getFontName--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getFontName--</a></p>
@@ -1073,7 +1131,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_FontType" data-uid="Org.Apache.Fontbox.Type1.Type1Font.FontType">
   FontType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L234"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L240"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getFontType--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getFontType--</a></p>
@@ -1105,7 +1163,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_FullName" data-uid="Org.Apache.Fontbox.Type1.Type1Font.FullName">
   FullName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L241"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L247"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getFullName--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getFullName--</a></p>
@@ -1137,7 +1195,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_IsBridgeAbstract" data-uid="Org.Apache.Fontbox.Type1.Type1Font.IsBridgeAbstract">
   IsBridgeAbstract
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an abstract class, i.e. cannot be created an instance</p>
@@ -1169,7 +1227,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_IsBridgeCloseable" data-uid="Org.Apache.Fontbox.Type1.Type1Font.IsBridgeCloseable">
   IsBridgeCloseable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> implements Closeable</p>
@@ -1201,7 +1259,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_IsBridgeInterface" data-uid="Org.Apache.Fontbox.Type1.Type1Font.IsBridgeInterface">
   IsBridgeInterface
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an interface, i.e. does not have any public constructor</p>
@@ -1233,7 +1291,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_IsBridgeStatic" data-uid="Org.Apache.Fontbox.Type1.Type1Font.IsBridgeStatic">
   IsBridgeStatic
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is a static class, i.e. does not have any public constructor</p>
@@ -1265,7 +1323,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_ItalicAngle" data-uid="Org.Apache.Fontbox.Type1.Type1Font.ItalicAngle">
   ItalicAngle
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L248"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L254"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getItalicAngle--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getItalicAngle--</a></p>
@@ -1297,7 +1355,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_LanguageGroup" data-uid="Org.Apache.Fontbox.Type1.Type1Font.LanguageGroup">
   LanguageGroup
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L255"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L261"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getLanguageGroup--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getLanguageGroup--</a></p>
@@ -1329,7 +1387,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_Name" data-uid="Org.Apache.Fontbox.Type1.Type1Font.Name">
   Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L262"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L268"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getName--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getName--</a></p>
@@ -1361,7 +1419,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_Notice" data-uid="Org.Apache.Fontbox.Type1.Type1Font.Notice">
   Notice
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L269"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L275"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getNotice--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getNotice--</a></p>
@@ -1393,7 +1451,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_OtherBlues" data-uid="Org.Apache.Fontbox.Type1.Type1Font.OtherBlues">
   OtherBlues
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L276"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L282"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getOtherBlues--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getOtherBlues--</a></p>
@@ -1425,7 +1483,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_PaintType" data-uid="Org.Apache.Fontbox.Type1.Type1Font.PaintType">
   PaintType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L283"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L289"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getPaintType--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getPaintType--</a></p>
@@ -1457,7 +1515,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_StdHW" data-uid="Org.Apache.Fontbox.Type1.Type1Font.StdHW">
   StdHW
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L290"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L296"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getStdHW--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getStdHW--</a></p>
@@ -1489,7 +1547,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_StdVW" data-uid="Org.Apache.Fontbox.Type1.Type1Font.StdVW">
   StdVW
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L297"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L303"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getStdVW--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getStdVW--</a></p>
@@ -1521,7 +1579,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_StemSnapH" data-uid="Org.Apache.Fontbox.Type1.Type1Font.StemSnapH">
   StemSnapH
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L304"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L310"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getStemSnapH--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getStemSnapH--</a></p>
@@ -1553,7 +1611,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_StemSnapV" data-uid="Org.Apache.Fontbox.Type1.Type1Font.StemSnapV">
   StemSnapV
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L311"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L317"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getStemSnapV--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getStemSnapV--</a></p>
@@ -1585,7 +1643,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_StrokeWidth" data-uid="Org.Apache.Fontbox.Type1.Type1Font.StrokeWidth">
   StrokeWidth
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L318"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L324"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getStrokeWidth--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getStrokeWidth--</a></p>
@@ -1617,7 +1675,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_SubrsArray" data-uid="Org.Apache.Fontbox.Type1.Type1Font.SubrsArray">
   SubrsArray
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L325"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L331"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getSubrsArray--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getSubrsArray--</a></p>
@@ -1649,7 +1707,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_UnderlinePosition" data-uid="Org.Apache.Fontbox.Type1.Type1Font.UnderlinePosition">
   UnderlinePosition
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L332"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L338"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getUnderlinePosition--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getUnderlinePosition--</a></p>
@@ -1681,7 +1739,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_UnderlineThickness" data-uid="Org.Apache.Fontbox.Type1.Type1Font.UnderlineThickness">
   UnderlineThickness
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L339"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L345"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getUnderlineThickness--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getUnderlineThickness--</a></p>
@@ -1713,7 +1771,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_UniqueID" data-uid="Org.Apache.Fontbox.Type1.Type1Font.UniqueID">
   UniqueID
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L346"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L352"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getUniqueID--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getUniqueID--</a></p>
@@ -1745,7 +1803,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_Version" data-uid="Org.Apache.Fontbox.Type1.Type1Font.Version">
   Version
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L353"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L359"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getVersion--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getVersion--</a></p>
@@ -1777,7 +1835,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_Weight" data-uid="Org.Apache.Fontbox.Type1.Type1Font.Weight">
   Weight
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L360"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L366"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getWeight--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getWeight--</a></p>
@@ -1813,7 +1871,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_CreateWithPFB_Java_Io_InputStream_" data-uid="Org.Apache.Fontbox.Type1.Type1Font.CreateWithPFB(Java.Io.InputStream)">
   CreateWithPFB(InputStream)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L113"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#createWithPFB-java.io.InputStream-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#createWithPFB-java.io.InputStream-</a></p>
@@ -1857,7 +1915,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_CreateWithPFB_System_Byte___" data-uid="Org.Apache.Fontbox.Type1.Type1Font.CreateWithPFB(System.Byte[])">
   CreateWithPFB(byte[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L103"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#createWithPFB-byte[]-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#createWithPFB-byte[]-</a></p>
@@ -1901,7 +1959,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_CreateWithSegments_System_Byte___System_Byte___" data-uid="Org.Apache.Fontbox.Type1.Type1Font.CreateWithSegments(System.Byte[],System.Byte[])">
   CreateWithSegments(byte[], byte[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L124"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#createWithSegments-byte[]-byte[]-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#createWithSegments-byte[]-byte[]-</a></p>
@@ -1948,7 +2006,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_GetPath_Java_Lang_String_" data-uid="Org.Apache.Fontbox.Type1.Type1Font.GetPath(Java.Lang.String)">
   GetPath(String)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L405"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L411"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getPath-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getPath-java.lang.String-</a></p>
@@ -1992,7 +2050,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_GetType1CharString_Java_Lang_String_" data-uid="Org.Apache.Fontbox.Type1.Type1Font.GetType1CharString(Java.Lang.String)">
   GetType1CharString(String)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L415"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L421"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getType1CharString-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getType1CharString-java.lang.String-</a></p>
@@ -2036,7 +2094,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_GetWidth_Java_Lang_String_" data-uid="Org.Apache.Fontbox.Type1.Type1Font.GetWidth(Java.Lang.String)">
   GetWidth(String)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L395"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L401"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getWidth-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#getWidth-java.lang.String-</a></p>
@@ -2080,7 +2138,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_HasGlyph_Java_Lang_String_" data-uid="Org.Apache.Fontbox.Type1.Type1Font.HasGlyph(Java.Lang.String)">
   HasGlyph(String)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L369"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L375"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#hasGlyph-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#hasGlyph-java.lang.String-</a></p>
@@ -2119,7 +2177,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_IsFixedPitch" data-uid="Org.Apache.Fontbox.Type1.Type1Font.IsFixedPitch">
   IsFixedPitch()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L377"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L383"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#isFixedPitch--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#isFixedPitch--</a></p>
@@ -2152,7 +2210,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_IsForceBold" data-uid="Org.Apache.Fontbox.Type1.Type1Font.IsForceBold">
   IsForceBold()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L385"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L391"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#isForceBold--">https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/org/apache/fontbox/type1/Type1Font.html#isForceBold--</a></p>
@@ -2189,7 +2247,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_op_Implicit_Org_Apache_Fontbox_Type1_Type1Font__Org_Apache_Fontbox_EncodedFont" data-uid="Org.Apache.Fontbox.Type1.Type1Font.op_Implicit(Org.Apache.Fontbox.Type1.Type1Font)~Org.Apache.Fontbox.EncodedFont">
   implicit operator EncodedFont(Type1Font)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Converter from <a class="xref" href="Org.Apache.Fontbox.Type1.Type1Font.html">Type1Font</a> to <a class="xref" href="Org.Apache.Fontbox.EncodedFont.html">EncodedFont</a></p>
@@ -2226,7 +2284,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_op_Implicit_Org_Apache_Fontbox_Type1_Type1Font__Org_Apache_Fontbox_FontBoxFont" data-uid="Org.Apache.Fontbox.Type1.Type1Font.op_Implicit(Org.Apache.Fontbox.Type1.Type1Font)~Org.Apache.Fontbox.FontBoxFont">
   implicit operator FontBoxFont(Type1Font)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L88"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Converter from <a class="xref" href="Org.Apache.Fontbox.Type1.Type1Font.html">Type1Font</a> to <a class="xref" href="Org.Apache.Fontbox.FontBoxFont.html">FontBoxFont</a></p>
@@ -2263,7 +2321,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Fontbox_Type1_Type1Font_op_Implicit_Org_Apache_Fontbox_Type1_Type1Font__Org_Apache_Fontbox_Type1_Type1CharStringReader" data-uid="Org.Apache.Fontbox.Type1.Type1Font.op_Implicit(Org.Apache.Fontbox.Type1.Type1Font)~Org.Apache.Fontbox.Type1.Type1CharStringReader">
   implicit operator Type1CharStringReader(Type1Font)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L80"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Converter from <a class="xref" href="Org.Apache.Fontbox.Type1.Type1Font.html">Type1Font</a> to <a class="xref" href="Org.Apache.Fontbox.Type1.Type1CharStringReader.html">Type1CharStringReader</a></p>
@@ -2300,7 +2358,7 @@ Class Type1Font  <a class="header-action link-secondary" title="View source" hre
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L64" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Fontbox/Type1/Type1Font.cs/#L70" class="edit-link">Edit this page</a>
         </div>
 
 

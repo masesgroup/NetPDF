@@ -89,7 +89,7 @@
 
 
   <h1 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter" class="text-break">
-Class COSWriter  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L64"><i class="bi bi-code-slash"></i></a>
+Class COSWriter  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class COSWriter : ICOSVisitor, IDynamicMetaObjectProvider, IJVMBridgeCore, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, IICOSVisitor</code></pre>
+    <pre><code class="lang-csharp hljs">public class COSWriter : ICOSVisitor, IDynamicMetaObjectProvider, IJVMBridgeCore, IEquatable&lt;IJVMBridgeBase&gt;, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, IICOSVisitor</code></pre>
   </div>
 
 
@@ -125,6 +125,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeCore.html">IJVMBridgeCore</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a>&gt;</div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseStatic.html">IJVMBridgeBaseStatic</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a></div>
@@ -222,16 +223,16 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;ICOSVisitor&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ICOSVisitor&gt;.SExecuteArray&lt;T&gt;(IJavaType, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ICOSVisitor&gt;.SExecuteArray&lt;TArrayType&gt;(IJavaType, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ICOSVisitor&gt;.SExecuteWithSignatureArray&lt;T&gt;(IJavaType, string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ICOSVisitor&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(IJavaType, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ICOSVisitor&gt;.SExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ICOSVisitor&gt;.SExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ICOSVisitor&gt;.SExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ICOSVisitor&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ICOSVisitor&gt;.SGetField(IJavaType, string)</a>
@@ -279,6 +280,12 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ICOSVisitor&gt;.NewWithSignature(string, params object[])</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ICOSVisitor&gt;.NewAndWrapsDirect&lt;TNewClass&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;ICOSVisitor&gt;.NewWithSignatureAndWrapsDirect&lt;TNewClass&gt;(string, string, params object[])</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_Execute__1___0___">JVMBridgeBase&lt;ICOSVisitor&gt;.Execute&lt;T&gt;(params T[])</a>
     </div>
     <div>
@@ -288,13 +295,25 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_BridgeClazz">JVMBridgeBase&lt;ICOSVisitor&gt;.BridgeClazz</a>
     </div>
     <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ReferenceEqualsJVM_MASES_JCOBridge_C2JBridge_JVMBridgeBase_MASES_JCOBridge_C2JBridge_JVMBridgeBase_">JVMBridgeBase.ReferenceEqualsJVM(JVMBridgeBase, JVMBridgeBase)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">JVMBridgeBase.ClazzOf&lt;TClass&gt;(out Exception, bool)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, out Exception, bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_RuntimeClassNameOf__1">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.RuntimeClassNameOf(Type)</a>
     </div>
     <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ClassNameOf__1">JVMBridgeBase.ClassNameOf&lt;T&gt;()</a>
@@ -351,7 +370,13 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Dispose">JVMBridgeBase.Dispose()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.Dispose(bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ToString">JVMBridgeBase.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Equals_MASES_JCOBridge_C2JBridge_IJVMBridgeBase_">JVMBridgeBase.Equals(IJVMBridgeBase)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
@@ -399,10 +424,10 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
@@ -524,7 +549,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter__ctor_Java_Io_OutputStream_" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.#ctor(Java.Io.OutputStream)">
   COSWriter(OutputStream)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L107"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#org.apache.pdfbox.pdfwriter.COSWriter(java.io.OutputStream)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#org.apache.pdfbox.pdfwriter.COSWriter(java.io.OutputStream)</a></p>
@@ -557,7 +582,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter__ctor_Java_Io_OutputStream_Org_Apache_Pdfbox_Io_RandomAccessRead_" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.#ctor(Java.Io.OutputStream,Org.Apache.Pdfbox.Io.RandomAccessRead)">
   COSWriter(OutputStream, RandomAccessRead)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L90"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#org.apache.pdfbox.pdfwriter.COSWriter(java.io.OutputStream,org.apache.pdfbox.io.RandomAccessRead)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#org.apache.pdfbox.pdfwriter.COSWriter(java.io.OutputStream,org.apache.pdfbox.io.RandomAccessRead)</a></p>
@@ -598,7 +623,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter__ctor_Java_Io_OutputStream_Org_Apache_Pdfbox_Io_RandomAccessRead_Java_Util_Set_Org_Apache_Pdfbox_Cos_COSDictionary__" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.#ctor(Java.Io.OutputStream,Org.Apache.Pdfbox.Io.RandomAccessRead,Java.Util.Set{Org.Apache.Pdfbox.Cos.COSDictionary})">
   COSWriter(OutputStream, RandomAccessRead, Set&lt;COSDictionary&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L80"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#org.apache.pdfbox.pdfwriter.COSWriter(java.io.OutputStream,org.apache.pdfbox.io.RandomAccessRead,java.util.Set)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#org.apache.pdfbox.pdfwriter.COSWriter(java.io.OutputStream,org.apache.pdfbox.io.RandomAccessRead,java.util.Set)</a></p>
@@ -642,7 +667,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter__ctor_Java_Io_OutputStream_Org_Apache_Pdfbox_Pdfwriter_Compress_CompressParameters_" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.#ctor(Java.Io.OutputStream,Org.Apache.Pdfbox.Pdfwriter.Compress.CompressParameters)">
   COSWriter(OutputStream, CompressParameters)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L99"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#org.apache.pdfbox.pdfwriter.COSWriter(java.io.OutputStream,org.apache.pdfbox.pdfwriter.compress.CompressParameters)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#org.apache.pdfbox.pdfwriter.COSWriter(java.io.OutputStream,org.apache.pdfbox.pdfwriter.compress.CompressParameters)</a></p>
@@ -676,9 +701,42 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <a id="Org_Apache_Pdfbox_Pdfwriter_COSWriter__ctor_" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.#ctor*"></a>
 
+  <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)">
+  COSWriter(IJVMBridgeBaseInitializer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Internal constructor: used internally from JCOBridge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.&quot;)]
+public COSWriter(IJVMBridgeBaseInitializer initializer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>initializer</code> <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer.html">IJVMBridgeBaseInitializer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdfwriter_COSWriter__ctor_" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.#ctor*"></a>
+
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter__ctor_System_Object___" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.#ctor(System.Object[])">
   COSWriter(params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
@@ -714,7 +772,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_ARRAY_CLOSE" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.ARRAY_CLOSE">
   ARRAY_CLOSE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L122"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#ARRAY_CLOSE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#ARRAY_CLOSE</a></p>
@@ -746,7 +804,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_ARRAY_OPEN" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.ARRAY_OPEN">
   ARRAY_OPEN
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L128"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#ARRAY_OPEN">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#ARRAY_OPEN</a></p>
@@ -778,7 +836,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_BridgeClassName" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.BridgeClassName">
   BridgeClassName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Java class name to be instantiated</p>
@@ -810,7 +868,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_COMMENT" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.COMMENT">
   COMMENT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L134"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#COMMENT">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#COMMENT</a></p>
@@ -842,7 +900,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_DICT_CLOSE" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.DICT_CLOSE">
   DICT_CLOSE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L140"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#DICT_CLOSE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#DICT_CLOSE</a></p>
@@ -874,7 +932,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_DICT_OPEN" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.DICT_OPEN">
   DICT_OPEN
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L146"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#DICT_OPEN">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#DICT_OPEN</a></p>
@@ -906,7 +964,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_DataToSign" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.DataToSign">
   DataToSign
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L258"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L264"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#getDataToSign--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#getDataToSign--</a></p>
@@ -938,7 +996,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_ENDOBJ" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.ENDOBJ">
   ENDOBJ
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L152"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#ENDOBJ">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#ENDOBJ</a></p>
@@ -970,7 +1028,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_ENDSTREAM" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.ENDSTREAM">
   ENDSTREAM
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L158"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#ENDSTREAM">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#ENDSTREAM</a></p>
@@ -1002,7 +1060,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_EOF" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.EOF">
   EOF
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L164"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#EOF">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#EOF</a></p>
@@ -1034,7 +1092,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_GARBAGE" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.GARBAGE">
   GARBAGE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L170"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#GARBAGE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#GARBAGE</a></p>
@@ -1066,7 +1124,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_IsBridgeAbstract" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.IsBridgeAbstract">
   IsBridgeAbstract
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an abstract class, i.e. cannot be created an instance</p>
@@ -1098,7 +1156,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_IsBridgeCloseable" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.IsBridgeCloseable">
   IsBridgeCloseable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> implements Closeable</p>
@@ -1130,7 +1188,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_IsBridgeInterface" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.IsBridgeInterface">
   IsBridgeInterface
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an interface, i.e. does not have any public constructor</p>
@@ -1162,7 +1220,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_IsBridgeStatic" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.IsBridgeStatic">
   IsBridgeStatic
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is a static class, i.e. does not have any public constructor</p>
@@ -1194,7 +1252,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_OBJ" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.OBJ">
   OBJ
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L176"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#OBJ">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#OBJ</a></p>
@@ -1226,7 +1284,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_REFERENCE" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.REFERENCE">
   REFERENCE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L176"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L182"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#REFERENCE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#REFERENCE</a></p>
@@ -1258,7 +1316,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_SPACE" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.SPACE">
   SPACE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L182"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L188"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#SPACE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#SPACE</a></p>
@@ -1290,7 +1348,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_STARTXREF" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.STARTXREF">
   STARTXREF
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L188"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L194"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#STARTXREF">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#STARTXREF</a></p>
@@ -1322,7 +1380,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_STREAM" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.STREAM">
   STREAM
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L200"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#STREAM">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#STREAM</a></p>
@@ -1354,7 +1412,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_TRAILER" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.TRAILER">
   TRAILER
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L200"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L206"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#TRAILER">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#TRAILER</a></p>
@@ -1386,7 +1444,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_VERSION" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.VERSION">
   VERSION
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L212"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#VERSION">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#VERSION</a></p>
@@ -1418,7 +1476,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_XREF" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.XREF">
   XREF
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L212"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L218"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#XREF">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#XREF</a></p>
@@ -1450,7 +1508,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_XREF_FREE" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.XREF_FREE">
   XREF_FREE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L224"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#XREF_FREE">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#XREF_FREE</a></p>
@@ -1482,7 +1540,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_XREF_USED" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.XREF_USED">
   XREF_USED
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L224"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L230"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#XREF_USED">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#XREF_USED</a></p>
@@ -1518,7 +1576,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_DoWriteObject_Org_Apache_Pdfbox_Cos_COSBase_" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.DoWriteObject(Org.Apache.Pdfbox.Cos.COSBase)">
   DoWriteObject(COSBase)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L275"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L281"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#doWriteObject-org.apache.pdfbox.cos.COSBase-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#doWriteObject-org.apache.pdfbox.cos.COSBase-</a></p>
@@ -1556,7 +1614,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_DoWriteObject_Org_Apache_Pdfbox_Cos_COSObjectKey_Org_Apache_Pdfbox_Cos_COSBase_" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.DoWriteObject(Org.Apache.Pdfbox.Cos.COSObjectKey,Org.Apache.Pdfbox.Cos.COSBase)">
   DoWriteObject(COSObjectKey, COSBase)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L285"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L291"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#doWriteObject-org.apache.pdfbox.cos.COSObjectKey-org.apache.pdfbox.cos.COSBase-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#doWriteObject-org.apache.pdfbox.cos.COSObjectKey-org.apache.pdfbox.cos.COSBase-</a></p>
@@ -1597,7 +1655,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_IsCompress" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.IsCompress">
   IsCompress()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L266"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L272"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#isCompress--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#isCompress--</a></p>
@@ -1630,7 +1688,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_VisitFromArray_Org_Apache_Pdfbox_Cos_COSArray_" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.VisitFromArray(Org.Apache.Pdfbox.Cos.COSArray)">
   VisitFromArray(COSArray)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L294"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L300"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromArray-org.apache.pdfbox.cos.COSArray-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromArray-org.apache.pdfbox.cos.COSArray-</a></p>
@@ -1668,7 +1726,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_VisitFromBoolean_Org_Apache_Pdfbox_Cos_COSBoolean_" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.VisitFromBoolean(Org.Apache.Pdfbox.Cos.COSBoolean)">
   VisitFromBoolean(COSBoolean)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L303"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L309"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromBoolean-org.apache.pdfbox.cos.COSBoolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromBoolean-org.apache.pdfbox.cos.COSBoolean-</a></p>
@@ -1706,7 +1764,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_VisitFromDictionary_Org_Apache_Pdfbox_Cos_COSDictionary_" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.VisitFromDictionary(Org.Apache.Pdfbox.Cos.COSDictionary)">
   VisitFromDictionary(COSDictionary)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L312"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L318"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromDictionary-org.apache.pdfbox.cos.COSDictionary-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromDictionary-org.apache.pdfbox.cos.COSDictionary-</a></p>
@@ -1744,7 +1802,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_VisitFromDocument_Org_Apache_Pdfbox_Cos_COSDocument_" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.VisitFromDocument(Org.Apache.Pdfbox.Cos.COSDocument)">
   VisitFromDocument(COSDocument)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L321"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L327"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromDocument-org.apache.pdfbox.cos.COSDocument-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromDocument-org.apache.pdfbox.cos.COSDocument-</a></p>
@@ -1782,7 +1840,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_VisitFromFloat_Org_Apache_Pdfbox_Cos_COSFloat_" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.VisitFromFloat(Org.Apache.Pdfbox.Cos.COSFloat)">
   VisitFromFloat(COSFloat)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L330"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L336"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromFloat-org.apache.pdfbox.cos.COSFloat-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromFloat-org.apache.pdfbox.cos.COSFloat-</a></p>
@@ -1820,7 +1878,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_VisitFromInt_Org_Apache_Pdfbox_Cos_COSInteger_" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.VisitFromInt(Org.Apache.Pdfbox.Cos.COSInteger)">
   VisitFromInt(COSInteger)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L339"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L345"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromInt-org.apache.pdfbox.cos.COSInteger-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromInt-org.apache.pdfbox.cos.COSInteger-</a></p>
@@ -1858,7 +1916,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_VisitFromName_Org_Apache_Pdfbox_Cos_COSName_" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.VisitFromName(Org.Apache.Pdfbox.Cos.COSName)">
   VisitFromName(COSName)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L348"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L354"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromName-org.apache.pdfbox.cos.COSName-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromName-org.apache.pdfbox.cos.COSName-</a></p>
@@ -1896,7 +1954,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_VisitFromNull_Org_Apache_Pdfbox_Cos_COSNull_" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.VisitFromNull(Org.Apache.Pdfbox.Cos.COSNull)">
   VisitFromNull(COSNull)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L357"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L363"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromNull-org.apache.pdfbox.cos.COSNull-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromNull-org.apache.pdfbox.cos.COSNull-</a></p>
@@ -1934,7 +1992,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_VisitFromStream_Org_Apache_Pdfbox_Cos_COSStream_" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.VisitFromStream(Org.Apache.Pdfbox.Cos.COSStream)">
   VisitFromStream(COSStream)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L366"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L372"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromStream-org.apache.pdfbox.cos.COSStream-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromStream-org.apache.pdfbox.cos.COSStream-</a></p>
@@ -1972,7 +2030,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_VisitFromString_Org_Apache_Pdfbox_Cos_COSString_" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.VisitFromString(Org.Apache.Pdfbox.Cos.COSString)">
   VisitFromString(COSString)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L375"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L381"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromString-org.apache.pdfbox.cos.COSString-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#visitFromString-org.apache.pdfbox.cos.COSString-</a></p>
@@ -2010,7 +2068,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_Write_Org_Apache_Pdfbox_Cos_COSDocument_" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.Write(Org.Apache.Pdfbox.Cos.COSDocument)">
   Write(COSDocument)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L384"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L390"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#write-org.apache.pdfbox.cos.COSDocument-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#write-org.apache.pdfbox.cos.COSDocument-</a></p>
@@ -2048,7 +2106,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_Write_Org_Apache_Pdfbox_Pdmodel_Fdf_FDFDocument_" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.Write(Org.Apache.Pdfbox.Pdmodel.Fdf.FDFDocument)">
   Write(FDFDocument)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L393"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L399"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#write-org.apache.pdfbox.pdmodel.fdf.FDFDocument-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#write-org.apache.pdfbox.pdmodel.fdf.FDFDocument-</a></p>
@@ -2086,7 +2144,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_Write_Org_Apache_Pdfbox_Pdmodel_PDDocument_" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.Write(Org.Apache.Pdfbox.Pdmodel.PDDocument)">
   Write(PDDocument)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L412"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L418"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#write-org.apache.pdfbox.pdmodel.PDDocument-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#write-org.apache.pdfbox.pdmodel.PDDocument-</a></p>
@@ -2124,7 +2182,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_Write_Org_Apache_Pdfbox_Pdmodel_PDDocument_Org_Apache_Pdfbox_Pdmodel_Interactive_Digitalsignature_SignatureInterface_" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.Write(Org.Apache.Pdfbox.Pdmodel.PDDocument,Org.Apache.Pdfbox.Pdmodel.Interactive.Digitalsignature.SignatureInterface)">
   Write(PDDocument, SignatureInterface)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L403"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L409"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#write-org.apache.pdfbox.pdmodel.PDDocument-org.apache.pdfbox.pdmodel.interactive.digitalsignature.SignatureInterface-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#write-org.apache.pdfbox.pdmodel.PDDocument-org.apache.pdfbox.pdmodel.interactive.digitalsignature.SignatureInterface-</a></p>
@@ -2165,7 +2223,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_WriteExternalSignature_System_Byte___" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.WriteExternalSignature(System.Byte[])">
   WriteExternalSignature(byte[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L421"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L427"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#writeExternalSignature-byte[]-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#writeExternalSignature-byte[]-</a></p>
@@ -2203,7 +2261,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_WriteReference_Org_Apache_Pdfbox_Cos_COSBase_" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.WriteReference(Org.Apache.Pdfbox.Cos.COSBase)">
   WriteReference(COSBase)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L430"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L436"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#writeReference-org.apache.pdfbox.cos.COSBase-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#writeReference-org.apache.pdfbox.cos.COSBase-</a></p>
@@ -2241,7 +2299,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_WriteString_Org_Apache_Pdfbox_Cos_COSString_Java_Io_OutputStream_" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.WriteString(Org.Apache.Pdfbox.Cos.COSString,Java.Io.OutputStream)">
   WriteString(COSString, OutputStream)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L247"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L253"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#writeString-org.apache.pdfbox.cos.COSString-java.io.OutputStream-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#writeString-org.apache.pdfbox.cos.COSString-java.io.OutputStream-</a></p>
@@ -2282,7 +2340,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Org_Apache_Pdfbox_Pdfwriter_COSWriter_WriteString_System_Byte___Java_Io_OutputStream_" data-uid="Org.Apache.Pdfbox.Pdfwriter.COSWriter.WriteString(System.Byte[],Java.Io.OutputStream)">
   WriteString(byte[], OutputStream)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L237"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L243"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#writeString-byte[]-java.io.OutputStream-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdfwriter/COSWriter.html#writeString-byte[]-java.io.OutputStream-</a></p>
@@ -2323,7 +2381,7 @@ Class COSWriter  <a class="header-action link-secondary" title="View source" hre
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L64" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdfwriter/COSWriter.cs/#L70" class="edit-link">Edit this page</a>
         </div>
 
 

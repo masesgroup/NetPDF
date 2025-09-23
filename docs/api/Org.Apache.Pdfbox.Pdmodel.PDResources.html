@@ -89,7 +89,7 @@
 
 
   <h1 id="Org_Apache_Pdfbox_Pdmodel_PDResources" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources" class="text-break">
-Class PDResources  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L64"><i class="bi bi-code-slash"></i></a>
+Class PDResources  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PDResources : COSObjectable, IDynamicMetaObjectProvider, IJVMBridgeCore, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, ICOSObjectable</code></pre>
+    <pre><code class="lang-csharp hljs">public class PDResources : COSObjectable, IDynamicMetaObjectProvider, IJVMBridgeCore, IEquatable&lt;IJVMBridgeBase&gt;, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, ICOSObjectable</code></pre>
   </div>
 
 
@@ -125,6 +125,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeCore.html">IJVMBridgeCore</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a>&gt;</div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseStatic.html">IJVMBridgeBaseStatic</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a></div>
@@ -222,16 +223,16 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;T&gt;(IJavaType, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;TArrayType&gt;(IJavaType, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;T&gt;(IJavaType, string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(IJavaType, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SGetField(IJavaType, string)</a>
@@ -279,6 +280,12 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.NewWithSignature(string, params object[])</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.NewAndWrapsDirect&lt;TNewClass&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.NewWithSignatureAndWrapsDirect&lt;TNewClass&gt;(string, string, params object[])</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_Execute__1___0___">JVMBridgeBase&lt;COSObjectable&gt;.Execute&lt;T&gt;(params T[])</a>
     </div>
     <div>
@@ -288,13 +295,25 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_BridgeClazz">JVMBridgeBase&lt;COSObjectable&gt;.BridgeClazz</a>
     </div>
     <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ReferenceEqualsJVM_MASES_JCOBridge_C2JBridge_JVMBridgeBase_MASES_JCOBridge_C2JBridge_JVMBridgeBase_">JVMBridgeBase.ReferenceEqualsJVM(JVMBridgeBase, JVMBridgeBase)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">JVMBridgeBase.ClazzOf&lt;TClass&gt;(out Exception, bool)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, out Exception, bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_RuntimeClassNameOf__1">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.RuntimeClassNameOf(Type)</a>
     </div>
     <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ClassNameOf__1">JVMBridgeBase.ClassNameOf&lt;T&gt;()</a>
@@ -351,7 +370,13 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Dispose">JVMBridgeBase.Dispose()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.Dispose(bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ToString">JVMBridgeBase.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Equals_MASES_JCOBridge_C2JBridge_IJVMBridgeBase_">JVMBridgeBase.Equals(IJVMBridgeBase)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
@@ -399,10 +424,10 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
@@ -522,9 +547,42 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <a id="Org_Apache_Pdfbox_Pdmodel_PDResources__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.#ctor*"></a>
 
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)">
+  PDResources(IJVMBridgeBaseInitializer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Internal constructor: used internally from JCOBridge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.&quot;)]
+public PDResources(IJVMBridgeBaseInitializer initializer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>initializer</code> <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer.html">IJVMBridgeBaseInitializer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_PDResources__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.#ctor*"></a>
+
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources__ctor_Org_Apache_Pdfbox_Cos_COSDictionary_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.#ctor(Org.Apache.Pdfbox.Cos.COSDictionary)">
   PDResources(COSDictionary)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L96"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#org.apache.pdfbox.pdmodel.PDResources(org.apache.pdfbox.cos.COSDictionary)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#org.apache.pdfbox.pdmodel.PDResources(org.apache.pdfbox.cos.COSDictionary)</a></p>
@@ -557,7 +615,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources__ctor_Org_Apache_Pdfbox_Cos_COSDictionary_Org_Apache_Pdfbox_Pdmodel_ResourceCache_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.#ctor(Org.Apache.Pdfbox.Cos.COSDictionary,Org.Apache.Pdfbox.Pdmodel.ResourceCache)">
   PDResources(COSDictionary, ResourceCache)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L88"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#org.apache.pdfbox.pdmodel.PDResources(org.apache.pdfbox.cos.COSDictionary,org.apache.pdfbox.pdmodel.ResourceCache)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#org.apache.pdfbox.pdmodel.PDResources(org.apache.pdfbox.cos.COSDictionary,org.apache.pdfbox.pdmodel.ResourceCache)</a></p>
@@ -593,7 +651,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources__ctor_Org_Apache_Pdfbox_Cos_COSDictionary_Org_Apache_Pdfbox_Pdmodel_ResourceCache_Java_Util_Map_Org_Apache_Pdfbox_Cos_COSName_Java_Lang_Ref_SoftReference_Org_Apache_Pdfbox_Pdmodel_Font_PDFont___" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.#ctor(Org.Apache.Pdfbox.Cos.COSDictionary,Org.Apache.Pdfbox.Pdmodel.ResourceCache,Java.Util.Map{Org.Apache.Pdfbox.Cos.COSName,Java.Lang.Ref.SoftReference{Org.Apache.Pdfbox.Pdmodel.Font.PDFont}})">
   PDResources(COSDictionary, ResourceCache, Map&lt;COSName, SoftReference&lt;PDFont&gt;&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L79"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#org.apache.pdfbox.pdmodel.PDResources(org.apache.pdfbox.cos.COSDictionary,org.apache.pdfbox.pdmodel.ResourceCache,java.util.Map)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#org.apache.pdfbox.pdmodel.PDResources(org.apache.pdfbox.cos.COSDictionary,org.apache.pdfbox.pdmodel.ResourceCache,java.util.Map)</a></p>
@@ -632,7 +690,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources__ctor_System_Object___" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.#ctor(System.Object[])">
   PDResources(params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
@@ -668,7 +726,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_BridgeClassName" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.BridgeClassName">
   BridgeClassName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Java class name to be instantiated</p>
@@ -700,7 +758,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_COSObject" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.COSObject">
   COSObject
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L126"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getCOSObject--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getCOSObject--</a></p>
@@ -732,7 +790,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_ColorSpaceNames" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.ColorSpaceNames">
   ColorSpaceNames
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L119"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getColorSpaceNames--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getColorSpaceNames--</a></p>
@@ -764,7 +822,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_ExtGStateNames" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.ExtGStateNames">
   ExtGStateNames
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L133"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getExtGStateNames--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getExtGStateNames--</a></p>
@@ -796,7 +854,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_FontNames" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.FontNames">
   FontNames
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L140"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getFontNames--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getFontNames--</a></p>
@@ -828,7 +886,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_IsBridgeAbstract" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.IsBridgeAbstract">
   IsBridgeAbstract
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an abstract class, i.e. cannot be created an instance</p>
@@ -860,7 +918,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_IsBridgeCloseable" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.IsBridgeCloseable">
   IsBridgeCloseable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> implements Closeable</p>
@@ -892,7 +950,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_IsBridgeInterface" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.IsBridgeInterface">
   IsBridgeInterface
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an interface, i.e. does not have any public constructor</p>
@@ -924,7 +982,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_IsBridgeStatic" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.IsBridgeStatic">
   IsBridgeStatic
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is a static class, i.e. does not have any public constructor</p>
@@ -956,7 +1014,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_PatternNames" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.PatternNames">
   PatternNames
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L147"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getPatternNames--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getPatternNames--</a></p>
@@ -988,7 +1046,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_PropertiesNames" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.PropertiesNames">
   PropertiesNames
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L154"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getPropertiesNames--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getPropertiesNames--</a></p>
@@ -1020,7 +1078,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_ResourceCache" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.ResourceCache">
   ResourceCache
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L155"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L161"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getResourceCache--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getResourceCache--</a></p>
@@ -1052,7 +1110,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_ShadingNames" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.ShadingNames">
   ShadingNames
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L168"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getShadingNames--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getShadingNames--</a></p>
@@ -1084,7 +1142,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_XObjectNames" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.XObjectNames">
   XObjectNames
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L175"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getXObjectNames--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getXObjectNames--</a></p>
@@ -1120,7 +1178,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_Add_Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Markedcontent_PDPropertyList_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.Add(Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Markedcontent.PDPropertyList)">
   Add(PDPropertyList)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L196"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L202"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#add-org.apache.pdfbox.pdmodel.documentinterchange.markedcontent.PDPropertyList-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#add-org.apache.pdfbox.pdmodel.documentinterchange.markedcontent.PDPropertyList-</a></p>
@@ -1159,7 +1217,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_Add_Org_Apache_Pdfbox_Pdmodel_Font_PDFont_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.Add(Org.Apache.Pdfbox.Pdmodel.Font.PDFont)">
   Add(PDFont)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L205"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L211"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#add-org.apache.pdfbox.pdmodel.font.PDFont-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#add-org.apache.pdfbox.pdmodel.font.PDFont-</a></p>
@@ -1198,7 +1256,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_Add_Org_Apache_Pdfbox_Pdmodel_Graphics_Color_PDColorSpace_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.Add(Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace)">
   Add(PDColorSpace)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L220"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#add-org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#add-org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace-</a></p>
@@ -1237,7 +1295,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_Add_Org_Apache_Pdfbox_Pdmodel_Graphics_Form_PDFormXObject_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.Add(Org.Apache.Pdfbox.Pdmodel.Graphics.Form.PDFormXObject)">
   Add(PDFormXObject)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L223"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L229"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#add-org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#add-org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject-</a></p>
@@ -1276,7 +1334,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_Add_Org_Apache_Pdfbox_Pdmodel_Graphics_Image_PDImageXObject_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.Add(Org.Apache.Pdfbox.Pdmodel.Graphics.Image.PDImageXObject)">
   Add(PDImageXObject)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L232"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L238"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#add-org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#add-org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject-</a></p>
@@ -1315,7 +1373,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_Add_Org_Apache_Pdfbox_Pdmodel_Graphics_PDXObject_Java_Lang_String_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.Add(Org.Apache.Pdfbox.Pdmodel.Graphics.PDXObject,Java.Lang.String)">
   Add(PDXObject, String)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L251"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L257"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#add-org.apache.pdfbox.pdmodel.graphics.PDXObject-java.lang.String-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#add-org.apache.pdfbox.pdmodel.graphics.PDXObject-java.lang.String-</a></p>
@@ -1357,7 +1415,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_Add_Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDAbstractPattern_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.Add(Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDAbstractPattern)">
   Add(PDAbstractPattern)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L241"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L247"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#add-org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#add-org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern-</a></p>
@@ -1396,7 +1454,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_Add_Org_Apache_Pdfbox_Pdmodel_Graphics_Shading_PDShading_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.Add(Org.Apache.Pdfbox.Pdmodel.Graphics.Shading.PDShading)">
   Add(PDShading)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L260"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L266"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#add-org.apache.pdfbox.pdmodel.graphics.shading.PDShading-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#add-org.apache.pdfbox.pdmodel.graphics.shading.PDShading-</a></p>
@@ -1435,7 +1493,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_Add_Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDExtendedGraphicsState_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.Add(Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDExtendedGraphicsState)">
   Add(PDExtendedGraphicsState)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L269"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L275"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#add-org.apache.pdfbox.pdmodel.graphics.state.PDExtendedGraphicsState-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#add-org.apache.pdfbox.pdmodel.graphics.state.PDExtendedGraphicsState-</a></p>
@@ -1474,7 +1532,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_GetColorSpace_Org_Apache_Pdfbox_Cos_COSName_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.GetColorSpace(Org.Apache.Pdfbox.Cos.COSName)">
   GetColorSpace(COSName)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L309"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L315"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getColorSpace-org.apache.pdfbox.cos.COSName-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getColorSpace-org.apache.pdfbox.cos.COSName-</a></p>
@@ -1518,7 +1576,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_GetColorSpace_Org_Apache_Pdfbox_Cos_COSName_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.GetColorSpace(Org.Apache.Pdfbox.Cos.COSName,System.Boolean)">
   GetColorSpace(COSName, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L299"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L305"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getColorSpace-org.apache.pdfbox.cos.COSName-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getColorSpace-org.apache.pdfbox.cos.COSName-boolean-</a></p>
@@ -1565,7 +1623,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_GetExtGState_Org_Apache_Pdfbox_Cos_COSName_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.GetExtGState(Org.Apache.Pdfbox.Cos.COSName)">
   GetExtGState(COSName)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L348"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L354"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getExtGState-org.apache.pdfbox.cos.COSName-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getExtGState-org.apache.pdfbox.cos.COSName-</a></p>
@@ -1604,7 +1662,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_GetFont_Org_Apache_Pdfbox_Cos_COSName_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.GetFont(Org.Apache.Pdfbox.Cos.COSName)">
   GetFont(COSName)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L288"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L294"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getFont-org.apache.pdfbox.cos.COSName-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getFont-org.apache.pdfbox.cos.COSName-</a></p>
@@ -1648,7 +1706,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_GetPattern_Org_Apache_Pdfbox_Cos_COSName_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.GetPattern(Org.Apache.Pdfbox.Cos.COSName)">
   GetPattern(COSName)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L319"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L325"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getPattern-org.apache.pdfbox.cos.COSName-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getPattern-org.apache.pdfbox.cos.COSName-</a></p>
@@ -1692,7 +1750,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_GetProperties_Org_Apache_Pdfbox_Cos_COSName_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.GetProperties(Org.Apache.Pdfbox.Cos.COSName)">
   GetProperties(COSName)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L278"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L284"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getProperties-org.apache.pdfbox.cos.COSName-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getProperties-org.apache.pdfbox.cos.COSName-</a></p>
@@ -1731,7 +1789,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_GetShading_Org_Apache_Pdfbox_Cos_COSName_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.GetShading(Org.Apache.Pdfbox.Cos.COSName)">
   GetShading(COSName)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L339"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L345"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getShading-org.apache.pdfbox.cos.COSName-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getShading-org.apache.pdfbox.cos.COSName-</a></p>
@@ -1775,7 +1833,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_GetXObject_Org_Apache_Pdfbox_Cos_COSName_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.GetXObject(Org.Apache.Pdfbox.Cos.COSName)">
   GetXObject(COSName)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L329"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L335"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getXObject-org.apache.pdfbox.cos.COSName-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#getXObject-org.apache.pdfbox.cos.COSName-</a></p>
@@ -1819,7 +1877,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_HasColorSpace_Org_Apache_Pdfbox_Cos_COSName_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.HasColorSpace(Org.Apache.Pdfbox.Cos.COSName)">
   HasColorSpace(COSName)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L184"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#hasColorSpace-org.apache.pdfbox.cos.COSName-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#hasColorSpace-org.apache.pdfbox.cos.COSName-</a></p>
@@ -1858,7 +1916,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_IsImageXObject_Org_Apache_Pdfbox_Cos_COSName_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.IsImageXObject(Org.Apache.Pdfbox.Cos.COSName)">
   IsImageXObject(COSName)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L193"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#isImageXObject-org.apache.pdfbox.cos.COSName-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#isImageXObject-org.apache.pdfbox.cos.COSName-</a></p>
@@ -1897,7 +1955,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_Put_Org_Apache_Pdfbox_Cos_COSName_Org_Apache_Pdfbox_Pdmodel_Documentinterchange_Markedcontent_PDPropertyList_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.Put(Org.Apache.Pdfbox.Cos.COSName,Org.Apache.Pdfbox.Pdmodel.Documentinterchange.Markedcontent.PDPropertyList)">
   Put(COSName, PDPropertyList)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L357"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L363"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#put-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.pdmodel.documentinterchange.markedcontent.PDPropertyList-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#put-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.pdmodel.documentinterchange.markedcontent.PDPropertyList-</a></p>
@@ -1933,7 +1991,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_Put_Org_Apache_Pdfbox_Cos_COSName_Org_Apache_Pdfbox_Pdmodel_Font_PDFont_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.Put(Org.Apache.Pdfbox.Cos.COSName,Org.Apache.Pdfbox.Pdmodel.Font.PDFont)">
   Put(COSName, PDFont)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L366"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L372"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#put-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.pdmodel.font.PDFont-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#put-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.pdmodel.font.PDFont-</a></p>
@@ -1969,7 +2027,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_Put_Org_Apache_Pdfbox_Cos_COSName_Org_Apache_Pdfbox_Pdmodel_Graphics_Color_PDColorSpace_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.Put(Org.Apache.Pdfbox.Cos.COSName,Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace)">
   Put(COSName, PDColorSpace)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L375"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L381"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#put-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#put-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace-</a></p>
@@ -2005,7 +2063,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_Put_Org_Apache_Pdfbox_Cos_COSName_Org_Apache_Pdfbox_Pdmodel_Graphics_PDXObject_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.Put(Org.Apache.Pdfbox.Cos.COSName,Org.Apache.Pdfbox.Pdmodel.Graphics.PDXObject)">
   Put(COSName, PDXObject)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L393"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L399"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#put-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.pdmodel.graphics.PDXObject-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#put-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.pdmodel.graphics.PDXObject-</a></p>
@@ -2041,7 +2099,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_Put_Org_Apache_Pdfbox_Cos_COSName_Org_Apache_Pdfbox_Pdmodel_Graphics_Pattern_PDAbstractPattern_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.Put(Org.Apache.Pdfbox.Cos.COSName,Org.Apache.Pdfbox.Pdmodel.Graphics.Pattern.PDAbstractPattern)">
   Put(COSName, PDAbstractPattern)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L384"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L390"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#put-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#put-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.pdmodel.graphics.pattern.PDAbstractPattern-</a></p>
@@ -2077,7 +2135,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_Put_Org_Apache_Pdfbox_Cos_COSName_Org_Apache_Pdfbox_Pdmodel_Graphics_Shading_PDShading_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.Put(Org.Apache.Pdfbox.Cos.COSName,Org.Apache.Pdfbox.Pdmodel.Graphics.Shading.PDShading)">
   Put(COSName, PDShading)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L402"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L408"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#put-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.pdmodel.graphics.shading.PDShading-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#put-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.pdmodel.graphics.shading.PDShading-</a></p>
@@ -2113,7 +2171,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_PDResources_Put_Org_Apache_Pdfbox_Cos_COSName_Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDExtendedGraphicsState_" data-uid="Org.Apache.Pdfbox.Pdmodel.PDResources.Put(Org.Apache.Pdfbox.Cos.COSName,Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDExtendedGraphicsState)">
   Put(COSName, PDExtendedGraphicsState)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L411"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L417"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#put-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.pdmodel.graphics.state.PDExtendedGraphicsState-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/PDResources.html#put-org.apache.pdfbox.cos.COSName-org.apache.pdfbox.pdmodel.graphics.state.PDExtendedGraphicsState-</a></p>
@@ -2149,7 +2207,7 @@ Class PDResources  <a class="header-action link-secondary" title="View source" h
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L64" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/PDResources.cs/#L70" class="edit-link">Edit this page</a>
         </div>
 
 

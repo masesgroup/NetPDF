@@ -89,7 +89,7 @@
 
 
   <h1 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState" class="text-break">
-Class PDGraphicsState  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L64"><i class="bi bi-code-slash"></i></a>
+Class PDGraphicsState  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PDGraphicsState : Cloneable, IDynamicMetaObjectProvider, IJVMBridgeCore, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, ICloneable</code></pre>
+    <pre><code class="lang-csharp hljs">public class PDGraphicsState : Cloneable, IDynamicMetaObjectProvider, IJVMBridgeCore, IEquatable&lt;IJVMBridgeBase&gt;, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, ICloneable</code></pre>
   </div>
 
 
@@ -125,6 +125,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeCore.html">IJVMBridgeCore</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a>&gt;</div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseStatic.html">IJVMBridgeBaseStatic</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a></div>
@@ -222,16 +223,16 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;Cloneable&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecuteArray&lt;T&gt;(IJavaType, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecuteArray&lt;TArrayType&gt;(IJavaType, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecuteWithSignatureArray&lt;T&gt;(IJavaType, string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(IJavaType, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.SGetField(IJavaType, string)</a>
@@ -279,6 +280,12 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.NewWithSignature(string, params object[])</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.NewAndWrapsDirect&lt;TNewClass&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;Cloneable&gt;.NewWithSignatureAndWrapsDirect&lt;TNewClass&gt;(string, string, params object[])</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_Execute__1___0___">JVMBridgeBase&lt;Cloneable&gt;.Execute&lt;T&gt;(params T[])</a>
     </div>
     <div>
@@ -288,13 +295,25 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_BridgeClazz">JVMBridgeBase&lt;Cloneable&gt;.BridgeClazz</a>
     </div>
     <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ReferenceEqualsJVM_MASES_JCOBridge_C2JBridge_JVMBridgeBase_MASES_JCOBridge_C2JBridge_JVMBridgeBase_">JVMBridgeBase.ReferenceEqualsJVM(JVMBridgeBase, JVMBridgeBase)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">JVMBridgeBase.ClazzOf&lt;TClass&gt;(out Exception, bool)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, out Exception, bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_RuntimeClassNameOf__1">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.RuntimeClassNameOf(Type)</a>
     </div>
     <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ClassNameOf__1">JVMBridgeBase.ClassNameOf&lt;T&gt;()</a>
@@ -351,7 +370,13 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Dispose">JVMBridgeBase.Dispose()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.Dispose(bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ToString">JVMBridgeBase.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Equals_MASES_JCOBridge_C2JBridge_IJVMBridgeBase_">JVMBridgeBase.Equals(IJVMBridgeBase)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
@@ -399,10 +424,10 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
@@ -522,9 +547,42 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.#ctor*"></a>
 
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)">
+  PDGraphicsState(IJVMBridgeBaseInitializer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Internal constructor: used internally from JCOBridge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.&quot;)]
+public PDGraphicsState(IJVMBridgeBaseInitializer initializer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>initializer</code> <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer.html">IJVMBridgeBaseInitializer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.#ctor*"></a>
+
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState__ctor_Org_Apache_Pdfbox_Pdmodel_Common_PDRectangle_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.#ctor(Org.Apache.Pdfbox.Pdmodel.Common.PDRectangle)">
   PDGraphicsState(PDRectangle)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L77"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState(org.apache.pdfbox.pdmodel.common.PDRectangle)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#org.apache.pdfbox.pdmodel.graphics.state.PDGraphicsState(org.apache.pdfbox.pdmodel.common.PDRectangle)</a></p>
@@ -557,7 +615,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState__ctor_System_Object___" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.#ctor(System.Object[])">
   PDGraphicsState(params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
@@ -593,7 +651,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_AlphaConstant" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.AlphaConstant">
   AlphaConstant
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L100"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getAlphaConstant--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getAlphaConstant--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setAlphaConstant-double-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setAlphaConstant-double-</a></p>
@@ -625,7 +683,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_BlendMode" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.BlendMode">
   BlendMode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L107"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getBlendMode--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getBlendMode--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setBlendMode-org.apache.pdfbox.pdmodel.graphics.blend.BlendMode-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setBlendMode-org.apache.pdfbox.pdmodel.graphics.blend.BlendMode-</a></p>
@@ -657,7 +715,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_BridgeClassName" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.BridgeClassName">
   BridgeClassName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Java class name to be instantiated</p>
@@ -689,7 +747,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_CurrentClippingPath" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.CurrentClippingPath">
   CurrentClippingPath
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L114"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getCurrentClippingPath--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getCurrentClippingPath--</a></p>
@@ -721,7 +779,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_CurrentClippingPaths" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.CurrentClippingPaths">
   CurrentClippingPaths
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L121"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getCurrentClippingPaths--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getCurrentClippingPaths--</a></p>
@@ -753,7 +811,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_CurrentTransformationMatrix" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.CurrentTransformationMatrix">
   CurrentTransformationMatrix
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L128"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getCurrentTransformationMatrix--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getCurrentTransformationMatrix--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setCurrentTransformationMatrix-org.apache.pdfbox.util.Matrix-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setCurrentTransformationMatrix-org.apache.pdfbox.util.Matrix-</a></p>
@@ -785,7 +843,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_Flatness" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.Flatness">
   Flatness
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L135"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getFlatness--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getFlatness--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setFlatness-double-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setFlatness-double-</a></p>
@@ -817,7 +875,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IsBridgeAbstract" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IsBridgeAbstract">
   IsBridgeAbstract
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an abstract class, i.e. cannot be created an instance</p>
@@ -849,7 +907,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IsBridgeCloseable" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IsBridgeCloseable">
   IsBridgeCloseable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> implements Closeable</p>
@@ -881,7 +939,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IsBridgeInterface" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IsBridgeInterface">
   IsBridgeInterface
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an interface, i.e. does not have any public constructor</p>
@@ -913,7 +971,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IsBridgeStatic" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IsBridgeStatic">
   IsBridgeStatic
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is a static class, i.e. does not have any public constructor</p>
@@ -945,7 +1003,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_LineCap" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.LineCap">
   LineCap
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L142"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getLineCap--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getLineCap--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setLineCap-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setLineCap-int-</a></p>
@@ -977,7 +1035,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_LineDashPattern" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.LineDashPattern">
   LineDashPattern
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L143"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L149"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getLineDashPattern--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getLineDashPattern--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setLineDashPattern-org.apache.pdfbox.pdmodel.graphics.PDLineDashPattern-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setLineDashPattern-org.apache.pdfbox.pdmodel.graphics.PDLineDashPattern-</a></p>
@@ -1009,7 +1067,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_LineJoin" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.LineJoin">
   LineJoin
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L156"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getLineJoin--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getLineJoin--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setLineJoin-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setLineJoin-int-</a></p>
@@ -1041,7 +1099,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_LineWidth" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.LineWidth">
   LineWidth
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L157"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L163"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getLineWidth--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getLineWidth--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setLineWidth-float-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setLineWidth-float-</a></p>
@@ -1073,7 +1131,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_MiterLimit" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.MiterLimit">
   MiterLimit
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L170"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getMiterLimit--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getMiterLimit--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setMiterLimit-float-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setMiterLimit-float-</a></p>
@@ -1105,7 +1163,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_NonStrokeAlphaConstant" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.NonStrokeAlphaConstant">
   NonStrokeAlphaConstant
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L177"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getNonStrokeAlphaConstant--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getNonStrokeAlphaConstant--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setNonStrokeAlphaConstant-double-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setNonStrokeAlphaConstant-double-</a></p>
@@ -1137,7 +1195,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_NonStrokingColor" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.NonStrokingColor">
   NonStrokingColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L184"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getNonStrokingColor--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getNonStrokingColor--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setNonStrokingColor-org.apache.pdfbox.pdmodel.graphics.color.PDColor-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setNonStrokingColor-org.apache.pdfbox.pdmodel.graphics.color.PDColor-</a></p>
@@ -1169,7 +1227,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_NonStrokingColorSpace" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.NonStrokingColorSpace">
   NonStrokingColorSpace
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L185"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L191"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getNonStrokingColorSpace--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getNonStrokingColorSpace--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setNonStrokingColorSpace-org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setNonStrokingColorSpace-org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace-</a></p>
@@ -1201,7 +1259,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_NonStrokingJavaComposite" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.NonStrokingJavaComposite">
   NonStrokingJavaComposite
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L198"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getNonStrokingJavaComposite--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getNonStrokingJavaComposite--</a></p>
@@ -1233,7 +1291,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_OverprintMode" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.OverprintMode">
   OverprintMode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L199"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L205"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getOverprintMode--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getOverprintMode--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setOverprintMode-int-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setOverprintMode-int-</a></p>
@@ -1265,7 +1323,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_RenderingIntent" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.RenderingIntent">
   RenderingIntent
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L212"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getRenderingIntent--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getRenderingIntent--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setRenderingIntent-org.apache.pdfbox.pdmodel.graphics.state.RenderingIntent-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setRenderingIntent-org.apache.pdfbox.pdmodel.graphics.state.RenderingIntent-</a></p>
@@ -1297,7 +1355,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_Smoothness" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.Smoothness">
   Smoothness
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L213"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L219"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getSmoothness--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getSmoothness--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setSmoothness-double-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setSmoothness-double-</a></p>
@@ -1329,7 +1387,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_SoftMask" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.SoftMask">
   SoftMask
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L220"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L226"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getSoftMask--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getSoftMask--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setSoftMask-org.apache.pdfbox.pdmodel.graphics.state.PDSoftMask-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setSoftMask-org.apache.pdfbox.pdmodel.graphics.state.PDSoftMask-</a></p>
@@ -1361,7 +1419,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_StrokingColor" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.StrokingColor">
   StrokingColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L227"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L233"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getStrokingColor--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getStrokingColor--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setStrokingColor-org.apache.pdfbox.pdmodel.graphics.color.PDColor-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setStrokingColor-org.apache.pdfbox.pdmodel.graphics.color.PDColor-</a></p>
@@ -1393,7 +1451,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_StrokingColorSpace" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.StrokingColorSpace">
   StrokingColorSpace
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L234"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L240"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getStrokingColorSpace--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getStrokingColorSpace--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setStrokingColorSpace-org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setStrokingColorSpace-org.apache.pdfbox.pdmodel.graphics.color.PDColorSpace-</a></p>
@@ -1425,7 +1483,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_StrokingJavaComposite" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.StrokingJavaComposite">
   StrokingJavaComposite
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L241"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L247"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getStrokingJavaComposite--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getStrokingJavaComposite--</a></p>
@@ -1457,7 +1515,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_TextLineMatrix" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.TextLineMatrix">
   TextLineMatrix
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L248"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L254"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getTextLineMatrix--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getTextLineMatrix--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setTextLineMatrix-org.apache.pdfbox.util.Matrix-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setTextLineMatrix-org.apache.pdfbox.util.Matrix-</a></p>
@@ -1489,7 +1547,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_TextMatrix" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.TextMatrix">
   TextMatrix
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L255"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L261"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getTextMatrix--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getTextMatrix--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setTextMatrix-org.apache.pdfbox.util.Matrix-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setTextMatrix-org.apache.pdfbox.util.Matrix-</a></p>
@@ -1521,7 +1579,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_TextState" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.TextState">
   TextState
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L262"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L268"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getTextState--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getTextState--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setTextState-org.apache.pdfbox.pdmodel.graphics.state.PDTextState-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setTextState-org.apache.pdfbox.pdmodel.graphics.state.PDTextState-</a></p>
@@ -1553,7 +1611,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_Transfer" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.Transfer">
   Transfer
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L269"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L275"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getTransfer--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#getTransfer--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setTransfer-org.apache.pdfbox.cos.COSBase-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setTransfer-org.apache.pdfbox.cos.COSBase-</a></p>
@@ -1589,7 +1647,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_Clone" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.Clone">
   Clone()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L309"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L315"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#clone--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#clone--</a></p>
@@ -1622,7 +1680,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IntersectClippingPath_Java_Awt_Geom_Area_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IntersectClippingPath(Java.Awt.Geom.Area)">
   IntersectClippingPath(Area)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L317"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L323"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#intersectClippingPath-java.awt.geom.Area-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#intersectClippingPath-java.awt.geom.Area-</a></p>
@@ -1655,7 +1713,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IntersectClippingPath_Java_Awt_Geom_GeneralPath_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IntersectClippingPath(Java.Awt.Geom.GeneralPath)">
   IntersectClippingPath(GeneralPath)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L325"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L331"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#intersectClippingPath-java.awt.geom.GeneralPath-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#intersectClippingPath-java.awt.geom.GeneralPath-</a></p>
@@ -1688,7 +1746,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IsAlphaSource" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IsAlphaSource">
   IsAlphaSource()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L277"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L283"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#isAlphaSource--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#isAlphaSource--</a></p>
@@ -1721,7 +1779,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IsNonStrokingOverprint" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IsNonStrokingOverprint">
   IsNonStrokingOverprint()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L285"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L291"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#isNonStrokingOverprint--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#isNonStrokingOverprint--</a></p>
@@ -1754,7 +1812,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IsOverprint" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IsOverprint">
   IsOverprint()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L293"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L299"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#isOverprint--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#isOverprint--</a></p>
@@ -1787,7 +1845,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_IsStrokeAdjustment" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.IsStrokeAdjustment">
   IsStrokeAdjustment()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L301"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L307"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#isStrokeAdjustment--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#isStrokeAdjustment--</a></p>
@@ -1820,7 +1878,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_SetAlphaSource_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.SetAlphaSource(System.Boolean)">
   SetAlphaSource(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L333"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L339"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setAlphaSource-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setAlphaSource-boolean-</a></p>
@@ -1853,7 +1911,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_SetNonStrokingOverprint_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.SetNonStrokingOverprint(System.Boolean)">
   SetNonStrokingOverprint(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L341"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L347"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setNonStrokingOverprint-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setNonStrokingOverprint-boolean-</a></p>
@@ -1886,7 +1944,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_SetOverprint_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.SetOverprint(System.Boolean)">
   SetOverprint(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L349"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L355"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setOverprint-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setOverprint-boolean-</a></p>
@@ -1919,7 +1977,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDGraphicsState_SetStrokeAdjustment_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDGraphicsState.SetStrokeAdjustment(System.Boolean)">
   SetStrokeAdjustment(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L357"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L363"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setStrokeAdjustment-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/graphics/state/PDGraphicsState.html#setStrokeAdjustment-boolean-</a></p>
@@ -1952,7 +2010,7 @@ Class PDGraphicsState  <a class="header-action link-secondary" title="View sourc
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L64" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Graphics/State/PDGraphicsState.cs/#L70" class="edit-link">Edit this page</a>
         </div>
 
 

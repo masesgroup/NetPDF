@@ -89,7 +89,7 @@
 
 
   <h1 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences" class="text-break">
-Class PDViewerPreferences  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L239"><i class="bi bi-code-slash"></i></a>
+Class PDViewerPreferences  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L275"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PDViewerPreferences : COSObjectable, IDynamicMetaObjectProvider, IJVMBridgeCore, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, ICOSObjectable</code></pre>
+    <pre><code class="lang-csharp hljs">public class PDViewerPreferences : COSObjectable, IDynamicMetaObjectProvider, IJVMBridgeCore, IEquatable&lt;IJVMBridgeBase&gt;, IDisposable, IJVMBridgeBaseStatic, IJVMBridgeBase, IJVMBridgeDefinition, ICOSObjectable</code></pre>
   </div>
 
 
@@ -125,6 +125,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dynamic.idynamicmetaobjectprovider">IDynamicMetaObjectProvider</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeCore.html">IJVMBridgeCore</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a>&gt;</div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseStatic.html">IJVMBridgeBaseStatic</a></div>
       <div><a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBase.html">IJVMBridgeBase</a></div>
@@ -222,16 +223,16 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignature&lt;TReturn, TConverter&gt;(Type, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;T&gt;(IJavaType, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;TArrayType&gt;(IJavaType, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;T&gt;(IJavaType, string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(IJavaType, string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.SGetField(IJavaType, string)</a>
@@ -279,6 +280,12 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.NewWithSignature(string, params object[])</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.NewAndWrapsDirect&lt;TNewClass&gt;(string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase&lt;COSObjectable&gt;.NewWithSignatureAndWrapsDirect&lt;TNewClass&gt;(string, string, params object[])</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_Execute__1___0___">JVMBridgeBase&lt;COSObjectable&gt;.Execute&lt;T&gt;(params T[])</a>
     </div>
     <div>
@@ -288,13 +295,25 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase-1.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_1_BridgeClazz">JVMBridgeBase&lt;COSObjectable&gt;.BridgeClazz</a>
     </div>
     <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ReferenceEqualsJVM_MASES_JCOBridge_C2JBridge_JVMBridgeBase_MASES_JCOBridge_C2JBridge_JVMBridgeBase_">JVMBridgeBase.ReferenceEqualsJVM(JVMBridgeBase, JVMBridgeBase)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.ClazzOf&lt;TClass&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">JVMBridgeBase.ClazzOf&lt;TClass&gt;(out Exception, bool)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, bool)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.ClazzOf(string, out Exception, bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_RuntimeClassNameOf__1">JVMBridgeBase.RuntimeClassNameOf&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">JVMBridgeBase.RuntimeClassNameOf(Type)</a>
     </div>
     <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ClassNameOf__1">JVMBridgeBase.ClassNameOf&lt;T&gt;()</a>
@@ -351,7 +370,13 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Dispose">JVMBridgeBase.Dispose()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">JVMBridgeBase.Dispose(bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_ToString">JVMBridgeBase.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.JVMBridgeBase.html#MASES_JCOBridge_C2JBridge_JVMBridgeBase_Equals_MASES_JCOBridge_C2JBridge_IJVMBridgeBase_">JVMBridgeBase.Equals(IJVMBridgeBase)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">JVMBridgeBase.Equals(object)</a>
@@ -399,10 +424,10 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignature&lt;TNewClass, TReturn, TConverter&gt;(string, string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;T&gt;(string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteArray&lt;TArrayType&gt;(string, params object[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;T&gt;(string, string, params object[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IExecuteWithSignatureArray&lt;TArrayType&gt;(string, string, params object[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">JVMBridgeBase.IGetField(string)</a>
@@ -522,9 +547,42 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.#ctor*"></a>
 
+  <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)">
+  PDViewerPreferences(IJVMBridgeBaseInitializer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Internal constructor: used internally from JCOBridge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.&quot;)]
+public PDViewerPreferences(IJVMBridgeBaseInitializer initializer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>initializer</code> <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer.html">IJVMBridgeBaseInitializer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences__ctor_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.#ctor*"></a>
+
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences__ctor_Org_Apache_Pdfbox_Cos_COSDictionary_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.#ctor(Org.Apache.Pdfbox.Cos.COSDictionary)">
   PDViewerPreferences(COSDictionary)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L246"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L282"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences(org.apache.pdfbox.cos.COSDictionary)">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences(org.apache.pdfbox.cos.COSDictionary)</a></p>
@@ -557,7 +615,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences__ctor_System_Object___" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.#ctor(System.Object[])">
   PDViewerPreferences(params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class</p>
@@ -593,7 +651,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences_BridgeClassName" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.BridgeClassName">
   BridgeClassName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Java class name to be instantiated</p>
@@ -625,7 +683,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences_COSObject" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.COSObject">
   COSObject
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L269"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L305"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getCOSObject--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getCOSObject--</a></p>
@@ -657,7 +715,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences_Duplex" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.Duplex">
   Duplex
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L276"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L312"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getDuplex--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getDuplex--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setDuplex-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.DUPLEX-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setDuplex-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.DUPLEX-</a></p>
@@ -689,7 +747,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences_IsBridgeAbstract" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.IsBridgeAbstract">
   IsBridgeAbstract
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an abstract class, i.e. cannot be created an instance</p>
@@ -721,7 +779,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences_IsBridgeCloseable" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.IsBridgeCloseable">
   IsBridgeCloseable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> implements Closeable</p>
@@ -753,7 +811,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences_IsBridgeInterface" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.IsBridgeInterface">
   IsBridgeInterface
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is an interface, i.e. does not have any public constructor</p>
@@ -785,7 +843,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences_IsBridgeStatic" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.IsBridgeStatic">
   IsBridgeStatic
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the <a class="xref" href="https://jcobridge-api.masesgroup.com/api/MASES.JCOBridge.C2JBridge.IJVMBridgeDefinition.html#MASES_JCOBridge_C2JBridge_IJVMBridgeDefinition_BridgeClassName">BridgeClassName</a> is a static class, i.e. does not have any public constructor</p>
@@ -817,7 +875,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences_NonFullScreenPageMode" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.NonFullScreenPageMode">
   NonFullScreenPageMode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L283"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L319"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getNonFullScreenPageMode--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getNonFullScreenPageMode--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setNonFullScreenPageMode-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setNonFullScreenPageMode-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.NON_FULL_SCREEN_PAGE_MODE-</a></p>
@@ -849,7 +907,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences_PrintArea" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.PrintArea">
   PrintArea
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L290"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L326"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getPrintArea--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getPrintArea--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setPrintArea-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.BOUNDARY-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setPrintArea-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.BOUNDARY-</a></p>
@@ -881,7 +939,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences_PrintClip" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.PrintClip">
   PrintClip
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L297"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L333"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getPrintClip--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getPrintClip--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setPrintClip-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.BOUNDARY-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setPrintClip-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.BOUNDARY-</a></p>
@@ -913,7 +971,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences_PrintScaling" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.PrintScaling">
   PrintScaling
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L304"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L340"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getPrintScaling--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getPrintScaling--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setPrintScaling-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.PRINT_SCALING-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setPrintScaling-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.PRINT_SCALING-</a></p>
@@ -945,7 +1003,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences_ReadingDirection" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.ReadingDirection">
   ReadingDirection
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L311"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L347"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getReadingDirection--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getReadingDirection--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setReadingDirection-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.READING_DIRECTION-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setReadingDirection-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.READING_DIRECTION-</a></p>
@@ -977,7 +1035,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences_ViewArea" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.ViewArea">
   ViewArea
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L318"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L354"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getViewArea--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getViewArea--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setViewArea-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.BOUNDARY-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setViewArea-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.BOUNDARY-</a></p>
@@ -1009,7 +1067,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences_ViewClip" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.ViewClip">
   ViewClip
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L325"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L361"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getViewClip--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#getViewClip--</a> <a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setViewClip-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.BOUNDARY-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setViewClip-org.apache.pdfbox.pdmodel.interactive.viewerpreferences.PDViewerPreferences.BOUNDARY-</a></p>
@@ -1045,7 +1103,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences_CenterWindow" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.CenterWindow">
   CenterWindow()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L333"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L369"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#centerWindow--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#centerWindow--</a></p>
@@ -1078,7 +1136,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences_DisplayDocTitle" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.DisplayDocTitle">
   DisplayDocTitle()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L341"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L377"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#displayDocTitle--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#displayDocTitle--</a></p>
@@ -1111,7 +1169,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences_FitWindow" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.FitWindow">
   FitWindow()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L349"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L385"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#fitWindow--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#fitWindow--</a></p>
@@ -1144,7 +1202,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences_HideMenubar" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.HideMenubar">
   HideMenubar()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L357"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L393"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#hideMenubar--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#hideMenubar--</a></p>
@@ -1177,7 +1235,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences_HideToolbar" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.HideToolbar">
   HideToolbar()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L365"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L401"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#hideToolbar--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#hideToolbar--</a></p>
@@ -1210,7 +1268,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences_HideWindowUI" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.HideWindowUI">
   HideWindowUI()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L373"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L409"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#hideWindowUI--">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#hideWindowUI--</a></p>
@@ -1243,7 +1301,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences_SetCenterWindow_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.SetCenterWindow(System.Boolean)">
   SetCenterWindow(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L381"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L417"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setCenterWindow-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setCenterWindow-boolean-</a></p>
@@ -1276,7 +1334,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences_SetDisplayDocTitle_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.SetDisplayDocTitle(System.Boolean)">
   SetDisplayDocTitle(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L389"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L425"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setDisplayDocTitle-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setDisplayDocTitle-boolean-</a></p>
@@ -1309,7 +1367,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences_SetFitWindow_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.SetFitWindow(System.Boolean)">
   SetFitWindow(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L397"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L433"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setFitWindow-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setFitWindow-boolean-</a></p>
@@ -1342,7 +1400,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences_SetHideMenubar_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.SetHideMenubar(System.Boolean)">
   SetHideMenubar(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L405"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L441"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setHideMenubar-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setHideMenubar-boolean-</a></p>
@@ -1375,7 +1433,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences_SetHideToolbar_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.SetHideToolbar(System.Boolean)">
   SetHideToolbar(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L413"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L449"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setHideToolbar-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setHideToolbar-boolean-</a></p>
@@ -1408,7 +1466,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 
   <h3 id="Org_Apache_Pdfbox_Pdmodel_Interactive_Viewerpreferences_PDViewerPreferences_SetHideWindowUI_System_Boolean_" data-uid="Org.Apache.Pdfbox.Pdmodel.Interactive.Viewerpreferences.PDViewerPreferences.SetHideWindowUI(System.Boolean)">
   SetHideWindowUI(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L421"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L457"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p><a href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setHideWindowUI-boolean-">https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/org/apache/pdfbox/pdmodel/interactive/viewerpreferences/PDViewerPreferences.html#setHideWindowUI-boolean-</a></p>
@@ -1441,7 +1499,7 @@ Class PDViewerPreferences  <a class="header-action link-secondary" title="View s
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L239" class="edit-link">Edit this page</a>
+          <a href="https://github.com/masesgroup/NetPDF/blob/master/src/net/NetPDF/Generated/Org/Apache/Pdfbox/Pdmodel/Interactive/Viewerpreferences/PDViewerPreferences.cs/#L275" class="edit-link">Edit this page</a>
         </div>
 
 
