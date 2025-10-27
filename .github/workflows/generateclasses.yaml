@@ -186,7 +186,7 @@ jobs:
           key: PdfBox_FontCache_${{ env.PDFBox_Version }}
           path: ./fontcache/
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with:
           name: JNetReflector report
           path: .\JNetReflector.txt
