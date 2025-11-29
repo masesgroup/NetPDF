@@ -43,7 +43,7 @@
 		<None Remove="Specific\**" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="MASES.JNet" Version="2.6.4">
+		<PackageReference Include="MASES.JNet" Version="2.6.5">
 			<IncludeAssets>All</IncludeAssets>
 			<PrivateAssets>None</PrivateAssets>
 		</PackageReference>
