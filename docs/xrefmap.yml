@@ -14366,15 +14366,6 @@ references:
   fullName.vb: Org.Apache.Fontbox.Ttf.Gsub.CompoundCharacterTokenizer.New()
   nameWithType: CompoundCharacterTokenizer.CompoundCharacterTokenizer()
   nameWithType.vb: CompoundCharacterTokenizer.New()
-- uid: Org.Apache.Fontbox.Ttf.Gsub.CompoundCharacterTokenizer.#ctor(Java.Util.Regex.Pattern)
-  name: CompoundCharacterTokenizer(Pattern)
-  href: api/Org.Apache.Fontbox.Ttf.Gsub.CompoundCharacterTokenizer.html#Org_Apache_Fontbox_Ttf_Gsub_CompoundCharacterTokenizer__ctor_Java_Util_Regex_Pattern_
-  commentId: M:Org.Apache.Fontbox.Ttf.Gsub.CompoundCharacterTokenizer.#ctor(Java.Util.Regex.Pattern)
-  name.vb: New(Pattern)
-  fullName: Org.Apache.Fontbox.Ttf.Gsub.CompoundCharacterTokenizer.CompoundCharacterTokenizer(Java.Util.Regex.Pattern)
-  fullName.vb: Org.Apache.Fontbox.Ttf.Gsub.CompoundCharacterTokenizer.New(Java.Util.Regex.Pattern)
-  nameWithType: CompoundCharacterTokenizer.CompoundCharacterTokenizer(Pattern)
-  nameWithType.vb: CompoundCharacterTokenizer.New(Pattern)
 - uid: Org.Apache.Fontbox.Ttf.Gsub.CompoundCharacterTokenizer.#ctor(Java.Util.Set{Java.Lang.String})
   name: CompoundCharacterTokenizer(Set<String>)
   href: api/Org.Apache.Fontbox.Ttf.Gsub.CompoundCharacterTokenizer.html#Org_Apache_Fontbox_Ttf_Gsub_CompoundCharacterTokenizer__ctor_Java_Util_Set_Java_Lang_String__
@@ -47120,6 +47111,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Pdfbox.Cos.COSName.MCID
   nameWithType: COSName.MCID
+- uid: Org.Apache.Pdfbox.Cos.COSName.MCR
+  name: MCR
+  href: api/Org.Apache.Pdfbox.Cos.COSName.html#Org_Apache_Pdfbox_Cos_COSName_MCR
+  commentId: P:Org.Apache.Pdfbox.Cos.COSName.MCR
+  fullName: Org.Apache.Pdfbox.Cos.COSName.MCR
+  nameWithType: COSName.MCR
+- uid: Org.Apache.Pdfbox.Cos.COSName.MCR*
+  name: MCR
+  href: api/Org.Apache.Pdfbox.Cos.COSName.html#Org_Apache_Pdfbox_Cos_COSName_MCR_
+  commentId: Overload:Org.Apache.Pdfbox.Cos.COSName.MCR
+  isSpec: "True"
+  fullName: Org.Apache.Pdfbox.Cos.COSName.MCR
+  nameWithType: COSName.MCR
 - uid: Org.Apache.Pdfbox.Cos.COSName.MDP
   name: MDP
   href: api/Org.Apache.Pdfbox.Cos.COSName.html#Org_Apache_Pdfbox_Cos_COSName_MDP
@@ -52509,6 +52513,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Pdfbox.Cos.ICOSVisitor.VisitFromNull
   nameWithType: ICOSVisitor.VisitFromNull
+- uid: Org.Apache.Pdfbox.Cos.ICOSVisitor.VisitFromObject(Org.Apache.Pdfbox.Cos.COSObject)
+  name: VisitFromObject(COSObject)
+  href: api/Org.Apache.Pdfbox.Cos.ICOSVisitor.html#Org_Apache_Pdfbox_Cos_ICOSVisitor_VisitFromObject_Org_Apache_Pdfbox_Cos_COSObject_
+  commentId: M:Org.Apache.Pdfbox.Cos.ICOSVisitor.VisitFromObject(Org.Apache.Pdfbox.Cos.COSObject)
+  fullName: Org.Apache.Pdfbox.Cos.ICOSVisitor.VisitFromObject(Org.Apache.Pdfbox.Cos.COSObject)
+  nameWithType: ICOSVisitor.VisitFromObject(COSObject)
+- uid: Org.Apache.Pdfbox.Cos.ICOSVisitor.VisitFromObject*
+  name: VisitFromObject
+  href: api/Org.Apache.Pdfbox.Cos.ICOSVisitor.html#Org_Apache_Pdfbox_Cos_ICOSVisitor_VisitFromObject_
+  commentId: Overload:Org.Apache.Pdfbox.Cos.ICOSVisitor.VisitFromObject
+  isSpec: "True"
+  fullName: Org.Apache.Pdfbox.Cos.ICOSVisitor.VisitFromObject
+  nameWithType: ICOSVisitor.VisitFromObject
 - uid: Org.Apache.Pdfbox.Cos.ICOSVisitor.VisitFromStream(Org.Apache.Pdfbox.Cos.COSStream)
   name: VisitFromStream(COSStream)
   href: api/Org.Apache.Pdfbox.Cos.ICOSVisitor.html#Org_Apache_Pdfbox_Cos_ICOSVisitor_VisitFromStream_Org_Apache_Pdfbox_Cos_COSStream_
@@ -58246,6 +58263,22 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Pdfbox.Multipdf.Overlay.Position.Values
   nameWithType: Overlay.Position.Values
+- uid: Org.Apache.Pdfbox.Multipdf.Overlay.SetAdjustRotation(System.Boolean)
+  name: SetAdjustRotation(bool)
+  href: api/Org.Apache.Pdfbox.Multipdf.Overlay.html#Org_Apache_Pdfbox_Multipdf_Overlay_SetAdjustRotation_System_Boolean_
+  commentId: M:Org.Apache.Pdfbox.Multipdf.Overlay.SetAdjustRotation(System.Boolean)
+  name.vb: SetAdjustRotation(Boolean)
+  fullName: Org.Apache.Pdfbox.Multipdf.Overlay.SetAdjustRotation(bool)
+  fullName.vb: Org.Apache.Pdfbox.Multipdf.Overlay.SetAdjustRotation(Boolean)
+  nameWithType: Overlay.SetAdjustRotation(bool)
+  nameWithType.vb: Overlay.SetAdjustRotation(Boolean)
+- uid: Org.Apache.Pdfbox.Multipdf.Overlay.SetAdjustRotation*
+  name: SetAdjustRotation
+  href: api/Org.Apache.Pdfbox.Multipdf.Overlay.html#Org_Apache_Pdfbox_Multipdf_Overlay_SetAdjustRotation_
+  commentId: Overload:Org.Apache.Pdfbox.Multipdf.Overlay.SetAdjustRotation
+  isSpec: "True"
+  fullName: Org.Apache.Pdfbox.Multipdf.Overlay.SetAdjustRotation
+  nameWithType: Overlay.SetAdjustRotation
 - uid: Org.Apache.Pdfbox.Multipdf.Overlay.SetAllPagesOverlayFile(Java.Lang.String)
   name: SetAllPagesOverlayFile(String)
   href: api/Org.Apache.Pdfbox.Multipdf.Overlay.html#Org_Apache_Pdfbox_Multipdf_Overlay_SetAllPagesOverlayFile_Java_Lang_String_
@@ -104244,6 +104277,136 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CCITTFactory.IsBridgeStatic
   nameWithType: CCITTFactory.IsBridgeStatic
+- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory
+  name: CustomFactory
+  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.html
+  commentId: T:Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory
+  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory
+  nameWithType: CustomFactory
+- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.#ctor
+  name: CustomFactory()
+  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.html#Org_Apache_Pdfbox_Pdmodel_Graphics_Image_CustomFactory__ctor
+  commentId: M:Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.#ctor
+  name.vb: New()
+  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.CustomFactory()
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.New()
+  nameWithType: CustomFactory.CustomFactory()
+  nameWithType.vb: CustomFactory.New()
+- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: CustomFactory(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.html#Org_Apache_Pdfbox_Pdmodel_Graphics_Image_CustomFactory__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.CustomFactory(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: CustomFactory.CustomFactory(IJVMBridgeBaseInitializer)
+  nameWithType.vb: CustomFactory.New(IJVMBridgeBaseInitializer)
+- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.#ctor(System.Object[])
+  name: CustomFactory(params object[])
+  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.html#Org_Apache_Pdfbox_Pdmodel_Graphics_Image_CustomFactory__ctor_System_Object___
+  commentId: M:Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.#ctor(System.Object[])
+  name.vb: New(ParamArray Object())
+  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.CustomFactory(params object[])
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.New(ParamArray Object())
+  nameWithType: CustomFactory.CustomFactory(params object[])
+  nameWithType.vb: CustomFactory.New(ParamArray Object())
+- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.#ctor*
+  name: CustomFactory
+  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.html#Org_Apache_Pdfbox_Pdmodel_Graphics_Image_CustomFactory__ctor_
+  commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.CustomFactory
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.New
+  nameWithType: CustomFactory.CustomFactory
+  nameWithType.vb: CustomFactory.New
+- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.BridgeClassName
+  name: BridgeClassName
+  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.html#Org_Apache_Pdfbox_Pdmodel_Graphics_Image_CustomFactory_BridgeClassName
+  commentId: P:Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.BridgeClassName
+  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.BridgeClassName
+  nameWithType: CustomFactory.BridgeClassName
+- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.BridgeClassName*
+  name: BridgeClassName
+  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.html#Org_Apache_Pdfbox_Pdmodel_Graphics_Image_CustomFactory_BridgeClassName_
+  commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.BridgeClassName
+  isSpec: "True"
+  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.BridgeClassName
+  nameWithType: CustomFactory.BridgeClassName
+- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.CreateFromByteArray(Org.Apache.Pdfbox.Pdmodel.PDDocument,System.Byte[])
+  name: CreateFromByteArray(PDDocument, byte[])
+  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.html#Org_Apache_Pdfbox_Pdmodel_Graphics_Image_CustomFactory_CreateFromByteArray_Org_Apache_Pdfbox_Pdmodel_PDDocument_System_Byte___
+  commentId: M:Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.CreateFromByteArray(Org.Apache.Pdfbox.Pdmodel.PDDocument,System.Byte[])
+  name.vb: CreateFromByteArray(PDDocument, Byte())
+  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.CreateFromByteArray(Org.Apache.Pdfbox.Pdmodel.PDDocument, byte[])
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.CreateFromByteArray(Org.Apache.Pdfbox.Pdmodel.PDDocument, Byte())
+  nameWithType: CustomFactory.CreateFromByteArray(PDDocument, byte[])
+  nameWithType.vb: CustomFactory.CreateFromByteArray(PDDocument, Byte())
+- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.CreateFromByteArray*
+  name: CreateFromByteArray
+  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.html#Org_Apache_Pdfbox_Pdmodel_Graphics_Image_CustomFactory_CreateFromByteArray_
+  commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.CreateFromByteArray
+  isSpec: "True"
+  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.CreateFromByteArray
+  nameWithType: CustomFactory.CreateFromByteArray
+- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.IsBridgeAbstract
+  name: IsBridgeAbstract
+  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.html#Org_Apache_Pdfbox_Pdmodel_Graphics_Image_CustomFactory_IsBridgeAbstract
+  commentId: P:Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.IsBridgeAbstract
+  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.IsBridgeAbstract
+  nameWithType: CustomFactory.IsBridgeAbstract
+- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.IsBridgeAbstract*
+  name: IsBridgeAbstract
+  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.html#Org_Apache_Pdfbox_Pdmodel_Graphics_Image_CustomFactory_IsBridgeAbstract_
+  commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.IsBridgeAbstract
+  isSpec: "True"
+  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.IsBridgeAbstract
+  nameWithType: CustomFactory.IsBridgeAbstract
+- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.IsBridgeCloseable
+  name: IsBridgeCloseable
+  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.html#Org_Apache_Pdfbox_Pdmodel_Graphics_Image_CustomFactory_IsBridgeCloseable
+  commentId: P:Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.IsBridgeCloseable
+  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.IsBridgeCloseable
+  nameWithType: CustomFactory.IsBridgeCloseable
+- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.IsBridgeCloseable*
+  name: IsBridgeCloseable
+  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.html#Org_Apache_Pdfbox_Pdmodel_Graphics_Image_CustomFactory_IsBridgeCloseable_
+  commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.IsBridgeCloseable
+  isSpec: "True"
+  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.IsBridgeCloseable
+  nameWithType: CustomFactory.IsBridgeCloseable
+- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.IsBridgeInterface
+  name: IsBridgeInterface
+  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.html#Org_Apache_Pdfbox_Pdmodel_Graphics_Image_CustomFactory_IsBridgeInterface
+  commentId: P:Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.IsBridgeInterface
+  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.IsBridgeInterface
+  nameWithType: CustomFactory.IsBridgeInterface
+- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.IsBridgeInterface*
+  name: IsBridgeInterface
+  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.html#Org_Apache_Pdfbox_Pdmodel_Graphics_Image_CustomFactory_IsBridgeInterface_
+  commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.IsBridgeInterface
+  isSpec: "True"
+  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.IsBridgeInterface
+  nameWithType: CustomFactory.IsBridgeInterface
+- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.IsBridgeStatic
+  name: IsBridgeStatic
+  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.html#Org_Apache_Pdfbox_Pdmodel_Graphics_Image_CustomFactory_IsBridgeStatic
+  commentId: P:Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.IsBridgeStatic
+  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.IsBridgeStatic
+  nameWithType: CustomFactory.IsBridgeStatic
+- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.IsBridgeStatic*
+  name: IsBridgeStatic
+  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.html#Org_Apache_Pdfbox_Pdmodel_Graphics_Image_CustomFactory_IsBridgeStatic_
+  commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.IsBridgeStatic
+  isSpec: "True"
+  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory.IsBridgeStatic
+  nameWithType: CustomFactory.IsBridgeStatic
+- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.ICustomFactory
+  name: ICustomFactory
+  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Image.ICustomFactory.html
+  commentId: T:Org.Apache.Pdfbox.Pdmodel.Graphics.Image.ICustomFactory
+  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.ICustomFactory
+  nameWithType: ICustomFactory
 - uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.IPDImage
   name: IPDImage
   href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Image.IPDImage.html
@@ -105020,6 +105183,15 @@ references:
   fullName.vb: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.PDImageXObject.CreateFromByteArray(Org.Apache.Pdfbox.Pdmodel.PDDocument, Byte(), Java.Lang.String)
   nameWithType: PDImageXObject.CreateFromByteArray(PDDocument, byte[], String)
   nameWithType.vb: PDImageXObject.CreateFromByteArray(PDDocument, Byte(), String)
+- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.PDImageXObject.CreateFromByteArray(Org.Apache.Pdfbox.Pdmodel.PDDocument,System.Byte[],Java.Lang.String,Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory)
+  name: CreateFromByteArray(PDDocument, byte[], String, CustomFactory)
+  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Image.PDImageXObject.html#Org_Apache_Pdfbox_Pdmodel_Graphics_Image_PDImageXObject_CreateFromByteArray_Org_Apache_Pdfbox_Pdmodel_PDDocument_System_Byte___Java_Lang_String_Org_Apache_Pdfbox_Pdmodel_Graphics_Image_CustomFactory_
+  commentId: M:Org.Apache.Pdfbox.Pdmodel.Graphics.Image.PDImageXObject.CreateFromByteArray(Org.Apache.Pdfbox.Pdmodel.PDDocument,System.Byte[],Java.Lang.String,Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory)
+  name.vb: CreateFromByteArray(PDDocument, Byte(), String, CustomFactory)
+  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.PDImageXObject.CreateFromByteArray(Org.Apache.Pdfbox.Pdmodel.PDDocument, byte[], Java.Lang.String, Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory)
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.PDImageXObject.CreateFromByteArray(Org.Apache.Pdfbox.Pdmodel.PDDocument, Byte(), Java.Lang.String, Org.Apache.Pdfbox.Pdmodel.Graphics.Image.CustomFactory)
+  nameWithType: PDImageXObject.CreateFromByteArray(PDDocument, byte[], String, CustomFactory)
+  nameWithType.vb: PDImageXObject.CreateFromByteArray(PDDocument, Byte(), String, CustomFactory)
 - uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Image.PDImageXObject.CreateFromByteArray*
   name: CreateFromByteArray
   href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Image.PDImageXObject.html#Org_Apache_Pdfbox_Pdmodel_Graphics_Image_PDImageXObject_CreateFromByteArray_
@@ -110410,6 +110582,15 @@ references:
   fullName.vb: Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDExtendedGraphicsState.New(Org.Apache.Pdfbox.Cos.COSDictionary)
   nameWithType: PDExtendedGraphicsState.PDExtendedGraphicsState(COSDictionary)
   nameWithType.vb: PDExtendedGraphicsState.New(COSDictionary)
+- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDExtendedGraphicsState.#ctor(Org.Apache.Pdfbox.Cos.COSDictionary,Org.Apache.Pdfbox.Pdmodel.ResourceCache)
+  name: PDExtendedGraphicsState(COSDictionary, ResourceCache)
+  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDExtendedGraphicsState.html#Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDExtendedGraphicsState__ctor_Org_Apache_Pdfbox_Cos_COSDictionary_Org_Apache_Pdfbox_Pdmodel_ResourceCache_
+  commentId: M:Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDExtendedGraphicsState.#ctor(Org.Apache.Pdfbox.Cos.COSDictionary,Org.Apache.Pdfbox.Pdmodel.ResourceCache)
+  name.vb: New(COSDictionary, ResourceCache)
+  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDExtendedGraphicsState.PDExtendedGraphicsState(Org.Apache.Pdfbox.Cos.COSDictionary, Org.Apache.Pdfbox.Pdmodel.ResourceCache)
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDExtendedGraphicsState.New(Org.Apache.Pdfbox.Cos.COSDictionary, Org.Apache.Pdfbox.Pdmodel.ResourceCache)
+  nameWithType: PDExtendedGraphicsState.PDExtendedGraphicsState(COSDictionary, ResourceCache)
+  nameWithType.vb: PDExtendedGraphicsState.New(COSDictionary, ResourceCache)
 - uid: Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDExtendedGraphicsState.#ctor(System.Object[])
   name: PDExtendedGraphicsState(params object[])
   href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDExtendedGraphicsState.html#Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDExtendedGraphicsState__ctor_System_Object___
@@ -111429,6 +111610,15 @@ references:
   fullName.vb: Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDSoftMask.New(Org.Apache.Pdfbox.Cos.COSDictionary)
   nameWithType: PDSoftMask.PDSoftMask(COSDictionary)
   nameWithType.vb: PDSoftMask.New(COSDictionary)
+- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDSoftMask.#ctor(Org.Apache.Pdfbox.Cos.COSDictionary,Org.Apache.Pdfbox.Pdmodel.ResourceCache)
+  name: PDSoftMask(COSDictionary, ResourceCache)
+  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDSoftMask.html#Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDSoftMask__ctor_Org_Apache_Pdfbox_Cos_COSDictionary_Org_Apache_Pdfbox_Pdmodel_ResourceCache_
+  commentId: M:Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDSoftMask.#ctor(Org.Apache.Pdfbox.Cos.COSDictionary,Org.Apache.Pdfbox.Pdmodel.ResourceCache)
+  name.vb: New(COSDictionary, ResourceCache)
+  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDSoftMask.PDSoftMask(Org.Apache.Pdfbox.Cos.COSDictionary, Org.Apache.Pdfbox.Pdmodel.ResourceCache)
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDSoftMask.New(Org.Apache.Pdfbox.Cos.COSDictionary, Org.Apache.Pdfbox.Pdmodel.ResourceCache)
+  nameWithType: PDSoftMask.PDSoftMask(COSDictionary, ResourceCache)
+  nameWithType.vb: PDSoftMask.New(COSDictionary, ResourceCache)
 - uid: Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDSoftMask.#ctor(System.Object[])
   name: PDSoftMask(params object[])
   href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDSoftMask.html#Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDSoftMask__ctor_System_Object___
@@ -111493,6 +111683,12 @@ references:
   commentId: M:Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDSoftMask.Create(Org.Apache.Pdfbox.Cos.COSBase)
   fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDSoftMask.Create(Org.Apache.Pdfbox.Cos.COSBase)
   nameWithType: PDSoftMask.Create(COSBase)
+- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDSoftMask.Create(Org.Apache.Pdfbox.Cos.COSBase,Org.Apache.Pdfbox.Pdmodel.ResourceCache)
+  name: Create(COSBase, ResourceCache)
+  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDSoftMask.html#Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDSoftMask_Create_Org_Apache_Pdfbox_Cos_COSBase_Org_Apache_Pdfbox_Pdmodel_ResourceCache_
+  commentId: M:Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDSoftMask.Create(Org.Apache.Pdfbox.Cos.COSBase,Org.Apache.Pdfbox.Pdmodel.ResourceCache)
+  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDSoftMask.Create(Org.Apache.Pdfbox.Cos.COSBase, Org.Apache.Pdfbox.Pdmodel.ResourceCache)
+  nameWithType: PDSoftMask.Create(COSBase, ResourceCache)
 - uid: Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDSoftMask.Create*
   name: Create
   href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.State.PDSoftMask.html#Org_Apache_Pdfbox_Pdmodel_Graphics_State_PDSoftMask_Create_
@@ -147095,6 +147291,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Pdfbox.Printing.Orientation.PORTRAIT
   nameWithType: Orientation.PORTRAIT
+- uid: Org.Apache.Pdfbox.Printing.Orientation.REVERSE_LANDSCAPE
+  name: REVERSE_LANDSCAPE
+  href: api/Org.Apache.Pdfbox.Printing.Orientation.html#Org_Apache_Pdfbox_Printing_Orientation_REVERSE_LANDSCAPE
+  commentId: P:Org.Apache.Pdfbox.Printing.Orientation.REVERSE_LANDSCAPE
+  fullName: Org.Apache.Pdfbox.Printing.Orientation.REVERSE_LANDSCAPE
+  nameWithType: Orientation.REVERSE_LANDSCAPE
+- uid: Org.Apache.Pdfbox.Printing.Orientation.REVERSE_LANDSCAPE*
+  name: REVERSE_LANDSCAPE
+  href: api/Org.Apache.Pdfbox.Printing.Orientation.html#Org_Apache_Pdfbox_Printing_Orientation_REVERSE_LANDSCAPE_
+  commentId: Overload:Org.Apache.Pdfbox.Printing.Orientation.REVERSE_LANDSCAPE
+  isSpec: "True"
+  fullName: Org.Apache.Pdfbox.Printing.Orientation.REVERSE_LANDSCAPE
+  nameWithType: Orientation.REVERSE_LANDSCAPE
 - uid: Org.Apache.Pdfbox.Printing.Orientation.ValueOf(Java.Lang.String)
   name: ValueOf(String)
   href: api/Org.Apache.Pdfbox.Printing.Orientation.html#Org_Apache_Pdfbox_Printing_Orientation_ValueOf_Java_Lang_String_
@@ -150831,6 +151040,22 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Pdfbox.Util.Hex.GetCharsUTF16BE
   nameWithType: Hex.GetCharsUTF16BE
+- uid: Org.Apache.Pdfbox.Util.Hex.GetHexValue(System.Char)
+  name: GetHexValue(char)
+  href: api/Org.Apache.Pdfbox.Util.Hex.html#Org_Apache_Pdfbox_Util_Hex_GetHexValue_System_Char_
+  commentId: M:Org.Apache.Pdfbox.Util.Hex.GetHexValue(System.Char)
+  name.vb: GetHexValue(Char)
+  fullName: Org.Apache.Pdfbox.Util.Hex.GetHexValue(char)
+  fullName.vb: Org.Apache.Pdfbox.Util.Hex.GetHexValue(Char)
+  nameWithType: Hex.GetHexValue(char)
+  nameWithType.vb: Hex.GetHexValue(Char)
+- uid: Org.Apache.Pdfbox.Util.Hex.GetHexValue*
+  name: GetHexValue
+  href: api/Org.Apache.Pdfbox.Util.Hex.html#Org_Apache_Pdfbox_Util_Hex_GetHexValue_
+  commentId: Overload:Org.Apache.Pdfbox.Util.Hex.GetHexValue
+  isSpec: "True"
+  fullName: Org.Apache.Pdfbox.Util.Hex.GetHexValue
+  nameWithType: Hex.GetHexValue
 - uid: Org.Apache.Pdfbox.Util.Hex.GetString(System.Byte)
   name: GetString(byte)
   href: api/Org.Apache.Pdfbox.Util.Hex.html#Org_Apache_Pdfbox_Util_Hex_GetString_System_Byte_
