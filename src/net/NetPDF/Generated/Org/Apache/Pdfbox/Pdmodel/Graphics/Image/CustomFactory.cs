@@ -23,30 +23,30 @@
 
 using MASES.JCOBridge.C2JBridge;
 
-namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination
+namespace Org.Apache.Pdfbox.Pdmodel.Graphics.Image
 {
-    #region PDDestination declaration
+    #region CustomFactory declaration
     /// <summary>
-    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.6/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDDestination.html"/>
+    /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.6/org/apache/pdfbox/pdmodel/graphics/image/CustomFactory.html"/>
     /// </summary>
-    public partial class PDDestination : Org.Apache.Pdfbox.Pdmodel.Common.PDDestinationOrAction
+    public partial class CustomFactory : MASES.JCOBridge.C2JBridge.JVMBridgeBase<CustomFactory>
     {
-        const string _bridgeClassName = "org.apache.pdfbox.pdmodel.interactive.documentnavigation.destination.PDDestination";
+        const string _bridgeClassName = "org.apache.pdfbox.pdmodel.graphics.image.CustomFactory";
         /// <summary>
         /// Default constructor: even if the corresponding Java class does not have one, it is mandatory for JCOBridge
         /// </summary>
-        [global::System.Obsolete("PDDestination class represents, in .NET, an instance of a JVM interface or abstract class. This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.")]
-        public PDDestination() { }
+        [global::System.Obsolete("CustomFactory class represents, in .NET, an instance of a JVM interface or abstract class. This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.")]
+        public CustomFactory() { }
         /// <summary>
         /// Internal constructor: used internally from JCOBridge
         /// </summary>
         [global::System.Obsolete("This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.")]
-        public PDDestination(IJVMBridgeBaseInitializer initializer) : base(initializer) { }
+        public CustomFactory(IJVMBridgeBaseInitializer initializer) : base(initializer) { }
         /// <summary>
         /// Generic constructor: it is useful for JCOBridge when there is a derived class which needs to pass arguments to the highest JVMBridgeBase class
         /// </summary>
-        [global::System.Obsolete("PDDestination class represents, in .NET, an instance of a JVM interface or abstract class. This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.")]
-        public PDDestination(params object[] args) : base(args) { }
+        [global::System.Obsolete("CustomFactory class represents, in .NET, an instance of a JVM interface or abstract class. This public initializer is needed for JCOBridge internal use, other uses can produce unidentible behaviors.")]
+        public CustomFactory(params object[] args) : base(args) { }
 
         private static readonly global::System.Exception _LocalBridgeClazzException = null;
         private static readonly MASES.JCOBridge.C2JBridge.JVMInterop.IJavaType _LocalBridgeClazz = JVMBridgeBase.ClazzOf(_bridgeClassName, out _LocalBridgeClazzException, false);
@@ -59,7 +59,7 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination
         /// <inheritdoc/>
         public override bool IsBridgeCloseable => false;
         /// <inheritdoc/>
-        public override bool IsBridgeInterface => false;
+        public override bool IsBridgeInterface => true;
         /// <inheritdoc/>
         public override bool IsBridgeStatic => false;
 
@@ -68,8 +68,26 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination
     }
     #endregion
 
-    #region PDDestination implementation
-    public partial class PDDestination
+    #region ICustomFactory
+    /// <summary>
+    /// .NET interface skeleton to be manually developed following <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.6/org/apache/pdfbox/pdmodel/graphics/image/CustomFactory.html"/>
+    /// </summary>
+    public partial interface ICustomFactory
+    {
+        #region Instance methods
+
+        #endregion
+
+        #region Nested classes
+
+        #endregion
+
+        // TODO: complete the class
+    }
+    #endregion
+
+    #region CustomFactory implementation
+    public partial class CustomFactory : Org.Apache.Pdfbox.Pdmodel.Graphics.Image.ICustomFactory
     {
         #region Constructors
 
@@ -84,20 +102,21 @@ namespace Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination
         #endregion
 
         #region Static methods
-        /// <summary>
-        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.6/org/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDDestination.html#create-org.apache.pdfbox.cos.COSBase-"/>
-        /// </summary>
-        /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Cos.COSBase"/></param>
-        /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination.PDDestination"/></returns>
-        /// <exception cref="Java.Io.IOException"/>
-        public static Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination.PDDestination Create(Org.Apache.Pdfbox.Cos.COSBase arg0)
-        {
-            return SExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Interactive.Documentnavigation.Destination.PDDestination>(LocalBridgeClazz, "create", "(Lorg/apache/pdfbox/cos/COSBase;)Lorg/apache/pdfbox/pdmodel/interactive/documentnavigation/destination/PDDestination;", arg0);
-        }
 
         #endregion
 
         #region Instance methods
+        /// <summary>
+        /// <see href="https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.6/org/apache/pdfbox/pdmodel/graphics/image/CustomFactory.html#createFromByteArray-org.apache.pdfbox.pdmodel.PDDocument-byte[]-"/>
+        /// </summary>
+        /// <param name="arg0"><see cref="Org.Apache.Pdfbox.Pdmodel.PDDocument"/></param>
+        /// <param name="arg1"><see cref="byte"/></param>
+        /// <returns><see cref="Org.Apache.Pdfbox.Pdmodel.Graphics.Image.PDImageXObject"/></returns>
+        /// <exception cref="Java.Io.IOException"/>
+        public Org.Apache.Pdfbox.Pdmodel.Graphics.Image.PDImageXObject CreateFromByteArray(Org.Apache.Pdfbox.Pdmodel.PDDocument arg0, byte[] arg1)
+        {
+            return IExecuteWithSignature<Org.Apache.Pdfbox.Pdmodel.Graphics.Image.PDImageXObject>("createFromByteArray", "(Lorg/apache/pdfbox/pdmodel/PDDocument;[B)Lorg/apache/pdfbox/pdmodel/graphics/image/PDImageXObject;", arg0, arg1);
+        }
 
         #endregion
 
