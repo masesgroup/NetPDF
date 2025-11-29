@@ -31,7 +31,13 @@ jobs:
         with:
           fetch-depth: '1'
           submodules: 'true'
-          
+         
+      - uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: |
+            9.x
+            10.x
+         
       - name: Common site
         uses: actions/checkout@v6
         with:
