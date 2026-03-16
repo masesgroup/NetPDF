@@ -15361,6 +15361,130 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDevanagari.IsBridgeStatic
   nameWithType: GsubWorkerForDevanagari.IsBridgeStatic
+- uid: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt
+  name: GsubWorkerForDflt
+  href: api/Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.html
+  commentId: T:Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt
+  fullName: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt
+  nameWithType: GsubWorkerForDflt
+- uid: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.#ctor
+  name: GsubWorkerForDflt()
+  href: api/Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.html#Org_Apache_Fontbox_Ttf_Gsub_GsubWorkerForDflt__ctor
+  commentId: M:Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.#ctor
+  name.vb: New()
+  fullName: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.GsubWorkerForDflt()
+  fullName.vb: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.New()
+  nameWithType: GsubWorkerForDflt.GsubWorkerForDflt()
+  nameWithType.vb: GsubWorkerForDflt.New()
+- uid: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name: GsubWorkerForDflt(IJVMBridgeBaseInitializer)
+  href: api/Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.html#Org_Apache_Fontbox_Ttf_Gsub_GsubWorkerForDflt__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
+  commentId: M:Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  name.vb: New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.GsubWorkerForDflt(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: GsubWorkerForDflt.GsubWorkerForDflt(IJVMBridgeBaseInitializer)
+  nameWithType.vb: GsubWorkerForDflt.New(IJVMBridgeBaseInitializer)
+- uid: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.#ctor(System.Object[])
+  name: GsubWorkerForDflt(params object[])
+  href: api/Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.html#Org_Apache_Fontbox_Ttf_Gsub_GsubWorkerForDflt__ctor_System_Object___
+  commentId: M:Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.#ctor(System.Object[])
+  name.vb: New(ParamArray Object())
+  fullName: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.GsubWorkerForDflt(params object[])
+  fullName.vb: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.New(ParamArray Object())
+  nameWithType: GsubWorkerForDflt.GsubWorkerForDflt(params object[])
+  nameWithType.vb: GsubWorkerForDflt.New(ParamArray Object())
+- uid: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.#ctor*
+  name: GsubWorkerForDflt
+  href: api/Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.html#Org_Apache_Fontbox_Ttf_Gsub_GsubWorkerForDflt__ctor_
+  commentId: Overload:Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.GsubWorkerForDflt
+  fullName.vb: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.New
+  nameWithType: GsubWorkerForDflt.GsubWorkerForDflt
+  nameWithType.vb: GsubWorkerForDflt.New
+- uid: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.ApplyTransforms(Java.Util.List{Java.Lang.Integer})
+  name: ApplyTransforms(List<Integer>)
+  href: api/Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.html#Org_Apache_Fontbox_Ttf_Gsub_GsubWorkerForDflt_ApplyTransforms_Java_Util_List_Java_Lang_Integer__
+  commentId: M:Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.ApplyTransforms(Java.Util.List{Java.Lang.Integer})
+  name.vb: ApplyTransforms(List(Of Integer))
+  fullName: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.ApplyTransforms(Java.Util.List<Java.Lang.Integer>)
+  fullName.vb: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.ApplyTransforms(Java.Util.List(Of Java.Lang.Integer))
+  nameWithType: GsubWorkerForDflt.ApplyTransforms(List<Integer>)
+  nameWithType.vb: GsubWorkerForDflt.ApplyTransforms(List(Of Integer))
+- uid: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.ApplyTransforms*
+  name: ApplyTransforms
+  href: api/Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.html#Org_Apache_Fontbox_Ttf_Gsub_GsubWorkerForDflt_ApplyTransforms_
+  commentId: Overload:Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.ApplyTransforms
+  isSpec: "True"
+  fullName: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.ApplyTransforms
+  nameWithType: GsubWorkerForDflt.ApplyTransforms
+- uid: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.BridgeClassName
+  name: BridgeClassName
+  href: api/Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.html#Org_Apache_Fontbox_Ttf_Gsub_GsubWorkerForDflt_BridgeClassName
+  commentId: P:Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.BridgeClassName
+  fullName: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.BridgeClassName
+  nameWithType: GsubWorkerForDflt.BridgeClassName
+- uid: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.BridgeClassName*
+  name: BridgeClassName
+  href: api/Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.html#Org_Apache_Fontbox_Ttf_Gsub_GsubWorkerForDflt_BridgeClassName_
+  commentId: Overload:Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.BridgeClassName
+  isSpec: "True"
+  fullName: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.BridgeClassName
+  nameWithType: GsubWorkerForDflt.BridgeClassName
+- uid: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.IsBridgeAbstract
+  name: IsBridgeAbstract
+  href: api/Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.html#Org_Apache_Fontbox_Ttf_Gsub_GsubWorkerForDflt_IsBridgeAbstract
+  commentId: P:Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.IsBridgeAbstract
+  fullName: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.IsBridgeAbstract
+  nameWithType: GsubWorkerForDflt.IsBridgeAbstract
+- uid: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.IsBridgeAbstract*
+  name: IsBridgeAbstract
+  href: api/Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.html#Org_Apache_Fontbox_Ttf_Gsub_GsubWorkerForDflt_IsBridgeAbstract_
+  commentId: Overload:Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.IsBridgeAbstract
+  isSpec: "True"
+  fullName: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.IsBridgeAbstract
+  nameWithType: GsubWorkerForDflt.IsBridgeAbstract
+- uid: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.IsBridgeCloseable
+  name: IsBridgeCloseable
+  href: api/Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.html#Org_Apache_Fontbox_Ttf_Gsub_GsubWorkerForDflt_IsBridgeCloseable
+  commentId: P:Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.IsBridgeCloseable
+  fullName: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.IsBridgeCloseable
+  nameWithType: GsubWorkerForDflt.IsBridgeCloseable
+- uid: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.IsBridgeCloseable*
+  name: IsBridgeCloseable
+  href: api/Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.html#Org_Apache_Fontbox_Ttf_Gsub_GsubWorkerForDflt_IsBridgeCloseable_
+  commentId: Overload:Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.IsBridgeCloseable
+  isSpec: "True"
+  fullName: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.IsBridgeCloseable
+  nameWithType: GsubWorkerForDflt.IsBridgeCloseable
+- uid: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.IsBridgeInterface
+  name: IsBridgeInterface
+  href: api/Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.html#Org_Apache_Fontbox_Ttf_Gsub_GsubWorkerForDflt_IsBridgeInterface
+  commentId: P:Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.IsBridgeInterface
+  fullName: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.IsBridgeInterface
+  nameWithType: GsubWorkerForDflt.IsBridgeInterface
+- uid: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.IsBridgeInterface*
+  name: IsBridgeInterface
+  href: api/Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.html#Org_Apache_Fontbox_Ttf_Gsub_GsubWorkerForDflt_IsBridgeInterface_
+  commentId: Overload:Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.IsBridgeInterface
+  isSpec: "True"
+  fullName: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.IsBridgeInterface
+  nameWithType: GsubWorkerForDflt.IsBridgeInterface
+- uid: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.IsBridgeStatic
+  name: IsBridgeStatic
+  href: api/Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.html#Org_Apache_Fontbox_Ttf_Gsub_GsubWorkerForDflt_IsBridgeStatic
+  commentId: P:Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.IsBridgeStatic
+  fullName: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.IsBridgeStatic
+  nameWithType: GsubWorkerForDflt.IsBridgeStatic
+- uid: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.IsBridgeStatic*
+  name: IsBridgeStatic
+  href: api/Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.html#Org_Apache_Fontbox_Ttf_Gsub_GsubWorkerForDflt_IsBridgeStatic_
+  commentId: Overload:Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.IsBridgeStatic
+  isSpec: "True"
+  fullName: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForDflt.IsBridgeStatic
+  nameWithType: GsubWorkerForDflt.IsBridgeStatic
 - uid: Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForGujarati
   name: GsubWorkerForGujarati
   href: api/Org.Apache.Fontbox.Ttf.Gsub.GsubWorkerForGujarati.html
@@ -17537,6 +17661,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Fontbox.Ttf.Model.Language.DEVANAGARI
   nameWithType: Language.DEVANAGARI
+- uid: Org.Apache.Fontbox.Ttf.Model.Language.DFLT
+  name: DFLT
+  href: api/Org.Apache.Fontbox.Ttf.Model.Language.html#Org_Apache_Fontbox_Ttf_Model_Language_DFLT
+  commentId: P:Org.Apache.Fontbox.Ttf.Model.Language.DFLT
+  fullName: Org.Apache.Fontbox.Ttf.Model.Language.DFLT
+  nameWithType: Language.DFLT
+- uid: Org.Apache.Fontbox.Ttf.Model.Language.DFLT*
+  name: DFLT
+  href: api/Org.Apache.Fontbox.Ttf.Model.Language.html#Org_Apache_Fontbox_Ttf_Model_Language_DFLT_
+  commentId: Overload:Org.Apache.Fontbox.Ttf.Model.Language.DFLT
+  isSpec: "True"
+  fullName: Org.Apache.Fontbox.Ttf.Model.Language.DFLT
+  nameWithType: Language.DFLT
 - uid: Org.Apache.Fontbox.Ttf.Model.Language.GUJARATI
   name: GUJARATI
   href: api/Org.Apache.Fontbox.Ttf.Model.Language.html#Org_Apache_Fontbox_Ttf_Model_Language_GUJARATI
@@ -41064,6 +41201,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Pdfbox.Cos.COSDictionary.RemoveItem
   nameWithType: COSDictionary.RemoveItem
+- uid: Org.Apache.Pdfbox.Cos.COSDictionary.ResetImportedObjectKeys
+  name: ResetImportedObjectKeys()
+  href: api/Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_ResetImportedObjectKeys
+  commentId: M:Org.Apache.Pdfbox.Cos.COSDictionary.ResetImportedObjectKeys
+  fullName: Org.Apache.Pdfbox.Cos.COSDictionary.ResetImportedObjectKeys()
+  nameWithType: COSDictionary.ResetImportedObjectKeys()
+- uid: Org.Apache.Pdfbox.Cos.COSDictionary.ResetImportedObjectKeys*
+  name: ResetImportedObjectKeys
+  href: api/Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_ResetImportedObjectKeys_
+  commentId: Overload:Org.Apache.Pdfbox.Cos.COSDictionary.ResetImportedObjectKeys
+  isSpec: "True"
+  fullName: Org.Apache.Pdfbox.Cos.COSDictionary.ResetImportedObjectKeys
+  nameWithType: COSDictionary.ResetImportedObjectKeys
 - uid: Org.Apache.Pdfbox.Cos.COSDictionary.SetBoolean(Java.Lang.String,System.Boolean)
   name: SetBoolean(String, bool)
   href: api/Org.Apache.Pdfbox.Cos.COSDictionary.html#Org_Apache_Pdfbox_Cos_COSDictionary_SetBoolean_Java_Lang_String_System_Boolean_
@@ -55239,6 +55389,31 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Pdfbox.Io.RandomAccessRead.Read
   nameWithType: RandomAccessRead.Read
+- uid: Org.Apache.Pdfbox.Io.RandomAccessRead.ReadFully(System.Byte[])
+  name: ReadFully(byte[])
+  href: api/Org.Apache.Pdfbox.Io.RandomAccessRead.html#Org_Apache_Pdfbox_Io_RandomAccessRead_ReadFully_System_Byte___
+  commentId: M:Org.Apache.Pdfbox.Io.RandomAccessRead.ReadFully(System.Byte[])
+  name.vb: ReadFully(Byte())
+  fullName: Org.Apache.Pdfbox.Io.RandomAccessRead.ReadFully(byte[])
+  fullName.vb: Org.Apache.Pdfbox.Io.RandomAccessRead.ReadFully(Byte())
+  nameWithType: RandomAccessRead.ReadFully(byte[])
+  nameWithType.vb: RandomAccessRead.ReadFully(Byte())
+- uid: Org.Apache.Pdfbox.Io.RandomAccessRead.ReadFully(System.Byte[],System.Int32,System.Int32)
+  name: ReadFully(byte[], int, int)
+  href: api/Org.Apache.Pdfbox.Io.RandomAccessRead.html#Org_Apache_Pdfbox_Io_RandomAccessRead_ReadFully_System_Byte___System_Int32_System_Int32_
+  commentId: M:Org.Apache.Pdfbox.Io.RandomAccessRead.ReadFully(System.Byte[],System.Int32,System.Int32)
+  name.vb: ReadFully(Byte(), Integer, Integer)
+  fullName: Org.Apache.Pdfbox.Io.RandomAccessRead.ReadFully(byte[], int, int)
+  fullName.vb: Org.Apache.Pdfbox.Io.RandomAccessRead.ReadFully(Byte(), Integer, Integer)
+  nameWithType: RandomAccessRead.ReadFully(byte[], int, int)
+  nameWithType.vb: RandomAccessRead.ReadFully(Byte(), Integer, Integer)
+- uid: Org.Apache.Pdfbox.Io.RandomAccessRead.ReadFully*
+  name: ReadFully
+  href: api/Org.Apache.Pdfbox.Io.RandomAccessRead.html#Org_Apache_Pdfbox_Io_RandomAccessRead_ReadFully_
+  commentId: Overload:Org.Apache.Pdfbox.Io.RandomAccessRead.ReadFully
+  isSpec: "True"
+  fullName: Org.Apache.Pdfbox.Io.RandomAccessRead.ReadFully
+  nameWithType: RandomAccessRead.ReadFully
 - uid: Org.Apache.Pdfbox.Io.RandomAccessRead.Rewind(System.Int32)
   name: Rewind(int)
   href: api/Org.Apache.Pdfbox.Io.RandomAccessRead.html#Org_Apache_Pdfbox_Io_RandomAccessRead_Rewind_System_Int32_
@@ -102413,22 +102588,6 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDIndexed.IsBridgeStatic
   nameWithType: PDIndexed.IsBridgeStatic
-- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDIndexed.SetHighValue(System.Int32)
-  name: SetHighValue(int)
-  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDIndexed.html#Org_Apache_Pdfbox_Pdmodel_Graphics_Color_PDIndexed_SetHighValue_System_Int32_
-  commentId: M:Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDIndexed.SetHighValue(System.Int32)
-  name.vb: SetHighValue(Integer)
-  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDIndexed.SetHighValue(int)
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDIndexed.SetHighValue(Integer)
-  nameWithType: PDIndexed.SetHighValue(int)
-  nameWithType.vb: PDIndexed.SetHighValue(Integer)
-- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDIndexed.SetHighValue*
-  name: SetHighValue
-  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDIndexed.html#Org_Apache_Pdfbox_Pdmodel_Graphics_Color_PDIndexed_SetHighValue_
-  commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDIndexed.SetHighValue
-  isSpec: "True"
-  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDIndexed.SetHighValue
-  nameWithType: PDIndexed.SetHighValue
 - uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDJPXColorSpace
   name: PDJPXColorSpace
   href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDJPXColorSpace.html
