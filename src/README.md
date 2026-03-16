@@ -32,22 +32,22 @@ The configuration is:
   "DisableInterfaceMethodGeneration": true,
   "CreateInterfaceInheritance": true,
   "JarList": [
-    "pdfbox-3.0.5.jar",
-    "pdfbox-io-3.0.5.jar",
-    "fontbox-3.0.5.jar"
+    "pdfbox-3.0.7.jar",
+    "pdfbox-io-3.0.7.jar",
+    "fontbox-3.0.7.jar"
   ],
   "OriginJavadocJARVersionAndUrls": [
     {
       "Version": 8,
-      "Url": "https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.5/"
+      "Url": "https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox/3.0.7/"
     },
     {
       "Version": 8,
-      "Url": "https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.5/"
+      "Url": "https://www.javadoc.io/doc/org.apache.pdfbox/pdfbox-io/3.0.7/"
     },
     {
       "Version": 8,
-      "Url": "https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.5/"
+      "Url": "https://www.javadoc.io/doc/org.apache.pdfbox/fontbox/3.0.7/"
     }
   ],
   "NamespacesToAvoid": [
