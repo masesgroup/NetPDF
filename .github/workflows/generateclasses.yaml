@@ -53,7 +53,7 @@ jobs:
         run: git config --system core.longpaths true
       
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           fetch-depth: '1'
           submodules: 'true'
@@ -64,7 +64,7 @@ jobs:
             9.x
             10.x
 
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         if: ${{ inputs.UseLatestJNetReflectorSource == true }}
         with:
           repository: masesgroup/JNet
