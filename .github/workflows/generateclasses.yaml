@@ -86,7 +86,7 @@ jobs:
         run: mvn "-DmavenSkipMain=true" --file ./src/jvm/netpdf/pom.xml --no-transfer-progress package
 
       - name: Clear C# generated files
-        run: Remove-Item .\src\net\NetPDF\Generated\* -Recurse -Force -Exclude README.md,,.editorconfig
+        run: Remove-Item .\src\net\NetPDF\Generated\* -Recurse -Force -Exclude README.md,.editorconfig
 
       - name: Clear Java generated files
         run: Remove-Item .\src\jvm\netpdf\src\main\java\org\mases\netpdf\generated\* -Recurse -Force -Exclude README.md
