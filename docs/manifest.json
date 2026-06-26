@@ -5440,7 +5440,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4.Parser.SyntaxHandlerDirect",
-      "Summary": "<p sourcefile=\"api/Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4.Parser.SyntaxHandlerDirect.yml\" sourcestartlinenumber=\"1\">Direct override of <xref href=\"Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4.Parser.SyntaxHandler\" data-throw-if-not-resolved=\"false\"></xref> or its generic type if there is one</p>\n"
+      "Summary": "<p sourcefile=\"api/Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4.Parser.SyntaxHandlerDirect.yml\" sourcestartlinenumber=\"1\">Concrete CLR representation of <xref href=\"Org.Apache.Pdfbox.Pdmodel.Common.Function.Type4.Parser.SyntaxHandler\" data-throw-if-not-resolved=\"false\"></xref> returned by the JVM.</p>\n"
     },
     {
       "type": "ManagedReference",
