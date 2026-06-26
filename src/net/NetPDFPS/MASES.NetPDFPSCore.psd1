@@ -94,7 +94,9 @@ PrivateData = @{
 
     PSData = @{
 
-        Tags = @('NetPDFPS', 'NetPDF', 'PSEdition_Core', 'PSEdition_Desktop', 'Windows', 'Linux', 'JVM', 'Java', 'PDFBox', 'PDF', 'bridge', 'gateway')
+        Prerelease = ''
+
+        Tags = @('NetPDFPS', 'NetPDF', 'PSEdition_Core', 'Windows', 'Linux', 'JVM', 'Java', 'PDFBox', 'PDF', 'bridge', 'gateway')
 
         LicenseUri = 'https://github.com/masesgroup/NetPDF/blob/master/LICENSE'
 
