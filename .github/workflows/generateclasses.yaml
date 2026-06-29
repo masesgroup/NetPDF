@@ -134,7 +134,7 @@ jobs:
         if: ${{ inputs.UseLastRepositoryBuild == false && inputs.UseLatestJNetReflectorSource == false }}
         run: dotnet tool update --version ${{ env.JNet_Version }} -g MASES.JNetReflector
 
-      - uses: actions/cache/restore@v5
+      - uses: actions/cache/restore@v6
         id: cache
         with:
           lookup-only: true
@@ -142,7 +142,7 @@ jobs:
           path: ./fontcache/
           key: PdfBox_FontCache_${{ env.PDFBox_Version }}
 
-      - uses: actions/cache/restore@v5
+      - uses: actions/cache/restore@v6
         if: steps.cache.outputs.cache-hit == 'true'
         with:
           enableCrossOsArchive: true
@@ -173,7 +173,7 @@ jobs:
 
       - name: Upload artifacts
         if: steps.cache.outputs.cache-hit != 'true'
-        uses: actions/cache/save@v5
+        uses: actions/cache/save@v6
         with:
           enableCrossOsArchive: true
           key: PdfBox_FontCache_${{ env.PDFBox_Version }}
