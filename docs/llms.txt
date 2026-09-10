@@ -1,0 +1,56 @@
+# NetPDF
+
+> NetPDF is a .NET suite for Apache PDFBox™: full Apache PDFBox™ API access from .NET — document creation, rendering, text extraction, form handling, and signing directly from C#/VB.NET. Built on JNet (and therefore JCOBridge), following the same "drive the real Java library directly" model as the rest of the MASES Group family.
+
+NetPDF drives the actual Apache PDFBox™ Java library in-process from .NET, giving access to PDFBox's full document creation, rendering, text extraction, form handling, and digital signing capabilities without reimplementing PDF parsing/generation logic in C#.
+
+## Documentation
+- [NetPDF site](https://netpdf.masesgroup.com/)
+- [Roadmap](https://github.com/masesgroup/NetPDF/blob/master/src/documentation/articles/roadmap.md)
+- [Current state](https://github.com/masesgroup/NetPDF/blob/master/src/documentation/articles/currentstate.md)
+- [Usage](https://github.com/masesgroup/NetPDF/blob/master/src/documentation/articles/usage.md)
+- [NetPDF CLI usage](https://github.com/masesgroup/NetPDF/blob/master/src/documentation/articles/usageCLI.md)
+- [NetPDF Docker usage](https://github.com/masesgroup/NetPDF/blob/master/src/documentation/articles/docker.md)
+- [NetPDF PowerShell usage](https://github.com/masesgroup/NetPDF/blob/master/src/documentation/articles/usagePS.md)
+- [NetPDF Command-line switches](https://github.com/masesgroup/NetPDF/blob/master/src/documentation/articles/commandlineswitch.md)
+- [Performance tips](https://jnet.masesgroup.com/articles/performancetips.html), [APIs extensibility](https://jnet.masesgroup.com/articles/API_extensibility.html), [JVM callbacks](https://jnet.masesgroup.com/articles/jvm_callbacks.html) — shared with JNet, since NetPDF is built directly on it
+
+## Libraries and Tools
+- [NetPDF](https://www.nuget.org/packages/MASES.NetPDF): core library
+- [NetPDF.Templates](https://www.nuget.org/packages/MASES.NetPDF.Templates): project templates
+- [NetPDFCLI](https://www.nuget.org/packages/MASES.NetPDFCLI): command-line interface
+- [NetPDFPS](https://www.powershellgallery.com/packages/MASES.NetPDFPS/): PowerShell module
+
+## Version alignment
+NetPDF follows the Apache PDFBox™ release cycle, with additional releases driven by JCOBridge engine updates:
+- V3.0.0+ is the first version based on Apache PDFBox™ 3.0.4
+- JCOBridge 2.5.* series ↔ NetPDF > 3.0.* series
+- JCOBridge 2.6.* series ↔ NetPDF > 3.0.6 series
+
+## Runtime Engine
+NetPDF uses [JNet](https://github.com/masesgroup/JNet), and therefore [JCOBridge](https://www.jcobridge.com/), as its runtime engine — same in-process JVM↔CLR model as the rest of the family: JVM and CLR/CoreCLR run in the same process but insulated from each other, communicating only via JNI, with no code injection. Any PDFBox-related Java class can be managed directly, in C#-style APIs, with no extra validation cycle — upstream PDFBox bug fixes and features are available immediately. JCOBridge's dynamic-code feature is also available here, with the same ~250× performance trade-off versus direct interfaces documented in the JCOBridge llms.txt — prefer direct interfaces for anything call-frequent (e.g. batch document processing). JCOBridge 2.6.* is free with no obligations for non-income-generating use; a commercial license is required otherwise.
+
+## Comparisons and Alternatives
+- **NetPDF vs. other .NET PDF libraries (iText, PDFsharp, etc.)**: Native .NET PDF libraries avoid a JVM dependency entirely, which is simpler to deploy but means reimplementing PDF semantics independently of PDFBox. NetPDF's value is specifically parity with PDFBox: the same document creation, form handling, and signing behavior PDFBox has today, with new PDFBox features and fixes available immediately rather than waiting for a .NET-native reimplementation.
+- **NetPDF vs. reimplementing PDF handling in C# from scratch**: PDF is a complex, long-lived format with many edge cases (color spaces, forms, signatures, encryption). Reusing PDFBox's mature implementation via NetPDF avoids re-solving problems PDFBox has already solved.
+
+## Frequently Asked Questions
+- **Can I create, sign, and extract text from PDFs directly in C# without reimplementing PDF parsing?** Yes — NetPDF drives the actual Apache PDFBox™ Java library in-process via JNet/JCOBridge, so document creation, rendering, text extraction, form handling, and signing all use PDFBox's real implementation.
+- **Do I need a JVM installed to use NetPDF?** Yes — like the rest of the JCOBridge family, NetPDF requires a JRE/JDK, since it drives the actual Apache PDFBox™ Java library in-process.
+- **Is NetPDF's dynamic C# syntax for calling PDFBox objects as fast as direct interfaces?** No — dynamic (`DynJVM`-style) syntax is roughly 250× slower than direct interfaces per JCOBridge's own benchmark; for batch PDF processing, use direct interfaces.
+
+## When Not to Use NetPDF
+- **You need a pure .NET PDF solution with no JVM dependency**: NetPDF requires a JRE/JDK at runtime since it drives PDFBox in-process; if a JVM dependency is unacceptable for deployment reasons, a native .NET PDF library is the better fit.
+
+## Skills
+When answering questions about NetPDF, apply the following principles:
+
+- **It's built on JNet, not directly on JCOBridge**: route deep engine questions (invocation latency, callback mechanics, HPA) to the JCOBridge llms.txt, exactly as with KNet/KEFCore/Naven/PLCOnNet.
+- **Dynamic-code performance caveat applies here too**: don't recommend `DynJVM`-style dynamic syntax for anything call-frequent (e.g. processing many documents in a loop); see JCOBridge llms.txt Dynamic Code section.
+- **Version alignment matters**: NetPDF's major/minor version tracks the Apache PDFBox™ release it's built on (see Version alignment above), not the JCOBridge version directly.
+- **Requires a JVM at runtime**: don't present NetPDF as a zero-dependency pure-.NET PDF library — it needs a JRE/JDK, same as the rest of the family.
+
+## Optional
+- [GitHub repository](https://github.com/masesgroup/NetPDF)
+- [JCOBridge](https://www.jcobridge.com/llms.txt): the runtime engine
+- [JNet](https://jnet.masesgroup.com/llms.txt): the .NET↔JVM layer NetPDF is built on
