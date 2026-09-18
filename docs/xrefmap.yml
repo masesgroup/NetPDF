@@ -42082,6 +42082,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Pdfbox.Cos.COSName.BridgeClassName
   nameWithType: COSName.BridgeClassName
+- uid: Org.Apache.Pdfbox.Cos.COSName.Bytes
+  name: Bytes
+  href: api/Org.Apache.Pdfbox.Cos.COSName.html#Org_Apache_Pdfbox_Cos_COSName_Bytes
+  commentId: P:Org.Apache.Pdfbox.Cos.COSName.Bytes
+  fullName: Org.Apache.Pdfbox.Cos.COSName.Bytes
+  nameWithType: COSName.Bytes
+- uid: Org.Apache.Pdfbox.Cos.COSName.Bytes*
+  name: Bytes
+  href: api/Org.Apache.Pdfbox.Cos.COSName.html#Org_Apache_Pdfbox_Cos_COSName_Bytes_
+  commentId: Overload:Org.Apache.Pdfbox.Cos.COSName.Bytes
+  isSpec: "True"
+  fullName: Org.Apache.Pdfbox.Cos.COSName.Bytes
+  nameWithType: COSName.Bytes
 - uid: Org.Apache.Pdfbox.Cos.COSName.C
   name: C
   href: api/Org.Apache.Pdfbox.Cos.COSName.html#Org_Apache_Pdfbox_Cos_COSName_C
@@ -44515,6 +44528,15 @@ references:
   commentId: M:Org.Apache.Pdfbox.Cos.COSName.GetPDFName(Java.Lang.String)
   fullName: Org.Apache.Pdfbox.Cos.COSName.GetPDFName(Java.Lang.String)
   nameWithType: COSName.GetPDFName(String)
+- uid: Org.Apache.Pdfbox.Cos.COSName.GetPDFName(System.Byte[])
+  name: GetPDFName(byte[])
+  href: api/Org.Apache.Pdfbox.Cos.COSName.html#Org_Apache_Pdfbox_Cos_COSName_GetPDFName_System_Byte___
+  commentId: M:Org.Apache.Pdfbox.Cos.COSName.GetPDFName(System.Byte[])
+  name.vb: GetPDFName(Byte())
+  fullName: Org.Apache.Pdfbox.Cos.COSName.GetPDFName(byte[])
+  fullName.vb: Org.Apache.Pdfbox.Cos.COSName.GetPDFName(Byte())
+  nameWithType: COSName.GetPDFName(byte[])
+  nameWithType.vb: COSName.GetPDFName(Byte())
 - uid: Org.Apache.Pdfbox.Cos.COSName.GetPDFName*
   name: GetPDFName
   href: api/Org.Apache.Pdfbox.Cos.COSName.html#Org_Apache_Pdfbox_Cos_COSName_GetPDFName_
@@ -51615,6 +51637,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Pdfbox.Filter.Filter.IsBridgeStatic
   nameWithType: Filter.IsBridgeStatic
+- uid: Org.Apache.Pdfbox.Filter.Filter.SYSPROP_CCITTFAX_MAXBYTES
+  name: SYSPROP_CCITTFAX_MAXBYTES
+  href: api/Org.Apache.Pdfbox.Filter.Filter.html#Org_Apache_Pdfbox_Filter_Filter_SYSPROP_CCITTFAX_MAXBYTES
+  commentId: P:Org.Apache.Pdfbox.Filter.Filter.SYSPROP_CCITTFAX_MAXBYTES
+  fullName: Org.Apache.Pdfbox.Filter.Filter.SYSPROP_CCITTFAX_MAXBYTES
+  nameWithType: Filter.SYSPROP_CCITTFAX_MAXBYTES
+- uid: Org.Apache.Pdfbox.Filter.Filter.SYSPROP_CCITTFAX_MAXBYTES*
+  name: SYSPROP_CCITTFAX_MAXBYTES
+  href: api/Org.Apache.Pdfbox.Filter.Filter.html#Org_Apache_Pdfbox_Filter_Filter_SYSPROP_CCITTFAX_MAXBYTES_
+  commentId: Overload:Org.Apache.Pdfbox.Filter.Filter.SYSPROP_CCITTFAX_MAXBYTES
+  isSpec: "True"
+  fullName: Org.Apache.Pdfbox.Filter.Filter.SYSPROP_CCITTFAX_MAXBYTES
+  nameWithType: Filter.SYSPROP_CCITTFAX_MAXBYTES
 - uid: Org.Apache.Pdfbox.Filter.Filter.SYSPROP_DEFLATELEVEL
   name: SYSPROP_DEFLATELEVEL
   href: api/Org.Apache.Pdfbox.Filter.Filter.html#Org_Apache_Pdfbox_Filter_Filter_SYSPROP_DEFLATELEVEL
@@ -52341,6 +52376,32 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Pdfbox.Io.IOUtils.CreateMemoryOnlyStreamCache
   nameWithType: IOUtils.CreateMemoryOnlyStreamCache
+- uid: Org.Apache.Pdfbox.Io.IOUtils.CreateProtectedTempDir
+  name: CreateProtectedTempDir()
+  href: api/Org.Apache.Pdfbox.Io.IOUtils.html#Org_Apache_Pdfbox_Io_IOUtils_CreateProtectedTempDir
+  commentId: M:Org.Apache.Pdfbox.Io.IOUtils.CreateProtectedTempDir
+  fullName: Org.Apache.Pdfbox.Io.IOUtils.CreateProtectedTempDir()
+  nameWithType: IOUtils.CreateProtectedTempDir()
+- uid: Org.Apache.Pdfbox.Io.IOUtils.CreateProtectedTempDir*
+  name: CreateProtectedTempDir
+  href: api/Org.Apache.Pdfbox.Io.IOUtils.html#Org_Apache_Pdfbox_Io_IOUtils_CreateProtectedTempDir_
+  commentId: Overload:Org.Apache.Pdfbox.Io.IOUtils.CreateProtectedTempDir
+  isSpec: "True"
+  fullName: Org.Apache.Pdfbox.Io.IOUtils.CreateProtectedTempDir
+  nameWithType: IOUtils.CreateProtectedTempDir
+- uid: Org.Apache.Pdfbox.Io.IOUtils.CreateProtectedTempFile(Java.Nio.File.Path,Java.Lang.String,Java.Lang.String)
+  name: CreateProtectedTempFile(Path, String, String)
+  href: api/Org.Apache.Pdfbox.Io.IOUtils.html#Org_Apache_Pdfbox_Io_IOUtils_CreateProtectedTempFile_Java_Nio_File_Path_Java_Lang_String_Java_Lang_String_
+  commentId: M:Org.Apache.Pdfbox.Io.IOUtils.CreateProtectedTempFile(Java.Nio.File.Path,Java.Lang.String,Java.Lang.String)
+  fullName: Org.Apache.Pdfbox.Io.IOUtils.CreateProtectedTempFile(Java.Nio.File.Path, Java.Lang.String, Java.Lang.String)
+  nameWithType: IOUtils.CreateProtectedTempFile(Path, String, String)
+- uid: Org.Apache.Pdfbox.Io.IOUtils.CreateProtectedTempFile*
+  name: CreateProtectedTempFile
+  href: api/Org.Apache.Pdfbox.Io.IOUtils.html#Org_Apache_Pdfbox_Io_IOUtils_CreateProtectedTempFile_
+  commentId: Overload:Org.Apache.Pdfbox.Io.IOUtils.CreateProtectedTempFile
+  isSpec: "True"
+  fullName: Org.Apache.Pdfbox.Io.IOUtils.CreateProtectedTempFile
+  nameWithType: IOUtils.CreateProtectedTempFile
 - uid: Org.Apache.Pdfbox.Io.IOUtils.CreateTempFileOnlyStreamCache
   name: CreateTempFileOnlyStreamCache()
   href: api/Org.Apache.Pdfbox.Io.IOUtils.html#Org_Apache_Pdfbox_Io_IOUtils_CreateTempFileOnlyStreamCache
@@ -52782,6 +52843,19 @@ references:
   fullName.vb: Org.Apache.Pdfbox.Io.NonSeekableRandomAccessReadInputStream.New
   nameWithType: NonSeekableRandomAccessReadInputStream.NonSeekableRandomAccessReadInputStream
   nameWithType.vb: NonSeekableRandomAccessReadInputStream.New
+- uid: Org.Apache.Pdfbox.Io.NonSeekableRandomAccessReadInputStream.Available
+  name: Available()
+  href: api/Org.Apache.Pdfbox.Io.NonSeekableRandomAccessReadInputStream.html#Org_Apache_Pdfbox_Io_NonSeekableRandomAccessReadInputStream_Available
+  commentId: M:Org.Apache.Pdfbox.Io.NonSeekableRandomAccessReadInputStream.Available
+  fullName: Org.Apache.Pdfbox.Io.NonSeekableRandomAccessReadInputStream.Available()
+  nameWithType: NonSeekableRandomAccessReadInputStream.Available()
+- uid: Org.Apache.Pdfbox.Io.NonSeekableRandomAccessReadInputStream.Available*
+  name: Available
+  href: api/Org.Apache.Pdfbox.Io.NonSeekableRandomAccessReadInputStream.html#Org_Apache_Pdfbox_Io_NonSeekableRandomAccessReadInputStream_Available_
+  commentId: Overload:Org.Apache.Pdfbox.Io.NonSeekableRandomAccessReadInputStream.Available
+  isSpec: "True"
+  fullName: Org.Apache.Pdfbox.Io.NonSeekableRandomAccessReadInputStream.Available
+  nameWithType: NonSeekableRandomAccessReadInputStream.Available
 - uid: Org.Apache.Pdfbox.Io.NonSeekableRandomAccessReadInputStream.BridgeClassName
   name: BridgeClassName
   href: api/Org.Apache.Pdfbox.Io.NonSeekableRandomAccessReadInputStream.html#Org_Apache_Pdfbox_Io_NonSeekableRandomAccessReadInputStream_BridgeClassName
@@ -52963,6 +53037,22 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Pdfbox.Io.NonSeekableRandomAccessReadInputStream.Read
   nameWithType: NonSeekableRandomAccessReadInputStream.Read
+- uid: Org.Apache.Pdfbox.Io.NonSeekableRandomAccessReadInputStream.ReadFully(System.Byte[],System.Int32,System.Int32)
+  name: ReadFully(byte[], int, int)
+  href: api/Org.Apache.Pdfbox.Io.NonSeekableRandomAccessReadInputStream.html#Org_Apache_Pdfbox_Io_NonSeekableRandomAccessReadInputStream_ReadFully_System_Byte___System_Int32_System_Int32_
+  commentId: M:Org.Apache.Pdfbox.Io.NonSeekableRandomAccessReadInputStream.ReadFully(System.Byte[],System.Int32,System.Int32)
+  name.vb: ReadFully(Byte(), Integer, Integer)
+  fullName: Org.Apache.Pdfbox.Io.NonSeekableRandomAccessReadInputStream.ReadFully(byte[], int, int)
+  fullName.vb: Org.Apache.Pdfbox.Io.NonSeekableRandomAccessReadInputStream.ReadFully(Byte(), Integer, Integer)
+  nameWithType: NonSeekableRandomAccessReadInputStream.ReadFully(byte[], int, int)
+  nameWithType.vb: NonSeekableRandomAccessReadInputStream.ReadFully(Byte(), Integer, Integer)
+- uid: Org.Apache.Pdfbox.Io.NonSeekableRandomAccessReadInputStream.ReadFully*
+  name: ReadFully
+  href: api/Org.Apache.Pdfbox.Io.NonSeekableRandomAccessReadInputStream.html#Org_Apache_Pdfbox_Io_NonSeekableRandomAccessReadInputStream_ReadFully_
+  commentId: Overload:Org.Apache.Pdfbox.Io.NonSeekableRandomAccessReadInputStream.ReadFully
+  isSpec: "True"
+  fullName: Org.Apache.Pdfbox.Io.NonSeekableRandomAccessReadInputStream.ReadFully
+  nameWithType: NonSeekableRandomAccessReadInputStream.ReadFully
 - uid: Org.Apache.Pdfbox.Io.NonSeekableRandomAccessReadInputStream.Rewind(System.Int32)
   name: Rewind(int)
   href: api/Org.Apache.Pdfbox.Io.NonSeekableRandomAccessReadInputStream.html#Org_Apache_Pdfbox_Io_NonSeekableRandomAccessReadInputStream_Rewind_System_Int32_
@@ -56817,14 +56907,14 @@ references:
   fullName: Org.Apache.Pdfbox.Multipdf.PDFCloneUtility.CloneForNewDocument
   nameWithType: PDFCloneUtility.CloneForNewDocument
 - uid: Org.Apache.Pdfbox.Multipdf.PDFCloneUtility.CloneForNewDocument``1(``0)
-  name: CloneForNewDocument<TCOSBase>(TCOSBase)
+  name: CloneForNewDocument<TCOSBASE>(TCOSBASE)
   href: api/Org.Apache.Pdfbox.Multipdf.PDFCloneUtility.html#Org_Apache_Pdfbox_Multipdf_PDFCloneUtility_CloneForNewDocument__1___0_
   commentId: M:Org.Apache.Pdfbox.Multipdf.PDFCloneUtility.CloneForNewDocument``1(``0)
-  name.vb: CloneForNewDocument(Of TCOSBase)(TCOSBase)
-  fullName: Org.Apache.Pdfbox.Multipdf.PDFCloneUtility.CloneForNewDocument<TCOSBase>(TCOSBase)
-  fullName.vb: Org.Apache.Pdfbox.Multipdf.PDFCloneUtility.CloneForNewDocument(Of TCOSBase)(TCOSBase)
-  nameWithType: PDFCloneUtility.CloneForNewDocument<TCOSBase>(TCOSBase)
-  nameWithType.vb: PDFCloneUtility.CloneForNewDocument(Of TCOSBase)(TCOSBase)
+  name.vb: CloneForNewDocument(Of TCOSBASE)(TCOSBASE)
+  fullName: Org.Apache.Pdfbox.Multipdf.PDFCloneUtility.CloneForNewDocument<TCOSBASE>(TCOSBASE)
+  fullName.vb: Org.Apache.Pdfbox.Multipdf.PDFCloneUtility.CloneForNewDocument(Of TCOSBASE)(TCOSBASE)
+  nameWithType: PDFCloneUtility.CloneForNewDocument<TCOSBASE>(TCOSBASE)
+  nameWithType.vb: PDFCloneUtility.CloneForNewDocument(Of TCOSBASE)(TCOSBASE)
 - uid: Org.Apache.Pdfbox.Multipdf.PDFCloneUtility.IsBridgeAbstract
   name: IsBridgeAbstract
   href: api/Org.Apache.Pdfbox.Multipdf.PDFCloneUtility.html#Org_Apache_Pdfbox_Multipdf_PDFCloneUtility_IsBridgeAbstract
@@ -80904,380 +80994,380 @@ references:
   fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandlerFactory.RegisterHandler
   nameWithType: SecurityHandlerFactory.RegisterHandler
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1
-  name: SecurityHandler<T_POLICY>
+  name: SecurityHandler<TPOLICY>
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html
   commentId: T:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1
-  name.vb: SecurityHandler(Of T_POLICY)
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY)
-  nameWithType: SecurityHandler<T_POLICY>
-  nameWithType.vb: SecurityHandler(Of T_POLICY)
+  name.vb: SecurityHandler(Of TPOLICY)
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY)
+  nameWithType: SecurityHandler<TPOLICY>
+  nameWithType.vb: SecurityHandler(Of TPOLICY)
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   name: SecurityHandler(IJVMBridgeBaseInitializer)
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1__ctor_MASES_JCOBridge_C2JBridge_IJVMBridgeBaseInitializer_
   commentId: M:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.#ctor(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
   name.vb: New(IJVMBridgeBaseInitializer)
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.SecurityHandler(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
-  nameWithType: SecurityHandler<T_POLICY>.SecurityHandler(IJVMBridgeBaseInitializer)
-  nameWithType.vb: SecurityHandler(Of T_POLICY).New(IJVMBridgeBaseInitializer)
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.SecurityHandler(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).New(MASES.JCOBridge.C2JBridge.IJVMBridgeBaseInitializer)
+  nameWithType: SecurityHandler<TPOLICY>.SecurityHandler(IJVMBridgeBaseInitializer)
+  nameWithType.vb: SecurityHandler(Of TPOLICY).New(IJVMBridgeBaseInitializer)
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.#ctor*
   name: SecurityHandler
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1__ctor_
   commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.SecurityHandler
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).New
-  nameWithType: SecurityHandler<T_POLICY>.SecurityHandler
-  nameWithType.vb: SecurityHandler(Of T_POLICY).New
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.SecurityHandler
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).New
+  nameWithType: SecurityHandler<TPOLICY>.SecurityHandler
+  nameWithType.vb: SecurityHandler(Of TPOLICY).New
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.BridgeClassName
   name: BridgeClassName
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_BridgeClassName
   commentId: P:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.BridgeClassName
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.BridgeClassName
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).BridgeClassName
-  nameWithType: SecurityHandler<T_POLICY>.BridgeClassName
-  nameWithType.vb: SecurityHandler(Of T_POLICY).BridgeClassName
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.BridgeClassName
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).BridgeClassName
+  nameWithType: SecurityHandler<TPOLICY>.BridgeClassName
+  nameWithType.vb: SecurityHandler(Of TPOLICY).BridgeClassName
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.BridgeClassName*
   name: BridgeClassName
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_BridgeClassName_
   commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.BridgeClassName
   isSpec: "True"
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.BridgeClassName
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).BridgeClassName
-  nameWithType: SecurityHandler<T_POLICY>.BridgeClassName
-  nameWithType.vb: SecurityHandler(Of T_POLICY).BridgeClassName
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.BridgeClassName
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).BridgeClassName
+  nameWithType: SecurityHandler<TPOLICY>.BridgeClassName
+  nameWithType.vb: SecurityHandler(Of TPOLICY).BridgeClassName
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.CurrentAccessPermission
   name: CurrentAccessPermission
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_CurrentAccessPermission
   commentId: P:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.CurrentAccessPermission
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.CurrentAccessPermission
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).CurrentAccessPermission
-  nameWithType: SecurityHandler<T_POLICY>.CurrentAccessPermission
-  nameWithType.vb: SecurityHandler(Of T_POLICY).CurrentAccessPermission
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.CurrentAccessPermission
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).CurrentAccessPermission
+  nameWithType: SecurityHandler<TPOLICY>.CurrentAccessPermission
+  nameWithType.vb: SecurityHandler(Of TPOLICY).CurrentAccessPermission
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.CurrentAccessPermission*
   name: CurrentAccessPermission
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_CurrentAccessPermission_
   commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.CurrentAccessPermission
   isSpec: "True"
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.CurrentAccessPermission
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).CurrentAccessPermission
-  nameWithType: SecurityHandler<T_POLICY>.CurrentAccessPermission
-  nameWithType.vb: SecurityHandler(Of T_POLICY).CurrentAccessPermission
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.CurrentAccessPermission
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).CurrentAccessPermission
+  nameWithType: SecurityHandler<TPOLICY>.CurrentAccessPermission
+  nameWithType.vb: SecurityHandler(Of TPOLICY).CurrentAccessPermission
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.Decrypt(Org.Apache.Pdfbox.Cos.COSBase,System.Int64,System.Int64)
   name: Decrypt(COSBase, long, long)
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_Decrypt_Org_Apache_Pdfbox_Cos_COSBase_System_Int64_System_Int64_
   commentId: M:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.Decrypt(Org.Apache.Pdfbox.Cos.COSBase,System.Int64,System.Int64)
   name.vb: Decrypt(COSBase, Long, Long)
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.Decrypt(Org.Apache.Pdfbox.Cos.COSBase, long, long)
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).Decrypt(Org.Apache.Pdfbox.Cos.COSBase, Long, Long)
-  nameWithType: SecurityHandler<T_POLICY>.Decrypt(COSBase, long, long)
-  nameWithType.vb: SecurityHandler(Of T_POLICY).Decrypt(COSBase, Long, Long)
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.Decrypt(Org.Apache.Pdfbox.Cos.COSBase, long, long)
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).Decrypt(Org.Apache.Pdfbox.Cos.COSBase, Long, Long)
+  nameWithType: SecurityHandler<TPOLICY>.Decrypt(COSBase, long, long)
+  nameWithType.vb: SecurityHandler(Of TPOLICY).Decrypt(COSBase, Long, Long)
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.Decrypt*
   name: Decrypt
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_Decrypt_
   commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.Decrypt
   isSpec: "True"
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.Decrypt
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).Decrypt
-  nameWithType: SecurityHandler<T_POLICY>.Decrypt
-  nameWithType.vb: SecurityHandler(Of T_POLICY).Decrypt
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.Decrypt
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).Decrypt
+  nameWithType: SecurityHandler<TPOLICY>.Decrypt
+  nameWithType.vb: SecurityHandler(Of TPOLICY).Decrypt
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.DecryptStream(Org.Apache.Pdfbox.Cos.COSStream,System.Int64,System.Int64)
   name: DecryptStream(COSStream, long, long)
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_DecryptStream_Org_Apache_Pdfbox_Cos_COSStream_System_Int64_System_Int64_
   commentId: M:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.DecryptStream(Org.Apache.Pdfbox.Cos.COSStream,System.Int64,System.Int64)
   name.vb: DecryptStream(COSStream, Long, Long)
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.DecryptStream(Org.Apache.Pdfbox.Cos.COSStream, long, long)
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).DecryptStream(Org.Apache.Pdfbox.Cos.COSStream, Long, Long)
-  nameWithType: SecurityHandler<T_POLICY>.DecryptStream(COSStream, long, long)
-  nameWithType.vb: SecurityHandler(Of T_POLICY).DecryptStream(COSStream, Long, Long)
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.DecryptStream(Org.Apache.Pdfbox.Cos.COSStream, long, long)
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).DecryptStream(Org.Apache.Pdfbox.Cos.COSStream, Long, Long)
+  nameWithType: SecurityHandler<TPOLICY>.DecryptStream(COSStream, long, long)
+  nameWithType.vb: SecurityHandler(Of TPOLICY).DecryptStream(COSStream, Long, Long)
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.DecryptStream*
   name: DecryptStream
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_DecryptStream_
   commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.DecryptStream
   isSpec: "True"
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.DecryptStream
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).DecryptStream
-  nameWithType: SecurityHandler<T_POLICY>.DecryptStream
-  nameWithType.vb: SecurityHandler(Of T_POLICY).DecryptStream
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.DecryptStream
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).DecryptStream
+  nameWithType: SecurityHandler<TPOLICY>.DecryptStream
+  nameWithType.vb: SecurityHandler(Of TPOLICY).DecryptStream
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.EncryptStream(Org.Apache.Pdfbox.Cos.COSStream,System.Int64,System.Int32)
   name: EncryptStream(COSStream, long, int)
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_EncryptStream_Org_Apache_Pdfbox_Cos_COSStream_System_Int64_System_Int32_
   commentId: M:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.EncryptStream(Org.Apache.Pdfbox.Cos.COSStream,System.Int64,System.Int32)
   name.vb: EncryptStream(COSStream, Long, Integer)
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.EncryptStream(Org.Apache.Pdfbox.Cos.COSStream, long, int)
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).EncryptStream(Org.Apache.Pdfbox.Cos.COSStream, Long, Integer)
-  nameWithType: SecurityHandler<T_POLICY>.EncryptStream(COSStream, long, int)
-  nameWithType.vb: SecurityHandler(Of T_POLICY).EncryptStream(COSStream, Long, Integer)
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.EncryptStream(Org.Apache.Pdfbox.Cos.COSStream, long, int)
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).EncryptStream(Org.Apache.Pdfbox.Cos.COSStream, Long, Integer)
+  nameWithType: SecurityHandler<TPOLICY>.EncryptStream(COSStream, long, int)
+  nameWithType.vb: SecurityHandler(Of TPOLICY).EncryptStream(COSStream, Long, Integer)
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.EncryptStream*
   name: EncryptStream
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_EncryptStream_
   commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.EncryptStream
   isSpec: "True"
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.EncryptStream
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).EncryptStream
-  nameWithType: SecurityHandler<T_POLICY>.EncryptStream
-  nameWithType.vb: SecurityHandler(Of T_POLICY).EncryptStream
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.EncryptStream
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).EncryptStream
+  nameWithType: SecurityHandler<TPOLICY>.EncryptStream
+  nameWithType.vb: SecurityHandler(Of TPOLICY).EncryptStream
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.EncryptString(Org.Apache.Pdfbox.Cos.COSString,System.Int64,System.Int32)
   name: EncryptString(COSString, long, int)
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_EncryptString_Org_Apache_Pdfbox_Cos_COSString_System_Int64_System_Int32_
   commentId: M:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.EncryptString(Org.Apache.Pdfbox.Cos.COSString,System.Int64,System.Int32)
   name.vb: EncryptString(COSString, Long, Integer)
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.EncryptString(Org.Apache.Pdfbox.Cos.COSString, long, int)
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).EncryptString(Org.Apache.Pdfbox.Cos.COSString, Long, Integer)
-  nameWithType: SecurityHandler<T_POLICY>.EncryptString(COSString, long, int)
-  nameWithType.vb: SecurityHandler(Of T_POLICY).EncryptString(COSString, Long, Integer)
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.EncryptString(Org.Apache.Pdfbox.Cos.COSString, long, int)
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).EncryptString(Org.Apache.Pdfbox.Cos.COSString, Long, Integer)
+  nameWithType: SecurityHandler<TPOLICY>.EncryptString(COSString, long, int)
+  nameWithType.vb: SecurityHandler(Of TPOLICY).EncryptString(COSString, Long, Integer)
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.EncryptString*
   name: EncryptString
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_EncryptString_
   commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.EncryptString
   isSpec: "True"
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.EncryptString
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).EncryptString
-  nameWithType: SecurityHandler<T_POLICY>.EncryptString
-  nameWithType.vb: SecurityHandler(Of T_POLICY).EncryptString
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.EncryptString
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).EncryptString
+  nameWithType: SecurityHandler<TPOLICY>.EncryptString
+  nameWithType.vb: SecurityHandler(Of TPOLICY).EncryptString
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.EncryptionKey
   name: EncryptionKey
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_EncryptionKey
   commentId: P:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.EncryptionKey
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.EncryptionKey
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).EncryptionKey
-  nameWithType: SecurityHandler<T_POLICY>.EncryptionKey
-  nameWithType.vb: SecurityHandler(Of T_POLICY).EncryptionKey
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.EncryptionKey
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).EncryptionKey
+  nameWithType: SecurityHandler<TPOLICY>.EncryptionKey
+  nameWithType.vb: SecurityHandler(Of TPOLICY).EncryptionKey
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.EncryptionKey*
   name: EncryptionKey
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_EncryptionKey_
   commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.EncryptionKey
   isSpec: "True"
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.EncryptionKey
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).EncryptionKey
-  nameWithType: SecurityHandler<T_POLICY>.EncryptionKey
-  nameWithType.vb: SecurityHandler(Of T_POLICY).EncryptionKey
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.EncryptionKey
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).EncryptionKey
+  nameWithType: SecurityHandler<TPOLICY>.EncryptionKey
+  nameWithType.vb: SecurityHandler(Of TPOLICY).EncryptionKey
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.HasProtectionPolicy
   name: HasProtectionPolicy()
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_HasProtectionPolicy
   commentId: M:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.HasProtectionPolicy
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.HasProtectionPolicy()
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).HasProtectionPolicy()
-  nameWithType: SecurityHandler<T_POLICY>.HasProtectionPolicy()
-  nameWithType.vb: SecurityHandler(Of T_POLICY).HasProtectionPolicy()
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.HasProtectionPolicy()
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).HasProtectionPolicy()
+  nameWithType: SecurityHandler<TPOLICY>.HasProtectionPolicy()
+  nameWithType.vb: SecurityHandler(Of TPOLICY).HasProtectionPolicy()
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.HasProtectionPolicy*
   name: HasProtectionPolicy
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_HasProtectionPolicy_
   commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.HasProtectionPolicy
   isSpec: "True"
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.HasProtectionPolicy
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).HasProtectionPolicy
-  nameWithType: SecurityHandler<T_POLICY>.HasProtectionPolicy
-  nameWithType.vb: SecurityHandler(Of T_POLICY).HasProtectionPolicy
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.HasProtectionPolicy
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).HasProtectionPolicy
+  nameWithType: SecurityHandler<TPOLICY>.HasProtectionPolicy
+  nameWithType.vb: SecurityHandler(Of TPOLICY).HasProtectionPolicy
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.IsAES
   name: IsAES()
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_IsAES
   commentId: M:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.IsAES
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.IsAES()
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).IsAES()
-  nameWithType: SecurityHandler<T_POLICY>.IsAES()
-  nameWithType.vb: SecurityHandler(Of T_POLICY).IsAES()
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.IsAES()
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).IsAES()
+  nameWithType: SecurityHandler<TPOLICY>.IsAES()
+  nameWithType.vb: SecurityHandler(Of TPOLICY).IsAES()
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.IsAES*
   name: IsAES
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_IsAES_
   commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.IsAES
   isSpec: "True"
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.IsAES
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).IsAES
-  nameWithType: SecurityHandler<T_POLICY>.IsAES
-  nameWithType.vb: SecurityHandler(Of T_POLICY).IsAES
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.IsAES
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).IsAES
+  nameWithType: SecurityHandler<TPOLICY>.IsAES
+  nameWithType.vb: SecurityHandler(Of TPOLICY).IsAES
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.IsBridgeAbstract
   name: IsBridgeAbstract
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_IsBridgeAbstract
   commentId: P:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.IsBridgeAbstract
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.IsBridgeAbstract
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).IsBridgeAbstract
-  nameWithType: SecurityHandler<T_POLICY>.IsBridgeAbstract
-  nameWithType.vb: SecurityHandler(Of T_POLICY).IsBridgeAbstract
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.IsBridgeAbstract
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).IsBridgeAbstract
+  nameWithType: SecurityHandler<TPOLICY>.IsBridgeAbstract
+  nameWithType.vb: SecurityHandler(Of TPOLICY).IsBridgeAbstract
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.IsBridgeAbstract*
   name: IsBridgeAbstract
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_IsBridgeAbstract_
   commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.IsBridgeAbstract
   isSpec: "True"
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.IsBridgeAbstract
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).IsBridgeAbstract
-  nameWithType: SecurityHandler<T_POLICY>.IsBridgeAbstract
-  nameWithType.vb: SecurityHandler(Of T_POLICY).IsBridgeAbstract
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.IsBridgeAbstract
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).IsBridgeAbstract
+  nameWithType: SecurityHandler<TPOLICY>.IsBridgeAbstract
+  nameWithType.vb: SecurityHandler(Of TPOLICY).IsBridgeAbstract
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.IsBridgeCloseable
   name: IsBridgeCloseable
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_IsBridgeCloseable
   commentId: P:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.IsBridgeCloseable
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.IsBridgeCloseable
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).IsBridgeCloseable
-  nameWithType: SecurityHandler<T_POLICY>.IsBridgeCloseable
-  nameWithType.vb: SecurityHandler(Of T_POLICY).IsBridgeCloseable
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.IsBridgeCloseable
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).IsBridgeCloseable
+  nameWithType: SecurityHandler<TPOLICY>.IsBridgeCloseable
+  nameWithType.vb: SecurityHandler(Of TPOLICY).IsBridgeCloseable
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.IsBridgeCloseable*
   name: IsBridgeCloseable
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_IsBridgeCloseable_
   commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.IsBridgeCloseable
   isSpec: "True"
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.IsBridgeCloseable
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).IsBridgeCloseable
-  nameWithType: SecurityHandler<T_POLICY>.IsBridgeCloseable
-  nameWithType.vb: SecurityHandler(Of T_POLICY).IsBridgeCloseable
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.IsBridgeCloseable
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).IsBridgeCloseable
+  nameWithType: SecurityHandler<TPOLICY>.IsBridgeCloseable
+  nameWithType.vb: SecurityHandler(Of TPOLICY).IsBridgeCloseable
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.IsBridgeInterface
   name: IsBridgeInterface
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_IsBridgeInterface
   commentId: P:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.IsBridgeInterface
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.IsBridgeInterface
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).IsBridgeInterface
-  nameWithType: SecurityHandler<T_POLICY>.IsBridgeInterface
-  nameWithType.vb: SecurityHandler(Of T_POLICY).IsBridgeInterface
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.IsBridgeInterface
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).IsBridgeInterface
+  nameWithType: SecurityHandler<TPOLICY>.IsBridgeInterface
+  nameWithType.vb: SecurityHandler(Of TPOLICY).IsBridgeInterface
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.IsBridgeInterface*
   name: IsBridgeInterface
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_IsBridgeInterface_
   commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.IsBridgeInterface
   isSpec: "True"
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.IsBridgeInterface
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).IsBridgeInterface
-  nameWithType: SecurityHandler<T_POLICY>.IsBridgeInterface
-  nameWithType.vb: SecurityHandler(Of T_POLICY).IsBridgeInterface
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.IsBridgeInterface
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).IsBridgeInterface
+  nameWithType: SecurityHandler<TPOLICY>.IsBridgeInterface
+  nameWithType.vb: SecurityHandler(Of TPOLICY).IsBridgeInterface
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.IsBridgeStatic
   name: IsBridgeStatic
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_IsBridgeStatic
   commentId: P:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.IsBridgeStatic
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.IsBridgeStatic
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).IsBridgeStatic
-  nameWithType: SecurityHandler<T_POLICY>.IsBridgeStatic
-  nameWithType.vb: SecurityHandler(Of T_POLICY).IsBridgeStatic
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.IsBridgeStatic
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).IsBridgeStatic
+  nameWithType: SecurityHandler<TPOLICY>.IsBridgeStatic
+  nameWithType.vb: SecurityHandler(Of TPOLICY).IsBridgeStatic
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.IsBridgeStatic*
   name: IsBridgeStatic
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_IsBridgeStatic_
   commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.IsBridgeStatic
   isSpec: "True"
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.IsBridgeStatic
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).IsBridgeStatic
-  nameWithType: SecurityHandler<T_POLICY>.IsBridgeStatic
-  nameWithType.vb: SecurityHandler(Of T_POLICY).IsBridgeStatic
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.IsBridgeStatic
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).IsBridgeStatic
+  nameWithType: SecurityHandler<TPOLICY>.IsBridgeStatic
+  nameWithType.vb: SecurityHandler(Of TPOLICY).IsBridgeStatic
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.IsDecryptMetadata
   name: IsDecryptMetadata()
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_IsDecryptMetadata
   commentId: M:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.IsDecryptMetadata
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.IsDecryptMetadata()
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).IsDecryptMetadata()
-  nameWithType: SecurityHandler<T_POLICY>.IsDecryptMetadata()
-  nameWithType.vb: SecurityHandler(Of T_POLICY).IsDecryptMetadata()
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.IsDecryptMetadata()
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).IsDecryptMetadata()
+  nameWithType: SecurityHandler<TPOLICY>.IsDecryptMetadata()
+  nameWithType.vb: SecurityHandler(Of TPOLICY).IsDecryptMetadata()
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.IsDecryptMetadata*
   name: IsDecryptMetadata
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_IsDecryptMetadata_
   commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.IsDecryptMetadata
   isSpec: "True"
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.IsDecryptMetadata
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).IsDecryptMetadata
-  nameWithType: SecurityHandler<T_POLICY>.IsDecryptMetadata
-  nameWithType.vb: SecurityHandler(Of T_POLICY).IsDecryptMetadata
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.IsDecryptMetadata
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).IsDecryptMetadata
+  nameWithType: SecurityHandler<TPOLICY>.IsDecryptMetadata
+  nameWithType.vb: SecurityHandler(Of TPOLICY).IsDecryptMetadata
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.KeyLength
   name: KeyLength
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_KeyLength
   commentId: P:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.KeyLength
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.KeyLength
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).KeyLength
-  nameWithType: SecurityHandler<T_POLICY>.KeyLength
-  nameWithType.vb: SecurityHandler(Of T_POLICY).KeyLength
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.KeyLength
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).KeyLength
+  nameWithType: SecurityHandler<TPOLICY>.KeyLength
+  nameWithType.vb: SecurityHandler(Of TPOLICY).KeyLength
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.KeyLength*
   name: KeyLength
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_KeyLength_
   commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.KeyLength
   isSpec: "True"
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.KeyLength
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).KeyLength
-  nameWithType: SecurityHandler<T_POLICY>.KeyLength
-  nameWithType.vb: SecurityHandler(Of T_POLICY).KeyLength
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.KeyLength
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).KeyLength
+  nameWithType: SecurityHandler<TPOLICY>.KeyLength
+  nameWithType.vb: SecurityHandler(Of TPOLICY).KeyLength
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.PrepareDocumentForEncryption(Org.Apache.Pdfbox.Pdmodel.PDDocument)
   name: PrepareDocumentForEncryption(PDDocument)
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_PrepareDocumentForEncryption_Org_Apache_Pdfbox_Pdmodel_PDDocument_
   commentId: M:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.PrepareDocumentForEncryption(Org.Apache.Pdfbox.Pdmodel.PDDocument)
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.PrepareDocumentForEncryption(Org.Apache.Pdfbox.Pdmodel.PDDocument)
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).PrepareDocumentForEncryption(Org.Apache.Pdfbox.Pdmodel.PDDocument)
-  nameWithType: SecurityHandler<T_POLICY>.PrepareDocumentForEncryption(PDDocument)
-  nameWithType.vb: SecurityHandler(Of T_POLICY).PrepareDocumentForEncryption(PDDocument)
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.PrepareDocumentForEncryption(Org.Apache.Pdfbox.Pdmodel.PDDocument)
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).PrepareDocumentForEncryption(Org.Apache.Pdfbox.Pdmodel.PDDocument)
+  nameWithType: SecurityHandler<TPOLICY>.PrepareDocumentForEncryption(PDDocument)
+  nameWithType.vb: SecurityHandler(Of TPOLICY).PrepareDocumentForEncryption(PDDocument)
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.PrepareDocumentForEncryption*
   name: PrepareDocumentForEncryption
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_PrepareDocumentForEncryption_
   commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.PrepareDocumentForEncryption
   isSpec: "True"
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.PrepareDocumentForEncryption
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).PrepareDocumentForEncryption
-  nameWithType: SecurityHandler<T_POLICY>.PrepareDocumentForEncryption
-  nameWithType.vb: SecurityHandler(Of T_POLICY).PrepareDocumentForEncryption
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.PrepareDocumentForEncryption
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).PrepareDocumentForEncryption
+  nameWithType: SecurityHandler<TPOLICY>.PrepareDocumentForEncryption
+  nameWithType.vb: SecurityHandler(Of TPOLICY).PrepareDocumentForEncryption
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.PrepareForDecryption(Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption,Org.Apache.Pdfbox.Cos.COSArray,Org.Apache.Pdfbox.Pdmodel.Encryption.DecryptionMaterial)
   name: PrepareForDecryption(PDEncryption, COSArray, DecryptionMaterial)
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_PrepareForDecryption_Org_Apache_Pdfbox_Pdmodel_Encryption_PDEncryption_Org_Apache_Pdfbox_Cos_COSArray_Org_Apache_Pdfbox_Pdmodel_Encryption_DecryptionMaterial_
   commentId: M:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.PrepareForDecryption(Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption,Org.Apache.Pdfbox.Cos.COSArray,Org.Apache.Pdfbox.Pdmodel.Encryption.DecryptionMaterial)
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.PrepareForDecryption(Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption, Org.Apache.Pdfbox.Cos.COSArray, Org.Apache.Pdfbox.Pdmodel.Encryption.DecryptionMaterial)
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).PrepareForDecryption(Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption, Org.Apache.Pdfbox.Cos.COSArray, Org.Apache.Pdfbox.Pdmodel.Encryption.DecryptionMaterial)
-  nameWithType: SecurityHandler<T_POLICY>.PrepareForDecryption(PDEncryption, COSArray, DecryptionMaterial)
-  nameWithType.vb: SecurityHandler(Of T_POLICY).PrepareForDecryption(PDEncryption, COSArray, DecryptionMaterial)
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.PrepareForDecryption(Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption, Org.Apache.Pdfbox.Cos.COSArray, Org.Apache.Pdfbox.Pdmodel.Encryption.DecryptionMaterial)
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).PrepareForDecryption(Org.Apache.Pdfbox.Pdmodel.Encryption.PDEncryption, Org.Apache.Pdfbox.Cos.COSArray, Org.Apache.Pdfbox.Pdmodel.Encryption.DecryptionMaterial)
+  nameWithType: SecurityHandler<TPOLICY>.PrepareForDecryption(PDEncryption, COSArray, DecryptionMaterial)
+  nameWithType.vb: SecurityHandler(Of TPOLICY).PrepareForDecryption(PDEncryption, COSArray, DecryptionMaterial)
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.PrepareForDecryption*
   name: PrepareForDecryption
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_PrepareForDecryption_
   commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.PrepareForDecryption
   isSpec: "True"
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.PrepareForDecryption
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).PrepareForDecryption
-  nameWithType: SecurityHandler<T_POLICY>.PrepareForDecryption
-  nameWithType.vb: SecurityHandler(Of T_POLICY).PrepareForDecryption
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.PrepareForDecryption
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).PrepareForDecryption
+  nameWithType: SecurityHandler<TPOLICY>.PrepareForDecryption
+  nameWithType.vb: SecurityHandler(Of TPOLICY).PrepareForDecryption
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.SetAES(System.Boolean)
   name: SetAES(bool)
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_SetAES_System_Boolean_
   commentId: M:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.SetAES(System.Boolean)
   name.vb: SetAES(Boolean)
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.SetAES(bool)
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).SetAES(Boolean)
-  nameWithType: SecurityHandler<T_POLICY>.SetAES(bool)
-  nameWithType.vb: SecurityHandler(Of T_POLICY).SetAES(Boolean)
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.SetAES(bool)
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).SetAES(Boolean)
+  nameWithType: SecurityHandler<TPOLICY>.SetAES(bool)
+  nameWithType.vb: SecurityHandler(Of TPOLICY).SetAES(Boolean)
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.SetAES*
   name: SetAES
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_SetAES_
   commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.SetAES
   isSpec: "True"
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.SetAES
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).SetAES
-  nameWithType: SecurityHandler<T_POLICY>.SetAES
-  nameWithType.vb: SecurityHandler(Of T_POLICY).SetAES
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.SetAES
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).SetAES
+  nameWithType: SecurityHandler<TPOLICY>.SetAES
+  nameWithType.vb: SecurityHandler(Of TPOLICY).SetAES
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.SetCustomSecureRandom(Java.Security.SecureRandom)
   name: SetCustomSecureRandom(SecureRandom)
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_SetCustomSecureRandom_Java_Security_SecureRandom_
   commentId: M:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.SetCustomSecureRandom(Java.Security.SecureRandom)
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.SetCustomSecureRandom(Java.Security.SecureRandom)
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).SetCustomSecureRandom(Java.Security.SecureRandom)
-  nameWithType: SecurityHandler<T_POLICY>.SetCustomSecureRandom(SecureRandom)
-  nameWithType.vb: SecurityHandler(Of T_POLICY).SetCustomSecureRandom(SecureRandom)
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.SetCustomSecureRandom(Java.Security.SecureRandom)
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).SetCustomSecureRandom(Java.Security.SecureRandom)
+  nameWithType: SecurityHandler<TPOLICY>.SetCustomSecureRandom(SecureRandom)
+  nameWithType.vb: SecurityHandler(Of TPOLICY).SetCustomSecureRandom(SecureRandom)
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.SetCustomSecureRandom*
   name: SetCustomSecureRandom
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_SetCustomSecureRandom_
   commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.SetCustomSecureRandom
   isSpec: "True"
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.SetCustomSecureRandom
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).SetCustomSecureRandom
-  nameWithType: SecurityHandler<T_POLICY>.SetCustomSecureRandom
-  nameWithType.vb: SecurityHandler(Of T_POLICY).SetCustomSecureRandom
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.SetCustomSecureRandom
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).SetCustomSecureRandom
+  nameWithType: SecurityHandler<TPOLICY>.SetCustomSecureRandom
+  nameWithType.vb: SecurityHandler(Of TPOLICY).SetCustomSecureRandom
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.op_Implicit(Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler{`0})~Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler
-  name: implicit operator SecurityHandler(SecurityHandler<T_POLICY>)
+  name: implicit operator SecurityHandler(SecurityHandler<TPOLICY>)
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_op_Implicit_Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler__0___Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler
   commentId: M:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.op_Implicit(Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler{`0})~Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler
-  name.vb: CType(SecurityHandler(Of T_POLICY))
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.implicit operator Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>)
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).CType(Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY))
-  nameWithType: SecurityHandler<T_POLICY>.implicit operator SecurityHandler(SecurityHandler<T_POLICY>)
-  nameWithType.vb: SecurityHandler(Of T_POLICY).CType(SecurityHandler(Of T_POLICY))
+  name.vb: CType(SecurityHandler(Of TPOLICY))
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.implicit operator Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>)
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).CType(Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY))
+  nameWithType: SecurityHandler<TPOLICY>.implicit operator SecurityHandler(SecurityHandler<TPOLICY>)
+  nameWithType.vb: SecurityHandler(Of TPOLICY).CType(SecurityHandler(Of TPOLICY))
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.op_Implicit*
   name: implicit operator
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler-1.html#Org_Apache_Pdfbox_Pdmodel_Encryption_SecurityHandler_1_op_Implicit_
   commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler`1.op_Implicit
   isSpec: "True"
   name.vb: CType
-  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<T_POLICY>.implicit operator
-  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of T_POLICY).CType
-  nameWithType: SecurityHandler<T_POLICY>.implicit operator
-  nameWithType.vb: SecurityHandler(Of T_POLICY).CType
+  fullName: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler<TPOLICY>.implicit operator
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Encryption.SecurityHandler(Of TPOLICY).CType
+  nameWithType: SecurityHandler<TPOLICY>.implicit operator
+  nameWithType.vb: SecurityHandler(Of TPOLICY).CType
 - uid: Org.Apache.Pdfbox.Pdmodel.Encryption.StandardDecryptionMaterial
   name: StandardDecryptionMaterial
   href: api/Org.Apache.Pdfbox.Pdmodel.Encryption.StandardDecryptionMaterial.html
@@ -100612,6 +100702,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDICCBased.IsBridgeStatic
   nameWithType: PDICCBased.IsBridgeStatic
+- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDICCBased.IsSRGB
+  name: IsSRGB()
+  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDICCBased.html#Org_Apache_Pdfbox_Pdmodel_Graphics_Color_PDICCBased_IsSRGB
+  commentId: M:Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDICCBased.IsSRGB
+  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDICCBased.IsSRGB()
+  nameWithType: PDICCBased.IsSRGB()
+- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDICCBased.IsSRGB*
+  name: IsSRGB
+  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDICCBased.html#Org_Apache_Pdfbox_Pdmodel_Graphics_Color_PDICCBased_IsSRGB_
+  commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDICCBased.IsSRGB
+  isSpec: "True"
+  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDICCBased.IsSRGB
+  nameWithType: PDICCBased.IsSRGB
 - uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDICCBased.Metadata
   name: Metadata
   href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDICCBased.html#Org_Apache_Pdfbox_Pdmodel_Graphics_Color_PDICCBased_Metadata
@@ -100739,6 +100842,22 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDIndexed.BridgeClassName
   nameWithType: PDIndexed.BridgeClassName
+- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDIndexed.Create(Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace,System.Int32,System.Byte[])
+  name: Create(PDColorSpace, int, byte[])
+  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDIndexed.html#Org_Apache_Pdfbox_Pdmodel_Graphics_Color_PDIndexed_Create_Org_Apache_Pdfbox_Pdmodel_Graphics_Color_PDColorSpace_System_Int32_System_Byte___
+  commentId: M:Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDIndexed.Create(Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace,System.Int32,System.Byte[])
+  name.vb: Create(PDColorSpace, Integer, Byte())
+  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDIndexed.Create(Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace, int, byte[])
+  fullName.vb: Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDIndexed.Create(Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDColorSpace, Integer, Byte())
+  nameWithType: PDIndexed.Create(PDColorSpace, int, byte[])
+  nameWithType.vb: PDIndexed.Create(PDColorSpace, Integer, Byte())
+- uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDIndexed.Create*
+  name: Create
+  href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDIndexed.html#Org_Apache_Pdfbox_Pdmodel_Graphics_Color_PDIndexed_Create_
+  commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDIndexed.Create
+  isSpec: "True"
+  fullName: Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDIndexed.Create
+  nameWithType: PDIndexed.Create
 - uid: Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDIndexed.CreatePoolableInstance(Org.Apache.Pdfbox.Cos.COSArray)
   name: CreatePoolableInstance(COSArray)
   href: api/Org.Apache.Pdfbox.Pdmodel.Graphics.Color.PDIndexed.html#Org_Apache_Pdfbox_Pdmodel_Graphics_Color_PDIndexed_CreatePoolableInstance_Org_Apache_Pdfbox_Cos_COSArray_
@@ -118797,6 +118916,25 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotation.Rectangle
   nameWithType: PDAnnotation.Rectangle
+- uid: Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotation.SetAppearanceState(Java.Lang.String)
+  name: SetAppearanceState(String)
+  href: api/Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotation.html#Org_Apache_Pdfbox_Pdmodel_Interactive_Annotation_PDAnnotation_SetAppearanceState_Java_Lang_String_
+  commentId: M:Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotation.SetAppearanceState(Java.Lang.String)
+  fullName: Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotation.SetAppearanceState(Java.Lang.String)
+  nameWithType: PDAnnotation.SetAppearanceState(String)
+- uid: Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotation.SetAppearanceState(Org.Apache.Pdfbox.Cos.COSName)
+  name: SetAppearanceState(COSName)
+  href: api/Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotation.html#Org_Apache_Pdfbox_Pdmodel_Interactive_Annotation_PDAnnotation_SetAppearanceState_Org_Apache_Pdfbox_Cos_COSName_
+  commentId: M:Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotation.SetAppearanceState(Org.Apache.Pdfbox.Cos.COSName)
+  fullName: Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotation.SetAppearanceState(Org.Apache.Pdfbox.Cos.COSName)
+  nameWithType: PDAnnotation.SetAppearanceState(COSName)
+- uid: Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotation.SetAppearanceState*
+  name: SetAppearanceState
+  href: api/Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotation.html#Org_Apache_Pdfbox_Pdmodel_Interactive_Annotation_PDAnnotation_SetAppearanceState_
+  commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotation.SetAppearanceState
+  isSpec: "True"
+  fullName: Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotation.SetAppearanceState
+  nameWithType: PDAnnotation.SetAppearanceState
 - uid: Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotation.SetHidden(System.Boolean)
   name: SetHidden(bool)
   href: api/Org.Apache.Pdfbox.Pdmodel.Interactive.Annotation.PDAnnotation.html#Org_Apache_Pdfbox_Pdmodel_Interactive_Annotation_PDAnnotation_SetHidden_System_Boolean_
@@ -133999,6 +134137,19 @@ references:
   isSpec: "True"
   fullName: Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDChoice.DefaultValue
   nameWithType: PDChoice.DefaultValue
+- uid: Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDChoice.HasSeparateExportAndDisplayValues
+  name: HasSeparateExportAndDisplayValues()
+  href: api/Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDChoice.html#Org_Apache_Pdfbox_Pdmodel_Interactive_Form_PDChoice_HasSeparateExportAndDisplayValues
+  commentId: M:Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDChoice.HasSeparateExportAndDisplayValues
+  fullName: Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDChoice.HasSeparateExportAndDisplayValues()
+  nameWithType: PDChoice.HasSeparateExportAndDisplayValues()
+- uid: Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDChoice.HasSeparateExportAndDisplayValues*
+  name: HasSeparateExportAndDisplayValues
+  href: api/Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDChoice.html#Org_Apache_Pdfbox_Pdmodel_Interactive_Form_PDChoice_HasSeparateExportAndDisplayValues_
+  commentId: Overload:Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDChoice.HasSeparateExportAndDisplayValues
+  isSpec: "True"
+  fullName: Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDChoice.HasSeparateExportAndDisplayValues
+  nameWithType: PDChoice.HasSeparateExportAndDisplayValues
 - uid: Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDChoice.IsBridgeAbstract
   name: IsBridgeAbstract
   href: api/Org.Apache.Pdfbox.Pdmodel.Interactive.Form.PDChoice.html#Org_Apache_Pdfbox_Pdmodel_Interactive_Form_PDChoice_IsBridgeAbstract
