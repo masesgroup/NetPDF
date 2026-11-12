@@ -24,12 +24,12 @@
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(NETPDF_DOCKER_BUILD_ACTIONS)' != 'true'">
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<TargetFrameworks>net462;net8.0;net9.0;net10.0</TargetFrameworks>
+		<TargetFrameworks>net462;net10.0;net11.0</TargetFrameworks>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(NETPDF_DOCKER_BUILD_ACTIONS)' == 'true'">
 		<DefineConstants>$(DefineConstants);NETPDF_DOCKER_BUILD_ACTIONS</DefineConstants>
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-		<TargetFramework>net8.0</TargetFramework>
+		<TargetFramework>net10.0</TargetFramework>
 	</PropertyGroup>
 	<ItemGroup Condition="True">
 		<netpdf_jars Include="$(ProjectDir)\..\..\..\jars\**\*.*" />

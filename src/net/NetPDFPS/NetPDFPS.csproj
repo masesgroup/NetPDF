@@ -8,12 +8,12 @@
 		<Description>NetPDFPS - NetPDF (.NET suite for PDFBox™) PowerShell command line interface</Description>
 		<Product>NetPDFPS</Product>
 		<OutputPath>..\..\..\MASES.NetPDFPS\</OutputPath>
-		<TargetFrameworks>net462;net8.0</TargetFrameworks>
+		<TargetFrameworks>net462;net10.0</TargetFrameworks>
 		<RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
 		<RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
 	</PropertyGroup>
 
-	<PropertyGroup Condition="'$(TargetFramework)' == 'net8.0'">
+	<PropertyGroup Condition="'$(TargetFramework)' == 'net10.0'">
 		<OutputType>Exe</OutputType>
 	</PropertyGroup>
 
@@ -41,7 +41,7 @@
 		<None Update="MASES.NetPDFPSFramework.psd1" Condition="'$(TargetFramework)' == 'net462'">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
-		<None Update="MASES.NetPDFPSCore.psd1" Condition="'$(TargetFramework)' == 'net8.0'">
+		<None Update="MASES.NetPDFPSCore.psd1" Condition="'$(TargetFramework)' == 'net10.0'">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
 	</ItemGroup>
