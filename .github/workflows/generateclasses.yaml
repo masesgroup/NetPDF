@@ -40,8 +40,8 @@ jobs:
       DOTNET_CreateDumpDiagnostics: 1
       DOTNET_CreateDumpVerboseDiagnostics: 1
       DOTNET_EnableCrashReport: 1
-      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_9 }}
-      JNet_Version: 2.6.9
+      JCOBRIDGE_LicensePath: ${{ secrets.JCOBRIDGE_ENCODED_2_6_10 }}
+      JNet_Version: 2.6.10-preview20261111
       PDFBox_Version: 3.0.8
       FONTCACHE_FOLDER: ${{ github.workspace }}\fontcache
       
@@ -61,8 +61,7 @@ jobs:
       - uses: actions/setup-dotnet@v6
         with:
           dotnet-version: |
-            9.x
-            10.x
+            11.x
 
       - uses: actions/checkout@v7
         if: ${{ inputs.UseLatestJNetReflectorSource == true }}
@@ -120,7 +119,7 @@ jobs:
 
       - name: Create Jars of JNetReflector
         if: ${{ inputs.UseLatestJNetReflectorSource == true }}
-        run: mvn "-Djcobridgepath=../../../binReflector/net8.0/JCOBridge.jar" --file ./JNet/src/jvm/jnet/pom.xml --no-transfer-progress package
+        run: mvn "-Djcobridgepath=../../../binReflector/net10.0/JCOBridge.jar" --file ./JNet/src/jvm/jnet/pom.xml --no-transfer-progress package
 
       - name: Build JNetReflector
         if: ${{ inputs.UseLatestJNetReflectorSource == true }}
@@ -157,7 +156,7 @@ jobs:
         if: ${{ inputs.UseLatestJNetReflectorSource == true }}
         shell: cmd
         run: |
-          cd JNet\binReflector\net8.0
+          cd JNet\binReflector\net10.0
           MASES.JNetReflector.exe -TraceLevel 1 -TraceTo %GITHUB_WORKSPACE%\JNetReflector.txt -CopyrightFile %GITHUB_WORKSPACE%\src\copyright.txt -OriginRootPath %GITHUB_WORKSPACE%\jars -DestinationRootPath %GITHUB_WORKSPACE%\src\ -ConfigurationFile %GITHUB_WORKSPACE%\src\configuration.json
 
       - name: Disable CET for dotnet process
@@ -202,7 +201,7 @@ jobs:
         if: ${{ inputs.GeneratePR == true && (inputs.UseLatestJNetReflectorSource == true || inputs.UseLastRepositoryBuild == true) }}
         uses: peter-evans/create-pull-request@v8
         with:
-          branch-suffix: short-commit-hash
+          branch: generated-classes-latest-update-${{ github.run_number }}
           add-paths: src/*.*
           commit-message: Update generated classes using last unpublished version of JNetReflector after commit ${{ env.GITHUB_COMMIT_MESSAGE }}
           title: Update generated classes using last unpublished version of JNetReflector after commit ${{ env.GITHUB_COMMIT_MESSAGE }}
@@ -216,7 +215,7 @@ jobs:
         if: ${{ inputs.GeneratePR == true && inputs.UseLatestJNetReflectorSource == false && inputs.UseLastRepositoryBuild == false }}
         uses: peter-evans/create-pull-request@v8
         with:
-          branch-suffix: short-commit-hash
+          branch: generated-classes-latest-update-${{ github.run_number }}
           add-paths: src/*.*
           commit-message: Update generated classes using last public version of JNetReflector after commit ${{ env.GITHUB_COMMIT_MESSAGE }}
           title: Update generated classes using last public version of JNetReflector after commit ${{ env.GITHUB_COMMIT_MESSAGE }}

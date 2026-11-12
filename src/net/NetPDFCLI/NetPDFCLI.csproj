@@ -10,7 +10,7 @@
 		<Description>Command line interface of .NET suite for PDFBox™. NetPDF is a comprehensive suite of libraries and tools to use PDFBox™ and .NET side-by-side.</Description>
 		<Product>NetPDFCLI</Product>
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-		<PackageTags>netpdf cli pdf pdfbox dotnet clr netcore net8 gateway</PackageTags>
+		<PackageTags>netpdf cli pdf pdfbox dotnet clr netcore net10 gateway</PackageTags>
 		<PackageId>MASES.NetPDFCLI</PackageId>
 		<PackageReadmeFile>usageCLI.md</PackageReadmeFile>
 		<RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>

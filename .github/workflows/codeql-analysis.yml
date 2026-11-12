@@ -102,8 +102,7 @@ jobs:
     - uses: actions/setup-dotnet@v6
       with:
         dotnet-version: |
-          9.x
-          10.x
+          11.x
       
     # Autobuild attempts to build any compiled languages  (C/C++, C#, or Java).
     # If this step fails, then you should remove it and run the build manually (see below)
@@ -132,7 +131,7 @@ jobs:
 
     - name: Maven preparation (step 1)
       if: matrix.language == 'java' 
-      run: dotnet build --no-incremental --configuration Release --framework net8.0 /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" ./src/net/NetPDF/NetPDF.csproj
+      run: dotnet build --no-incremental --configuration Release --framework net10.0 /p:Platform="Any CPU" /p:NoWarn="0108%3B1030%3B0618" ./src/net/NetPDF/NetPDF.csproj
       env:
         GITHUB_SIMPLIFIED_GENERATION: true
           

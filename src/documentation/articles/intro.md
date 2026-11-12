@@ -9,9 +9,17 @@ NetPDF is a comprehensive suite of libraries and tools to use [PDFBox™](https:
 
 ### Libraries and Tools
 
-|NetPDF | NetPDF.Templates | NetPDFCLI | NetPDFPS |
-|:---:	|:---:	|:---:	|:---:	|
-|[![NetPDF nuget](https://img.shields.io/nuget/v/MASES.NetPDF)](https://www.nuget.org/packages/MASES.NetPDF)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.NetPDF)](https://www.nuget.org/packages/MASES.NetPDF) | [![NetPDF.Templates nuget](https://img.shields.io/nuget/v/MASES.NetPDF.Templates)](https://www.nuget.org/packages/MASES.NetPDF.Templates)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.NetPDF.Templates)](https://www.nuget.org/packages/MASES.NetPDF.Templates)| [![NetPDFCLI nuget](https://img.shields.io/nuget/v/MASES.NetPDFCLI)](https://www.nuget.org/packages/MASES.NetPDFCLI)<br/>[![downloads](https://img.shields.io/nuget/dt/MASES.NetPDFCLI)](https://www.nuget.org/packages/MASES.NetPDFCLI)|[![NetPDFPS](https://img.shields.io/powershellgallery/v/MASES.NetPDFPS.svg?style=flat-square&label=MASES.NetPDFPS)](https://www.powershellgallery.com/packages/MASES.NetPDFPS/)|
+| Package | Version | Downloads |
+|:--|:--:|:--:|
+| **NetPDF** | [![NetPDF nuget](https://img.shields.io/nuget/v/MASES.NetPDF)](https://www.nuget.org/packages/MASES.NetPDF) | [![NetPDF downloads](https://img.shields.io/nuget/dt/MASES.NetPDF)](https://www.nuget.org/packages/MASES.NetPDF) |
+| **NetPDF.Templates** | [![NetPDF.Templates nuget](https://img.shields.io/nuget/v/MASES.NetPDF.Templates)](https://www.nuget.org/packages/MASES.NetPDF.Templates) | [![NetPDF.Templates downloads](https://img.shields.io/nuget/dt/MASES.NetPDF.Templates)](https://www.nuget.org/packages/MASES.NetPDF.Templates) |
+| **NetPDFCLI** | [![NetPDFCLI nuget](https://img.shields.io/nuget/v/MASES.NetPDFCLI)](https://www.nuget.org/packages/MASES.NetPDFCLI) | [![NetPDFCLI downloads](https://img.shields.io/nuget/dt/MASES.NetPDFCLI)](https://www.nuget.org/packages/MASES.NetPDFCLI) |
+| **NetPDFPS** | [![NetPDFPS PowerShell Gallery](https://img.shields.io/powershellgallery/v/MASES.NetPDFPS.svg?label=PowerShell%20Gallery)](https://www.powershellgallery.com/packages/MASES.NetPDFPS/) | [![NetPDFPS downloads](https://img.shields.io/powershellgallery/dt/MASES.NetPDFPS.svg)](https://www.powershellgallery.com/packages/MASES.NetPDFPS/) |
+
+> [!NOTE]
+> This project follows the target framework support of **JCOBridge**, which in turn follows the Microsoft .NET support lifecycle. Public releases do not take on the maintenance of runtimes that Microsoft no longer supports: when Microsoft ends support for a .NET version, that target is dropped starting with the next JCOBridge release.
+>
+> Need a build for a legacy or out-of-support target, or expert help with .NET and JVM™ integration? See [Professional Support Options](support.md).
 
 ### Pipelines
 
