@@ -8,7 +8,7 @@
 
 RootModule = 'MASES.NetPDFPS.psm1'
 
-ModuleVersion = '3.0.12'
+ModuleVersion = '3.0.13'
 
 CompatiblePSEditions = 'Desktop', 'Core'
 
